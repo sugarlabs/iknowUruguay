@@ -1,0 +1,8 @@
+[Activity]
+name = Conozco Uruguay
+activity_version = 1
+host_version = 1
+bundle_id = uy.edu.fing.geirea.conozcouy
+icon = activity-conozcouy
+class = conozcouy.ConozcoUy
+show_launcher = yes

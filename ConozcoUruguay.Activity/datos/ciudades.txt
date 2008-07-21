@@ -1,0 +1,60 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad > 2000 hab
+# capitales
+Artigas|293|65|1|35|-10
+Salto|91|237|1|30|0
+Paysandú|77|396|1|50|0
+Fray Bentos|51|562|1|55|4
+Rivera|446|162|1|30|-10
+Tacuarembó|376|299|1|60|0
+Mercedes|86|582|1|50|0
+Colonia del Sacramento|120|784|1|10|15
+Trinidad|244|647|1|42|0
+San José de Mayo|262|785|1|70|-12
+Durazno|309|593|1|45|0
+Florida|351|715|1|40|0
+Canelones|341|798|1|50|0
+Montevideo|355|847|1|0|18
+Melo|632|400|1|30|0
+Treinta y Tres|633|554|1|62|0
+Minas|483|744|1|35|0
+Rocha|607|765|1|36|0
+Maldonado|532|853|1|55|0
+# ciudades
+Bella Unión|144|37|2|0|-10
+Belén|107|180|2|30|0
+Constitución|102|210|2|60|0
+Guichón|181|422|2|40|0
+Tranqueras|404|202|2|50|0
+Dolores|45|635|2|36|0
+Cardona|172|680|2|40|0
+Nueva Palmira|36|690|2|56|-10
+Carmelo|54|709|2|40|0
+Ombúes de Lavalle|108|692|2|80|0
+Tarariras|146|754|2|0|-12
+Juan Lacaze|154|776|2|53|-2
+Rosario|182|756|2|35|5
+Nueva Helvecia|202|746|2|70|0
+Libertad|281|812|2|40|0
+Pueblo del Carmen|396|562|2|83|0
+Sarandí Grande|325|643|2|70|0
+Casupá|434|706|2|40|0
+San Ramón|388|746|2|40|-12
+Tala|410|761|2|25|0
+Pando|362|814|2|35|0
+Atlántida|397|832|2|35|10
+Fraile Muerto|558|447|2|62|0
+Río Branco|753|453|2|-15|12
+Santa Clara de Olimar|531|512|2|95|0
+Cerro Chato|494|550|2|57|0
+Vergara|677|499|2|40|0
+J. Batlle y Ordóñez|504|602|2|80|0
+Chuy|739|640|2|15|-15
+La Coronilla|732|666|2|5|10
+Aiguá|558|726|2|30|0
+San Carlos|537|839|2|55|0
+Punta del Este|534|862|2|5|15
+Piriápolis|487|852|2|0|10
+Pan de Azúcar|494|831|2|65|-5
+# pueblos
+# puntos historicos/turisticos
