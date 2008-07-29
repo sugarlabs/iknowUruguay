@@ -1,4 +1,4 @@
-# setup.py
+#!/usr/bin/env python
 from sugar.activity import bundlebuilder
-bundlebuilder.start("ConozcoUruguay")
-
+if __name__ == "__main__":
+    bundlebuilder.start("conozco-uruguay")

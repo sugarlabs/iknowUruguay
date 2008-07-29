@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 # Conozco Uruguay
 # Copyright (C) 2008 Gabriel Eirea
 #
@@ -20,7 +21,12 @@
 
 import sys, pygame, random, os
 #import datetime, time
-from sugar.activity import activity
+#from sugar.activity import activity
+import olpcgames, pygame#, logging 
+#from olpcgames import pausescreen
+
+#log = logging.getLogger( 'conozco-uruguay run' )
+#log.setLevel( logging.DEBUG )
 
 RADIO = 10
 RADIO2 = RADIO**2
@@ -444,14 +450,14 @@ class ConozcoUy():
                     if pos[1] > 275:
                         if pos[0] < 600:
                             if pos[1] < 275+len(self.listaNiveles)*50:
-                                self.indiceNivelActual = (pos[1]-275)//50
+                                self.indiceNivelActual = int((pos[1]-275)//50)
                                 self.jugar = True
                                 return
                             elif pos[1] > 800 and pos[1] < 850:
                                 self.pantallaAcercaDe()
                         else:
                             if pos[1] < 275+len(self.listaExploraciones)*50:
-                                self.indiceNivelActual = (pos[1]-275)//50
+                                self.indiceNivelActual = int((pos[1]-275)//50)
                                 self.jugar = False
                                 return
                             elif pos[1] > 800 and pos[1] < 850:
@@ -783,8 +789,11 @@ class ConozcoUy():
                 self.explorarNombres()
 
 
-if __name__ == "__main__":
+def main():
     juego = ConozcoUy()
     juego.principal()
-#    juego.descubrirNombres()
 #    juego.mostrarTodo()
+
+if __name__ == "__main__":
+#    logging.basicConfig()
+    main()
