@@ -60,6 +60,8 @@ EVENTORESPUESTA = pygame.USEREVENT+1
 TIEMPORESPUESTA = 2300
 EVENTODESPEGUE = EVENTORESPUESTA+1
 TIEMPODESPEGUE = 40
+EVENTOREFRESCO = EVENTODESPEGUE+1
+TIEMPOREFRESCO = 250
 
 class Punto():
 
@@ -412,6 +414,8 @@ class ConozcoUy():
                     self.pantalla.blit(self.pantallaTemp,(0,0))
                     pygame.display.flip()
                     return
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
 
     def pantallaInicial(self):
         self.pantalla.fill((0,0,0))
@@ -462,6 +466,8 @@ class ConozcoUy():
                                 return
                             elif pos[1] > 800 and pos[1] < 850:
                                 sys.exit()
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
 
 
 #    def __init__(self,handle):
@@ -665,6 +671,8 @@ class ConozcoUy():
                     elif event.pos[0] > 975 and event.pos[0] < 1175 and \
                             event.pos[1] > 25 and event.pos[1] < 75:
                         return
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
 
 
     def jugarNivel(self):
@@ -770,9 +778,12 @@ class ConozcoUy():
                                                (XNAVE+30,self.yNave+DYNAVE))
                         self.fuego1 = not self.fuego1
                         pygame.display.flip()
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
 
     def principal(self):
         """Esta es la parte principal del juego"""
+        pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
         while 1:
             # pantalla inicial
             self.pantallaInicial()
