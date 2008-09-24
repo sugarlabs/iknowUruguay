@@ -2,6 +2,7 @@
 name = Conozco Uruguay
 activity_version = 1
 host_version = 1
-service_name = uy.edu.fing.geirea.conozco-uruguay
+bundle_id = uy.edu.fing.geirea.conozcouruguay
 icon = activity
 exec = sugar-activity activity.Activity
+license = GPL+

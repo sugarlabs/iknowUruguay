@@ -15,10 +15,10 @@
 #  ID de respuesta: string con el nombre
 
 Prefijo = Tenemos que buscar\una pieza de mi nave en
-Prefijo = La siguiente pieza\de mi nave está en
+Prefijo = Hay una pieza\de mi nave en
 Prefijo = Según mi información\ahora tenemos que buscar en
 Prefijo = Ahora tenemos que\ir hasta
-Prefijo = Otra pieza de mi\nave cayó en
+Prefijo = Una pieza de mi\nave cayó en
 
 Sufijo = ¿Podés señalar dónde es?
 Sufijo = ¿Dónde queda?

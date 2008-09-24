@@ -64,7 +64,12 @@ EVENTOREFRESCO = EVENTODESPEGUE+1
 TIEMPOREFRESCO = 250
 
 class Punto():
+    """Clase para objetos geograficos que se pueden definir como un punto.
 
+    La posicion esta dada por un par de coordenadas (x,y) medida en pixels
+    dentro del mapa.
+    """
+    
     def __init__(self,nombre,tipo,simbolo,posicion,postexto):
         self.nombre = nombre
         self.tipo = int(tipo)
@@ -98,6 +103,11 @@ class Punto():
 
 
 class Zona():
+    """Clase para objetos geograficos que se pueden definir como una zona.
+
+    La posicion esta dada por una imagen bitmap pintada con un color
+    especifico, dado por la clave (valor 0 a 255 del componente rojo).
+    """
 
     def __init__(self,mapa,nombre,claveColor,tipo,posicion,rotacion):
         self.mapa = mapa # esto hace una copia en memoria o no????
@@ -130,6 +140,11 @@ class Zona():
 
 
 class Nivel():
+    """Clase para definir los niveles del juego.
+
+    Cada nivel tiene un dibujo inicial, los elementos pueden estar etiquetados
+    con el nombre o no, y un conjunto de preguntas.
+    """
 
     def __init__(self,nombre):
         self.nombre = nombre
@@ -217,6 +232,9 @@ class Nivel():
 
 #class ConozcoUy(activity.Activity):
 class ConozcoUy():
+    """Clase principal del juego.
+
+    """
 
     def mostrarTexto(self,texto,fuente,posicion,color):
         """Muestra texto en una determinada posicion"""
@@ -297,6 +315,7 @@ class ConozcoUy():
         f.close()
 
     def cargarNiveles(self):
+        """Carga los niveles del archivo de configuracion"""
         self.listaNiveles = list()
         self.listaPrefijos = list()
         self.listaSufijos = list()
@@ -356,6 +375,7 @@ class ConozcoUy():
         self.numeroDespedidas = len(self.listaDespedidas)
 
     def cargarExploraciones(self):
+        """Carga los niveles de exploracion del archivo de configuracion"""
         self.listaExploraciones = list()
         # falta sanitizar manejo de archivo
         f = open(os.path.join(CAMINODATOS,ARCHIVOEXPLORACIONES),"r")
