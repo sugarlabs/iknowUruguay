@@ -11,7 +11,7 @@
 # Cada pregunta es una linea que se inicia con Pregunta =
 # sigue el texto de la pregunta (lineas separadas con \)
 # sigue el tipo de respuesta y el ID de la respuesta correcta
-#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla
 #  ID de respuesta: string con el nombre
 
 Prefijo = Tenemos que buscar\una pieza de mi nave en
@@ -170,6 +170,15 @@ Pregunta = la Laguna Negra|3|Laguna Negra
 Pregunta = la Laguna de Castillos|3|Laguna de Castillos
 Pregunta = la Laguna de Rocha|3|Laguna de Rocha
 Pregunta = la Laguna del Sauce|3|Laguna del Sauce
+
+[Elevaciones]
+dibujoInicial = cuchillas
+nombreInicial =
+Pregunta = la Cuchilla de Haedo|4|Cuchilla de Haedo
+Pregunta = la Cuchilla de Santa Ana|4|Cuchilla de Santa Ana
+Pregunta = la Cuchilla Grande|4|Cuchilla Grande
+Pregunta = la Cuchilla Grande del Durazno|4|Cuchilla Grande del Durazno
+Pregunta = la Cuchilla Grande Inferior|4|Cuchilla Grande Inferior
 
 [Preguntas varias]
 dibujoInicial = lineasDepto, capitales

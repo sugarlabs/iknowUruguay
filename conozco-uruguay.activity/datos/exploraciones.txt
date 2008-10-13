@@ -28,6 +28,10 @@ dibujoInicial = rios
 nombreInicial = 
 elementosActivos = rios
 
+[Exploro elevaciones]
+dibujoInicial = cuchillas
+nombreInicial =
+elementosActivos = cuchillas
 
 
 
