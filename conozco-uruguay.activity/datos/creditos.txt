@@ -2,5 +2,8 @@ Autor: Gabriel Eirea (geirea@gmail.com)
 Probador oficial: Fabio Eirea
 Por favor enviar comentarios y sugerencias.
 
-Si querés desarrollar juegos como éste, uníte a Ceibal Jam.
-Visitá http://wiki.laptop.org/go/Ceibal_Jam
+Si querés desarrollar juegos como éste, visitá ceibaljam.org
+
+Sonidos bajados de freesound.org:
+btn045.wav gentileza de junggle
+boom1.wav gentileza de NoiseCollector

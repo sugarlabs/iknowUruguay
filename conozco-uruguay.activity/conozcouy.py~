@@ -48,11 +48,13 @@ ARCHIVOLUGARES = "ciudades.txt"
 ARCHIVONIVELES = "niveles.txt"
 ARCHIVOEXPLORACIONES = "exploraciones.txt"
 ARCHIVORIOS = "rios.txt"
+ARCHIVOCUCHILLAS = "cuchillas.txt"
 ARCHIVOCREDITOS = "creditos.txt"
 CAMINOIMAGENES = "imagenes"
 COLORNOMBREDEPTO = (200,60,60)
 COLORNOMBRECAPITAL = (10,10,10)
 COLORNOMBRERIO = (100,100,20)
+COLORNOMBREELEVACION = (100,100,20)
 COLORPREGUNTAS = (80,80,155)
 COLORPANEL = (156,158,172)
 TOTALAVANCE = 7
@@ -184,7 +186,8 @@ class Nivel():
             yLinea = yLinea + fuente.get_height()
 	pygame.display.flip()
 
-    def esCorrecta(self,listaDeptos,listaLugares,listaRios,pos):
+    def esCorrecta(self,listaDeptos,listaLugares,listaRios,
+                   listaCuchillas,pos):
         respCorrecta = self.preguntaActual[2]
         # primero averiguar tipo
         if self.preguntaActual[1] == 1: # DEPTO
@@ -224,6 +227,20 @@ class Nivel():
                     break
             if not encontrado:
                 print "Error: no se encontro respuesta rio "+respCorrecta
+                return False
+            if d.estaAca(pos):
+                return True
+            else:
+                return False
+        if self.preguntaActual[1] == 4: # CUCHILLA
+            # buscar cuchilla correcta
+            encontrado = False
+            for d in listaCuchillas:
+                if d.nombre.startswith(respCorrecta):
+                    encontrado = True
+                    break
+            if not encontrado:
+                print "Error: no se encontro respuesta cuchilla "+respCorrecta
                 return False
             if d.estaAca(pos):
                 return True
@@ -282,6 +299,29 @@ class ConozcoUy():
             nuevoRio = Zona(self.riosDetectar,unicode(nombreRio,'iso-8859-1'),
                               claveColor,1,(posx,posy),rotacion)
             self.listaRios.append(nuevoRio)
+            linea = f.readline()
+        f.close()
+
+    def cargarCuchillas(self):
+        """Carga las imagenes y los datos de las cuchillas"""
+        self.cuchillas = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"cuchillas.png"))
+        self.cuchillasDetectar = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"cuchillasDetectar.png"))
+        self.listaCuchillas = list()
+        # falta sanitizar manejo de archivo
+        f = open(os.path.join(CAMINODATOS,ARCHIVOCUCHILLAS),"r")
+        linea = f.readline()
+        while linea:
+            if linea[0] == "#":
+                linea = f.readline()
+                continue
+            [nombreCuchilla,claveColor,posx,posy,rotacion] = \
+                linea.strip().split("|")
+            nuevaCuchilla = Zona(self.cuchillasDetectar,
+                                 unicode(nombreCuchilla,'iso-8859-1'),
+                                 claveColor,1,(posx,posy),rotacion)
+            self.listaCuchillas.append(nuevaCuchilla)
             linea = f.readline()
         f.close()
 
@@ -569,6 +609,7 @@ class ConozcoUy():
         # cargar datos
         self.cargarDepartamentos()
         self.cargarRios()
+        self.cargarCuchillas()
         self.cargarLugares()
         self.cargarNiveles()
         self.cargarExploraciones()
@@ -653,6 +694,8 @@ class ConozcoUy():
                 self.pantalla.blit(self.deptosLineas, (0, 0))
             elif i.startswith("rios"):
                 self.pantalla.blit(self.rios, (0, 0))
+            elif i.startswith("cuchillas"):
+                self.pantalla.blit(self.cuchillas, (0, 0))
             elif i.startswith("capitales"):
                 for l in self.listaLugares:
                     if l.tipo == 1:
@@ -669,7 +712,11 @@ class ConozcoUy():
             elif i.startswith("rios"):
                 for d in self.listaRios:
                     d.mostrarNombre(self.pantalla,self.fuente32,
-                                    COLORNOMBREDEPTO,False)
+                                    COLORNOMBRERIO,False)
+            elif i.startswith("cuchillas"):
+                for d in self.listaCuchillas:
+                    d.mostrarNombre(self.pantalla,self.fuente32,
+                                    COLORNOMBREELEVACION,False)
             elif i.startswith("capitales"):
                 for l in self.listaLugares:
                     if l.tipo == 1:
@@ -716,6 +763,14 @@ class ConozcoUy():
                                                         COLORNOMBRERIO,
                                                         True)
                                         break
+                            elif i.startswith("cuchillas"):
+                                for d in self.listaCuchillas:
+                                    if d.estaAca(event.pos):
+                                        d.mostrarNombre(self.pantalla,
+                                                        self.fuente24,
+                                                        COLORNOMBREELEVACION,
+                                                        True)
+                                        break
                             elif i.startswith("deptos"):
                                 for d in self.listaDeptos:
                                     if d.estaAca(event.pos):
@@ -741,6 +796,8 @@ class ConozcoUy():
                 self.pantalla.blit(self.deptosLineas, (0, 0))
             elif i.startswith("rios"):
                 self.pantalla.blit(self.rios, (0, 0))
+            elif i.startswith("cuchillas"):
+                self.pantalla.blit(self.cuchillas, (0, 0))
             elif i.startswith("capitales"):
                 for l in self.listaLugares:
                     if l.tipo == 1:
@@ -784,6 +841,7 @@ class ConozcoUy():
                         if self.nivelActual.esCorrecta(self.listaDeptos,
                                                        self.listaLugares,
                                                        self.listaRios,
+                                                       self.listaCuchillas,
                                                        event.pos):
                             self.correcto()
                         else:
