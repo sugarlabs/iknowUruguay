@@ -51,6 +51,7 @@ ARCHIVORIOS = "rios.txt"
 ARCHIVOCUCHILLAS = "cuchillas.txt"
 ARCHIVOCREDITOS = "creditos.txt"
 CAMINOIMAGENES = "imagenes"
+CAMINOSONIDOS = "sonidos"
 COLORNOMBREDEPTO = (200,60,60)
 COLORNOMBRECAPITAL = (10,10,10)
 COLORNOMBRERIO = (100,100,20)
@@ -186,68 +187,7 @@ class Nivel():
             yLinea = yLinea + fuente.get_height()
 	pygame.display.flip()
 
-    def esCorrecta(self,listaDeptos,listaLugares,listaRios,
-                   listaCuchillas,pos):
-        respCorrecta = self.preguntaActual[2]
-        # primero averiguar tipo
-        if self.preguntaActual[1] == 1: # DEPTO
-            # buscar depto correcto
-            encontrado = False
-            for d in listaDeptos:
-                if d.nombre.startswith(respCorrecta):
-                    encontrado = True
-                    break
-            if not encontrado:
-                print "Error: no se encontro respuesta depto "+respCorrecta
-                return False
-            if d.estaAca(pos):
-                return True
-            else:
-                return False
-        elif self.preguntaActual[1] == 2: #CAPITAL
-            # buscar lugar correcto
-            encontrado = False
-            for l in listaLugares:
-                if l.nombre.startswith(respCorrecta):
-                    encontrado = True
-                    break
-            if not encontrado:
-                print "Error: no se encontro respuesta capital "+respCorrecta
-                return False
-            if l.estaAca(pos):
-                return True
-            else:
-                return False
-        if self.preguntaActual[1] == 3: # RIO
-            # buscar rio correcto
-            encontrado = False
-            for d in listaRios:
-                if d.nombre.startswith(respCorrecta):
-                    encontrado = True
-                    break
-            if not encontrado:
-                print "Error: no se encontro respuesta rio "+respCorrecta
-                return False
-            if d.estaAca(pos):
-                return True
-            else:
-                return False
-        if self.preguntaActual[1] == 4: # CUCHILLA
-            # buscar cuchilla correcta
-            encontrado = False
-            for d in listaCuchillas:
-                if d.nombre.startswith(respCorrecta):
-                    encontrado = True
-                    break
-            if not encontrado:
-                print "Error: no se encontro respuesta cuchilla "+respCorrecta
-                return False
-            if d.estaAca(pos):
-                return True
-            else:
-                return False
 
-#class ConozcoUy(activity.Activity):
 class ConozcoUy():
     """Clase principal del juego.
 
@@ -510,6 +450,7 @@ class ConozcoUy():
                     if event.key == 27: # escape
                         sys.exit()
                 elif event.type == pygame.MOUSEBUTTONDOWN:
+                    self.click.play()
                     pos = event.pos
                     if pos[1] > 275:
                         if pos[0] < 600:
@@ -530,10 +471,8 @@ class ConozcoUy():
                     pygame.display.flip()
 
 
-#    def __init__(self,handle):
     def __init__(self):
         """Esta es la inicializacion del juego"""
-#        activity.Activity.__init__(self,handle)
         pygame.init()
         # crear pantalla
         self.anchoPantalla, self.altoPantalla = 1200,900
@@ -566,6 +505,11 @@ class ConozcoUy():
             os.path.join(CAMINOIMAGENES,"fuego1.png")))
         self.fuego.append(pygame.image.load( \
             os.path.join(CAMINOIMAGENES,"fuego2.png")))
+        # cargar sonidos
+        self.click = pygame.mixer.Sound(os.path.join(\
+                CAMINOSONIDOS,"junggle_btn045.wav"))
+        self.despegue = pygame.mixer.Sound(os.path.join(\
+                CAMINOSONIDOS,"NoiseCollector_boom1.wav"))
         # cargar fuentes, se puede hacer mejor esto??????
         self.fuente40 = pygame.font.Font(None, 40)
         self.fuente32 = pygame.font.Font(None, 32)
@@ -642,6 +586,7 @@ class ConozcoUy():
                     if event.key == 27: # escape
                         sys.exit()
                 elif event.type == pygame.MOUSEBUTTONDOWN:
+                    self.click.play()
                     encontro = False
                     for l in self.listaLugares:
                         if l.estaAca(event.pos):
@@ -684,6 +629,82 @@ class ConozcoUy():
         self.mostrarGlobito([self.listaMal[self.malActual]])
         self.esCorrecto = False
         pygame.time.set_timer(EVENTORESPUESTA,TIEMPORESPUESTA)
+
+    def esCorrecta(self,nivel,pos):
+        respCorrecta = nivel.preguntaActual[2]
+        # primero averiguar tipo
+        if nivel.preguntaActual[1] == 1: # DEPTO
+            # buscar depto correcto
+            encontrado = False
+            for d in self.listaDeptos:
+                if d.nombre.startswith(respCorrecta):
+                    encontrado = True
+                    break
+            if not encontrado:
+                print "Error: no se encontro respuesta depto "+respCorrecta
+                return False
+            if d.estaAca(pos):
+                d.mostrarNombre(self.pantalla,
+                                self.fuente32,
+                                COLORNOMBREDEPTO,
+                                True)
+                return True
+            else:
+                return False
+        elif nivel.preguntaActual[1] == 2: #CAPITAL
+            # buscar lugar correcto
+            encontrado = False
+            for l in self.listaLugares:
+                if l.nombre.startswith(respCorrecta):
+                    encontrado = True
+                    break
+            if not encontrado:
+                print "Error: no se encontro respuesta capital "+respCorrecta
+                return False
+            if l.estaAca(pos):
+                l.mostrarNombre(self.pantalla,
+                                self.fuente24,
+                                COLORNOMBRECAPITAL,
+                                True)
+                return True
+            else:
+                return False
+        if nivel.preguntaActual[1] == 3: # RIO
+            # buscar rio correcto
+            encontrado = False
+            for d in self.listaRios:
+                if d.nombre.startswith(respCorrecta):
+                    encontrado = True
+                    break
+            if not encontrado:
+                print "Error: no se encontro respuesta rio "+respCorrecta
+                return False
+            if d.estaAca(pos):
+                d.mostrarNombre(self.pantalla,
+                                self.fuente24,
+                                COLORNOMBRERIO,
+                                True)
+                return True
+            else:
+                return False
+        if nivel.preguntaActual[1] == 4: # CUCHILLA
+            # buscar cuchilla correcta
+            encontrado = False
+            for d in self.listaCuchillas:
+                if d.nombre.startswith(respCorrecta):
+                    encontrado = True
+                    break
+            if not encontrado:
+                print "Error: no se encontro respuesta cuchilla "+respCorrecta
+                return False
+            if d.estaAca(pos):
+                d.mostrarNombre(self.pantalla,
+                                self.fuente24,
+                                COLORNOMBREELEVACION,
+                                True)
+                return True
+            else:
+                return False
 
     def explorarNombres(self):
         """Este es un jueguito point-and-click."""
@@ -737,6 +758,7 @@ class ConozcoUy():
                     if event.key == 27: # escape
                         return
                 elif event.type == pygame.MOUSEBUTTONDOWN:
+                    self.click.play()
                     if event.pos[0] < XMAPAMAX:
                         for i in self.nivelActual.elementosActivos:
                             if i.startswith("capitales"):
@@ -834,15 +856,15 @@ class ConozcoUy():
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
+                        pygame.time.set_timer(EVENTORESPUESTA,0)
+                        pygame.time.set_timer(EVENTODESPEGUE,0)
                         return
                 elif event.type == pygame.MOUSEBUTTONDOWN:
+                    self.click.play()
                     if event.pos[0] < XMAPAMAX:
                         self.borrarGlobito()
-                        if self.nivelActual.esCorrecta(self.listaDeptos,
-                                                       self.listaLugares,
-                                                       self.listaRios,
-                                                       self.listaCuchillas,
-                                                       event.pos):
+                        if self.esCorrecta(self.nivelActual,
+                                           event.pos):
                             self.correcto()
                         else:
                             self.mal()
@@ -875,6 +897,7 @@ class ConozcoUy():
                                            (XBICHO,YBICHO,DXBICHO,DYBICHO))
                         self.pantalla.fill(COLORPANEL,
                                            (XMAPAMAX,0,DXPANEL,900))
+                        self.despegue.play()
                     self.pantalla.fill(COLORPANEL,
                                        (XNAVE,self.yNave,DXNAVE,DYNAVE+30))
                     self.yNave = self.yNave-8
