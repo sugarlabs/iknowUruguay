@@ -206,6 +206,15 @@ Pregunta = la Cuchilla Grande|4|Cuchilla Grande
 Pregunta = la Cuchilla Grande del Durazno|4|Cuchilla Grande del Durazno
 Pregunta = la Cuchilla Grande Inferior|4|Cuchilla Grande Inferior
 Pregunta = el Cerro de Montevideo|5|Cerro de Montevideo
+Pregunta = el Cerro Pan de Azúcar|5|Cerro Pan de Azúcar
+Pregunta = el Cerro Verdún|5|Cerro Verdún
+Pregunta = el Cerro Arequita|5|Cerro Arequita
+Pregunta = el Cerro Catedral|5|Cerro Catedral
+Pregunta = el Cerro de las Animas|5|Cerro de las Animas
+Pregunta = los Cerros de Batoví|5|Cerros de Batoví
+Pregunta = el Cerro Bonito|5|Cerro Bonito
+Pregunta = el Cerro del Medio|5|Cerro del Medio
+Pregunta = el Cerro Chato|5|Cerro Chato
 
 #[Preguntas varias]
 #dibujoInicial = lineasDepto, capitales
