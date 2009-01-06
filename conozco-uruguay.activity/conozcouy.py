@@ -51,8 +51,8 @@ CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
 COLORNOMBREDEPTO = (200,60,60)
 COLORNOMBRECAPITAL = (10,10,10)
-COLORNOMBRERIO = (100,100,20)
-COLORNOMBREELEVACION = (100,100,20)
+COLORNOMBRERIO = (10,10,10)
+COLORNOMBREELEVACION = (10,10,10)
 COLORPREGUNTAS = (80,80,155)
 COLORPANEL = (156,158,172)
 TOTALAVANCE = 7
@@ -517,7 +517,7 @@ class ConozcoUy():
         self.click = pygame.mixer.Sound(os.path.join(\
                 CAMINOSONIDOS,"junggle_btn045.wav"))
         self.despegue = pygame.mixer.Sound(os.path.join(\
-                CAMINOSONIDOS,"NoiseCollector_boom1.wav"))
+                CAMINOSONIDOS,"NoiseCollector_boom1.ogg"))
         # cargar fuentes, se puede hacer mejor esto??????
         self.fuente40 = pygame.font.Font(None, 40)
         self.fuente32 = pygame.font.Font(None, 32)

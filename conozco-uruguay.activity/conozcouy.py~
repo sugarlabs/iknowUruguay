@@ -17,13 +17,10 @@
 #
 # Contact information:
 # Gabriel Eirea geirea@gmail.com
-# Ceibal Jam http://wiki.laptop.org/go/Ceibal_Jam
+# Ceibal Jam http://ceibaljam.org
 
 import sys, pygame, random, os
-#import datetime, time
-#from sugar.activity import activity
 import olpcgames, pygame#, logging 
-#from olpcgames import pausescreen
 
 #log = logging.getLogger( 'conozco-uruguay run' )
 #log.setLevel( logging.DEBUG )
@@ -121,6 +118,7 @@ class Zona():
         self.rotacion = int(rotacion)
 
     def estaAca(self,pos):
+        """Devuelve True si la coordenada pos esta en la zona"""
         if pos[0] < XMAPAMAX:
             colorAca = self.mapa.get_at((pos[0], pos[1]))
             if colorAca[0] == self.claveColor:
@@ -162,6 +160,7 @@ class Nivel():
         random.shuffle(self.preguntas)
 
     def siguientePregunta(self,listaSufijos,listaPrefijos):
+        """Prepara el texto de la pregunta siguiente"""
         self.preguntaActual = self.preguntas[self.indicePreguntaActual]
         self.sufijoActual = random.randint(1,len(listaSufijos))-1
         self.prefijoActual = random.randint(1,len(listaPrefijos))-1
@@ -174,6 +173,7 @@ class Nivel():
         return lineas
 
     def mostrarPregunta(self,pantalla,fuente,sufijo,prefijo):
+        """Muestra la pregunta en el globito"""
         self.preguntaActual = self.preguntas[self.indicePreguntaActual]
         lineas = prefijo.split("\\")
         lineas.extend(self.preguntaActual[0].split("\\"))
@@ -271,6 +271,8 @@ class ConozcoUy():
             os.path.join(CAMINOIMAGENES,"capital.png"))
         self.simboloCiudad = pygame.image.load( \
             os.path.join(CAMINOIMAGENES,"ciudad.png"))
+        self.simboloCerro = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"cerro.png"))
         self.listaLugares = list()
         # falta sanitizar manejo de archivo
         f = open(os.path.join(CAMINODATOS,ARCHIVOLUGARES),"r")
@@ -285,6 +287,8 @@ class ConozcoUy():
                 simbolo = self.simboloCapital
             elif int(tipo) == 2:
                 simbolo = self.simboloCiudad
+            elif int(tipo) == 5:
+                simbolo = self.simboloCerro
             else:
                 simbolo = self.simboloCiudad
             nuevoLugar = Punto(unicode(nombreLugar,'iso-8859-1'),
@@ -392,6 +396,7 @@ class ConozcoUy():
         self.numeroExploraciones = len(self.listaExploraciones)
 
     def pantallaAcercaDe(self):
+        """Pantalla con los datos del juego, creditos, etc"""
         self.pantallaTemp = pygame.Surface((1200,900))
         self.pantallaTemp.blit(self.pantalla,(0,0))
         self.pantalla.fill((0,0,0))
@@ -411,6 +416,7 @@ class ConozcoUy():
         while 1:
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
+                    self.click.play()
                     self.pantalla.blit(self.pantallaTemp,(0,0))
                     pygame.display.flip()
                     return
@@ -418,6 +424,7 @@ class ConozcoUy():
                     pygame.display.flip()
 
     def pantallaInicial(self):
+        """Pantalla con el menu principal."""
         self.pantalla.fill((0,0,0))
         self.mostrarTexto("Conozco Uruguay",
                           self.fuente40,(600,100),(255,255,255))
@@ -448,6 +455,7 @@ class ConozcoUy():
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
+                        self.click.play()
                         sys.exit()
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
@@ -614,10 +622,11 @@ class ConozcoUy():
 	pygame.display.flip()
 
     def borrarGlobito(self):
-        """ Borra el globito"""
+        """ Borra el globito, lo deja en blanco"""
         self.pantalla.blit(self.globito,(XMAPAMAX,YGLOBITO))
 
     def correcto(self):
+        """Muestra el texto en el globito cuando la respuesta es correcta"""
         self.pantalla.blit(self.nave[self.avanceNivel],(XNAVE,YNAVE))
         self.correctoActual = random.randint(1,self.numeroCorrecto)-1
         self.mostrarGlobito([self.listaCorrecto[self.correctoActual]])
@@ -625,12 +634,16 @@ class ConozcoUy():
         pygame.time.set_timer(EVENTORESPUESTA,TIEMPORESPUESTA)
         
     def mal(self):
+        """Muestra el texto en el globito cuando la respuesta es incorrecta"""
         self.malActual = random.randint(1,self.numeroMal)-1
         self.mostrarGlobito([self.listaMal[self.malActual]])
         self.esCorrecto = False
         pygame.time.set_timer(EVENTORESPUESTA,TIEMPORESPUESTA)
 
     def esCorrecta(self,nivel,pos):
+        """Devuelve True si las coordenadas cliqueadas corresponden a la
+        respuesta correcta
+        """
         respCorrecta = nivel.preguntaActual[2]
         # primero averiguar tipo
         if nivel.preguntaActual[1] == 1: # DEPTO
@@ -651,7 +664,7 @@ class ConozcoUy():
                 return True
             else:
                 return False
-        elif nivel.preguntaActual[1] == 2: #CAPITAL
+        elif nivel.preguntaActual[1] == 2: #CAPITAL o CIUDAD
             # buscar lugar correcto
             encontrado = False
             for l in self.listaLugares:
@@ -659,7 +672,7 @@ class ConozcoUy():
                     encontrado = True
                     break
             if not encontrado:
-                print "Error: no se encontro respuesta capital "+respCorrecta
+                print "Error: no se encontro respuesta ciudad "+respCorrecta
                 return False
             if l.estaAca(pos):
                 l.mostrarNombre(self.pantalla,
@@ -705,9 +718,27 @@ class ConozcoUy():
                 return True
             else:
                 return False
+        elif nivel.preguntaActual[1] == 5: # CERRO
+            # buscar lugar correcto
+            encontrado = False
+            for l in self.listaLugares:
+                if l.nombre.startswith(respCorrecta):
+                    encontrado = True
+                    break
+            if not encontrado:
+                print "Error: no se encontro respuesta cerro "+respCorrecta
+                return False
+            if l.estaAca(pos):
+                l.mostrarNombre(self.pantalla,
+                                self.fuente24,
+                                COLORNOMBREELEVACION,
+                                True)
+                return True
+            else:
+                return False
 
     def explorarNombres(self):
-        """Este es un jueguito point-and-click."""
+        """Juego principal en modo exploro."""
         self.nivelActual = self.listaExploraciones[self.indiceNivelActual]
         # presentar nivel
         for i in self.nivelActual.dibujoInicial:
@@ -724,6 +755,10 @@ class ConozcoUy():
             elif i.startswith("ciudades"):
                 for l in self.listaLugares:
                     if l.tipo == 2:
+                        l.dibujar(self.pantalla,False)
+            elif i.startswith("cerros"):
+                for l in self.listaLugares:
+                    if l.tipo == 5:
                         l.dibujar(self.pantalla,False)
         for i in self.nivelActual.nombreInicial:
             if i.startswith("deptos"):
@@ -748,6 +783,11 @@ class ConozcoUy():
                     if l.tipo == 2:
                         l.mostrarNombre(self.pantalla,self.fuente24,
                                         COLORNOMBRECAPITAL,False)
+            elif i.startswith("cerros"):
+                for l in self.listaLugares:
+                    if l.tipo == 5:
+                        l.mostrarNombre(self.pantalla,self.fuente24,
+                                        COLORNOMBREELEVACION,False)
         self.pantalla.fill((100,20,20),(975,26,200,48))
         self.mostrarTexto("Terminar",
                           self.fuente40,(1075,50),(255,155,155))
@@ -756,6 +796,7 @@ class ConozcoUy():
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
+                        self.click.play()
                         return
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
@@ -793,6 +834,14 @@ class ConozcoUy():
                                                         COLORNOMBREELEVACION,
                                                         True)
                                         break
+                            elif i.startswith("cerros"):
+                                for l in self.listaLugares:
+                                    if l.tipo == 5 and l.estaAca(event.pos):
+                                        l.mostrarNombre(self.pantalla,
+                                                        self.fuente24,
+                                                        COLORNOMBREELEVACION,
+                                                        True)
+                                        break
                             elif i.startswith("deptos"):
                                 for d in self.listaDeptos:
                                     if d.estaAca(event.pos):
@@ -809,6 +858,7 @@ class ConozcoUy():
 
 
     def jugarNivel(self):
+        """Juego principal de preguntas y respuestas"""
         self.nivelActual = self.listaNiveles[self.indiceNivelActual]
         self.avanceNivel = 0
         self.nivelActual.prepararPreguntas()
@@ -828,11 +878,23 @@ class ConozcoUy():
                 for l in self.listaLugares:
                     if l.tipo == 2:
                         l.dibujar(self.pantalla,False)
+            elif i.startswith("cerros"):
+                for l in self.listaLugares:
+                    if l.tipo == 5:
+                        l.dibujar(self.pantalla,False)
         for i in self.nivelActual.nombreInicial:
             if i.startswith("deptos"):
                 for d in self.listaDeptos:
                     d.mostrarNombre(self.pantalla,self.fuente32,
                                     COLORNOMBREDEPTO,False)
+            if i.startswith("rios"):
+                for d in self.listaRios:
+                    d.mostrarNombre(self.pantalla,self.fuente32,
+                                    COLORNOMBRERIO,False)
+            if i.startswith("cuchillas"):
+                for d in self.listaCuchillas:
+                    d.mostrarNombre(self.pantalla,self.fuente32,
+                                    COLORNOMBREELEVACION,False)
             elif i.startswith("capitales"):
                 for l in self.listaLugares:
                     if l.tipo == 1:
@@ -843,6 +905,11 @@ class ConozcoUy():
                     if l.tipo == 2:
                         l.mostrarNombre(self.pantalla,self.fuente24,
                                         COLORNOMBRECAPITAL,False)
+            elif i.startswith("cerros"):
+                for l in self.listaLugares:
+                    if l.tipo == 5:
+                        l.mostrarNombre(self.pantalla,self.fuente24,
+                                        COLORNOMBREELEVACION,False)
         self.pantalla.fill((100,20,20),(975,26,200,48))
         self.mostrarTexto("Terminar",
                           self.fuente40,(1075,50),(255,155,155))
@@ -856,6 +923,7 @@ class ConozcoUy():
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
+                        self.click.play()
                         pygame.time.set_timer(EVENTORESPUESTA,0)
                         pygame.time.set_timer(EVENTODESPEGUE,0)
                         return
@@ -919,7 +987,7 @@ class ConozcoUy():
                     pygame.display.flip()
 
     def principal(self):
-        """Esta es la parte principal del juego"""
+        """Este es el loop principal del juego"""
         pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
         while 1:
             # pantalla inicial
