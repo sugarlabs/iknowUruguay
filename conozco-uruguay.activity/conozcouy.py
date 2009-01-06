@@ -518,6 +518,7 @@ class ConozcoUy():
                 CAMINOSONIDOS,"junggle_btn045.wav"))
         self.despegue = pygame.mixer.Sound(os.path.join(\
                 CAMINOSONIDOS,"NoiseCollector_boom1.ogg"))
+        self.click.set_volume(0.2)
         # cargar fuentes, se puede hacer mejor esto??????
         self.fuente40 = pygame.font.Font(None, 40)
         self.fuente32 = pygame.font.Font(None, 32)
