@@ -11,8 +11,10 @@
 # Cada pregunta es una linea que se inicia con Pregunta =
 # sigue el texto de la pregunta (lineas separadas con \)
 # sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
 #  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
 #  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
 
 Prefijo = Tenemos que buscar\una pieza de mi nave en
 Prefijo = Hay una pieza\de mi nave en
