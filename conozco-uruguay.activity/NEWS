@@ -1,3 +1,27 @@
+7/5/08
+
+Se agrego ayuda.
+
+6/1/08
+
+Se cambio el sonido a ogg y se mejoro el contraste del texto.
+
+4/1/09
+
+Se agregaron cerros.
+
+28/11/08
+
+Se agregaron ciudades y rios.
+
+13/10/08
+
+Se agregaron cuchillas.
+
+24/9/08
+
+Se quito el guion del bundle_id.
+
 5/09/08
 
 Se cambio el icono del puntero del mouse.
@@ -6,7 +30,6 @@ Se cambio el icono del puntero del mouse.
 
 Ahora la pantalla se refresca cada 250ms para que cuando sugar superpone el frame no se arme lio.
 Se cambio el icono de la actividad al contorno de uruguay.
-
 
 28/07/08
 

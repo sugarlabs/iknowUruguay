@@ -172,6 +172,11 @@ class Nivel():
             self.indicePreguntaActual = 0
         return lineas
 
+    def devolverAyuda(self):
+        """Devuelve la linea de ayuda"""
+	self.preguntaActual = self.preguntas[self.indicePreguntaActual-1]
+        return self.preguntaActual[3].split("\\")
+
     def mostrarPregunta(self,pantalla,fuente,sufijo,prefijo):
         """Muestra la pregunta en el globito"""
         self.preguntaActual = self.preguntas[self.indicePreguntaActual]
@@ -343,11 +348,12 @@ class ConozcoUy():
                 for i in listaNombres:
                     nuevoNivel.nombreInicial.append(i.strip())
             elif var.startswith("Pregunta"):
-                [texto,tipo,respuesta] = valor.split("|")
+                [texto,tipo,respuesta,ayuda] = valor.split("|")
                 nuevoNivel.preguntas.append(
                     (unicode(texto.strip(),'iso-8859-1'),
                      int(tipo),
-                     unicode(respuesta.strip(),'iso-8859-1')))
+                     unicode(respuesta.strip(),'iso-8859-1'),
+                     unicode(ayuda.strip(),'iso-8859-1')))
             linea = f.readline()
         f.close()
         self.indiceNivelActual = 0
@@ -639,6 +645,7 @@ class ConozcoUy():
         self.malActual = random.randint(1,self.numeroMal)-1
         self.mostrarGlobito([self.listaMal[self.malActual]])
         self.esCorrecto = False
+        self.nRespuestasMal += 1
         pygame.time.set_timer(EVENTORESPUESTA,TIEMPORESPUESTA)
 
     def esCorrecta(self,nivel,pos):
@@ -919,6 +926,7 @@ class ConozcoUy():
         self.lineasPregunta = self.nivelActual.siguientePregunta(\
                 self.listaSufijos,self.listaPrefijos)
         self.mostrarGlobito(self.lineasPregunta)
+        self.nRespuestasMal = 0
         # leer eventos y ver si la respuesta es correcta
         while 1:
             for event in pygame.event.get():
@@ -958,8 +966,14 @@ class ConozcoUy():
                                 self.nivelActual.siguientePregunta(\
                                 self.listaSufijos,self.listaPrefijos)
                             self.mostrarGlobito(self.lineasPregunta)
+                            self.nRespuestasMal = 0
                     else:
-                        self.mostrarGlobito(self.lineasPregunta)
+                        if self.nRespuestasMal >= 2:
+                            self.mostrarGlobito(self.nivelActual.devolverAyuda())
+                            self.nRespuestasMal = 0
+                            pygame.time.set_timer(EVENTORESPUESTA,TIEMPORESPUESTA)
+                        else:
+                            self.mostrarGlobito(self.lineasPregunta)
                 elif event.type == EVENTODESPEGUE:
                     if self.yNave == YNAVE:
                         self.pantalla.fill(COLORPANEL,
