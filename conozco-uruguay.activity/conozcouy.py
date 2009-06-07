@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 # Conozco Uruguay
-# Copyright (C) 2008 Gabriel Eirea
+# Copyright (C) 2008,2009 Gabriel Eirea
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -519,6 +519,22 @@ class ConozcoUy():
             os.path.join(CAMINOIMAGENES,"fuego1.png")))
         self.fuego.append(pygame.image.load( \
             os.path.join(CAMINOIMAGENES,"fuego2.png")))
+        self.tierra = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"tierra.png"))
+        self.navellegando = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"navellegando.png"))
+        self.bichotriste = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"bichotriste.png"))
+        self.alerta1 = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"alerta1.png"))
+        self.alerta2 = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"alerta2.png"))
+        self.pedazo1 = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"pedazo1.png"))
+        self.pedazo2 = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"pedazo2.png"))
+        self.paracaidas = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"paracaidas.png"))
         # cargar sonidos
         self.click = pygame.mixer.Sound(os.path.join(\
                 CAMINOSONIDOS,"junggle_btn045.wav"))
@@ -1001,9 +1017,213 @@ class ConozcoUy():
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
 
+    def presentacion(self):
+        """Presenta una animacion inicial"""
+        self.pantalla.fill((0,0,0))
+        # cuadro 1: nave llegando
+        self.pantalla.blit(self.tierra,(200,150))
+        pygame.display.flip()
+        pygame.time.set_timer(EVENTODESPEGUE,TIEMPODESPEGUE)
+        self.despegue.play()
+        self.paso = 0
+        terminar = False
+        while 1:
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == 27: # escape
+                        self.click.play()
+                        pygame.time.set_timer(EVENTODESPEGUE,0)
+                        return
+                elif event.type == EVENTODESPEGUE:
+                    self.paso += 1
+                    if self.paso == 150:
+                        pygame.time.set_timer(EVENTODESPEGUE,0)
+                        terminar = True
+                    else:
+                        pygame.time.set_timer(EVENTODESPEGUE,TIEMPODESPEGUE)
+                        self.pantalla.fill((0,0,0),
+                                           (900-(self.paso-1)*3,
+                                            150+(self.paso-1)*1,100,63))
+                        self.pantalla.blit(self.navellegando,
+                                           (900-self.paso*3,150+self.paso*1))
+                        pygame.display.flip()
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+        # cuadro 2: marcianito hablando
+        self.pantalla.fill((0,0,0))
+        self.pantalla.blit(self.bicho,(600,450))
+        self.pantalla.blit(self.globito,(350,180))
+        yLinea = 180+self.fuente32.get_height()*3
+        lineas = ("Que hermoso planeta!",
+                  "Voy a explorar aquella penillanura",
+                  "contra el oceano")
+        for l in lineas:
+            text = self.fuente32.render(l, 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (557,yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea + self.fuente32.get_height()+10
+        pygame.display.flip()
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA,4000)
+        while 1:
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == 27: # escape
+                        self.click.play()
+                        pygame.time.set_timer(EVENTORESPUESTA,0)
+                        return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+        # cuadro 3: alerta
+        self.pantalla.blit(self.alerta1,(200,150))
+        pygame.display.flip()
+        pygame.time.set_timer(EVENTORESPUESTA,500)
+        self.paso = 0
+        terminar = False
+        while 1:
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == 27: # escape
+                        self.click.play()
+                        pygame.time.set_timer(EVENTORESPUESTA,0)
+                        return
+                elif event.type == EVENTORESPUESTA:
+                    self.paso += 1
+                    if self.paso == 10:
+                        pygame.time.set_timer(EVENTORESPUESTA,0)
+                        terminar = True
+                    else:
+                        pygame.time.set_timer(EVENTORESPUESTA,500)
+                        if self.paso % 2 == 0:
+                            self.pantalla.blit(self.alerta1,(200,150))
+                        else:
+                            self.pantalla.blit(self.alerta2,(200,150))
+                        pygame.display.flip()
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+        # cuadro 4: marcianito asustado
+        self.pantalla.fill((0,0,0))
+        self.pantalla.blit(self.bichotriste,(600,450))
+        self.pantalla.blit(self.globito,(350,180))
+        yLinea = 180+self.fuente32.get_height()*3
+        lineas = ("Oh, no!",
+                  "La nave tiene problemas",
+                  "Me voy a estrellar!")
+        for l in lineas:
+            text = self.fuente32.render(l, 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (557,yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea + self.fuente32.get_height()+10
+        pygame.display.flip()
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA,4000)
+        while 1:
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == 27: # escape
+                        self.click.play()
+                        pygame.time.set_timer(EVENTORESPUESTA,0)
+                        return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+        # cuadro 5: explota nave
+        self.pantalla.blit(self.tierra,(200,150))
+        pygame.display.flip()
+        pygame.time.set_timer(EVENTODESPEGUE,TIEMPODESPEGUE)
+        self.despegue.play()
+        self.paso = 0
+        terminar = False
+        while 1:
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == 27: # escape
+                        self.click.play()
+                        pygame.time.set_timer(EVENTODESPEGUE,0)
+                        return
+                elif event.type == EVENTODESPEGUE:
+                    self.paso += 1
+                    if self.paso == 130:
+                        pygame.time.set_timer(EVENTODESPEGUE,0)
+                        terminar = True
+                    else:
+                        pygame.time.set_timer(EVENTODESPEGUE,TIEMPODESPEGUE)
+                        self.pantalla.fill((0,0,0),
+                                           (430-int((self.paso-1)*.1),
+                                            280+int((self.paso-1)*.6),30,35))
+                        self.pantalla.blit(self.pedazo1,
+                                           (430-int(self.paso*.2),
+                                            290+int(self.paso*1)))
+                        self.pantalla.blit(self.pedazo1,
+                                           (430+int(self.paso*.15),
+                                            290+int(self.paso*.9)))
+                        self.pantalla.blit(self.pedazo2,
+                                           (430+int(self.paso*.25),
+                                            290+int(self.paso*.75)))
+                        self.pantalla.blit(self.pedazo2,
+                                           (430-int(self.paso*.15),
+                                            290+int(self.paso*.8)))
+                        self.pantalla.blit(self.paracaidas,
+                                           (430-int(self.paso*.1),
+                                            280+int(self.paso*.6)))
+                        pygame.display.flip()
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+        # cuadro 6: marcianito hablando
+        self.pantalla.fill((0,0,0))
+        self.pantalla.blit(self.bicho,(600,450))
+        self.pantalla.blit(self.globito,(350,180))
+        yLinea = 180+self.fuente32.get_height()*3
+        lineas = ("Por suerte me salve!",
+                  "Ahora tengo que reconstruir",
+                  "mi nave, pero no conozco",
+                  "este lugar. Necesito ayuda!")
+        for l in lineas:
+            text = self.fuente32.render(l, 1, COLORPREGUNTAS)
+            textrect = text.get_rect()
+            textrect.center = (557,yLinea)
+            self.pantalla.blit(text, textrect)
+            yLinea = yLinea + self.fuente32.get_height()+10
+        pygame.display.flip()
+        terminar = False
+        pygame.time.set_timer(EVENTORESPUESTA,4000)
+        while 1:
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == 27: # escape
+                        self.click.play()
+                        pygame.time.set_timer(EVENTORESPUESTA,0)
+                        return
+                elif event.type == EVENTORESPUESTA:
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
+                    terminar = True
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+            if terminar:
+                break
+        return
+
     def principal(self):
         """Este es el loop principal del juego"""
         pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
+        self.presentacion()
         while 1:
             # pantalla inicial
             self.pantallaInicial()
