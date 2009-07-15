@@ -47,6 +47,7 @@ ARCHIVOEXPLORACIONES = "exploraciones.txt"
 ARCHIVORIOS = "rios.txt"
 ARCHIVOCUCHILLAS = "cuchillas.txt"
 ARCHIVOCREDITOS = "creditos.txt"
+ARCHIVOPRESENTACION = "presentacion.txt"
 CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
 COLORNOMBREDEPTO = (200,60,60)
@@ -1019,6 +1020,12 @@ class ConozcoUy():
 
     def presentacion(self):
         """Presenta una animacion inicial"""
+        # falta sanitizar manejo de archivo
+        self.listaPresentacion = list()
+        f = open(os.path.join(CAMINODATOS,ARCHIVOPRESENTACION),"r")
+        for linea in f:
+            self.listaPresentacion.append(unicode(linea,'iso-8859-1'))
+        f.close()
         self.pantalla.fill((0,0,0))
         # cuadro 1: nave llegando
         self.pantalla.blit(self.tierra,(200,150))
@@ -1056,9 +1063,7 @@ class ConozcoUy():
         self.pantalla.blit(self.bicho,(600,450))
         self.pantalla.blit(self.globito,(350,180))
         yLinea = 180+self.fuente32.get_height()*3
-        lineas = ("Que hermoso planeta!",
-                  "Voy a explorar aquella penillanura",
-                  "contra el oceano")
+        lineas = self.listaPresentacion[0].split("\\")
         for l in lineas:
             text = self.fuente32.render(l, 1, COLORPREGUNTAS)
             textrect = text.get_rect()
@@ -1203,7 +1208,7 @@ class ConozcoUy():
             yLinea = yLinea + self.fuente32.get_height()+10
         pygame.display.flip()
         terminar = False
-        pygame.time.set_timer(EVENTORESPUESTA,4000)
+        pygame.time.set_timer(EVENTORESPUESTA,6000)
         while 1:
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
