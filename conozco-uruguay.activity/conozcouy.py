@@ -526,10 +526,10 @@ class ConozcoUy():
             os.path.join(CAMINOIMAGENES,"navellegando.png"))
         self.bichotriste = pygame.image.load( \
             os.path.join(CAMINOIMAGENES,"bichotriste.png"))
-        self.alerta1 = pygame.image.load( \
-            os.path.join(CAMINOIMAGENES,"alerta1.png"))
-        self.alerta2 = pygame.image.load( \
-            os.path.join(CAMINOIMAGENES,"alerta2.png"))
+        self.alerta = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"alerta.png"))
+        self.alertarojo = pygame.image.load( \
+            os.path.join(CAMINOIMAGENES,"alertarojo.png"))
         self.pedazo1 = pygame.image.load( \
             os.path.join(CAMINOIMAGENES,"pedazo1.png"))
         self.pedazo2 = pygame.image.load( \
@@ -537,11 +537,13 @@ class ConozcoUy():
         self.paracaidas = pygame.image.load( \
             os.path.join(CAMINOIMAGENES,"paracaidas.png"))
         # cargar sonidos
+        self.despegue = pygame.mixer.Sound(os.path.join(\
+                CAMINOSONIDOS,"NoiseCollector_boom2.ogg"))
         self.click = pygame.mixer.Sound(os.path.join(\
                 CAMINOSONIDOS,"junggle_btn045.wav"))
-        self.despegue = pygame.mixer.Sound(os.path.join(\
-                CAMINOSONIDOS,"NoiseCollector_boom1.ogg"))
         self.click.set_volume(0.2)
+        self.chirp = pygame.mixer.Sound(os.path.join(\
+                CAMINOSONIDOS,"chirp_alerta.ogg"))
         # cargar fuentes, se puede hacer mejor esto??????
         self.fuente40 = pygame.font.Font(None, 40)
         self.fuente32 = pygame.font.Font(None, 32)
@@ -1065,7 +1067,7 @@ class ConozcoUy():
         yLinea = 180+self.fuente32.get_height()*3
         lineas = self.listaPresentacion[0].split("\\")
         for l in lineas:
-            text = self.fuente32.render(l, 1, COLORPREGUNTAS)
+            text = self.fuente32.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
             textrect.center = (557,yLinea)
             self.pantalla.blit(text, textrect)
@@ -1088,8 +1090,11 @@ class ConozcoUy():
             if terminar:
                 break
         # cuadro 3: alerta
-        self.pantalla.blit(self.alerta1,(200,150))
+        self.pantalla.fill((0,0,0))
+        self.pantalla.blit(self.alerta,(264,215))
+        self.pantalla.blit(self.alertarojo,(459,297))
         pygame.display.flip()
+        self.chirp.play()
         pygame.time.set_timer(EVENTORESPUESTA,500)
         self.paso = 0
         terminar = False
@@ -1108,9 +1113,11 @@ class ConozcoUy():
                     else:
                         pygame.time.set_timer(EVENTORESPUESTA,500)
                         if self.paso % 2 == 0:
-                            self.pantalla.blit(self.alerta1,(200,150))
+                            self.pantalla.blit(self.alerta,(264,215))
+                            self.pantalla.blit(self.alertarojo,(459,297))
+                            self.chirp.play()
                         else:
-                            self.pantalla.blit(self.alerta2,(200,150))
+                            self.pantalla.blit(self.alerta,(264,215))
                         pygame.display.flip()
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
@@ -1121,11 +1128,9 @@ class ConozcoUy():
         self.pantalla.blit(self.bichotriste,(600,450))
         self.pantalla.blit(self.globito,(350,180))
         yLinea = 180+self.fuente32.get_height()*3
-        lineas = ("Oh, no!",
-                  "La nave tiene problemas",
-                  "Me voy a estrellar!")
+        lineas = self.listaPresentacion[1].split("\\")
         for l in lineas:
-            text = self.fuente32.render(l, 1, COLORPREGUNTAS)
+            text = self.fuente32.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
             textrect.center = (557,yLinea)
             self.pantalla.blit(text, textrect)
@@ -1196,12 +1201,9 @@ class ConozcoUy():
         self.pantalla.blit(self.bicho,(600,450))
         self.pantalla.blit(self.globito,(350,180))
         yLinea = 180+self.fuente32.get_height()*3
-        lineas = ("Por suerte me salve!",
-                  "Ahora tengo que reconstruir",
-                  "mi nave, pero no conozco",
-                  "este lugar. Necesito ayuda!")
+        lineas = self.listaPresentacion[2].split("\\")
         for l in lineas:
-            text = self.fuente32.render(l, 1, COLORPREGUNTAS)
+            text = self.fuente32.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
             textrect.center = (557,yLinea)
             self.pantalla.blit(text, textrect)
