@@ -68,6 +68,11 @@ shift_x = 0
 shift_y = 0
 xo_resolution = True
 
+def wait_events():
+    """ Funcion para esperar por eventos de pygame sin consumir CPU """
+    e = pygame.event.wait()
+    return [e] + pygame.event.get()
+
 class Punto():
     """Clase para objetos geograficos que se pueden definir como un punto.
 
@@ -430,7 +435,7 @@ class ConozcoUy():
                           (255,155,155))
 	pygame.display.flip()
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     self.click.play()
                     self.pantalla.blit(self.pantallaTemp,(0,0))
@@ -491,7 +496,7 @@ class ConozcoUy():
                           (100,200,100))
         pygame.display.flip()
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
                         self.click.play()
@@ -646,7 +651,7 @@ class ConozcoUy():
                             COLORNOMBRECAPITAL,False)
         pygame.display.flip()
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
                         sys.exit()
@@ -658,7 +663,7 @@ class ConozcoUy():
             l.dibujar(self.pantalla,False)
         pygame.display.flip()
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
                         sys.exit()
@@ -878,7 +883,7 @@ class ConozcoUy():
                           (255,155,155))
         pygame.display.flip()
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
                         self.click.play()
@@ -1015,7 +1020,7 @@ class ConozcoUy():
         self.nRespuestasMal = 0
         # leer eventos y ver si la respuesta es correcta
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
                         self.click.play()
@@ -1123,7 +1128,7 @@ class ConozcoUy():
         self.paso = 0
         terminar = False
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTODESPEGUE,0)
@@ -1169,7 +1174,7 @@ class ConozcoUy():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA,4000)
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTORESPUESTA,0)
@@ -1197,7 +1202,7 @@ class ConozcoUy():
         self.paso = 0
         terminar = False
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTORESPUESTA,0)
@@ -1248,7 +1253,7 @@ class ConozcoUy():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA,4000)
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTORESPUESTA,0)
@@ -1273,7 +1278,7 @@ class ConozcoUy():
         self.paso = 0
         terminar = False
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTODESPEGUE,0)
@@ -1331,7 +1336,7 @@ class ConozcoUy():
         terminar = False
         pygame.time.set_timer(EVENTORESPUESTA,6000)
         while 1:
-            for event in pygame.event.get():
+            for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTORESPUESTA,0)
