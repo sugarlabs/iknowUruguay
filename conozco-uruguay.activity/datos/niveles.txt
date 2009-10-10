@@ -218,3 +218,18 @@ Pregunta = el Cerro Bonito|5|Cerro Bonito|Queda en la Cuchilla de Santa Ana
 Pregunta = el Cerro del Medio|5|Cerro del Medio|Queda en Tacuarembó
 Pregunta = el Cerro Chato|5|Cerro Chato|Queda en Durazno
 
+[Lugares históricos]
+dibujoInicial = lineasDepto,capitales,ciudades
+nombreInicial =
+Pregunta = la ciudad fundada por los\portugueses en 1680|2|Colonia del Sacramento|Queda en el departamento\de Colonia
+Pregunta = la ciudad natal del\escritor Horacio Quiroga|2|Salto|Queda sobre el\Río Uruguay
+Pregunta = la Piedra Alta, donde\se declaró la independencia|2|Florida|Queda al sur del\Río Negro
+Pregunta = el departamento donde está\la Fortaleza de Santa Teresa|1|Rocha|Queda al este del país
+#Pregunta = la ciudad natal del\compositor Eduardo Fabini|2|Solís de Mataojo|Queda en Maldonado
+Pregunta = la ciudad natal de la\escritora Juana de Ibarborou|2|Melo|Queda en Cerro Largo
+Pregunta = donde está el museo\Carlos Gardel|2|Tacuarembó|Queda al norte del Río Negro
+Pregunta = el departamento donde se\hallaron los "cerritos\de indios"|1|Treinta y Tres|Queda al este del país
+Pregunta = el departamento donde el\Gral. Artigas estableció las\bases de su nuevo gobierno|1|Paysandú|Queda sobre el Río Uruguay
+Pregunta = donde se produjo el primer\triunfo importante de las\fuerzas artiguistas en 1811|2|Las Piedras|Queda en Canelones
+Pregunta = el departamento donde se\produjo el desembarco de\los 33 Orientales|1|Soriano|Queda sobre el Río Uruguay
+

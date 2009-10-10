@@ -68,10 +68,13 @@ shift_x = 0
 shift_y = 0
 xo_resolution = True
 
+clock = pygame.time.Clock()
+
 def wait_events():
     """ Funcion para esperar por eventos de pygame sin consumir CPU """
-    e = pygame.event.wait()
-    return [e] + pygame.event.get()
+    global clock
+    clock.tick(20)
+    return pygame.event.get()
 
 class Punto():
     """Clase para objetos geograficos que se pueden definir como un punto.
@@ -147,7 +150,6 @@ class Zona():
         text = fuente.render(self.nombre, 1, color)
         textrot = pygame.transform.rotate(text,self.rotacion)
         textrect = textrot.get_rect()
-        #print self.posicion[0] + " " + self.posicion[1]
         textrect.center = (self.posicion[0],self.posicion[1])
         pantalla.blit(textrot, textrect)
 	if flipAhora:
@@ -415,6 +417,9 @@ class ConozcoUy():
         self.pantallaTemp = pygame.Surface((self.anchoPantalla,self.altoPantalla))
         self.pantallaTemp.blit(self.pantalla,(0,0))
         self.pantalla.fill((0,0,0))
+        self.pantalla.blit(self.terron,
+                           (int(20*scale+shift_x),
+                            int(20*scale+shift_y)))
         self.mostrarTexto("Acerca de Conozco Uruguay",
                           self.fuente40,
                           (int(600*scale+shift_x),int(100*scale+shift_y)),
@@ -582,8 +587,7 @@ class ConozcoUy():
         self.pedazo1 = self.cargarImagen("pedazo1.png")
         self.pedazo2 = self.cargarImagen("pedazo2.png")
         self.paracaidas = self.cargarImagen("paracaidas.png")
-        # cargar imagenes especificas
-        self.fondo = self.cargarImagen("fondo.png")
+        self.terron = self.cargarImagen("terron.png")
         # cargar sonidos
         self.despegue = pygame.mixer.Sound(os.path.join(\
                 CAMINOSONIDOS,"NoiseCollector_boom2.ogg"))
@@ -632,7 +636,10 @@ class ConozcoUy():
             "  XXXXX                  XXXX   ")
         cursor= pygame.cursors.compile(datos_cursor)
         pygame.mouse.set_cursor((32,32),(1,1),*cursor)
-        # cargar datos
+        #
+        # cargar imagenes especificas
+        self.fondo = self.cargarImagen("fondo.png")
+        # cargar datos especificos
         self.cargarDepartamentos()
         self.cargarRios()
         self.cargarCuchillas()
@@ -1369,6 +1376,7 @@ class ConozcoUy():
                                     int(YBICHO*scale+shift_y)))
             # mostrar pantalla
             pygame.display.flip()
+            # ir al juego
             if self.jugar:
                 self.jugarNivel()
             else:
