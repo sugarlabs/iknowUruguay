@@ -1,6 +1,6 @@
 [Activity]
 name = Conozco Uruguay
-activity_version = 5
+activity_version = 7
 host_version = 1
 bundle_id = uy.edu.fing.geirea.conozcouruguay
 icon = activity

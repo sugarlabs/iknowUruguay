@@ -1036,18 +1036,19 @@ class ConozcoUy():
                         return
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
-                    if event.pos[0] < XMAPAMAX*scale+shift_x:
-                        self.borrarGlobito()
-                        if self.esCorrecta(self.nivelActual,
-                                           event.pos):
-                            self.correcto()
-                        else:
-                            self.mal()
-                    elif event.pos[0] > 975*scale+shift_x and \
-                            event.pos[0] < 1175*scale+shift_x and \
-                            event.pos[1] > 25*scale+shift_y and \
-                            event.pos[1] < 75*scale+shift_y:
-                        return
+                    if self.avanceNivel < TOTALAVANCE:
+                        if event.pos[0] < XMAPAMAX*scale+shift_x:
+                            self.borrarGlobito()
+                            if self.esCorrecta(self.nivelActual,
+                                               event.pos):
+                                self.correcto()
+                            else:
+                                self.mal()
+                        elif event.pos[0] > 975*scale+shift_x and \
+                                event.pos[0] < 1175*scale+shift_x and \
+                                event.pos[1] > 25*scale+shift_y and \
+                                event.pos[1] < 75*scale+shift_y:
+                            return
                 elif event.type == EVENTORESPUESTA:
                     pygame.time.set_timer(EVENTORESPUESTA,0)
                     if self.esCorrecto:
