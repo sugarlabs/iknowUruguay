@@ -434,7 +434,7 @@ class ConozcoUy():
                               (155,155,255))
             yLinea = yLinea + int(40*scale)
         f.close()
-        self.mostrarTexto("Presione cualquier tecla para volver.",
+        self.mostrarTexto("Presione cualquier tecla para volver",
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
