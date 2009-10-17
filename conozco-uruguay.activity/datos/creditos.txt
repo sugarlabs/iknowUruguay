@@ -4,7 +4,7 @@ Por favor enviar comentarios y sugerencias.
 
 Si querés desarrollar juegos como éste, visitá ceibaljam.org
 
-Información para el nivel "Lugares históricos": Mtra. Ana Trujillo
+Información para el nivel "Lugares históricos": Ana Trujillo y Ana Cichero (coordinación)
 Sonidos bajados de freesound.org:
 btn045.wav gentileza de junggle
 boom1.wav gentileza de NoiseCollector
