@@ -1,0 +1,133 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\nave cayó en
+
+Sufijo = ¿Puedes señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevas?
+Sufijo = ¿Puedes mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intenta de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Sigue probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está lista.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Tumbes|1|Tumbes|
+Pregunta = el departamento\de Piura|1|Piura|
+Pregunta = el departamento\de Lambayeque|1|Lambayeque|
+Pregunta = el departamento\de La Libertad|1|La Libertad|
+Pregunta = el departamento\de Cajamarca|1|Cajamarca|
+Pregunta = el departamento\de Amazonas|1|Amazonas|
+Pregunta = el departamento\de San Martín|1|San Martín|
+Pregunta = el departamento\de Loreto|1|Loreto|
+Pregunta = el departamento\de Ancash|1|Ancash|
+Pregunta = el departamento\de Huánuco|1|Huánuco|
+Pregunta = el departamento\de Lima|1|Lima|
+Pregunta = el departamento\de Pasco|1|Pasco|
+Pregunta = el departamento\de Junín|1|Junín|
+Pregunta = el departamento\de Ucayali|1|Ucayali|
+Pregunta = el departamento\de Ica|1|Ica|
+Pregunta = el departamento\de Huancavelica|1|Huancavelica|
+Pregunta = el departamento\de Ayacucho|1|Ayacucho|
+Pregunta = el departamento\de Apurímac|1|Apurímac|
+Pregunta = el departamento\de Cusco|1|Cusco|
+Pregunta = el departamento\de Madre de Dios|1|Madre de Dios|
+Pregunta = el departamento\de Arequipa|1|Arequipa|
+Pregunta = el departamento\de Puno|1|Puno|
+Pregunta = el departamento\de Moquegua|1|Moquegua|
+Pregunta = el departamento\de Tacna|1|Tacna|
+
+[Capitales departamentales]
+dibujoInicial = lineasDepto, capitales
+nombreInicial = deptos
+Pregunta = la ciudad\de Tumbes|2|Tumbes|
+Pregunta = la ciudad\de Piura|2|Piura|
+Pregunta = la ciudad\de Chiclayo|2|Chiclayo|
+Pregunta = la ciudad\de Trujillo|2|Trujillo|
+Pregunta = la ciudad\de Cajamarca|2|Cajamarca|
+Pregunta = la ciudad\de Chachapoyas|2|Chachapoyas|
+Pregunta = la ciudad\de Moyobamba|2|Moyobamba|
+Pregunta = la ciudad\de Iquitos|2|Iquitos|
+Pregunta = la ciudad\de Huaraz|2|Huaraz|
+Pregunta = la ciudad\de Huánuco|2|Huánuco|
+Pregunta = la ciudad\de Lima|2|Lima|
+Pregunta = la ciudad\de Cerro de Pasco|2|Cerro de Pasco|
+Pregunta = la ciudad\de Huancayo|2|Huancayo|
+Pregunta = la ciudad\de Pucallpa|2|Pucallpa|
+Pregunta = la ciudad\de Ica|2|Ica|
+Pregunta = la ciudad\de Huancavelica|2|Huancavelica|
+Pregunta = la ciudad\de Ayacucho|2|Ayacucho|
+Pregunta = la ciudad\de Abancay|2|Abancay|
+Pregunta = la ciudad\de Cusco|2|Cusco|
+Pregunta = la ciudad\de Puerto Maldonado|2|Puerto Maldonado|
+Pregunta = la ciudad\de Arequipa|2|Arequipa|
+Pregunta = la ciudad\de Puno|2|Puno|
+Pregunta = la ciudad\de Moquegua|2|Moquegua|
+Pregunta = la ciudad\de Tacna|2|Tacna|
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Lima|2|Lima|
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Piura|3|Río Piura|
+Pregunta = el Río Marañón|3|Río Marañón|
+Pregunta = el Río Amazonas|3|Río Amazonas|
+Pregunta = el Río Santa|3|Río Santa|
+Pregunta = el Río Huallaga|3|Río Huallaga|
+Pregunta = el Río Ucayali|3|Río Ucayali|
+Pregunta = el Río Purus|3|Río Purus|
+Pregunta = el Río de las Piedras|3|Río de las Piedras|
+Pregunta = el Río Madre de Dios|3|Río Madre de Dios|
+Pregunta = el Río Ica|3|Río Ica|
+Pregunta = el Río Ocoña|3|Río Ocoña|
+Pregunta = el Río Sihuas|3|Río Sihuas|
+Pregunta = el Río Tambo|3|Río Tambo|
+Pregunta = el Río Sama|3|Río Sama|
+Pregunta = el Océano Pacífico|3|Océano Pacífico|
+Pregunta = el Lago Titicaca|3|Lago Titicaca|
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cordillera Blanca|4|Cordillera Blanca|
+
+#[Preguntas varias]
+#dibujoInicial = lineasDepto, capitales
+#nombreInicial = deptos,capitales
+#Pregunta = la capital\del país|2|Lima|
+#Pregunta = el departamento donde\se declaró la independencia|1|Lima|

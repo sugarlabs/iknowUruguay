@@ -37,6 +37,9 @@ XNAVE = 800
 YNAVE = 650
 DXNAVE = 100
 DYNAVE = 200
+CAMINORECURSOS = "recursos"
+CAMINOCOMUN = "comun"
+ARCHIVOINFO = "info.txt"
 CAMINODATOS = "datos"
 ARCHIVODEPTOS = "departamentos.txt"
 ARCHIVOLUGARES = "ciudades.txt"
@@ -46,6 +49,7 @@ ARCHIVORIOS = "rios.txt"
 ARCHIVOCUCHILLAS = "cuchillas.txt"
 ARCHIVOCREDITOS = "creditos.txt"
 ARCHIVOPRESENTACION = "presentacion.txt"
+ARCHIVONOMBRE = "nombre.txt"
 CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
 COLORNOMBREDEPTO = (200,60,60)
@@ -227,7 +231,7 @@ class ConozcoUy():
         self.deptosLineas = self.cargarImagen("deptosLineas.png")
         self.listaDeptos = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVODEPTOS),"r")
+        f = open(os.path.join(self.camino_datos,ARCHIVODEPTOS),"r")
         linea = f.readline()
         while linea:
             if linea[0] == "#":
@@ -246,7 +250,7 @@ class ConozcoUy():
         self.riosDetectar = self.cargarImagen("riosDetectar.png")
         self.listaRios = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVORIOS),"r")
+        f = open(os.path.join(self.camino_datos,ARCHIVORIOS),"r")
         linea = f.readline()
         while linea:
             if linea[0] == "#":
@@ -265,7 +269,7 @@ class ConozcoUy():
         self.cuchillasDetectar = self.cargarImagen("cuchillasDetectar.png")
         self.listaCuchillas = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVOCUCHILLAS),"r")
+        f = open(os.path.join(self.camino_datos,ARCHIVOCUCHILLAS),"r")
         linea = f.readline()
         while linea:
             if linea[0] == "#":
@@ -282,15 +286,9 @@ class ConozcoUy():
 
     def cargarLugares(self):
         """Carga los datos de las ciudades y otros puntos de interes"""
-        self.simboloCapital = pygame.image.load( \
-            os.path.join(CAMINOIMAGENES,"capital.png"))
-        self.simboloCiudad = pygame.image.load( \
-            os.path.join(CAMINOIMAGENES,"ciudad.png"))
-        self.simboloCerro = pygame.image.load( \
-            os.path.join(CAMINOIMAGENES,"cerro.png"))
         self.listaLugares = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVOLUGARES),"r")
+        f = open(os.path.join(self.camino_datos,ARCHIVOLUGARES),"r")
         linea = f.readline()
         while linea:
             if linea[0] == "#":
@@ -313,6 +311,20 @@ class ConozcoUy():
             linea = f.readline()
         f.close()
 
+    def cargarListaDirectorios(self):
+        """Carga la lista de directorios con informacion de distintos mapas"""
+        self.listaDirectorios = list()
+        self.listaNombreDirectorios = list()
+        for d in os.listdir(CAMINORECURSOS):
+            if d == "comun":
+                pass
+            else:
+                self.listaDirectorios.append(d)
+                f = open(os.path.join(CAMINORECURSOS,d,ARCHIVONOMBRE),"r")
+                linea = f.readline()
+                self.listaNombreDirectorios.append(\
+                    unicode(linea.strip(),'iso-8859-1'))
+
     def cargarNiveles(self):
         """Carga los niveles del archivo de configuracion"""
         self.listaNiveles = list()
@@ -322,7 +334,7 @@ class ConozcoUy():
         self.listaMal = list()
         self.listaDespedidas = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVONIVELES),"r")
+        f = open(os.path.join(self.camino_datos,ARCHIVONIVELES),"r")
         linea = f.readline()
         while linea:
             if linea[0] == "#":
@@ -378,7 +390,7 @@ class ConozcoUy():
         """Carga los niveles de exploracion del archivo de configuracion"""
         self.listaExploraciones = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVOEXPLORACIONES),"r")
+        f = open(os.path.join(self.camino_datos,ARCHIVOEXPLORACIONES),"r")
         linea = f.readline()
         while linea:
             if linea[0] == "#":
@@ -505,7 +517,8 @@ class ConozcoUy():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape
                         self.click.play()
-                        sys.exit()
+                        self.elegir_directorio = True
+                        return #sys.exit()
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     pos = event.pos
@@ -523,6 +536,62 @@ class ConozcoUy():
                                 self.jugar = False
                                 return
                             elif pos[1] > 800*scale+shift_y and pos[1] < 850*scale+shift_y:
+                                self.elegir_directorio = True
+                                return #sys.exit()
+                elif event.type == EVENTOREFRESCO:
+                    pygame.display.flip()
+
+    def pantallaDirectorios(self):
+        global scale, shift_x, shift_y
+        """Pantalla con el menu de directorios."""
+        self.pantalla.fill((0,0,0))
+        self.mostrarTexto("Conozco Uruguay",
+                          self.fuente40,
+                          (int(600*scale+shift_x),int(100*scale+shift_y)),
+                          (255,255,255))
+        yLista = int(300*scale+shift_y)
+        for n in self.listaNombreDirectorios:
+            self.pantalla.fill((20,20,20),
+                               (int(10*scale+shift_x),yLista-int(24*scale),
+                                int(590*scale),int(48*scale)))
+            self.mostrarTexto(n,
+                              self.fuente40,
+                              (int(300*scale+shift_x),yLista),
+                              (200,100,100))
+            yLista += int(50*scale)
+        self.pantalla.fill((20,20,20),
+                           (int(10*scale+shift_x),int(801*scale+shift_y),
+                            int(590*scale),int(48*scale)))
+        self.mostrarTexto("Sobre este juego",
+                          self.fuente40,
+                          (int(300*scale+shift_x),int(825*scale+shift_y)),
+                          (100,200,100))
+        self.pantalla.fill((20,20,20),
+                           (int(610*scale+shift_x),int(801*scale+shift_y),
+                            int(590*scale),int(48*scale)))
+        self.mostrarTexto("Salir",
+                          self.fuente40,
+                          (int(900*scale+shift_x),int(825*scale+shift_y)),
+                          (100,200,100))
+        pygame.display.flip()
+        while 1:
+            for event in wait_events():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == 27: # escape
+                        self.click.play()
+                        sys.exit()
+                elif event.type == pygame.MOUSEBUTTONDOWN:
+                    self.click.play()
+                    pos = event.pos
+                    if pos[1] > 275*scale+shift_y:
+                        if pos[0] < 600*scale+shift_x:
+                            if pos[1] < 275*scale+shift_y+len(self.listaDirectorios)*50*scale:
+                                self.indiceDirectorioActual = int((pos[1]-int(275*scale+shift_y))//int(50*scale))
+                                return
+                            elif pos[1] > 800*scale+shift_y and pos[1] < 850*scale+shift_y:
+                                self.pantallaAcercaDe()
+                        else:
+                            if pos[1] > 800*scale+shift_y and pos[1] < 850*scale+shift_y:
                                 sys.exit()
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
@@ -531,10 +600,10 @@ class ConozcoUy():
         global scale, xo_resolution
         if xo_resolution:
             imagen = pygame.image.load( \
-                os.path.join(CAMINOIMAGENES,nombre))
+                os.path.join(self.camino_imagenes,nombre))
         else:
             imagen0 = pygame.image.load( \
-                os.path.join(CAMINOIMAGENES,nombre))
+                os.path.join(self.camino_imagenes,nombre))
             imagen = pygame.transform.scale(imagen0,
                           (int(imagen0.get_width()*scale),
                            int(imagen0.get_height()*scale)))
@@ -566,6 +635,9 @@ class ConozcoUy():
                 shift_x = int((self.anchoPantalla-scale*1200)/2)
                 shift_y = 0
         # cargar imagenes generales
+        self.camino_imagenes = os.path.join(CAMINORECURSOS,
+                                            CAMINOCOMUN,
+                                            CAMINOIMAGENES)
         self.bicho = self.cargarImagen("bicho.png")
         self.globito = self.cargarImagen("globito.png")
         self.nave = list()
@@ -588,14 +660,22 @@ class ConozcoUy():
         self.pedazo2 = self.cargarImagen("pedazo2.png")
         self.paracaidas = self.cargarImagen("paracaidas.png")
         self.terron = self.cargarImagen("terron.png")
+        self.simboloCapital = self.cargarImagen("capital.png")
+        self.simboloCiudad = self.cargarImagen("ciudad.png")
+        self.simboloCerro = self.cargarImagen("cerro.png")
         # cargar sonidos
+        self.camino_sonidos = os.path.join(CAMINORECURSOS,
+                                           CAMINOCOMUN,
+                                           CAMINOSONIDOS)
         self.despegue = pygame.mixer.Sound(os.path.join(\
-                CAMINOSONIDOS,"NoiseCollector_boom2.ogg"))
+                self.camino_sonidos,"NoiseCollector_boom2.ogg"))
         self.click = pygame.mixer.Sound(os.path.join(\
-                CAMINOSONIDOS,"junggle_btn045.wav"))
+                self.camino_sonidos,"junggle_btn045.wav"))
         self.click.set_volume(0.2)
         self.chirp = pygame.mixer.Sound(os.path.join(\
-                CAMINOSONIDOS,"chirp_alerta.ogg"))
+                self.camino_sonidos,"chirp_alerta.ogg"))
+        # cargar directorios
+        self.cargarListaDirectorios()
         # cargar fuentes
         self.fuente40 = pygame.font.Font(None, int(40*scale))
         self.fuente32 = pygame.font.Font(None, int(32*scale))
@@ -636,10 +716,19 @@ class ConozcoUy():
             "  XXXXX                  XXXX   ")
         cursor= pygame.cursors.compile(datos_cursor)
         pygame.mouse.set_cursor((32,32),(1,1),*cursor)
-        #
-        # cargar imagenes especificas
+
+    def cargarDirectorio(self):
+        """Carga la informacion especifica de un directorio"""
+        self.camino_imagenes = os.path.join(CAMINORECURSOS,
+                                            self.directorio,
+                                            CAMINOIMAGENES)
+        self.camino_sonidos = os.path.join(CAMINORECURSOS,
+                                            self.directorio,
+                                            CAMINOSONIDOS)
+        self.camino_datos = os.path.join(CAMINORECURSOS,
+                                            self.directorio,
+                                            CAMINODATOS)
         self.fondo = self.cargarImagen("fondo.png")
-        # cargar datos especificos
         self.cargarDepartamentos()
         self.cargarRios()
         self.cargarCuchillas()
@@ -1118,7 +1207,9 @@ class ConozcoUy():
         """Presenta una animacion inicial"""
         # falta sanitizar manejo de archivo
         self.listaPresentacion = list()
-        f = open(os.path.join(CAMINODATOS,ARCHIVOPRESENTACION),"r")
+        f = open(os.path.join(CAMINORECURSOS,
+                              CAMINOCOMUN,
+                              CAMINODATOS,ARCHIVOPRESENTACION),"r")
         for linea in f:
             self.listaPresentacion.append(unicode(linea,'iso-8859-1'))
         f.close()
@@ -1364,24 +1455,31 @@ class ConozcoUy():
         pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
         self.presentacion()
         while 1:
-            # pantalla inicial
-            self.pantallaInicial()
-            # dibujar fondo y panel
-            self.pantalla.blit(self.fondo, (shift_x, shift_y))
-            self.pantalla.fill(COLORPANEL,
-                               (int(XMAPAMAX*scale+shift_x),shift_y,
-                                int(DXPANEL*scale),int(900*scale)))
-            if self.jugar:
-                self.pantalla.blit(self.bicho,
-                                   (int(XBICHO*scale+shift_x),
-                                    int(YBICHO*scale+shift_y)))
-            # mostrar pantalla
-            pygame.display.flip()
-            # ir al juego
-            if self.jugar:
-                self.jugarNivel()
-            else:
-                self.explorarNombres()
+            self.pantallaDirectorios()
+            self.directorio = self.listaDirectorios[self.indiceDirectorioActual]
+            self.cargarDirectorio()
+            while 1:
+                # pantalla inicial
+                self.elegir_directorio = False
+                self.pantallaInicial()
+                if self.elegir_directorio:
+                    break
+                # dibujar fondo y panel
+                self.pantalla.blit(self.fondo, (shift_x, shift_y))
+                self.pantalla.fill(COLORPANEL,
+                                   (int(XMAPAMAX*scale+shift_x),shift_y,
+                                    int(DXPANEL*scale),int(900*scale)))
+                if self.jugar:
+                    self.pantalla.blit(self.bicho,
+                                       (int(XBICHO*scale+shift_x),
+                                        int(YBICHO*scale+shift_y)))
+                # mostrar pantalla
+                pygame.display.flip()
+                # ir al juego
+                if self.jugar:
+                    self.jugarNivel()
+                else:
+                    self.explorarNombres()
 
 
 def main():
