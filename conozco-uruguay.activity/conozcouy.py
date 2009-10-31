@@ -437,7 +437,10 @@ class ConozcoUy():
                           (int(600*scale+shift_x),int(100*scale+shift_y)),
                           (255,255,255))
         # falta sanitizar acceso a archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVOCREDITOS),"r")
+        f = open(os.path.join(CAMINORECURSOS,
+                              CAMINOCOMUN,
+                              CAMINODATOS,
+                              ARCHIVOCREDITOS),"r")
         yLinea = int(200*scale+shift_y)
         for linea in f:
             self.mostrarTexto(linea.strip(),
@@ -507,7 +510,7 @@ class ConozcoUy():
         self.pantalla.fill((20,20,20),
                            (int(610*scale+shift_x),int(801*scale+shift_y),
                             int(590*scale),int(48*scale)))
-        self.mostrarTexto("Salir",
+        self.mostrarTexto("Volver",
                           self.fuente40,
                           (int(900*scale+shift_x),int(825*scale+shift_y)),
                           (100,200,100))
@@ -549,6 +552,10 @@ class ConozcoUy():
                           self.fuente40,
                           (int(600*scale+shift_x),int(100*scale+shift_y)),
                           (255,255,255))
+        self.mostrarTexto("Elige el mapa a utilizar",
+                          self.fuente40,
+                          (int(600*scale+shift_x),int(200*scale+shift_y)),
+                          (200,100,100))
         yLista = int(300*scale+shift_y)
         for n in self.listaNombreDirectorios:
             self.pantalla.fill((20,20,20),
@@ -1485,7 +1492,7 @@ class ConozcoUy():
 def main():
     juego = ConozcoUy()
     juego.principal()
-#    juego.mostrarTodo()
+
 
 if __name__ == "__main__":
     main()

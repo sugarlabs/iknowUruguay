@@ -1,0 +1,34 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+# capitales
+Santa Lucía|91|379|2|53|0
+Aguas Corrientes|90|432|2|0|-15
+Los Cerrillos|118|490|2|-20|-15
+Juanicó|183|485|2|0|12
+Canelones|172|429|1|52|00
+Progreso|208|530|2|0|-15
+Las Piedras|205|579|2|5|-18
+La Paz|208|604|2|0|12
+San Antonio|295|382|2|0|-15
+Santa Rosa|327|413|2|0|-15
+Sauce|311|524|2|0|12
+Toledo|296|587|2|-30|12
+San Ramón|385|254|2|0|12
+San Bautista|376|369|2|0|-15
+San Jacinto|430|448|2|0|12
+Suárez|331|589|2|0|-15
+Pando|373|583|2|0|12
+Empalme Olmos|412|551|2|0|-15
+Salinas|454|616|2|-39|-2
+Tala|503|296|2|0|12
+Atlántida|517|604|2|-43|-5
+Parque del Plata|541|599|2|-64|-15
+La Floresta|559|596|2|38|-15
+Migues|595|403|2|0|-15
+Montes|631|410|2|0|12
+Soca|544|554|2|0|-15
+San Luis|635|611|2|-24|12
+Piedras de Afilar|653|594|2|70|-3
+# puntos historicos
+# puntos turisticos
+# cerros
