@@ -42,9 +42,73 @@ Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
 Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
 Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
 
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial =
+Pregunta = la ciudad\de Atlántida|2|Atlántida|Queda en una península
+Pregunta = la ciudad\de Santa Lucía|2|Santa Lucía|Queda en el límite\con San José
+Pregunta = la ciudad\de Aguas Corrientes|2|Aguas Corrientes|Queda en el límite\con San José
+Pregunta = la ciudad\de Los Cerrillos|2|Los Cerrillos|Queda al oeste
+Pregunta = la ciudad\de Juanicó|2|Juanicó|Queda al sur de la capital
+Pregunta = la ciudad\de Canelones|2|Canelones|Es la capital del\departamento
+Pregunta = la ciudad\de Progreso|2|Progreso|Queda al oeste
+Pregunta = la ciudad\de Las Piedras|2|Las Piedras|Queda cerca de\Montevideo
+Pregunta = la ciudad\de La Paz|2|La Paz|Queda en el límite\con Montevideo
+Pregunta = la ciudad\de San Antonio|2|San Antonio|Queda al centro-norte
+Pregunta = la ciudad\de Santa Rosa|2|Santa Rosa|Queda al centro-norte
+Pregunta = la ciudad\de Sauce|2|Sauce|Queda en el centro
+Pregunta = la ciudad\de Toledo|2|Toledo|Queda en el límite\con Montevideo
+Pregunta = la ciudad\de San Ramón|2|San Ramón|Queda al norte
+Pregunta = la ciudad\de San Bautista|2|San Bautista|Queda al centro-norte
+Pregunta = la ciudad\de San Jacinto|2|San Jacinto|Queda en el centro
+Pregunta = la ciudad\de Suárez|2|Suárez|Queda cerca de Pando
+Pregunta = la ciudad\de Pando|2|Pando|Queda cerca de Montevideo
+Pregunta = la ciudad\de Empalme Olmos|2|Empalme Olmos|Queda cerca de Pando
+Pregunta = la ciudad\de Salinas|2|Salinas|Es un balneario sobre\el Río de la Plata
+Pregunta = la ciudad\de Tala|2|Tala|Queda al noreste
+Pregunta = la ciudad\de Atlántida|2|Atlántida|Es un balneario importante
+Pregunta = la ciudad\de Parque del Plata|2|Parque del Plata|Es un balneario\de la Costa de Oro
+Pregunta = la ciudad\de La Floresta|2|La Floresta|Es un balneario\de la Costa de Oro
+Pregunta = la ciudad\de Migues|2|Migues|Queda al este
+Pregunta = la ciudad\de Montes|2|Montes|Queda en el límite con\Lavalleja
+Pregunta = la ciudad\de Soca|2|Soca|Queda al sureste
+Pregunta = la ciudad\de San Luis|2|San Luis|Es un balneario
+Pregunta = la ciudad\de Piedras de Afilar|2|Piedras de Afilar|Queda al sureste
+Pregunta = la ciudad\de Lagomar|2|Lagomar|Queda en Ciudad de la Costa
+Pregunta = la ciudad\de Solymar|2|Solymar|Queda en Ciudad de la Costa
+Pregunta = la ciudad\de El Pinar|2|El Pinar|Queda en Ciudad de la Costa
+Pregunta = la ciudad\de Cuchilla Alta|2|Cuchilla Alta|Es un balneario\de la Costa de Oro
+Pregunta = la ciudad\de Jaureguiberry|2|Jaureguiberry|Queda en el límite\con Maldonado
+Pregunta = la ciudad\de Bello Horizonte|2|Bello Horizonte|Es un balneario\de la Costa de Oro
+Pregunta = la ciudad\de Parque Roosvelt|2|Parque Roosvelt|Queda en el límite\con Montevideo
+
+[Información del departamento]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = capitales, ciudades
+Pregunta = donde se halló el cementerio\más grande de animales\prehistóricos de Sudamérica|2|Sauce|Es la cuna de Artigas
+Pregunta = donde está el único\cementerio de la religión\judía en Uruguay|2|La Paz|Queda en el límite con\Montevideo
+Pregunta = una de las principales\sedes de la producción\vitivinícola|2|Santa Rosa|Queda en el centro
+Pregunta = la ciudad que lleva\el nombre del presidente\interino del Uruguay\entre 1843 y 1852|2|Suárez|Queda cerca de Pando
+Pregunta = donde estuvo Hernandarias y\destacó la "grande abundancia y\fertilidad de esta tierra"|2|Los Cerrillos|Queda al oeste
+Pregunta = un lugar que ha contado\con un sinnúmero de exponentes\de la música y el arte|2|San Bautista|Queda al centro-norte
+Pregunta = una ciudad cuyo nombre\significa la existencia de un\sentido de mejora en la\condición humana|2|Progreso|Queda al cerca de\Montevideo
+Pregunta = donde hay un monumento a la\independencia de la República\de 8 metros de altura|2|Migues|Queda al este
+Pregunta = una localidad cuyo nombre\deriva de la instalación de\usinas de bombeo, filtrado\y purificación de agua|2|Aguas Corrientes|Queda en el límite\con San José
+Pregunta = una ciudad cuyo nombre\se origina de haber sido\una antigua zona de explotación\de canteros de piedra|2|Las Piedras|Es donde se realizó\una importante batalla por\la independencia
+Pregunta = un importante centro\comercial e industrial\del departamento|2|Pando|Queda cerca de\Montevideo
 
 [Balnearios]
 dibujoInicial = lineasDepto, capitales, ciudades
-nombreInicial =
-Pregunta = la ciudad\de Atlántida|2|Atlántida|Queda en Canelones
-
+nombreInicial = capitales, ciudades
+Pregunta = un balneario con un\lago ubicado al norte\de la Av. Giannattasio|2|Lagomar|El nombre hace referencia\a las aguas salinas\del Río de la Plata
+Pregunta = donde se encuentra el\original Museo del Pan|2|Solymar|El nombre alude al verano
+Pregunta = donde se encuentra el\Autódromo Víctor Borrat Fabini|2|El Pinar|Es donde está el primer\peaje hacia el Este
+Pregunta = un balneario que te\recibe con un arco\sobre la ruta|2|Salinas|Queda cerca de Atlántida
+Pregunta = uno de los balnearios\más concurridos y preferidos\por los turistas|2|Atlántida|Queda en una península
+Pregunta = un balneario que está\sobre el arroyo\Solís Chico|2|Parque del Plata|Está el este de Atlántida
+Pregunta = uno de los balnearios\más antiguos de la\Costa de Oro|2|La Floresta|El nombre hace referencia\a la vegetación
+Pregunta = donde hay un pueblo\de pescadores|2|San Luis|Tiene nombre de santo
+Pregunta = uno de los balnearios\más pintorescos de la\Costa de Oro|2|Cuchilla Alta|Es famoso por su\chorro de agua dulce\en la playa
+Pregunta = el balneario que\se sitúa a orillas del\arrollo Solís Grande|2|Jaureguiberry|Es el último balneario\de la Costa de Oro
+Pregunta = donde se corren rallyes\internacionales de caballos árabes|2|Bello Horizonte|Queda cerca de La Floresta
+Pregunta = donde se realizan\las criollas en\Semana de Turismo|2|Parque Roosvelt|Queda en el límite con\Montevideo
