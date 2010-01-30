@@ -39,6 +39,7 @@ DXNAVE = 100
 DYNAVE = 200
 CAMINORECURSOS = "recursos"
 CAMINOCOMUN = "comun"
+CAMINOFUENTES = "fuentes"
 ARCHIVOINFO = "info.txt"
 CAMINODATOS = "datos"
 ARCHIVODEPTOS = "departamentos.txt"
@@ -315,7 +316,9 @@ class ConozcoUy():
         """Carga la lista de directorios con informacion de distintos mapas"""
         self.listaDirectorios = list()
         self.listaNombreDirectorios = list()
-        for d in os.listdir(CAMINORECURSOS):
+        listaTemp = os.listdir(CAMINORECURSOS)
+        listaTemp.sort()
+        for d in listaTemp:
             if d == "comun":
                 pass
             else:
@@ -324,6 +327,7 @@ class ConozcoUy():
                 linea = f.readline()
                 self.listaNombreDirectorios.append(\
                     unicode(linea.strip(),'iso-8859-1'))
+                f.close()
 
     def cargarNiveles(self):
         """Carga los niveles del archivo de configuracion"""
@@ -469,16 +473,16 @@ class ConozcoUy():
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
         self.mostrarTexto("Conozco Uruguay",
-                          self.fuente40,
-                          (int(600*scale+shift_x),int(100*scale+shift_y)),
+                          self.fuente48,
+                          (int(600*scale+shift_x),int(80*scale+shift_y)),
                           (255,255,255))
         self.mostrarTexto("Has elegido el mapa de "+\
                               self.listaNombreDirectorios[self.indiceDirectorioActual],
                           self.fuente40,
-                          (int(600*scale+shift_x),int(160*scale+shift_y)),
+                          (int(600*scale+shift_x),int(140*scale+shift_y)),
                           (200,100,100))
         self.mostrarTexto("Juego",
-                          self.fuente40,
+                          self.fuente48,
                           (int(300*scale+shift_x),int(220*scale+shift_y)),
                           (200,100,100))
         yLista = int(300*scale+shift_y)
@@ -492,7 +496,7 @@ class ConozcoUy():
                               (200,100,100))
             yLista += int(50*scale)
         self.mostrarTexto("Exploro",
-                          self.fuente40,
+                          self.fuente48,
                           (int(900*scale+shift_x),int(220*scale+shift_y)),
                           (100,100,200))
         yLista = int(300*scale+shift_y)
@@ -554,12 +558,12 @@ class ConozcoUy():
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
         self.mostrarTexto("Conozco Uruguay",
-                          self.fuente40,
-                          (int(600*scale+shift_x),int(100*scale+shift_y)),
+                          self.fuente48,
+                          (int(600*scale+shift_x),int(80*scale+shift_y)),
                           (255,255,255))
         self.mostrarTexto("Elige el mapa a utilizar",
                           self.fuente40,
-                          (int(600*scale+shift_x),int(160*scale+shift_y)),
+                          (int(600*scale+shift_x),int(140*scale+shift_y)),
                           (200,100,100))
         nDirectorios = len(self.listaNombreDirectorios)
         paginaDirectorios = 0
@@ -762,7 +766,16 @@ class ConozcoUy():
         # cargar directorios
         self.cargarListaDirectorios()
         # cargar fuentes
-        self.fuente40 = pygame.font.Font(None, int(40*scale))
+        self.fuente48 = pygame.font.Font(os.path.join(CAMINORECURSOS,\
+                                                          CAMINOCOMUN,\
+                                                          CAMINOFUENTES,\
+                                                          "AllCaps.ttf"),
+                                         int(48*scale))
+        self.fuente40 = pygame.font.Font(os.path.join(CAMINORECURSOS,\
+                                                          CAMINOCOMUN,\
+                                                          CAMINOFUENTES,\
+                                                          "Share-Regular.ttf"),
+                                         int(34*scale))
         self.fuente32 = pygame.font.Font(None, int(32*scale))
         self.fuente24 = pygame.font.Font(None, int(24*scale))
         # cursor

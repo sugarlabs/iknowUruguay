@@ -1,11 +1,11 @@
-Autor: Gabriel Eirea (geirea@gmail.com)
-Probador oficial: Fabio Eirea
-Por favor enviar comentarios y sugerencias.
+Autor: Gabriel Eirea          Probador oficial: Fabio Eirea
+Por favor enviar comentarios y sugerencias a geirea@gmail.com
 
-Si querés desarrollar juegos como éste, visitá ceibaljam.org
+Este programa es software libre y desarrollado por la comunidad
+Por más información visitá http://ceibaljam.org
 
 Información para el nivel "Lugares históricos": Ana Trujillo y Ana Cichero (coordinación)
 Información para Canelones: Nancy Gómez, su hijo Matías y Ana Cichero (coordinación)
-Sonidos bajados de freesound.org:
-btn045.wav gentileza de junggle
-boom1.wav gentileza de NoiseCollector
+Gráficos para todos los departamentos menos Canelones: Alan Aguiar
+Sonidos bajados de freesound.org: btn045.wav gentileza de junggle y boom1.wav gentileza de NoiseCollector
+Fuentes bajadas de urbanfonts.com: AllCaps.ttf gentileza de BobFrantic y Share-Regular.ttf gentileza de anónimo
