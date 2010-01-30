@@ -1,0 +1,6 @@
+# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# cuchillas
+Cuchilla de Grande|254|148|361|45
+Asperezas del Yerbal|253|377|404|0
+Cuchilla del Carmen|252|129|472|-30
+Cuchilla de Palomeque|251|332|564|0

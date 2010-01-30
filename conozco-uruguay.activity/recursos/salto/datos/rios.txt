@@ -1,0 +1,36 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río Uruguay|254|31|308|90
+Río Arapey Gr.|253|525|349|30
+Río Arapey Ch.|252|417|312|0
+Río Daymán|251|392|607|0
+# arroyos
+A. Laureles Gr.|250|197|486|10
+A. Laureles Ch.|249|257|55|-30
+A. Sauce|248|293|560|45
+A. de las Cañas|247|416|486|-80
+A. Sopas|246|534|469|-45
+A. del Sauce|245|435|402|-35
+A. S. Mataojito|244|471|392|-45
+A. Mataojo Gr.|243|588|414|-45
+A. Mataojo Ch.|242|585|472|-45
+A. Paloma Gr.|241|171|339|-45
+A. Tangarupá|240|229|379|90
+A. Valentín Gr.|239|375|520|-60
+A. Arerunguá|238|533|553|-45
+A. Corumbá|237|522|525|0
+A. Sarandí|236|577|608|-45
+A. Guayabos|235|537|627|-45
+A. Tapado|234|478|575|80
+A. Tala|233|510|590|80
+A. de los Talas|232|298|397|60
+A. Valentín Ch.|231|311|429|50
+A. Tunas|230|280|371|60
+A. Mata Perro|229|564|311|60
+A. S. del Arapey|228|612|303|45
+A. Sarandí Ch.|227|654|316|40
+A. Moisés|226|586|376|-30
+A. Itapeby Gr.|225|186|444|-30
+A. Itapeby Ch.|224|174|393|-20
+A. San Antonio|223|119|449|-30
+A. Cerrillada|222|366|366|45

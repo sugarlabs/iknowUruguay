@@ -1,0 +1,7 @@
+# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# cuchillas
+Sierra de Aceguá|254|349|279|0
+Cuchilla Grande|253|336|490|45
+Sierra de los Ríos|252|504|437|0
+Cuchilla de Mangrullo|251|541|519|-45
+Cuchilla del Cordobés|250|119|613|-45

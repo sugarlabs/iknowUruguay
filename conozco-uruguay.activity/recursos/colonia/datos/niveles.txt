@@ -1,0 +1,142 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial =
+Pregunta = la ciudad\de Tarariras|2|Tarariras|Queda casi en el\centro del departamento
+Pregunta = la ciudad\de Colonia del Sacramento|2|Colonia del Sacramento|Es capital departamental
+Pregunta = la ciudad\de Nueva Palmira|2|Nueva Palmira|Tiene un importante puerto
+Pregunta = la ciudad\de Carmelo|2|Carmelo|Fue fundada por\Artigas
+Pregunta = la ciudad\de Conchillas|2|Conchillas|Tuvo una importante\actividad minera
+Pregunta = la ciudad\de Antolin|2|Antolin|Por ahi pasa el\arroyo San Juan
+Pregunta = la ciudad\de La Estanzuela|2|La Estanzuela|Tiene un importante\centro de investigación
+Pregunta = la ciudad\de Semillero|2|Semillero|Fue el granero\del Uruguay
+Pregunta = la ciudad\de Ombúes de Lavalle|2|Ombúes de Lavalle|Es un nombre\compuesto
+Pregunta = la ciudad\de Barker|2|Barker|Queda cerca de\Rosario
+Pregunta = la ciudad\de Rosario|2|Rosario|Se llama igual\que una provincia\argentina
+Pregunta = la ciudad\de Florencio Sanchez|2|Florencio Sanchez|Queda en el limite\con Soriano
+Pregunta = la ciudad\de Juan Lacaze|2|Juan Lacaze|Tiene una importante\industria papelera
+Pregunta = la ciudad\de Colonia Valdense|2|Colonia Valdense|La llaman la\ciudad jardin
+Pregunta = la ciudad\de Nueva Helvecia|2|Nueva Helvecia|Reconocida por sus\quesos de gran calidad
+Pregunta = la ciudad\de Miguelete|2|Miguelete|Queda al norte
+Pregunta = la ciudad\de Cufré|2|Cufré|Queda casi en el\limite con San José
+Pregunta = la ciudad\de La Paz|2|La Paz|Tiene un nombre\sinónimo de tranquilidad
+Pregunta = la ciudad\de Tres Esquinas|2|Tres Esquinas|Son tres...
+Pregunta = la ciudad\de Manantiales|2|Manantiales|Lleva el nombre de\donde brota naturalemnte\agua
+Pregunta = la ciudad\de El Cuadro|2|El Cuadro|Es una obra\de arte
+Pregunta = la ciudad\de El Cerro|2|El Cerro|Nombre de una\elevación
+Pregunta = la ciudad\de Víboras|2|Víboras|Lleva el nombre de\una alimaña ponsoñoza
+Pregunta = la ciudad\de Campana|2|Campana|Tiene nombre de\una parte de una\iglesia
+Pregunta = la ciudad\de Cerro de las Armas|2|Cerro de las Armas|Es una elevación\y está armada
+
+[Información del departamento]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = capitales, ciudades
+Pregunta = donde está el único\puente giratorio\a tracción humana\del Uruguay|2|Carmelo|Está al oeste
+Pregunta = tiene un barrio histórico\declarado Patrimonio de la\Humanidad|1|Colonia del Sacramento|Está al sur
+Pregunta = una ciudad que nació entorno\a un cruce de caminos\y a una estación de tren|2|Tarariras|Está en el centro
+Pregunta = tiene un importante puerto\comercial, principalmente de granos|2|Nueva Palmira|Está al oeste
+Pregunta = sus casas tienen el\característico estilo\de un pueblo minero|2|Conchillas|Está al sur-oeste
+Pregunta = tiene una importante fábrica de refrescos|2|Antolin|Está en el centro
+Pregunta = tiene nombre de estancia mediana|2|La Estanzuela|Está al centro-sur
+Pregunta = fue el granero del Uruguay|2|Semillero|Está al centro-sur
+Pregunta = en una época tuvo un\gran monte de cierto\árbol autóctono|2|Ombúes de Lavalle|Está al norte
+Pregunta = nació alrededor de la\estación de tren|2|Barker|Está al oeste
+Pregunta = una ciudad con más de 200 años|2|Rosario|Está el este
+Pregunta = su nombre es en honor\de un importante escritor|2|Florencio Sanchez|Está en el límite con Soriano
+Pregunta = su nombre es debido\a su fundador\|2|Juan Lacaze|Tiene puerto
+Pregunta = es llamada la ciudad jardin|2|Colonia Valdense|Está al oeste
+Pregunta = fue fundada por\ inmigrantes Suizos|2|Nueva Helvecia|Está al este
+Pregunta = su gente se dedica\principalmente a\la ganadería|2|Miguelete|Está al norte
+Pregunta = en su tiempo fue un\ pueblo de picapedreros|2|Cufré|Queda en el límite\con San José
+Pregunta = fundada por inmigrantes\ Valdenses de la región\ del Piamonte|2|La Paz|Está al oeste
+Pregunta = donde se juntan tres rutas|2|Tres Esquinas|Está al norte
+Pregunta = tiene nombre de una\fuente natural de agua|2|Manantiales|Está al norte
+Pregunta = tiene nombre de un\polígono regular|2|El Cuadro|Está en el centro
+Pregunta = tiene nombre de un\accidente geográfico|2|El Cerro|Está al oeste
+Pregunta = lleva el nombre de\una alimaña ponsoñoza|2|Víboras|Está al oeste
+Pregunta = tiene el nombre de una\parte de la torre\ de una iglesia|2|Campana|Está al norte
+Pregunta = fue un lugar donde hubo muchas armas|2|Cerro de las Armas|Está al norte
+
+[Balnearios]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = capitales, ciudades
+Pregunta = una balneario\ que "da sueño"|2|El Ensueño|Queda al sur
+Pregunta = un balneario con\ nombre de santa|2|Santa Regina|Está casi al limite\con San José
+Pregunta = un lugar que\tiene muchos arboles\de cierta especie|2|Los pinos|Está cerca de la costa
+Pregunta = una ciudad cuyo nombre\es un sinónimo de\ promover|2|Fomento|Está al sureste
+Pregunta = una ciudad con nombre\de un curso fino de agua|2|Riachuelo|Esta cerca de Colonia
+Pregunta = un balneario con nombre\de personas que llevan\los cañones|2|Artilleros|Queda al sur
+Pregunta = un lugar que es\la boca de otro|2|Bocas del Rosario|Queda cerca de J. Lacaze
+Pregunta = un balneario de\arenas blancas|2|Blancarena|Queda al sureste
+Pregunta = un balneario con nombre\de ciudad romano|2|Britópolis|Queda cerca del límite\ con San José
+Pregunta = un lugar con nombre\ de santa|2|Santa Regina|Queda cerca del límite\ con San José
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río San Juan|3|Río San Juan|Esta en el centro
+Pregunta = el Río Rosario|3|Río Rosario|Ocupa gran parte\del este
+Pregunta = el A. del Sauce|3|A. del Sauce|Queda al sur
+Pregunta = el A. de las Viboras|3|A. de las Viboras|Cerca del limite\con Soriano
+Pregunta = el A. de las Vacas|3|A. de las Vacas|Cerca de Carmelo
+Pregunta = el A. Juan González|3|A. Juan González|Está al oeste
+Pregunta = el A. Miguelete|3|A. Miguelete|Pasa cerca de\la ciudad del mismo\nombre
+Pregunta = el A. del General|3|A. del General|Cerca de Colonia
+Pregunta = el A. Colla|3|A. Colla|Atraviesa casi todo\el departamento
+Pregunta = el A. Pichinanga|3|A. Pichinanga|Cerca de la cuchilla\de mismo nombre
+Pregunta = el A. San Luis|3|A. San Luis|Esta en el centro
+Pregunta = el A. Cufré|3|A. Cufré|Esta en el límite\con San José
+Pregunta = el A. Tarariras|3|A. Tarariras|Está en el centro
+Pregunta = el A. Limetas|3|A. Limetas|Está al oeste
+Pregunta = el A. del Riachuelo|3|A. del Riachuelo|Está al sur
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla de San Juan|4|Cuchilla de San Juan|Queda al oeste
+Pregunta = la Cuchilla de la Colonia|4|Cuchilla de la Colonia|Queda al sur
+Pregunta = la Cuchilla de la Cruz|4|Cuchilla de la Cruz|Queda al este
+Pregunta = la Cuchilla Guaycurú|4|Cuchilla Guaycurú|Queda en el límite\con San José

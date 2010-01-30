@@ -1,0 +1,27 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río de la Plata|254|634|832|0
+# arroyos
+A. Garzón|253|672|551|90
+A. de Rocha|252|644|373|-20
+A. Valdivia|251|652|310|30
+A. del Alferez|250|705|182|80
+A. del Aiguá|249|508|254|70
+A. Sarandí|248|633|185|80
+A. del León|247|568|234|90
+A. Solís Gr.|246|92|668|-45
+A. Coronilla|245|517|381|-30
+A. Sauce|244|90|572|0
+A. Pan de Azúcar|243|180|648|90
+A. del Sauce|242|281|640|-45
+A. Mataojo|241|308|582|-45
+A. de las Cañas|240|515|490|60
+A. de los Caracoles|239|451|480|80
+A. de los Carpés|238|351|508|-30
+A. San Carlos|237|449|656|60
+A. Maldonado|236|428|769|-70
+A. J. Ignacio|235|578|588|60
+# lagunas
+Lag. Garzón|234|654|699|0
+Lag. J. Ignacio|233|562|742|0
+Lag. del Sauce|232|328|761|0

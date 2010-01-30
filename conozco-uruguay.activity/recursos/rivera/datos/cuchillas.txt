@@ -1,0 +1,4 @@
+# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# cuchillas
+Cuchilla de Cuñapirú|254|279|322|0
+Cuchilla del Yaguarí|253|408|531|30

@@ -1,0 +1,40 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río Negro|254|394|254|30
+Río Yí|253|381|650|0
+# arroyos
+A. Quiebra Yugos|252|115|490|60
+A. Feliciano|251|155|513|45
+A. de Caballero|250|184|528|45
+A. Villasboas|249|252|537|45
+A. Tabares|248|224|524|45
+A. Maciel|247|242|616|60
+A. de Tejera|246|285|537|45
+A. Tomás Cuadra|245|366|525|45
+A. Isla Sola|244|354|486|-45
+A. Maestre de Campo|243|358|595|45
+A. Piedra Fuego|242|376|618|20
+A. Antonio Herrera|241|500|552|75
+A. Santa Fe|240|425|631|90
+A. Mariscala|239|433|549|90
+A. Sauce|238|456|627|90
+A. Malbajar|237|544|559|45
+A. de los Molles|236|632|521|60
+A. del Sauce|235|578|552|60
+A. del Cordobés|234|670|323|90
+A. Estado|233|627|277|60
+A. Palmas|232|646|449|-45
+A. Sarandí Ch.|231|695|453|-60
+A. Sarandí|230|584|297|-60
+A. Blanquillo|229|533|387|-60
+A. de las Cañas|228|554|349|-45
+A. San Ramón|227|571|423|80
+A. Chileno Gr.|226|524|445|90
+A. Chileno Ch.|225|493|430|80
+A. Sarandí del C.|224|478|378|45
+A. de los Perros|223|427|445|-45
+A. de las Conchas|222|384|450|-45
+A. Minas|221|332|442|-45
+A. del Sauce|220|294|433|-80
+A. del Sarandí|219|246|430|-45
+A. del Tala|218|214|433|90

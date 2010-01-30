@@ -1,0 +1,4 @@
+# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# cuchillas
+Cuchilla del Queguay|254|377|373|0
+Cuchilla de Haedo|253|521|593|0

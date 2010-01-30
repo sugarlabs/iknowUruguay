@@ -1,0 +1,46 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río Uruguay|254|23|442|90
+Río Cuareim|253|346|150|0
+Río Arapey|252|308|566|0
+# arroyos
+A. Itacumbú|251|176|313|-60
+A. Ñaquiña|250|115|326|-35
+A. Mandiyú|249|95|341|-35
+A. Guaviyú|248|101|384|0
+A. Palma Sola Gr.|247|172|414|30
+A. P. Mataojo|246|160|430|25
+A. Sarandí|245|122|414|45
+A. Yucutuya|244|254|317|-50
+A. Yucutuya Ch.|243|205|337|90
+A. Cuaro Gr.|242|388|404|-60
+A. Cuaro Ch.|241|429|382|-60
+A. Pelado|240|395|322|-60
+A. Tres Cruces Gr.|239|419|322|-45
+A. Tres Cruces Ch.|238|514|343|-90
+A. Catalán Gr.|237|585|377|-90
+A. Catalán Ch.|236|577|454|-90
+A. Catalán Seco|235|614|426|-45
+A. Catalancito|234|540|382|60
+A. J. Fernández|233|548|432|60
+A. Maneco|232|689|539|0
+A. de la Invernada|231|725|498|-45
+A. Charqueada|230|671|505|30
+A. Sepultura|229|667|459|90
+A. Yacaré Gr.|228|323|202|50
+A. Jacot|227|379|198|80
+A. Raposa|226|428|232|45
+A. sauce|225|482|271|50
+A. Yacuy|224|212|451|30
+A. de las Pavas|223|200|445|45
+A. Ceballos|222|241|466|45
+A. de las Cañas|221|369|487|-20
+A. Patitos|220|281|468|90
+A. Pantanosa|219|316|465|30
+A. C. Sauce|218|336|477|30
+A. Sequeire|217|414|522|45
+A. Espinillo|216|452|524|50
+A. Sarandí Gr.|215|463|475|0
+A. Sauce Gr.|214|289|341|90
+A. Souzal|213|349|422|0
+A. Mataojo|212|327|386|90

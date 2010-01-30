@@ -1,0 +1,19 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+Tacuarembó|271|305|1|0|-14
+Paso del Cerro|326|207|2|-30|-12
+Paso Bonilla|240|361|2|0|-12
+Cuchilla el Ombú|389|353|2|0|-12
+Ansina|465|377|2|30|0
+Sauce de Batoví|316|408|2|0|-12
+La Hilera|307|443|2|45|0
+Los Cuadrados|250|469|2|60|0
+Piedra Sola|156|469|2|0|-12
+Curtina|226|496|2|0|12
+Achar|201|603|2|0|-12
+Peralta|135|640|2|0|12
+San Gregorio|330|687|2|0|-12
+P. de 5 Sauces|529|418|2|0|-12
+Ptas. de Carretera|517|447|2|70|-12
+Caraguatá|554|459|2|0|12
+Rincón de Pereira|517|590|2|0|-12

@@ -1,0 +1,27 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+Salto|78|468|1|-20|14
+Belén|145|225|2|40|0
+Constitución|123|336|2|-10|12
+Palomas|198|340|2|0|-12
+Colonia Lavalleja|436|340|2|-40|-12
+Saucedo|219|349|2|0|12
+Cuchilla de Guaviyú|552|313|2|0|-12
+Guaviyú de Arapey|504|337|2|50|0
+Masoller|738|341|2|20|-12
+Pablo Fernández|646|385|2|0|-12
+Cayetano|486|388|2|0|-12
+Biassini|361|413|2|0|-12
+Quintana|604|432|2|0|-12
+Paso Cementerio|493|462|2|50|0
+Rincón de Valentín|334|416|2|-60|-12
+Celeste|378|428|2|0|12
+San Antonio|124|440|2|50|0
+18 de Julio|91|448|2|-40|-12
+Garibaldi|108|453|2|45|0
+Albisu|109|467|2|20|12
+Laureles|226|504|2|0|12
+Puntas de Valentín|358|494|2|0|-12
+Cerros de Vera|458|546|2|0|-12
+Paso del Parque|382|611|2|0|-12
+Arerunguá|538|579|2|0|-12

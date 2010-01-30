@@ -1,0 +1,9 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+Trinidad|374|390|1|0|14
+Andresito|204|99|2|0|-12
+Juan José Castro|441|357|2|0|-12
+Cerro Colorado|439|510|2|0|12
+La Casilla|299|611|2|0|-12
+San Gregorio|455|744|2|0|-12
+Ismael Cortinas|242|759|2|0|-12

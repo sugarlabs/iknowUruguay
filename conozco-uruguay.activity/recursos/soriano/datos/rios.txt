@@ -1,0 +1,38 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río Uruguay|254|96|170|0
+Río de la Plata|253|117|847|0
+Río Negro|252|396|144|-20
+Río San Salvador|251|486|711|0
+# arroyos
+A. de Espinillo|250|127|551|-45
+A. del Sauce|249|106|665|10
+A. Bizcocho|248|195|426|20
+A. Magallanes|247|207|465|0
+A. del Águila|246|271|513|45
+A. del Corralito|245|332|539|20
+A. Maciel|244|377|599|0
+A. San Martín|243|455|623|45
+A. del Medio|242|470|665|0
+A. C. de Nieto|241|226|580|-80
+A. Cerrillos|240|303|658|90
+A. de las Mulas|239|197|375|0
+A. Bequeló|238|476|467|-80
+A. Coquimbo|237|389|420|-60
+A. Sarandí|236|320|363|90
+A. Talas|235|496|383|30
+A. Isletas|234|500|414|-45
+A. Caballudo|233|445|336|-10
+A. Maia|232|320|250|-45
+A. Cololó|231|467|287|-45
+A. Algarrobo|230|375|232|-80
+A. Perico|229|482|228|-60
+A. de Vera|228|519|215|-80
+A. Grande|227|660|316|45
+A. Santiago|226|574|422|45
+A. Lagunas|225|570|369|30
+A. del Perdido|224|623|615|70
+A. del Durazno|223|578|572|60
+A. del Duraznito|222|558|521|45
+A. Monzón|221|665|662|60
+A. Sauce|220|707|672|60

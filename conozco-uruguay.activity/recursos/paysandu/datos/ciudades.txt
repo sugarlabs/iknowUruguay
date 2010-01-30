@@ -1,0 +1,28 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+Paysandú|84|560|1|60|0
+Chapicuy|140|289|2|0|-12
+Bella Vista|203|298|2|0|12
+Pueblo Gallinal|320|359|2|0|-12
+Cerro Chato|296|368|2|0|12
+Quebracho|140|411|2|0|-12
+Soto|266|406|2|0|12
+El Eucalipto|376|381|2|0|-12
+Tambores|742|385|2|0|-12
+Guarapirú|393|392|2|0|12
+Queguayar|160|445|2|0|-12
+Lorenzo Geyres|150|466|2|0|12
+Cuchilla del Fuego|472|468|2|0|-12
+Piedra Sola|720|465|2|0|-12
+Constancia|103|517|2|0|-12
+Curapí|77|544|2|-40|-12
+Esperanza|149|569|2|40|0
+Porvenir|149|601|2|0|12
+Piedras Coloradas|258|582|2|60|-12
+Orgoroso|291|595|2|50|0
+Arroyo Negro|302|617|2|-70|0
+La Tentación|202|643|2|0|12
+Guichón|397|585|2|45|0
+Beisso|460|569|2|0|-12
+Tres Arboles|575|596|2|0|12
+Tiatucurá|632|577|2|0|-12

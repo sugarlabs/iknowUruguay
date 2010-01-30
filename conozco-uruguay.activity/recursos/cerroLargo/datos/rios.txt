@@ -1,0 +1,34 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río Yaguarón|254|601|430|-60
+Río Río Negro|253|158|472|45
+Río Tacuarí|252|582|658|0
+# arroyos
+A. del Parao|251|404|650|-30
+A. del Campamento|250|433|601|-20
+A. Santos|249|603|599|-45
+A. Malo|248|537|539|-70
+A. Mangrullo|247|560|611|70
+A. Chuy|246|455|488|90
+A. del Sauce|245|430|472|90
+A. del Cordobés|244|35|720|-45
+A. Lechiguana|243|116|668|-45
+A. Pablo Páez|242|129|630|-45
+A. Tarariras|241|145|602|90
+A. Tupambaé|240|183|514|-30
+A. Quebracho|239|259|563|-45
+A. del Medio|238|226|595|-45
+A. Fraile Muerto|237|248|502|-45
+A. del Sarandí|236|252|450|-45
+A. Zapallar|235|254|398|10
+A. S. del Zapallar|234|289|438|-45
+A. Palleros|233|311|383|-45
+A. Aceguá|232|336|322|10
+A. Molles|231|356|357|-45
+A. Pantanoso|230|392|299|60
+A. Berachi|229|510|368|60
+A. Burros|228|482|365|45
+A. de las Cañas|227|565|462|-45
+A. Sarandí|226|583|522|45
+# lagunas
+Lag. Merin|225|706|817|45

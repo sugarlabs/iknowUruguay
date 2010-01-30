@@ -1,0 +1,10 @@
+# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# departamentos
+Artigas|254|392|166|0
+Salto|253|373|375|0
+Paysandú|252|305|742|0
+Rivera|251|756|381|-90
+Tacuarembó|250|726|660|-90
+Río Negro|249|402|886|0
+Argentina|248|49|141|0
+Brasil|247|689|76|45

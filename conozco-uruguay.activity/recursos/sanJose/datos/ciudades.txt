@@ -1,0 +1,17 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+San José|424|467|1|0|14
+Ismael Cortinas|160|156|2|0|-12
+Mal Abrigo|252|308|2|0|-12
+Carreta Quemada|527|336|2|0|-12
+Estación González|281|383|2|0|-12
+Juan Soler|330|445|2|-40|0
+Raigon|459|472|2|40|0
+Ecilda Paullier|185|476|2|0|12
+Villa Rodríguez|535|508|2|20|-12
+Costas de Pereira|342|590|2|0|-12
+Ituzaingó|584|537|2|55|0
+Capurro|595|566|2|0|12
+Villa María|389|625|2|0|12
+Puntas de Valdez|435|689|2|0|-12
+25 de Agosto|636|533|2|20|-12

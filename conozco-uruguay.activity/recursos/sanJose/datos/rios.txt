@@ -1,0 +1,23 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río de la Plata|254|158|793|0
+Santa Lucía|253|654|576|-90
+Río San José|252|426|496|-45
+# arroyos
+A. de la Virgen|251|636|312|80
+A. Mahoma|250|262|189|-10
+A. Guaycurú|249|285|240|10
+A. Chamizo|248|449|234|70
+A. Cerro|247|506|100|70
+A. Carreta Quemada|246|535|359|45
+A. Tala Gr.|245|457|351|45
+A. Cufré|244|137|392|90
+A. Escudero|243|195|420|50
+A. Pavón|242|289|402|-60
+A. Toscaso|241|232|517|90
+A. L. Pereira|240|293|597|40
+A. San Gregorio|239|383|711|50
+A. S. Gregorio|238|394|111|30
+A. Tigre|237|541|771|-60
+A. Cagancha|236|517|508|70
+A. del Tala|235|593|406|-90

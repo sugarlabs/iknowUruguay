@@ -1,0 +1,34 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río Tacuarembó|254|223|303|60
+Río Negro|236|732|677|60
+# arroyos
+A. Laureles|253|139|320|45
+A. Tigre|252|176|285|-45
+A. Médanos|251|254|416|-50
+A. Mangueras|250|357|383|30
+A. del Ataque|249|373|336|30
+A. Batoví Dorado|248|355|301|60
+A. Cuñapirú|247|295|346|90
+A. Corrales|246|357|474|50
+A. Laureles|245|355|535|45
+A. J. Amarillas|244|441|463|-30
+A. Coronilla|243|396|502|-30
+A. Agandez|242|379|595|90
+A. Carpintería|241|431|558|60
+A. Yaguarí|240|556|428|-60
+A. Amarillo|239|498|556|-70
+A. Balbapor|238|500|486|0
+A. Cerro|237|554|580|-45
+A. del Hospital|235|668|537|-30
+A. San Luis|234|722|506|-45
+A. Ceibal|233|705|629|-45
+A. de los Mongoles|232|670|720|-60
+A. Zanja Honda|231|675|662|-20
+A. Coronilla|230|650|592|45
+A. Blanco|229|597|570|-20
+A. Molles|228|588|525|10
+A. Caraguatá|227|599|638|60
+A. de la Coronilla|226|595|691|60
+A. Cerro Chato|225|537|615|20
+A. Sauce|224|574|467|45

@@ -1,0 +1,16 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+Melo|425|478|1|0|-14
+Isidoro Noblía|437|322|2|0|12
+Centurión|540|396|2|0|12
+Bañados de Medina|365|491|2|0|12
+Tres Islas|249|531|2|0|-12
+Quebracho|230|554|2|0|12
+Arévalo|177|593|2|0|12
+Tupambaé|216|567|2|0|-12
+C. de las Cuentas|281|575|2|40|12
+Fraile Muerto|304|532|2|0|12
+Arbolito|408|573|2|0|12
+Plácido Rosas|572|632|2|0|-12
+Río Branco|691|575|2|0|-12
+Tambos de Melo|417|491|2|0|12

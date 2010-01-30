@@ -1,0 +1,20 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+Río de la Plata|254|316|785|0
+Río Santa Lucía|253|100|168|-30
+# arroyos
+A. Colorado|252|185|197|45
+A. de Melilla|251|242|359|10
+A. San Gregorio|250|209|455|60
+A. Pantanoso|248|349|435|60
+A. Miguelete|247|465|324|45
+A. Mendoza|246|545|375|60
+A. de las Piedras|245|318|262|-45
+A. Toledo|244|578|213|-20
+A. Carrasco|243|403|461|80
+A. Manga|242|633|394|-45
+# cañadas
+Cda. Piedritas|249|197|554|50
+Cda. de las Canteras|241|664|562|30
+Cda. del Dragón|239|250|267|-60
+B. de Carrasco|240|697|428|80

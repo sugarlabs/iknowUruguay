@@ -1,0 +1,5 @@
+# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# cuchillas
+Cuchilla Marincho|254|213|328|-45
+Cuchilla Villasboas|253|498|402|90
+Cuchilla Grande Inferior|252|420|595|-20

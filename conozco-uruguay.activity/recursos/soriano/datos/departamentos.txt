@@ -1,0 +1,7 @@
+# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# departamentos
+Soriano|254|414|349|0
+Río Negro|253|467|78|0
+Colonia|252|439|826|0
+Flores|251|715|375|0
+Argentina|250|82|82|-45

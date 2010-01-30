@@ -465,16 +465,21 @@ class ConozcoUy():
                     pygame.display.flip()
 
     def pantallaInicial(self):
-        global scale, shift_x, shift_y
         """Pantalla con el menu principal."""
+        global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
         self.mostrarTexto("Conozco Uruguay",
                           self.fuente40,
                           (int(600*scale+shift_x),int(100*scale+shift_y)),
                           (255,255,255))
+        self.mostrarTexto("Has elegido el mapa de "+\
+                              self.listaNombreDirectorios[self.indiceDirectorioActual],
+                          self.fuente40,
+                          (int(600*scale+shift_x),int(160*scale+shift_y)),
+                          (200,100,100))
         self.mostrarTexto("Juego",
                           self.fuente40,
-                          (int(300*scale+shift_x),int(200*scale+shift_y)),
+                          (int(300*scale+shift_x),int(220*scale+shift_y)),
                           (200,100,100))
         yLista = int(300*scale+shift_y)
         for n in self.listaNiveles:
@@ -488,7 +493,7 @@ class ConozcoUy():
             yLista += int(50*scale)
         self.mostrarTexto("Exploro",
                           self.fuente40,
-                          (int(900*scale+shift_x),int(200*scale+shift_y)),
+                          (int(900*scale+shift_x),int(220*scale+shift_y)),
                           (100,100,200))
         yLista = int(300*scale+shift_y)
         for n in self.listaExploraciones:
@@ -545,8 +550,8 @@ class ConozcoUy():
                     pygame.display.flip()
 
     def pantallaDirectorios(self):
-        global scale, shift_x, shift_y
         """Pantalla con el menu de directorios."""
+        global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
         self.mostrarTexto("Conozco Uruguay",
                           self.fuente40,
@@ -554,56 +559,130 @@ class ConozcoUy():
                           (255,255,255))
         self.mostrarTexto("Elige el mapa a utilizar",
                           self.fuente40,
-                          (int(600*scale+shift_x),int(200*scale+shift_y)),
+                          (int(600*scale+shift_x),int(160*scale+shift_y)),
                           (200,100,100))
-        yLista = int(300*scale+shift_y)
-        for n in self.listaNombreDirectorios:
+        nDirectorios = len(self.listaNombreDirectorios)
+        paginaDirectorios = 0
+        while 1:
+            yLista = int(250*scale+shift_y)
+            self.pantalla.fill((0,0,0),
+                               (int(shift_x),yLista-int(24*scale),
+                                int(1200*scale),int(550*scale)))
+            if paginaDirectorios == 0:
+                paginaAnteriorActiva = False
+            paginaSiguienteActiva = False
             self.pantalla.fill((20,20,20),
                                (int(10*scale+shift_x),yLista-int(24*scale),
                                 int(590*scale),int(48*scale)))
-            self.mostrarTexto(n,
-                              self.fuente40,
-                              (int(300*scale+shift_x),yLista),
-                              (200,100,100))
+            if paginaAnteriorActiva:
+                self.mostrarTexto("<<< Pagina anterior",
+                                  self.fuente40,
+                                  (int(300*scale+shift_x),yLista),
+                                  (100,100,200))
             yLista += int(50*scale)
-        self.pantalla.fill((20,20,20),
-                           (int(10*scale+shift_x),int(801*scale+shift_y),
-                            int(590*scale),int(48*scale)))
-        self.mostrarTexto("Sobre este juego",
-                          self.fuente40,
-                          (int(300*scale+shift_x),int(825*scale+shift_y)),
-                          (100,200,100))
-        self.pantalla.fill((20,20,20),
-                           (int(610*scale+shift_x),int(801*scale+shift_y),
-                            int(590*scale),int(48*scale)))
-        self.mostrarTexto("Salir",
-                          self.fuente40,
-                          (int(900*scale+shift_x),int(825*scale+shift_y)),
-                          (100,200,100))
-        pygame.display.flip()
-        while 1:
-            for event in wait_events():
-                if event.type == pygame.KEYDOWN:
-                    if event.key == 27: # escape
+            indiceDir = paginaDirectorios * 20
+            terminar = False
+            while not terminar:
+                self.pantalla.fill((20,20,20),
+                                   (int(10*scale+shift_x),yLista-int(24*scale),
+                                    int(590*scale),int(48*scale)))
+                self.mostrarTexto(self.listaNombreDirectorios[indiceDir],
+                                  self.fuente40,
+                                  (int(300*scale+shift_x),yLista),
+                                  (200,100,100))
+                yLista += int(50*scale)
+                indiceDir = indiceDir + 1
+                if indiceDir == nDirectorios or \
+                        indiceDir == paginaDirectorios * 20 + 10:
+                    terminar = True
+            if indiceDir == paginaDirectorios * 20 + 10:
+                nDirectoriosCol1 = 10
+                yLista = int(250*scale+shift_y)
+                terminar = False
+                while not terminar:
+                    self.pantalla.fill((20,20,20),
+                                       (int(610*scale+shift_x),yLista-int(24*scale),
+                                        int(590*scale),int(48*scale)))
+                    self.mostrarTexto(self.listaNombreDirectorios[indiceDir],
+                                      self.fuente40,
+                                      (int(900*scale+shift_x),yLista),
+                                      (200,100,100))
+                    yLista += int(50*scale)
+                    indiceDir = indiceDir + 1
+                    if indiceDir == nDirectorios or \
+                            indiceDir == paginaDirectorios * 20 + 20:
+                        terminar = True
+                if indiceDir == paginaDirectorios * 20 + 20:
+                    self.pantalla.fill((20,20,20),
+                                       (int(610*scale+shift_x),yLista-int(24*scale),
+                                        int(590*scale),int(48*scale)))
+                    self.mostrarTexto("Pagina siguiente >>>",
+                                      self.fuente40,
+                                      (int(900*scale+shift_x),yLista),
+                                      (100,100,200))
+                    paginaSiguienteActiva = True
+                    nDirectoriosCol2 = 10
+                else:
+                    nDirectoriosCol2 = indiceDir - paginaDirectorios * 20 - 10
+            else:
+                nDirectoriosCol1 = indiceDir - paginaDirectorios * 20
+                nDirectoriosCol2 = 0
+            self.pantalla.fill((20,20,20),
+                               (int(10*scale+shift_x),int(801*scale+shift_y),
+                                int(590*scale),int(48*scale)))
+            self.mostrarTexto("Sobre este juego",
+                              self.fuente40,
+                              (int(300*scale+shift_x),int(825*scale+shift_y)),
+                              (100,200,100))
+            self.pantalla.fill((20,20,20),
+                               (int(610*scale+shift_x),int(801*scale+shift_y),
+                                int(590*scale),int(48*scale)))
+            self.mostrarTexto("Salir",
+                              self.fuente40,
+                              (int(900*scale+shift_x),int(825*scale+shift_y)),
+                              (100,200,100))
+            pygame.display.flip()
+            cambiarPagina = False
+            while not cambiarPagina:
+                for event in wait_events():
+                    if event.type == pygame.KEYDOWN:
+                        if event.key == 27: # escape
+                            self.click.play()
+                            sys.exit()
+                    elif event.type == pygame.MOUSEBUTTONDOWN:
                         self.click.play()
-                        sys.exit()
-                elif event.type == pygame.MOUSEBUTTONDOWN:
-                    self.click.play()
-                    pos = event.pos
-                    if pos[1] > 275*scale+shift_y:
-                        if pos[0] < 600*scale+shift_x:
-                            if pos[1] < 275*scale+shift_y+len(self.listaDirectorios)*50*scale:
-                                self.indiceDirectorioActual = int((pos[1]-int(275*scale+shift_y))//int(50*scale))
-                                return
-                            elif pos[1] > 800*scale+shift_y and pos[1] < 850*scale+shift_y:
-                                self.pantallaAcercaDe()
-                        else:
-                            if pos[1] > 800*scale+shift_y and pos[1] < 850*scale+shift_y:
-                                sys.exit()
-                elif event.type == EVENTOREFRESCO:
-                    pygame.display.flip()
+                        pos = event.pos
+                        if pos[1] > 225*scale+shift_y:
+                            if pos[0] < 600*scale+shift_x:
+                                if pos[1] < 225*scale+shift_y+(nDirectoriosCol1+1)*50*scale:
+                                    self.indiceDirectorioActual = int((pos[1]-int(225*scale+shift_y))//int(50*scale)) - 1 + paginaDirectorios*20
+                                    print(self.indiceDirectorioActual)
+                                    if self.indiceDirectorioActual == paginaDirectorios*20-1 and paginaAnteriorActiva:
+                                        paginaDirectorios = paginaDirectorios-1
+                                        paginaSiguienteActiva = True
+                                        cambiarPagina = True
+                                    elif self.indiceDirectorioActual>paginaDirectorios*20-1:
+                                        return
+                                elif pos[1] > 800*scale+shift_y and pos[1] < 850*scale+shift_y:
+                                    self.pantallaAcercaDe()
+                            else:
+                                if pos[1] < 225*scale+shift_y+nDirectoriosCol2*50*scale or (paginaSiguienteActiva and pos[1] < 775*scale+shift_y):
+                                    self.indiceDirectorioActual = int((pos[1]-int(225*scale+shift_y))//int(50*scale)) + paginaDirectorios * 20 + 10
+                                    print(self.indiceDirectorioActual)
+                                    if self.indiceDirectorioActual == paginaDirectorios*20+20 and paginaSiguienteActiva:
+                                        paginaDirectorios = paginaDirectorios + 1
+                                        paginaAnteriorActiva = True
+                                        cambiarPagina = True
+                                        break
+                                    elif self.indiceDirectorioActual<paginaDirectorios*20+20:
+                                        return
+                                elif pos[1] > 800*scale+shift_y and pos[1] < 850*scale+shift_y:
+                                    sys.exit()
+                    elif event.type == EVENTOREFRESCO:
+                        pygame.display.flip()
 
     def cargarImagen(self,nombre):
+        """Carga una imagen y la escala de acuerdo a la resolucion"""
         global scale, xo_resolution
         if xo_resolution:
             imagen = pygame.image.load( \

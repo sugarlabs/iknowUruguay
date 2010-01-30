@@ -1,0 +1,6 @@
+# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# cuchillas
+Sierra de las Cañas|254|519|554|60
+Sierra de los Caracoles|253|369|547|-80
+Sierra de las Ánimas|252|152|644|90
+Sierra de la Ballena|251|367|738|0
