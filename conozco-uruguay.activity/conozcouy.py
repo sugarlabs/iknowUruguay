@@ -616,11 +616,12 @@ class ConozcoUy():
                     self.pantalla.fill((20,20,20),
                                        (int(610*scale+shift_x),yLista-int(24*scale),
                                         int(590*scale),int(48*scale)))
-                    self.mostrarTexto("Pagina siguiente >>>",
-                                      self.fuente40,
-                                      (int(900*scale+shift_x),yLista),
-                                      (100,100,200))
-                    paginaSiguienteActiva = True
+                    if indiceDir < nDirectorios:
+                        self.mostrarTexto("Pagina siguiente >>>",
+                                          self.fuente40,
+                                          (int(900*scale+shift_x),yLista),
+                                          (100,100,200))
+                        paginaSiguienteActiva = True
                     nDirectoriosCol2 = 10
                 else:
                     nDirectoriosCol2 = indiceDir - paginaDirectorios * 20 - 10
@@ -668,12 +669,10 @@ class ConozcoUy():
                             else:
                                 if pos[1] < 225*scale+shift_y+nDirectoriosCol2*50*scale or (paginaSiguienteActiva and pos[1] < 775*scale+shift_y):
                                     self.indiceDirectorioActual = int((pos[1]-int(225*scale+shift_y))//int(50*scale)) + paginaDirectorios * 20 + 10
-                                    print(self.indiceDirectorioActual)
                                     if self.indiceDirectorioActual == paginaDirectorios*20+20 and paginaSiguienteActiva:
                                         paginaDirectorios = paginaDirectorios + 1
                                         paginaAnteriorActiva = True
                                         cambiarPagina = True
-                                        break
                                     elif self.indiceDirectorioActual<paginaDirectorios*20+20:
                                         return
                                 elif pos[1] > 800*scale+shift_y and pos[1] < 850*scale+shift_y:
