@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 # Conozco Uruguay
-# Copyright (C) 2008,2009 Gabriel Eirea
+# Copyright (C) 2008,2009,2010 Gabriel Eirea
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,10 +19,14 @@
 # Gabriel Eirea geirea@gmail.com
 # Ceibal Jam http://ceibaljam.org
 
-import sys, pygame, random, os
+import sys
+import random
+import os
+import pygame
 import olpcgames
 import gtk
 
+# constantes
 RADIO = 10
 RADIO2 = RADIO**2
 XMAPAMAX = 786
@@ -101,7 +105,7 @@ class Punto():
     def estaAca(self,pos):
         """Devuelve un booleano indicando si esta en la coordenada pos,
         la precision viene dada por la constante global RADIO"""
-        if (pos[0]-self.posicion[0])**2+\
+        if (pos[0]-self.posicion[0])**2 + \
                 (pos[1]-self.posicion[1])**2 < RADIO2:
             return True
         else:
@@ -109,7 +113,7 @@ class Punto():
 
     def dibujar(self,pantalla,flipAhora):
         """Dibuja un punto en su posicion"""
-        pantalla.blit(self.simbolo, (self.posicion[0]-8,self.posicion[1]-8))
+        pantalla.blit(self.simbolo, (self.posicion[0]-8, self.posicion[1]-8))
         if flipAhora:
             pygame.display.flip()
 
@@ -117,7 +121,7 @@ class Punto():
         """Escribe el nombre del punto en su posicion"""
         text = fuente.render(self.nombre, 1, color)
         textrect = text.get_rect()
-        textrect.center = (self.postexto[0],self.postexto[1])
+        textrect.center = (self.postexto[0], self.postexto[1])
         pantalla.blit(text, textrect)
 	if flipAhora:
             pygame.display.flip()
@@ -153,9 +157,9 @@ class Zona():
     def mostrarNombre(self,pantalla,fuente,color,flipAhora):
         """Escribe el nombre de la zona en su posicion"""
         text = fuente.render(self.nombre, 1, color)
-        textrot = pygame.transform.rotate(text,self.rotacion)
+        textrot = pygame.transform.rotate(text, self.rotacion)
         textrect = textrot.get_rect()
-        textrect.center = (self.posicion[0],self.posicion[1])
+        textrect.center = (self.posicion[0], self.posicion[1])
         pantalla.blit(textrot, textrect)
 	if flipAhora:
             pygame.display.flip()
@@ -481,7 +485,7 @@ class ConozcoUy():
                     pygame.display.flip()
 
     def pantallaInicial(self):
-        """Pantalla con el menu principal del juego."""
+        """Pantalla con el menu principal del juego"""
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
         self.mostrarTexto("Conozco Uruguay",
@@ -583,7 +587,7 @@ class ConozcoUy():
                     pygame.display.flip()
 
     def pantallaDirectorios(self):
-        """Pantalla con el menu de directorios."""
+        """Pantalla con el menu de directorios"""
         global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
         self.mostrarTexto("Conozco Uruguay",
@@ -634,7 +638,8 @@ class ConozcoUy():
                 terminar = False
                 while not terminar:
                     self.pantalla.fill((20,20,20),
-                                       (int(610*scale+shift_x),yLista-int(24*scale),
+                                       (int(610*scale+shift_x),
+                                        yLista-int(24*scale),
                                         int(590*scale),int(48*scale)))
                     self.mostrarTexto(self.listaNombreDirectorios[indiceDir],
                                       self.fuente40,
@@ -647,7 +652,8 @@ class ConozcoUy():
                         terminar = True
                 if indiceDir == paginaDirectorios * 20 + 20:
                     self.pantalla.fill((20,20,20),
-                                       (int(610*scale+shift_x),yLista-int(24*scale),
+                                       (int(610*scale+shift_x),
+                                        yLista-int(24*scale),
                                         int(590*scale),int(48*scale)))
                     if indiceDir < nDirectorios:
                         self.mostrarTexto("Pagina siguiente >>>",
@@ -855,12 +861,12 @@ class ConozcoUy():
             "XXX....XXX         XXX.......XXX",
             "XXX....XXX          XXX......XXX",
             "XXX....XXX           XXX.....XXX",
-            "XXX....XXX            XXX....XXX",
-            "XXXX..XXXX             XXXXXXXX ",
-            " XXXXXXX                XXXXXX  ",
-            "  XXXXX                  XXXX   ")
-        cursor= pygame.cursors.compile(datos_cursor)
-        pygame.mouse.set_cursor((32,32),(1,1),*cursor)
+            "XXX....XXX            XXX...XXXX",
+            " XXX..XXX              XXXXXXXX ",
+            "  XXXXXX                XXXXXX  ",
+            "   XXXX                  XXXX   ")
+        cursor = pygame.cursors.compile(datos_cursor)
+        pygame.mouse.set_cursor((32,32), (1,1), *cursor)
 
     def cargarDirectorio(self):
         """Carga la informacion especifica de un directorio"""

@@ -1,38 +1,38 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Colonia del Sacramento|327|628|1|0|14
-Tarariras|441|449|2|0|-12
-Nueva Palmira|18|257|2|40|12
-Carmelo|84|332|2|0|-12
-Conchillas|247|445|2|0|-12
+Colonia del Sacramento|330|634|1|-80|14
+Tarariras|442|508|2|0|-14
+Nueva Palmira|18|263|2|65|0
+Carmelo|78|336|2|-40|4
+Conchillas|222|445|2|0|-14
 Antolin|364|464|2|0|12
-La Estanzuela|384|540|2|0|-12
-Semillero|402|545|2|0|12
-Ombúes de Lavalle|334|293|2|0|12
-Barker|521|494|2|12|-12
-Rosario|580|528|2|0|-12
-Florencio Sanchez|569|249|2|0|12
-Juan Lacaze|528|598|2|0|-12
-Colonia Valdense|652|540|2|30|-12
-Nueva Helvecia|645|508|2|0|-12
-Miguelete|424|328|2|0|12
-Cufré|710|450|2|0|-12
-La Paz|636|549|2|0|12
-Tres Esquinas|575|357|2|0|12
-Manantiales|510|454|2|20|-12
+La Estanzuela|388|546|2|0|-14
+Semillero|403|561|2|43|0
+Ombúes de Lavalle|315|301|2|-30|12
+Barker|535|511|2|12|-14
+Rosario|584|537|2|0|-14
+Florencio Sánchez|569|249|2|0|-14
+Juan Lacaze|540|605|2|0|14
+Colonia Valdense|623|563|2|30|-14
+Nueva Helvecia|642|524|2|0|-14
+Miguelete|413|337|2|0|-14
+Cufré|704|458|2|0|-14
+La Paz|609|567|2|-35|-2
+Tres Esquinas|566|413|2|0|12
+Manantiales|510|454|2|20|-14
 El Cuadro|364|427|2|-10|12
-El Cerro|129|342|2|0|12
-Víboras|149|246|2|0|-12
-Campana|296|358|2|0|12
-Cerro de las Armas|397|375|2|0|12
+El Cerro|114|331|2|30|12
+Víboras|135|313|2|0|-14
+Campana|279|357|2|0|12
+Cerro de las Armas|384|380|2|40|-14
 #balnearios
-Riachuelo|389|617|2|0|12
-El Ensueño|409|609|2|-20|0
-Santa Ana|427|605|2|0|0
-Artilleros|451|596|2|0|-12
-Bocas del Rosario|547|601|2|0|12
-Blancarena|605|600|2|0|-12
-Britópolis|625|599|2|0|12
-Fomento|649|599|2|0|0
-Los Pinos|665|600|2|0|0
-Santa Regina|683|605|2|40|12
+Riachuelo|389|617|2|28|15
+El Ensueño|445|599|2|-50|-3
+Santa Ana|454|597|2|0|-14
+Artilleros|463|597|2|40|-1
+Boca del Rosario|601|606|2|0|25
+Blancarena|610|600|2|-40|-13
+Britópolis|625|599|2|20|16
+Fomento|634|599|2|32|-13
+Los Pinos|665|600|2|43|-4
+Santa Regina|683|609|2|49|12

@@ -1,23 +1,24 @@
 # Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # rios
-Río de la Plata|254|194|706|0
-Río San Juan|253|431|402|0
-Río Rosario|252|702|436|0
+Río de la Plata|254|380|766|0
+Río San Juan|253|353|432|30
+Río Rosario|252|632|544|45
 # arroyos
-A. de las Viboras|251|123|279|0
-A. de las Vacas|250|219|329|0
-A. Juan González|249|208|383|0
-A. Miguelete|248|348|385|90
-A. del General|247|414|583|0
-A. Colla|246|540|450|90
-A. Pichinanga|245|608|403|90
-A. Cufré|244|718|532|90
-A. San Luis|243|447|439|0
-A. Tarariras|242|388|486|0
-A. Sauce|241|212|427|0
-A. del Riachuelo|240|429|570|45
-A. San Pedro|239|324|521|0
-A. Sauce Gr.|238|496|541|-50
-A. Chileno|237|166|242|45
-A. Polanco|236|123|248|-90
-A. Ventura|235|223|435|45
+A. de las Víboras|251|153|302|0
+A. de las Vacas|250|195|335|-10
+A. Juan González|249|208|370|-10
+A. Miguelete|248|348|388|50
+A. del General|247|365|582|45
+A. Colla|246|566|450|-80
+A. Pichinango|245|616|413|-78
+A. Cufré|244|728|532|90
+A. San Luis|243|451|442|0
+A. Tarariras|242|413|475|0
+#A. Sauce|241|212|427|0
+A. del Riachuelo|240|416|570|45
+A. San Pedro|239|324|521|15
+A. Sauce Gr.|238|493|556|-60
+A. Chileno|237|165|240|60
+A. Polanco|236|123|237|-90
+#A. Ventura|235|223|435|45
+A. Minuano|220|537|536|85
