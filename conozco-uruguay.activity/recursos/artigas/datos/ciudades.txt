@@ -1,16 +1,16 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Artigas|523|290|1|0|-14
-Las Piedras|122|218|2|0|-12
-Bella Unión|126|232|2|50|0
-Caínsa|121|253|2|40|0
-Mones Quintela|111|279|2|40|0
-Tomás Gomensoro|179|296|2|60|0
-Colonia Palma|91|355|2|0|12
+Artigas|523|290|1|-40|0
+#Las Piedras|122|218|2|0|-12
+Bella Unión|126|232|2|57|-10
+#Caínsa|121|253|2|40|0
+#Mones Quintela|111|279|2|40|0
+Tomás Gomensoro|179|296|2|40|-14
+Colonia Palma|91|355|2|20|12
 Paso Farías|269|312|2|0|12
-Baltasar Brum|216|417|2|0|-12
-Bernabé Rivera|353|242|2|0|-12
-Diego Lamas|312|427|2|0|-12
-Paso Campamento|415|454|2|0|-12
-Sequeira|376|529|2|0|-12
-Catalán|558|425|2|0|-12
+Baltasar Brum|216|417|2|-20|-14
+Bernabé Rivera|353|242|2|0|-14
+Diego Lamas|312|427|2|0|-14
+Paso Campamento|415|454|2|0|-14
+Sequeira|376|529|2|0|-14
+Catalán|558|425|2|0|-14
