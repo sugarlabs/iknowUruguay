@@ -79,13 +79,13 @@ Young|142|481|2|30|0
 # puntos historicos
 # puntos turisticos
 # cerros
-Cerro de Montevideo|341|849|5|0|12
-Cerro Pan de Azúcar|488|838|5|0|12
-Cerro Verdún|474|752|5|0|12
-Cerro Arequita|482|729|5|0|-12
-Cerro Catedral|572|752|5|0|12
-Cerro de las Animas|476|820|5|0|-12
-Cerros de Batoví|364|335|5|0|12
-Cerro Bonito|566|304|5|0|12
-Cerro del Medio|444|282|5|0|12
-Cerro Chato|485|546|5|0|-12
+Cerro de Montevideo|341|849|5|0|15
+Cerro Pan de Azúcar|488|838|5|87|0
+Cerro Verdún|474|752|5|-5|15
+Cerro Arequita|482|729|5|0|-15
+Cerro Catedral|572|752|5|5|15
+Cerro de las Animas|476|820|5|0|-15
+Cerros de Batoví|364|335|5|0|14
+Cerro Bonito|566|304|5|0|14
+Cerro del Medio|444|282|5|0|14
+Cerro Chato|485|546|5|5|-15

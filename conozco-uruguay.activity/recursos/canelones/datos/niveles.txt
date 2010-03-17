@@ -111,3 +111,31 @@ Pregunta = uno de los balnearios\más pintorescos de la\Costa de Oro|2|Cuchilla A
 Pregunta = el balneario que\se sitúa a orillas del\arrollo Solís Grande|2|Jaureguiberry|Es el último balneario\de la Costa de Oro
 Pregunta = donde se corren rallyes\internacionales de caballos árabes|2|Bello Horizonte|Queda cerca de La Floresta
 Pregunta = donde se realizan\las criollas en\Semana de Turismo|2|Parque Roosvelt|Queda en el límite con\Montevideo
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, rios
+nombreInicial =
+Pregunta = el Río de la Plata|3|Río de la Plata|Queda al sur
+Pregunta = el Río Santa Lucía|3|Río Santa Lucía|Queda al norte y oeste
+Pregunta = el Arroyo Vejigas|3|A. Vejigas|Queda al norte
+Pregunta = el Arroyo del Tala|3|A. del Tala|Queda al norte
+Pregunta = el Arroyo Sarandí|3|A. Sarandí|Queda al este
+Pregunta = el Arroyo Canelón Grande|3|A. Canelón Gr.|Queda al noroeste
+Pregunta = el Arroyo Canelón Chico|3|A. Canelón Ch.|Queda al oeste
+Pregunta = el Arroyo Pando|3|A. Pando|Desemboca en el\Río de la Plata
+Pregunta = el Arroyo Solís Chico|3|A. Solís Ch.|Desemboca en el\Río de la Plata
+Pregunta = el Arroyo Solís Grande|3|A. Solís Gr.|Queda en el límite\con Maldonado
+Pregunta = el Arroyo Mosquitos|3|A. Mosquitos|Queda al sureste
+Pregunta = el Arroyo Sauce|3|A. Sauce|Queda al centro
+Pregunta = el Arroyo Brujas Grande|3|A. Brujas Gr.|Queda al oeste
+Pregunta = el Arroyo de las Piedras|3|A. de las Piedras|Queda en el límite\con Montevideo
+Pregunta = el Arroyo Colorado|3|A. Colorado|Queda al oeste
+Pregunta = el Arroyo Toledo|3|A. Toledo|Queda en el límite\con Montevideo
+Pregunta = el Arroyo Carrasco|3|A. Carrasco|Queda en el límite\con Montevideo
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Atraviesa el departamento\por el centro
+Pregunta = la Cuchilla Cabo de Hornos|4|Cabo de Hornos|Queda al este
+

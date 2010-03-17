@@ -1,18 +1,20 @@
 # Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # rios
 Río de la Plata|254|377|769|0
-Río Santa Lucía|253|117|291|0
+Río Santa Lucía|253|160|291|0
 # arroyos
-A. Vejigas|252|523|228|0
-A. del Tala|251|342|301|0
-A. Sarandí|250|701|453|-90
-A. Canelón Gr.|249|293|363|30
-A. Canelón Ch.|248|232|445|45
-A. Pando|247|414|465|90
-A. Solís Ch.|246|510|441|90
+A. Vejigas|252|533|224|0
+A. del Tala|251|342|298|15
+A. Sarandí|250|675|347|-90
+A. Canelón Gr.|249|293|363|-10
+A. Canelón Ch.|248|237|445|-45
+A. Pando|247|414|485|90
+A. Solís Ch.|246|510|461|90
+A. Solís Gr.|239|730|540|-80
 A. Mosquitos|245|586|519|45
-A. Sauce|244|346|490|-45
-A. Brujas Gr.|243|117|510|45
-A. de las Piedras|242|152|539|45
-A. Toledo|241|240|562|0
-A. Carrasco|240|342|603|90
+A. Sauce|244|346|490|-55
+A. Brujas Gr.|243|122|510|55
+A. de las Piedras|238|170|592|-45
+A. Colorado|242|186|522|0
+A. Toledo|241|255|562|0
+A. Carrasco|240|342|623|90
