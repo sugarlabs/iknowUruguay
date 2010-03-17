@@ -1,0 +1,113 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Rivera|1|Rivera|Dále, probá de nuevo
+Pregunta = el departamento\de Tacuarembó|1|Tacuarembó|Dále, probá de nuevo
+Pregunta = el departamento\de Durazno|1|Durazno|Dále, probá de nuevo
+Pregunta = el departamento\de Cerro Largo|1|Cerro Largo|Dále, probá de nuevo
+Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Melo|1|Melo|Es la capital del\departamento
+Pregunta = la ciudad\de Isidoro Noblía|2|Isidoro Noblía|Está al norte
+Pregunta = la ciudad\de Centurión|2|Centurión|Está al noroeste
+Pregunta = la ciudad\de Bañados de Medina|2|Bañados de Medina|Está en el centro
+Pregunta = la ciudad\de Tres Islas|2|Tres Islas|Está en el centro
+Pregunta = la ciudad\de Quebracho|2|Quebracho|Está al oeste
+Pregunta = la ciudad\de Arévalo|2|Arévalo|Está al suroeste
+Pregunta = la ciudad\de Tupambaé|2|Tupambaé|Está al suroeste
+Pregunta = la ciudad\de C. de las Cuentas|2|C. de las Cuentas|Está al sur
+Pregunta = la ciudad\de Fraile Muerto|2|Fraile Muerto|Está en el centro
+Pregunta = la ciudad\de Arbolito|2|Arbolito|Está al sur
+Pregunta = la ciudad\de Plácido Rosas|2|Plácido Rosas|Está al sureste
+Pregunta = la ciudad\de Río Branco|2|Río Branco|Está al sureste
+Pregunta = la ciudad\de Tambos de Melo|2|Tambos de Melo|Está en el centro
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Yaguarón|3|Río Yaguarón|Queda en el límite\con Brasil
+Pregunta = el Río Negro|3|Río Negro|Queda en el límite\con Tacuarembó
+Pregunta = el Río Tacuarí|3|Río Tacuarí|Queda en el límite\con Treinta y Tres
+Pregunta = el Arroyo del Parao|3|A. del Parao|Queda al sur
+#Pregunta = el Arroyo del Campamento|3|A. del Campamento|Queda al sur
+Pregunta = el Arroyo Santos|3|A. Santos|Queda al sureste
+Pregunta = el Arroyo Malo|3|A. Malo|Queda al sureste
+#Pregunta = el Arroyo Mangrullo|3|A. Mangrullo|Queda al sureste
+Pregunta = el Arroyo Chuy|3|A. Chuy|Queda en el centro
+Pregunta = el Arroyo del Sauce|3|A. del Sauce|Queda en el centro
+Pregunta = el Arroyo del Cordobés|3|A. del Cordobés|Queda al suroeste
+Pregunta = el Arroyo Lechiguana|3|A. Lechiguana|Queda al suroeste
+Pregunta = el Arroyo Pablo Páez|3|A. Pablo Páez|Queda al suroeste
+Pregunta = el Arroyo Tarariras|3|A. Tarariras|Queda al suroeste
+Pregunta = el Arroyo Tupambaé|3|A. Tupambaé|Queda al oeste
+Pregunta = el Arroyo Quebracho|3|A. Quebracho|Queda al sur
+#Pregunta = el Arroyo del Medio|3|A. del Medio|Queda al suroeste
+Pregunta = el Arroyo Fraile Muerto|3|A. Fraile Muerto|Queda al este
+Pregunta = el Arroyo del Sarandí|3|A. del Sarandí|Queda al noroeste
+Pregunta = el Arroyo Zapallar|3|A. Zapallar|Queda al noroeste
+#Pregunta = el Arroyo S. del Zapallar|3|A. S. del Zapallar|Queda al noroeste
+#Pregunta = el Arroyo Palleros|3|A. Palleros|Queda al noroeste
+Pregunta = el Arroyo Aceguá|3|A. Aceguá|Queda al norte
+#Pregunta = el Arroyo Molles|3|A. Molles|Queda al norte
+Pregunta = el Arroyo Pantanoso|3|A. Pantanoso|Queda al norte
+#Pregunta = el Arroyo Berachi|3|A. Berachi|Queda al noreste
+#Pregunta = el Arroyo Burros|3|A. Burros|Queda al noreste
+#Pregunta = el Arroyo de las Cañas|3|A. de las Cañas|Queda al este
+#Pregunta = el Arroyo Sarandí|3|A. Sarandí|Queda al este
+Pregunta = la Laguna Merin|3|Laguna Merin|Queda al sur
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Sierra de Aceguá|4|Sierra de Aceguá|Dále, probá de nuevo
+Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo
+Pregunta = la Sierra de los Ríos|4|Sierra de los Ríos|Dále, probá de nuevo
+Pregunta = la Cuchilla de Mangrullo|4|Cuchilla de Mangrullo|Dále, probá de nuevo
+Pregunta = la Cuchilla del Cordobés|4|Cuchilla del Cordobés|Dále, probá de nuevo
