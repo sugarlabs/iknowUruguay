@@ -19,7 +19,7 @@ nombreInicial = deptos
 elementosActivos = capitales, ciudades
 
 [Exploro cursos de agua]
-dibujoInicial = rios
+dibujoInicial = lineasDepto, rios
 nombreInicial =
 elementosActivos = rios
 

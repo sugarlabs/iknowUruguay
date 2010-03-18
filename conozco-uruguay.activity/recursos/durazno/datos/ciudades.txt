@@ -1,20 +1,20 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Durazno|237|601|1|0|14
-Sarandi del Yi|538|589|2|0|-12
-Blanquillo|552|403|2|0|-12
-La paloma|569|332|2|0|-12
-Carlos Reyles|253|487|2|0|-12
-Centenario|243|391|2|10|12
-Baygorria|147|416|2|15|12
+Durazno|237|601|1|42|0
+Sarandi del Yi|538|589|2|-30|-14
+Blanquillo|552|403|2|20|-15
+La Paloma|569|332|2|0|14
+Carlos Reyles|253|487|2|0|-14
+Centenario|243|391|2|25|14
+Baygorria|147|416|2|39|12
 Aguas Buenas|480|390|2|0|12
-Pueblo de Alvarez|603|286|2|0|-12
-Feliciano|156|525|2|0|-12
+Pueblo de Alvarez|603|286|2|-10|15
+Feliciano|156|525|2|0|-14
 Ombúes de Oribe|300|566|2|60|12
-Rossell y Rius|514|519|2|0|-12
-San Jorge|452|386|2|0|-12
-Carmen|417|549|2|0|-12
-Cerro Chato|719|490|2|0|-12
-Santa Bernardina|248|563|2|0|-12
-Puntas de Malbajar|595|460|2|0|-12
-Cuchillas de Ramirez|602|285|2|0|-12
+Rossell y Rius|514|519|2|0|-14
+San Jorge|452|386|2|-20|-14
+Carmen|417|549|2|0|-14
+Cerro Chato|719|490|2|-54|0
+Santa Bernardina|248|563|2|0|-14
+Puntas de Malbajar|595|460|2|0|-14
+#Cuchillas de Ramirez|602|285|2|0|-12

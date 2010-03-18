@@ -9,3 +9,4 @@ Florida|249|450|778|0
 Cerro Largo|248|714|324|-90
 San José|247|175|874|0
 Lavalleja|246|728|757|-90
+Treinta y Tres|245|776|511|-90
