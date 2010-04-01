@@ -1,0 +1,104 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Durazno|1|Durazno|Dále, probá de nuevo
+Pregunta = el departamento\de Soriano|1|Soriano|Dále, probá de nuevo
+Pregunta = el departamento\de Flores|1|Flores|Dále, probá de nuevo
+Pregunta = el departamento\de Colonia|1|Colonia|Dále, probá de nuevo
+Pregunta = el departamento\de San José|1|San José|Dále, probá de nuevo
+Pregunta = el departamento\de Florida|1|Florida|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Trinidad|2|Trinidad|Es la capital del\departamento
+Pregunta = el pueblo\de Andresito|2|Andresito|Está al norte
+Pregunta = el pueblo\de Juan José Castro|2|Juan José Castro|Está en el centro
+Pregunta = el pueblo\de Cerro Colorado|2|Cerro Colorado|Está en el centro
+Pregunta = el pueblo\de La Casilla|2|La Casilla|Está al sur
+Pregunta = el pueblo\de San Gregorio|2|San Gregorio|Está al sur
+Pregunta = el pueblo\de Ismael Cortinas|2|Ismael Cortinas|Está al suroeste
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río San José|3|Río San José|Está al sur
+Pregunta = el Río Yí|3|Río Yí|Está al noreste
+Pregunta = el Río Negro|3|Río Negro|Está al norte
+Pregunta = el Arroyo Grande|3|A. Grande|Está al oeste
+Pregunta = el Arroyo Marincho|3|A. Marincho|Está al noroeste
+Pregunta = el Arroyo Coronilla|3|A. Coronilla|Está al norte
+Pregunta = el Arroyo Sarandi|3|A. Sarandi|Está al norte
+Pregunta = el Arroyo Porongos|3|A. Porongos|Está al noreste
+Pregunta = el Arroyo del Sarandí|3|A. del Sarandí|Está en el centro
+Pregunta = el Arroyo del Tala|3|A. del Tala|Está al este
+Pregunta = el Arroyo San Gregorio|3|A. San Gregorio|Está al sur
+Pregunta = el Arroyo Pintos|3|A. Pintos|Está al sur
+Pregunta = el Arroyo Bolas Gr.|3|A. Bolas Gr.|Está al sur
+Pregunta = el Arroyo Juncal|3|A. Juncal|Está al sur
+Pregunta = el Arroyo del Sauce|3|A. del Sauce|Está al suroeste
+Pregunta = el Arroyo Ojosmín|3|A. Ojosmín|Está al suroeste
+Pregunta = el Arroyo Guardia Vieja|3|A. Guardia Vieja|Está al oeste
+Pregunta = el Arroyo Manantiales|3|A. Manantiales|Está al oeste
+Pregunta = el Arroyo Arenal Ch.|3|A. Arenal Ch.|Está al oeste
+Pregunta = el Arroyo Sauce|3|A. Sauce|Está al noroeste
+Pregunta = el Arroyo Tala|3|A. Tala|Está al norte
+Pregunta = el Arroyo Malo|3|A. Malo|Está al norte
+Pregunta = el Arroyo de la Cordobesa|3|A. de la Cordobesa|Está al este
+Pregunta = el Arroyo Duraznito|3|A. Duraznito|Está al este
+Pregunta = el Arroyo Chamangá|3|A. Chamangá|Está al este
+Pregunta = el Arroyo de los Ahogados|3|A. de los Ahogados|Está al sureste
+Pregunta = el Arroyo Piedra Sola|3|A. Piedra Sola|Está al sureste
+Pregunta = el Arroyo Maciel|3|A. Maciel|Está al este
+Pregunta = el Arroyo Manguera|3|A. Manguera|Está al noreste
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla Marincho|4|Cuchilla Marincho|Dále, probá de nuevo
+Pregunta = la Cuchilla Villasboas|4|Cuchilla Villasboas|Dále, probá de nuevo
+Pregunta = la Cuchilla Grande Inferior|4|Cuchilla Grande Inferior|Dále, probá de nuevo

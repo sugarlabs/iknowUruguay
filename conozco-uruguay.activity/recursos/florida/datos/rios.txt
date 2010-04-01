@@ -2,41 +2,40 @@
 # rios
 Río Yí|254|500|172|35
 Río Santa Lucía|253|340|777|0
-Río Santa Lucía Ch.|252|369|554|0
+Río Santa Lucía Ch.|252|349|556|5
 # arroyos
 A. Palermo|251|322|517|30
-#A.|250|||0
 A. de la Cruz|249|193|545|-60
 A. Mansavillagra|248|418|346|-40
-A. del Potrero|247|551|474|-60
-A. S. de Mansavillagra|246|494|342|10
-A. Tigre|245|502|431|90
-A. Illescas|244|529|271|-45
-A. del Pescado|243|644|207|-30
+A. del Potrero|247|551|474|-50
+#A. S. de Mansavillagra|246|494|342|10
+#A. Tigre|245|502|431|90
+A. Illescas|244|529|271|-40
+A. del Pescado|243|644|204|-25
 A. Molles de P.|242|593|244|-45
 A. Monzón|241|646|178|-20
-A. Valentín|240|693|137|-45
-A. Manguera|239|433|275|-45
+#A. Valentín|240|693|137|-45
+A. Manguera|239|439|281|-45
 A. Maciel|238|37|447|-80
 A. de la Virgen|237|51|681|90
-A. de Mendoza|236|174|769|60
+A. de Mendoza|236|200|769|60
 A. de Arias|235|273|674|60
-A. San Gabriel|234|394|640|-60
+A. San Gabriel|234|394|626|-70
 A. Chamizo|233|334|713|20
-A. Chamamé|232|584|588|60
+A. Chamamé|232|594|588|60
 A. la Cruz|231|510|574|90
 A. Casupá|230|486|681|45
-A. de los Molles|229|86|392|-45
-A. Pintado|228|127|611|-60
+#A. de los Molles|229|86|392|-40
+A. Pintado|228|127|611|-65
 A. Pantanoso|227|219|404|-45
 A. Sarandí|226|152|420|80
-A. del Sauce|225|131|314|90
+#A. del Sauce|225|131|314|90
 A. Timote|224|428|463|-45
 A. Molles de Timote|223|351|383|-60
-A. Sauce de Timote|222|312|379|90
-A. Sauce de Abajo|221|250|324|-70
-A. Tala de Castro|220|226|318|-45
+A. Sauce de Timote|222|312|379|-80
+#A. Sauce de Abajo|221|250|324|-70
+#A. Tala de Castro|220|226|318|-45
 A. Bellaco|219|250|373|-30
-A. del Chancho|218|443|390|-30
-A. Juncal|217|203|472|70
-A. Sarandí Ch.|216|267|492|60
+#A. del Chancho|218|443|390|-30
+#A. Juncal|217|203|472|70
+A. Sarandí Ch.|216|271|485|75

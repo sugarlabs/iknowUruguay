@@ -4,12 +4,12 @@ Río San José|254|348|650|-45
 Río Yí|253|512|180|-45
 Río Negro|252|64|90|-45
 # arroyos
-A. Grande|251|107|418|-50
+A. Grande|251|115|418|-60
 A. Marincho|250|199|244|80
-A. Coronilla|249|246|242|60
-A. Sarandi|248|373|295|50
+A. Coronilla|249|246|242|-60
+A. Sarandi|248|373|295|55
 A. Porongos|247|443|338|90
-A. del Sarandí|246|385|453|50
+A. del Sarandí|246|390|453|55
 A. del Tala|245|615|539|60
 A. San Gregorio|244|488|718|40
 A. Pintos|243|451|615|80
@@ -24,9 +24,9 @@ A. Sauce|235|133|232|-60
 A. Tala|234|318|184|80
 A. Malo|233|369|187|80
 A. de la Cordobesa|232|531|349|60
-A. Duraznito|231|527|478|40
-A. Chamangá|230|549|537|45
-A. de los Ahogados|229|640|580|50
+A. Duraznito|231|535|478|40
+A. Chamangá|230|552|537|55
+A. de los Ahogados|229|640|580|55
 A. Piedra Sola|228|672|619|80
-A. Maciel|227|660|371|-60
+A. Maciel|227|655|371|-60
 A. Manguera|226|488|228|-60

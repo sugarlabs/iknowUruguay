@@ -1,0 +1,133 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Durazno|1|Durazno|Dále, probá de nuevo
+Pregunta = el departamento\de Florida|1|Florida|Dále, probá de nuevo
+Pregunta = el departamento\de Canelones|1|Canelones|Dále, probá de nuevo
+Pregunta = el departamento\de Lavalleja|1|Lavalleja|Dále, probá de nuevo
+Pregunta = el departamento\de San José|1|San José|Dále, probá de nuevo
+Pregunta = el departamento\de Flores|1|Flores|Dále, probá de nuevo
+Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Florida|2|Florida|Es la capital del\departamento
+Pregunta = el pueblo\de Cerro Chato|2|Cerro Chato|Está al noreste
+Pregunta = el pueblo\de Valentines|2|Valentines|Está al noreste
+Pregunta = el pueblo\de Capilla del Sauce|2|Capilla del Sauce|Está al noreste
+Pregunta = el pueblo\de Nico Pérez|2|Nico Pérez|Está al noreste
+Pregunta = el pueblo\de Illescas|2|Illescas|Está al noreste
+Pregunta = el pueblo\de Cerro Colorado|2|Cerro Colorado|Está al este
+Pregunta = el pueblo\de San Gabriel|2|San Gabriel|Está en el centro
+Pregunta = el pueblo\de Reboledo|2|Reboledo|Está al sureste
+Pregunta = el pueblo\de Casupá|2|Casupá|Está al sureste
+Pregunta = la ciudad\de Fray Marcos|2|Fray Marcos|Está al sureste
+Pregunta = el pueblo\de Chamizo|2|Chamizo|Está al sur
+Pregunta = el pueblo\de Goñi|2|Goñi|Está al noroeste
+Pregunta = el pueblo\de Puntas de Maciel|2|Puntas de Maciel|Está al noroeste
+Pregunta = la ciudad\de Sarandí Grande|2|Sarandí Grande|Está al noroeste
+Pregunta = el pueblo\de Pintado|2|Pintado|Está al oeste
+Pregunta = el pueblo\de La Cruz|2|La Cruz|Está al oeste
+Pregunta = el pueblo\de La Macana|2|La Macana|Está al oeste
+Pregunta = el pueblo\de Berrondo|2|Berrondo|Está al suroeste
+Pregunta = la ciudad\de 25 de Mayo|2|25 de Mayo|Está al suroeste
+Pregunta = el pueblo\de Mendoza Chico|2|Mendoza Chico|Está al suroeste
+Pregunta = el pueblo\de Mendoza Grande|2|Mendoza Grande|Está al sur
+Pregunta = el pueblo\de Cardal|2|Cardal|Está al suroeste
+Pregunta = el pueblo\de Independencia|2|Independencia|Está al suroeste
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Yí|3|Río Yí|Está al norte
+Pregunta = el Río Santa Lucía|3|Río Santa Lucía|Está al sur
+Pregunta = el Río Santa Lucía Ch.|3|Río Santa Lucía Ch.|Está en el centro
+Pregunta = el Arroyo Palermo|3|A. Palermo|Está en el centro
+Pregunta = el Arroyo de la Cruz|3|A. de la Cruz|Está al este
+Pregunta = el Arroyo Mansavillagra|3|A. Mansavillagra|Está al norte
+Pregunta = el Arroyo del Potrero|3|A. del Potrero|Está al este
+#Pregunta = el Arroyo S. de Mansavillagra|3|A. S. de Mansavillagra|Está al norte
+#Pregunta = el Arroyo Tigre|3|A. Tigre|Está al oeste
+Pregunta = el Arroyo Illescas|3|A. Illescas|Está al noreste
+Pregunta = el Arroyo del Pescado|3|A. del Pescado|Está al noreste
+Pregunta = el Arroyo Molles de P.|3|A. Molles de P.|Está al noreste
+Pregunta = el Arroyo Monzón|3|A. Monzón|Está al noreste
+#Pregunta = el Arroyo Valentín|3|A. Valentín|Está al noreste
+Pregunta = el Arroyo Manguera|3|A. Manguera|Está al norte
+Pregunta = el Arroyo Maciel|3|A. Maciel|Está al oeste
+Pregunta = el Arroyo de la Virgen|3|A. de la Virgen|Está al oeste
+Pregunta = el Arroyo de Mendoza|3|A. de Mendoza|Está al suroeste
+Pregunta = el Arroyo de Arias|3|A. de Arias|Está al sur
+Pregunta = el Arroyo San Gabriel|3|A. San Gabriel|Está al sureste
+Pregunta = el Arroyo Chamizo|3|A. Chamizo|Está al sur
+Pregunta = el Arroyo Chamamé|3|A. Chamamé|Está al sureste
+Pregunta = el Arroyo la Cruz|3|A. la Cruz|Está al este
+Pregunta = el Arroyo Casupá|3|A. Casupá|Está al sur
+#Pregunta = el Arroyo de los Molles|3|A. de los Molles|Está al noroeste
+Pregunta = el Arroyo Pintado|3|A. Pintado|Está al oeste
+Pregunta = el Arroyo Pantanoso|3|A. Pantanoso|Está al norte
+Pregunta = el Arroyo Sarandí|3|A. Sarandí|Está al norte
+#Pregunta = el Arroyo del Sauce|3|A. del Sauce|Está al noroeste
+Pregunta = el Arroyo Timote|3|A. Timote|Está en el centro
+Pregunta = el Arroyo Molles\de Timote|3|A. Molles de Timote|Está al norte
+Pregunta = el Arroyo Sauce de Timote|3|A. Sauce de Timote|Está al norte
+#Pregunta = el Arroyo Sauce de Abajo|3|A. Sauce de Abajo|Está al noroeste
+#Pregunta = el Arroyo Tala de Castro|3|A. Tala de Castro|Está al noroeste
+Pregunta = el Arroyo Bellaco|3|A. Bellaco|Está al noroeste
+#Pregunta = el Arroyo del Chancho|3|A. del Chancho|Está en el centro
+#Pregunta = el Arroyo Juncal|3|A. Juncal|Está en el centro
+Pregunta = el Arroyo Sarandí Ch.|3|A. Sarandí Ch.|Está en el centro
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla Mansavillagra|4|Cuchilla Mansavillagra|Dále, probá de nuevo
+Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo
+Pregunta = la Cuchilla Grande Inferior|4|Cuchilla Grande Inferior|Dále, probá de nuevo
+Pregunta = la Cuchilla del Pintado|4|Cuchilla del Pintado|Dále, probá de nuevo
+Pregunta = la Cuchilla Sta. Lucía|4|Cuchilla Sta. Lucía|Dále, probá de nuevo
