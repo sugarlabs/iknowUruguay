@@ -54,7 +54,7 @@ Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nue
 [Ciudades]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
-Pregunta = la ciudad\de Melo|1|Melo|Es la capital del\departamento
+Pregunta = la ciudad\de Melo|2|Melo|Es la capital del\departamento
 Pregunta = la ciudad\de Isidoro Noblía|2|Isidoro Noblía|Está al norte
 Pregunta = la ciudad\de Centurión|2|Centurión|Está al noroeste
 Pregunta = la ciudad\de Bañados de Medina|2|Bañados de Medina|Está en el centro

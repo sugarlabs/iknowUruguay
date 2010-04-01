@@ -59,7 +59,7 @@ Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nue
 [Ciudades]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
-Pregunta = la ciudad de\Durazno|1|Durazno|Es la capital\del departamento
+Pregunta = la ciudad de\Durazno|2|Durazno|Es la capital\del departamento
 Pregunta = la ciudad de\Sarandi del Yi|2|Sarandi del Yi|Está al sur
 Pregunta = la ciudad de\Blanquillo|2|Blanquillo|Está al oeste
 Pregunta = la ciudad de\La Paloma|2|La Paloma|Está al noreste
