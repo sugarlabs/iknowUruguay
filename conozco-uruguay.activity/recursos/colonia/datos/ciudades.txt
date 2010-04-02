@@ -36,3 +36,8 @@ Britópolis|625|599|2|20|16
 Fomento|634|599|2|32|-13
 Los Pinos|665|600|2|43|-4
 Santa Regina|683|609|2|49|12
+# cerros
+Co. Blanco|725|362|5|-40|14
+Cos. Negros|744|391|5|-40|14
+Co. de la Campana|587|427|5|-30|14
+Cos. de San Juan|276|464|5|20|14
