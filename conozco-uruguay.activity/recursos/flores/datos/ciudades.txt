@@ -7,3 +7,5 @@ Cerro Colorado|439|510|2|0|14
 La Casilla|299|611|2|0|-14
 San Gregorio|455|744|2|-30|-14
 Ismael Cortinas|242|759|2|59|-14
+# cerros
+Cos. de Ojosmín|268|507|5|0|14
