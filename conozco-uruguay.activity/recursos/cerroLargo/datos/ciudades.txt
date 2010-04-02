@@ -14,3 +14,10 @@ Arbolito|408|573|2|0|-14
 Plácido Rosas|572|632|2|0|-14
 Río Branco|691|575|2|-50|0
 Tambos de Melo|417|491|2|25|13
+# cerros
+Co. Gde. de Aceguá|341|270|5|0|-14
+Co. Colorado|517|491|5|34|-14
+Co. Redondo|467|379|5|0|14
+Co. Pablo Pérez|99|638|5|-14|18
+Co. Largo|385|555|5|0|14
+Co. Verde|437|508|5|0|14
