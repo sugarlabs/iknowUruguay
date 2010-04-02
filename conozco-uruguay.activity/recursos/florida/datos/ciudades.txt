@@ -24,3 +24,7 @@ Mendoza Chico|178|742|2|-35|12
 Mendoza Grande|187|783|2|50|12
 Cardal|92|775|2|32|0
 Independencia|88|810|2|65|-5
+# cerros
+Co. Pescado|519|214|5|0|14
+Co. Florida|220|642|5|0|-14
+Co. Valentín|734|172|5|-55|0

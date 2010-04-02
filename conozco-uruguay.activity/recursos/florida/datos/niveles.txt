@@ -131,3 +131,6 @@ Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo
 Pregunta = la Cuchilla Grande Inferior|4|Cuchilla Grande Inferior|Dále, probá de nuevo
 Pregunta = la Cuchilla del Pintado|4|Cuchilla del Pintado|Dále, probá de nuevo
 Pregunta = la Cuchilla Sta. Lucía|4|Cuchilla Sta. Lucía|Dále, probá de nuevo
+Pregunta = el Cerro Pescado|5|Co. Pescado|Queda al noreste
+Pregunta = el Cerro Florida|5|Co. Florida|Queda cerca de la capital
+Pregunta = el Cerro Valentín|5|Co. Valentín|Queda en el límite con\Treinta y Tres
