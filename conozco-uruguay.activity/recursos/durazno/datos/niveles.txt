@@ -125,3 +125,4 @@ nombreInicial =
 Pregunta = la Cuchilla|4|Cuchilla|Dále, probá de nuevo
 Pregunta = la Cuchilla Grande\del Durazno|4|Cuchilla Grande del Durazno|Dále, probá de nuevo
 Pregunta = la Cuchilla Villasboas|4|Cuchilla Villasboas|Dále, probá de nuevo
+Pregunta = el Cerro Dos Hermanos|5|Co. Dos Hermanos|Está al este
