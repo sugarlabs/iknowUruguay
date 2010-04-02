@@ -4,5 +4,5 @@ Cuchilla Grande|254|228|238|45
 Asperezas de Retamosa|253|511|283|-10
 Asperezas de Polanco|252|275|349|45
 Cuchilla Cerro Partido|251|301|515|45
-Cuchilla de Medina|250|137|510|30
+Cuchilla de Medina|250|137|500|30
 Sierra de Carapé|249|219|761|30

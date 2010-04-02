@@ -2,10 +2,15 @@
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
 Minas|213|679|1|0|14
 Batlle y Ordoñez|269|164|2|0|-12
-J. P. Varela|558|162|2|0|-12
-Pirarajá|451|318|2|0|-12
-Polanco|275|392|2|0|-12
-Gaetán|135|498|2|0|-12
-Mariscala|435|488|2|0|-12
-Villa del Rosario|144|664|2|0|-12
+J. P. Varela|558|162|2|0|14
+Pirarajá|451|318|2|0|-14
+Polanco|275|392|2|0|-14
+Gaetán|135|498|2|12|-14
+Mariscala|435|488|2|0|-14
+Villa del Rosario|144|664|2|0|-14
 Solís de Mataojo|107|804|2|0|-12
+# cerros
+Co. Espuelitas|169|499|5|20|14
+Co. Arequita|201|637|5|0|14
+Co. Verdún|184|693|5|0|14
+Co. Retamosa|505|255|5|0|-14
