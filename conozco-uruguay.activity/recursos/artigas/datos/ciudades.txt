@@ -14,3 +14,7 @@ Diego Lamas|312|427|2|0|-14
 Paso Campamento|415|454|2|0|-14
 Sequeira|376|529|2|0|-14
 Catalán|558|425|2|0|-14
+# cerros
+Co. Chato|402|224|5|0|14
+Tres Cerros de Catalán|522|400|5|0|14
+Co. Pintado|544|320|5|-20|14

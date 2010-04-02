@@ -102,4 +102,7 @@ dibujoInicial = cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla Yacaré Cururú|4|Cuchilla Yacaré Cururú|Dále, probá de nuevo
 Pregunta = la Cuchilla de Belén|4|Cuchilla de Belén|Dále, probá de nuevo
+Pregunta = el Cerro Chato|4|Co. Chato|Está al norte
+Pregunta = los Tres Cerros de Catalán|4|Tres Cerros de Catalán|Están al este
+Pregunta = el Cerro Pintado|4|Co. Pintado|Está cerca de la capital
 
