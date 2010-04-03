@@ -1,11 +1,17 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Maldonado|389|795|1|0|14
-Los Talas|713|150|2|0|-12
-Aiguá|535|236|2|0|-12
-José Ignacio|555|638|2|0|-12
-San Carlos|425|715|2|0|-12
-Punta del Este|402|852|2|0|-12
-Pan de Azúcar|227|709|2|0|-12
-Piriápolis|188|775|2|0|-12
-Punta Ballena|338|806|2|0|-12
+Maldonado|389|795|1|0|-15
+Los Talas|713|150|2|-30|-14
+Aiguá|535|236|2|27|0
+José Ignacio|609|759|2|2|16
+San Carlos|425|715|2|0|-14
+Punta del Este|402|852|2|2|17
+Pan de Azúcar|227|709|2|0|-14
+Piriápolis|188|775|2|30|-14
+Punta Ballena|338|806|2|-10|15
+Garzón|672|568|2|-35|0
+# cerros
+Co. del Toro|198|777|5|55|0
+Co. San Antonio|190|786|5|-76|0
+Co. Pan de Azúcar|193|752|5|0|-14
+Co. Catedral|588|384|5|20|14
