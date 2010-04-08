@@ -1,0 +1,108 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Paysandú|1|Paysandú|Dále, probá de nuevo
+Pregunta = el departamento\de Río Negro|1|Río Negro|Dále, probá de nuevo
+Pregunta = el departamento\de Soriano|1|Soriano|Dále, probá de nuevo
+Pregunta = el departamento\de Durazno|1|Durazno|Dále, probá de nuevo
+Pregunta = el departamento\de Flores|1|Flores|Dále, probá de nuevo
+Pregunta = el departamento\de Tacuarembó|1|Tacuarembó|Dále, probá de nuevo
+Pregunta = la República\Argentina|1|Argentina|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Fray Bentos|2|Fray Bentos|Es la capital del\departamento
+Pregunta = la ciudad\de Merinos|2|Merinos|Está al noreste
+Pregunta = la ciudad\de Algorta|2|Algorta|Está al norte
+Pregunta = la ciudad\de P. de los Mellizos|2|P. de los Mellizos|Está al noreste
+Pregunta = la ciudad\de Sarandí de Navarro|2|Sarandí de Navarro|Está al noreste
+Pregunta = la ciudad\de Paso de la Cruz|2|Paso de la Cruz|Está al norte
+Pregunta = la ciudad\de San Javier|2|San Javier|Está al noroeste
+Pregunta = la ciudad\de Young|2|Young|Está en el centro
+Pregunta = la ciudad\de Tres Quintas|2|Tres Quintas|Está al oeste
+Pregunta = la ciudad\de Bellaco|2|Bellaco|Está al oeste
+Pregunta = la ciudad\de Grecco|2|Grecco|Está al sureste
+Pregunta = la ciudad\de Nuevo Berlín|2|Nuevo Berlín|Está al suroeste
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Uruguay|3|Río Uruguay|Está al oeste
+Pregunta = el Río Negro|3|Río Negro|Está al sur
+Pregunta = el Arroyo Grande|3|A. Grande|Está al sur
+Pregunta = el Arroyo de las Flores|3|A. de las Flores|Está al sureste
+Pregunta = el Arroyo Averías Gr.|3|A. Averías Gr.|Está al noreste
+Pregunta = el Arroyo Averías Ch.|3|. Averías Ch.|Está en el centro
+Pregunta = el Arroyo Ñandubay|3|A. Ñandubay|Está al sur
+Pregunta = el Arroyo Don Esteban|3|A. Don Esteban|Está al norte
+Pregunta = el Arroyo Santa María|3|A. Santa María|Está al norte
+Pregunta = el Arroyo Negro|3|A. Negro|Está al noroeste
+Pregunta = el Arroyo Bellaco|3|A. Bellaco|Está al noroeste
+Pregunta = el Arroyo Gutiérrez|3|A. Gutiérrez|Está al noroeste
+Pregunta = el Arroyo Coladeras|3|A. Coladeras|Está al suroeste
+Pregunta = el Arroyo Sánchez|3|A. Sánchez|Está al suroeste
+#Pregunta = el Arroyo Sánchez Ch.|3|A. Sánchez Ch.|Está en el centro
+#Pregunta = el Arroyo Juanín|3|A. Juanín|Está al oeste
+#Pregunta = el Arroyo San Román|3|A. San Román|Está al oeste
+Pregunta = el Arroyo Salsipuedes Gr.|3|A. Salsipuedes Gr.|Está al noreste
+Pregunta = el Arroyo Tres Árboles|3|A. Tres Árboles|Está al noreste
+Pregunta = el Arroyo Rolón|3|A. Rolón|Está al noroeste
+Pregunta = el Arroyo Molles|3|A. Molles|Está al sureste
+#Pregunta = el Arroyo Argüello|3|A. Argüello|Está al noreste
+#Pregunta = el Arroyo Totoral|3|A. Totoral|Está al noroeste
+#Pregunta = el Arroyo Paurú|3|A. Paurú|Está en el centro
+#Pregunta = el Arroyo Sauce|3|A. Sauce|Está en el centro
+#Pregunta = el Arroyo Sarandí Gr.|3|A. Sarandí Gr.|Está al norte
+#Pregunta = el Arroyo Mataojo|3|A. Mataojo|Está al norte
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla de Haedo|4|Cuchilla de Haedo|Dále, probá de nuevo
+Pregunta = la Cuchilla de Navarro|4|Cuchilla de Navarro|Dále, probá de nuevo
+Pregunta = el Cerro Pelado|5|Co. Pelado|Queda al sur
+Pregunta = el Cerro del Quebracho|5|Co. del Quebracho|Queda en el centro

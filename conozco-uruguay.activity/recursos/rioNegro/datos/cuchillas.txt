@@ -1,4 +1,4 @@
 # Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # cuchillas
-Cuchilla de Haedo|254|322|367|50
-Cuchilla de Navarro|253|576|459|45
+Cuchilla de Haedo|254|322|367|40
+Cuchilla de Navarro|253|576|450|45

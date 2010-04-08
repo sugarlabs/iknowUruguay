@@ -1,14 +1,17 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Fray Bentos|79|596|1|30|-14
-Merinos|611|245|2|0|12
+Fray Bentos|79|596|1|32|14
+Merinos|611|250|2|0|12
 Algorta|421|273|2|0|12
 P. de los Mellizos|513|307|2|30|-12
 Sarandí de Navarro|626|317|2|0|12
 Paso de la Cruz|388|322|2|0|12
-San Javier|141|381|2|0|-12
-Young|326|395|2|0|-12
-Tres Quintas|205|417|2|-30|-12
+San Javier|141|381|2|40|-14
+Young|326|395|2|0|-14
+Tres Quintas|205|417|2|0|-14
 Bellaco|232|426|2|0|12
 Grecco|558|443|2|0|12
-Nuevo Berlín|174|525|2|0|-12
+Nuevo Berlín|174|525|2|54|0
+# cerros
+Co. Pelado|435|519|5|0|-14
+Co. del Quebracho|522|394|5|0|-14
