@@ -13,7 +13,7 @@ dibujoInicial = lineasDepto
 nombreInicial =
 elementosActivos = deptos
 
-[Exploro ciudades]
+[Exploro ciudades y barrios]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 elementosActivos = capitales, ciudades

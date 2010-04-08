@@ -1,38 +1,42 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Colonia del Sacramento|327|628|1|0|14
-Tarariras|441|449|2|0|-12
-Nueva Palmira|18|257|2|40|12
-Carmelo|84|332|2|0|-12
-Conchillas|247|445|2|0|-12
-Antolin|364|464|2|0|12
-La Estanzuela|384|540|2|0|-12
-Semillero|402|545|2|0|12
-Ombúes de Lavalle|334|293|2|0|12
-Barker|521|494|2|12|-12
-Rosario|580|528|2|0|-12
-Florencio Sanchez|569|249|2|0|12
-Juan Lazaze|528|598|2|0|-12
-Colonia Valdense|652|540|2|30|-12
-Nueva Helvecia|645|508|2|0|-12
-Miguelete|424|328|2|0|12
-Cufré|710|450|2|0|-12
-La Paz|636|549|2|0|12
-Tres Esquinas|575|357|2|0|12
-Manantiales|510|454|2|20|-12
-El Cuadro|364|427|2|-10|12
-El Cerro|129|342|2|0|12
-Víboras|149|246|2|0|-12
-Campana|296|358|2|0|12
-Cerro de las Armas|397|375|2|0|12
-#balnearios
-Riachuelo|389|617|2|0|12
-El Ensueño|409|609|2|-20|0
-Santa Ana|427|605|2|0|0
-Artilleros|451|596|2|0|-12
-Bocas del Rosario|547|601|2|0|12
-Blancarena|605|600|2|0|-12
-Britópolis|625|599|2|0|12
-Fomento|649|599|2|0|0
-Los Pinos|665|600|2|0|0
-Santa Regina|683|605|2|40|12
+Santiago Vázquez|165|392|2|55|14
+Ciudad Vieja|433|666|1|-50|18
+Centro|461|660|2|29|0
+Sur|464|675|2|-15|14
+Palermo|491|675|2|12|18
+Cordón|491|651|2|0|-12
+Aguada|462|628|2|-43|-3
+Punta Carretas|522|708|2|10|14
+Pocitos|546|672|2|35|18
+Buceo|585|648|2|20|14
+Malvín|631|632|2|0|-14
+Punta Gorda|677|637|2|15|22
+Carrasco|730|613|2|-4|-14
+Parque Batlle|540|639|2|0|-14
+Unión|564|598|2|28|0
+Maroñas|587|569|2|0|14
+Villa Española|551|567|2|0|-14
+Capurro|433|592|2|36|-2
+Prado|438|561|2|0|-14
+Belvedere|401|530|2|-30|10
+Cerro|348|613|2|-12|-14
+Casabó|274|602|2|-40|-2
+La Teja|385|582|2|0|-14
+Nuevo París|362|510|2|0|-14
+Sayago|422|501|2|0|-14
+Peñarol|463|495|2|20|14
+Colón|389|419|2|12|12
+Casavalle|501|487|2|42|0
+Cerrito de la Victoria|501|541|2|85|-5
+Jardines del Hipódromo|572|505|2|80|14
+Piedras Blancas|554|444|2|0|14
+Punta de Rieles|617|484|2|50|12
+Brazo Oriental|487|567|2|0|12
+Jacinto Vera|495|601|2|0|12
+Lezica|344|412|2|0|12
+Paso de la Arena|214|472|2|0|12
+Villa García|676|426|2|0|-14
+Manga|546|374|2|0|-14
+# cerros
+Co. de Montevideo|343|622|5|-75|-5

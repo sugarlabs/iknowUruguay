@@ -4,8 +4,9 @@ Por favor enviar comentarios y sugerencias a geirea@gmail.com
 Este programa es software libre y desarrollado por la comunidad
 Por más información visitá http://ceibaljam.org
 
-Información para el nivel "Lugares históricos": Ana Trujillo y Ana Cichero (coordinación)
+Gráficos y niveles para todos los departamentos menos Canelones: Alan Aguiar
+Información para el nivel "Lugares históricos" de Uruguay: Ana Trujillo y Ana Cichero (coordinación)
 Información para Canelones: Nancy Gómez, su hijo Matías y Ana Cichero (coordinación)
-Gráficos para todos los departamentos menos Canelones: Alan Aguiar
+Información para el nivel "Información de Montevideo": Miriam Martínez y Magdalena Lallo
 Sonidos bajados de freesound.org: btn045.wav gentileza de junggle y boom1.wav gentileza de NoiseCollector
 Fuentes bajadas de urbanfonts.com: AllCaps.ttf gentileza de BobFrantic y Share-Regular.ttf gentileza de anónimo
