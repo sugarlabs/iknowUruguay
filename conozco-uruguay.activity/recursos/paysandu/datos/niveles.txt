@@ -1,0 +1,154 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Salto|1|Salto|Dále, probá de nuevo
+Pregunta = el departamento\de Paysandú|1|Paysandú|Dále, probá de nuevo
+Pregunta = el departamento\de Río Negro|1|Río Negro|Dále, probá de nuevo
+Pregunta = el departamento\de Durazno|1|Durazno|Dále, probá de nuevo
+Pregunta = el departamento\de Tacuarembó|1|Tacuarembó|Dále, probá de nuevo
+Pregunta = la República\Argentina|1|Argentina|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Paysandú|2|Paysandú|Es la capital del\departamento
+Pregunta = el pueblo\de Chapicuy|2|Chapicuy|Está al noroeste
+Pregunta = el pueblo\de Bella Vista|2|Bella Vista|Está al noroeste
+Pregunta = el pueblo\de Pueblo Gallinal|2|Pueblo Gallinal|Está al noroeste
+Pregunta = la ciudad\de Cerro Chato|2|Cerro Chato|Está al noroeste
+Pregunta = la ciudad\de Quebracho|2|Quebracho|Está al noroeste
+Pregunta = el pueblo\de Soto|2|Soto|Está al noroeste
+Pregunta = el pueblo\de El Eucalipto|2|El Eucalipto|Está al norte
+Pregunta = el pueblo\de Tambores|2|Tambores|Está al noreste
+Pregunta = el pueblo\de Guarapirú|2|Guarapirú|Está al norte
+Pregunta = el pueblo\de Queguayar|2|Queguayar|Está al oeste
+Pregunta = el pueblo\de Lorenzo Geyres|2|Lorenzo Geyres|Está al oeste
+Pregunta = el pueblo\de Cuchilla del Fuego|2|Cuchilla del Fuego|Está en el centro
+Pregunta = el pueblo\de Piedra Sola|2|Piedra Sola|Está al este
+Pregunta = el pueblo\de Constancia|2|Constancia|Está al suroeste
+Pregunta = el pueblo\de Curapí|2|Curapí|Está al suroeste
+Pregunta = el pueblo\de Esperanza|2|Esperanza|Está al suroeste
+Pregunta = el pueblo\de Porvenir|2|Porvenir|Está al suroeste
+Pregunta = la ciudad\de Piedras Coloradas|2|Piedras Coloradas|Está al sur
+Pregunta = el pueblo\de Orgoroso|2|Orgoroso|Está al sur
+Pregunta = el pueblo\de Arroyo Negro|2|Arroyo Negro|Está al sur
+Pregunta = el pueblo\de La Tentación|2|La Tentación|Está al suroeste
+Pregunta = la ciudad\de Guichón|2|Guichón|Está al sur
+Pregunta = el pueblo\de Beisso|2|Beisso|Está al sur
+Pregunta = el pueblo\de Tres Arboles|2|Tres Arboles|Está al sureste
+Pregunta = el pueblo\de Tiatucurá|2|Tiatucurá|Está al sureste
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Uruguay|3|Río Uruguay|Está al oeste
+Pregunta = el Río Daymán|3|Río Daymán|Está al noroeste
+Pregunta = el Río Queguay Gr.|3|Río Queguay Gr.|Está al oeste
+Pregunta = el Río Queguay Ch.|3|Río Queguay Ch.|Está en el centro
+#Pregunta = el Río Negro|3|Río Negro|Está al sureste
+#Pregunta = el Arroyo Chapicuy Gr.|3|A. Chapicuy Gr.|Está al noroeste
+#Pregunta = el Arroyo Chapicuy Ch.|3|A. Chapicuy Ch.|Está al noroeste
+Pregunta = el Arroyo Guaviyú|3|A. Guaviyú|Está al noroeste
+#Pregunta = el Arroyo Malo|3|A. Malo|Está al oeste
+Pregunta = el Arroyo Quebracho Gr.|3|A. Quebracho Gr.|Está al oeste
+Pregunta = el Arroyo Araujo|3|A. Araujo|Está al oeste
+Pregunta = el Arroyo de Soto|3|A. de Soto|Está al oeste
+Pregunta = el Arroyo Buricayupí|3|A. Buricayupí|Está en el centro
+Pregunta = el Arroyo Carumbé|3|A. Carumbé|Está al noroeste
+#Pregunta = el Arroyo Tierras Coloradas|3|A. Tierras Coloradas|Está al noroeste
+#Pregunta = el Arroyo Zanja Honda|3|A. Zanja Honda|Está al noroeste
+Pregunta = el Arroyo San Fsco. Gr.|3|A. San Fsco. Gr.|Está al suroeste
+#Pregunta = el Arroyo San Fsco. Ch.|3|A. San Fsco. Ch.|Está al suroeste
+Pregunta = el Arroyo Negro|3|A. Negro|Está al suroeste
+Pregunta = el Arroyo Rabón|3|A. Rabón|Está al suroeste
+Pregunta = el Arroyo Valdés|3|A. Valdés|Está al suroeste
+Pregunta = el Arroyo Celestina|3|A. Celestina|Está al suroeste
+#Pregunta = el Arroyo del Gato|3|A. del Gato|Está al suroeste
+Pregunta = el Arroyo Bacacuá Gr.|3|A. Bacacuá Gr.|Está en el centro
+#Pregunta = el Arroyo Bacacuá Ch.|3|A. Bacacuá Ch.|Está al oeste
+#Pregunta = el Arroyo Chaco|3|A. Chaco|Está al oeste
+Pregunta = el Arroyo Ñacurutú Gr.|3|A. Ñacurutú Gr.|Está al sur
+Pregunta = el Arroyo de la Capilla|3|A. de la Capilla|Está en el centro
+Pregunta = el Arroyo Guayabos|3|A. Guayabos|Está al sur
+Pregunta = el Arroyo Santa Ana|3|A. Santa Ana|Está al sur
+#Pregunta = el Arroyo Molles|3|A. Molles|Está al sureste
+#Pregunta = el Arroyo Sauce del Medio|3|A. Sauce del Medio|Está al sureste
+Pregunta = el Arroyo de los Corrales|3|A. de los Corrales|Está al sureste
+Pregunta = el Arroyo de los Molles|3|A. de los Molles|Está en el centro
+#Pregunta = el Arroyo Palomas|3|A. Palomas|Está en el centro
+#Pregunta = el Arroyo Blanquillo|3|A. Blanquillo|Está al noreste
+Pregunta = el Arroyo Zapatero|3|A. Zapatero|Está al este
+#Pregunta = el Arroyo Laureles|3|A. Laureles|Está al noreste
+#Pregunta = el Arroyo Sauce Solo|3|A. Sauce Solo|Está al este
+#Pregunta = el Arroyo Tropas|3|A. Tropas|Está al sureste
+#Pregunta = el Arroyo Mataojo|3|A. Mataojo|Está al sureste
+#Pregunta = el Arroyo Canaria|3|A. Canaria|Está al sureste
+#Pregunta = el Arroyo Laureles Gr.|3|A. Laureles Gr.|Está al noreste
+Pregunta = el Arroyo Juan Tomás|3|A. Juan Tomás|Está al sureste
+Pregunta = el Arroyo Salsipuedes Gr.|3|A. Salsipuedes Gr.|Está al sureste
+#Pregunta = el Arroyo Blanquillo Ch.|3|A. Blanquillo Ch.|Está al norte
+#Pregunta = el Arroyo Tunas|3|A. Tunas|Está al norte
+#Pregunta = el Arroyo Tomás Paz|3|A. Tomás Paz|Está al noroeste
+Pregunta = el Arroyo Molles Gr.|3|A. Molles Gr.|Está en el centro
+Pregunta = el Arroyo Molles Ch.|3|A. Molles Ch.|Está al norte
+Pregunta = el Arroyo Gualeguay|3|A. Gualeguay|Está en el centro
+Pregunta = el Arroyo Guarapirú|3|A. Guarapirú|Está en el centro
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla del Queguay|4|Cuchilla del Queguay|Dále, probá de nuevo
+Pregunta = la Cuchilla de Haedo|4|Cuchilla de Haedo|Dále, probá de nuevo
+Pregunta = el Cerro de los Difuntos|5|Co. de los Difuntos|Queda al oeste
+Pregunta = el Cerro Buricayupí|5|Co. Buricayupí|Queda en el centro
+Pregunta = el Cerro de la Glorieta|5|Co. de la Glorieta|Queda al norte
+Pregunta = el Cerro del Vigía|5|Co. del Vigía|Queda al noreste
+Pregunta = el Cerro Campana|5|Co. Campana|Queda al noreste
+Pregunta = el Cerro Arbolito|5|Co. Arbolito|Queda al este
+Pregunta = el Cerro del Toro|5|Co. del Toro|Queda al sur
+Pregunta = el Cerro Palmera Sola|5|Co. Palmera Sola|Queda al sur
+Pregunta = la Meseta de Artigas|5|Meseta de Artigas|Queda sobre el\Río Uruguay
