@@ -1,0 +1,117 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Rivera|1|Rivera|Dále, probá de nuevo
+Pregunta = el departamento\de Artigas|1|Artigas|Dále, probá de nuevo
+Pregunta = el departamento\de Salto|1|Salto|Dále, probá de nuevo
+Pregunta = el departamento\de Tacuarembó|1|Tacuarembó|Dále, probá de nuevo
+Pregunta = el departamento\de Cerro Largo|1|Cerro Largo|Dále, probá de nuevo
+Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Rivera|1|Rivera|Es la capital del\departamento
+Pregunta = la ciudad\de Curticeiras|2|Curticeiras|Está al norte
+Pregunta = la ciudad\de Tranqueras|2|Tranqueras|Está al noroeste
+Pregunta = la ciudad\de La Calera|2|La Calera|Está en el centro
+Pregunta = la ciudad\de Lapuente|2|Lapuente|Está en el centro
+Pregunta = la ciudad\de Cerrillada|2|Cerrillada|Está al norte
+Pregunta = la ciudad\de Cerro Pelado|2|Cerro Pelado|Está en el centro
+Pregunta = la ciudad\de Minas de Corrales|2|Minas de Corrales|Está en el centro
+Pregunta = la ciudad\de Hospital|2|Hospital|Está al sureste
+Pregunta = la ciudad\de Las Flores|2|Las Flores|Está al sureste
+Pregunta = la ciudad\de Vichadero|2|Vichadero|Está al sureste
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Tacuarembó|3|Río Tacuarembó|Está al noroeste
+Pregunta = el Río Negro|3|Río Negro|Está al sureste
+Pregunta = el Arroyo Laureles|3|A. Laureles|Está al noroeste
+Pregunta = el Arroyo Tigre|3|A. Tigre|Está al noroeste
+Pregunta = el Arroyo Médanos|3|A. Médanos|Está al oeste
+Pregunta = el Arroyo Mangueras|3|A. Mangueras|Está al noreste
+Pregunta = el Arroyo del Ataque|3|A. del Ataque|Está al noreste
+Pregunta = el Arroyo Batoví Dorado|3|A. Batoví Dorado|Está al noreste
+Pregunta = el Arroyo Cuñapirú|3|A. Cuñapirú|Está al norte
+Pregunta = el Arroyo Corrales|3|A. Corrales|Está en el centro
+#Pregunta = el Arroyo Laureles|3|A. Laureles|Está al oeste
+Pregunta = el Arroyo J. Amarillas|3|A. J. Amarillas|Está en el centro
+Pregunta = el Arroyo Coronilla|3|A. Coronilla|Está en el centro
+#Pregunta = el Arroyo Agandez|3|A. Agandez|Está al sur
+Pregunta = el Arroyo Carpintería|3|A. Carpintería|Está al sur
+Pregunta = el Arroyo Yaguarí|3|A. Yaguarí|Está en el centro
+Pregunta = el Arroyo Amarillo|3|A. Amarillo|Está en el centro
+#Pregunta = el Arroyo Balbapor|3|A. Balbapor|Está en el centro
+Pregunta = el Arroyo Cerro|3|A. Cerro|Está en el centro
+Pregunta = el Arroyo del Hospital|3|A. del Hospital|Está al este
+Pregunta = el Arroyo San Luis|3|A. San Luis|Está al este
+Pregunta = el Arroyo Ceibal|3|A. Ceibal|Está al sureste
+#Pregunta = el Arroyo de los Mongoles|3|A. de los Mongoles|Está al sureste
+Pregunta = el Arroyo Zanja Honda|3|A. Zanja Honda|Está al sureste
+#Pregunta = el Arroyo Coronilla|3|A. Coronilla|Está al este
+Pregunta = el Arroyo Blanco|3|A. Blanco|Está al este
+Pregunta = el Arroyo Molles|3|A. Molles|Está al este
+Pregunta = el Arroyo Caraguatá|3|A. Caraguatá|Está al sureste
+#Pregunta = el Arroyo de la Coronilla|3|A. de la Coronilla|Está al sureste
+Pregunta = el Arroyo Cerro Chato|3|A. Cerro Chato|Está al sur
+#Pregunta = el Arroyo Sauce|3|A. Sauce|Está en el centro
+
+[Elevaciones]
+dibujoInicial = lineasDepto, cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla de Cuñapirú|4|Cuchilla de Cuñapirú|Está en el centro
+Pregunta = la Cuchilla del Yaguarí|4|Cuchilla del Yaguarí|Queda al sur
+Pregunta = la Cuchilla Negra|4|Cuchilla Negra|Queda en el límite\con Artigas
+Pregunta = la Cuchilla de Haedo|4|Cuchilla de Haedo|Queda al oeste
+Pregunta = la Cuchilla de Santa Ana|4|Cuchilla de Santa Ana|Queda en el límite\con Brasil
+Pregunta = el Cerro del Hospital|5|Co. del Hospital|Queda al este
+Pregunta = el Cerro Bonito|5|Co. Bonito|Queda al este
+Pregunta = el Cerro de la Cruz|5|Co. de la Cruz|Queda al sur
+Pregunta = el Cerro del Medio|5|Co. del Medio|Queda en el límite\con Tacuarembó
+Pregunta = el Cerro de los Peludos|5|Co. de los Peludos|Queda al noroeste

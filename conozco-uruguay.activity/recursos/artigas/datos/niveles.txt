@@ -51,20 +51,20 @@ Pregunta = el departamento\de Paysandú|1|Paysandú|Dále, probá de nuevo
 Pregunta = el departamento\de Rivera|1|Rivera|Dále, probá de nuevo
 Pregunta = el departamento\de Tacuarembó|1|Tacuarembó|Dále, probá de nuevo
 
-[Ciudades]
+[Ciudades y pueblos]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Artigas|2|Artigas|Es la capital del\departamento
 Pregunta = la ciudad\de Bella Unión|2|Bella Unión|Está bien al norte
 Pregunta = la ciudad\de Tomás Gomensoro|2|Tomás Gomensoro|Está al noroeste
-Pregunta = la ciudad\de Colonia Palma|2|Colonia Palma|Está al oeste
-Pregunta = la ciudad\de Paso Farías|2|Paso Farías|Está en el centro
-Pregunta = la ciudad\de Baltasar Brum|2|Baltasar Brum|Está en el suroeste
-Pregunta = la ciudad\de Bernabé Rivera|2|Bernabé Rivera|Está al norte
-Pregunta = la ciudad\de Diego Lamas|2|Diego Lamas|Está en el centro
-Pregunta = la ciudad de Paso Campamento|2|Paso Campamento|Está en el centro
-Pregunta = la ciudad de Sequeira|2|Sequeira|Está al sur
-Pregunta = la ciudad de Catalán|2|Catalán|Está al este
+Pregunta = el pueblo\de Colonia Palma|2|Colonia Palma|Está al oeste
+Pregunta = el pueblo\de Paso Farías|2|Paso Farías|Está en el centro
+Pregunta = el pueblo\de Baltasar Brum|2|Baltasar Brum|Está en el suroeste
+Pregunta = el pueblo\de Bernabé Rivera|2|Bernabé Rivera|Está al norte
+Pregunta = el pueblo\de Diego Lamas|2|Diego Lamas|Está en el centro
+Pregunta = el pueblo\de Paso Campamento|2|Paso Campamento|Está en el centro
+Pregunta = el pueblo\de Sequeira|2|Sequeira|Está al sur
+Pregunta = el pueblo\de Catalán|2|Catalán|Está al este
 
 [Cursos de agua]
 dibujoInicial = lineasDepto, capitales, rios

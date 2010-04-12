@@ -84,12 +84,11 @@ Pregunta = el barrio Paso de la Arena|2|Paso de la Arena|Queda al oeste
 Pregunta = el barrio Villa García|2|Villa García|Queda al noreste
 Pregunta = el barrio Manga|2|Manga|Queda al norte
 
-
 [Información del departamento]
 dibujoInicial = lineasDepto, capitales, ciudades, rios, cerros
 nombreInicial = capitales, ciudades
 Pregunta = el punto más elevado\del departamento|5|Co. de Montevideo|Es el símbolo\del departamento
-Pregunta = el segundo punta más elevado\del departamento|2|Cerrito de la Victoria|Es un barrio muy popular
+Pregunta = el segundo punto más elevado\del departamento|2|Cerrito de la Victoria|Es un barrio muy popular
 Pregunta = el arroyo que limita al este\con Canelones|3|A. Carrasco|Desemboca en el\Río de la Plata
 Pregunta = el barrio donde originariamente\se fundó la ciudad de San Felipe\y Santiago de Montevideo|2|Ciudad Vieja|Queda sobre la bahía
 Pregunta = el barrio donde funcionaban\los talleres de ferrocarril|2|Peñarol|Un importante cuadro\de fútbol lleva su nombre

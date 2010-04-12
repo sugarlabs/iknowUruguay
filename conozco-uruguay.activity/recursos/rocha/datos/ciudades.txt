@@ -1,10 +1,21 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Rocha|303|709|1|0|-14
-Cebollatí|543|96|2|0|-12
-San Luis al Medio|572|264|2|-20|-12
-Lascano|361|308|2|0|-12
-18 de Julio|638|312|2|-40|-12
-La Coronilla|650|412|2|0|-12
-Velázquez|336|480|2|0|-12
-Castillos|506|568|2|0|-12
+Rocha|303|709|1|0|-15
+Cebollatí|543|96|2|20|12
+San Luis al Medio|572|264|2|-20|-14
+Lascano|361|308|2|0|-14
+18 de Julio|638|312|2|-40|-14
+La Coronilla|652|420|2|-40|-14
+Velázquez|336|480|2|0|-14
+Castillos|506|568|2|0|-14
+La Paloma|375|798|2|22|18
+La Pedrera|388|765|2|48|8
+Cabo Polonio|529|670|2|62|0
+Barra de Valizas|528|639|2|72|-2
+Aguas Dulces|529|615|2|62|0
+Punta del Diablo|634|504|2|72|4
+Pque. Santa Teresa|645|447|2|-65|-14
+Barra del Chuy|705|352|2|-64|2
+Chuy|672|318|2|-10|12
+# cerros
+Co. de Aguirre|363|649|5|0|14

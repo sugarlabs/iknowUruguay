@@ -2,6 +2,6 @@
 # departamentos
 Treinta y Tres|254|283|86|0
 Lavalleja|253|135|289|0
-Maldonado|252|100|175|0
+Maldonado|252|100|800|0
 Rocha|251|394|408|0
 Brasil|250|738|182|-90

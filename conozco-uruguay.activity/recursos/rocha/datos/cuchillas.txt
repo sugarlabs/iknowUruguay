@@ -1,5 +1,5 @@
 # Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # cuchillas
-Cuchilla de Bella Vista|254|351|346|45
-Cuchilla de la Carbonera|253|556|441|45
-Cuchilla de la India Muerta|252|439|634|-45
+Cuchilla de las Averías|254|361|346|55
+Cuchilla de la Carbonera|253|506|481|35
+Cuchilla de la India Muerta|252|409|584|-60

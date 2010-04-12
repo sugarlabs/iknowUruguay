@@ -13,17 +13,17 @@ dibujoInicial = lineasDepto
 nombreInicial =
 elementosActivos = deptos
 
-[Exploro ciudades]
+[Exploro ciudades y pueblos]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 elementosActivos = capitales, ciudades
 
 [Exploro cursos de agua]
-dibujoInicial = rios
+dibujoInicial = lineasDepto, rios
 nombreInicial =
 elementosActivos = rios
 
 [Exploro elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 elementosActivos = cuchillas, cerros

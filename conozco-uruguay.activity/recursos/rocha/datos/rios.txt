@@ -1,34 +1,34 @@
 # Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # rios
 Río de la Plata|254|627|754|45
-Río Cebollatí|253|416|164|45
-Río San Luis|252|566|307|45
+Río Cebollatí|253|416|164|40
+Río San Luis|252|586|327|45
 # arroyos
-A. de las Pelotas|251|492|199|30
-A. de la India Muerta|250|357|369|45
+A. de las Pelotas|251|492|199|20
+A. de la India Muerta|250|357|369|60
 A. S. de la Paloma|249|295|533|70
-A. Sarandí de la I. M.|248|392|510|-45
-A. Sauce|247|449|470|-45
-A. Sauce Caído|246|451|385|-45
-A. San Miguel|245|599|349|45
-A. S. del Peñon|244|482|424|90
-A. del Sarandí|243|595|418|45
-A. del Chuy|242|711|316|-45
-A. del Peñon|241|521|488|-20
+A. Sarandí de la I. M.|248|392|510|-55
+A. Sauce|247|439|470|-30
+A. Sauce Caído|246|451|385|-50
+A. San Miguel|245|606|345|45
+A. S. del Peñon|244|502|424|90
+A. del Sarandí|243|605|414|35
+A. del Chuy|242|711|326|-45
+A. del Peñon|241|521|508|-10
 A. del Sauce|240|535|543|0
 A. Castillos|239|459|564|90
-A. Don Carlos|238|367|691|-45
-A. del Chafalote|237|430|650|-70
+A. Don Carlos|238|367|691|-30
+A. del Chafalote|237|410|645|-75
 A. Garzón|236|203|761|90
-A. Carpinchos|235|255|694|-45
+A. Carpinchos|235|265|718|-50
 A. del Oeste|234|261|645|90
 A. de los Rocha|233|292|643|70
-A. de las Conchas|232|327|721|60
+#A. de las Conchas|232|327|721|60
 A. del Alférez|231|222|508|90
-A. Aiguá|230|250|336|60
-A. Aguas Buenas|229|273|433|-45
+A. Aiguá|230|265|336|70
+#A. Aguas Buenas|229|273|433|-45
 # lagunas
-Lag. Merin|228|717|92|45
-Lag. Negra|227|583|448|0
-Lag. Castillos|226|447|626|90
-Lag. de Rocha|225|356|775|90
+Lag. Merin|228|670|42|45
+Lag. Negra|227|583|478|0
+Lag. Castillos|226|481|626|0
+Lag. de Rocha|225|326|783|0

@@ -1,7 +1,7 @@
 # Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # departamentos
 Rivera|254|318|367|0
-Artigas|253|59|174|45
+Artigas|253|50|164|0
 Salto|252|31|287|90
 Tacuarembó|251|213|713|0
 Cerro Largo|250|740|765|-90

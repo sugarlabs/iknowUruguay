@@ -1,0 +1,115 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nuevo
+Pregunta = el departamento\de Lavalleja|1|Lavalleja|Dále, probá de nuevo
+Pregunta = el departamento\de Maldonado|1|Maldonado|Dále, probá de nuevo
+Pregunta = el departamento\de Rocha|1|Rocha|Dále, probá de nuevo
+Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Rocha|2|Rocha|Es la capital del\departamento
+Pregunta = la ciudad\de Cebollatí|2|Cebollatí|Está al norte
+Pregunta = la ciudad\de San Luis al Medio|2|San Luis al Medio|Está al noreste
+Pregunta = la ciudad\de Lascano|2|Lascano|Está al noroeste
+Pregunta = la ciudad\de 18 de Julio|2|18 de Julio|Está al este
+Pregunta = la ciudad\de La Coronilla|2|La Coronilla|Está al este
+Pregunta = la ciudad\de Velázquez|2|Velázquez|Está en el centro
+Pregunta = la ciudad\de Castillos|2|Castillos|Está al sureste
+Pregunta = la ciudad\de La Paloma|2|La Paloma|Es un importante puerto\y balneario
+Pregunta = el balneario\de La Pedrera|2|La Pedrera|Queda cerca de\La Paloma
+Pregunta = el balneario\de Cabo Polonio|2|Cabo Polonio|Queda en el sureste
+Pregunta = el balneario\de Barra de Valizas|2|Barra de Valizas|Queda cerca de Cabo Polonio
+Pregunta = el balneario\de Aguas Dulces|2|Aguas Dulces|Queda cerca de Castillos
+Pregunta = el balneario\de Punta del Diablo|2|Punta del Diablo|Queda cerca de\la Laguna Negra
+Pregunta = el Parque Nacional\de Santa Teresa|2|Pque. Santa Teresa|Queda cerca de La Coronilla
+Pregunta = el balneario\de Barra del Chuy|2|Barra del Chuy|Queda en el límite\con Brasil
+Pregunta = la ciudad\de Chuy|2|Chuy|Queda en el límite\con Brasil
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río de la Plata|3|Río de la Plata|Está al sur
+Pregunta = el Río Cebollatí|3|Río Cebollatí|Está al norte
+Pregunta = el Río San Luis|3|Río San Luis|Está al noreste
+Pregunta = el Arroyo de las Pelotas|3|A. de las Pelotas|Está al norte
+Pregunta = el Arroyo de la\India Muerta|3|A. de la India Muerta|Está en el centro
+Pregunta = el Arroyo S. de la Paloma|3|A. S. de la Paloma|Está al oeste
+Pregunta = el Arroyo Sarandí de\la India M.|3|A. Sarandí de la I. M.|Está en el centro
+Pregunta = el Arroyo Sauce|3|A. Sauce|Está en el centro
+Pregunta = el Arroyo Sauce Caído|3|A. Sauce Caído|Está en el centro
+Pregunta = el Arroyo San Miguel|3|A. San Miguel|Está al este
+Pregunta = el Arroyo S. del Peñon|3|A. S. del Peñon|Está en el centro
+Pregunta = el Arroyo del Sarandí|3|A. del Sarandí|Está al este
+Pregunta = el Arroyo del Chuy|3|A. del Chuy|Está al este
+Pregunta = el Arroyo del Peñon|3|A. del Peñon|Está al sureste
+Pregunta = el Arroyo del Sauce|3|A. del Sauce|Está al sureste
+Pregunta = el Arroyo Castillos|3|A. Castillos|Está al sureste
+Pregunta = el Arroyo Don Carlos|3|A. Don Carlos|Está al sur
+Pregunta = el Arroyo del Chafalote|3|A. del Chafalote|Está al sureste
+Pregunta = el Arroyo Garzón|3|A. Garzón|Está al suroeste
+Pregunta = el Arroyo Carpinchos|3|A. Carpinchos|Está al sur
+Pregunta = el Arroyo del Oeste|3|A. del Oeste|Está al suroeste
+Pregunta = el Arroyo de los Rocha|3|A. de los Rocha|Está al sur
+#Pregunta = el Arroyo de las Conchas|3|A. de las Conchas|Está al sur
+Pregunta = el Arroyo del Alférez|3|A. del Alférez|Está al oeste
+Pregunta = el Arroyo Aiguá|3|A. Aiguá|Está al oeste
+#Pregunta = el Arroyo Aguas Buenas|3|. Aguas Buenas|Está al oeste
+Pregunta = la Laguna Merin|3|Lag. Merin|Está al noreste
+Pregunta = la Laguna Negra|3|Lag. Negra|Está al este
+Pregunta = la Laguna Castillos|3|Lag. Castillos|Está al sureste
+Pregunta = la Laguna de Rocha|3|Lag. de Rocha|Está al sur
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla de las Averías|4|Cuchilla de las Averías|Dále, probá de nuevo
+Pregunta = la Cuchilla de la Carbonera|4|Cuchilla de la Carbonera|Dále, probá de nuevo
+Pregunta = la Cuchilla de la India Muerta|4|Cuchilla de la India Muerta|Dále, probá de nuevo
+Pregunta = el Cerro de Aguirre|5|Co. de Aguirre|Queda al sur
