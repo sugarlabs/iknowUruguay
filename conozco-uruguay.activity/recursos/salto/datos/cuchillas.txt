@@ -1,5 +1,5 @@
 # Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # cuchillas
 Cuchilla de los Arapeyes|254|443|338|0
-Cuchilla del Daymán|253|312|510|-45
-Cuchilla de Haedo|252|646|467|60
+Cuchilla del Daymán|253|318|510|-55
+Cuchilla de Haedo|252|680|436|60
