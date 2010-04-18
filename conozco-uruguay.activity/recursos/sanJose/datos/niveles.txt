@@ -1,0 +1,115 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Flores|1|Flores|Dále, probá de nuevo
+Pregunta = el departamento\de Colonia|1|Colonia|Dále, probá de nuevo
+Pregunta = el departamento\de Florida|1|Florida|Dále, probá de nuevo
+Pregunta = el departamento\de Canelones|1|Canelones|Dále, probá de nuevo
+Pregunta = el departamento\de Montevideo|1|Montevideo|Dále, probá de nuevo
+Pregunta = el departamento\de Soriano|1|Soriano|Dále, probá de nuevo
+Pregunta = el departamento\de San José|1|San José|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de San José de Mayo|2|San José de Mayo|Es la capital del\departamento
+#Pregunta = la ciudad\de Ismael Cortinas|2|Ismael Cortinas|Está al noroeste
+Pregunta = el pueblo\de Mal Abrigo|2|Mal Abrigo|Está al noroeste
+Pregunta = el pueblo\de Carreta Quemada|2|Carreta Quemada|Está al noreste
+Pregunta = la localidad\de Estación González|2|Estación González|Está al oeste
+Pregunta = el pueblo\de Juan Soler|2|Juan Soler|Está en el centro
+Pregunta = el pueblo\de Raigon|2|Raigon|Está en el centro
+Pregunta = la ciudad\de Ecilda Paullier|2|Ecilda Paullier|Está al suroeste
+Pregunta = el pueblo\de Villa Rodríguez|2|Villa Rodríguez|Está en el centro
+#Pregunta = la ciudad\de Costas de Pereira|2|Costas de Pereira|Está al sur
+Pregunta = el pueblo\de Ituzaingó|2|Ituzaingó|Está al este
+Pregunta = el pueblo\de Capurro|2|Capurro|Está al este
+#Pregunta = la ciudad\de Villa María|2|Villa María|Está al sur
+Pregunta = la localidad\de Puntas de Valdez|2|Puntas de Valdez|Está al sureste
+#Pregunta = la ciudad\de 25 de Agosto|2|25 de Agosto|Está al este
+Pregunta = la localidad\de Rafael Perazza|2|Rafael Perazza|Está al sur
+Pregunta = la localidad\de Rincón del Pino|2|Rincón del Pino|Está al sur
+Pregunta = el balneario\de Kiyú|2|Kiyú|Está sobre el\Río de la Plata
+Pregunta = el balneario\de Ordeig|2|Ordeig|Está sobre el\Río de la Plata
+Pregunta = la ciudad\de Libertad|2|Libertad|Está al sur
+Pregunta = la localidad\de Delta del Tigre|2|Delta del Tigre|Está en la desembocadura\del Río Santa Lucía
+Pregunta = la Ciudad del Plata|2|Ciudad del Plata|Está al sur
+Pregunta = la localidad\de Playa Pascual|2|Playa Pascual|Está sobre el\Río de la Plata
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río de la Plata|3|Río de la Plata|Está al sur
+Pregunta = el Río Santa Lucía|3|Río Santa Lucía|Está al este
+Pregunta = el Río San José|3|Río San José|Está en el centro
+Pregunta = el Arroyo de la Virgen|3|A. de la Virgen|Está al este
+Pregunta = el Arroyo Mahoma|3|A. Mahoma|Está al noroeste
+Pregunta = el Arroyo Guaycurú|3|A. Guaycurú|Está al noroeste
+Pregunta = el Arroyo Chamizo|3|A. Chamizo|Está al norte
+Pregunta = el Arroyo Cerro|3|A. Cerro|Está al norte
+Pregunta = el Arroyo Carreta Quemada|3|A. Carreta Quemada|Está al noreste
+Pregunta = el Arroyo Tala Gr.|3|A. Tala Gr.|Está al noroeste
+Pregunta = el Arroyo Cufré|3|A. Cufré|Está al suroeste
+Pregunta = el Arroyo Escudero|3|A. Escudero|Está al oeste
+Pregunta = el Arroyo Pavón|3|A. Pavón|Está al oeste
+Pregunta = el Arroyo Toscaso|3|A. Toscaso|Está al suroeste
+Pregunta = el Arroyo Pereira|3|A. Pereira|Está al sur
+Pregunta = el Arroyo San Gregorio|3|A. San Gregorio|Está al sur
+Pregunta = el Arroyo S. Gregorio|3|A. S. Gregorio|Está al norte
+Pregunta = el Arroyo Tigre|3|A. Tigre|Está al sureste
+Pregunta = el Arroyo Cagancha|3|A. Cagancha|Está al este
+Pregunta = el Arroyo del Tala|3|A. del Tala|Está al este
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla Guaycurú|4|Cuchilla Guaycurú|Dále, probá de nuevo
+Pregunta = la Sierra Mahoma|4|Sierra Mahoma|Dále, probá de nuevo
+Pregunta = la Cuchilla del Tala|4|Cuchilla del Tala|Dále, probá de nuevo
+Pregunta = la Cuchilla Mangrullo|4|Cuchilla Mangrullo|Dále, probá de nuevo
+Pregunta = el Cerro Clara|5|Co. Clara|Está al norte
+Pregunta = el Cerro San José|5|Co. San José|Está en el centro
