@@ -56,16 +56,16 @@ Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Rivera|1|Rivera|Es la capital del\departamento
-Pregunta = la ciudad\de Curticeiras|2|Curticeiras|Está al norte
+Pregunta = el pueblo\de Curticeiras|2|Curticeiras|Está al norte
 Pregunta = la ciudad\de Tranqueras|2|Tranqueras|Está al noroeste
-Pregunta = la ciudad\de La Calera|2|La Calera|Está en el centro
-Pregunta = la ciudad\de Lapuente|2|Lapuente|Está en el centro
-Pregunta = la ciudad\de Cerrillada|2|Cerrillada|Está al norte
-Pregunta = la ciudad\de Cerro Pelado|2|Cerro Pelado|Está en el centro
-Pregunta = la ciudad\de Minas de Corrales|2|Minas de Corrales|Está en el centro
-Pregunta = la ciudad\de Hospital|2|Hospital|Está al sureste
-Pregunta = la ciudad\de Las Flores|2|Las Flores|Está al sureste
-Pregunta = la ciudad\de Vichadero|2|Vichadero|Está al sureste
+Pregunta = el pueblo\de La Calera|2|La Calera|Está en el centro
+Pregunta = el pueblo\de Lapuente|2|Lapuente|Está en el centro
+Pregunta = el pueblo\de Cerrillada|2|Cerrillada|Está al norte
+Pregunta = el pueblo\de Cerro Pelado|2|Cerro Pelado|Está en el centro
+Pregunta = el pueblo\de Minas de Corrales|2|Minas de Corrales|Está en el centro
+Pregunta = el pueblo\de Hospital|2|Hospital|Está al sureste
+Pregunta = el pueblo\de Las Flores|2|Las Flores|Está al sureste
+Pregunta = el pueblo\de Vichadero|2|Vichadero|Está al sureste
 
 [Cursos de agua]
 dibujoInicial = lineasDepto, capitales, rios

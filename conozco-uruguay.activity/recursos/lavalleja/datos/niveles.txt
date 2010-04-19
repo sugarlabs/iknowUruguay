@@ -56,14 +56,14 @@ Pregunta = el departamento\de Lavalleja|1|Lavalleja|Dále, probá de nuevo
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Minas|2|Minas|Es la capital del\departamento
-Pregunta = la ciudad\de Batlle y Ordoñez|2|Batlle y Ordoñez|Está al noroeste
-Pregunta = la ciudad\de J. P. Varela|2|J. P. Varela|Está al noreste
-Pregunta = la ciudad\de Pirarajá|2|Pirarajá|Está al norte
-Pregunta = la ciudad\de Polanco|2|Polanco|Está en el centro
-Pregunta = la ciudad\de Gaetán|2|Gaetán|Está al oeste
-Pregunta = la ciudad\de Mariscala|2|Mariscala|Está al este
-Pregunta = la ciudad\de Villa del Rosario|2|Villa del Rosario|Está al sur
-Pregunta = la ciudad\de Solís de Mataojo|2|Solís de Mataojo|Está al sur
+Pregunta = el pueblo\de Batlle y Ordoñez|2|Batlle y Ordoñez|Está al noroeste
+Pregunta = el pueblo\de J. P. Varela|2|J. P. Varela|Está al noreste
+Pregunta = el pueblo\de Pirarajá|2|Pirarajá|Está al norte
+Pregunta = el pueblo\de Polanco|2|Polanco|Está en el centro
+Pregunta = el pueblo\de Gaetán|2|Gaetán|Está al oeste
+Pregunta = el pueblo\de Mariscala|2|Mariscala|Está al este
+Pregunta = el pueblo\de Villa del Rosario|2|Villa del Rosario|Está al sur
+Pregunta = el pueblo\de Solís de Mataojo|2|Solís de Mataojo|Está al sur
 
 [Cursos de agua]
 dibujoInicial = lineasDepto, capitales, rios

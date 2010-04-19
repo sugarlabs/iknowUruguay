@@ -56,17 +56,17 @@ Pregunta = la República\Argentina|1|Argentina|Dále, probá de nuevo
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Fray Bentos|2|Fray Bentos|Es la capital del\departamento
-Pregunta = la ciudad\de Merinos|2|Merinos|Está al noreste
-Pregunta = la ciudad\de Algorta|2|Algorta|Está al norte
-Pregunta = la ciudad\de P. de los Mellizos|2|P. de los Mellizos|Está al noreste
-Pregunta = la ciudad\de Sarandí de Navarro|2|Sarandí de Navarro|Está al noreste
-Pregunta = la ciudad\de Paso de la Cruz|2|Paso de la Cruz|Está al norte
-Pregunta = la ciudad\de San Javier|2|San Javier|Está al noroeste
+Pregunta = el pueblo\de Merinos|2|Merinos|Está al noreste
+Pregunta = el pueblo\de Algorta|2|Algorta|Está al norte
+Pregunta = la localidad\de P. de los Mellizos|2|P. de los Mellizos|Está al noreste
+Pregunta = el pueblo\de Sarandí de Navarro|2|Sarandí de Navarro|Está al noreste
+Pregunta = la localidad\de Paso de la Cruz|2|Paso de la Cruz|Está al norte
+Pregunta = el pueblo\de San Javier|2|San Javier|Está al noroeste
 Pregunta = la ciudad\de Young|2|Young|Está en el centro
-Pregunta = la ciudad\de Tres Quintas|2|Tres Quintas|Está al oeste
-Pregunta = la ciudad\de Bellaco|2|Bellaco|Está al oeste
-Pregunta = la ciudad\de Grecco|2|Grecco|Está al sureste
-Pregunta = la ciudad\de Nuevo Berlín|2|Nuevo Berlín|Está al suroeste
+Pregunta = el pueblo\de Tres Quintas|2|Tres Quintas|Está al oeste
+Pregunta = el pueblo\de Bellaco|2|Bellaco|Está al oeste
+Pregunta = el pueblo\de Grecco|2|Grecco|Está al sureste
+Pregunta = el pueblo\de Nuevo Berlín|2|Nuevo Berlín|Está al suroeste
 
 [Cursos de agua]
 dibujoInicial = lineasDepto, capitales, rios
