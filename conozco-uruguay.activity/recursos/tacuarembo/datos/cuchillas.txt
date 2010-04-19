@@ -1,7 +1,7 @@
 # Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # cuchillas
-Cuchilla de las Tres Cruces|254|332|264|-45
-Cuchilla de Yaguarí|253|603|422|45
-Cuchilla del Caraguata|252|658|529|45
-Cuchilla de Peralta|251|107|683|50
+Cuchilla de las Tres Cruces|254|342|280|-55
+Cuchilla de Yaguarí|253|603|422|40
+Cuchilla del Caraguata|252|658|509|55
+Cuchilla de Peralta|251|107|688|50
 Cuchilla de Haedo|250|150|254|75

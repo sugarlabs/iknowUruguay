@@ -1,45 +1,45 @@
 # Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # rios
-Río Tacuarembó|254|455|523|-45
-Río Negro|253|552|648|0
+Río Tacuarembó|254|475|543|-45
+Río Negro|253|436|663|0
 # arroyos
 A. Salsipuedes Gr.|252|74|582|60
-A. Salsipuedes Ch.|251|111|644|45
-A. Cardoso|250|170|621|45
-A. del Tigre|249|201|658|90
-A. Achar|248|246|646|-80
-A. Malo|247|170|430|90
-A. de la Quebrada|246|246|482|-45
-A. Rolón|245|262|547|-30
-A. del Medio|244|222|570|10
-A. Chorata|243|276|589|45
-A. Calengo|242|183|509|20
-A. Vilaró|241|303|518|50
-A. de Clara|240|365|554|-45
-A. del Sauce|239|437|563|-45
-A. de la Mansa|238|512|612|30
-A. Minuano|237|596|607|60
-A. Caraguatá|236|645|492|45
-A. Yaguarí|235|483|470|60
-A. Cuaró|234|573|397|10
-A. de los Sauces|233|586|485|80
-A. Isleña|232|645|405|-30
-A. Fernández|231|618|441|-45
-A. Coronilla|230|694|426|20
-A. Curupí|229|521|509|60
-A. Espinillo|228|526|561|90
-A. Laureles|227|281|125|-45
-A. Tacuarembó Ch.|226|265|294|-30
-A. Tranqueras|225|226|337|-30
-A. Luján|224|156|292|90
-A. Batoví|223|252|397|0
-A. Sauce|222|265|445|90
-A. Durazno|221|399|501|0
-A. Tres Cruces|220|278|273|-45
-A. Gajo Norte|219|241|180|-60
-A. Gajo Medio|218|204|185|-30
-A. Gajo Sud|217|225|235|-30
-A. Rocha|216|329|280|-80
-A. Cañas|215|299|189|-10
-A. Zapicán|214|493|366|30
-A. Dos Hermanos|213|482|346|45
+A. Salsipuedes Ch.|251|115|644|55
+A. Cardoso|250|173|621|50
+#A. del Tigre|249|201|658|90
+#A. Achar|248|246|646|-80
+A. Malo|247|333|561|-50
+A. de la Quebrada|246|230|462|-55
+A. Rolón|245|262|547|-15
+#A. del Medio|244|222|570|10
+#A. Chorata|243|276|589|45
+#A. Calengo|242|183|509|20
+#A. Vilaró|241|303|518|50
+A. de Clara|240|365|554|-50
+#A. del Sauce|239|437|563|-45
+#A. de la Mansa|238|512|612|30
+#A. Minuano|237|596|607|60
+A. Caraguatá|236|573|537|10
+A. Yaguarí|235|483|470|80
+#A. Cuaró|234|573|397|10
+A. de los Sauces|233|566|460|83
+#A. Isleña|232|645|405|-30
+#A. Fernández|231|618|441|-45
+#A. Coronilla|230|694|426|20
+#A. Curupí|229|521|509|60
+#A. Espinillo|228|526|561|90
+A. Laureles|227|281|125|-35
+A. Tacuarembó Ch.|226|271|294|-35
+A. Tranqueras|225|256|351|-20
+#A. Luján|224|156|292|90
+A. Batoví|223|292|390|0
+#A. Sauce|222|265|445|90
+#A. Durazno|221|399|501|0
+A. Tres Cruces|220|310|273|-40
+#A. Gajo Norte|219|241|180|-60
+#A. Gajo Medio|218|204|185|-30
+#A. Gajo Sud|217|225|235|-30
+#A. Rocha|216|329|280|-80
+A. Cañas|215|299|193|-10
+#A. Zapicán|214|493|366|30
+#A. Dos Hermanos|213|482|346|45
