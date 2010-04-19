@@ -476,7 +476,8 @@ class ConozcoUy():
 	pygame.display.flip()
         while 1:
             for event in wait_events():
-                if event.type == pygame.KEYDOWN:
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     self.pantalla.blit(self.pantallaTemp,(0,0))
                     pygame.display.flip()
@@ -599,19 +600,21 @@ class ConozcoUy():
                           (int(600*scale+shift_x),int(140*scale+shift_y)),
                           (200,100,100))
         nDirectorios = len(self.listaNombreDirectorios)
-        paginaDirectorios = 0
+        paginaDirectorios = self.paginaDir
         while 1:
-            yLista = int(250*scale+shift_y)
+            yLista = int(200*scale+shift_y)
             self.pantalla.fill((0,0,0),
                                (int(shift_x),yLista-int(24*scale),
-                                int(1200*scale),int(550*scale)))
+                                int(1200*scale),int(600*scale)))
             if paginaDirectorios == 0:
                 paginaAnteriorActiva = False
+            else:
+                paginaAnteriorActiva = True
             paginaSiguienteActiva = False
-            self.pantalla.fill((20,20,20),
-                               (int(10*scale+shift_x),yLista-int(24*scale),
-                                int(590*scale),int(48*scale)))
             if paginaAnteriorActiva:
+                self.pantalla.fill((20,20,20),
+                                   (int(10*scale+shift_x),yLista-int(24*scale),
+                                    int(590*scale),int(48*scale)))
                 self.mostrarTexto("<<< Pagina anterior",
                                   self.fuente40,
                                   (int(300*scale+shift_x),yLista),
@@ -632,7 +635,8 @@ class ConozcoUy():
                 if indiceDir == nDirectorios or \
                         indiceDir == paginaDirectorios * 20 + 10:
                     terminar = True
-            if indiceDir == paginaDirectorios * 20 + 10:
+            if indiceDir == paginaDirectorios * 20 + 10 and \
+                    not indiceDir == nDirectorios:
                 nDirectoriosCol1 = 10
                 yLista = int(250*scale+shift_y)
                 terminar = False
@@ -651,11 +655,11 @@ class ConozcoUy():
                             indiceDir == paginaDirectorios * 20 + 20:
                         terminar = True
                 if indiceDir == paginaDirectorios * 20 + 20:
-                    self.pantalla.fill((20,20,20),
-                                       (int(610*scale+shift_x),
-                                        yLista-int(24*scale),
-                                        int(590*scale),int(48*scale)))
                     if indiceDir < nDirectorios:
+                        self.pantalla.fill((20,20,20),
+                                           (int(610*scale+shift_x),
+                                            yLista-int(24*scale),
+                                            int(590*scale),int(48*scale)))
                         self.mostrarTexto("Pagina siguiente >>>",
                                           self.fuente40,
                                           (int(900*scale+shift_x),yLista),
@@ -692,12 +696,12 @@ class ConozcoUy():
                     elif event.type == pygame.MOUSEBUTTONDOWN:
                         self.click.play()
                         pos = event.pos
-                        if pos[1] > 225*scale+shift_y: # zona de opciones
+                        if pos[1] > 175*scale+shift_y: # zona de opciones
                             if pos[0] < 600*scale+shift_x: # primera columna
-                                if pos[1] < 225*scale + shift_y + \
+                                if pos[1] < 175*scale + shift_y + \
                                         (nDirectoriosCol1+1)*50*scale: # mapa
                                     self.indiceDirectorioActual = \
-                                        int((pos[1]-int(225*scale+shift_y))//\
+                                        int((pos[1]-int(175*scale+shift_y))//\
                                                 int(50*scale)) - 1 + \
                                                 paginaDirectorios*20
                                     if self.indiceDirectorioActual == \
@@ -708,6 +712,7 @@ class ConozcoUy():
                                         cambiarPagina = True
                                     elif self.indiceDirectorioActual>\
                                             paginaDirectorios*20-1:
+                                        self.paginaDir = paginaDirectorios
                                         return
                                 elif pos[1] > 800*scale + shift_y and \
                                         pos[1] < 850*scale + shift_y: # acerca
@@ -722,6 +727,9 @@ class ConozcoUy():
                                                 int(50*scale)) + \
                                                 paginaDirectorios*20 + 10
                                     if self.indiceDirectorioActual == \
+                                            paginaDirectorios*20+9:
+                                        pass # ignorar; espacio vacio
+                                    elif self.indiceDirectorioActual == \
                                             paginaDirectorios*20+20 and \
                                             paginaSiguienteActiva: # pag. sig.
                                         paginaDirectorios = \
@@ -730,6 +738,7 @@ class ConozcoUy():
                                         cambiarPagina = True
                                     elif self.indiceDirectorioActual<\
                                             paginaDirectorios*20+20:
+                                        self.paginaDir = paginaDirectorios
                                         return
                                 elif pos[1] > 800*scale+shift_y and \
                                         pos[1] < 850*scale+shift_y: # salir
@@ -1325,7 +1334,8 @@ class ConozcoUy():
         terminar = False
         while 1:
             for event in wait_events():
-                if event.type == pygame.KEYDOWN:
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTODESPEGUE,0)
                     return
@@ -1375,7 +1385,8 @@ class ConozcoUy():
         pygame.time.set_timer(EVENTORESPUESTA,4000)
         while 1:
             for event in wait_events():
-                if event.type == pygame.KEYDOWN:
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTORESPUESTA,0)
                     return
@@ -1403,7 +1414,8 @@ class ConozcoUy():
         terminar = False
         while 1:
             for event in wait_events():
-                if event.type == pygame.KEYDOWN:
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTORESPUESTA,0)
                     return
@@ -1454,7 +1466,8 @@ class ConozcoUy():
         pygame.time.set_timer(EVENTORESPUESTA,4000)
         while 1:
             for event in wait_events():
-                if event.type == pygame.KEYDOWN:
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTORESPUESTA,0)
                     return
@@ -1479,7 +1492,8 @@ class ConozcoUy():
         terminar = False
         while 1:
             for event in wait_events():
-                if event.type == pygame.KEYDOWN:
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTODESPEGUE,0)
                     return
@@ -1549,7 +1563,8 @@ class ConozcoUy():
         pygame.time.set_timer(EVENTORESPUESTA,6000)
         while 1:
             for event in wait_events():
-                if event.type == pygame.KEYDOWN:
+                if event.type == pygame.KEYDOWN or \
+                        event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     pygame.time.set_timer(EVENTORESPUESTA,0)
                     return
@@ -1567,6 +1582,7 @@ class ConozcoUy():
         global scale, shift_x, shift_y
         pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
         self.presentacion()
+        self.paginaDir = 0
         while 1:
             self.pantallaDirectorios() # seleccion de mapa
             self.directorio = self.listaDirectorios\
