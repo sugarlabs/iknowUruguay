@@ -1,0 +1,122 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Soriano|1|Soriano|Dále, probá de nuevo
+Pregunta = el departamento\de Río Negro|1|Río Negro|Dále, probá de nuevo
+Pregunta = el departamento\de Colonia|1|Colonia|Dále, probá de nuevo
+Pregunta = el departamento\de Flores|1|Flores|Dále, probá de nuevo
+Pregunta = la República\Argentina|1|Argentina|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Mercedes|2|Mercedes|Es la capital del\departamento
+Pregunta = el pueblo\de Sacachispas|2|Sacachispas|Está al norte
+Pregunta = el pueblo\de El Tala|2|El Tala|Está al noreste
+Pregunta = la ciudad\de Palmitas|2|Palmitas|Está en el centro
+Pregunta = el pueblo\de Colonia Concordia|2|Colonia Concordia|Está al oeste
+Pregunta = el pueblo\de Egaña|2|Egaña|Está en el centro
+Pregunta = el pueblo\de Risso|2|Risso|Está en el centro
+Pregunta = el pueblo\de Rodó|2|Rodó|Está en el centro
+Pregunta = el pueblo\de Perseverano|2|Perseverano|Está al sur
+Pregunta = el pueblo\de Castillo|2|Castillo|Está al sur
+Pregunta = la localidad\de Cuch. del Perdido|2|Cuch. del Perdido|Está al sureste
+Pregunta = la ciudad\de Sta. Catalina|2|Sta. Catalina|Está al sureste
+Pregunta = el pueblo\de Cardona|2|Cardona|Está al sureste
+Pregunta = el pueblo\de Villa Soriano|2|Villa Soriano|Está al noroeste
+Pregunta = la ciudad\de Dolores|2|Dolores|Está al oeste
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Uruguay|3|Río Uruguay|Está al oeste
+Pregunta = el Río de la Plata|3|Río de la Plata|Está al suroeste
+Pregunta = el Río Negro|3|Río Negro|Está al norte
+Pregunta = el Río San Salvador|3|Río San Salvador|Está al sur
+Pregunta = el Arroyo de Espinillo|3|A. de Espinillo|Está al suroeste
+Pregunta = el Arroyo del Sauce|3|A. del Sauce|Está al suroeste
+Pregunta = el Arroyo Bizcocho|3|A. Bizcocho|Está al oeste
+Pregunta = el Arroyo Magallanes|3|A. Magallanes|Está al oeste
+Pregunta = el Arroyo del Águila|3|A. del Águila|Está al suroeste
+Pregunta = el Arroyo del Corralito|3|A. del Corralito|Está al suroeste
+Pregunta = el Arroyo Maciel|3|A. Maciel|Está al sur
+Pregunta = el Arroyo San Martín|3|A. San Martín|Está al sur
+Pregunta = el Arroyo del Medio|3|A. del Medio|Está al sur
+#Pregunta = el Arroyo C. de Nieto|3|A. C. de Nieto|Está al suroeste
+#Pregunta = el Arroyo Cerrillos|3|A. Cerrillos|Está al sur
+Pregunta = el Arroyo de las Maulas|3|A. de las Maulas|Está al oeste
+Pregunta = el Arroyo Bequeló|3|A. Bequeló|Está en el centro
+Pregunta = el Arroyo Coquimbo|3|A. Coquimbo|Está en el centro
+Pregunta = el Arroyo Sarandí|3|A. Sarandí|Está en el centro
+#Pregunta = el Arroyo Talas|3|A. Talas|Está en el centro
+#Pregunta = el Arroyo Isletas|3|A. Isletas|Está en el centro
+Pregunta = el Arroyo Caballudo|3|A. Caballudo|Está en el centro
+Pregunta = el Arroyo Maia|3|A. Maia|Está al norte
+Pregunta = el Arroyo Cololó|3|A. Cololó|Está al norte
+#Pregunta = el Arroyo Algarrobo|3|A. Algarrobo|Está al norte
+Pregunta = el Arroyo Perico|3|A. Perico|Está al norte
+Pregunta = el Arroyo de Vera|3|A. de Vera|Está al norte
+Pregunta = el Arroyo Grande|3|A. Grande|Está al noreste
+#Pregunta = el Arroyo Santiago|3|A. Santiago|Está al este
+#Pregunta = el Arroyo Lagunas|3|A. Lagunas|Está al este
+Pregunta = el Arroyo del Perdido|3|A. del Perdido|Está al sureste
+Pregunta = el Arroyo del Durazno|3|A. del Durazno|Está al sureste
+#Pregunta = el Arroyo del Duraznito|3|A. del Duraznito|Está al sureste
+Pregunta = el Arroyo Monzón|3|A. Monzón|Está al sureste
+#Pregunta = el Arroyo Sauce|3|A. Sauce|Está al sureste
+
+[Elevaciones]
+dibujoInicial = cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla de Bequeló|4|Cuchilla de Bequeló|Dále, probá de nuevo
+Pregunta = la Cuchilla del Perdido|4|Cuchilla del Perdido|Dále, probá de nuevo
+Pregunta = la Cuchilla del Bizcocho|4|Cuchilla del Bizcocho|Dále, probá de nuevo
+Pregunta = la Cuchilla San Salvador|4|Cuchilla San Salvador|Dále, probá de nuevo
+#Pregunta = la Cuchilla de Xolvppo|4|Cuchilla de Xolvppo|Dále, probá de nuevo
+#Pregunta = la Cuchilla|4|Cuchilla|Dále, probá de nuevo
+Pregunta = el Cerro Espinillo|5|Co. Espinillo|Queda cerca de Dolores
+Pregunta = el Cerro Curupí|5|Co. Curupí|Queda al norte
+

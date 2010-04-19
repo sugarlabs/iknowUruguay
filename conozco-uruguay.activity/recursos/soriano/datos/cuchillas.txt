@@ -1,8 +1,8 @@
 # Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # cuchillas
-Cuchilla de Bequela|254|361|291|-30
+Cuchilla de Bequeló|254|361|287|-30
 Cuchilla del Perdido|253|662|529|-90
-Cuchilla del Bizcocho|252|426|537|-45
-Cuchilla San Salvador|251|312|675|-30
-Cuchilla de Xolvppo|250|582|338|45
-Cuchilla|249|531|478|80
+Cuchilla del Bizcocho|252|426|534|-40
+Cuchilla San Salvador|251|312|671|-25
+#Cuchilla de Xolvppo|250|582|338|45
+#Cuchilla|249|531|478|80

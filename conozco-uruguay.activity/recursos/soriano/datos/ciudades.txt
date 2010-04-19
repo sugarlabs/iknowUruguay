@@ -1,15 +1,20 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
 Mercedes|254|303|1|0|14
-Sacachispas|461|215|2|0|-12
-El Tala|564|273|2|0|12
-Palmitas|367|455|2|0|-12
-Colonia Concordia|72|521|2|0|-12
-Egaña|453|513|2|0|-12
-Risso|484|551|2|30|-12
-Rodó|515|582|2|-40|0
+Sacachispas|461|215|2|0|-14
+El Tala|564|273|2|0|14
+Palmitas|367|455|2|0|-14
+Colonia Concordia|80|564|2|50|14
+Egaña|453|513|2|0|-14
+Risso|484|551|2|0|-14
+Rodó|515|582|2|0|-14
 Perseverano|308|611|2|0|12
 Castillo|412|670|2|0|12
-Cuch. del Perdido|613|601|2|30|-12
-Sta. Catalina|545|631|2|35|0
-Cardona|613|687|2|0|-12
+Cuch. del Perdido|648|525|2|-5|14
+Sta. Catalina|545|631|2|0|14
+Cardona|613|687|2|0|-14
+Villa Soriano|99|390|2|20|12
+Dolores|160|483|2|0|12
+# cerros
+Co. Espinillo|148|529|5|0|14
+Co. Curupí|433|317|5|20|-14
