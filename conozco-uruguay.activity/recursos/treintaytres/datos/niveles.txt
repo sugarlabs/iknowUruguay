@@ -1,0 +1,109 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Departamentos]
+dibujoInicial = lineasDepto
+nombreInicial =
+Pregunta = el departamento\de Tacuarembó|1|Tacuarembó|Dále, probá de nuevo
+Pregunta = el departamento\de Cerro Largo|1|Cerro Largo|Dále, probá de nuevo
+Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nuevo
+Pregunta = el departamento\de Lavalleja|1|Lavalleja|Dále, probá de nuevo
+Pregunta = el departamento\de Rocha|1|Rocha|Dále, probá de nuevo
+Pregunta = el departamento\de Florida|1|Florida|Dále, probá de nuevo
+Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
+
+[Ciudades]
+dibujoInicial = lineasDepto, capitales, ciudades
+nombreInicial = deptos
+Pregunta = la ciudad\de Treinta y Tres|2|Treinta y Tres|Es la capital del\departamento
+Pregunta = la ciudad de\Santa Clara de Olimar|2|Santa Clara de Olimar|Está al noroeste
+Pregunta = el pueblo\de Rincón|2|Rincón|Está al noreste
+Pregunta = la ciudad\de Vergara|2|Vergara|Está al noreste
+Pregunta = la localidad\de Isla Patrulla|2|Isla Patrulla|Está en el centro
+Pregunta = la localidad\de El Oro|2|El Oro|Está en el centro
+Pregunta = la ciudad\de Cerro Chato|2|Cerro Chato|Está al oeste
+Pregunta = la localidad\de La Charqueada|2|La Charqueada|Está al sureste
+Pregunta = el pueblo\de Tupambaé|2|Tupambaé|Está en el límite\con Cerro Largo
+Pregunta = el pueblo\de Valentines|2|Valentines|Está en el límite\con Florida
+
+[Cursos de agua]
+dibujoInicial = lineasDepto, capitales, rios
+nombreInicial =
+Pregunta = el Río Olimar Gr.|3|Río Olimar Gr.|Está al sur
+Pregunta = el Río Olimar Ch.|3|Río Olimar Ch.|Está al suroeste
+Pregunta = el Río Tacuarí|3|Río Tacuarí|Está al noreste
+Pregunta = el Río Cebollatí|3|Río Cebollatí|Está al sureste
+Pregunta = el Arroyo Corrales|3|A. Corrales|Está al sur
+Pregunta = el Arroyo Sarandí Grande|3|A. Sarandí Gr.|Está al noreste
+Pregunta = el Arroyo Sarandí Chico|3|A. Sarandí Ch.|Está al noreste
+#Pregunta = el Arroyo Zapata|3|A. Zapata|Está al noreste
+#Pregunta = el Arroyo Grande|3|A. Grande|Está al noreste
+Pregunta = el Arroyo Ayala|3|A. Ayala|Está al este
+Pregunta = el Arroyo del Parao|3|A. del Parao|Está al norte
+Pregunta = el Arroyo Corrales del Parao|3|A. Corrales del Parao|Está en el centro
+Pregunta = el Arroyo Leoncho|3|A. Leoncho|Está al norte
+Pregunta = el Arroyo Olazo|3|A. Olazo|Está al norte
+Pregunta = el Arroyo Yerbal Grande|3|A. Yerbal Gr.|Está en el centro
+Pregunta = el Arroyo Yerbal Chico|3|A. Yerbal Ch.|Está en el centro
+#Pregunta = el Arroyo Yerbalito|3|A. Yerbalito|Está en el centro
+Pregunta = el Arroyo de los Porongos|3|A. de los Porongos|Está en el centro
+Pregunta = el Arroyo de los Ceibos|3|A. de los Ceibos|Está en el centro
+Pregunta = el Arroyo de las Pavas|3|A. de las Pavas|Está al oeste
+Pregunta = el Arroyo de las Averías|3|A. de las Averías|Está al este
+Pregunta = el Arroyo Avestruz Gr.|3|A. Avestruz Gr.|Está al oeste
+#Pregunta = el Arroyo Avestruz Ch.|3|A. Avestruz Ch.|Está al oeste
+#Pregunta = el Arroyo Carmen|3|A. Carmen|Está al oeste
+#Pregunta = el Arroyo Rosario|3|A. Rosario|Está al oeste
+#Pregunta = el Arroyo Sánchez|3|A. Sánchez|Está al oeste
+Pregunta = la Laguna Merín|3|Lag. Merín|Está al Está al este
+
+[Elevaciones]
+dibujoInicial = lineasDepto, cuchillas, cerros
+nombreInicial =
+Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo
+Pregunta = las Asperezas del Yerbal|4|Asperezas del Yerbal|Dále, probá de nuevo
+Pregunta = la Cuchilla del Carmen|4|Cuchilla del Carmen|Dále, probá de nuevo
+Pregunta = la Cuchilla de Palomeque|4|Cuchilla de Palomeque|Dále, probá de nuevo
+Pregunta = el Cerro Valentín|5|Co. Valentín|Está en límite\con Florida
+Pregunta = el Cerro Chato|5|Co. Chato|Está al oeste
+Pregunta = el Cerro del Olimar|5|Co. del Olimar|Está en el centro
