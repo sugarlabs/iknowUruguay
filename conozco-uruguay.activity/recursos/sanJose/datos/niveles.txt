@@ -105,7 +105,7 @@ Pregunta = el Arroyo Cagancha|3|A. Cagancha|Está al este
 Pregunta = el Arroyo del Tala|3|A. del Tala|Está al este
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla Guaycurú|4|Cuchilla Guaycurú|Dále, probá de nuevo
 Pregunta = la Sierra Mahoma|4|Sierra Mahoma|Dále, probá de nuevo

@@ -103,7 +103,7 @@ Pregunta = el Arroyo Gutiérrez|3|A. Gutiérrez|Está al noreste
 #Pregunta = el Arroyo Sarandí|3|A. Sarandí|Está al noreste
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo
 Pregunta = las Asperezas de Retamosa|4|Asperezas de Retamosa|Dále, probá de nuevo

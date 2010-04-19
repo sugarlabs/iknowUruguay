@@ -120,7 +120,7 @@ Pregunta = el Arroyo de las Cañas|3|A. de las Cañas|Está al noreste
 #Pregunta = el Arroyo del Tala|3|A. del Tala|Está al noroeste
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla|4|Cuchilla|Dále, probá de nuevo
 Pregunta = la Cuchilla Grande\del Durazno|4|Cuchilla Grande del Durazno|Dále, probá de nuevo

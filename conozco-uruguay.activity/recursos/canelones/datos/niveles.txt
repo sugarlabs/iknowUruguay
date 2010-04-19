@@ -134,7 +134,7 @@ Pregunta = el Arroyo Toledo|3|A. Toledo|Queda en el límite\con Montevideo
 Pregunta = el Arroyo Carrasco|3|A. Carrasco|Queda en el límite\con Montevideo
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Atraviesa el departamento\por el centro
 Pregunta = la Cuchilla Cabo de Hornos|4|Cabo de Hornos|Queda al este

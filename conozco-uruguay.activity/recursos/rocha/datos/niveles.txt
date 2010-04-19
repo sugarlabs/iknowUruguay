@@ -107,7 +107,7 @@ Pregunta = la Laguna Castillos|3|Lag. Castillos|Está al sureste
 Pregunta = la Laguna de Rocha|3|Lag. de Rocha|Está al sur
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla de las Averías|4|Cuchilla de las Averías|Dále, probá de nuevo
 Pregunta = la Cuchilla de la Carbonera|4|Cuchilla de la Carbonera|Dále, probá de nuevo

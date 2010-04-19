@@ -125,7 +125,7 @@ Pregunta = el Arroyo San Antonio|3|A. San Antonio|Está al oeste
 Pregunta = el Arroyo Yacuy|3|A. Yacuy|Está al norte
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla de los Arapeyes|4|Cuchilla de los Arapeyes|Dále, probá de nuevo
 Pregunta = la Cuchilla del Daymán|4|Cuchilla del Daymán|Dále, probá de nuevo

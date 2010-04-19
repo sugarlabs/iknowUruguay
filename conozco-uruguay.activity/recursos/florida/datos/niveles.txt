@@ -124,7 +124,7 @@ Pregunta = el Arroyo Bellaco|3|A. Bellaco|Está al noroeste
 Pregunta = el Arroyo Sarandí Ch.|3|A. Sarandí Ch.|Está en el centro
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla Mansavillagra|4|Cuchilla Mansavillagra|Dále, probá de nuevo
 Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo

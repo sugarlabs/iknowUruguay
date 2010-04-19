@@ -139,7 +139,7 @@ Pregunta = el Arroyo Gualeguay|3|A. Gualeguay|Está en el centro
 Pregunta = el Arroyo Guarapirú|3|A. Guarapirú|Está en el centro
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla del Queguay|4|Cuchilla del Queguay|Dále, probá de nuevo
 Pregunta = la Cuchilla de Haedo|4|Cuchilla de Haedo|Dále, probá de nuevo

@@ -139,7 +139,7 @@ Pregunta = el Arroyo Polanco|3|A. Polanco|Es afluente del\Arroyo de las Víboras
 Pregunta = el Arroyo Minuano|3|A. Minuano|Queda al sur
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla de San Juan|4|Cuchilla de San Juan|Queda al oeste
 Pregunta = la Cuchilla de la Colonia|4|Cuchilla de la Colonia|Queda al sur

@@ -94,7 +94,7 @@ Pregunta = la Laguna J. Ignacio|3|Lag. J. Ignacio|Está al sureste
 Pregunta = la Laguna del Sauce|3|Lag. del Sauce|Está al suroeste
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Sierra de las Cañas|4|Sierra de las Cañas|Dále, probá de nuevo
 Pregunta = la Sierra de los Caracoles|4|Sierra de los Caracoles|Dále, probá de nuevo

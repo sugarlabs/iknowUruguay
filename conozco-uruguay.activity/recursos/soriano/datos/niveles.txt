@@ -109,7 +109,7 @@ Pregunta = el Arroyo Monzón|3|A. Monzón|Está al sureste
 #Pregunta = el Arroyo Sauce|3|A. Sauce|Está al sureste
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla de Bequeló|4|Cuchilla de Bequeló|Dále, probá de nuevo
 Pregunta = la Cuchilla del Perdido|4|Cuchilla del Perdido|Dále, probá de nuevo

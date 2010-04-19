@@ -146,7 +146,11 @@ class Zona():
     def estaAca(self,pos):
         """Devuelve True si la coordenada pos esta en la zona"""
         if pos[0] < XMAPAMAX*scale+shift_x:
-            colorAca = self.mapa.get_at((pos[0]-shift_x, pos[1]-shift_y))
+            try:
+                colorAca = self.mapa.get_at((pos[0]-shift_x,
+                                             pos[1]-shift_y))
+            except:
+                return False
             if colorAca[0] == self.claveColor:
                 return True
             else:

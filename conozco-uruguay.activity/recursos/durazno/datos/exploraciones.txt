@@ -24,6 +24,6 @@ nombreInicial =
 elementosActivos = rios
 
 [Exploro elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 elementosActivos = cuchillas, cerros

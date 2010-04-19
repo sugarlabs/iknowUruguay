@@ -118,7 +118,7 @@ Pregunta = el Arroyo Manga|3|A. Manga|Queda al noreste
 #Pregunta = la Cañada del Dragón|3|Cda. del Dragón|Queda
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo
 Pregunta = el Cabo de Pereira|4|Cabo de Pereira|Dále, probá de nuevo

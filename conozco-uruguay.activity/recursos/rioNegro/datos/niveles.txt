@@ -100,7 +100,7 @@ Pregunta = el Arroyo Molles|3|A. Molles|Está al sureste
 #Pregunta = el Arroyo Mataojo|3|A. Mataojo|Está al norte
 
 [Elevaciones]
-dibujoInicial = cuchillas, cerros
+dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 Pregunta = la Cuchilla de Haedo|4|Cuchilla de Haedo|Dále, probá de nuevo
 Pregunta = la Cuchilla de Navarro|4|Cuchilla de Navarro|Dále, probá de nuevo
