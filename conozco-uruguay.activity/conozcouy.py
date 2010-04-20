@@ -878,8 +878,42 @@ class ConozcoUy():
             " XXX..XXX              XXXXXXXX ",
             "  XXXXXX                XXXXXX  ",
             "   XXXX                  XXXX   ")
-        cursor = pygame.cursors.compile(datos_cursor)
-        pygame.mouse.set_cursor((32,32), (1,1), *cursor)
+        self.cursor = pygame.cursors.compile(datos_cursor)
+        pygame.mouse.set_cursor((32,32), (1,1), *self.cursor)
+        datos_cursor_espera = (
+            "  XXXXXX     XXXXXX     XXXXXX  ",
+            " XXXXXXXX   XXXXXXXX   XXXXXXXX ",
+            "XXXX..XXXX XXXX..XXXX XXXX..XXXX",
+            "XXX....XXX XXX....XXX XXX....XXX",
+            "XXX....XXX XXX....XXX XXX....XXX",
+            "XXX....XXX XXX....XXX XXX....XXX",
+            "XXXX..XXXX XXXX..XXXX XXXX..XXXX",
+            " XXXXXXXX   XXXXXXXX   XXXXXXXX ",
+            "  XXXXXX     XXXXXX      XXXXX  ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ")
+        self.cursor_espera = pygame.cursors.compile(datos_cursor_espera)
 
     def cargarDirectorio(self):
         """Carga la informacion especifica de un directorio"""
@@ -1589,9 +1623,11 @@ class ConozcoUy():
         self.paginaDir = 0
         while 1:
             self.pantallaDirectorios() # seleccion de mapa
+            pygame.mouse.set_cursor((32,32), (1,1), *self.cursor_espera)
             self.directorio = self.listaDirectorios\
                 [self.indiceDirectorioActual]
             self.cargarDirectorio()
+            pygame.mouse.set_cursor((32,32), (1,1), *self.cursor)
             while 1:
                 # pantalla inicial de juego
                 self.elegir_directorio = False
