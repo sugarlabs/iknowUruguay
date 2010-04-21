@@ -52,7 +52,7 @@ Pregunta = el departamento\de Colonia|1|Colonia|Dále, probá de nuevo
 Pregunta = el departamento\de San José|1|San José|Dále, probá de nuevo
 Pregunta = el departamento\de Florida|1|Florida|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Trinidad|2|Trinidad|Es la capital del\departamento

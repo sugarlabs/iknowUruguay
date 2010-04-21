@@ -5,9 +5,9 @@ Isidoro Noblía|437|322|2|0|14
 Centurión|540|396|2|-8|12
 Bañados de Medina|365|491|2|-40|-14
 Tres Islas|249|531|2|-10|-14
-Quebracho|230|554|2|-30|-14
+#Quebracho|230|554|2|-30|-14
 Arévalo|177|593|2|0|12
-Tupambaé|216|567|2|-50|0
+#Tupambaé|216|567|2|-50|0
 C. de las Cuentas|281|575|2|20|12
 Fraile Muerto|304|532|2|15|14
 Arbolito|408|573|2|0|-14

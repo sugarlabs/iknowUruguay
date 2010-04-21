@@ -51,7 +51,7 @@ Pregunta = el departamento\de Maldonado|1|Maldonado|Dále, probá de nuevo
 Pregunta = el departamento\de Rocha|1|Rocha|Dále, probá de nuevo
 Pregunta = el departamento\de Florida|1|Florida|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Maldonado|2|Maldonado|Es la capital del\departamento
@@ -64,6 +64,8 @@ Pregunta = la ciudad\de Pan de Azúcar|2|Pan de Azúcar|Está al sur
 Pregunta = la ciudad\de Piriápolis|2|Piriápolis|Está al sur
 Pregunta = el balneario\de Punta Ballena|2|Punta Ballena|Está al sur
 Pregunta = el pueblo\de Garzón|2|Garzón|Está al este
+Pregunta = el balneario\de Las Flores|2|Las Flores|Está al suroeste
+Pregunta = el balneario\de La Barra|2|La Barra|Está al sur
 
 [Cursos de agua]
 dibujoInicial = lineasDepto, capitales, rios

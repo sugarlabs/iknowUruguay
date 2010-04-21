@@ -1,6 +1,6 @@
 # Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # rios
-Río de la Plata|254|627|754|45
+Océano Atlántico|254|627|754|45
 Río Cebollatí|253|416|164|40
 Río San Luis|252|586|327|45
 # arroyos

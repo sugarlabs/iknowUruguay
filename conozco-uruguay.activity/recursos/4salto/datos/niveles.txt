@@ -54,7 +54,7 @@ Pregunta = el departamento\de Río Negro|1|Río Negro|Dále, probá de nuevo
 Pregunta = la República\de Argentina|1|Argentina|Dále, probá de nuevo
 Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Salto|1|Salto|Es la capital del\departamento

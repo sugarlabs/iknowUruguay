@@ -53,7 +53,7 @@ Pregunta = el departamento\de Montevideo|1|Montevideo|Dále, probá de nuevo
 Pregunta = el departamento\de Soriano|1|Soriano|Dále, probá de nuevo
 Pregunta = el departamento\de San José|1|San José|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de San José de Mayo|2|San José de Mayo|Es la capital del\departamento

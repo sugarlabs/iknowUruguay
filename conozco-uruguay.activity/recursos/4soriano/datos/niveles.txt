@@ -50,7 +50,7 @@ Pregunta = el departamento\de Colonia|1|Colonia|Dále, probá de nuevo
 Pregunta = el departamento\de Flores|1|Flores|Dále, probá de nuevo
 Pregunta = la República\Argentina|1|Argentina|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Mercedes|2|Mercedes|Es la capital del\departamento

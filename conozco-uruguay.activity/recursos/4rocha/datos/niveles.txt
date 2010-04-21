@@ -51,7 +51,7 @@ Pregunta = el departamento\de Maldonado|1|Maldonado|Dále, probá de nuevo
 Pregunta = el departamento\de Rocha|1|Rocha|Dále, probá de nuevo
 Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Rocha|2|Rocha|Es la capital del\departamento
@@ -75,7 +75,7 @@ Pregunta = la ciudad\de Chuy|2|Chuy|Queda en el límite\con Brasil
 [Cursos de agua]
 dibujoInicial = lineasDepto, capitales, rios
 nombreInicial =
-Pregunta = el Río de la Plata|3|Río de la Plata|Está al sur
+Pregunta = el Océano Atlántico|3|Océano Atlántico|Está al sureste
 Pregunta = el Río Cebollatí|3|Río Cebollatí|Está al norte
 Pregunta = el Río San Luis|3|Río San Luis|Está al noreste
 Pregunta = el Arroyo de las Pelotas|3|A. de las Pelotas|Está al norte

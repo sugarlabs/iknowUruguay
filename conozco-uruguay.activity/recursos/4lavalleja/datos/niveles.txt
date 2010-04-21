@@ -52,7 +52,7 @@ Pregunta = el departamento\de Maldonado|1|Maldonado|Dále, probá de nuevo
 Pregunta = el departamento\de Rocha|1|Rocha|Dále, probá de nuevo
 Pregunta = el departamento\de Lavalleja|1|Lavalleja|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Minas|2|Minas|Es la capital del\departamento
@@ -93,7 +93,7 @@ Pregunta = el Arroyo Tapes|3|A. Tapes|Está en el centro
 Pregunta = el Arroyo Barriga Negra|3|A. Barriga Negra|Está en el centro
 Pregunta = el Arroyo Polanco|3|A. Polanco|Está en el centro
 #Pregunta = el Arroyo Campana|3|A. Campana|Está en el centro
-Pregunta = el Arroyo Malo Gr.|3|A. Malo Gr.|Está al norte
+Pregunta = el Arroyo Malo Gr.|3|A. Malo Gr.|Está en el centronorte
 Pregunta = el Arroyo Malo Ch.|3|A. Malo Ch.|Está al noroeste
 Pregunta = el Arroyo de los Chanchos|3|A. de los Chanchos|Está al oeste
 Pregunta = el Arroyo de los Molles|3|A. de los Molles|Está al oeste

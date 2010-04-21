@@ -1361,7 +1361,7 @@ class ConozcoUy():
         # cuadro 1: nave llegando
         self.pantalla.blit(self.tierra,(int(200*scale+shift_x),
                                         int(150*scale+shift_y)))
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto("Presiona cualquier tecla para saltear",
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1414,7 +1414,7 @@ class ConozcoUy():
             textrect.center = (int(557*scale+shift_x),yLinea)
             self.pantalla.blit(text, textrect)
             yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto("Presiona cualquier tecla para saltear",
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1441,7 +1441,7 @@ class ConozcoUy():
                                         int(215*scale+shift_y)))
         self.pantalla.blit(self.alertarojo,(int(459*scale+shift_x),
                                             int(297*scale+shift_y)))
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto("Presiona cualquier tecla para saltear",
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1495,7 +1495,7 @@ class ConozcoUy():
             textrect.center = (int(557*scale+shift_x),yLinea)
             self.pantalla.blit(text, textrect)
             yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto("Presiona cualquier tecla para saltear",
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1519,7 +1519,7 @@ class ConozcoUy():
         # cuadro 5: explota nave
         self.pantalla.blit(self.tierra,(int(200*scale+shift_x),
                                         int(150*scale+shift_y)))
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto("Presiona cualquier tecla para saltear",
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1592,7 +1592,7 @@ class ConozcoUy():
             textrect.center = (int(557*scale+shift_x),yLinea)
             self.pantalla.blit(text, textrect)
             yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto("Presiona cualquier tecla para saltear",
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))

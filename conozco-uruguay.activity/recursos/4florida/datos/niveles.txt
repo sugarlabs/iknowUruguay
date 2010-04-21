@@ -53,7 +53,7 @@ Pregunta = el departamento\de San José|1|San José|Dále, probá de nuevo
 Pregunta = el departamento\de Flores|1|Flores|Dále, probá de nuevo
 Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Florida|2|Florida|Es la capital del\departamento

@@ -56,7 +56,7 @@ Pregunta = el departamento\de Cerro Largo|1|Cerro Largo|Dále, probá de nuevo
 Pregunta = el departamento\de Lavalleja|1|Lavalleja|Dále, probá de nuevo
 Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad de\Durazno|2|Durazno|Es la capital\del departamento

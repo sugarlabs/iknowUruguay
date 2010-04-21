@@ -8,5 +8,5 @@ Gráficos y niveles para todos los departamentos menos Canelones: Alan Aguiar
 Información para el nivel "Lugares históricos" de Uruguay: Ana Trujillo y Ana Cichero (coordinación)
 Información para Canelones: Nancy Gómez, su hijo Matías y Ana Cichero (coordinación)
 Información para el nivel "Información de Montevideo": Miriam Martínez y Magdalena Lallo
-Sonidos bajados de freesound.org: btn045.wav gentileza de junggle y boom1.wav gentileza de NoiseCollector
-Fuentes bajadas de urbanfonts.com: AllCaps.ttf gentileza de BobFrantic y Share-Regular.ttf gentileza de anónimo
+Sonidos bajados de freesound.org: btn045.wav por junggle y boom1.wav por de NoiseCollector
+Fuentes bajadas de urbanfonts.com: AllCaps.ttf por BobFrantic y Share-Regular.ttf por anónimo

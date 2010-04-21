@@ -56,7 +56,7 @@ Pregunta = el departamento\de Tacuarembó|1|Tacuarembó|Dále, probá de nuevo
 Pregunta = el departamento\de Treinta y Tres|1|Treinta y Tres|Dále, probá de nuevo
 Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Tacuarembó|2|Tacuarembó|Es la capital del\departamento

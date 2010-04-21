@@ -52,7 +52,7 @@ Pregunta = el departamento\de Rocha|1|Rocha|Dále, probá de nuevo
 Pregunta = el departamento\de Florida|1|Florida|Dále, probá de nuevo
 Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Treinta y Tres|2|Treinta y Tres|Es la capital del\departamento

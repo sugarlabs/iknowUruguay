@@ -42,7 +42,7 @@ Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
 Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
 Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial =
 Pregunta = la ciudad\de Tarariras|2|Tarariras|Queda casi en el\centro del departamento

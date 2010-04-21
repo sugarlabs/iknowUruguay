@@ -52,7 +52,7 @@ Pregunta = el departamento\de Tacuarembó|1|Tacuarembó|Dále, probá de nuevo
 Pregunta = el departamento\de Cerro Largo|1|Cerro Largo|Dále, probá de nuevo
 Pregunta = la República\de Brasil|1|Brasil|Dále, probá de nuevo
 
-[Ciudades]
+[Centros poblados]
 dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 Pregunta = la ciudad\de Rivera|1|Rivera|Es la capital del\departamento
