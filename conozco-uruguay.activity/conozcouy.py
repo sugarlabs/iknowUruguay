@@ -44,13 +44,13 @@ DYNAVE = 200
 CAMINORECURSOS = "recursos"
 CAMINOCOMUN = "comun"
 CAMINOFUENTES = "fuentes"
-ARCHIVOINFO = "info.txt"
 CAMINODATOS = "datos"
 ARCHIVODEPTOS = "departamentos.txt"
 ARCHIVOLUGARES = "ciudades.txt"
 ARCHIVONIVELES = "niveles.txt"
 ARCHIVOEXPLORACIONES = "exploraciones.txt"
 ARCHIVORIOS = "rios.txt"
+ARCHIVORUTAS = "rutas.txt"
 ARCHIVOCUCHILLAS = "cuchillas.txt"
 ARCHIVOCREDITOS = "creditos.txt"
 ARCHIVOPRESENTACION = "presentacion.txt"
@@ -60,6 +60,7 @@ CAMINOSONIDOS = "sonidos"
 COLORNOMBREDEPTO = (200,60,60)
 COLORNOMBRECAPITAL = (10,10,10)
 COLORNOMBRERIO = (10,10,10)
+COLORNOMBRERUTA = (10,10,10)
 COLORNOMBREELEVACION = (10,10,10)
 COLORPREGUNTAS = (80,80,155)
 COLORPANEL = (156,158,172)
@@ -149,7 +150,7 @@ class Zona():
             try:
                 colorAca = self.mapa.get_at((pos[0]-shift_x,
                                              pos[1]-shift_y))
-            except:
+            except: # probablemente click fuera de la imagen
                 return False
             if colorAca[0] == self.claveColor:
                 return True
@@ -271,8 +272,29 @@ class ConozcoUy():
                 linea.strip().split("|")
             nuevoRio = Zona(self.riosDetectar,
                             unicode(nombreRio,'iso-8859-1'),
-                            claveColor,1,(posx,posy),rotacion)
+                            claveColor,3,(posx,posy),rotacion)
             self.listaRios.append(nuevoRio)
+            linea = f.readline()
+        f.close()
+
+    def cargarRutas(self):
+        """Carga las imagenes y los datos de las rutas"""
+        self.rutas = self.cargarImagen("rutas.png")
+        self.rutasDetectar = self.cargarImagen("rutasDetectar.png")
+        self.listaRutas = list()
+        # falta sanitizar manejo de archivo
+        f = open(os.path.join(self.camino_datos,ARCHIVORUTAS),"r")
+        linea = f.readline()
+        while linea:
+            if linea[0] == "#":
+                linea = f.readline()
+                continue
+            [nombreRuta,claveColor,posx,posy,rotacion] = \
+                linea.strip().split("|")
+            nuevaRuta = Zona(self.rutasDetectar,
+                            unicode(nombreRuta,'iso-8859-1'),
+                            claveColor,6,(posx,posy),rotacion)
+            self.listaRutas.append(nuevaRuta)
             linea = f.readline()
         f.close()
 
@@ -292,7 +314,7 @@ class ConozcoUy():
                 linea.strip().split("|")
             nuevaCuchilla = Zona(self.cuchillasDetectar,
                                  unicode(nombreCuchilla,'iso-8859-1'),
-                                 claveColor,1,(posx,posy),rotacion)
+                                 claveColor,4,(posx,posy),rotacion)
             self.listaCuchillas.append(nuevaCuchilla)
             linea = f.readline()
         f.close()
@@ -881,6 +903,16 @@ class ConozcoUy():
         self.cursor = pygame.cursors.compile(datos_cursor)
         pygame.mouse.set_cursor((32,32), (1,1), *self.cursor)
         datos_cursor_espera = (
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
+            "                                ",
             "  XXXXXX     XXXXXX     XXXXXX  ",
             " XXXXXXXX   XXXXXXXX   XXXXXXXX ",
             "XXXX..XXXX XXXX..XXXX XXXX..XXXX",
@@ -890,16 +922,6 @@ class ConozcoUy():
             "XXXX..XXXX XXXX..XXXX XXXX..XXXX",
             " XXXXXXXX   XXXXXXXX   XXXXXXXX ",
             "  XXXXXX     XXXXXX      XXXXX  ",
-            "                                ",
-            "                                ",
-            "                                ",
-            "                                ",
-            "                                ",
-            "                                ",
-            "                                ",
-            "                                ",
-            "                                ",
-            "                                ",
             "                                ",
             "                                ",
             "                                ",
@@ -929,6 +951,7 @@ class ConozcoUy():
         self.fondo = self.cargarImagen("fondo.png")
         self.cargarDepartamentos()
         self.cargarRios()
+        self.cargarRutas()
         self.cargarCuchillas()
         self.cargarLugares()
         self.cargarNiveles()
@@ -1057,6 +1080,21 @@ class ConozcoUy():
                 return True
             else:
                 return False
+        if nivel.preguntaActual[1] == 6: # RUTA
+            # buscar ruta correcta
+            encontrado = False
+            for d in self.listaRutas:
+                if d.nombre.startswith(respCorrecta):
+                    encontrado = True
+                    break
+            if d.estaAca(pos):
+                d.mostrarNombre(self.pantalla,
+                                self.fuente24,
+                                COLORNOMBRERUTA,
+                                True)
+                return True
+            else:
+                return False
 
     def explorarNombres(self):
         """Juego principal en modo exploro."""
@@ -1067,6 +1105,8 @@ class ConozcoUy():
                 self.pantalla.blit(self.deptosLineas, (shift_x, shift_y))
             elif i.startswith("rios"):
                 self.pantalla.blit(self.rios, (shift_x, shift_y))
+            elif i.startswith("rutas"):
+                self.pantalla.blit(self.rutas, (shift_x, shift_y))
             elif i.startswith("cuchillas"):
                 self.pantalla.blit(self.cuchillas, (shift_x, shift_y))
             elif i.startswith("capitales"):
@@ -1090,6 +1130,10 @@ class ConozcoUy():
                 for d in self.listaRios:
                     d.mostrarNombre(self.pantalla,self.fuente32,
                                     COLORNOMBRERIO,False)
+            elif i.startswith("rutas"):
+                for d in self.listaRutas:
+                    d.mostrarNombre(self.pantalla,self.fuente32,
+                                    COLORNOMBRERUTA,False)
             elif i.startswith("cuchillas"):
                 for d in self.listaCuchillas:
                     d.mostrarNombre(self.pantalla,self.fuente32,
@@ -1154,6 +1198,14 @@ class ConozcoUy():
                                                         COLORNOMBRERIO,
                                                         True)
                                         break
+                            elif i.startswith("rutas"):
+                                for d in self.listaRutas:
+                                    if d.estaAca(event.pos):
+                                        d.mostrarNombre(self.pantalla,
+                                                        self.fuente24,
+                                                        COLORNOMBRERUTA,
+                                                        True)
+                                        break
                             elif i.startswith("cuchillas"):
                                 for d in self.listaCuchillas:
                                     if d.estaAca(event.pos):
@@ -1198,6 +1250,8 @@ class ConozcoUy():
                 self.pantalla.blit(self.deptosLineas, (shift_x, shift_y))
             elif i.startswith("rios"):
                 self.pantalla.blit(self.rios, (shift_x, shift_y))
+            elif i.startswith("rutas"):
+                self.pantalla.blit(self.rutas, (shift_x, shift_y))
             elif i.startswith("cuchillas"):
                 self.pantalla.blit(self.cuchillas, (shift_x, shift_y))
             elif i.startswith("capitales"):
@@ -1221,6 +1275,10 @@ class ConozcoUy():
                 for d in self.listaRios:
                     d.mostrarNombre(self.pantalla,self.fuente32,
                                     COLORNOMBRERIO,False)
+            if i.startswith("rutas"):
+                for d in self.listaRutas:
+                    d.mostrarNombre(self.pantalla,self.fuente32,
+                                    COLORNOMBRERUTA,False)
             if i.startswith("cuchillas"):
                 for d in self.listaCuchillas:
                     d.mostrarNombre(self.pantalla,self.fuente32,

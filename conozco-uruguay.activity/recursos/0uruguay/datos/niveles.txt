@@ -12,7 +12,7 @@
 # sigue el texto de la pregunta (lineas separadas con \)
 # sigue el tipo de respuesta y el ID de la respuesta correcta
 # finalmente el texto de ayuda si el estudiante se equivoca dos veces
-#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro, 6 ruta
 #  ID de respuesta: string con el nombre
 #  texto de ayuda: string (lineas separadas con \)
 
@@ -217,6 +217,11 @@ Pregunta = los Cerros de Batoví|5|Cerros de Batoví|Quedan en el norte
 Pregunta = el Cerro Bonito|5|Cerro Bonito|Queda en la Cuchilla de Santa Ana
 Pregunta = el Cerro del Medio|5|Cerro del Medio|Queda en Tacuarembó
 Pregunta = el Cerro Chato|5|Cerro Chato|Queda en Durazno
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
 
 [Lugares históricos]
 dibujoInicial = lineasDepto,capitales,ciudades
