@@ -71,6 +71,10 @@ EVENTODESPEGUE = EVENTORESPUESTA+1
 TIEMPODESPEGUE = 40
 EVENTOREFRESCO = EVENTODESPEGUE+1
 TIEMPOREFRESCO = 250
+ESTADONORMAL = 1
+ESTADOPESTANAS = 2
+ESTADOFRENTE = 3
+
 
 # variables globales para adaptar la pantalla a distintas resoluciones
 scale = 1
@@ -816,6 +820,8 @@ class ConozcoUy():
                                             CAMINOCOMUN,
                                             CAMINOIMAGENES)
         self.bicho = self.cargarImagen("bicho.png")
+        self.bichopestanas = self.cargarImagen("bichopestanas.png")
+        self.bichofrente = self.cargarImagen("bichofrente.png")
         self.globito = self.cargarImagen("globito.png")
         self.nave = list()
         self.nave.append(self.cargarImagen("nave1.png"))
@@ -1403,6 +1409,29 @@ class ConozcoUy():
                         self.fuego1 = not self.fuego1
                         pygame.display.flip()
                 elif event.type == EVENTOREFRESCO:
+                    if self.estadobicho == ESTADONORMAL:
+                        if random.randint(1,15) == 1:
+                            self.estadobicho = ESTADOPESTANAS
+                            self.pantalla.blit(self.bichopestanas,
+                                               (int(XBICHO*scale+shift_x),
+                                                int(YBICHO*scale+shift_y)))
+                        elif random.randint(1,20) == 1:
+                            self.estadobicho = ESTADOFRENTE
+                            self.pantalla.blit(self.bichofrente,
+                                               (int(XBICHO*scale+shift_x),
+                                                int(YBICHO*scale+shift_y)))
+
+                    elif self.estadobicho == ESTADOPESTANAS:
+                        self.estadobicho = ESTADONORMAL
+                        self.pantalla.blit(self.bicho,
+                                           (int(XBICHO*scale+shift_x),
+                                            int(YBICHO*scale+shift_y)))
+                    elif self.estadobicho == ESTADOFRENTE:
+                        if random.randint(1,10) == 1:
+                            self.estadobicho = ESTADONORMAL
+                            self.pantalla.blit(self.bicho,
+                                               (int(XBICHO*scale+shift_x),
+                                                int(YBICHO*scale+shift_y)))
                     pygame.display.flip()
 
     def presentacion(self):
@@ -1701,6 +1730,7 @@ class ConozcoUy():
                     self.pantalla.blit(self.bicho,
                                        (int(XBICHO*scale+shift_x),
                                         int(YBICHO*scale+shift_y)))
+                    self.estadobicho = ESTADONORMAL
                 # mostrar pantalla
                 pygame.display.flip()
                 # ir al juego
