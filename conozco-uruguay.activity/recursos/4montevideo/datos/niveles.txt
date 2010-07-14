@@ -123,3 +123,9 @@ nombreInicial =
 Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo
 Pregunta = el Cabo de Pereira|4|Cabo de Pereira|Dále, probá de nuevo
 Pregunta = el Cerro de Montevideo|5|Co. de Montevideo|Queda sobre la bahía
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

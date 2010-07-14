@@ -106,3 +106,9 @@ Pregunta = la Cuchilla de Haedo|4|Cuchilla de Haedo|Dále, probá de nuevo
 Pregunta = la Cuchilla de Navarro|4|Cuchilla de Navarro|Dále, probá de nuevo
 Pregunta = el Cerro Pelado|5|Co. Pelado|Queda al sur
 Pregunta = el Cerro del Quebracho|5|Co. del Quebracho|Queda en el centro
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

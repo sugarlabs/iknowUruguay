@@ -113,3 +113,9 @@ Pregunta = la Cuchilla de las Averías|4|Cuchilla de las Averías|Dále, probá de n
 Pregunta = la Cuchilla de la Carbonera|4|Cuchilla de la Carbonera|Dále, probá de nuevo
 Pregunta = la Cuchilla de la India Muerta|4|Cuchilla de la India Muerta|Dále, probá de nuevo
 Pregunta = el Cerro de Aguirre|5|Co. de Aguirre|Queda al sur
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

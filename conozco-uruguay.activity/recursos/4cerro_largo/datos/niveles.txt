@@ -118,3 +118,9 @@ Pregunta = el Cerro Redondo|5|Co. Redondo|Está al noreste
 Pregunta = el Cerro Pablo Pérez|5|Co. Pablo Pérez|Está al suroeste
 Pregunta = el Cerro Largo|5|Co. Largo|Está al sur
 Pregunta = el Cerro Verde|5|Co. Verde|Está cerca de Melo
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

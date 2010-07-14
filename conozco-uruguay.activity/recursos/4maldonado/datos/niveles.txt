@@ -107,3 +107,9 @@ Pregunta = el Cerro del Toro|5|Co. del Toro|Queda cerca de Piriápolis
 Pregunta = el Cerro San Antonio|5|Co. San Antonio|Queda cerca de Piriápolis
 Pregunta = el Cerro Pan de Azúcar|5|Co. Pan de Azúcar|Queda al sur
 Pregunta = el Cerro Catedral|5|Co. Catedral|Es el más alto del país
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

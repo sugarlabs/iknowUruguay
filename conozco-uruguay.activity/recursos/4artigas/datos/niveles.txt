@@ -108,3 +108,8 @@ Pregunta = el Cerro Chato|5|Co. Chato|Está al norte
 Pregunta = los Tres Cerros de Catalán|5|Tres Cerros de Catalán|Están al este
 Pregunta = el Cerro Pintado|5|Co. Pintado|Está cerca de la capital
 
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

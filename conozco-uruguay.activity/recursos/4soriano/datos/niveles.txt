@@ -120,3 +120,8 @@ Pregunta = la Cuchilla San Salvador|4|Cuchilla San Salvador|Dále, probá de nuevo
 Pregunta = el Cerro Espinillo|5|Co. Espinillo|Queda cerca de Dolores
 Pregunta = el Cerro Curupí|5|Co. Curupí|Queda al norte
 
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

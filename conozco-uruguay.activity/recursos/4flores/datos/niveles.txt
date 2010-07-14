@@ -103,3 +103,9 @@ Pregunta = la Cuchilla Marincho|4|Cuchilla Marincho|Dále, probá de nuevo
 Pregunta = la Cuchilla Villasboas|4|Cuchilla Villasboas|Dále, probá de nuevo
 Pregunta = la Cuchilla Grande Inferior|4|Cuchilla Grande Inferior|Dále, probá de nuevo
 Pregunta = los Cerros de Ojosmín|5|Cos. de Ojosmín|Quedan al oeste
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

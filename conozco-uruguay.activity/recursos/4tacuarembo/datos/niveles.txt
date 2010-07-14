@@ -140,3 +140,9 @@ Pregunta = el Cerro de las Minas|5|Co. de las Minas|Está al oeste
 Pregunta = los Cerros de Batoví|5|Cos. de Batoví|Están cerca de la capital
 Pregunta = el Cerro Lambaré|5|Co. Lambaré|Está al noroeste
 Pregunta = el Cerro del Ñandubal|5|Co. del Ñandubal|Está al noreste
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

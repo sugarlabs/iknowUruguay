@@ -133,3 +133,9 @@ Pregunta = la Cuchilla de Haedo|4|Cuchilla de Haedo|Dále, probá de nuevo
 Pregunta = el Cerro Fortaleza|5|Co. Fortaleza|Queda en el centro
 Pregunta = el Cerro de Corumbé|5|Co. de Corumbé|Queda al este
 Pregunta = el Cerro Charrúa|5|Co. Charrúa|Queda al este
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

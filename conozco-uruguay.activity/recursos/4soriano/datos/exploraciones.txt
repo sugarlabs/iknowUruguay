@@ -27,3 +27,9 @@ elementosActivos = rios
 dibujoInicial = cuchillas, cerros
 nombreInicial =
 elementosActivos = cuchillas, cerros
+
+[Exploro rutas]
+dibujoInicial = capitales, rutas
+nombreInicial = capitales
+elementosActivos = rutas
+

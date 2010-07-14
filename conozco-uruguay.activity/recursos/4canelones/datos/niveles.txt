@@ -139,3 +139,8 @@ nombreInicial =
 Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Atraviesa el departamento\por el centro
 Pregunta = la Cuchilla Cabo de Hornos|4|Cabo de Hornos|Queda al este
 
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

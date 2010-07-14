@@ -115,3 +115,9 @@ Pregunta = el Cerro Espuelitas|5|Co. Espuelitas|Queda al oeste
 Pregunta = el Cerro Arequita|5|Co. Arequita|Queda cerca de Minas
 Pregunta = el Cerro Verdún|5|Co. Verdún|Queda cerca de Minas
 Pregunta = el Cerro Retamosa|5|Co. Retamosa|Queda al norte
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

@@ -107,3 +107,9 @@ Pregunta = la Cuchilla de Palomeque|4|Cuchilla de Palomeque|Dále, probá de nuevo
 Pregunta = el Cerro Valentín|5|Co. Valentín|Está en límite\con Florida
 Pregunta = el Cerro Chato|5|Co. Chato|Está al oeste
 Pregunta = el Cerro del Olimar|5|Co. del Olimar|Está en el centro
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

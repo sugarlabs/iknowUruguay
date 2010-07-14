@@ -115,3 +115,9 @@ Pregunta = el Cerro Bonito|5|Co. Bonito|Queda al este
 Pregunta = el Cerro de la Cruz|5|Co. de la Cruz|Queda al sur
 Pregunta = el Cerro del Medio|5|Co. del Medio|Queda en el límite\con Tacuarembó
 Pregunta = el Cerro de los Peludos|5|Co. de los Peludos|Queda al noroeste
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

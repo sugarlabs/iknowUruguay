@@ -149,3 +149,9 @@ Pregunta = el Cerro Blanco|5|Co. Blanco|Está al este
 Pregunta = los Cerros Negros|5|Cos. Negros|Están al este
 Pregunta = el Cerro de la Campana|5|Co. de la Campana|Está al este
 Pregunta = los Cerros de San Juan|5|Cos. de San Juan|Están al oeste
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

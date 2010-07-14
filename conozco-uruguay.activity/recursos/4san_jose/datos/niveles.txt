@@ -113,3 +113,9 @@ Pregunta = la Cuchilla del Tala|4|Cuchilla del Tala|Dále, probá de nuevo
 Pregunta = la Cuchilla Mangrullo|4|Cuchilla Mangrullo|Dále, probá de nuevo
 Pregunta = el Cerro Clara|5|Co. Clara|Está al norte
 Pregunta = el Cerro San José|5|Co. San José|Está en el centro
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+

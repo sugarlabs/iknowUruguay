@@ -152,3 +152,9 @@ Pregunta = el Cerro Arbolito|5|Co. Arbolito|Queda al este
 Pregunta = el Cerro del Toro|5|Co. del Toro|Queda al sur
 Pregunta = el Cerro Palmera Sola|5|Co. Palmera Sola|Queda al sur
 Pregunta = la Meseta de Artigas|5|Meseta de Artigas|Queda sobre el\Río Uruguay
+
+[Rutas]
+dibujoInicial = lineasDepto, capitales, rutas
+nombreInicial =
+Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+
