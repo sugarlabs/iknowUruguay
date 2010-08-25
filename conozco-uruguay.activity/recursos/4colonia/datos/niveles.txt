@@ -12,7 +12,7 @@
 # sigue el texto de la pregunta (lineas separadas con \)
 # sigue el tipo de respuesta y el ID de la respuesta correcta
 # finalmente el texto de ayuda si el estudiante se equivoca dos veces
-#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro, 6 ruta
 #  ID de respuesta: string con el nombre
 #  texto de ayuda: string (lineas separadas con \)
 
@@ -151,7 +151,12 @@ Pregunta = el Cerro de la Campana|5|Co. de la Campana|Está al este
 Pregunta = los Cerros de San Juan|5|Cos. de San Juan|Están al oeste
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
-
+dibujoInicial = lineasDepto, rutas, capitales, ciudades
+nombreInicial = capitales, ciudades
+Pregunta = la Ruta 1|6|Ruta 1|Queda al sur
+Pregunta = la Ruta 21|6|Ruta 21|Queda al oeste
+Pregunta = la Ruta 12|6|Ruta 12|Queda al norte
+Pregunta = la Ruta 2|6|Ruta 2|Pasa por Rosario
+Pregunta = la Ruta 55|6|Ruta 55|Pasa por Ombúes de Lavalle
+Pregunta = la Ruta 54|6|Ruta 54|Va hasta Juan Lacaze
+Pregunta = la Ruta 22|6|Ruta 22|Pasa por Tarariras

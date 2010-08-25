@@ -12,7 +12,7 @@
 # sigue el texto de la pregunta (lineas separadas con \)
 # sigue el tipo de respuesta y el ID de la respuesta correcta
 # finalmente el texto de ayuda si el estudiante se equivoca dos veces
-#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro, 6 ruta
 #  ID de respuesta: string con el nombre
 #  texto de ayuda: string (lineas separadas con \)
 
@@ -109,7 +109,10 @@ Pregunta = los Tres Cerros de Catalán|5|Tres Cerros de Catalán|Están al este
 Pregunta = el Cerro Pintado|5|Co. Pintado|Está cerca de la capital
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+dibujoInicial = lineasDepto, rutas, capitales, ciudades
+nombreInicial = capitales, ciudades
+Pregunta = la Ruta 3|6|Ruta 3|La Ruta 3 recorre\el litoral del país
+Pregunta = la Ruta 4|6|Ruta 4|Llega hasta la capital\del departamento
+Pregunta = la Ruta 30|6|Ruta 30|Atraviesa todo el departamento
+
 

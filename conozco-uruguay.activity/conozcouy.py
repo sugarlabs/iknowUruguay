@@ -1015,7 +1015,7 @@ class ConozcoUy():
             # buscar depto correcto
             encontrado = False
             for d in self.listaDeptos:
-                if d.nombre.startswith(respCorrecta):
+                if d.nombre == respCorrecta:
                     encontrado = True
                     break
             if d.estaAca(pos):
@@ -1030,7 +1030,7 @@ class ConozcoUy():
             # buscar lugar correcto
             encontrado = False
             for l in self.listaLugares:
-                if l.nombre.startswith(respCorrecta):
+                if l.nombre == respCorrecta:
                     encontrado = True
                     break
             if l.estaAca(pos):
@@ -1045,7 +1045,7 @@ class ConozcoUy():
             # buscar rio correcto
             encontrado = False
             for d in self.listaRios:
-                if d.nombre.startswith(respCorrecta):
+                if d.nombre == respCorrecta:
                     encontrado = True
                     break
             if d.estaAca(pos):
@@ -1060,7 +1060,7 @@ class ConozcoUy():
             # buscar cuchilla correcta
             encontrado = False
             for d in self.listaCuchillas:
-                if d.nombre.startswith(respCorrecta):
+                if d.nombre == respCorrecta:
                     encontrado = True
                     break
             if d.estaAca(pos):
@@ -1075,7 +1075,7 @@ class ConozcoUy():
             # buscar lugar correcto
             encontrado = False
             for l in self.listaLugares:
-                if l.nombre.startswith(respCorrecta):
+                if l.nombre == respCorrecta:
                     encontrado = True
                     break
             if l.estaAca(pos):
@@ -1090,7 +1090,7 @@ class ConozcoUy():
             # buscar ruta correcta
             encontrado = False
             for d in self.listaRutas:
-                if d.nombre.startswith(respCorrecta):
+                if d.nombre == respCorrecta:
                     encontrado = True
                     break
             if d.estaAca(pos):

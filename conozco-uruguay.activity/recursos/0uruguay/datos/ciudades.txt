@@ -9,16 +9,16 @@ Rivera|446|162|1|30|-10
 Tacuarembó|376|299|1|60|0
 Mercedes|86|582|1|50|0
 Colonia del Sacramento|120|784|1|10|15
-Trinidad|244|647|1|42|0
-San José de Mayo|262|785|1|70|-12
+Trinidad|245|619|1|42|0
+San José de Mayo|277|757|1|50|12
 Durazno|309|593|1|0|-12
 Florida|351|715|1|40|0
 Canelones|341|798|1|50|0
 Montevideo|355|847|1|0|18
 Melo|632|400|1|30|0
-Treinta y Tres|633|554|1|62|0
-Minas|483|744|1|35|0
-Rocha|607|765|1|36|0
+Treinta y Tres|605|559|1|62|0
+Minas|499|755|1|35|0
+Rocha|618|774|1|15|-14
 Maldonado|532|853|1|55|0
 # ciudades
 Aiguá|558|726|2|30|0
@@ -48,13 +48,13 @@ Las Piedras|348|822|2|0|12
 Lascano|636|638|2|0|12
 Libertad|281|812|2|40|0
 Minas de Corrales|467|280|2|60|12
-Nueva Helvecia|202|746|2|70|0
+Nueva Helvecia|202|746|2|30|-12
 Nueva Palmira|36|690|2|56|-10
 Nuevo Berlín|86|525|2|55|0
 Ombúes de Lavalle|108|692|2|80|0
 Palmitas|112|620|2|40|0
 Pan de Azúcar|494|831|2|65|-5
-Pando|362|814|2|35|0
+Pando|384|822|2|15|-12
 Paso de los Toros|297|490|2|0|-12
 Piriápolis|487|852|2|0|10
 Pueblo del Carmen|396|562|2|83|0

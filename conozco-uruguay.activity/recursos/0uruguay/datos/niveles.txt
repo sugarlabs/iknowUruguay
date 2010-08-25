@@ -219,9 +219,23 @@ Pregunta = el Cerro del Medio|5|Cerro del Medio|Queda en Tacuarembó
 Pregunta = el Cerro Chato|5|Cerro Chato|Queda en Durazno
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
+dibujoInicial = rutas, capitales
+nombreInicial = capitales
 Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+Pregunta = la Ruta 1|6|Ruta 1|Va de Montevideo\a Colonia
+Pregunta = la Ruta 2|6|Ruta 2|Pasa por Mercedes
+Pregunta = la Ruta 3|6|Ruta 3|Va por el litoral
+Pregunta = la Ruta 4|6|Ruta 4|Está en el norte
+Pregunta = la Ruta 5|6|Ruta 5|Va de Montevideo\a Rivera
+Pregunta = la Ruta 6|6|Ruta 6|Va hasta Vichadero
+Pregunta = la Ruta 7|6|Ruta 7|Pasa por Melo
+Pregunta = la Ruta 8|6|Ruta 8|Pasa por Minas
+Pregunta = la Ruta 9|6|Ruta 9|Pasa por Rocha
+Pregunta = la Ruta Interbalnearia|6|Ruta IB|Pasa por Punta del Este
+Pregunta = la Ruta 21|6|Ruta 21|Recorre el litoral\de Colonia
+Pregunta = la Ruta 11|6|Ruta 11|Pasa por San José\y Canelones
+Pregunta = la Ruta 14|6|Ruta 14|Va de Mercedes a\La Coronilla
+Pregunta = la Ruta 26|6|Ruta 26|Pasa por Tacuarembó
 
 [Lugares históricos]
 dibujoInicial = lineasDepto,capitales,ciudades

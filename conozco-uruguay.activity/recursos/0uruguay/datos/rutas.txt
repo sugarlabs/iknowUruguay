@@ -1,32 +1,16 @@
-# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# rios
-Río Arapey Chico|252|232|176|0
-Río Arapey Grande|253|254|199|15
-Río Cebollatí|236|624|601|45
-Río Cuareim|254|316|52|-45
-Río Daymán|251|191|295|-20
-Río Negro|245|288|524|20
-Río Olimar Chico|227|538|589|10
-Río Olimar Grande|228|604|554|-6
-Río Queguay Chico|249|208|365|10
-Río Queguay|250|106|382|0
-Río Rosario|242|176|735|90
-Río San José|230|280|725|-65
-Río San Juan|243|125|742|25
-Río San Salvador|244|95|652|-30
-Río Santa Lucía|240|380|733|15
-Río Sta Lucía Chico|229|357|710|40
-Río Tacuarembó|239|476|332|-90
-Río Tacuarí|237|718|472|0
-Río Uruguay|248|44|436|90
-Río Yaguarón|238|742|417|-50
-Río Yi|241|340|614|-15
-Río de la Plata|247|202|849|-15
-# otros
-Océano Atlántico|246|696|816|45
-Laguna Merín|235|744|533|50
-Laguna Negra|234|711|687|0
-Laguna de Castillos|233|676|732|0
-Laguna de Rocha|232|619|798|0
-Laguna del Sauce|231|506|836|0
+# Ruta|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+Ruta 1|250|305|810|-25
+Ruta 2|249|151|646|-40
+Ruta 3|248|182|500|-45
+Ruta 4|247|214|193|60
+Ruta 5|246|307|430|60
+Ruta 6|245|440|528|75
+Ruta 7|244|475|652|60
+Ruta 8|243|563|695|80
+Ruta 9|242|573|807|40
+Ruta IB|241|442|844|0
+Ruta 21|240|86|708|-35
+Ruta 11|239|242|746|15
+Ruta 14|238|370|554|0
+Ruta 26|237|294|312|10
 # fin
