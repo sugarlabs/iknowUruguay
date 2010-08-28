@@ -11,7 +11,7 @@ Arévalo|177|593|2|0|12
 C. de las Cuentas|281|575|2|20|12
 Fraile Muerto|304|532|2|15|14
 Arbolito|408|573|2|0|-14
-Plácido Rosas|572|632|2|0|-14
+Plácido Rosas|572|632|2|60|-14
 Río Branco|691|575|2|-50|0
 Tambos de Melo|417|491|2|25|13
 # cerros
