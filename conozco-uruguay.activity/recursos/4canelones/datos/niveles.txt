@@ -140,7 +140,15 @@ Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Atraviesa el departamento\por el
 Pregunta = la Cuchilla Cabo de Hornos|4|Cabo de Hornos|Queda al este
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
 Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+Pregunta = la Ruta 5|6|Ruta 5|Pasa por Canelones
+Pregunta = la Ruta 6|6|Ruta 6|Pasa por Sauce
+Pregunta = la Ruta 7|6|Ruta 7|Pasa por San Jacinto
+Pregunta = la Ruta 8|6|Ruta 8|Pasa por Pando
+Pregunta = la Ruta 9|6|Ruta 9|Va hacia el este
+Pregunta = la Ruta Interbalnearia|6|Ruta IB|Pasa por los balnearios
+Pregunta = la Avenida Giannatasio|6|Av. Giannatasio|Se encuentra con la\Ruta Interbalnearia
+Pregunta = la Ruta 11|6|Ruta 11|Termina en Atlántida
 
