@@ -120,7 +120,11 @@ Pregunta = el Cerro Largo|5|Co. Largo|Está al sur
 Pregunta = el Cerro Verde|5|Co. Verde|Está cerca de Melo
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 7|6|Ruta 7|Pasa por Fraile Muerto
+Pregunta = la Ruta 8|6|Ruta 8|Pasa por Melo
+Pregunta = la Ruta 26|6|Ruta 26|Va hasta Río Branco
+Pregunta = la Ruta 44|6|Ruta 44|Cruza el Río Negro
+Pregunta = la Ruta 18|6|Ruta 18|Viene de Treinta y Tres
 
