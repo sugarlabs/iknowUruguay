@@ -136,7 +136,13 @@ Pregunta = el Cerro Florida|5|Co. Florida|Queda cerca de la capital
 Pregunta = el Cerro Valentín|5|Co. Valentín|Queda en el límite con\Treinta y Tres
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
-
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 5|6|Ruta 5|Va de norte a sur
+Pregunta = la Ruta 6|6|Ruta 6|Pasa por Capilla del Sauce
+Pregunta = la Ruta 7|6|Ruta 7|Pasa por Cerro Chato
+Pregunta = la Ruta 42|6|Ruta 42|Sale de Sarandí Grande
+Pregunta = la Ruta 77|6|Ruta 77|Va por el oeste
+Pregunta = la Ruta 56|6|Ruta 56|Sale de Florida
+Pregunta = la Ruta 41|6|Ruta 41|Pasa por Cerro Colorado
+Pregunta = la Ruta 14|6|Ruta 14|Pasa por Nico Pérez

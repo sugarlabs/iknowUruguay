@@ -105,7 +105,9 @@ Pregunta = la Cuchilla Grande Inferior|4|Cuchilla Grande Inferior|Dále, probá de
 Pregunta = los Cerros de Ojosmín|5|Cos. de Ojosmín|Quedan al oeste
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
-
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 3|6|Ruta 3|Va de norte a sur
+Pregunta = la Ruta 14|6|Ruta 14|Va hacia el este
+Pregunta = la Ruta 57|6|Ruta 57|Va hacia el suroeste
+Pregunta = la Ruta 23|6|Ruta 23|Pasa por Ismael Cortinas
