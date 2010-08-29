@@ -74,7 +74,7 @@ TIEMPOREFRESCO = 250
 ESTADONORMAL = 1
 ESTADOPESTANAS = 2
 ESTADOFRENTE = 3
-
+ESTADODESPEGUE = 4
 
 # variables globales para adaptar la pantalla a distintas resoluciones
 scale = 1
@@ -1383,6 +1383,7 @@ class ConozcoUy():
                                            (int(XMAPAMAX*scale+shift_x),0,
                                             int(DXPANEL*scale),
                                             int(900*scale)))
+                        self.estadobicho = ESTADODESPEGUE
                         self.despegue.play()
                     self.pantalla.fill(COLORPANEL,
                                        (int(XNAVE*scale+shift_x),
@@ -1432,6 +1433,8 @@ class ConozcoUy():
                             self.pantalla.blit(self.bicho,
                                                (int(XBICHO*scale+shift_x),
                                                 int(YBICHO*scale+shift_y)))
+                    elif self.estadobicho == ESTADODESPEGUE:
+                        pass
                     pygame.display.flip()
 
     def presentacion(self):
