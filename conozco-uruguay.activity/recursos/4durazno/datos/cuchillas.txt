@@ -1,5 +1,5 @@
 # Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # cuchillas
-Cuchilla de Pereira|254|638|363|80
+Cuchilla Ramírez|254|638|363|80
 Cuchilla Grande del Durazno|253|408|474|-7
 Cuchilla Villasboas|252|275|550|65

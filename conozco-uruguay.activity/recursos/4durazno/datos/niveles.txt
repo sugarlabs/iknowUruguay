@@ -122,7 +122,7 @@ Pregunta = el Arroyo de las Cañas|3|A. de las Cañas|Está al noreste
 [Elevaciones]
 dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
-Pregunta = la Cuchilla de Pereira|4|Cuchilla de Pereira|Dále, probá de nuevo
+Pregunta = la Cuchilla Ramírez|4|Cuchilla Ramírez|Dále, probá de nuevo
 Pregunta = la Cuchilla Grande\del Durazno|4|Cuchilla Grande del Durazno|Dále, probá de nuevo
 Pregunta = la Cuchilla Villasboas|4|Cuchilla Villasboas|Dále, probá de nuevo
 Pregunta = el Cerro Dos Hermanos|5|Co. Dos Hermanos|Está al este

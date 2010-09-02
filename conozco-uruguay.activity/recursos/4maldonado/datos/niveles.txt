@@ -109,7 +109,14 @@ Pregunta = el Cerro Pan de Azúcar|5|Co. Pan de Azúcar|Queda al sur
 Pregunta = el Cerro Catedral|5|Co. Catedral|Es el más alto del país
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
-
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 9|6|Ruta 9|Cruza el departamento\de oeste a este
+Pregunta = la Ruta Interbalnearia|6|Ruta IB|Viene de los balnearios\de Canelones
+Pregunta = la Ruta 60|6|Ruta 60|Viene de Minas
+Pregunta = la Ruta 37|6|Ruta 37|Va hasta Piriápolis
+Pregunta = la Ruta 12|6|Ruta 12|Viene de Minas
+Pregunta = la Ruta 93|6|Ruta 93|Pasa por el principal balneario
+Pregunta = la Ruta 39|6|Ruta 39|Pasa por San Carlos
+Pregunta = la Ruta 13|6|Ruta 13|Pasa por Aiguá
+Pregunta = la Ruta 109|6|Ruta 109|Pasa por Aiguá
