@@ -115,7 +115,13 @@ Pregunta = la Cuchilla de la India Muerta|4|Cuchilla de la India Muerta|Dále, pr
 Pregunta = el Cerro de Aguirre|5|Co. de Aguirre|Queda al sur
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
-
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 9|6|Ruta 9|Va hasta el Chuy
+Pregunta = la Ruta 10|6|Ruta 10|Pasa por La Paloma
+Pregunta = la Ruta 109|6|Ruta 109|Termina en la\ciudad de Rocha
+Pregunta = la Ruta 15|6|Ruta 15|Pasa por Lascano
+Pregunta = la Ruta 13|6|Ruta 13|Está en el centro\del departamento
+Pregunta = la Ruta 16|6|Ruta 16|Pasa por Castillos
+Pregunta = la Ruta 14|6|Ruta 14|Viene del departamento\de Lavalleja
+Pregunta = la Ruta 19|6|Ruta 19|Pasa por San Luis al Medio
