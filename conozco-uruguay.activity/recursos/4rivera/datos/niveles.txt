@@ -117,7 +117,13 @@ Pregunta = el Cerro del Medio|5|Co. del Medio|Queda en el límite\con Tacuarembó
 Pregunta = el Cerro de los Peludos|5|Co. de los Peludos|Queda al noroeste
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+dibujoInicial = lineasDepto, ciudades, capitales, rutas
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 5|6|Ruta 5|Pasa por la capital
+Pregunta = la Ruta 30|6|Ruta 30|Pasa por Tranqueras
+Pregunta = la Ruta 29|6|Ruta 29|Termina en\Minas de Corrales
+Pregunta = la Ruta 27|6|Ruta 27|Pasa por Cerro Pelado
+Pregunta = la Ruta 6|6|Ruta 6|Llega hasta Brasil
+Pregunta = la Ruta 28|6|Ruta 28|Pasa por el límite\con Tacuarembó
+Pregunta = la Ruta 44|6|Ruta 44|Va hacia Cerro Largo
 

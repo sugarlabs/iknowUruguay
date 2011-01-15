@@ -29,7 +29,7 @@ nombreInicial =
 elementosActivos = cuchillas, cerros
 
 [Exploro rutas]
-dibujoInicial = capitales, rutas
-nombreInicial = capitales
+dibujoInicial = lineasDepto, ciudades, capitales, rutas
+nombreInicial = ciudades, capitales
 elementosActivos = rutas
 
