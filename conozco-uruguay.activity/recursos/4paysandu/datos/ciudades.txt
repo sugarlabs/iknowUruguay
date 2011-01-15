@@ -1,6 +1,6 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Paysandú|84|560|1|45|-5
+Paysandú|75|590|1|45|-5
 Chapicuy|140|289|2|20|-14
 Bella Vista|203|298|2|0|14
 Pueblo Gallinal|320|359|2|0|-14
@@ -16,7 +16,7 @@ Cuchilla del Fuego|472|468|2|0|-14
 Piedra Sola|720|465|2|-50|0
 Constancia|103|517|2|0|-14
 Curapí|77|544|2|22|-12
-Esperanza|149|569|2|0|12
+Esperanza|149|569|2|0|-12
 Porvenir|149|601|2|0|12
 Piedras Coloradas|258|582|2|0|-14
 Orgoroso|291|595|2|42|0

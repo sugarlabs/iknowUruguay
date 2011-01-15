@@ -12,7 +12,7 @@
 # sigue el texto de la pregunta (lineas separadas con \)
 # sigue el tipo de respuesta y el ID de la respuesta correcta
 # finalmente el texto de ayuda si el estudiante se equivoca dos veces
-#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro, 6 ruta
 #  ID de respuesta: string con el nombre
 #  texto de ayuda: string (lineas separadas con \)
 
@@ -154,7 +154,11 @@ Pregunta = el Cerro Palmera Sola|5|Co. Palmera Sola|Queda al sur
 Pregunta = la Meseta de Artigas|5|Meseta de Artigas|Queda sobre el\Río Uruguay
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 3|6|Ruta 3|Recorre el litoral
+Pregunta = la Ruta 26|6|Ruta 26|Está al norte
+Pregunta = la Ruta 4|6|Ruta 4|Recorre el centro\del departamento\de norte a sur
+Pregunta = la Ruta 90|6|Ruta 90|Recorre el sur\del departamento\de este a oeste
+Pregunta = la Ruta 24|6|Ruta 24|Viene de Río Negro
 
