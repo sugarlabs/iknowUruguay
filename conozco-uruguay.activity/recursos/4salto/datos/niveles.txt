@@ -135,7 +135,10 @@ Pregunta = el Cerro de Corumbé|5|Co. de Corumbé|Queda al este
 Pregunta = el Cerro Charrúa|5|Co. Charrúa|Queda al este
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 3|6|Ruta 3|Recorre el litoral
+Pregunta = la Ruta 31|6|Ruta 31|Va hacia Tacuarembó
+Pregunta = la Ruta 4|6|Ruta 4|Va hacia Artigas
+Pregunta = la Ruta 30|6|Ruta 30|Está en el límite\con Artigas
 
