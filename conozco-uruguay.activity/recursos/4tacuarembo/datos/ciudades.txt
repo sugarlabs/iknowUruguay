@@ -1,10 +1,10 @@
 #Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
 # tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
-Tacuarembó|271|305|1|0|-14
+Tacuarembó|287|319|1|0|-14
 Paso del Cerro|326|207|2|-45|-14
 #Paso Bonilla|240|361|2|0|-14
 #Cuchilla el Ombú|389|353|2|0|-14
-Ansina|465|377|2|35|0
+Ansina|465|383|2|35|0
 #Sauce de Batoví|316|408|2|0|-14
 #La Hilera|307|443|2|45|0
 #Los Cuadrados|250|469|2|60|0
@@ -17,7 +17,7 @@ San Gregorio de Polanco|333|687|2|103|0
 #Ptas. de Carretera|517|447|2|70|-14
 #Caraguatá|554|459|2|0|14
 Rincón de Pereira|517|590|2|0|14
-Paso de los Toros|82|779|2|31|-12
+Paso de los Toros|85|779|2|31|-12
 Cuchilla de Caraguatá|642|545|2|-35|-14
 Picada de Cuello|512|450|2|0|14
 Valle Edén|203|359|2|20|14
