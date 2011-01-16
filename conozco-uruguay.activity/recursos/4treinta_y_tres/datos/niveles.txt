@@ -109,7 +109,11 @@ Pregunta = el Cerro Chato|5|Co. Chato|Está al oeste
 Pregunta = el Cerro del Olimar|5|Co. del Olimar|Está en el centro
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
-
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 8|6|Ruta 8|Pasa por la capital\departamental
+Pregunta = la Ruta 19|6|Ruta 19|Viene de Florida
+Pregunta = la Ruta 7|6|Ruta 7|Pasa por el límite\con Florida
+Pregunta = la Ruta 98|6|Ruta 98|Pasa por Isla Patrulla
+Pregunta = la Ruta 18|6|Ruta 18|Pasa por Vergara
+Pregunta = la Ruta 17|6|Ruta 17|Pasa por La Charqueada
