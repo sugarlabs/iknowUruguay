@@ -5,7 +5,7 @@ San José de Mayo|424|467|1|30|-15
 Mal Abrigo|256|310|2|35|-14
 Carreta Quemada|527|336|2|0|-14
 Estación González|312|380|2|0|-14
-Juan Soler|358|462|2|-50|0
+Juan Soler|358|462|2|-40|-14
 Raigon|459|472|2|15|14
 Ecilda Paullier|195|495|2|20|14
 Villa Rodríguez|535|508|2|0|12

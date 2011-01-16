@@ -115,7 +115,11 @@ Pregunta = el Cerro Clara|5|Co. Clara|Está al norte
 Pregunta = el Cerro San José|5|Co. San José|Está en el centro
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 1|6|Ruta 1|Va hasta Montevideo
+Pregunta = la Ruta 3|6|Ruta 3|Va hacia el norte
+Pregunta = la Ruta 11|6|Ruta 11|Pasa por Santa Lucía
+Pregunta = la Ruta 23|6|Ruta 23|Pasa por Ismael Cortinas
+Pregunta = la Ruta 45|6|Ruta 45|Pasa por Villa Rodríguez
 
