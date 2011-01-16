@@ -121,7 +121,15 @@ Pregunta = el Cerro Espinillo|5|Co. Espinillo|Queda cerca de Dolores
 Pregunta = el Cerro Curupí|5|Co. Curupí|Queda al norte
 
 [Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
-nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+dibujoInicial = lineasDepto, rutas, ciudades, capitales
+nombreInicial = ciudades, capitales
+Pregunta = la Ruta 2|6|Ruta 2|Pasa por Palmitas
+Pregunta = la Ruta 21|6|Ruta 21|Pasa por Dolores
+Pregunta = la Ruta 14|6|Ruta 14|Va hasta Flores
+Pregunta = la Ruta 96|6|Ruta 96|Va hasta Villa Soriano
+Pregunta = la Ruta 95|6|Ruta 95|Sale de Mercedes
+Pregunta = la Ruta 105|6|Ruta 105|Va de Dolores\a Palmitas
+Pregunta = la Ruta 55|6|Ruta 55|Termina en\José Enrique Rodó
+Pregunta = la Ruta 12|6|Ruta 12|Está en el límite\con Colonia
+Pregunta = la Ruta 57|6|Ruta 57|Va hasta Flores
 
