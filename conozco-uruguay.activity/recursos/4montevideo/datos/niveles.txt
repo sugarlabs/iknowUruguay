@@ -124,8 +124,29 @@ Pregunta = la Cuchilla Grande|4|Cuchilla Grande|Dále, probá de nuevo
 Pregunta = el Cabo de Pereira|4|Cabo de Pereira|Dále, probá de nuevo
 Pregunta = el Cerro de Montevideo|5|Co. de Montevideo|Queda sobre la bahía
 
-[Rutas]
-dibujoInicial = lineasDepto, capitales, rutas
+[Avenidas y rutas]
+dibujoInicial = lineasDepto, rutas
 nombreInicial =
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
+Pregunta = la Avenida\18 de Julio|6|18 de Julio|Probá otro
+Pregunta = Boulevard Artigas|6|Bvar. Artigas|Probá otro
+Pregunta = la Avenida Rivera|6|Rivera|Probá otro
+Pregunta = Avenida Italia|6|Av. Italia|Probá otro
+Pregunta = Camino Carrasco|6|Cno. Carrasco|Probá otro
+Pregunta = Camino Maldonado|6|Cno. Maldonado|Probá otro
+Pregunta = la Avenida\8 de Octubre|6|8 de Octubre|Probá otro
+Pregunta = la Avenida Belloni|6|Belloni|Probá otro
+Pregunta = Camino Mendoza|6|Mendoza|Probá otro
+Pregunta = la Avenida\General Flores|6|Gral. Flores|Probá otro
+Pregunta = la Avenida J. Batlle\y Ordóñez (Propios)|6|Propios|Probá otro
+Pregunta = la Avenida de las\Instrucciones|6|Instrucciones|Probá otro
+Pregunta = la Avenida Agraciada|6|Agraciada|Probá otro
+Pregunta = la Avenida Garzón|6|Garzón|Probá otro
+Pregunta = los Accesos de las\Rutas 1 y 5|6|Accesos|Probá otro
+Pregunta = la Ruta 1|6|Ruta 1|Probá otro
+Pregunta = la Ruta 5|6|Ruta 5|Probá otro
+Pregunta = la Avenida Luis B. Berres|6|Luis B. Berres|Probá otro
+Pregunta = Camino Sanguinetti|6|Cno. Sanguinetti|Probá otro
+Pregunta = Camino Tomkinson|6|Cno. Tomkinson|Probá otro
+Pregunta = Camino Cibils|6|Cno. Cibils|Probá otro
+Pregunta = Camino Melilla|6|Cno. Melilla|Probá otro
 

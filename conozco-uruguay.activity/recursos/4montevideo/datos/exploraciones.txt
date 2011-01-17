@@ -28,8 +28,8 @@ dibujoInicial = lineasDepto, cuchillas, cerros
 nombreInicial =
 elementosActivos = cuchillas, cerros
 
-[Exploro rutas]
-dibujoInicial = capitales, rutas
-nombreInicial = capitales
+[Exploro avenidas y rutas]
+dibujoInicial = rutas
+nombreInicial =
 elementosActivos = rutas
 
