@@ -152,8 +152,8 @@ class Zona():
         """Devuelve True si la coordenada pos esta en la zona"""
         if pos[0] < XMAPAMAX*scale+shift_x:
             try:
-                colorAca = self.mapa.get_at((pos[0]-shift_x,
-                                             pos[1]-shift_y))
+                colorAca = self.mapa.get_at((int(pos[0]-shift_x),
+                                             int(pos[1]-shift_y)))
             except: # probablemente click fuera de la imagen
                 return False
             if colorAca[0] == self.claveColor:
