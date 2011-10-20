@@ -71,6 +71,7 @@ Pregunta = el balneario\de Punta del Diablo|2|Punta del Diablo|Queda cerca de\la
 Pregunta = el Parque Nacional\de Santa Teresa|2|Pque. Santa Teresa|Queda cerca de La Coronilla
 Pregunta = el balneario\de Barra del Chuy|2|Barra del Chuy|Queda en el límite\con Brasil
 Pregunta = la ciudad\de Chuy|2|Chuy|Queda en el límite\con Brasil
+Pregunta = el pueblo\de 19 de Abril|2|19 de Abril|Queda entre Rocha y\Castillos
 
 [Cursos de agua]
 dibujoInicial = lineasDepto, capitales, rios

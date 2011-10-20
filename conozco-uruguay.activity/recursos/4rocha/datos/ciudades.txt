@@ -17,5 +17,6 @@ Punta del Diablo|634|504|2|72|4
 Pque. Santa Teresa|645|447|2|-65|-14
 Barra del Chuy|705|352|2|-64|2
 Chuy|678|317|2|-10|12
+19 de Abril|405|680|2|0|-12
 # cerros
 Co. de Aguirre|363|649|5|0|14
