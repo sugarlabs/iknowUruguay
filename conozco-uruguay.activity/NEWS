@@ -1,3 +1,10 @@
+* Versión 11 (20/10/11)
+
+  - Se corrigió error de detección de mapas debido a nueva versión de 
+pygame (Walter Bender)
+  - Se corrigieron límites de Artigas (Alan Aguiar)
+  - Se agregó el pueblo 19 de Abril (Agustín Cardoso)
+
 * Versión 10 (5/2/11)
 
   - Se agregaron rutas en todos los mapaas
