@@ -221,7 +221,6 @@ Pregunta = el Cerro Chato|5|Cerro Chato|Queda en Durazno
 [Rutas]
 dibujoInicial = rutas, capitales
 nombreInicial = capitales
-Pregunta = el Río Arapey Chico|3|Río Arapey Chico|Queda al norte
 Pregunta = la Ruta 1|6|Ruta 1|Va de Montevideo\a Colonia
 Pregunta = la Ruta 2|6|Ruta 2|Pasa por Mercedes
 Pregunta = la Ruta 3|6|Ruta 3|Va por el litoral
