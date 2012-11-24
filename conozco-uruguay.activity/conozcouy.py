@@ -53,25 +53,21 @@ CAMINORECURSOS = "recursos"
 CAMINOCOMUN = "comun"
 CAMINOFUENTES = "fuentes"
 CAMINODATOS = "datos"
-ARCHIVODEPTOS = "departamentos.txt"
-ARCHIVOLUGARES = "ciudades.txt"
-ARCHIVONIVELES = "niveles.txt"
-ARCHIVOEXPLORACIONES = "exploraciones.txt"
-ARCHIVORIOS = "rios.txt"
-ARCHIVORUTAS = "rutas.txt"
-ARCHIVOCUCHILLAS = "cuchillas.txt"
-ARCHIVOCREDITOS = "creditos.txt"
-ARCHIVOPRESENTACION = "presentacion.txt"
-ARCHIVONOMBRE = "nombre.txt"
 CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
-COLORNOMBREDEPTO = (200,60,60)
+ARCHIVONIVELES = "levels"
+ARCHIVOEXPLORACIONES = "explorations"
+COLORNOMBREDEPTO = (10,10,10)
 COLORNOMBRECAPITAL = (10,10,10)
 COLORNOMBRERIO = (10,10,10)
 COLORNOMBRERUTA = (10,10,10)
 COLORNOMBREELEVACION = (10,10,10)
+COLORESTADISTICAS1 = (10, 10, 150)
+COLORESTADISTICAS2 = (10, 10, 10)
 COLORPREGUNTAS = (80,80,155)
 COLORPANEL = (156,158,172)
+COLORBARRA_P = (255, 0, 0)
+COLORBARRA_A = (0, 0, 255)
 TOTALAVANCE = 7
 EVENTORESPUESTA = pygame.USEREVENT+1
 TIEMPORESPUESTA = 2300
@@ -950,8 +946,11 @@ class ConozcoUy():
         self.pedazo2 = self.cargarImagen("pedazo2.png")
         self.paracaidas = self.cargarImagen("paracaidas.png")
         self.terron = self.cargarImagen("terron.png")
-        self.simboloCapital = self.cargarImagen("capital.png")
+
+        self.simboloCapitalD = self.cargarImagen("capitalD.png")
+        self.simboloCapitalN = self.cargarImagen("capitalN.png")
         self.simboloCiudad = self.cargarImagen("ciudad.png")
+
         self.simboloCerro = self.cargarImagen("cerro.png")
         # cargar sonidos
         self.camino_sonidos = os.path.join(CAMINORECURSOS,
