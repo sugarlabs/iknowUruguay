@@ -1,6 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-Soriano|254|327|124|0
-Colonia|253|392|400|0
-San José|252|757|545|-90
-Flores|251|735|110|-90

@@ -243,6 +243,8 @@ class ConozcoUy():
                 lugares = lugares + f.CAPITALS
             if hasattr(f, 'CITIES'):
                 lugares = lugares + f.CITIES
+            if hasattr(f, 'BEACHS'):
+                lugares = lugares + f.BEACHS
             if hasattr(f, 'HILLS'):
                 lugares = lugares + f.HILLS
             self.listaLugares = list()

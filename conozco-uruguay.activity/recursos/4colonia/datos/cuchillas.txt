@@ -1,6 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Cuchilla de San Juan|254|321|359|60
-Cuchilla de la Colonia|253|421|522|35
-Cuchilla de la Cruz|252|628|368|-80
-Cuchilla Guaycurú|251|734|355|-45
