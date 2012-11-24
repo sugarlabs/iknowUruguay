@@ -206,9 +206,9 @@ class Nivel():
         self.preguntaActual = self.preguntas[self.indicePreguntaActual]
         self.sufijoActual = random.randint(1,len(listaSufijos))-1
         self.prefijoActual = random.randint(1,len(listaPrefijos))-1
-        lineas = listaPrefijos[self.prefijoActual].split("\\")
-        lineas.extend(self.preguntaActual[0].split("\\"))
-        lineas.extend(listaSufijos[self.sufijoActual].split("\\"))
+        lineas = listaPrefijos[self.prefijoActual].split("\n")
+        lineas.extend(self.preguntaActual[0].split("\n"))
+        lineas.extend(listaSufijos[self.sufijoActual].split("\n"))
         self.indicePreguntaActual = self.indicePreguntaActual+1
         if self.indicePreguntaActual == len(self.preguntas):
             self.indicePreguntaActual = 0
@@ -216,8 +216,8 @@ class Nivel():
 
     def devolverAyuda(self):
         """Devuelve la linea de ayuda"""
-	    self.preguntaActual = self.preguntas[self.indicePreguntaActual-1]
-        return self.preguntaActual[3].split("\\")
+        self.preguntaActual = self.preguntas[self.indicePreguntaActual-1]
+        return self.preguntaActual[3].split("\n")
 
 class ConozcoUy():
     """Clase principal del juego.
@@ -1512,7 +1512,7 @@ class ConozcoUy():
                         if self.avanceNivel == TOTALAVANCE: # inicia despegue
                             self.lineasPregunta =  self.listaDespedidas[\
                                 random.randint(1,self.numeroDespedidas)-1]\
-                                .split("\\")
+                                .split("\n")
                             self.mostrarGlobito(self.lineasPregunta)
                             self.yNave = int(YNAVE*scale+shift_y)
                             self.fuego1 = True
@@ -1610,7 +1610,7 @@ class ConozcoUy():
                         self.fuente32,
                         (int(600*scale+shift_x),int(800*scale+shift_y)),
                         (255,155,155))
-	    pygame.display.flip()
+        pygame.display.flip()
         pygame.time.set_timer(EVENTODESPEGUE,TIEMPODESPEGUE)
         if self.sound:
             self.despegue.play()
@@ -1855,7 +1855,7 @@ class ConozcoUy():
         self.pantalla.blit(self.globito,(int(350*scale+shift_x),
                                          int(180*scale+shift_y)))
         yLinea = int(180*scale+shift_y)+self.fuente32.get_height()*3
-        lineas = self.listaPresentacion[2].split("\\")
+        lineas = self.listaPresentacion[2].split("\n")
         for l in lineas:
             text = self.fuente32.render(l.strip(), 1, COLORPREGUNTAS)
             textrect = text.get_rect()
