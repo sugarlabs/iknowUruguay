@@ -307,7 +307,7 @@ class ConozcoUy():
                 self.riosDetectar = self.cargarImagen("riosDetectar.png")
                 self.listaRios = list()
                 for r in f.RIVERS:
-                    #nombreRio = r[0]
+                    #print r[0]
                     nombreRio = unicode(r[0], 'UTF-8')
                     claveColor = r[1]
                     posx = r[2]
@@ -1929,6 +1929,7 @@ class ConozcoUy():
                                     int(YBICHO*scale+shift_y)))
                     self.estadobicho = ESTADONORMAL
                     pygame.display.flip()
+                    pygame.time.set_timer(EVENTORESPUESTA,0)
                     self.jugarNivel()
                 else:
                     if self.bandera:
