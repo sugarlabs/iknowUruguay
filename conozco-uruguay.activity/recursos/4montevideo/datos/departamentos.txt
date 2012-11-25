@@ -1,5 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-San José|254|62|279|0
-Canelones|253|441|126|0
-Montevideo|252|423|476|0

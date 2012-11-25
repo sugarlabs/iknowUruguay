@@ -1,4 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Cuchilla Grande|254|574|433|80
-Cabo de Pereira|253|285|455|35
