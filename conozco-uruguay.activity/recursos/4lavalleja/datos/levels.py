@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from gettext import gettext as _
 
@@ -9,7 +9,7 @@ LEVEL1 = [
         [],
 [
     (_('Treinta y Tres'), _("It's easy")),
-    (_('Florida'), _(''), _("It's easy")),
+    (_('Florida'), _("It's easy")),
     (_('Canelones'), _("It's easy")),
     (_('Maldonado'), _("It's easy")),
     (_('Rocha'), _("It's easy")),
