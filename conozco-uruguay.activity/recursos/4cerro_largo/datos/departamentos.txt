@@ -1,8 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-Rivera|254|128|171|0
-Tacuarembó|253|78|378|0
-Durazno|252|13|657|90
-Cerro Largo|251|415|522|0
-Treinta y Tres|250|353|765|0
-Brasil|249|590|180|0
