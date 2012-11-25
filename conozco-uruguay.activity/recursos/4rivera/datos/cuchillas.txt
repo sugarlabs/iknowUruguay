@@ -1,7 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Cuchilla de Cuñapirú|254|279|322|80
-Cuchilla del Yaguarí|253|408|531|30
-Cuchilla Negra|250|205|222|40
-Cuchilla de Haedo|249|58|348|55
-Cuchilla de Santa Ana|248|407|309|-50
