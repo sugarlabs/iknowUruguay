@@ -1,9 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-San José|244|20|350|90
-Florida|243|327|124|0
-Canelones|241|392|430|0
-Montevideo|240|216|635|0
-Lavalleja|239|723|284|-90
-Maldonado|238|767|565|-90
-# fin

@@ -1,4 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Cuchilla Grande|254|385|377|45
-Cabo de Hornos|253|642|459|90
