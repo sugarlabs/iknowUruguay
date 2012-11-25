@@ -1,9 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-Durazno|254|291|119|0
-Florida|253|431|406|0
-Canelones|252|281|861|0
-Lavalleja|251|642|720|0
-San José|250|27|715|90
-Flores|249|23|457|90
-Treinta y Tres|248|761|133|-90

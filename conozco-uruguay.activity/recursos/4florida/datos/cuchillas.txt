@@ -1,7 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Cuchilla Mansavillagra|254|420|361|-45
-Cuchilla Grande|253|629|387|75
-Cuchilla Grande Inferior|252|266|449|0
-Cuchilla del Pintado|251|105|672|90
-Cuchilla Sta. Lucía|250|316|621|30
