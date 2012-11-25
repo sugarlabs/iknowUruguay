@@ -1923,6 +1923,7 @@ class ConozcoUy():
                                 (int(XMAPAMAX*scale+shift_x),shift_y,
                                 int(DXPANEL*scale),int(900*scale)))
                 if self.jugar:
+                    self.borrarGlobito()
                     self.pantalla.blit(self.bicho,
                                     (int(XBICHO*scale+shift_x),
                                     int(YBICHO*scale+shift_y)))
