@@ -1,5 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Cuchilla de las Averías|254|361|346|55
-Cuchilla de la Carbonera|253|506|481|35
-Cuchilla de la India Muerta|252|409|584|-60
