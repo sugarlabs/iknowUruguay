@@ -1,8 +1,0 @@
-# Ruta|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-Ruta 2|250|120|622|0
-Ruta 24|249|208|480|75
-Ruta 3|248|380|447|-45
-Ruta 20|247|475|458|20
-Ruta 25|246|290|420|0
-Ruta 4|245|621|437|-45
-# fin
