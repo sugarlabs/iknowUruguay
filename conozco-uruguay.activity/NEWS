@@ -1,73 +1,73 @@
-* Versión 11 (20/10/11)
+* VersiÃ³n 11 (20/10/11)
 
-  - Se corrigió error de detección de mapas debido a nueva versión de 
+  - Se corrigiÃ³ error de detecciÃ³n de mapas debido a nueva versiÃ³n de 
 pygame (Walter Bender)
-  - Se corrigieron límites de Artigas (Alan Aguiar)
-  - Se agregó el pueblo 19 de Abril (Agustín Cardoso)
+  - Se corrigieron lÃ­mites de Artigas (Alan Aguiar)
+  - Se agregÃ³ el pueblo 19 de Abril (AgustÃ­n Cardoso)
 
-* Versión 10 (5/2/11)
+* VersiÃ³n 10 (5/2/11)
 
   - Se agregaron rutas en todos los mapaas
-  - Se agregó una animación sencilla para el marcianito
-  - Algunas mejoras menores del código
+  - Se agregÃ³ una animaciÃ³n sencilla para el marcianito
+  - Algunas mejoras menores del cÃ³digo
 
-* Versión 9 (19/4/10)
+* VersiÃ³n 9 (19/4/10)
 
   - Se ingresaron los mapas de todos los departamentos (gracias a Alan
     Aguiar)
-  - Se mejoró el menú de opciones
+  - Se mejorÃ³ el menÃº de opciones
   - Se cambiaron las fuentes
-  - Se incluyó un nivel con información de Montevideo (gracias a Miriam
-    Martínez y Magdalena Lallo)
+  - Se incluyÃ³ un nivel con informaciÃ³n de Montevideo (gracias a Miriam
+    MartÃ­nez y Magdalena Lallo)
 
-* Versión 8 (4/12/09)
+* VersiÃ³n 8 (4/12/09)
 
   - Se introduce la posibilidad de usar distintos mapas
   - Se agrega el mapa de Canelones
   - Se agrega un nivel con preguntas sobre Canelones (gracias a Nancy
-    Gómez y Ana Cichero)
+    GÃ³mez y Ana Cichero)
 
-* Versión 7 (11/10/09)
+* VersiÃ³n 7 (11/10/09)
 
-  - La resolución de la pantalla se adapta automáticamente para usar en
+  - La resoluciÃ³n de la pantalla se adapta automÃ¡ticamente para usar en
     cualquier computadora.
   - Secuencia inicial con la llegada del marcianito a la Tierra.
-  - Se optimizaron los gráficos y sonidos para reducir el tamaño.
-  - Se optimizó el código para que no consuma tantos recursos (gracias a
+  - Se optimizaron los grÃ¡ficos y sonidos para reducir el tamaÃ±o.
+  - Se optimizÃ³ el cÃ³digo para que no consuma tantos recursos (gracias a
     Pablo Moleri).
-  - Se agregó un nivel con lugares históricos (gracias a Ana Trujillo y
+  - Se agregÃ³ un nivel con lugares histÃ³ricos (gracias a Ana Trujillo y
     Ana Cichero).
 
-* Versión 6 (21/7/09)
+* VersiÃ³n 6 (21/7/09)
 
-  - La resolución de la pantalla se adapta automáticamente para usar en
-    máquinas distintas a la XO, por ejemplo corriendo Sugar on a Stick.
-  - Esta versión está basada en la versión 2, así que no tiene ayuda ni
+  - La resoluciÃ³n de la pantalla se adapta automÃ¡ticamente para usar en
+    mÃ¡quinas distintas a la XO, por ejemplo corriendo Sugar on a Stick.
+  - Esta versiÃ³n estÃ¡ basada en la versiÃ³n 2, asÃ­ que no tiene ayuda ni
     secuencia inicial.
 
-* Versión 5 (6/6/09)
-  - Se agregó secuencia inicial contando la llegada del marcianito a la
+* VersiÃ³n 5 (6/6/09)
+  - Se agregÃ³ secuencia inicial contando la llegada del marcianito a la
     Tierra.
 
-* Versión 4 (8/5/08)
+* VersiÃ³n 4 (8/5/08)
 
-  - Se corrigió un problema de permisos en la versión 3 que no permitía
-    su ejecución en la versión de Sugar 8.2
+  - Se corrigiÃ³ un problema de permisos en la versiÃ³n 3 que no permitÃ­a
+    su ejecuciÃ³n en la versiÃ³n de Sugar 8.2
 
-* Versión 3 (7/5/08)
+* VersiÃ³n 3 (7/5/08)
 
-  - Se agregó ayuda (gracias a los alumnos de Rosamel Ramírez por la
+  - Se agregÃ³ ayuda (gracias a los alumnos de Rosamel RamÃ­rez por la
     sugerencia)
 
-* Versión 2 (4/1/09)
+* VersiÃ³n 2 (4/1/09)
 
-  - Se agregaron más ciudades y ríos
+  - Se agregaron mÃ¡s ciudades y rÃ­os
   - Se agregaron cuchillas y cerros
-  - Se agregó sonido
+  - Se agregÃ³ sonido
   - Cuando se selecciona una respuesta correcta, se muestra el nombre
   - Se hizo compatible con Sugar 8.2 y otras correcciones menores
 
-* Versión 1 (29/7/08)
+* VersiÃ³n 1 (29/7/08)
 
-  - Primera versión, tiene departamentos, capitales departamentales,
+  - Primera versiÃ³n, tiene departamentos, capitales departamentales,
     algunas ciudades y algunos cursos de agua.
