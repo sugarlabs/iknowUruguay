@@ -1,9 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-Flores|254|301|64|0
-Colonia|253|66|336|90
-Florida|252|722|232|-90
-Canelones|251|715|640|-90
-Montevideo|250|715|870|0
-Soriano|249|53|61|0
-San José|248|406|236|0

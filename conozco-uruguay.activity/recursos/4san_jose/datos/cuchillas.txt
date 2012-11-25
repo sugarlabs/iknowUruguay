@@ -1,6 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Cuchilla Guaycurú|254|176|187|0
-Sierra Mahoma|253|280|250|0
-Cuchilla del Tala|252|490|281|70
-Cuchilla Mangrullo|251|444|617|-60
