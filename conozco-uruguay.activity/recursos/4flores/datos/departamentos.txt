@@ -1,8 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-Durazno|254|599|117|0
-Soriano|253|57|511|90
-Flores|252|297|258|0
-Colonia|251|90|838|0
-San José|250|480|838|0
-Florida|249|744|469|-90
