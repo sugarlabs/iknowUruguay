@@ -1,7 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-Lavalleja|254|232|230|0
-Canelones|253|20|611|90
-Maldonado|252|385|603|0
-Rocha|251|736|476|-90
-Florida|250|39|57|45
