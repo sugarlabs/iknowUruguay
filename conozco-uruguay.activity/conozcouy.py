@@ -49,6 +49,7 @@ XNAVE = 800
 YNAVE = 650
 DXNAVE = 100
 DYNAVE = 200
+YTEXTO = 370
 CAMINORECURSOS = "recursos"
 CAMINOCOMUN = "comun"
 CAMINOFUENTES = "fuentes"
@@ -1072,6 +1073,7 @@ class ConozcoUy():
                                             self.directorio,
                                             CAMINODATOS)
         self.fondo = self.cargarImagen("fondo.png")
+        self.bandera = self.cargarImagen("bandera.png")
 
         self.loadInfo()
 
@@ -1918,19 +1920,32 @@ class ConozcoUy():
                 # dibujar fondo y panel
                 self.pantalla.blit(self.fondo, (shift_x, shift_y))
                 self.pantalla.fill(COLORPANEL,
-                                   (int(XMAPAMAX*scale+shift_x),shift_y,
-                                    int(DXPANEL*scale),int(900*scale)))
+                                (int(XMAPAMAX*scale+shift_x),shift_y,
+                                int(DXPANEL*scale),int(900*scale)))
                 if self.jugar:
                     self.pantalla.blit(self.bicho,
-                                       (int(XBICHO*scale+shift_x),
-                                        int(YBICHO*scale+shift_y)))
+                                    (int(XBICHO*scale+shift_x),
+                                    int(YBICHO*scale+shift_y)))
                     self.estadobicho = ESTADONORMAL
-                # mostrar pantalla
-                pygame.display.flip()
-                # ir al juego
-                if self.jugar: # juego
+                    pygame.display.flip()
                     self.jugarNivel()
-                else: # exploro
+                else:
+                    if self.bandera:
+                        self.pantalla.blit(self.bandera,
+                                        (int((XMAPAMAX+47)*scale+shift_x),
+                                        int(155*scale+shift_y)))
+                    yLinea = int(YTEXTO*scale) + shift_y + \
+                                self.fuente9.get_height()
+                    for par in self.lista_estadisticas:
+                        text1 = self.fuente9.render(par[0], 1, COLORESTADISTICAS1)
+                        self.pantalla.blit(text1,
+                                ((XMAPAMAX+10)*scale+shift_x, yLinea))
+                        text2 = self.fuente9.render(par[1], 1, COLORESTADISTICAS2)
+                        self.pantalla.blit(text2,
+                                ((XMAPAMAX+135)*scale+shift_x, yLinea))
+                        yLinea = yLinea+self.fuente9.get_height()+int(5*scale)
+
+                    pygame.display.flip()
                     self.explorarNombres()
 
 
