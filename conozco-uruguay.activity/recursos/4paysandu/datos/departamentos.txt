@@ -1,8 +1,0 @@
-# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# departamentos
-Salto|254|417|156|0
-Paysandú|253|347|466|0
-Río Negro|252|294|767|0
-Durazno|251|624|862|0
-Tacuarembó|250|737|577|-90
-Argentina|249|33|150|90
