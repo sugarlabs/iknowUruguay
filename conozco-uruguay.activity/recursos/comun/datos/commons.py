@@ -37,16 +37,10 @@ WRONG = [
     _('That is not correct')
 ]
 
-BYE_C = [
+BYE = [
     _("Now I'm ready\nfor tomorrow...\nI'm going to play...\nThanks for your help!"),
     _("We made it!\nI'm going to play ball...\nBye and thanks\nfor helping me!"),
     _("We did it!\nI'm ready for tomorrow...\nI'm playing a while...\nUntil next time!")
-]
-
-BYE_W = [
-    _("Better luck next time\nI'll play a while...\nThanks!"),
-    _("The next time will be better\nI'm going to play ball...\nThanks!"),
-    _("Please try again...\nI'm going to play...\nThanks!")
 ]
 
 CREDITS = [

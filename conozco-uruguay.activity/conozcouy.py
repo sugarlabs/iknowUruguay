@@ -365,8 +365,7 @@ class ConozcoUy():
         self.listaSufijos = list()
         self.listaCorrecto = list()
         self.listaMal = list()
-        self.listaDespedidasB = list()
-        self.listaDespedidasM = list()
+        self.listaDespedidas = list()
         self.listaPresentacion = list()
         self.listaCreditos = list()
         
@@ -399,14 +398,10 @@ class ConozcoUy():
                 for e in f.WRONG:
                     e1 = unicode(e, 'UTF-8')
                     self.listaMal.append(e1)
-            if hasattr(f, 'BYE_C'):
-                for e in f.BYE_C:
+            if hasattr(f, 'BYE'):
+                for e in f.BYE:
                     e1 = unicode(e, 'UTF-8')
-                    self.listaDespedidasB.append(e1)
-            if hasattr(f, 'BYE_W'):
-                for e in f.BYE_W:
-                    e1 = unicode(e, 'UTF-8')
-                    self.listaDespedidasM.append(e1)
+                    self.listaDespedidas.append(e1)
             if hasattr(f, 'PRESENTATION'):
                 for e in f.PRESENTATION:
                     e1 = unicode(e, 'UTF-8')
@@ -420,8 +415,7 @@ class ConozcoUy():
         self.numeroPrefijos = len(self.listaPrefijos)
         self.numeroCorrecto = len(self.listaCorrecto)
         self.numeroMal = len(self.listaMal)
-        self.numeroDespedidasB = len(self.listaDespedidasB)
-        self.numeroDespedidasM = len(self.listaDespedidasM)
+        self.numeroDespedidas = len(self.listaDespedidas)
 
 
     def cargarNiveles(self):
