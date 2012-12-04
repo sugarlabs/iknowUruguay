@@ -112,14 +112,14 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 5'), 6, _('Ruta 5'), _('Va de norte a sur')),
-    (_('the %s') % _('Ruta 6'), 6, _('Ruta 6'), _('Pasa por Capilla del Sauce')),
-    (_('the %s') % _('Ruta 7'), 6, _('Ruta 7'), _('Pasa por Cerro Chato')),
-    (_('the %s') % _('Ruta 42'), 6, _('Ruta 42'), _('Sale de Sarandí Grande')),
-    (_('the %s') % _('Ruta 77'), 6, _('Ruta 77'), _('Va por el oeste')),
-    (_('the %s') % _('Ruta 56'), 6, _('Ruta 56'), _('Sale de Florida')),
-    (_('the %s') % _('Ruta 41'), 6, _('Ruta 41'), _('Pasa por Cerro Colorado')),
-    (_('the %s') % _('Ruta 14'), 6, _('Ruta 14'), _('Pasa por Nico Pérez'))
+    (_('Route %s') % 5, _('Va de norte a sur')),
+    (_('Route %s') % 6, _('Pasa por Capilla del Sauce')),
+    (_('Route %s') % 7, _('Pasa por Cerro Chato')),
+    (_('Route %s') % 42, _('Sale de Sarandí Grande')),
+    (_('Route %s') % 77, _('Va por el oeste')),
+    (_('Route %s') % 56, _('Sale de Florida')),
+    (_('Route %s') % 41, _('Pasa por Cerro Colorado')),
+    (_('Route %s') % 14, _('Pasa por Nico Pérez'))
 ]
 ]
 
