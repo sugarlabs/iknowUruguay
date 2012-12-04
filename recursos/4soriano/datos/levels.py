@@ -77,20 +77,20 @@ LEVEL4 = [
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 2'), 6, _('Ruta 2'), _('Pasa por Palmitas')),
-    (_('the %s') % _('Ruta 21'), 6, _('Ruta 21'), _('Pasa por Dolores')),
-    (_('the %s') % _('Ruta 14'), 6, _('Ruta 14'), _('Va hasta Flores')),
-    (_('the %s') % _('Ruta 96'), 6, _('Ruta 96'), _('Va hasta Villa Soriano')),
-    (_('the %s') % _('Ruta 95'), 6, _('Ruta 95'), _('Sale de Mercedes')),
-    (_('the %s') % _('Ruta 105'), 6, _('Ruta 105'), _('Va de Dolores\na Palmitas')),
-    (_('the %s') % _('Ruta 55'), 6, _('Ruta 55'), _('Termina en\nJosé Enrique Rodó')),
-    (_('the %s') % _('Ruta 12'), 6, _('Ruta 12'), _('Está en el límite\ncon Colonia')),
-    (_('the %s') % _('Ruta 57'), 6, _('Ruta 57'), _('Va hasta Flores'))
+    (_('Route %s') % 2, _('Pasa por Palmitas')),
+    (_('Route %s') % 21, _('Pasa por Dolores')),
+    (_('Route %s') % 14, _('Va hasta Flores')),
+    (_('Route %s') % 96, _('Va hasta Villa Soriano')),
+    (_('Route %s') % 95, _('Sale de Mercedes')),
+    (_('Route %s') % 105, _('Va de Dolores\na Palmitas')),
+    (_('Route %s') % 55, _('Termina en\nJosé Enrique Rodó')),
+    (_('Route %s') % 12, _('Está en el límite\ncon Colonia')),
+    (_('Route %s') % 57, _('Va hasta Flores'))
 ]
 ]
 
