@@ -75,20 +75,20 @@ LEVEL3 = [
 ]
 
 LEVEL4 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 9'), 6, _('Ruta 9'), _('Cruza el departamento\nde oeste a este')),
-    (_('the %s') % _('Ruta Interbalnearia'), 6, _('Ruta IB'), _('Viene de los balnearios\nde Canelones')),
-    (_('the %s') % _('Ruta 60'), 6, _('Ruta 60'), _('Viene de Minas')),
-    (_('the %s') % _('Ruta 37'), 6, _('Ruta 37'), _('Va hasta Piriápolis')),
-    (_('the %s') % _('Ruta 12'), 6, _('Ruta 12'), _('Viene de Minas')),
-    (_('the %s') % _('Ruta 93'), 6, _('Ruta 93'), _('Pasa por el principal balneario')),
-    (_('the %s') % _('Ruta 39'), 6, _('Ruta 39'), _('Pasa por San Carlos')),
-    (_('the %s') % _('Ruta 13'), 6, _('Ruta 13'), _('Pasa por Aiguá')),
-    (_('the %s') % _('Ruta 109'), 6, _('Ruta 109'), _('Pasa por Aiguá'))
+    (_('Route %s') % 9, _('Cruza el departamento\nde oeste a este')),
+    (_('Route %s') % 'IB', _('Viene de los balnearios\nde Canelones')),
+    (_('Route %s') % 60, _('Viene de Minas')),
+    (_('Route %s') % 37, _('Va hasta Piriápolis')),
+    (_('Route %s') % 12, _('Viene de Minas')),
+    (_('Route %s') % 93, _('Pasa por el principal balneario')),
+    (_('Route %s') % 39, _('Pasa por San Carlos')),
+    (_('Route %s') % 13, _('Pasa por Aiguá')),
+    (_('Route %s') % 109, _('Pasa por Aiguá'))
 ]
 ]
 
