@@ -130,14 +130,13 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 5'), 6, _('Ruta 5'), _('Pasa por Canelones')),
-    (_('the %s') % _('Ruta 6'), 6, _('Ruta 6'), _('Pasa por Sauce')),
-    (_('the %s') % _('Ruta 7'), 6, _('Ruta 7'), _('Pasa por San Jacinto')),
-    (_('the %s') % _('Ruta 8'), 6, _('Ruta 8'), _('Pasa por Pando')),
-    (_('the %s') % _('Ruta 9'), 6, _('Ruta 9'), _('Va hacia el este')),
-    (_('the %s') % _('Ruta Interbalnearia'), 6, _('Ruta IB'), _('Pasa por los balnearios')),
-    (_('the %s') % _('Avenida Giannatasio'), 6, _('Av. Giannatasio'), _('Se encuentra con la\nRuta Interbalnearia')),
-    (_('the %s') % _('Ruta 11'), 6, _('Ruta 11'), _('Termina en Atlántida'))
+    (_('Route %s') % 5, _('Pasa por Canelones')),
+    (_('Route %s') % 6, _('Pasa por Sauce')),
+    (_('Route %s') % 7, _('Pasa por San Jacinto')),
+    (_('Route %s') % 8, _('Pasa por Pando')),
+    (_('Route %s') % 9, _('Va hacia el este')),
+    (_('Route %s') % 'Interbalnearia', _('Pasa por los balnearios')),
+    (_('Route %s') % 11, _('Termina en Atlántida'))
 ]
 ]
 
