@@ -75,18 +75,18 @@ LEVEL4 = [
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 5'), 6, _('Ruta 5'), _('Pasa por la capital')),
-    (_('the %s') % _('Ruta 30'), 6, _('Ruta 30'), _('Pasa por Tranqueras')),
-    (_('the %s') % _('Ruta 29'), 6, _('Ruta 29'), _('Termina en\nMinas de Corrales')),
-    (_('the %s') % _('Ruta 27'), 6, _('Ruta 27'), _('Pasa por Cerro Pelado')),
-    (_('the %s') % _('Ruta 6'), 6, _('Ruta 6'), _('Llega hasta Brasil')),
-    (_('the %s') % _('Ruta 28'), 6, _('Ruta 28'), _('Pasa por el límite\ncon Tacuarembó')),
-    (_('the %s') % _('Ruta 44'), 6, _('Ruta 44'), _('Va hacia Cerro Largo'))
+    (_('Route %s') % 5, _('Pasa por la capital')),
+    (_('Route %s') % 30, _('Pasa por Tranqueras')),
+    (_('Route %s') % 29, _('Termina en\nMinas de Corrales')),
+    (_('Route %s') % 27, _('Pasa por Cerro Pelado')),
+    (_('Route %s') % 6, _('Llega hasta Brasil')),
+    (_('Route %s') % 28, _('Pasa por el límite\ncon Tacuarembó')),
+    (_('Route %s') % 44, _('Va hacia Cerro Largo'))
 ]
 ]
 
