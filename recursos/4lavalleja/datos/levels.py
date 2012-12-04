@@ -92,20 +92,18 @@ LEVEL4 = [
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 5'), 6, _('Ruta 5'), _('Pasa por Durazno')),
-	
-    (_('the %s') % _('Ruta 8'), 6, _('Ruta 8'), _('Cruza el departamento\nde sur a norte')),
-    (_('the %s') % _('Ruta 60'), 6, _('Ruta 60'), _('Va de Minas al sur')),
-    (_('the %s') % _('Ruta 12'), 6, _('Ruta 12'), _('Pasa por Villa del Rosario')),
-    (_('the %s') % _('Ruta 58'), 6, _('Ruta 58'), _('Pasa por Polanco')),
-    (_('the %s') % _('Ruta 40'), 6, _('Ruta 40'), _('Termina en Pirarajá')),
-    (_('the %s') % _('Ruta 13'), 6, _('Ruta 13'), _('Va hacia el este')),
-    (_('the %s') % _('Ruta 14'), 6, _('Ruta 14'), _('Pasa por J.P. Varela'))
+    (_('Route %s') % 8, _('Cruza el departamento\nde sur a norte')),
+    (_('Route %s') % 60, _('Va de Minas al sur')),
+    (_('Route %s') % 12, _('Pasa por Villa del Rosario')),
+    (_('Route %s') % 58, _('Pasa por Polanco')),
+    (_('Route %s') % 40, _('Termina en Pirarajá')),
+    (_('Route %s') % 13, _('Va hacia el este')),
+    (_('Route %s') % 14, _('Pasa por J.P. Varela'))
 ]
 ]
 
