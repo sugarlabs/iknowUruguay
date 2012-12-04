@@ -67,17 +67,17 @@ LEVEL4 = [
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 8'), 6, _('Ruta 8'), _('Pasa por la capital\ndepartamental')),
-    (_('the %s') % _('Ruta 19'), 6, _('Ruta 19'), _('Viene de Florida')),
-    (_('the %s') % _('Ruta 7'), 6, _('Ruta 7'), _('Pasa por el límite\ncon Florida')),
-    (_('the %s') % _('Ruta 98'), 6, _('Ruta 98'), _('Pasa por Isla Patrulla')),
-    (_('the %s') % _('Ruta 18'), 6, _('Ruta 18'), _('Pasa por Vergara')),
-    (_('the %s') % _('Ruta 17'), 6, _('Ruta 17'), _('Pasa por La Charqueada'))
+    (_('Route %s') % 8, _('Pasa por la capital\ndepartamental')),
+    (_('Route %s') % 19, _('Viene de Florida')),
+    (_('Route %s') % 7, _('Pasa por el límite\ncon Florida')),
+    (_('Route %s') % 98, _('Pasa por Isla Patrulla')),
+    (_('Route %s') % 18, _('Pasa por Vergara')),
+    (_('Route %s') % 17, _('Pasa por La Charqueada'))
 ]
 ]
 
