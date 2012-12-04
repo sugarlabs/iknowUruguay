@@ -138,18 +138,18 @@ LEVEL5 = [
 ]
 
 LEVEL6 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 1'), 6, _('Ruta 1'), _('Queda al sur')),
-    (_('the %s') % _('Ruta 21'), 6, _('Ruta 21'), _('Queda al oeste')),
-    (_('the %s') % _('Ruta 12'), 6, _('Ruta 12'), _('Queda al norte')),
-    (_('the %s') % _('Ruta 2'), 6, _('Ruta 2'), _('Pasa por Rosario')),
-    (_('the %s') % _('Ruta 55'), 6, _('Ruta 55'), _('Pasa por Ombúes de Lavalle')),
-    (_('the %s') % _('Ruta 54'), 6, _('Ruta 54'), _('Va hasta Juan Lacaze')),
-    (_('the %s') % _('Ruta 22'), 6, _('Ruta 22'), _('Pasa por Tarariras'))
+    (_('Route %s') % 1, _('Queda al sur')),
+    (_('Route %s') % 21, _('Queda al oeste')),
+    (_('Route %s') % 12, _('Queda al norte')),
+    (_('Route %s') % 2, _('Pasa por Rosario')),
+    (_('Route %s') % 55, _('Pasa por Ombúes de Lavalle')),
+    (_('Route %s') % 54, _('Va hasta Juan Lacaze')),
+    (_('Route %s') % 22, _('Pasa por Tarariras'))
 ]
 ]
 
