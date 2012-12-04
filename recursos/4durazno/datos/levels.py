@@ -82,18 +82,18 @@ LEVEL4 = [
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 5'), 6, _('Ruta 5'), _('Pasa por Durazno')),
-    (_('the %s') % _('Ruta 4'), 6, _('Ruta 4'), _('Pasa por Baygorria')),
-    (_('the %s') % _('Ruta 14'), 6, _('Ruta 14'), _('Pasa por Villa del Carmen')),
-    (_('the %s') % _('Ruta 6'), 6, _('Ruta 6'), _('Pasa por Sarandí del Yi')),
-    (_('the %s') % _('Ruta 43'), 6, _('Ruta 43'), _('Pasa por Blanquillo')),
-    (_('the %s') % _('Ruta 19'), 6, _('Ruta 19'), _('Pasa cerca de Rossell y Rius')),
-    (_('the %s') % _('Ruta 100'), 6, _('Ruta 100'), _('Va hasta el embalse\ndel Río Negro'))
+    (_('Route %s') % 5, _('Pasa por Durazno')),
+    (_('Route %s') % 4, _('Pasa por Baygorria')),
+    (_('Route %s') % 14, _('Pasa por Villa del Carmen')),
+    (_('Route %s') % 6, _('Pasa por Sarandí del Yi')),
+    (_('Route %s') % 43, _('Pasa por Blanquillo')),
+    (_('Route %s') % 19, _('Pasa cerca de Rossell y Rius')),
+    (_('Route %s') % 100, _('Va hasta el embalse\ndel Río Negro'))
 ]
 ]
 
