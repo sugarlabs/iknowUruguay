@@ -64,17 +64,17 @@ LEVEL4 = [
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 2'), 6, _('Ruta 2'), _('Viene de Mercedes')),
-    (_('the %s') % _('Ruta 24'), 6, _('Ruta 24'), _('Va a Paysandú')),
-    (_('the %s') % _('Ruta 3'), 6, _('Ruta 3'), _('Pasa por Young')),
-    (_('the %s') % _('Ruta 20'), 6, _('Ruta 20'), _('Va hacia el este')),
-    (_('the %s') % _('Ruta 25'), 6, _('Ruta 25'), _('Pasa por Young')),
-    (_('the %s') % _('Ruta 4'), 6, _('Ruta 4'), _('Pasa por la represa\nde Baygorria'))
+    (_('Route %s') % 2, _('Viene de Mercedes')),
+    (_('Route %s') % 24, _('Va a Paysandú')),
+    (_('Route %s') % 3, _('Pasa por Young')),
+    (_('Route %s') % 20, _('Va hacia el este')),
+    (_('Route %s') % 25, _('Pasa por Young')),
+    (_('Route %s') % 4, _('Pasa por la represa\nde Baygorria'))
 ]
 ]
 
