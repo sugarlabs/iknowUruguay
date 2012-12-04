@@ -80,19 +80,19 @@ LEVEL4 = [
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 9'), 6, _('Ruta 9'), _('Va hasta el Chuy')),
-    (_('the %s') % _('Ruta 10'), 6, _('Ruta 10'), _('Pasa por La Paloma')),
-    (_('the %s') % _('Ruta 109'), 6, _('Ruta 109'), _('Termina en la\nciudad de Rocha')),
-    (_('the %s') % _('Ruta 15'), 6, _('Ruta 15'), _('Pasa por Lascano')),
-    (_('the %s') % _('Ruta 13'), 6, _('Ruta 13'), _('Está en el centro\ndel departamento')),
-    (_('the %s') % _('Ruta 16'), 6, _('Ruta 16'), _('Pasa por Castillos')),
-    (_('the %s') % _('Ruta 14'), 6, _('Ruta 14'), _('Viene del departamento\nde Lavalleja')),
-    (_('the %s') % _('Ruta 19'), 6, _('Ruta 19'), _('Pasa por San Luis al Medio'))
+    (_('Route %s') % 9, _('Va hasta el Chuy')),
+    (_('Route %s') % 10, _('Pasa por La Paloma')),
+    (_('Route %s') % 109, _('Termina en la\nciudad de Rocha')),
+    (_('Route %s') % 15, _('Pasa por Lascano')),
+    (_('Route %s') % 13, _('Está en el centro\ndel departamento')),
+    (_('Route %s') % 16, _('Pasa por Castillos')),
+    (_('Route %s') % 14, _('Viene del departamento\nde Lavalleja')),
+    (_('Route %s') % 19, _('Pasa por San Luis al Medio'))
 ]
 ]
 
