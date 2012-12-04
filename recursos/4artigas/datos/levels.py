@@ -73,14 +73,14 @@ LEVEL4 = [
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('the %s') % _('Ruta 3'), 6, _('Ruta 3'), _('La Ruta 3 recorre\nel litoral del país')),
-    (_('the %s') % _('Ruta 4'), 6, _('Ruta 4'), _('Llega hasta la capital\ndel departamento')),
-    (_('the %s') % _('Ruta 30'), 6, _('Ruta 30'), _('Atraviesa todo el departamento'))
+    (_('Route %s') % 3, _('La Ruta 3 recorre\nel litoral del país')),
+    (_('Route %s') % 4, _('Llega hasta la capital\ndel departamento')),
+    (_('Route %s') % 30, _('Atraviesa todo el departamento'))
 ]
 ]
 
