@@ -204,25 +204,25 @@ LEVEL5 = [
 ]
 
 LEVEL6 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales'],
 [
-    (_('the %s') % _('Ruta 1'), 6, _('Ruta 1'), _('Va de Montevideo\na Colonia')),
-    (_('the %s') % _('Ruta 2'), 6, _('Ruta 2'), _('Pasa por Mercedes')),
-    (_('the %s') % _('Ruta 3'), 6, _('Ruta 3'), _('Va por el litoral')),
-    (_('the %s') % _('Ruta 4'), 6, _('Ruta 4'), _('Está en el norte')),
-    (_('the %s') % _('Ruta 5'), 6, _('Ruta 5'), _('Va de Montevideo\na Rivera')),
-    (_('the %s') % _('Ruta 6'), 6, _('Ruta 6'), _('Va hasta Vichadero')),
-    (_('the %s') % _('Ruta 7'), 6, _('Ruta 7'), _('Pasa por Melo')),
-    (_('the %s') % _('Ruta 8'), 6, _('Ruta 8'), _('Pasa por Minas')),
-    (_('the %s') % _('Ruta 9'), 6, _('Ruta 9'), _('Pasa por Rocha')),
-    (_('the %s') % _('Ruta 21'), 6, _('Ruta 21'), _('Recorre el litoral\nde Colonia')),
-    (_('the %s') % _('Ruta 11'), 6, _('Ruta 11'), _('Pasa por San José\ny Canelones')),
-    (_('the %s') % _('Ruta 14'), 6, _('Ruta 14'), _('Va de Mercedes a\nLa Coronilla')),
-    (_('the %s') % _('Ruta 26'), 6, _('Ruta 26'), _('Pasa por Tacuarembó')),
-    (_('the %s') % _('Ruta Interbalnearia'), 6, _('Ruta IB'), _('Pasa por Punta del Este'))
+    (_('Route %s') % 1, _('Va de Montevideo\na Colonia')),
+    (_('Route %s') % 2, _('Pasa por Mercedes')),
+    (_('Route %s') % 3, _('Va por el litoral')),
+    (_('Route %s') % 4, _('Está en el norte')),
+    (_('Route %s') % 5, _('Va de Montevideo\na Rivera')),
+    (_('Route %s') % 6, _('Va hasta Vichadero')),
+    (_('Route %s') % 7, _('Pasa por Melo')),
+    (_('Route %s') % 8, _('Pasa por Minas')),
+    (_('Route %s') % 9, _('Pasa por Rocha')),
+    (_('Route %s') % 21, _('Recorre el litoral\nde Colonia')),
+    (_('Route %s') % 11, _('Pasa por San José\ny Canelones')),
+    (_('Route %s') % 14, _('Va de Mercedes a\nLa Coronilla')),
+    (_('Route %s') % 26, _('Pasa por Tacuarembó')),
+    (_('Route %s') % 'Interbalnearia', _('Pasa por Punta del Este'))
 ]
 ]
 
