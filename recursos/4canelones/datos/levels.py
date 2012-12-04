@@ -12,7 +12,7 @@ LEVEL1 = [
     (_('the city of %s') % _('Aguas Corrientes'), 2, _('Aguas Corrientes'), _('Queda en el límite\ncon San José')),
     (_('the city of %s') % _('Los Cerrillos'), 2, _('Los Cerrillos'), _('Queda al oeste')),
     (_('the city of %s') % _('Juanicó'), 2, _('Juanicó'), _('Queda al sur de la capital')),
-    (_('the city of %s') % _('Canelones'), 2, _('Canelones'), _('Es la capital del\ndepartamento')),
+    (_('the city of %s') % _('Canelones'), 2, _('Canelones'), _("It's the capital of\nthe department")),
     (_('the city of %s') % _('Progreso'), 2, _('Progreso'), _('Queda al oeste')),
     (_('the city of %s') % _('Las Piedras'), 2, _('Las Piedras'), _('Queda cerca de\Montevideo')),
     (_('the city of %s') % _('La Paz'), 2, _('La Paz'), _('Queda en el límite\ncon Montevideo')),

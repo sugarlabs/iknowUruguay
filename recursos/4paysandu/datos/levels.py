@@ -2,14 +2,13 @@
 
 from gettext import gettext as _
 
-
 LEVEL2 = [
         1,
         _('Cities'),
         ['lineasDepto', 'capitales', 'ciudades'],
         [],
 [
-    (_('the city of %s') % _('Paysandú'), 2, _('Paysandú'), _('Es la capital del\ndepartamento')),
+    (_('the city of %s') % _('Paysandú'), 2, _('Paysandú'), _("It's the capital of\nthe department")),
     (_('the town of %s') % _('Chapicuy'), 2, _('Chapicuy'), _("It's in the northwest")),
     (_('the town of %s') % _('Bella Vista'), 2, _('Bella Vista'), _("It's in the northwest")),
     (_('the town of %s') % _('Pueblo Gallinal'), 2, _('Pueblo Gallinal'), _("It's in the northwest")),

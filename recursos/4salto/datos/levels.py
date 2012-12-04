@@ -8,7 +8,7 @@ LEVEL2 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         [],
 [
-    (_('the city of %s') % _('Salto'), 1, _('Salto'), _('Es la capital del\ndepartamento')),
+    (_('the city of %s') % _('Salto'), 1, _('Salto'), _("It's the capital of\nthe department")),
     (_('the city of %s') % _('Belén'), 2, _('Belén'), _("It's in the northwest")),
     (_('the city of %s') % _('Constitución'), 2, _('Constitución'), _("It's in the west")),
     (_('the town of %s') % _('Palomas'), 2, _('Palomas'), _("It's in the northwest")),
