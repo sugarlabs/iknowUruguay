@@ -44,29 +44,29 @@ LEVEL2 = [
 ]
 
 LEVEL3 = [
-        1,
+        15,
         _('Waterways'),
         ['lineasDepto', 'rios'],
         [],
 [
-    (_('the %s') % _('Río Tacuarembó'), 3, _('Río Tacuarembó'), _('Está en el centro')),
-    (_('the %s') % _('Río Negro'), 3, _('Río Negro'), _("It's in the south")),
-    (_('the %s') % _('Arroyo Salsipuedes Gr.'), 3, _('A. Salsipuedes Gr.'), _("It's in the southwest")),
-    (_('the %s') % _('Arroyo Salsipuedes Ch.'), 3, _('A. Salsipuedes Ch.'), _("It's in the southeast")),
-    (_('the %s') % _('Arroyo Cardoso'), 3, _('A. Cardoso'), _("It's in the southwest")),
-    (_('the %s') % _('Arroyo Malo'), 3, _('A. Malo'), _("It's in the west")),
-    (_('the %s') % _('Arroyo de la Quebrada'), 3, _('A. de la Quebrada'), _('Está en el centro')),
-    (_('the %s') % _('Arroyo Rolón'), 3, _('A. Rolón'), _("It's in the southwest")),
-    (_('the %s') % _('Arroyo de Clara'), 3, _('A. de Clara'), _("It's in the south")),
-    (_('the %s') % _('Arroyo Caraguatá'), 3, _('A. Caraguatá'), _("It's in the southeast")),
-    (_('the %s') % _('Arroyo  Yaguarí'), 3, _('A. Yaguarí'), _("It's in the east")),
-    (_('the %s') % _('Arroyo de los Sauces'), 3, _('A. de los Sauces'), _("It's in the east")),
-    (_('the %s') % _('Arroyo Laureles'), 3, _('A. Laureles'), _("It's in the north")),
-    (_('the %s') % _('Arroyo Tacuarembó Ch.'), 3, _('A. Tacuarembó Ch.'), _("It's in the northwest")),
-    (_('the %s') % _('Arroyo Tranqueras'), 3, _('A. Tranqueras'), _('Está al nororeste')),
-    (_('the %s') % _('Arroyo Batoví'), 3, _('A. Batoví'), _('Está en el centro')),
-    (_('the %s') % _('Arroyo Tres Cruces'), 3, _('A. Tres Cruces'), _("It's in the northwest")),
-    (_('the %s') % _('Arroyo Cañas'), 3, _('A. Cañas'), _("It's in the north"))
+    (_('Tacuarembó'), _('Está en el centro')),
+    (_('Negro'), _("It's in the south")),
+    (_('Salsipuedes Gr.'), _("It's in the southwest")),
+    (_('Salsipuedes Ch.'), _("It's in the southeast")),
+    (_('Cardoso'), _("It's in the southwest")),
+    (_('Malo'), _("It's in the west")),
+    (_('de la Quebrada'), _('Está en el centro')),
+    (_('Rolón'), _("It's in the southwest")),
+    (_('de Clara'), _("It's in the south")),
+    (_('Caraguatá'), _("It's in the southeast")),
+    (_('Yaguarí'), _("It's in the east")),
+    (_('de los Sauces'), _("It's in the east")),
+    (_('Laureles'), _("It's in the north")),
+    (_('Tacuarembó Ch.'), _("It's in the northwest")),
+    (_('Tranqueras'), _('Está al nororeste')),
+    (_('Batoví'), _('Está en el centro')),
+    (_('Tres Cruces'), _("It's in the northwest")),
+    (_('Cañas'), _("It's in the north"))
 ]
 ]
 
