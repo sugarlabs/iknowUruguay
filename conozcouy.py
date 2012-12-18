@@ -489,6 +489,9 @@ class ConozcoUy():
                             elif (index == 4):
                                 tipo = 3
                                 texto = _('the %s') % respuesta
+                            elif (index == 15):
+                                tipo = 3
+                                texto = _('the %s river') % respuesta
                             elif (index == 5):
                                 tipo = 6
                                 texto = _('the %(route)s') % {'route': respuesta}
