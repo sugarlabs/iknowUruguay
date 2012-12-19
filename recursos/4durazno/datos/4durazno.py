@@ -40,18 +40,18 @@ CITIES = [
 RIVERS = [
     (_('Río Negro'), 254, 418, 320, 20),
     (_('Río Yí'), 253, 387, 653, 0),
-    (_('A. de Caballero'), 250, 194, 510, 60),
-    (_('A. Villasboas'), 249, 254, 544, 45),
-    (_('A. Maciel'), 247, 218, 621, -60),
-    (_('A. de Tejera'), 246, 305, 543, 55),
-    (_('A. Tomás Cuadra'), 245, 385, 528, 45),
-    (_('A. Maestre de Campo'), 243, 358, 595, 33),
-    (_('A. Antonio Herrera'), 241, 510, 540, 75),
-    (_('A. Malbajar'), 237, 554, 544, 60),
-    (_('A. del Cordobés'), 234, 674, 323, -90),
-    (_('A. Palmas'), 232, 646, 449, -45),
-    (_('A. Blanquillo'), 229, 539, 399, -60),
-    (_('A. de las Cañas'), 228, 575, 370, -45)
+    (_('Arroyo de Caballero'), 250, 194, 510, 60),
+    (_('Arroyo Villasboas'), 249, 254, 544, 45),
+    (_('Arroyo Maciel'), 247, 218, 621, -60),
+    (_('Arroyo de Tejera'), 246, 305, 543, 55),
+    (_('Arroyo Tomás Cuadra'), 245, 385, 528, 45),
+    (_('Arroyo Maestre de Campo'), 243, 358, 595, 33),
+    (_('Arroyo Antonio Herrera'), 241, 510, 540, 75),
+    (_('Arroyo Malbajar'), 237, 554, 544, 60),
+    (_('Arroyo del Cordobés'), 234, 674, 323, -90),
+    (_('Arroyo Palmas'), 232, 646, 449, -45),
+    (_('Arroyo Blanquillo'), 229, 539, 399, -60),
+    (_('Arroyo de las Cañas'), 228, 575, 370, -45)
 ]
 
 CUCHILLAS = [
@@ -61,7 +61,7 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Dos Hermanos'), 710, 483, 5, -45, -14)
+    (_('Cerro Dos Hermanos'), 710, 483, 5, -45, -14)
 ]
 
 ROUTES = [

@@ -28,30 +28,30 @@ CITIES = [
 ]
 
 RIVERS = [
-    (_('Océano Atlántico'), 230, 634, 832, 0),
+    (_('Atlantic Ocean'), 230, 634, 832, 0),
     (_('Río de la Plata'), 254, 200, 832, 0),
-    (_('A. Garzón'), 253, 665, 600, 90),
-    (_('A. de Rocha'), 252, 644, 373, -15),
-    (_('A. Valdivia'), 251, 652, 310, 20),
-    (_('A. del Alferez'), 250, 705, 182, 85),
-    (_('A. del Aiguá'), 249, 508, 254, 70),
-    (_('A. Sarandí'), 248, 643, 185, 80),
-    (_('A. del León'), 247, 563, 239, 90),
-    (_('A. Solís Gr.'), 246, 92, 668, -45),
-    (_('A. Coronilla'), 245, 527, 381, -30),
-    (_('A. Sauce'), 244, 90, 568, 0),
-    (_('A. Pan de Azúcar'), 243, 180, 648, 90),
-    (_('A. del Sauce'), 242, 261, 657, -45),
-    (_('A. Mataojo'), 241, 318, 582, -45),
-    (_('A. de las Cañas'), 240, 515, 499, 70),
-    (_('A. de los Caracoles'), 239, 455, 480, 75),
-    (_('A. de los Carpés'), 238, 375, 524, -35),
-    (_('A. San Carlos'), 237, 459, 656, 75),
-    (_('A. Maldonado'), 236, 405, 773, -65),
-    (_('A. J. Ignacio'), 235, 578, 620, 90),
-    (_('Lag. Garzón'), 234, 654, 699, 0),
-    (_('Lag. J. Ignacio'), 233, 562, 742, 0),
-    (_('Lag. del Sauce'), 232, 328, 751, 0)
+    (_('Arroyo Garzón'), 253, 665, 600, 90),
+    (_('Arroyo de Rocha'), 252, 644, 373, -15),
+    (_('Arroyo Valdivia'), 251, 652, 310, 20),
+    (_('Arroyo del Alferez'), 250, 705, 182, 85),
+    (_('Arroyo del Aiguá'), 249, 508, 254, 70),
+    (_('Arroyo Sarandí'), 248, 643, 185, 80),
+    (_('Arroyo del León'), 247, 563, 239, 90),
+    (_('Arroyo Solís Grande'), 246, 92, 668, -45),
+    (_('Arroyo Coronilla'), 245, 527, 381, -30),
+    (_('Arroyo Sauce'), 244, 90, 568, 0),
+    (_('Arroyo Pan de Azúcar'), 243, 180, 648, 90),
+    (_('Arroyo del Sauce'), 242, 261, 657, -45),
+    (_('Arroyo Mataojo'), 241, 318, 582, -45),
+    (_('Arroyo de las Cañas'), 240, 515, 499, 70),
+    (_('Arroyo de los Caracoles'), 239, 455, 480, 75),
+    (_('Arroyo de los Carpés'), 238, 375, 524, -35),
+    (_('Arroyo San Carlos'), 237, 459, 656, 75),
+    (_('Arroyo Maldonado'), 236, 405, 773, -65),
+    (_('Arroyo José Ignacio'), 235, 578, 620, 90),
+    (_('Laguna Garzón'), 234, 654, 699, 0),
+    (_('Laguna José Ignacio'), 233, 562, 742, 0),
+    (_('Laguna del Sauce'), 232, 328, 751, 0)
 ]
 
 CUCHILLAS = [
@@ -63,10 +63,10 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. del Toro'), 198, 777, 5, 55, 0),
-    (_('Co. San Antonio'), 190, 786, 5, -76, 0),
-    (_('Co. Pan de Azúcar'), 193, 752, 5, 0, -14),
-    (_('Co. Catedral'), 588, 384, 5, 20, 14)
+    (_('Cerro del Toro'), 198, 777, 5, 55, 0),
+    (_('Cerro San Antonio'), 190, 786, 5, -76, 0),
+    (_('Cerro Pan de Azúcar'), 193, 752, 5, 0, -14),
+    (_('Cerro Catedral'), 588, 384, 5, 20, 14)
 ]
 
 ROUTES = [

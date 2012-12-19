@@ -12,8 +12,8 @@ LEVEL2 = [
     (_('the city of %s') % _('Santa Clara de Olimar'), 2, _('Santa Clara de Olimar'), _("It's in the northwest")),
     (_('the town of %s') % _('Rincón'), 2, _('Rincón'), _("It's in the northeast")),
     (_('the city of %s') % _('Vergara'), 2, _('Vergara'), _("It's in the northeast")),
-    (_('the town of %s') % _('Isla Patrulla'), 2, _('Isla Patrulla'), _('Está en el centro')),
-    (_('the town of %s') % _('El Oro'), 2, _('El Oro'), _('Está en el centro')),
+    (_('the town of %s') % _('Isla Patrulla'), 2, _('Isla Patrulla'), _("It's in the center")),
+    (_('the town of %s') % _('El Oro'), 2, _('El Oro'), _("It's in the center")),
     (_('the city of %s') % _('Cerro Chato'), 2, _('Cerro Chato'), _("It's in the west")),
     (_('the town of %s') % _('La Charqueada'), 2, _('La Charqueada'), _("It's in the southeast")),
     (_('the town of %s') % _('Tupambaé'), 2, _('Tupambaé'), _('Está en el límite\ncon Cerro Largo')),
@@ -27,25 +27,25 @@ LEVEL3 = [
         ['lineasDepto', 'rios'],
         [],
 [
-    (_('Olimar Gr.'), _("It's in the south")),
-    (_('Olimar Ch. River'), _("It's in the southwest")),
-    (_('Tacuarí'), _("It's in the northeast")),
-    (_('Cebollatí'), _("It's in the southeast")),
-    (_('Corrales'), _("It's in the south")),
-    (_('Sarandí Gr.'), _("It's in the northeast")),
-    (_('Sarandí Ch.'), _("It's in the northeast")),
-    (_('Ayala'), _("It's in the east")),
-    (_('del Parao'), _("It's in the north")),
-    (_('Corrales del Parao'), _('Está en el centro')),
-    (_('Leoncho'), _("It's in the north")),
-    (_('Olazo'), _("It's in the north")),
-    (_('Yerbal Gr.'), _('Está en el centro')),
-    (_('Yerbal Ch.'), _('Está en el centro')),
-    (_('de los Porongos'), _('Está en el centro')),
-    (_('de los Ceibos'), _('Está en el centro')),
-    (_('de las Pavas'), _("It's in the west")),
-    (_('de las Averías'), _("It's in the east")),
-    (_('Avestruz Gr.'), _("It's in the west"))
+    (_('Río Olimar Grande'), _("It's in the south")),
+    (_('Río Olimar Chico'), _("It's in the southwest")),
+    (_('Río Tacuarí'), _("It's in the northeast")),
+    (_('Río Cebollatí'), _("It's in the southeast")),
+    (_('Arroyo Corrales'), _("It's in the south")),
+    (_('Arroyo Sarandí Grande'), _("It's in the northeast")),
+    (_('Arroyo Sarandí Chico'), _("It's in the northeast")),
+    (_('Arroyo Ayala'), _("It's in the east")),
+    (_('Arroyo del Parao'), _("It's in the north")),
+    (_('Arroyo Corrales del Parao'), _("It's in the center")),
+    (_('Arroyo Leoncho'), _("It's in the north")),
+    (_('Arroyo Olazo'), _("It's in the north")),
+    (_('Arroyo Yerbal Grande'), _("It's in the center")),
+    (_('Arroyo Yerbal Chico'), _("It's in the center")),
+    (_('Arroyo de los Porongos'), _("It's in the center")),
+    (_('Arroyo de los Ceibos'), _("It's in the center")),
+    (_('Arroyo de las Pavas'), _("It's in the west")),
+    (_('Arroyo de las Averías'), _("It's in the east")),
+    (_('Arroyo Avestruz Grande'), _("It's in the west"))
 ]
 ]
 
@@ -55,13 +55,13 @@ LEVEL4 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %s') % _('Cuchilla Grande'), 4, _('Cuchilla Grande'), _('Try again')),
-    (_('the %s') % _('Asperezas del Yerbal'), 4, _('Asperezas del Yerbal'), _('Try again')),
-    (_('the %s') % _('Cuchilla del Carmen'), 4, _('Cuchilla del Carmen'), _('Try again')),
-    (_('the %s') % _('Cuchilla de Palomeque'), 4, _('Cuchilla de Palomeque'), _('Try again')),
-    (_('the %s') % _('Cerro Valentín'), 5, _('Co. Valentín'), _('Está en límite\ncon Florida')),
-    (_('the %s') % _('Cerro Chato'), 5, _('Co. Chato'), _("It's in the west")),
-    (_('the %s') % _('Cerro del Olimar'), 5, _('Co. del Olimar'), _("It's in the center"))
+    (_('the %(f)s') % {'f': _('Cuchilla Grande')}, 4, _('Cuchilla Grande'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Asperezas del Yerbal')}, 4, _('Asperezas del Yerbal'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla del Carmen')}, 4, _('Cuchilla del Carmen'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla de Palomeque')}, 4, _('Cuchilla de Palomeque'), _('Try again')),
+    (_('the %(m)s') % {'m': _('Cerro Valentín')}, 5, _('Cerro Valentín'), _("It's in the limit\nwith Florida")),
+    (_('the %(m)s') % {'m': _('Cerro Chato')}, 5, _('Cerro Chato'), _("It's in the west")),
+    (_('the %(m)s') % {'m': _('Cerro del Olimar')}, 5, _('Cerro del Olimar'), _("It's in the center"))
 ]
 ]
 
@@ -74,9 +74,9 @@ LEVEL5 = [
     (_('Route %s') % 8, _('Pasa por la capital\ndepartamental')),
     (_('Route %s') % 19, _('Viene de Florida')),
     (_('Route %s') % 7, _('Pasa por el límite\ncon Florida')),
-    (_('Route %s') % 98, _('Pasa por Isla Patrulla')),
-    (_('Route %s') % 18, _('Pasa por Vergara')),
-    (_('Route %s') % 17, _('Pasa por La Charqueada'))
+    (_('Route %s') % 98, _('Passes through of %s') % _('Isla Patrulla')),
+    (_('Route %s') % 18, _('Passes through of %s') % _('Vergara')),
+    (_('Route %s') % 17, _('Passes through of %s') % _('La Charqueada'))
 ]
 ]
 

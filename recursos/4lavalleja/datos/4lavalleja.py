@@ -28,32 +28,32 @@ CITIES = [
 RIVERS = [
     (_('Río Santa Lucía'), 254, 92, 631, -30),
     (_('Río Cebollatí'), 253, 551, 330, 10),
-    (_('Río Olimar Ch.'), 252, 349, 82, 0),
-    (_('A. del Sauce'), 251, 357, 148, 45),
-    (_('A. Corrales'), 249, 533, 127, -10),
-    (_('A. Solís Gr.'), 248, 52, 745, 90),
-    (_('A. Mataojo'), 247, 125, 785, 70),
-    (_('A. Casupá'), 246, 119, 502, 45),
-    (_('A. Chamamé'), 245, 119, 437, 60),
-    (_('A. Gaitea'), 244, 92, 554, 30),
-    (_('A. del Soldado'), 243, 166, 590, 30),
-    (_('A. Campamento'), 242, 271, 654, 0),
-    (_('A. San Francisco'), 241, 271, 722, -45),
-    (_('A. de la Plata'), 240, 215, 722, -55),
-    (_('A. Marmarajá'), 239, 361, 629, 90),
-    (_('A. Aiguá'), 238, 590, 445, 45),
-    (_('A. de la Lorencita'), 237, 442, 436, -60),
-    (_('A. de los Viera'), 235, 525, 404, 77),
-    (_('A. Tapes'), 233, 383, 414, 55),
-    (_('A. Barriga Negra'), 232, 311, 450, 90),
-    (_('A. Polanco'), 231, 236, 392, 10),
-    (_('A. Malo Gr.'), 229, 408, 271, 90),
-    (_('A. Malo Ch.'), 228, 219, 267, -25),
-    (_('A. de los Chanchos'), 227, 187, 340, 45),
-    (_('A. de los Molles'), 226, 259, 254, -30),
-    (_('A. de los Tapes'), 225, 355, 258, -45),
-    (_('A. Piranga'), 224, 460, 312, -60),
-    (_('A. Gutiérrez'), 223, 519, 178, -15)
+    (_('Río Olimar Chico'), 252, 349, 82, 0),
+    (_('Arroyo del Sauce'), 251, 357, 148, 45),
+    (_('Arroyo Corrales'), 249, 533, 127, -10),
+    (_('Arroyo Solís Grande'), 248, 52, 745, 90),
+    (_('Arroyo Mataojo'), 247, 125, 785, 70),
+    (_('Arroyo Casupá'), 246, 119, 502, 45),
+    (_('Arroyo Chamamé'), 245, 119, 437, 60),
+    (_('Arroyo Gaitea'), 244, 92, 554, 30),
+    (_('Arroyo del Soldado'), 243, 166, 590, 30),
+    (_('Arroyo Campamento'), 242, 271, 654, 0),
+    (_('Arroyo San Francisco'), 241, 271, 722, -45),
+    (_('Arroyo de la Plata'), 240, 215, 722, -55),
+    (_('Arroyo Marmarajá'), 239, 361, 629, 90),
+    (_('Arroyo Aiguá'), 238, 590, 445, 45),
+    (_('Arroyo de la Lorencita'), 237, 442, 436, -60),
+    (_('Arroyo de los Viera'), 235, 525, 404, 77),
+    (_('Arroyo Tapes'), 233, 383, 414, 55),
+    (_('Arroyo Barriga Negra'), 232, 311, 450, 90),
+    (_('Arroyo Polanco'), 231, 236, 392, 10),
+    (_('Arroyo Malo Grande'), 229, 408, 271, 90),
+    (_('Arroyo Malo Chico'), 228, 219, 267, -25),
+    (_('Arroyo de los Chanchos'), 227, 187, 340, 45),
+    (_('Arroyo de los Molles'), 226, 259, 254, -30),
+    (_('Arroyo de los Tapes'), 225, 355, 258, -45),
+    (_('Arroyo Piranga'), 224, 460, 312, -60),
+    (_('Arroyo Gutiérrez'), 223, 519, 178, -15)
 ]
 
 CUCHILLAS = [
@@ -66,10 +66,10 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Espuelitas'), 169, 499, 5, 20, 14),
-    (_('Co. Arequita'), 201, 637, 5, 0, 14),
-    (_('Co. Verdún'), 184, 693, 5, 0, 14),
-    (_('Co. Retamosa'), 505, 255, 5, 0, -14)
+    (_('Cerro Espuelitas'), 169, 499, 5, 20, 14),
+    (_('Cerro Arequita'), 201, 637, 5, 0, 14),
+    (_('Cerro Verdún'), 184, 693, 5, 0, 14),
+    (_('Cerro Retamosa'), 505, 255, 5, 0, -14)
 ]
 
 ROUTES = [

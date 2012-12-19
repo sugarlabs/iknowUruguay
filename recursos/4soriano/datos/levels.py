@@ -27,37 +27,37 @@ LEVEL2 = [
 ]
 
 LEVEL3 = [
-        1,
+        15,
         _('Waterways'),
         ['lineasDepto', 'rios'],
         [],
 [
-    (_('the %s') % _('Río Uruguay'), 3, _('Río Uruguay'), _("It's in the west")),
-    (_('the %s') % _('Río de la Plata'), 3, _('Río de la Plata'), _("It's in the southwest")),
-    (_('the %s') % _('Río Negro'), 3, _('Río Negro'), _("It's in the north")),
-    (_('the %s') % _('Río San Salvador'), 3, _('Río San Salvador'), _("It's in the south")),
-    (_('the %s river') % _('de Espinillo'), 3, _('de Espinillo'), _("It's in the southwest")),
-    (_('the %s river') % _('del Sauce'), 3, _('del Sauce'), _("It's in the southwest")),
-    (_('the %s river') % _('Bizcocho'), 3, _('Bizcocho'), _("It's in the west")),
-    (_('the %s river') % _('Magallanes'), 3, _('Magallanes'), _("It's in the west")),
-    (_('the %s river') % _('del Águila'), 3, _('del Águila'), _("It's in the southwest")),
-    (_('the %s river') % _('del Corralito'), 3, _('del Corralito'), _("It's in the southwest")),
-    (_('the %s river') % _('Maciel'), 3, _('Maciel'), _("It's in the south")),
-    (_('the %s river') % _('San Martín'), 3, _('San Martín'), _("It's in the south")),
-    (_('the %s river') % _('del Medio'), 3, _('del Medio'), _("It's in the south")),
-    (_('the %s river') % _('de las Maulas'), 3, _('de las Maulas'), _("It's in the west")),
-    (_('the %s river') % _('Bequeló'), 3, _('Bequeló'), _("It's in the center")),
-    (_('the %s river') % _('Coquimbo'), 3, _('Coquimbo'), _("It's in the center")),
-    (_('the %s river') % _('Sarandí'), 3, _('Sarandí'), _("It's in the center")),
-    (_('the %s river') % _('Caballudo'), 3, _('Caballudo'), _("It's in the center")),
-    (_('the %s river') % _('Maia'), 3, _('Maia'), _("It's in the north")),
-    (_('the %s river') % _('Cololó'), 3, _('Cololó'), _("It's in the north")),
-    (_('the %s river') % _('Perico'), 3, _('Perico'), _("It's in the north")),
-    (_('the %s river') % _('de Vera'), 3, _('de Vera'), _("It's in the north")),
-    (_('the %s river') % _('Grande'), 3, _('Grande'), _("It's in the northeast")),
-    (_('the %s river') % _('del Perdido'), 3, _('del Perdido'), _("It's in the southeast")),
-    (_('the %s river') % _('del Durazno'), 3, _('del Durazno'), _("It's in the southeast")),
-    (_('the %s river') % _('Monzón'), 3, _('Monzón'), _("It's in the southeast"))
+    (_('Río Uruguay'), _("It's in the west")),
+    (_('Río de la Plata'), _("It's in the southwest")),
+    (_('Río Negro'), _("It's in the north")),
+    (_('Río San Salvador'), _("It's in the south")),
+    (_('Arroyo de Espinillo'), _("It's in the southwest")),
+    (_('Arroyo del Sauce'), _("It's in the southwest")),
+    (_('Arroyo Bizcocho'), _("It's in the west")),
+    (_('Arroyo Magallanes'), _("It's in the west")),
+    (_('Arroyo del Águila'), _("It's in the southwest")),
+    (_('Arroyo del Corralito'), _("It's in the southwest")),
+    (_('Arroyo Maciel'), _("It's in the south")),
+    (_('Arroyo San Martín'), _("It's in the south")),
+    (_('Arroyo del Medio'), _("It's in the south")),
+    (_('Arroyo de las Maulas'), _("It's in the west")),
+    (_('Arroyo Bequeló'), _("It's in the center")),
+    (_('Arroyo Coquimbo'), _("It's in the center")),
+    (_('Arroyo Sarandí'), _("It's in the center")),
+    (_('Arroyo Caballudo'), _("It's in the center")),
+    (_('Arroyo Maia'), _("It's in the north")),
+    (_('Arroyo Cololó'), _("It's in the north")),
+    (_('Arroyo Perico'), _("It's in the north")),
+    (_('Arroyo de Vera'), _("It's in the north")),
+    (_('Arroyo Grande'), _("It's in the northeast")),
+    (_('Arroyo del Perdido'), _("It's in the southeast")),
+    (_('Arroyo del Durazno'), _("It's in the southeast")),
+    (_('Arroyo Monzón'), _("It's in the southeast"))
 ]
 ]
 
@@ -67,12 +67,12 @@ LEVEL4 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %s') % _('Cuchilla de Bequeló'), 4, _('Cuchilla de Bequeló'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla del Perdido'), 4, _('Cuchilla del Perdido'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla del Bizcocho'), 4, _('Cuchilla del Bizcocho'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla San Salvador'), 4, _('Cuchilla San Salvador'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cerro Espinillo'), 5, _('Co. Espinillo'), _('Queda cerca de Dolores')),
-    (_('the %s') % _('Cerro Curupí'), 5, _('Co. Curupí'), _('Queda al norte'))
+    (_('the %(f)s') % {'f': _('Cuchilla de Bequeló')}, 4, _('Cuchilla de Bequeló'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla del Perdido')}, 4, _('Cuchilla del Perdido'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla del Bizcocho')}, 4, _('Cuchilla del Bizcocho'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla San Salvador')}, 4, _('Cuchilla San Salvador'), _('Try again')),
+    (_('the %(m)s') % {'m': _('Cerro Espinillo')}, 5, _('Cerro Espinillo'), _('Queda cerca de Dolores')),
+    (_('the %(m)s') % {'m': _('Cerro Curupí')}, 5, _('Cerro Curupí'), _('Queda al norte'))
 ]
 ]
 

@@ -35,24 +35,24 @@ CITIES = [
 ]
 
 RIVERS = [
-    (_('Tacuarembó'), 254, 475, 543, -45),
-    (_('Negro'), 253, 436, 663, 0),
-    (_('Salsipuedes Gr.'), 252, 74, 582, 60),
-    (_('Salsipuedes Ch.'), 251, 115, 644, 55),
-    (_('Cardoso'), 250, 173, 621, 50),
-    (_('Malo'), 247, 333, 561, -50),
-    (_('de la Quebrada'), 246, 230, 462, -55),
-    (_('Rolón'), 245, 262, 547, -15),
-    (_('de Clara'), 240, 365, 554, -50),
-    (_('Caraguatá'), 236, 573, 537, 10),
-    (_('Yaguarí'), 235, 483, 470, 80),
-    (_('de los Sauces'), 233, 566, 460, 83),
-    (_('Laureles'), 227, 281, 125, -35),
-    (_('Tacuarembó Ch.'), 226, 271, 294, -35),
-    (_('Tranqueras'), 225, 256, 351, -20),
-    (_('Batoví'), 223, 292, 390, 0),
-    (_('Tres Cruces'), 220, 310, 273, -40),
-    (_('Cañas'), 215, 299, 193, -10)
+    (_('Río Tacuarembó'), 254, 475, 543, -45),
+    (_('Río Negro'), 253, 436, 663, 0),
+    (_('Arroyo Salsipuedes Grande'), 252, 74, 582, 60),
+    (_('Arroyo Salsipuedes Chico'), 251, 115, 644, 55),
+    (_('Arroyo Cardoso'), 250, 173, 621, 50),
+    (_('Arroyo Malo'), 247, 333, 561, -50),
+    (_('Arroyo de la Quebrada'), 246, 230, 462, -55),
+    (_('Arroyo Rolón'), 245, 262, 547, -15),
+    (_('Arroyo de Clara'), 240, 365, 554, -50),
+    (_('Arroyo Caraguatá'), 236, 573, 537, 10),
+    (_('Arroyo Yaguarí'), 235, 483, 470, 80),
+    (_('Arroyo de los Sauces'), 233, 566, 460, 83),
+    (_('Arroyo Laureles'), 227, 281, 125, -35),
+    (_('Arroyo Tacuarembó Chico'), 226, 271, 294, -35),
+    (_('Arroyo Tranqueras'), 225, 256, 351, -20),
+    (_('Arroyo Batoví'), 223, 292, 390, 0),
+    (_('Arroyo Tres Cruces'), 220, 310, 273, -40),
+    (_('Arroyo Cañas'), 215, 299, 193, -10)
 ]
 
 CUCHILLAS = [
@@ -64,10 +64,10 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. de las Minas'), 221, 417, 5, 10, 14),
-    (_('Cos. de Batoví'), 244, 377, 5, 0, -14),
-    (_('Co. Lambaré'), 292, 223, 5, -40, 14),
-    (_('Co. del Ñandubal'), 469, 403, 5, 0, 14)
+    (_('Cerro de las Minas'), 221, 417, 5, 10, 14),
+    (_('Cerros de Batoví'), 244, 377, 5, 0, -14),
+    (_('Cerro Lambaré'), 292, 223, 5, -40, 14),
+    (_('Cerro del Ñandubal'), 469, 403, 5, 0, 14)
 ]
 
 ROUTES = [

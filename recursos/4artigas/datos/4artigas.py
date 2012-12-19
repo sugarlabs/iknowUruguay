@@ -32,30 +32,30 @@ RIVERS = [
     (_('Río Uruguay'), 254, 23, 442, 90),
     (_('Río Cuareim'), 253, 346, 150, 0),
     (_('Río Arapey'), 252, 338, 566, 0),
-    (_('A. Itacumbú'), 251, 176, 313, -60),
-    (_('A. Ñaquiña'), 250, 120, 326, -30),
-    (_('A. Mandiyú'), 249, 100, 341, -30),
-    (_('A. Guaviyú'), 248, 107, 380, 0),
-    (_('A. Palma Sola Gr.'), 247, 172, 414, 30),
-    (_('A. Sarandí'), 245, 122, 410, 32),
-    (_('A. Yucutuya'), 244, 258, 317, -60),
-    (_('A. Cuaro Gr.'), 242, 321, 304, -50),
-    (_('A. Cuaro Ch.'), 241, 431, 382, -40),
-    (_('A. Pelado'), 240, 360, 306, -50),
-    (_('A. Tres Cruces Gr.'), 239, 419, 322, -45),
-    (_('A. Catalán Gr.'), 237, 590, 396, -80),
-    (_('A. Catalán Ch.'), 236, 565, 468, -90),
-    (_('A. Catalancito'), 234, 540, 382, 60),
-    (_('A. Maneco'), 232, 699, 536, -90),
-    (_('A. de la Invernada'), 231, 736, 498, -50),
-    (_('A. Sepultura'), 229, 653, 448, 90),
-    (_('A. Yacuy'), 224, 120, 472, -35),
-    (_('A. Ceballos'), 222, 241, 463, 54),
-    (_('A. de las Cañas'), 221, 360, 497, 20),
-    (_('A. Patitos'), 220, 281, 468, 90),
-    (_('A. Sequeira'), 217, 414, 518, 48),
-    (_('A. Espinillo'), 216, 452, 520, 60),
-    (_('A. Sarandí Gr.'), 215, 463, 475, -20)
+    (_('Arroyo Itacumbú'), 251, 176, 313, -60),
+    (_('Arroyo Ñaquiña'), 250, 120, 326, -30),
+    (_('Arroyo Mandiyú'), 249, 100, 341, -30),
+    (_('Arroyo Guaviyú'), 248, 107, 380, 0),
+    (_('Arroyo Palma Sola Grande'), 247, 172, 414, 30),
+    (_('Arroyo Sarandí'), 245, 122, 410, 32),
+    (_('Arroyo Yucutuya'), 244, 258, 317, -60),
+    (_('Arroyo Cuaro Grande'), 242, 321, 304, -50),
+    (_('Arroyo Cuaro Chico'), 241, 431, 382, -40),
+    (_('Arroyo Pelado'), 240, 360, 306, -50),
+    (_('Arroyo Tres Cruces Grande'), 239, 419, 322, -45),
+    (_('Arroyo Catalán Grande'), 237, 590, 396, -80),
+    (_('Arroyo Catalán Chico'), 236, 565, 468, -90),
+    (_('Arroyo Catalancito'), 234, 540, 382, 60),
+    (_('Arroyo Maneco'), 232, 699, 536, -90),
+    (_('Arroyo de la Invernada'), 231, 736, 498, -50),
+    (_('Arroyo Sepultura'), 229, 653, 448, 90),
+    (_('Arroyo Yacuy'), 224, 120, 472, -35),
+    (_('Arroyo Ceballos'), 222, 241, 463, 54),
+    (_('Arroyo de las Cañas'), 221, 360, 497, 20),
+    (_('Arroyo Patitos'), 220, 281, 468, 90),
+    (_('Arroyo Sequeira'), 217, 414, 518, 48),
+    (_('Arroyo Espinillo'), 216, 452, 520, 60),
+    (_('Arroyo Sarandí Grande'), 215, 463, 475, -20)
 ]
 
 CUCHILLAS = [
@@ -64,9 +64,9 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Chato'), 402, 224, 5, 0, -14),
+    (_('Cerro Chato'), 402, 224, 5, 0, -14),
     (_('Tres Cerros de Catalán'), 522, 400, 5, 0, 14),
-    (_('Co. Pintado'), 544, 320, 5, -20, 14)
+    (_('Cerro Pintado'), 544, 320, 5, -20, 14)
 ]
 
 ROUTES = [

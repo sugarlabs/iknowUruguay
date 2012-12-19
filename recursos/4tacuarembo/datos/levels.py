@@ -30,7 +30,7 @@ LEVEL2 = [
     (_('the town of %s') % _('Paso del Cerro'), 2, _('Paso del Cerro'), _("It's in the north")),
     (_('the city of %s') % _('Ansina'), 2, _('Ansina'), _("It's in the northeast")),
     (_('the town of %s') % _('Piedra Sola'), 2, _('Piedra Sola'), _("It's in the west")),
-    (_('the town of %s') % _('Curtina'), 2, _('Curtina'), _('Está en el centro')),
+    (_('the town of %s') % _('Curtina'), 2, _('Curtina'), _("It's in the center")),
     (_('the town of %s') % _('Achar'), 2, _('Achar'), _("It's in the southwest")),
     (_('the town of %s') % _('Peralta'), 2, _('Peralta'), _("It's in the southwest")),
     (_('the health resort of %s') % _('San Gregorio de Polanco'), 2, _('San Gregorio de Polanco'), _("It's in the south")),
@@ -39,7 +39,7 @@ LEVEL2 = [
     (_('the town of %s') % _('Cuchilla de Caraguatá'), 2, _('Cuchilla de Caraguatá'), _("It's in the southeast")),
     (_('the town of %s') % _('Picada de Cuello'), 2, _('Picada de Cuello'), _("It's in the east")),
     (_('the town of %s') % _('Valle Edén'), 2, _('Valle Edén'), _("It's in the west")),
-    (_('the town of %s') % _('Martinote'), 2, _('Martinote'), _('Está en el centro'))
+    (_('the town of %s') % _('Martinote'), 2, _('Martinote'), _("It's in the center"))
 ]
 ]
 
@@ -49,24 +49,24 @@ LEVEL3 = [
         ['lineasDepto', 'rios'],
         [],
 [
-    (_('Tacuarembó'), _('Está en el centro')),
-    (_('Negro'), _("It's in the south")),
-    (_('Salsipuedes Gr.'), _("It's in the southwest")),
-    (_('Salsipuedes Ch.'), _("It's in the southeast")),
-    (_('Cardoso'), _("It's in the southwest")),
-    (_('Malo'), _("It's in the west")),
-    (_('de la Quebrada'), _('Está en el centro')),
-    (_('Rolón'), _("It's in the southwest")),
-    (_('de Clara'), _("It's in the south")),
-    (_('Caraguatá'), _("It's in the southeast")),
-    (_('Yaguarí'), _("It's in the east")),
-    (_('de los Sauces'), _("It's in the east")),
-    (_('Laureles'), _("It's in the north")),
-    (_('Tacuarembó Ch.'), _("It's in the northwest")),
-    (_('Tranqueras'), _('Está al nororeste')),
-    (_('Batoví'), _('Está en el centro')),
-    (_('Tres Cruces'), _("It's in the northwest")),
-    (_('Cañas'), _("It's in the north"))
+    (_('Río Tacuarembó'), _("It's in the center")),
+    (_('Río Negro'), _("It's in the south")),
+    (_('Arroyo Salsipuedes Grande'), _("It's in the southwest")),
+    (_('Arroyo Salsipuedes Chico'), _("It's in the southeast")),
+    (_('Arroyo Cardoso'), _("It's in the southwest")),
+    (_('Arroyo Malo'), _("It's in the west")),
+    (_('Arroyo de la Quebrada'), _("It's in the center")),
+    (_('Arroyo Rolón'), _("It's in the southwest")),
+    (_('Arroyo de Clara'), _("It's in the south")),
+    (_('Arroyo Caraguatá'), _("It's in the southeast")),
+    (_('Arroyo Yaguarí'), _("It's in the east")),
+    (_('Arroyo de los Sauces'), _("It's in the east")),
+    (_('Arroyo Laureles'), _("It's in the north")),
+    (_('Arroyo Tacuarembó Chico'), _("It's in the northwest")),
+    (_('Arroyo Tranqueras'), _('Está al nororeste')),
+    (_('Arroyo Batoví'), _("It's in the center")),
+    (_('Arroyo Tres Cruces'), _("It's in the northwest")),
+    (_('Arroyo Cañas'), _("It's in the north"))
 ]
 ]
 
@@ -76,15 +76,15 @@ LEVEL4 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %s') % _('Cuchilla de\las Tres Cruces'), 4, _('Cuchilla de las Tres Cruces'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla de Yaguarí'), 4, _('Cuchilla de Yaguarí'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla del Caraguata'), 4, _('Cuchilla del Caraguata'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla de Peralta'), 4, _('Cuchilla de Peralta'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla de Haedo'), 4, _('Cuchilla de Haedo'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cerro de las Minas'), 5, _('Co. de las Minas'), _("It's in the west")),
-    (_('the %s') % _('Cerros de Batoví'), 5, _('Cos. de Batoví'), _('Están cerca de la capital')),
-    (_('the %s') % _('Cerro Lambaré'), 5, _('Co. Lambaré'), _("It's in the northwest")),
-    (_('the %s') % _('Cerro del Ñandubal'), 5, _('Co. del Ñandubal'), _("It's in the northeast"))
+    (_('the %(f)s') % {'f': _('Cuchilla de las Tres Cruces')}, 4, _('Cuchilla de las Tres Cruces'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla de Yaguarí')}, 4, _('Cuchilla de Yaguarí'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla del Caraguata')}, 4, _('Cuchilla del Caraguata'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla de Peralta')}, 4, _('Cuchilla de Peralta'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla de Haedo')}, 4, _('Cuchilla de Haedo'), _('Try again')),
+    (_('the %(m)s') % {'m': _('Cerro de las Minas')}, 5, _('Cerro de las Minas'), _("It's in the west")),
+    (_('the %(m)s') % {'m': _('Cerros de Batoví')}, 5, _('Cerros de Batoví'), _('Están cerca de la capital')),
+    (_('the %(m)s') % {'m': _('Cerro Lambaré')}, 5, _('Cerro Lambaré'), _("It's in the northwest")),
+    (_('the %(m)s') % {'m': _('Cerro del Ñandubal')}, 5, _('Cerro del Ñandubal'), _("It's in the northeast"))
 ]
 ]
 

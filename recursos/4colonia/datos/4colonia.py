@@ -56,22 +56,22 @@ RIVERS = [
     (_('Río de la Plata'), 254, 380, 766, 0),
     (_('Río San Juan'), 253, 353, 432, 30),
     (_('Río Rosario'), 252, 632, 544, 45),
-    (_('A. de las Víboras'), 251, 153, 302, 0),
-    (_('A. de las Vacas'), 250, 195, 335, -10),
-    (_('A. Juan González'), 249, 208, 370, -10),
-    (_('A. Miguelete'), 248, 348, 388, 50),
-    (_('A. del General'), 247, 365, 582, 45),
-    (_('A. Colla'), 246, 566, 450, -80),
-    (_('A. Pichinango'), 245, 616, 413, -78),
-    (_('A. Cufré'), 244, 728, 532, 90),
-    (_('A. San Luis'), 243, 451, 442, 0),
-    (_('A. Tarariras'), 242, 413, 475, 0),
-    (_('A. del Riachuelo'), 240, 416, 570, 45),
-    (_('A. San Pedro'), 239, 324, 521, 15),
-    (_('A. Sauce Gr.'), 238, 493, 556, -60),
-    (_('A. Chileno'), 237, 165, 240, 60),
-    (_('A. Polanco'), 236, 123, 237, -90),
-    (_('A. Minuano'), 220, 537, 536, 85)
+    (_('Arroyo de las Víboras'), 251, 153, 302, 0),
+    (_('Arroyo de las Vacas'), 250, 195, 335, -10),
+    (_('Arroyo Juan González'), 249, 208, 370, -10),
+    (_('Arroyo Miguelete'), 248, 348, 388, 50),
+    (_('Arroyo del General'), 247, 365, 582, 45),
+    (_('Arroyo Colla'), 246, 566, 450, -80),
+    (_('Arroyo Pichinango'), 245, 616, 413, -78),
+    (_('Arroyo Cufré'), 244, 728, 532, 90),
+    (_('Arroyo San Luis'), 243, 451, 442, 0),
+    (_('Arroyo Tarariras'), 242, 413, 475, 0),
+    (_('Arroyo del Riachuelo'), 240, 416, 570, 45),
+    (_('Arroyo San Pedro'), 239, 324, 521, 15),
+    (_('Arroyo Sauce Grande'), 238, 493, 556, -60),
+    (_('Arroyo Chileno'), 237, 165, 240, 60),
+    (_('Arroyo Polanco'), 236, 123, 237, -90),
+    (_('Arroyo Minuano'), 220, 537, 536, 85)
 ]
 
 CUCHILLAS = [
@@ -82,10 +82,10 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Blanco'), 725, 362, 5, -40, 14),
-    (_('Cos. Negros'), 744, 391, 5, -40, 14),
-    (_('Co. de la Campana'), 587, 427, 5, -30, 14),
-    (_('Cos. de San Juan'), 276, 464, 5, 20, 14)
+    (_('Cerro Blanco'), 725, 362, 5, -40, 14),
+    (_('Cerros Negros'), 744, 391, 5, -40, 14),
+    (_('Cerro de la Campana'), 587, 427, 5, -30, 14),
+    (_('Cerros de San Juan'), 276, 464, 5, 20, 14)
 ]
 
 ROUTES = [

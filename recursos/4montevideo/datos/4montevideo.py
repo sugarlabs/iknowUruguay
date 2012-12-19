@@ -54,20 +54,20 @@ CITIES = [
 RIVERS = [
     (_('Río de la Plata'), 254, 316, 785, 0),
     (_('Río Santa Lucía'), 253, 100, 168, -25),
-    (_('A. Colorado'), 252, 185, 197, 40),
-    (_('A. de Melilla'), 251, 242, 355, 5),
-    (_('A. San Gregorio'), 250, 240, 455, 70),
-    (_('A. Pantanoso'), 248, 328, 546, -60),
-    (_('A. Miguelete'), 247, 453, 549, 40),
-    (_('A. Mendoza'), 246, 554, 375, 75),
-    (_('A. de las Piedras'), 245, 318, 262, -55),
-    (_('A. Toledo'), 244, 578, 213, -20),
-    (_('A. Carrasco'), 243, 740, 519, 90),
-    (_('A. Manga'), 242, 636, 391, -45),
-    (_('Cda. Piedritas'), 249, 203, 554, 55),
-    (_('Cda. de las Canteras'), 241, 644, 568, 5),
-    (_('Cda. del Dragón'), 239, 250, 267, -60),
-    (_('B. de Carrasco'), 240, 718, 428, 77)
+    (_('Arroyo Colorado'), 252, 185, 197, 40),
+    (_('Arroyo de Melilla'), 251, 242, 355, 5),
+    (_('Arroyo San Gregorio'), 250, 240, 455, 70),
+    (_('Arroyo Pantanoso'), 248, 328, 546, -60),
+    (_('Arroyo Miguelete'), 247, 453, 549, 40),
+    (_('Arroyo Mendoza'), 246, 554, 375, 75),
+    (_('Arroyo de las Piedras'), 245, 318, 262, -55),
+    (_('Arroyo Toledo'), 244, 578, 213, -20),
+    (_('Arroyo Carrasco'), 243, 740, 519, 90),
+    (_('Arroyo Manga'), 242, 636, 391, -45),
+    (_('Cañada Piedritas'), 249, 203, 554, 55),
+    (_('Cañada de las Canteras'), 241, 644, 568, 5),
+    (_('Cañada del Dragón'), 239, 250, 267, -60),
+    (_('Bañado de Carrasco'), 240, 718, 428, 77)
 ]
 
 CUCHILLAS = [
@@ -76,7 +76,7 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. de Montevideo'), 343, 622, 5, -75, -5)
+    (_('Cerro de Montevideo'), 343, 622, 5, -75, -5)
 ]
 
 ROUTES = [

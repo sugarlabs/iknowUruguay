@@ -32,22 +32,22 @@ CITIES = [
 RIVERS = [
     (_('Río Uruguay'), 254, 114, 433, -80),
     (_('Río Negro'), 253, 320, 572, 0),
-    (_('A. Grande'), 252, 409, 474, 45),
-    (_('A. de las Flores'), 251, 468, 507, 15),
-    (_('A. Averías Gr.'), 250, 593, 315, 50),
-    (_('A. Averías Ch.'), 249, 498, 408, 5),
-    (_('A. Ñandubay'), 248, 467, 470, 30),
-    (_('A. Don Esteban'), 247, 371, 414, 60),
-    (_('A. Santa María'), 246, 359, 387, 60),
-    (_('A. Negro'), 245, 236, 322, 0),
-    (_('A. Bellaco'), 244, 167, 359, -45),
-    (_('A. Gutiérrez'), 243, 322, 359, -10),
-    (_('A. Coladeras'), 242, 224, 486, -80),
-    (_('A. Sánchez'), 241, 262, 480, 80),
-    (_('A. Salsipuedes Gr.'), 237, 747, 365, 70),
-    (_('A. Tres Árboles'), 236, 671, 315, 90),
-    (_('A. Rolón'), 235, 629, 370, -45),
-    (_('A. Molles'), 234, 599, 461, -50	)
+    (_('Arroyo Grande'), 252, 409, 474, 45),
+    (_('Arroyo de las Flores'), 251, 468, 507, 15),
+    (_('Arroyo Averías Grande'), 250, 593, 315, 50),
+    (_('Arroyo Averías Chico'), 249, 498, 408, 5),
+    (_('Arroyo Ñandubay'), 248, 467, 470, 30),
+    (_('Arroyo Don Esteban'), 247, 371, 414, 60),
+    (_('Arroyo Santa María'), 246, 359, 387, 60),
+    (_('Arroyo Negro'), 245, 236, 322, 0),
+    (_('Arroyo Bellaco'), 244, 167, 359, -45),
+    (_('Arroyo Gutiérrez'), 243, 322, 359, -10),
+    (_('Arroyo Coladeras'), 242, 224, 486, -80),
+    (_('Arroyo Sánchez'), 241, 262, 480, 80),
+    (_('Arroyo Salsipuedes Grande'), 237, 747, 365, 70),
+    (_('Arroyo Tres Árboles'), 236, 671, 315, 90),
+    (_('Arroyo Rolón'), 235, 629, 370, -45),
+    (_('Arroyo Molles'), 234, 599, 461, -50	)
 ]
 
 CUCHILLAS = [
@@ -56,8 +56,8 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Pelado'), 435, 519, 5, 0, -14),
-    (_('Co. del Quebracho'), 522, 394, 5, 0, -14)
+    (_('Cerro Pelado'), 435, 519, 5, 0, -14),
+    (_('Cerro del Quebracho'), 522, 394, 5, 0, -14)
 ]
 
 ROUTES = [

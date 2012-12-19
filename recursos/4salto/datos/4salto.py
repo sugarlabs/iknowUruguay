@@ -40,34 +40,34 @@ CITIES = [
 
 RIVERS = [
     (_('Río Uruguay'), 254, 31, 308, 90),
-    (_('Río Arapey Gr.'), 253, 455, 355, 5),
-    (_('Río Arapey Ch.'), 252, 417, 312, 0),
+    (_('Río Arapey Grande'), 253, 455, 355, 5),
+    (_('Río Arapey Chico'), 252, 417, 312, 0),
     (_('Río Daymán'), 251, 270, 592, -25),
-    (_('A. Laureles Gr.'), 250, 210, 504, 3),
-    (_('A. Laureles Ch.'), 249, 257, 55, -30),
-    (_('A. de las Cañas'), 247, 416, 486, -80),
-    (_('A. Sopas'), 246, 534, 469, -35),
-    (_('A. del Sauce'), 245, 435, 402, -30),
-    (_('A. S. Mataojito'), 244, 495, 414, -40),
-    (_('A. Mataojo Gr.'), 243, 588, 410, -30),
-    (_('A. Mataojo Ch.'), 242, 585, 472, -45),
-    (_('A. Paloma Gr.'), 241, 174, 339, -50),
-    (_('A. Tangarupá'), 240, 232, 379, 90),
-    (_('A. Valentín Gr.'), 239, 358, 460, -75),
-    (_('A. Arerunguá'), 238, 490, 504, -45),
-    (_('A. Sarandí'), 236, 577, 608, -30),
-    (_('A. Guayabos'), 235, 518, 590, -75),
-    (_('A. Tapado'), 234, 478, 575, 80),
-    (_('A. de los Talas'), 232, 298, 397, 60),
-    (_('A. Valentín Ch.'), 231, 311, 429, 60),
-    (_('A. Tunas'), 230, 280, 371, 60),
-    (_('A. S. del Arapey'), 228, 619, 303, 55),
-    (_('A. Sarandí Ch.'), 227, 654, 321, 30),
-    (_('A. Moisés'), 226, 586, 376, -20),
-    (_('A. Itapeby Gr.'), 225, 186, 444, -30),
-    (_('A. Itapeby Ch.'), 224, 174, 395, -20),
-    (_('A. San Antonio'), 223, 119, 449, -25),
-    (_('A. Yacuy'), 220, 200, 224, -30)
+    (_('Arroyo Laureles Grande'), 250, 210, 504, 3),
+    (_('Arroyo Laureles Chico'), 249, 257, 55, -30),
+    (_('Arroyo de las Cañas'), 247, 416, 486, -80),
+    (_('Arroyo Sopas'), 246, 534, 469, -35),
+    (_('Arroyo del Sauce'), 245, 435, 402, -30),
+    (_('Arroyo S. Mataojito'), 244, 495, 414, -40),
+    (_('Arroyo Mataojo Grande'), 243, 588, 410, -30),
+    (_('Arroyo Mataojo Chico'), 242, 585, 472, -45),
+    (_('Arroyo Paloma Grande'), 241, 174, 339, -50),
+    (_('Arroyo Tangarupá'), 240, 232, 379, 90),
+    (_('Arroyo Valentín Grande'), 239, 358, 460, -75),
+    (_('Arroyo Arerunguá'), 238, 490, 504, -45),
+    (_('Arroyo Sarandí'), 236, 577, 608, -30),
+    (_('Arroyo Guayabos'), 235, 518, 590, -75),
+    (_('Arroyo Tapado'), 234, 478, 575, 80),
+    (_('Arroyo de los Talas'), 232, 298, 397, 60),
+    (_('Arroyo Valentín Chico'), 231, 311, 429, 60),
+    (_('Arroyo Tunas'), 230, 280, 371, 60),
+    (_('Arroyo S. del Arapey'), 228, 619, 303, 55),
+    (_('Arroyo Sarandí Chico'), 227, 654, 321, 30),
+    (_('Arroyo Moisés'), 226, 586, 376, -20),
+    (_('Arroyo Itapeby Grande'), 225, 186, 444, -30),
+    (_('Arroyo Itapeby Chico'), 224, 174, 395, -20),
+    (_('Arroyo San Antonio'), 223, 119, 449, -25),
+    (_('Arroyo Yacuy'), 220, 200, 224, -30)
 ]
 
 CUCHILLAS = [
@@ -77,9 +77,9 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Fortaleza'), 330, 420, 5, 20, 14),
-    (_('Co. de Corumbé'), 544, 517, 5, -20, 14),
-    (_('Co. Charrúa'), 626, 504, 5, 0, 14)
+    (_('Cerro Fortaleza'), 330, 420, 5, 20, 14),
+    (_('Cerro de Corumbé'), 544, 517, 5, -20, 14),
+    (_('Cerro Charrúa'), 626, 504, 5, 0, 14)
 ]
 
 ROUTES = [

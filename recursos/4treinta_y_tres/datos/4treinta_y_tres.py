@@ -29,26 +29,26 @@ CITIES = [
 ]
 
 RIVERS = [
-    (_('Olimar Gr.'), 254, 424, 551, 10),
-    (_('Olimar Ch.'), 253, 151, 578, 0),
-    (_('Tacuarí'), 252, 648, 291, 0),
-    (_('Cebollatí'), 251, 508, 582, 45),
-    (_('Corrales'), 250, 258, 626, -10),
-    (_('Sarandí Gr.'), 249, 562, 379, -45),
-    (_('Sarandí Ch.'), 248, 609, 360, -50),
-    (_('Ayala'), 245, 579, 436, -45),
-    (_('del Parao'), 244, 399, 280, -20),
-    (_('Corrales del Parao'), 243, 470, 420, 10),
-    (_('Leoncho'), 242, 449, 378, -5),
-    (_('Olazo'), 241, 395, 340, 0),
-    (_('Yerbal Gr.'), 240, 276, 415, -55),
-    (_('Yerbal Ch.'), 239, 330, 375, 90),
-    (_('de los Porongos'), 237, 463, 463, -10),
-    (_('de los Ceibos'), 236, 428, 488, -15),
-    (_('de las Pavas'), 235, 62, 488, 45),
-    (_('de las Averías'), 234, 146, 520, 5),
-    (_('Avestruz Gr.'), 233, 211, 410, 90),
-    (_('Merín'), 228, 682, 456, 50)
+    (_('Río Olimar Grande'), 254, 424, 551, 10),
+    (_('Río Olimar Chico'), 253, 151, 578, 0),
+    (_('Río Tacuarí'), 252, 648, 291, 0),
+    (_('Río Cebollatí'), 251, 508, 582, 45),
+    (_('Arroyo Corrales'), 250, 258, 626, -10),
+    (_('Arroyo Sarandí Grande'), 249, 562, 379, -45),
+    (_('Arroyo Sarandí Chico'), 248, 609, 360, -50),
+    (_('Arroyo Ayala'), 245, 579, 436, -45),
+    (_('Arroyo del Parao'), 244, 399, 280, -20),
+    (_('Arroyo Corrales del Parao'), 243, 470, 420, 10),
+    (_('Arroyo Leoncho'), 242, 449, 378, -5),
+    (_('Arroyo Olazo'), 241, 395, 340, 0),
+    (_('Arroyo Yerbal Grande'), 240, 276, 415, -55),
+    (_('Arroyo Yerbal Chico'), 239, 330, 375, 90),
+    (_('Arroyo de los Porongos'), 237, 463, 463, -10),
+    (_('Arroyo de los Ceibos'), 236, 428, 488, -15),
+    (_('Arroyo de las Pavas'), 235, 62, 488, 45),
+    (_('Arroyo de las Averías'), 234, 146, 520, 5),
+    (_('Arroyo Avestruz Grande'), 233, 211, 410, 90),
+    (_('Laguna Merín'), 228, 682, 456, 50)
 ]
 
 CUCHILLAS = [
@@ -59,9 +59,9 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Valentín'), 57, 530, 5, 40, 14),
-    (_('Co. Chato'), 58, 446, 5, 45, -1),
-    (_('Co. del Olimar'), 229, 481, 5, 20, -14)
+    (_('Cerro Valentín'), 57, 530, 5, 40, 14),
+    (_('Cerro Chato'), 58, 446, 5, 45, -1),
+    (_('Cerro del Olimar'), 229, 481, 5, 20, -14)
 ]
 
 ROUTES = [

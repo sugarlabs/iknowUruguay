@@ -47,31 +47,30 @@ LEVEL2 = [
 ]
 
 LEVEL3 = [
-        1,
+        15,
         _('Waterways'),
         ['lineasDepto', 'rios'],
         [],
 [
-    (_('the %s') % _('Río de la Plata'), 3, _('Río de la Plata'), _("It's in the south")),
-    (_('the %s') % _('Río Santa Lucía'), 3, _('Río Santa Lucía'), _("It's in the east")),
-    (_('the %s') % _('Río San José'), 3, _('Río San José'), _('Está en el centro')),
-    (_('the %s') % _('Arroyo de la Virgen'), 3, _('A. de la Virgen'), _("It's in the east")),
-    (_('the %s') % _('Arroyo Mahoma'), 3, _('A. Mahoma'), _("It's in the northwest")),
-    (_('the %s') % _('Arroyo Guaycurú'), 3, _('A. Guaycurú'), _("It's in the northwest")),
-    (_('the %s') % _('Arroyo Chamizo'), 3, _('A. Chamizo'), _("It's in the north")),
-    (_('the %s') % _('Arroyo Cerro'), 3, _('A. Cerro'), _("It's in the north")),
-    (_('the %s') % _('Arroyo Carreta Quemada'), 3, _('A. Carreta Quemada'), _("It's in the northeast")),
-    (_('the %s') % _('Arroyo Tala Gr.'), 3, _('A. Tala Gr.'), _("It's in the northwest")),
-    (_('the %s') % _('Arroyo Cufré'), 3, _('A. Cufré'), _("It's in the southwest")),
-    (_('the %s') % _('Arroyo Escudero'), 3, _('A. Escudero'), _("It's in the west")),
-    (_('the %s') % _('Arroyo Pavón'), 3, _('A. Pavón'), _("It's in the west")),
-    (_('the %s') % _('Arroyo Toscaso'), 3, _('A. Toscaso'), _("It's in the southwest")),
-    (_('the %s') % _('Arroyo Pereira'), 3, _('A. Pereira'), _("It's in the south")),
-    (_('the %s') % _('Arroyo San Gregorio'), 3, _('A. San Gregorio'), _("It's in the south")),
-    (_('the %s') % _('Arroyo S. Gregorio'), 3, _('A. S. Gregorio'), _("It's in the north")),
-    (_('the %s') % _('Arroyo Tigre'), 3, _('A. Tigre'), _("It's in the southeast")),
-    (_('the %s') % _('Arroyo Cagancha'), 3, _('A. Cagancha'), _("It's in the east")),
-    (_('the %s') % _('Arroyo del Tala'), 3, _('A. del Tala'), _("It's in the east"))
+    (_('Río de la Plata'), _("It's in the south")),
+    (_('Río Santa Lucía'), _("It's in the east")),
+    (_('Río San José'), _('Está en el centro')),
+    (_('Arroyo de la Virgen'), _("It's in the east")),
+    (_('Arroyo Mahoma'), _("It's in the northwest")),
+    (_('Arroyo Guaycurú'), _("It's in the northwest")),
+    (_('Arroyo Chamizo'), _("It's in the north")),
+    (_('Arroyo Cerro'), _("It's in the north")),
+    (_('Arroyo Carreta Quemada'), _("It's in the northeast")),
+    (_('Arroyo Tala Grande'), _("It's in the northwest")),
+    (_('Arroyo Cufré'), _("It's in the southwest")),
+    (_('Arroyo Escudero'), _("It's in the west")),
+    (_('Arroyo Pavón'), _("It's in the west")),
+    (_('Arroyo Toscaso'), _("It's in the southwest")),
+    (_('Arroyo Pereira'), _("It's in the south")),
+    (_('Arroyo San Gregorio'), _("It's in the south")),
+    (_('Arroyo Tigre'), _("It's in the southeast")),
+    (_('Arroyo Cagancha'), _("It's in the east")),
+    (_('Arroyo del Tala'), _("It's in the east"))
 ]
 ]
 
@@ -81,12 +80,12 @@ LEVEL4 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %s') % _('Cuchilla Guaycurú'), 4, _('Cuchilla Guaycurú'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Sierra Mahoma'), 4, _('Sierra Mahoma'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla del Tala'), 4, _('Cuchilla del Tala'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla Mangrullo'), 4, _('Cuchilla Mangrullo'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cerro Clara'), 5, _('Co. Clara'), _("It's in the north")),
-    (_('the %s') % _('Cerro San José'), 5, _('Co. San José'), _('Está en el centro'))
+    (_('the %(f)s') % {'f': _('Cuchilla Guaycurú')}, 4, _('Cuchilla Guaycurú'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Sierra Mahoma')}, 4, _('Sierra Mahoma'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla del Tala')}, 4, _('Cuchilla del Tala'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla Mangrullo')}, 4, _('Cuchilla Mangrullo'), _('Try again')),
+    (_('the %(m)s') % {'m': _('Cerro Clara')}, 5, _('Cerro Clara'), _("It's in the north")),
+    (_('the %(m)s') % {'m': _('Cerro San José')}, 5, _('Cerro San José'), _("It's in the center"))
 ]
 ]
 

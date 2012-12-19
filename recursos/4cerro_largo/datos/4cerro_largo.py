@@ -33,22 +33,22 @@ RIVERS = [
     (_('Río Yaguarón'), 254, 612, 468, -70),
     (_('Río Negro'), 253, 158, 472, 45),
     (_('Río Tacuarí'), 252, 582, 658, 0),
-    (_('A. del Parao'), 251, 404, 650, -20),
-    (_('A. Santos'), 249, 610, 599, -55),
-    (_('A. Malo'), 248, 537, 539, -80),
-    (_('A. Chuy'), 246, 455, 488, 90),
-    (_('A. del Sauce'), 245, 430, 472, 90),
-    (_('A. del Cordobés'), 244, 18, 641, 90),
-    (_('A. Lechiguana'), 243, 116, 668, -60),
-    (_('A. Pablo Páez'), 242, 133, 630, -45),
-    (_('A. Tarariras'), 241, 145, 585, -80),
-    (_('A. Tupambaé'), 240, 193, 545, -55),
-    (_('A. Quebracho'), 239, 265, 570, -50),
-    (_('A. Fraile Muerto'), 237, 248, 502, -45),
-    (_('A. del Sarandí'), 236, 267, 465, -45),
-    (_('A. Zapallar'), 235, 270, 393, 10),
-    (_('A. Aceguá'), 232, 336, 322, 10),
-    (_('A. Pantanoso'), 230, 392, 299, 60),
+    (_('Arroyo del Parao'), 251, 404, 650, -20),
+    (_('Arroyo Santos'), 249, 610, 599, -55),
+    (_('Arroyo Malo'), 248, 537, 539, -80),
+    (_('Arroyo Chuy'), 246, 455, 488, 90),
+    (_('Arroyo del Sauce'), 245, 430, 472, 90),
+    (_('Arroyo del Cordobés'), 244, 18, 641, 90),
+    (_('Arroyo Lechiguana'), 243, 116, 668, -60),
+    (_('Arroyo Pablo Páez'), 242, 133, 630, -45),
+    (_('Arroyo Tarariras'), 241, 145, 585, -80),
+    (_('Arroyo Tupambaé'), 240, 193, 545, -55),
+    (_('Arroyo Quebracho'), 239, 265, 570, -50),
+    (_('Arroyo Fraile Muerto'), 237, 248, 502, -45),
+    (_('Arroyo del Sarandí'), 236, 267, 465, -45),
+    (_('Arroyo Zapallar'), 235, 270, 393, 10),
+    (_('Arroyo Aceguá'), 232, 336, 322, 10),
+    (_('Arroyo Pantanoso'), 230, 392, 299, 60),
     (_('Laguna Merin'), 225, 677, 744, 45)
 ]
 
@@ -61,12 +61,12 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Gde. de Aceguá'), 341, 270, 5, 0, -14),
-    (_('Co. Colorado'), 517, 491, 5, 34, -14),
-    (_('Co. Redondo'), 467, 379, 5, 0, 14),
-    (_('Co. Pablo Pérez'), 99, 638, 5, -14, 18),
-    (_('Co. Largo'), 385, 555, 5, 0, 14),
-    (_('Co. Verde'), 437, 508, 5, 0, 14)
+    (_('Cerro Gde. de Aceguá'), 341, 270, 5, 0, -14),
+    (_('Cerro Colorado'), 517, 491, 5, 34, -14),
+    (_('Cerro Redondo'), 467, 379, 5, 0, 14),
+    (_('Cerro Pablo Pérez'), 99, 638, 5, -14, 18),
+    (_('Cerro Largo'), 385, 555, 5, 0, 14),
+    (_('Cerro Verde'), 437, 508, 5, 0, 14)
 ]
 
 ROUTES = [

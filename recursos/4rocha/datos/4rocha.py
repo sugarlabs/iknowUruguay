@@ -34,34 +34,34 @@ CITIES = [
 ]
 
 RIVERS = [
-    (_('Océano Atlántico'), 254, 627, 754, 45),
+    (_('Atlantic Ocean'), 254, 627, 754, 45),
     (_('Río Cebollatí'), 253, 416, 164, 40),
     (_('Río San Luis'), 252, 586, 327, 45),
-    (_('A. de las Pelotas'), 251, 492, 199, 20),
-    (_('A. de la India Muerta'), 250, 357, 369, 60),
-    (_('A. S. de la Paloma'), 249, 295, 533, 70),
-    (_('A. Sarandí de la I. M.'), 248, 392, 510, -55),
-    (_('A. Sauce'), 247, 439, 470, -30),
-    (_('A. Sauce Caído'), 246, 451, 385, -50),
-    (_('A. San Miguel'), 245, 606, 345, 45),
-    (_('A. S. del Peñon'), 244, 502, 424, 90),
-    (_('A. del Sarandí'), 243, 605, 414, 35),
-    (_('A. del Chuy'), 242, 711, 326, -45),
-    (_('A. del Peñon'), 241, 521, 508, -10),
-    (_('A. del Sauce'), 240, 535, 543, 0),
-    (_('A. Castillos'), 239, 459, 564, 90),
-    (_('A. Don Carlos'), 238, 367, 691, -30),
-    (_('A. del Chafalote'), 237, 410, 645, -75),
-    (_('A. Garzón'), 236, 203, 761, 90),
-    (_('A. Carpinchos'), 235, 265, 718, -50),
-    (_('A. del Oeste'), 234, 261, 645, 90),
-    (_('A. de los Rocha'), 233, 292, 643, 70),
-    (_('A. del Alférez'), 231, 222, 508, 90),
-    (_('A. Aiguá'), 230, 265, 336, 70),
-    (_('Lag. Merin'), 228, 670, 42, 45),
-    (_('Lag. Negra'), 227, 583, 478, 0),
-    (_('Lag. Castillos'), 226, 481, 626, 0),
-    (_('Lag. de Rocha'), 225, 326, 783, 0)
+    (_('Arroyo de las Pelotas'), 251, 492, 199, 20),
+    (_('Arroyo de la India Muerta'), 250, 357, 369, 60),
+    (_('Arroyo S. de la Paloma'), 249, 295, 533, 70),
+    (_('Arroyo Sarandí de la I. M.'), 248, 392, 510, -55),
+    (_('Arroyo Sauce'), 247, 439, 470, -30),
+    (_('Arroyo Sauce Caído'), 246, 451, 385, -50),
+    (_('Arroyo San Miguel'), 245, 606, 345, 45),
+    (_('Arroyo S. del Peñon'), 244, 502, 424, 90),
+    (_('Arroyo del Sarandí'), 243, 605, 414, 35),
+    (_('Arroyo del Chuy'), 242, 711, 326, -45),
+    (_('Arroyo del Peñon'), 241, 521, 508, -10),
+    (_('Arroyo del Sauce'), 240, 535, 543, 0),
+    (_('Arroyo Castillos'), 239, 459, 564, 90),
+    (_('Arroyo Don Carlos'), 238, 367, 691, -30),
+    (_('Arroyo del Chafalote'), 237, 410, 645, -75),
+    (_('Arroyo Garzón'), 236, 203, 761, 90),
+    (_('Arroyo Carpinchos'), 235, 265, 718, -50),
+    (_('Arroyo del Oeste'), 234, 261, 645, 90),
+    (_('Arroyo de los Rocha'), 233, 292, 643, 70),
+    (_('Arroyo del Alférez'), 231, 222, 508, 90),
+    (_('Arroyo Aiguá'), 230, 265, 336, 70),
+    (_('Laguna Merin'), 228, 670, 42, 45),
+    (_('Laguna Negra'), 227, 583, 478, 0),
+    (_('Laguna Castillos'), 226, 481, 626, 0),
+    (_('Laguna de Rocha'), 225, 326, 783, 0)
 ]
 
 CUCHILLAS = [
@@ -71,7 +71,7 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. de Aguirre'), 363, 649, 5, 0, 14)
+    (_('Cerro de Aguirre'), 363, 649, 5, 0, 14)
 ]
 
 ROUTES = [

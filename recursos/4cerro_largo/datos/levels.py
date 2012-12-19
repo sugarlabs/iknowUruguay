@@ -24,31 +24,30 @@ LEVEL2 = [
 ]
 
 LEVEL3 = [
-        1,
+        15,
         _('Waterways'),
         ['lineasDepto', 'rios'],
         [],
 [
-    (_('the %s') % _('Río Yaguarón'), 3, _('Río Yaguarón'), _('Queda en el límite\ncon Brasil')),
-    (_('the %s') % _('Río Negro'), 3, _('Río Negro'), _('Queda en el límite\ncon Tacuarembó')),
-    (_('the %s') % _('Río Tacuarí'), 3, _('Río Tacuarí'), _('Queda en el límite\ncon Treinta y Tres')),
-    (_('the %s') % _('Arroyo del Parao'), 3, _('A. del Parao'), _('Queda al sur')),
-    (_('the %s') % _('Arroyo Santos'), 3, _('A. Santos'), _('Queda al sureste')),
-    (_('the %s') % _('Arroyo Malo'), 3, _('A. Malo'), _('Queda al sureste')),
-    (_('the %s') % _('Arroyo Chuy'), 3, _('A. Chuy'), _('Queda en el centro')),
-    (_('the %s') % _('Arroyo del Sauce'), 3, _('A. del Sauce'), _('Queda en el centro')),
-    (_('the %s') % _('Arroyo del Cordobés'), 3, _('A. del Cordobés'), _('Queda al suroeste')),
-    (_('the %s') % _('Arroyo Lechiguana'), 3, _('A. Lechiguana'), _('Queda al suroeste')),
-    (_('the %s') % _('Arroyo Pablo Páez'), 3, _('A. Pablo Páez'), _('Queda al suroeste')),
-    (_('the %s') % _('Arroyo Tarariras'), 3, _('A. Tarariras'), _('Queda al suroeste')),
-    (_('the %s') % _('Arroyo Tupambaé'), 3, _('A. Tupambaé'), _('Queda al oeste')),
-    (_('the %s') % _('Arroyo Quebracho'), 3, _('A. Quebracho'), _('Queda al sur')),
-    (_('the %s') % _('Arroyo Fraile Muerto'), 3, _('A. Fraile Muerto'), _('Queda al este')),
-    (_('the %s') % _('Arroyo del Sarandí'), 3, _('A. del Sarandí'), _('Queda al noroeste')),
-    (_('the %s') % _('Arroyo Zapallar'), 3, _('A. Zapallar'), _('Queda al noroeste')),
-    (_('the %s') % _('Arroyo Aceguá'), 3, _('A. Aceguá'), _('Queda al norte')),
-    (_('the %s') % _('Arroyo Pantanoso'), 3, _('A. Pantanoso'), _('Queda al norte')),
-    (_('the %s') % _('Laguna Merin'), 3, _('Laguna Merin'), _('Queda al sur'))
+    (_('Río Yaguarón'), _('Queda en el límite\ncon Brasil')),
+    (_('Río Negro'), _('Queda en el límite\ncon Tacuarembó')),
+    (_('Río Tacuarí'), _('Queda en el límite\ncon Treinta y Tres')),
+    (_('Arroyo del Parao'), _('Queda al sur')),
+    (_('Arroyo Santos'), _('Queda al sureste')),
+    (_('Arroyo Malo'), _('Queda al sureste')),
+    (_('Arroyo Chuy'), _('Queda en el centro')),
+    (_('Arroyo del Sauce'), _('Queda en el centro')),
+    (_('Arroyo del Cordobés'), _('Queda al suroeste')),
+    (_('Arroyo Lechiguana'), _('Queda al suroeste')),
+    (_('Arroyo Pablo Páez'), _('Queda al suroeste')),
+    (_('Arroyo Tarariras'), _('Queda al suroeste')),
+    (_('Arroyo Tupambaé'), _('Queda al oeste')),
+    (_('Arroyo Quebracho'), _('Queda al sur')),
+    (_('Arroyo Fraile Muerto'), _('Queda al este')),
+    (_('Arroyo del Sarandí'), _('Queda al noroeste')),
+    (_('Arroyo Zapallar'), _('Queda al noroeste')),
+    (_('Arroyo Aceguá'), _('Queda al norte')),
+    (_('Arroyo Pantanoso'), _('Queda al norte'))
 ]
 ]
 
@@ -58,17 +57,17 @@ LEVEL4 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %s') % _('Sierra de Aceguá'), 4, _('Sierra de Aceguá'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla Grande'), 4, _('Cuchilla Grande'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Sierra de los Ríos'), 4, _('Sierra de los Ríos'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla de Mangrullo'), 4, _('Cuchilla de Mangrullo'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cuchilla del Cordobés'), 4, _('Cuchilla del Cordobés'), _('Dále, probá de nuevo')),
-    (_('the %s') % _('Cerro Grande de Aceguá'), 5, _('Co. Gde. de Aceguá'), _("It's in the north")),
-    (_('the %s') % _('Cerro Colorado'), 5, _('Co. Colorado'), _("It's in the east")),
-    (_('the %s') % _('Cerro Redondo'), 5, _('Co. Redondo'), _("It's in the northeast")),
-    (_('the %s') % _('Cerro Pablo Pérez'), 5, _('Co. Pablo Pérez'), _("It's in the southwest")),
-    (_('the %s') % _('Cerro Largo'), 5, _('Co. Largo'), _("It's in the south")),
-    (_('the %s') % _('Cerro Verde'), 5, _('Co. Verde'), _('Está cerca de Melo'))
+    (_('the %(f)s') % {'f': _('Sierra de Aceguá'), 4, _('Sierra de Aceguá'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla Grande'), 4, _('Cuchilla Grande'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Sierra de los Ríos'), 4, _('Sierra de los Ríos'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla de Mangrullo'), 4, _('Cuchilla de Mangrullo'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla del Cordobés'), 4, _('Cuchilla del Cordobés'), _('Try again')),
+    (_('the %(m)s') % {'m': _('Cerro Grande de Aceguá'), 5, _('Cerro Gde. de Aceguá'), _("It's in the north")),
+    (_('the %(m)s') % {'m': _('Cerro Colorado'), 5, _('Cerro Colorado'), _("It's in the east")),
+    (_('the %(m)s') % {'m': _('Cerro Redondo'), 5, _('Cerro Redondo'), _("It's in the northeast")),
+    (_('the %(m)s') % {'m': _('Cerro Pablo Pérez'), 5, _('Cerro Pablo Pérez'), _("It's in the southwest")),
+    (_('the %(m)s') % {'m': _('Cerro Largo'), 5, _('Cerro Largo'), _("It's in the south")),
+    (_('the %(m)s') % {'m': _('Cerro Verde'), 5, _('Cerro Verde'), _('Está cerca de Melo'))
 ]
 ]
 

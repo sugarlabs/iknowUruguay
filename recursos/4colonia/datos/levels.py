@@ -93,30 +93,30 @@ LEVEL3 = [
 ]
 
 LEVEL4 = [
-        1,
+        15,
         _('Waterways'),
         ['lineasDepto', 'rios'],
         [],
 [
-    (_('the %s') % _('Río San Juan'), 3, _('Río San Juan'), _('Esta en el centro')),
-    (_('the %s') % _('Río Rosario'), 3, _('Río Rosario'), _('Ocupa gran parte\ndel este')),
-    (_('the %s') % _('Río de la Plata'), 3, _('Río de la Plata'), _('Es muy fácil')),
-    (_('the %s') % _('Arroyo Sauce Grande'), 3, _('A. Sauce Gr.'), _('Queda al sur')),
-    (_('the %s') % _('Arroyo de las Víboras'), 3, _('A. de las Víboras'), _('Cerca del límite\ncon Soriano')),
-    (_('the %s') % _('Arroyo de las Vacas'), 3, _('A. de las Vacas'), _('Cerca de Carmelo')),
-    (_('the %s') % _('Arroyo Juan González'), 3, _('A. Juan González'), _("It's in the west")),
-    (_('the %s') % _('Arroyo Miguelete'), 3, _('A. Miguelete'), _('Pasa cerca de\nla ciudad del mismo\nnombre')),
-    (_('the %s') % _('Arroyo del General'), 3, _('A. del General'), _('Cerca de Colonia')),
-    (_('the %s') % _('Arroyo Colla'), 3, _('A. Colla'), _('Atraviesa casi todo\nel departamento')),
-    (_('the %s') % _('Arroyo Pichinango'), 3, _('A. Pichinango'), _('Cerca de la cuchilla\nde mismo nombre')),
-    (_('the %s') % _('Arroyo San Luis'), 3, _('A. San Luis'), _('Está en el centro')),
-    (_('the %s') % _('Arroyo Cufré'), 3, _('A. Cufré'), _('Está en el límite\ncon San José')),
-    (_('the %s') % _('Arroyo Tarariras'), 3, _('A. Tarariras'), _('Está en el centro')),
-    (_('the %s') % _('Arroyo del Riachuelo'), 3, _('A. del Riachuelo'), _("It's in the south")),
-    (_('the %s') % _('Arroyo San Pedro'), 3, _('A. San Pedro'), _("It's in the west")),
-    (_('the %s') % _('Arroyo Chileno'), 3, _('A. Chileno'), _('Es afluente del\nArroyo de las Víboras')),
-    (_('the %s') % _('Arroyo Polanco'), 3, _('A. Polanco'), _('Es afluente del\nArroyo de las Víboras')),
-    (_('the %s') % _('Arroyo Minuano'), 3, _('A. Minuano'), _('Queda al sur'))
+    (_('Río San Juan'), _('Esta en el centro')),
+    (_('Río Rosario'), _('Ocupa gran parte\ndel este')),
+    (_('Río de la Plata'), _('Es muy fácil')),
+    (_('Arroyo Sauce Grande'), _('Queda al sur')),
+    (_('Arroyo de las Víboras'), _('Cerca del límite\ncon Soriano')),
+    (_('Arroyo de las Vacas'), _('Cerca de Carmelo')),
+    (_('Arroyo Juan González'), _("It's in the west")),
+    (_('Arroyo Miguelete'), _('Pasa cerca de\nla ciudad del mismo\nnombre')),
+    (_('Arroyo del General'), _('Cerca de Colonia')),
+    (_('Arroyo Colla'), _('Atraviesa casi todo\nel departamento')),
+    (_('Arroyo Pichinango'), _('Cerca de la cuchilla\nde mismo nombre')),
+    (_('Arroyo San Luis'), _('Está en el centro')),
+    (_('Arroyo Cufré'), _('Está en el límite\ncon San José')),
+    (_('Arroyo Tarariras'), _('Está en el centro')),
+    (_('Arroyo del Riachuelo'), _("It's in the south")),
+    (_('Arroyo San Pedro'), _("It's in the west")),
+    (_('Arroyo Chileno'), _('Es afluente del\nArroyo de las Víboras')),
+    (_('Arroyo Polanco'), _('Es afluente del\nArroyo de las Víboras')),
+    (_('Arroyo Minuano'), _('Queda al sur'))
 ]
 ]
 
@@ -126,14 +126,14 @@ LEVEL5 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %s') % _('Cuchilla de San Juan'), 4, _('Cuchilla de San Juan'), _('Queda al oeste')),
-    (_('the %s') % _('Cuchilla de la Colonia'), 4, _('Cuchilla de la Colonia'), _('Queda al sur')),
-    (_('the %s') % _('Cuchilla de la Cruz'), 4, _('Cuchilla de la Cruz'), _('Queda al este')),
-    (_('the %s') % _('Cuchilla Guaycurú'), 4, _('Cuchilla Guaycurú'), _('Queda en el límite\ncon San José')),
-    (_('the %s') % _('Cerro Blanco'), 5, _('Co. Blanco'), _("It's in the east")),
-    (_('the %s') % _('Cerros Negros'), 5, _('Cos. Negros'), _('Están al este')),
-    (_('the %s') % _('Cerro de la Campana'), 5, _('Co. de la Campana'), _("It's in the east")),
-    (_('the %s') % _('Cerros de San Juan'), 5, _('Cos. de San Juan'), _('Están al oeste'))
+    (_('the %(f)s') % {'f': _('Cuchilla de San Juan')}, 4, _('Cuchilla de San Juan'), _('Queda al oeste')),
+    (_('the %(f)s') % {'f': _('Cuchilla de la Colonia')}, 4, _('Cuchilla de la Colonia'), _('Queda al sur')),
+    (_('the %(f)s') % {'f': _('Cuchilla de la Cruz')}, 4, _('Cuchilla de la Cruz'), _('Queda al este')),
+    (_('the %(f)s') % {'f': _('Cuchilla Guaycurú')}, 4, _('Cuchilla Guaycurú'), _('Queda en el límite\ncon San José')),
+    (_('the %(m)s') % {'m': _('Cerro Blanco')}, 5, _('Co. Blanco'), _("It's in the east")),
+    (_('the %(m)s') % {'m': _('Cerros Negros')}, 5, _('Cos. Negros'), _('Están al este')),
+    (_('the %(m)s') % {'m': _('Cerro de la Campana')}, 5, _('Co. de la Campana'), _("It's in the east")),
+    (_('the %(m)s') % {'m': _('Cerros de San Juan')}, 5, _('Cos. de San Juan'), _('Están al oeste'))
 ]
 ]
 

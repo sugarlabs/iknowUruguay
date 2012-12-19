@@ -40,23 +40,22 @@ RIVERS = [
     (_('Río de la Plata'), 254, 158, 793, 0),
     (_('Río Santa Lucía'), 253, 657, 576, -90),
     (_('Río San José'), 252, 436, 490, -55),
-    (_('A. de la Virgen'), 251, 636, 300, 70),
-    (_('A. Mahoma'), 250, 285, 240, 10),
-    (_('A. Guaycurú'), 249, 262, 189, -10),
-    (_('A. Chamizo'), 248, 455, 234, 80),
-    (_('A. Cerro'), 247, 506, 100, 70),
-    (_('A. Carreta Quemada'), 246, 535, 359, 60),
-    (_('A. Tala Gr.'), 245, 471, 341, 45),
-    (_('A. Cufré'), 244, 137, 398, 90),
-    (_('A. Escudero'), 243, 201, 420, 50),
-    (_('A. Pavón'), 242, 295, 402, -60),
-    (_('A. Toscaso'), 241, 236, 517, 90),
-    (_('A. Pereira'), 240, 293, 597, 30),
-    (_('A. San Gregorio'), 239, 390, 703, 60),
-    (_('A. S. Gregorio'), 238, 394, 111, 30),
-    (_('A. Tigre'), 237, 546, 771, -35),
-    (_('A. Cagancha'), 236, 521, 508, 70),
-    (_('A. del Tala'), 235, 598, 406, -80)
+    (_('Arroyo de la Virgen'), 251, 636, 300, 70),
+    (_('Arroyo Mahoma'), 250, 285, 240, 10),
+    (_('Arroyo Guaycurú'), 249, 262, 189, -10),
+    (_('Arroyo Chamizo'), 248, 455, 234, 80),
+    (_('Arroyo Cerro'), 247, 506, 100, 70),
+    (_('Arroyo Carreta Quemada'), 246, 535, 359, 60),
+    (_('Arroyo Tala Grande'), 245, 471, 341, 45),
+    (_('Arroyo Cufré'), 244, 137, 398, 90),
+    (_('Arroyo Escudero'), 243, 201, 420, 50),
+    (_('Arroyo Pavón'), 242, 295, 402, -60),
+    (_('Arroyo Toscaso'), 241, 236, 517, 90),
+    (_('Arroyo Pereira'), 240, 293, 597, 30),
+    (_('Arroyo San Gregorio'), 239, 390, 703, 60),
+    (_('Arroyo Tigre'), 237, 546, 771, -35),
+    (_('Arroyo Cagancha'), 236, 521, 508, 70),
+    (_('Arroyo del Tala'), 235, 598, 406, -80)
 ]
 
 CUCHILLAS = [
@@ -67,8 +66,8 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Clara'), 393, 222, 5, 0, -14),
-    (_('Co. San José'), 316, 348, 5, 0, 14)
+    (_('Cerro Clara'), 393, 222, 5, 0, -14),
+    (_('Cerro San José'), 316, 348, 5, 0, 14)
 ]
 
 ROUTES = [

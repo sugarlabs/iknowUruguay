@@ -54,21 +54,21 @@ CITIES = [
 RIVERS = [
     (_('Río de la Plata'), 254, 377, 769, 0),
     (_('Río Santa Lucía'), 253, 160, 291, 0),
-    (_('A. Vejigas'), 252, 533, 224, 0),
-    (_('A. del Tala'), 251, 342, 298, 15),
-    (_('A. Sarandí'), 250, 675, 347, -90),
-    (_('A. Canelón Gr.'), 249, 293, 363, -10),
-    (_('A. Canelón Ch.'), 248, 237, 445, -45),
-    (_('A. Pando'), 247, 414, 485, 90),
-    (_('A. Solís Ch.'), 246, 510, 461, 90),
-    (_('A. Solís Gr.'), 239, 730, 540, -80),
-    (_('A. Mosquitos'), 245, 586, 519, 45),
-    (_('A. Sauce'), 244, 346, 490, -55),
-    (_('A. Brujas Gr.'), 243, 122, 510, 55),
-    (_('A. de las Piedras'), 238, 170, 592, -45),
-    (_('A. Colorado'), 242, 186, 522, 0),
-    (_('A. Toledo'), 241, 255, 562, 0),
-    (_('A. Carrasco'), 240, 342, 623, 90)
+    (_('Arroyo Vejigas'), 252, 533, 224, 0),
+    (_('Arroyo del Tala'), 251, 342, 298, 15),
+    (_('Arroyo Sarandí'), 250, 675, 347, -90),
+    (_('Arroyo Canelón Grande'), 249, 293, 363, -10),
+    (_('Arroyo Canelón Chico'), 248, 237, 445, -45),
+    (_('Arroyo Pando'), 247, 414, 485, 90),
+    (_('Arroyo Solís Chico'), 246, 510, 461, 90),
+    (_('Arroyo Solís Grande'), 239, 730, 540, -80),
+    (_('Arroyo Mosquitos'), 245, 586, 519, 45),
+    (_('Arroyo Sauce'), 244, 346, 490, -55),
+    (_('Arroyo Brujas Grande'), 243, 122, 510, 55),
+    (_('Arroyo de las Piedras'), 238, 170, 592, -45),
+    (_('Arroyo Colorado'), 242, 186, 522, 0),
+    (_('Arroyo Toledo'), 241, 255, 562, 0),
+    (_('Arroyo Carrasco'), 240, 342, 623, 90)
 ]
 
 CUCHILLAS = [
