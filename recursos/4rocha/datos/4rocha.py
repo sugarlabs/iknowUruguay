@@ -58,7 +58,7 @@ RIVERS = [
     (_('Arroyo de los Rocha'), 233, 292, 643, 70),
     (_('Arroyo del Alférez'), 231, 222, 508, 90),
     (_('Arroyo Aiguá'), 230, 265, 336, 70),
-    (_('Laguna Merin'), 228, 670, 42, 45),
+    (_('Laguna Merín'), 228, 670, 42, 45),
     (_('Laguna Negra'), 227, 583, 478, 0),
     (_('Laguna Castillos'), 226, 481, 626, 0),
     (_('Laguna de Rocha'), 225, 326, 783, 0)

@@ -121,12 +121,12 @@ HILLS = [
 ]
 
 CUCHILLAS = [
-    (_('Hill of Haedo'), 254, 331, 247, 65),
-    (_('Hill of Santa Ana'), 253, 507, 228, -45),
-    (_('Hill Grande'), 252, 496, 601, 65),
-    (_('Hill Grande del Durazno'), 251, 355, 544, 0),
-    (_('Hill Grande Inferior'), 250, 291, 660, 0),
-    (_('Hill Negra'), 249, 425, 179, 45)
+    (_('Cuchilla de Haedo'), 254, 331, 247, 65),
+    (_('Cuchilla de Santa Ana'), 253, 507, 228, -45),
+    (_('Cuchilla Grande'), 252, 496, 601, 65),
+    (_('Cuchilla Grande del Durazno'), 251, 355, 544, 0),
+    (_('Cuchilla Grande Inferior'), 250, 291, 660, 0),
+    (_('Cuchilla Negra'), 249, 425, 179, 45)
 ]
 
 RIVERS = [

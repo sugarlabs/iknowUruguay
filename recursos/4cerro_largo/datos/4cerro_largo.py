@@ -49,7 +49,7 @@ RIVERS = [
     (_('Arroyo Zapallar'), 235, 270, 393, 10),
     (_('Arroyo Aceguá'), 232, 336, 322, 10),
     (_('Arroyo Pantanoso'), 230, 392, 299, 60),
-    (_('Laguna Merin'), 225, 677, 744, 45)
+    (_('Laguna Merín'), 225, 677, 744, 45)
 ]
 
 CUCHILLAS = [
