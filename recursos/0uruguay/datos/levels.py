@@ -186,20 +186,20 @@ LEVEL5 = [
 [
     (_('the %s') % _('Cuchilla de Haedo'), 4, _('Cuchilla de Haedo'), _('Queda al norte')),
     (_('the %s') % _('Cuchilla Negra'), 4, _('Cuchilla Negra'), _('Queda en el límite con Brasil')),
-    (_('the %s') % _('Cuchilla de Santa Ana'), 4, _('Cuchilla de Santa Ana'), _('Queda en Rivera')),
+    (_('the %s') % _('Cuchilla de Santa Ana'), 4, _('Cuchilla de Santa Ana'), _("It's in %s") % _('Rivera')),
     (_('the %s') % _('Cuchilla Grande'), 4, _('Cuchilla Grande'), _("It's in the south")),
-    (_('the %s') % _('Cuchilla Grande del Durazno'), 4, _('Cuchilla Grande del Durazno'), _('Queda en Durazno')),
+    (_('the %s') % _('Cuchilla Grande del Durazno'), 4, _('Cuchilla Grande del Durazno'), _("It's in %s") % _('Durazno')),
     (_('the %s') % _('Cuchilla Grande Inferior'), 4, _('Cuchilla Grande Inferior'), _('Va de Lavalleja a Colonia')),
-    (_('the %s') % _('Cerro de Montevideo'), 5, _('Cerro de Montevideo'), _('Queda en Montevideo')),
-    (_('the %s') % _('Cerro Pan de Azúcar'), 5, _('Cerro Pan de Azúcar'), _('Queda en Maldonado')),
-    (_('the %s') % _('Cerro Verdún'), 5, _('Cerro Verdún'), _('Queda en Lavalleja')),
-    (_('the %s') % _('Cerro Arequita'), 5, _('Cerro Arequita'), _('Queda en Lavalleja')),
-    (_('the %s') % _('Cerro Catedral'), 5, _('Cerro Catedral'), _('Queda en Maldonado')),
-    (_('the %s') % _('Cerro de las Animas'), 5, _('Cerro de las Animas'), _('Queda en Maldonado')),
+    (_('the %s') % _('Cerro de Montevideo'), 5, _('Cerro de Montevideo'), _("It's in %s") % _('Montevideo')),
+    (_('the %s') % _('Cerro Pan de Azúcar'), 5, _('Cerro Pan de Azúcar'), _("It's in %s") % _('Maldonado')),
+    (_('the %s') % _('Cerro Verdún'), 5, _('Cerro Verdún'), _("It's in %s") % _('Lavalleja')),
+    (_('the %s') % _('Cerro Arequita'), 5, _('Cerro Arequita'), _("It's in %s") % _('Lavalleja')),
+    (_('the %s') % _('Cerro Catedral'), 5, _('Cerro Catedral'), _("It's in %s") % _('Maldonado')),
+    (_('the %s') % _('Cerro de las Animas'), 5, _('Cerro de las Animas'), _("It's in %s") % _('Maldonado')),
     (_('the %s') % _('Cerros de Batoví'), 5, _('Cerros de Batoví'), _('Quedan en el norte')),
-    (_('the %s') % _('Cerro Bonito'), 5, _('Cerro Bonito'), _('Queda en la Cuchilla de Santa Ana')),
-    (_('the %s') % _('Cerro del Medio'), 5, _('Cerro del Medio'), _('Queda en Tacuarembó')),
-    (_('the %s') % _('Cerro Chato'), 5, _('Cerro Chato'), _('Queda en Durazno'))
+    (_('the %s') % _('Cerro Bonito'), 5, _('Cerro Bonito'), _("It's in %s") % _('Cuchilla de Santa Ana')),
+    (_('the %s') % _('Cerro del Medio'), 5, _('Cerro del Medio'), _("It's in %s") % _('Tacuarembó')),
+    (_('the %s') % _('Cerro Chato'), 5, _('Cerro Chato'), _("It's in %s") % _('Durazno'))
 ]
 ]
 
@@ -212,7 +212,7 @@ LEVEL6 = [
     (_('Route %s') % 1, _('Va de Montevideo\na Colonia')),
     (_('Route %s') % 2, _('Pasa por Mercedes')),
     (_('Route %s') % 3, _('Va por el litoral')),
-    (_('Route %s') % 4, _('Está en el norte')),
+    (_('Route %s') % 4, _("It's in the north")),
     (_('Route %s') % 5, _('Va de Montevideo\na Rivera')),
     (_('Route %s') % 6, _('Va hasta Vichadero')),
     (_('Route %s') % 7, _('Pasa por Melo')),
