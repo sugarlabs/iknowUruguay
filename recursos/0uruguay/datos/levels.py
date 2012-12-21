@@ -127,7 +127,7 @@ LEVEL3 = [
     (_('Santa Clara de Olimar'), _("It's in %s") % _("Treinta y Tres")),
     (_('Santa Lucía'), _("It's in %s") % _("Canelones")),
     (_('Sarandí del Yi'), _("It's in %s") % _("Durazno")),
-    (_('Sarandí Grande'), _("Queda en Florida")),
+    (_('Sarandí Grande'), _("It's in %s") % _("Florida")),
     (_('Tacuarembó'), _("It's easy")),
     (_('Tala'), _("It's in %s") % _("Canelones")),
     (_('Tarariras'), _("It's in %s") % _("Colonia")),
@@ -184,8 +184,8 @@ LEVEL5 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %s') % _('Cuchilla de Haedo'), 4, _('Cuchilla de Haedo'), _('Queda al norte')),
-    (_('the %s') % _('Cuchilla Negra'), 4, _('Cuchilla Negra'), _('Queda en el límite con Brasil')),
+    (_('the %s') % _('Cuchilla de Haedo'), 4, _('Cuchilla de Haedo'), _("It's in the north")),
+    (_('the %s') % _('Cuchilla Negra'), 4, _('Cuchilla Negra'), _("It's on the border\nwith %s") % _('Brasil')),
     (_('the %s') % _('Cuchilla de Santa Ana'), 4, _('Cuchilla de Santa Ana'), _("It's in %s") % _('Rivera')),
     (_('the %s') % _('Cuchilla Grande'), 4, _('Cuchilla Grande'), _("It's in the south")),
     (_('the %s') % _('Cuchilla Grande del Durazno'), 4, _('Cuchilla Grande del Durazno'), _("It's in %s") % _('Durazno')),
@@ -196,7 +196,7 @@ LEVEL5 = [
     (_('the %s') % _('Cerro Arequita'), 5, _('Cerro Arequita'), _("It's in %s") % _('Lavalleja')),
     (_('the %s') % _('Cerro Catedral'), 5, _('Cerro Catedral'), _("It's in %s") % _('Maldonado')),
     (_('the %s') % _('Cerro de las Animas'), 5, _('Cerro de las Animas'), _("It's in %s") % _('Maldonado')),
-    (_('the %s') % _('Cerros de Batoví'), 5, _('Cerros de Batoví'), _('Quedan en el norte')),
+    (_('the %s') % _('Cerros de Batoví'), 5, _('Cerros de Batoví'), _("It's in the north")),
     (_('the %s') % _('Cerro Bonito'), 5, _('Cerro Bonito'), _("It's in %s") % _('Cuchilla de Santa Ana')),
     (_('the %s') % _('Cerro del Medio'), 5, _('Cerro del Medio'), _("It's in %s") % _('Tacuarembó')),
     (_('the %s') % _('Cerro Chato'), 5, _('Cerro Chato'), _("It's in %s") % _('Durazno'))

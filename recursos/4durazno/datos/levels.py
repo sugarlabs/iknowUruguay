@@ -77,7 +77,7 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Cuchilla Ramírez')}, 4, _('Cuchilla Ramírez'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla Grande del Durazno')}, 4, _('Cuchilla Grande del Durazno'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla Villasboas')}, 4, _('Cuchilla Villasboas'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro Dos Hermanos')}, 5, _('Co. Dos Hermanos'), _("It's in the east"))
+    (_('the %(m)s') % {'m': _('Cerro Dos Hermanos')}, 5, _('Cerro Dos Hermanos'), _("It's in the east"))
 ]
 ]
 

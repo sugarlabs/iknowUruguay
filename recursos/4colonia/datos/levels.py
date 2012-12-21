@@ -17,23 +17,23 @@ LEVEL1 = [
     (_('the town of %s') % _('Antolin'), 2, _('Antolin'), _('Por ahi pasa el\narroyo San Juan')),
     (_('the town of %s') % _('La Estanzuela'), 2, _('La Estanzuela'), _('Tiene un importante\ncentro de investigación')),
     (_('the town of %s') % _('Semillero'), 2, _('Semillero'), _('Fue el granero\del Uruguay')),
-    (_('the town of %s') % _('mbúes de Lavalle'), 2, _('Ombúes de Lavalle'), _('Queda cerca del límite\ncon Soriano')),
-    (_('the town of %s') % _('Barker'), 2, _('Barker'), _('Queda cerca de\nRosario')),
+    (_('the town of %s') % _('mbúes de Lavalle'), 2, _('Ombúes de Lavalle'), _("It's on the border\nwith %s") % _('Soriano')),
+    (_('the town of %s') % _('Barker'), 2, _('Barker'), _("It's near of %s") % _('Rosario')),
     (_('the city of %s') % _('Rosario'), 2, _('Rosario'), _('Queda sobre el río\ndel mismo nombre')),
-    (_('the city of %s') % _('Florencio Sánchez'), 2, _('Florencio Sánchez'), _('Queda en el límite\ncon Soriano')),
+    (_('the city of %s') % _('Florencio Sánchez'), 2, _('Florencio Sánchez'), _("It's on the border\nwith %s") % _('Soriano')),
     (_('the city of %s') % _('Juan Lacaze'), 2, _('Juan Lacaze'), _('Tiene una importante\nindustria papelera\nsobre el Río de la Plata')),
     (_('the city of %s') % _('Colonia Valdense'), 2, _('Colonia Valdense'), _('La llaman la\nciudad jardín')),
     (_('the city of %s') % _('Nueva Helvecia'), 2, _('Nueva Helvecia'), _('Reconocida por sus\nquesos de gran calidad')),
-    (_('the town of %s') % _('Miguelete'), 2, _('Miguelete'), _('Queda al norte')),
-    (_('the town of %s') % _('Cufré'), 2, _('Cufré'), _('Queda casi en el\nlimite con San José')),
+    (_('the town of %s') % _('Miguelete'), 2, _('Miguelete'), _("It's in the north")),
+    (_('the town of %s') % _('Cufré'), 2, _('Cufré'), _("It's on the border\nwith %s") % _('San José')),
     (_('the town of %s') % _('La Paz'), 2, _('La Paz'), _('También llamada\nColonia Piamontesa')),
     (_('the town of %s') % _('Tres Esquinas'), 2, _('Tres Esquinas'), _('Queda al norte\nde Rosario')),
     (_('the town of %s') % _('Manantiales'), 2, _('Manantiales'), _('Queda cerca del centro\ndel departamento')),
     (_('the town of %s') % _('El Cuadro'), 2, _('El Cuadro'), _('Queda cerca del centro\ndel departamento')),
-    (_('the town of %s') % _('El Cerro'), 2, _('El Cerro'), _('Queda cerca de Carmelo')),
-    (_('the town of %s') % _('Víboras'), 2, _('Víboras'), _('Queda al oeste')),
-    (_('the town of %s') % _('Campana'), 2, _('Campana'), _('Queda al oeste')),
-    (_('the town of %s') % _('Cerro de las Armas'), 2, _('Cerro de las Armas'), _('Queda al norte'))
+    (_('the town of %s') % _('El Cerro'), 2, _('El Cerro'), _("It's near of %s") % _('Carmelo')),
+    (_('the town of %s') % _('Víboras'), 2, _('Víboras'), _("It's in the west")),
+    (_('the town of %s') % _('Campana'), 2, _('Campana'), _("It's in the west")),
+    (_('the town of %s') % _('Cerro de las Armas'), 2, _('Cerro de las Armas'), _("It's in the north"))
 ]
 ]
 
@@ -46,10 +46,10 @@ LEVEL2 = [
 [
     (_('donde está el único\npuente giratorio\na tracción humana\ndel Uruguay'), 2, _('Carmelo'), _("It's in the west")),
     (_('donde hay un barrio histórico\ndeclarado Patrimonio de la\nHumanidad'), 2, _('Colonia del Sacramento'), _("It's in the south")),
-    (_('una ciudad que nació en torno\na un cruce de caminos\ny a una estación de tren'), 2, _('Tarariras'), _('Está en el centro')),
+    (_('una ciudad que nació en torno\na un cruce de caminos\ny a una estación de tren'), 2, _('Tarariras'), _("It's in the center")),
     (_('un importante puerto comercial,\nprincipalmente de granos'), 2, _('Nueva Palmira'), _("It's in the west")),
     (_('donde sus casas tienen el\ncaracterístico estilo\nde un pueblo minero'), 2, _('Conchillas'), _("It's in the southwest")),
-    (_('donde hay una importante\nfábrica de refrescos'), 2, _('Antolin'), _('Está en el centro')),
+    (_('donde hay una importante\nfábrica de refrescos'), 2, _('Antolin'), _("It's in the center")),
     (_('un lugar con nombre de\nestancia mediana'), 2, _('La Estanzuela'), _('Está en el centrosur')),
     (_('donde fue el granero del Uruguay'), 2, _('Semillero'), _('Está en el centrosur')),
     (_('donde en una época tuvo un\ngran monte de cierto\nárbol autóctono'), 2, _('Ombúes de Lavalle'), _("It's in the north")),
@@ -60,11 +60,11 @@ LEVEL2 = [
     (_('la llamada ciudad jardín'), 2, _('Colonia Valdense'), _("It's in the west")),
     (_('una ciudad fundada por\ninmigrantes Suizos'), 2, _('Nueva Helvecia'), _("It's in the east")),
     (_('donde su gente se dedica\nprincipalmente a\la ganadería'), 2, _('Miguelete'), _("It's in the north")),
-    (_('el que en su tiempo fue un\npueblo de picapedreros'), 2, _('Cufré'), _('Queda en el límite\con San José')),
+    (_('el que en su tiempo fue un\npueblo de picapedreros'), 2, _('Cufré'), _("It's on the border\nwith %s") % _('San José')),
     (_('una ciudad fundada por\ninmigrantes Valdenses de la\nregión del Piamonte'), 2, _('La Paz'), _('Está cerca de Rosario')),
     (_('donde se juntan tres rutas'), 2, _('Tres Esquinas'), _("It's in the north")),
     (_('un pueblo con nombre de una\nfuente natural de agua'), 2, _('Manantiales'), _("It's in the north")),
-    (_('un pueblo con nombre de un\npolígono regular'), 2, _('El Cuadro'), _('Está en el centro')),
+    (_('un pueblo con nombre de un\npolígono regular'), 2, _('El Cuadro'), _("It's in the center")),
     (_('un pueblo con nombre de un\naccidente geográfico'), 2, _('El Cerro'), _("It's in the west")),
     (_('un pueblo que lleva el nombre\nde una alimaña ponzoñosa'), 2, _('Víboras'), _("It's in the west")),
     (_('un pueblo que tiene el nombre\nde una parte de la torre\nde una iglesia'), 2, _('Campana'), _("It's in the north")),
@@ -79,16 +79,16 @@ LEVEL3 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         ['capitales', 'ciudades'],
 [
-    (_('un balneario\nque "da sueño"'), 2, _('El Ensueño'), _('Queda al sur')),
-    (_('un balneario con\nnombre de santa'), 2, _('Santa Regina'), _('Está casi en el límite\ncon San José')),
+    (_('un balneario\nque "da sueño"'), 2, _('El Ensueño'), _("It's in the south")),
+    (_('un balneario con\nnombre de santa'), 2, _('Santa Regina'), _("It's on the border\nwith %s") % _('San José')),
     (_('un lugar que\ntiene muchos árboles\nde cierta especie'), 2, _('Los Pinos'), _('Está cerca de la costa')),
     (_('una ciudad cuyo nombre\nes un sinónimo de\npromover'), 2, _('Fomento'), _("It's in the southeast")),
     (_('una ciudad con nombre\nde un curso fino de agua'), 2, _('Riachuelo'), _('Está cerca de Colonia')),
-    (_('un balneario con nombre\nde personas que llevan\nlos cañones'), 2, _('Artilleros'), _('Queda al sur')),
-    (_('un lugar que es\nla boca de otro'), 2, _('Boca del Rosario'), _('Queda cerca de J. Lacaze')),
-    (_('un balneario de\narenas blancas'), 2, _('Blancarena'), _('Queda al sureste')),
-    (_('un balneario con nombre\nde ciudad griego'), 2, _('Britópolis'), _('Queda cerca del límite\ncon San José')),
-    (_('un lugar con nombre\nde santa'), 2, _('Santa Ana'), _('Queda al sur'))
+    (_('un balneario con nombre\nde personas que llevan\nlos cañones'), 2, _('Artilleros'), _("It's in the south")),
+    (_('un lugar que es\nla boca de otro'), 2, _('Boca del Rosario'), _("It's near of %s") % _('Juan Lacaze')),
+    (_('un balneario de\narenas blancas'), 2, _('Blancarena'), _("It's in the southeast")),
+    (_('un balneario con nombre\nde ciudad griego'), 2, _('Britópolis'), _("It's on the border\nwith %s") % _('San José')),
+    (_('un lugar con nombre\nde santa'), 2, _('Santa Ana'), _("It's in the south"))
 ]
 ]
 
@@ -98,25 +98,25 @@ LEVEL4 = [
         ['lineasDepto', 'rios'],
         [],
 [
-    (_('Río San Juan'), _('Esta en el centro')),
+    (_('Río San Juan'), _("It's in the center")),
     (_('Río Rosario'), _('Ocupa gran parte\ndel este')),
     (_('Río de la Plata'), _('Es muy fácil')),
-    (_('Arroyo Sauce Grande'), _('Queda al sur')),
-    (_('Arroyo de las Víboras'), _('Cerca del límite\ncon Soriano')),
+    (_('Arroyo Sauce Grande'), _("It's in the south")),
+    (_('Arroyo de las Víboras'), _("It's on the border\nwith %s") % _('Soriano')),
     (_('Arroyo de las Vacas'), _('Cerca de Carmelo')),
     (_('Arroyo Juan González'), _("It's in the west")),
     (_('Arroyo Miguelete'), _('Pasa cerca de\nla ciudad del mismo\nnombre')),
-    (_('Arroyo del General'), _('Cerca de Colonia')),
+    (_('Arroyo del General'),_("It's near of %s") % _('Colonia')),
     (_('Arroyo Colla'), _('Atraviesa casi todo\nel departamento')),
     (_('Arroyo Pichinango'), _('Cerca de la cuchilla\nde mismo nombre')),
-    (_('Arroyo San Luis'), _('Está en el centro')),
-    (_('Arroyo Cufré'), _('Está en el límite\ncon San José')),
-    (_('Arroyo Tarariras'), _('Está en el centro')),
+    (_('Arroyo San Luis'), _("It's in the center")),
+    (_('Arroyo Cufré'), _("It's on the border\nwith %s") % _('San José')),
+    (_('Arroyo Tarariras'), _("It's in the center")),
     (_('Arroyo del Riachuelo'), _("It's in the south")),
     (_('Arroyo San Pedro'), _("It's in the west")),
     (_('Arroyo Chileno'), _('Es afluente del\nArroyo de las Víboras')),
     (_('Arroyo Polanco'), _('Es afluente del\nArroyo de las Víboras')),
-    (_('Arroyo Minuano'), _('Queda al sur'))
+    (_('Arroyo Minuano'), _("It's in the south"))
 ]
 ]
 
@@ -126,14 +126,14 @@ LEVEL5 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %(f)s') % {'f': _('Cuchilla de San Juan')}, 4, _('Cuchilla de San Juan'), _('Queda al oeste')),
-    (_('the %(f)s') % {'f': _('Cuchilla de la Colonia')}, 4, _('Cuchilla de la Colonia'), _('Queda al sur')),
-    (_('the %(f)s') % {'f': _('Cuchilla de la Cruz')}, 4, _('Cuchilla de la Cruz'), _('Queda al este')),
-    (_('the %(f)s') % {'f': _('Cuchilla Guaycurú')}, 4, _('Cuchilla Guaycurú'), _('Queda en el límite\ncon San José')),
-    (_('the %(m)s') % {'m': _('Cerro Blanco')}, 5, _('Co. Blanco'), _("It's in the east")),
-    (_('the %(m)s') % {'m': _('Cerros Negros')}, 5, _('Cos. Negros'), _('Están al este')),
-    (_('the %(m)s') % {'m': _('Cerro de la Campana')}, 5, _('Co. de la Campana'), _("It's in the east")),
-    (_('the %(m)s') % {'m': _('Cerros de San Juan')}, 5, _('Cos. de San Juan'), _('Están al oeste'))
+    (_('the %(f)s') % {'f': _('Cuchilla de San Juan')}, 4, _('Cuchilla de San Juan'), _("It's in the west")),
+    (_('the %(f)s') % {'f': _('Cuchilla de la Colonia')}, 4, _('Cuchilla de la Colonia'), _("It's in the south")),
+    (_('the %(f)s') % {'f': _('Cuchilla de la Cruz')}, 4, _('Cuchilla de la Cruz'), _("It's in the east")),
+    (_('the %(f)s') % {'f': _('Cuchilla Guaycurú')}, 4, _('Cuchilla Guaycurú'), _("It's on the border\nwith %s") % _('San José')),
+    (_('the %(m)s') % {'m': _('Cerro Blanco')}, 5, _('Cerro Blanco'), _("It's in the east")),
+    (_('the %(m)s') % {'m': _('Cerros Negros')}, 5, _('Cerros Negros'), _('Están al este')),
+    (_('the %(m)s') % {'m': _('Cerro de la Campana')}, 5, _('Cerro de la Campana'), _("It's in the east")),
+    (_('the %(m)s') % {'m': _('Cerros de San Juan')}, 5, _('Cerros de San Juan'), _('Están al oeste'))
 ]
 ]
 
@@ -143,13 +143,13 @@ LEVEL6 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 1, _('Queda al sur')),
-    (_('Route %s') % 21, _('Queda al oeste')),
-    (_('Route %s') % 12, _('Queda al norte')),
-    (_('Route %s') % 2, _('Pasa por Rosario')),
-    (_('Route %s') % 55, _('Pasa por Ombúes de Lavalle')),
-    (_('Route %s') % 54, _('Va hasta Juan Lacaze')),
-    (_('Route %s') % 22, _('Pasa por Tarariras'))
+    (_('Route %s') % 1, _("It's in the south")),
+    (_('Route %s') % 21, _("It's in the west")),
+    (_('Route %s') % 12, _("It's in the north")),
+    (_('Route %s') % 2, _('Passes through of %s') % _('Rosario')),
+    (_('Route %s') % 55, _('Passes through of %s') % _('Ombúes de Lavalle')),
+    (_('Route %s') % 54, _('Ends in %s') % _('Juan Lacaze')),
+    (_('Route %s') % 22, _('Passes through of %s') % _('Tarariras'))
 ]
 ]
 

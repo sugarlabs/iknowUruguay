@@ -62,15 +62,15 @@ LEVEL4 = [
         [],
 [
     (_('the %(f)s') % {'f': _('Cuchilla de Cuñapirú')}, 4, _('Cuchilla de Cuñapirú'), _("It's in the center")),
-    (_('the %(f)s') % {'f': _('Cuchilla del Yaguarí')}, 4, _('Cuchilla del Yaguarí'), _('Queda al sur')),
-    (_('the %(f)s') % {'f': _('Cuchilla Negra')}, 4, _('Cuchilla Negra'), _('Queda en el límite\ncon Artigas')),
-    (_('the %(f)s') % {'f': _('Cuchilla de Haedo')}, 4, _('Cuchilla de Haedo'), _('Queda al oeste')),
-    (_('the %(f)s') % {'f': _('Cuchilla de Santa Ana')}, 4, _('Cuchilla de Santa Ana'), _('Queda en el límite\ncon Brasil')),
-    (_('the %(m)s') % {'m': _('Cerro del Hospital')}, 5, _('Cerro del Hospital'), _('Queda al este')),
-    (_('the %(m)s') % {'m': _('Cerro Bonito')}, 5, _('Cerro Bonito'), _('Queda al este')),
-    (_('the %(m)s') % {'m': _('Cerro de la Cruz')}, 5, _('Cerro de la Cruz'), _('Queda al sur')),
-    (_('the %(m)s') % {'m': _('Cerro del Medio')}, 5, _('Cerro del Medio'), _('Queda en el límite\ncon Tacuarembó')),
-    (_('the %(m)s') % {'m': _('Cerro de los Peludos')}, 5, _('Cerro de los Peludos'), _('Queda al noroeste'))
+    (_('the %(f)s') % {'f': _('Cuchilla del Yaguarí')}, 4, _('Cuchilla del Yaguarí'), _("It's in the south")),
+    (_('the %(f)s') % {'f': _('Cuchilla Negra')}, 4, _('Cuchilla Negra'), _("It's on the border\nwith %s") % _('Artigas')),
+    (_('the %(f)s') % {'f': _('Cuchilla de Haedo')}, 4, _('Cuchilla de Haedo'), _("It's in the west")),
+    (_('the %(f)s') % {'f': _('Cuchilla de Santa Ana')}, 4, _('Cuchilla de Santa Ana'), _("It's on the border\nwith %s") % _('Brasil')),
+    (_('the %(m)s') % {'m': _('Cerro del Hospital')}, 5, _('Cerro del Hospital'), _("It's in the east")),
+    (_('the %(m)s') % {'m': _('Cerro Bonito')}, 5, _('Cerro Bonito'), _("It's in the east")),
+    (_('the %(m)s') % {'m': _('Cerro de la Cruz')}, 5, _('Cerro de la Cruz'), _("It's in the south")),
+    (_('the %(m)s') % {'m': _('Cerro del Medio')}, 5, _('Cerro del Medio'), _("It's on the border\nwith %s") % _('Tacuarembó')),
+    (_('the %(m)s') % {'m': _('Cerro de los Peludos')}, 5, _('Cerro de los Peludos'), _("It's in the northwest"))
 ]
 ]
 
@@ -80,10 +80,10 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 5, _('Pasa por la capital')),
-    (_('Route %s') % 30, _('Pasa por Tranqueras')),
-    (_('Route %s') % 29, _('Termina en\nMinas de Corrales')),
-    (_('Route %s') % 27, _('Pasa por Cerro Pelado')),
+    (_('Route %s') % 5, _('Passes through of %s') % _('the capital')),
+    (_('Route %s') % 30, _('Passes through of %s') % _('Tranqueras')),
+    (_('Route %s') % 29, _('Ends in %s') % _('Minas de Corrales')),
+    (_('Route %s') % 27, _('Passes through of %s') % _('Cerro Pelado')),
     (_('Route %s') % 6, _('Llega hasta Brasil')),
     (_('Route %s') % 28, _('Pasa por el límite\ncon Tacuarembó')),
     (_('Route %s') % 44, _('Va hacia Cerro Largo'))

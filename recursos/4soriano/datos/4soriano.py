@@ -67,8 +67,8 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Co. Espinillo'), 148, 529, 5, 0, 14),
-    (_('Co. Curupí'), 433, 317, 5, 20, -14)
+    (_('Cerro Espinillo'), 148, 529, 5, 0, 14),
+    (_('Cerro Curupí'), 433, 317, 5, 20, -14)
 ]
 
 ROUTES = [

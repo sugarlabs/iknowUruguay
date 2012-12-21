@@ -8,7 +8,7 @@ LEVEL1 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         [],
 [
-    (_('the neighborhoods of %s') % _('Santiago Vázquez'), 2, _('Santiago Vázquez'), _('Queda en el límite\ncon San José')),
+    (_('the neighborhoods of %s') % _('Santiago Vázquez'), 2, _('Santiago Vázquez'), _("It's on the border\nwith %s") % _('San José')),
     (_('the neighborhoods of %s') % _('Ciudad Vieja'), 2, _('Ciudad Vieja'), _('Es donde se fundó\nla ciudad')),
     (_('the neighborhoods of %s') % _('Centro'), 2, _('Centro'), _('Queda al lado de la\nCiudad Vieja')),
     (_('the neighborhoods of %s') % _('Sur'), 2, _('Sur'), _("It's in the south")),
@@ -55,7 +55,7 @@ LEVEL2 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         ['capitales', 'ciudades'],
 [
-    (_('el punto más elevado\ndel departamento'), 5, _('Co. de Montevideo'), _('Es el símbolo\ndel departamento')),
+    (_('el punto más elevado\ndel departamento'), 5, _('Cerro de Montevideo'), _('Es el símbolo\ndel departamento')),
     (_('el segundo punto más elevado\ndel departamento'), 2, _('Cerrito de la Victoria'), _('Es un barrio muy popular')),
     (_('el arroyo que limita al este\ncon Canelones'), 3, _('Arroyo Carrasco'), _('Desemboca en el\nRío de la Plata')),
     (_('el barrio donde originariamente\nse fundó la ciudad de San Felipe\ny Santiago de Montevideo'), 2, _('Ciudad Vieja'), _('Queda sobre la bahía')),
@@ -64,7 +64,7 @@ LEVEL2 = [
     (_('la playa donde las\nlavanderas acudían a lavar\nla ropa haciendo pozos'), 2, _('Pocitos'), _('Es una playa muy concurrida')),
     (_('el barrio desde donde\nsale el desfile de Llamadas'), 2, _('Sur'), _("It's in the south")),
     (_('donde se encuentra el\n"Monumento del Fútbol Mundial"'), 2, _('Parque Batlle'), _('El "Monumento del Fútbol Mundial"\nes el Estadio Centenario')),
-    (_('el río que abastece de\nagua potable al departamento\nde Montevideo'), 3, _('Río Santa Lucía'), _('Queda en el límite\ncon San José'))
+    (_('el río que abastece de\nagua potable al departamento\nde Montevideo'), 3, _('Río Santa Lucía'), _("It's on the border\nwith %s") % _('San José'))
 ]
 ]
 	
@@ -97,7 +97,7 @@ LEVEL4 = [
 [
     (_('the %(f)s') % {'f': _('Cuchilla Grande')}, 4, _('Cuchilla Grande'), _('Try again')),
     (_('the %(m)s') % {'m': _('Cabo de Pereira')}, 4, _('Cabo de Pereira'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro de Montevideo')}, 5, _('Co. de Montevideo'), _('Queda sobre la bahía'))
+    (_('the %(m)s') % {'m': _('Cerro de Montevideo')}, 5, _('Cerro de Montevideo'), _('Queda sobre la bahía'))
 ]
 ]
 

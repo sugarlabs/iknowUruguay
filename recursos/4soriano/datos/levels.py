@@ -18,8 +18,8 @@ LEVEL2 = [
     (_('the town of %s') % _('Rodó'), 2, _('Rodó'), _("It's in the center")),
     (_('the town of %s') % _('Perseverano'), 2, _('Perseverano'), _("It's in the south")),
     (_('the town of %s') % _('Castillo'), 2, _('Castillo'), _("It's in the south")),
-    (_('the town of %s') % _('Cuch. del Perdido'), 2, _('Cuch. del Perdido'), _("It's in the southeast")),
-    (_('the city of %s') % _('Sta. Catalina'), 2, _('Sta. Catalina'), _("It's in the southeast")),
+    (_('the town of %s') % _('Cuchilla del Perdido'), 2, _('Cuchilla del Perdido'), _("It's in the southeast")),
+    (_('the city of %s') % _('Santa Catalina'), 2, _('Santa Catalina'), _("It's in the southeast")),
     (_('the city of %s') % _('Cardona'), 2, _('Cardona'), _("It's in the southeast")),
     (_('the town of %s') % _('Villa Soriano'), 2, _('Villa Soriano'), _("It's in the northwest")),
     (_('the city of %s') % _('Dolores'), 2, _('Dolores'), _("It's in the west"))
@@ -71,8 +71,8 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Cuchilla del Perdido')}, 4, _('Cuchilla del Perdido'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla del Bizcocho')}, 4, _('Cuchilla del Bizcocho'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla San Salvador')}, 4, _('Cuchilla San Salvador'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro Espinillo')}, 5, _('Cerro Espinillo'), _('Queda cerca de Dolores')),
-    (_('the %(m)s') % {'m': _('Cerro Curupí')}, 5, _('Cerro Curupí'), _('Queda al norte'))
+    (_('the %(m)s') % {'m': _('Cerro Espinillo')}, 5, _('Cerro Espinillo'), _("It's near of %s") % _('Dolores')),
+    (_('the %(m)s') % {'m': _('Cerro Curupí')}, 5, _('Cerro Curupí'), _("It's in the north"))
 ]
 ]
 
@@ -82,14 +82,14 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 2, _('Pasa por Palmitas')),
-    (_('Route %s') % 21, _('Pasa por Dolores')),
+    (_('Route %s') % 2, _('Passes through of %s') % _('Palmitas')),
+    (_('Route %s') % 21, _('Passes through of %s') % _('Dolores')),
     (_('Route %s') % 14, _('Va hasta Flores')),
     (_('Route %s') % 96, _('Va hasta Villa Soriano')),
     (_('Route %s') % 95, _('Sale de Mercedes')),
     (_('Route %s') % 105, _('Va de Dolores\na Palmitas')),
-    (_('Route %s') % 55, _('Termina en\nJosé Enrique Rodó')),
-    (_('Route %s') % 12, _('Está en el límite\ncon Colonia')),
+    (_('Route %s') % 55, _('Ends in %s') % _('José Enrique Rodó')),
+    (_('Route %s') % 12, _("It's on the border\nwith %s") % _('Colonia')),
     (_('Route %s') % 57, _('Va hasta Flores'))
 ]
 ]
