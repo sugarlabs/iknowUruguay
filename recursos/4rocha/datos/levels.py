@@ -22,7 +22,7 @@ LEVEL2 = [
     (_('the resort of %s') % _('Barra de Valizas'), 2, _('Barra de Valizas'), _("It's near of %s") % _('Cabo Polonio')),
     (_('the resort of %s') % _('Aguas Dulces'), 2, _('Aguas Dulces'), _("It's near of %s") % _('Castillos')),
     (_('the resort of %s') % _('Punta del Diablo'), 2, _('Punta del Diablo'), _("It's near of %s") % _('Laguna Negra')),
-    (_('el Parque Nacional\nde Santa Teresa'), 2, _('Pque. Santa Teresa'), _("It's near of %s") % _('La Coronilla')),
+    (_('el Parque Nacional\nde Santa Teresa'), 2, _('Parque Santa Teresa'), _("It's near of %s") % _('La Coronilla')),
     (_('the resort of %s') % _('Barra del Chuy'), 2, _('Barra del Chuy'), _("It's on the border\nwith %s") % _('Brazil')),
     (_('the city of %s') % _('Chuy'), 2, _('Chuy'), _("It's on the border\nwith %s") % _('Brazil')),
     (_('the town of %s') % _('19 de Abril'), 2, _('19 de Abril'), _('Queda entre Rocha y\nCastillos'))

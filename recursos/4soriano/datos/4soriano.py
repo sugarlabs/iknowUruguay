@@ -24,7 +24,7 @@ CITIES = [
     (_('Perseverano'), 308, 611, 2, 0, 12),
     (_('Castillo'), 412, 670, 2, 0, 12),
     (_('Cuch. del Perdido'), 648, 525, 2, -5, 14),
-    (_('Sta. Catalina'), 542, 634, 2, 0, 14),
+    (_('Santa Catalina'), 542, 634, 2, 0, 14),
     (_('Cardona'), 602, 694, 2, 0, -14),
     (_('Villa Soriano'), 99, 390, 2, 20, 12),
     (_('Dolores'), 160, 483, 2, 0, 12)

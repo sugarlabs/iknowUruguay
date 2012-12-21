@@ -53,7 +53,7 @@ LEVEL3 = [
     (_('Arroyo de Soto'), _("It's in the west")),
     (_('Arroyo Buricayupí'), _("It's in the center")),
     (_('Arroyo Carumbé'), _("It's in the northwest")),
-    (_('Arroyo San FsCerro Grande'), _("It's in the southwest")),
+    (_('Arroyo San Francisco Grande'), _("It's in the southwest")),
     (_('Arroyo Negro'), _("It's in the southwest")),
     (_('Arroyo Rabón'), _("It's in the southwest")),
     (_('Arroyo Valdés'), _("It's in the southwest")),

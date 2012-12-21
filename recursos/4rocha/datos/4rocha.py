@@ -27,7 +27,7 @@ CITIES = [
     (_('Barra de Valizas'), 528, 639, 2, 72, -2),
     (_('Aguas Dulces'), 529, 615, 2, 62, 0),
     (_('Punta del Diablo'), 634, 504, 2, 72, 4),
-    (_('Pque. Santa Teresa'), 645, 447, 2, -65, -14),
+    (_('Parque Santa Teresa'), 645, 447, 2, -65, -14),
     (_('Barra del Chuy'), 705, 352, 2, -64, 2),
     (_('Chuy'), 678, 317, 2, -10, 12),
     (_('19 de Abril'), 405, 680, 2, 0, -12)

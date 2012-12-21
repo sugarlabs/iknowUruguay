@@ -54,7 +54,7 @@ RIVERS = [
     (_('Arroyo de Soto'), 243, 247, 452, 45),
     (_('Arroyo Buricayupí'), 242, 293, 449, 60),
     (_('Arroyo Carumbé'), 241, 265, 308, -55),
-    (_('Arroyo San FsCerro Grande'), 238, 144, 580, -5),
+    (_('Arroyo San Francisco Grande'), 238, 144, 580, -5),
     (_('Arroyo Negro'), 236, 118, 692, -30),
     (_('Arroyo Rabón'), 235, 139, 615, 30),
     (_('Arroyo Valdés'), 234, 190, 637, 10),
