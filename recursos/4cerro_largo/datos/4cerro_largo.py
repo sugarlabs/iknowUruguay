@@ -61,7 +61,7 @@ CUCHILLAS = [
 ]
 
 HILLS = [
-    (_('Cerro Gde. de Aceguá'), 341, 270, 5, 0, -14),
+    (_('Cerro Grande de Aceguá'), 341, 270, 5, 0, -14),
     (_('Cerro Colorado'), 517, 491, 5, 34, -14),
     (_('Cerro Redondo'), 467, 379, 5, 0, 14),
     (_('Cerro Pablo Pérez'), 99, 638, 5, -14, 18),

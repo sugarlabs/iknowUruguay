@@ -62,7 +62,7 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Sierra de los Ríos'), 4, _('Sierra de los Ríos'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla de Mangrullo'), 4, _('Cuchilla de Mangrullo'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla del Cordobés'), 4, _('Cuchilla del Cordobés'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro Grande de Aceguá'), 5, _('Cerro Gde. de Aceguá'), _("It's in the north")),
+    (_('the %(m)s') % {'m': _('Cerro Grande de Aceguá'), 5, _('Cerro Grande de Aceguá'), _("It's in the north")),
     (_('the %(m)s') % {'m': _('Cerro Colorado'), 5, _('Cerro Colorado'), _("It's in the east")),
     (_('the %(m)s') % {'m': _('Cerro Redondo'), 5, _('Cerro Redondo'), _("It's in the northeast")),
     (_('the %(m)s') % {'m': _('Cerro Pablo Pérez'), 5, _('Cerro Pablo Pérez'), _("It's in the southwest")),

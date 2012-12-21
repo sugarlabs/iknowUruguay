@@ -33,7 +33,7 @@ LEVEL2 = [
     (_('the town of %s') % _('Curtina'), 2, _('Curtina'), _("It's in the center")),
     (_('the town of %s') % _('Achar'), 2, _('Achar'), _("It's in the southwest")),
     (_('the town of %s') % _('Peralta'), 2, _('Peralta'), _("It's in the southwest")),
-    (_('the health resort of %s') % _('San Gregorio de Polanco'), 2, _('San Gregorio de Polanco'), _("It's in the south")),
+    (_('the resort of %s') % _('San Gregorio de Polanco'), 2, _('San Gregorio de Polanco'), _("It's in the south")),
     (_('the town of %s') % _('Rincón de Pereira'), 2, _('Rincón de Pereira'), _("It's in the southeast")),
     (_('the city of %s') % _('Paso de los Toros'), 2, _('Paso de los Toros'), _("It's in the southwest")),
     (_('the town of %s') % _('Cuchilla de Caraguatá'), 2, _('Cuchilla de Caraguatá'), _("It's in the southeast")),
@@ -96,7 +96,7 @@ LEVEL5 = [
 [
     (_('Route %s') % 5, _('Cruza el departamento\nde norte a sur')),
     (_('Route %s') % 6, _('Pasa por\nCuchilla de Caraguatá')),
-    (_('Route %s') % 26, _('Pasa por Ansina')),
+    (_('Route %s') % 26, _('Passes through of %s') % _('Ansina')),
     (_('Route %s') % 31, _('Viene de Salto')),
     (_('Route %s') % 43, _('Va hasta\nSan Gregorio de Polanco')),
     (_('Route %s') % 20, _('Viene de Río Negro'))

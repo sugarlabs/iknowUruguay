@@ -11,15 +11,15 @@ LEVEL1 = [
     (_('the city of %s') % _('Maldonado'), 2, _('Maldonado'), _("It's the capital of\nthe department")),
     (_('the town of %s') % _('Los Talas'), 2, _('Los Talas'), _("It's in the north")),
     (_('the town of %s') % _('Aiguá'), 2, _('Aiguá'), _("It's in the north")),
-    (_('the health resort of %s') % _('José Ignacio'), 2, _('José Ignacio'), _("It's in the south")),
+    (_('the resort of %s') % _('José Ignacio'), 2, _('José Ignacio'), _("It's in the south")),
     (_('the city of %s') % _('San Carlos'), 2, _('San Carlos'), _("It's in the south")),
     (_('the city of %s') % _('Punta del Este'), 2, _('Punta del Este'), _("It's in the south")),
     (_('the city of %s') % _('Pan de Azúcar'), 2, _('Pan de Azúcar'), _("It's in the south")),
     (_('the city of %s') % _('Piriápolis'), 2, _('Piriápolis'), _("It's in the south")),
-    (_('the health resort of %s') % _('Punta Ballena'), 2, _('Punta Ballena'), _("It's in the south")),
+    (_('the resort of %s') % _('Punta Ballena'), 2, _('Punta Ballena'), _("It's in the south")),
     (_('the town of %s') % _('Garzón'), 2, _('Garzón'), _("It's in the east")),
-    (_('the health resort of %s') % _('Las Flores'), 2, _('Las Flores'), _("It's in the southwest")),
-    (_('the health resort of %s') % _('La Barra'), 2, _('La Barra'), _("It's in the south"))
+    (_('the resort of %s') % _('Las Flores'), 2, _('Las Flores'), _("It's in the southwest")),
+    (_('the resort of %s') % _('La Barra'), 2, _('La Barra'), _("It's in the south"))
 ]
 ]
 
@@ -64,10 +64,10 @@ LEVEL3 = [
     (_('the %(f)s') % {'f': _('Sierra de las Ánimas')}, 4, _('Sierra de las Ánimas'), _('Try again')),
     (_('the %(f)s') % {'f': _('Sierra de la Ballena')}, 4, _('Sierra de la Ballena'), _('Try again')),
     (_('the %(f)s') % {'f': _('Sierra de Carapé')}, 4, _('Sierra de Carapé'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro del Toro')}, 5, _('Cerro del Toro'), _('Queda cerca de Piriápolis')),
-    (_('the %(m)s') % {'m': _('Cerro San Antonio')}, 5, _('Cerro San Antonio'), _('Queda cerca de Piriápolis')),
-    (_('the %(m)s') % {'m': _('Cerro Pan de Azúcar')}, 5, _('Cerro Pan de Azúcar'), _('Queda al sur')),
-    (_('the %(m)s') % {'m': _('Cerro Catedral')}, 5, _('Cerro Catedral'), _('Es el más alto del país'))
+    (_('the %(m)s') % {'m': _('Cerro del Toro')}, 5, _('Cerro del Toro'), _("It's near of %s") % _('Piriápolis')),
+    (_('the %(m)s') % {'m': _('Cerro San Antonio')}, 5, _('Cerro San Antonio'), _("It's near of %s") % _('Piriápolis')),
+    (_('the %(m)s') % {'m': _('Cerro Pan de Azúcar')}, 5, _('Cerro Pan de Azúcar'), _("It's in the south")),
+    (_('the %(m)s') % {'m': _('Cerro Catedral')}, 5, _('Cerro Catedral'), _("It's the highest of Uruguay'))
 ]
 ]
 
@@ -82,10 +82,10 @@ LEVEL4 = [
     (_('Route %s') % 60, _('Viene de Minas')),
     (_('Route %s') % 37, _('Va hasta Piriápolis')),
     (_('Route %s') % 12, _('Viene de Minas')),
-    (_('Route %s') % 93, _('Pasa por el principal balneario')),
-    (_('Route %s') % 39, _('Pasa por San Carlos')),
-    (_('Route %s') % 13, _('Pasa por Aiguá')),
-    (_('Route %s') % 109, _('Pasa por Aiguá'))
+    (_('Route %s') % 93, _('Passes through of %s') % _('major resort')),
+    (_('Route %s') % 39, _('Passes through of %s') % _('San Carlos')),
+    (_('Route %s') % 13, _('Passes through of %s') % _('Aiguá')),
+    (_('Route %s') % 109, _('Passes through of %s') % _('Aiguá'))
 ]
 ]
 
