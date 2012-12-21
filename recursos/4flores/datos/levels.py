@@ -25,8 +25,8 @@ LEVEL2 = [
 [
     (_('the city of %s') % _('Trinidad'), 2, _('Trinidad'), _("It's the capital of\nthe department")),
     (_('the town of %s') % _('Andresito'), 2, _('Andresito'), _("It's in the north")),
-    (_('the town of %s') % _('Juan José Castro'), 2, _('Juan José Castro'), _('Está en el centro')),
-    (_('the town of %s') % _('Cerro Colorado'), 2, _('Cerro Colorado'), _('Está en el centro')),
+    (_('the town of %s') % _('Juan José Castro'), 2, _('Juan José Castro'), _("It's in the center")),
+    (_('the town of %s') % _('Cerro Colorado'), 2, _('Cerro Colorado'), _("It's in the center")),
     (_('the town of %s') % _('La Casilla'), 2, _('La Casilla'), _("It's in the south")),
     (_('the town of %s') % _('San Gregorio'), 2, _('San Gregorio'), _("It's in the south")),
     (_('the town of %s') % _('Ismael Cortinas'), 2, _('Ismael Cortinas'), _("It's in the southwest"))
@@ -47,7 +47,7 @@ LEVEL3 = [
     (_('Arroyo Coronilla'), _("It's in the north")),
     (_('Arroyo Sarandi'), _("It's in the north")),
     (_('Arroyo Porongos'), _("It's in the northeast")),
-    (_('Arroyo del Sarandí'), _('Está en el centro')),
+    (_('Arroyo del Sarandí'), _("It's in the center")),
     (_('Arroyo del Tala'), _("It's in the east")),
     (_('Arroyo San Gregorio'), _("It's in the south")),
     (_('Arroyo Pintos'), _("It's in the south")),
@@ -80,7 +80,7 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Cuchilla Marincho')}, 4, _('Cuchilla Marincho'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla Villasboas')}, 4, _('Cuchilla Villasboas'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla Grande Inferior')}, 4, _('Cuchilla Grande Inferior'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerros de Ojosmín')}, 5, _('Cerros de Ojosmín'), _('Quedan al oeste'))
+    (_('the %(m)s') % {'m': _('Cerros de Ojosmín')}, 5, _('Cerros de Ojosmín'), _('Try again'))
 ]
 ]
 
@@ -90,10 +90,10 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 3, _('Va de norte a sur')),
-    (_('Route %s') % 14, _('Va hacia el este')),
-    (_('Route %s') % 57, _('Va hacia el suroeste')),
-    (_('Route %s') % 23, _('Pasa por Ismael Cortinas'))
+    (_('Route %s') % 3, _('Try again')),
+    (_('Route %s') % 14, _('Try again')),
+    (_('Route %s') % 57, _('Try again')),
+    (_('Route %s') % 23, _('Passes through of %s') % _('Ismael Cortinas'))
 ]
 ]
 
