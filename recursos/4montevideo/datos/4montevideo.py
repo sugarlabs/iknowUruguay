@@ -81,11 +81,11 @@ HILLS = [
 
 ROUTES = [
     (_('18 de Julio'), 250, 463, 669, 0),
-    (_('Bvar. Artigas'), 249, 508, 684, 93),
+    (_('Boulevard Artigas'), 249, 508, 684, 93),
     (_('Rivera'), 248, 640, 638, 0),
-    (_('Av. Italia'), 247, 616, 609, 0),
-    (_('Cno. Carrasco'), 246, 650, 573, 0),
-    (_('Cno. Maldonado'), 245, 676, 402, 35),
+    (_('Avenida Italia'), 247, 616, 609, 0),
+    (_('Camino Carrasco'), 246, 650, 573, 0),
+    (_('Camino Maldonado'), 245, 676, 402, 35),
     (_('8 de Octubre'), 244, 559, 579, 45),
     (_('Belloni'), 243, 584, 412, 90),
     (_('Mendoza'), 242, 500, 352, 90),
@@ -97,9 +97,9 @@ ROUTES = [
     (_('Accesos'), 236, 392, 576, 0),
     (_('Ruta 1'), 235, 202, 513, -40),
     (_('Ruta 5'), 234, 309, 410, -70),
-    (_('Luis B. Berres'), 233, 253, 456, -35),
-    (_('Cno. Sanguinetti'), 232, 120, 475, 50),
-    (_('Cno. Tomkinson'), 231, 265, 552, 35),
-    (_('Cno. Cibils'), 230, 304, 584, -85),
-    (_('Cno. Melilla'), 229, 282, 299, -70)
+    (_('Luis Batlle Berres'), 233, 253, 456, -35),
+    (_('Camino Sanguinetti'), 232, 120, 475, 50),
+    (_('Camino Tomkinson'), 231, 265, 552, 35),
+    (_('Camino Cibils'), 230, 304, 584, -85),
+    (_('Camino Melilla'), 229, 282, 299, -70)
 ]

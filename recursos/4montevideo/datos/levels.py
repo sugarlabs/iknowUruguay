@@ -108,15 +108,15 @@ LEVEL5 = [
         ['capitales', 'ciudades'],
 [
     (_('la Avenida\n18 de Julio'), 6, _('18 de Julio'), _('Try again')),
-    (_('Boulevard Artigas'), 6, _('Bvar. Artigas'), _('Try again')),
+    (_('Boulevard Artigas'), 6, _('Boulevard Artigas'), _('Try again')),
     (_('la Avenida Rivera'), 6, _('Rivera'), _('Try again')),
-    (_('Avenida Italia'), 6, _('Av. Italia'), _('Try again')),
-    (_('Camino Carrasco'), 6, _('Cno. Carrasco'), _('Try again')),
-    (_('Camino Maldonado'), 6, _('Cno. Maldonado'), _('Try again')),
+    (_('Avenida Italia'), 6, _('Avenida Italia'), _('Try again')),
+    (_('Camino Carrasco'), 6, _('Camino Carrasco'), _('Try again')),
+    (_('Camino Maldonado'), 6, _('Camino Maldonado'), _('Try again')),
     (_('la Avenida\n8 de Octubre'), 6, _('8 de Octubre'), _('Try again')),
     (_('la Avenida Belloni'), 6, _('Belloni'), _('Try again')),
     (_('Camino Mendoza'), 6, _('Mendoza'), _('Try again')),
-    (_('la Avenida\nGeneral Flores'), 6, _('Gral. Flores'), _('Try again')),
+    (_('la Avenida\nGeneral Flores'), 6, _('General Flores'), _('Try again')),
     (_('la Avenida J. Batlle\ny Ordóñez (Propios)'), 6, _('Propios'), _('Try again')),
     (_('la Avenida de las\nInstrucciones'), 6, _('Instrucciones'), _('Try again')),
     (_('la Avenida Agraciada'), 6, _('Agraciada'), _('Try again')),
@@ -124,11 +124,11 @@ LEVEL5 = [
     (_('los Accesos de las\Rutas 1 y 5'), 6, _('Accesos'), _('Try again')),
     (_('Ruta 1'), 6, _('Ruta 1'), _('Try again')),
     (_('Ruta 5'), 6, _('Ruta 5'), _('Try again')),
-    (_('la Avenida Luis\nB. Berres'), 6, _('Luis B. Berres'), _('Try again')),
-    (_('Camino Sanguinetti'), 6, _('Cno. Sanguinetti'), _('Try again')),
-    (_('Camino Tomkinson'), 6, _('Cno. Tomkinson'), _('Try again')),
-    (_('Camino Cibils'), 6, _('Cno. Cibils'), _('Try again')),
-    (_('Camino Melilla'), 6, _('Cno. Melilla'), _('Try again'))
+    (_('la Avenida Luis\nB. Berres'), 6, _('Luis Batlle Berres'), _('Try again')),
+    (_('Camino Sanguinetti'), 6, _('Camino Sanguinetti'), _('Try again')),
+    (_('Camino Tomkinson'), 6, _('Camino Tomkinson'), _('Try again')),
+    (_('Camino Cibils'), 6, _('Camino Cibils'), _('Try again')),
+    (_('Camino Melilla'), 6, _('Camino Melilla'), _('Try again'))
 ]
 ]
 
