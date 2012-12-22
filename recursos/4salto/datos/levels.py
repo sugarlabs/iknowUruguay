@@ -91,10 +91,10 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 3, _('Recorre el litoral')),
-    (_('Route %s') % 31, _('Va hacia Tacuarembó')),
-    (_('Route %s') % 4, _('Va hacia Artigas')),
-    (_('Route %s') % 30, _('Está en el límite\ncon Artigas'))
+    (_('Route %s') % 3, _('Try again')),
+    (_('Route %s') % 31, _('Try again')),
+    (_('Route %s') % 4, _('Try again')),
+    (_('Route %s') % 30, _('Try again'))
 ]
 ]
 

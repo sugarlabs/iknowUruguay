@@ -16,8 +16,8 @@ LEVEL2 = [
     (_('the town of %s') % _('El Oro'), 2, _('El Oro'), _("It's in the center")),
     (_('the city of %s') % _('Cerro Chato'), 2, _('Cerro Chato'), _("It's in the west")),
     (_('the town of %s') % _('La Charqueada'), 2, _('La Charqueada'), _("It's in the southeast")),
-    (_('the town of %s') % _('Tupambaé'), 2, _('Tupambaé'), _('Está en el límite\ncon Cerro Largo')),
-    (_('the town of %s') % _('Valentines'), 2, _('Valentines'), _('Está en el límite\ncon Florida'))
+    (_('the town of %s') % _('Tupambaé'), 2, _('Tupambaé'), _("It's on the border\nwith %s") % _('Cerro Largo')),
+    (_('the town of %s') % _('Valentines'), 2, _('Valentines'), _("It's on the border\nwith %s") % _('Florida'))
 ]
 ]
 
@@ -59,7 +59,7 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Asperezas del Yerbal')}, 4, _('Asperezas del Yerbal'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla del Carmen')}, 4, _('Cuchilla del Carmen'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla de Palomeque')}, 4, _('Cuchilla de Palomeque'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro Valentín')}, 5, _('Cerro Valentín'), _("It's in the limit\nwith Florida")),
+    (_('the %(m)s') % {'m': _('Cerro Valentín')}, 5, _('Cerro Valentín'), _("It's on the border\nwith %s") % _('Florida')),
     (_('the %(m)s') % {'m': _('Cerro Chato')}, 5, _('Cerro Chato'), _("It's in the west")),
     (_('the %(m)s') % {'m': _('Cerro del Olimar')}, 5, _('Cerro del Olimar'), _("It's in the center"))
 ]
@@ -71,9 +71,9 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 8, _('Pasa por la capital\ndepartamental')),
-    (_('Route %s') % 19, _('Viene de Florida')),
-    (_('Route %s') % 7, _('Pasa por el límite\ncon Florida')),
+    (_('Route %s') % 8, _('Passes through of departamental capital')),
+    (_('Route %s') % 19, _('Comes from %s') % _('Florida')),
+    (_('Route %s') % 7, _('Passes through of the limit with %s') % _('Florida')),
     (_('Route %s') % 98, _('Passes through of %s') % _('Isla Patrulla')),
     (_('Route %s') % 18, _('Passes through of %s') % _('Vergara')),
     (_('Route %s') % 17, _('Passes through of %s') % _('La Charqueada'))
