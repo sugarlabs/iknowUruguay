@@ -495,6 +495,9 @@ class ConozcoUy():
                             elif (index == 5):
                                 tipo = 6
                                 texto = _('the %(route)s') % {'route': respuesta}
+                            elif (index == 17):
+                                tipo = 2
+                                texto = _('the neighborhoods of %s') % respuesta
 
                             nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
 
