@@ -91,7 +91,7 @@ LEVEL4 = [
     (_('the %(m)s') % {'m': _('Cerro Arbolito')}, 5, _('Cerro Arbolito'), _("It's in the east")),
     (_('the %(m)s') % {'m': _('Cerro del Toro')}, 5, _('Cerro del Toro'), _("It's in the south")),
     (_('the %(m)s') % {'m': _('Cerro Palmera Sola')}, 5, _('Cerro Palmera Sola'), _("It's in the south")),
-    (_('the %(f)s') % {'f': _('Meseta de Artigas')}, 5, _('Meseta de Artigas'), _('Queda sobre el\nRío Uruguay'))
+    (_('the %(f)s') % {'f': _('Meseta de Artigas')}, 5, _('Meseta de Artigas'), _("It's in the west"))
 ]
 ]
 
@@ -101,11 +101,11 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 3, _('Recorre el litoral')),
+    (_('Route %s') % 3, _('Try again')),
     (_('Route %s') % 26, _("It's in the north")),
-    (_('Route %s') % 4, _('Recorre el centro\ndel departamento\nde norte a sur')),
-    (_('Route %s') % 90, _('Recorre el sur\ndel departamento\nde este a oeste')),
-    (_('Route %s') % 24, _('Viene de Río Negro'))
+    (_('Route %s') % 4, _('Try again')),
+    (_('Route %s') % 90, _('Try again')),
+    (_('Route %s') % 24, _('Try again'))
 ]
 ]
 

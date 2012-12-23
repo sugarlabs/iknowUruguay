@@ -52,17 +52,17 @@ LEVEL2 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         ['capitales', 'ciudades'],
 [
-    (_('donde se halló el cementerio\nmás grande de animales\nprehistóricos de Sudamérica'), 2, _('Sauce'), _('Es la cuna de Artigas')),
-    (_('donde está el único\ncementerio de la religión\njudía en Uruguay'), 2, _('La Paz'), _("It's on the border\nwith %s") % _('Montevideo')),
-    (_('una de las principales\nsedes de la producción\nvitivinícola'), 2, _('Santa Rosa'), _("It's in the center")),
-    (_('la ciudad que lleva\nel nombre del presidente\ninterino del Uruguay\nentre 1843 y 1852'), 2, _('Suárez'), _("It's near of %s") % _('Pando')),
-    (_('donde estuvo Hernandarias y\ndestacó la "grande abundancia y\nfertilidad de esta tierra"'), 2, _('Los Cerrillos'), _("It's in the west")),
-    (_('un lugar que ha contado\ncon un sinnúmero de exponentes\nde la música y el arte'), 2, _('San Bautista'), _("It's in the %s") % _('center-north')),
-    (_('una ciudad cuyo nombre\nsignifica la existencia de un\nsentido de mejora en la\condición humana'), 2, _('Progreso'), _('Queda al cerca de\nMontevideo')),
-    (_('donde hay un monumento a la\nindependencia de la República\nde 8 metros de altura'), 2, _('Migues'), _("It's in the east")),
-    (_('una localidad cuyo nombre\nderiva de la instalación de\nusinas de bombeo, filtrado\ny purificación de agua'), 2, _('Aguas Corrientes'), _("It's on the border\nwith %s") % _('San José')),
-    (_('una ciudad cuyo nombre\nse origina de haber sido\nuna antigua zona de explotación\nde canteros de piedra'), 2, _('Las Piedras'), _('Es donde se realizó\nnuna importante batalla por\nla independencia')),
-    (_('un importante centro\ncomercial e industrial\ndel departamento'), 2, _('Pando'), _("It's near of %s") % _('Montevideo'))
+    (_('where was found the\nlargest cemetery of\nprehistoric animals of\nSouth America'), 2, _('Sauce'), _('It is the birthplace of Artigas')),
+    (_('where is the only\ncemetery of the Jewish\nreligion in Uruguay'), 2, _('La Paz'), _("It's on the border\nwith %s") % _('Montevideo')),
+    (_('one of the main\nsites of wine production'), 2, _('Santa Rosa'), _("It's in the center")),
+    (_('the city that bearing\nthe name of interim\npresident of Uruguay\nbetween 1843 and 1852'), 2, _('Suárez'), _("It's near of %s") % _('Pando')),
+    (_('where was Hernandarias\nand noted the "great abundance\nand fertility of this land"'), 2, _('Los Cerrillos'), _("It's in the west")),
+    (_('a place that has had\ncountless exponents of\nmusic and art'), 2, _('San Bautista'), _("It's in the %s") % _('center-north')),
+    (_('a city whose name\nmeans the existence of\na sense of improvement\nin the human condition'), 2, _('Progreso'), _("It's near of %s") % _('Montevideo')),
+    (_('where there is a\nmonument to the\nindependence of the\nRepublic of 8 meters'), 2, _('Migues'), _("It's in the east")),
+    (_('a town whose name\nderives from the\ninstallation of pumping\nplants, water filtering\nand purification'), 2, _('Aguas Corrientes'), _("It's on the border\nwith %s") % _('San José')),
+    (_('a city whose name\ncomes from being a\nformer mining area\nof stone masons'), 2, _('Las Piedras'), _("It's where there was\na major battle \nfor independence")),
+    (_('an important commercial\nand industrial center\nof the department'), 2, _('Pando'), _("It's near of %s") % _('Montevideo'))
 ]
 ]
 
@@ -72,18 +72,18 @@ LEVEL3 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         ['capitales', 'ciudades'],
 [
-    (_('un balneario con un\nlago ubicado al norte\nde la Av. Giannattasio'), 2, _('Lagomar'), _('El nombre hace referencia\na las aguas salinas\ndel Río de la Plata')),
-    (_('donde se encuentra el\noriginal Museo del Pan'), 2, _('Solymar'), _('El nombre alude al verano')),
-    (_('donde se encuentra el\nAutódromo Víctor Borrat Fabini'), 2, _('El Pinar'), _('Es donde está el primer\npeaje hacia el Este')),
-    (_('un balneario que te\nrecibe con un arco\nsobre la ruta'), 2, _('Salinas'), _("It's near of %s") % _('Atlántida')),
-    (_('uno de los balnearios\nmás concurridos y preferidos\npor los turistas'), 2, _('Atlántida'), _('Queda en una península')),
-    (_('un balneario que está\nsobre el arroyo\nSolís Chico'), 2, _('Parque del Plata'), _('Está el este de Atlántida')),
-    (_('uno de los balnearios\nmás antiguos de la\nCosta de Oro'), 2, _('La Floresta'), _('El nombre hace referencia\na la vegetación')),
-    (_('donde hay un pueblo\nde pescadores'), 2, _('San Luis'), _('Tiene nombre de santo')),
-    (_('uno de los balnearios\nmás pintorescos de la\nCosta de Oro'), 2, _('Cuchilla Alta'), _('Es famoso por su\nchorro de agua dulce\nen la playa')),
-    (_('el balneario que\nse sitúa a orillas del\narrollo Solís Grande'), 2, _('Jaureguiberry'), _('Es el último balneario\nde la Costa de Oro')),
-    (_('donde se corren rallyes\ninternacionales de caballos árabes'), 2, _('Bello Horizonte'), _("It's near of %s") % _('La Floresta')),
-    (_('donde se realizan\nlas criollas en\nSemana de Turismo'), 2, _('Parque Roosvelt'), _("It's on the border\nwith %s") % _('Montevideo'))
+    (_('a resort with a lake\nlocated north of\nAvenue Giannattasio'), 2, _('Lagomar'), _('The name refers to\nthe salt waters of\nthe Rio de la Plata')),
+    (_('where is the original\nBread Museum'), 2, _('Solymar'), _('The name refers\nto the summer')),
+    (_('where is the Autodrome\nVictor Borrat Fabini'), 2, _('El Pinar'), _("It's where the first\ntoll to the East")),
+    (_('a resort that welcomes\nyou with a bow\non the route'), 2, _('Salinas'), _("It's near of %s") % _('Atlántida')),
+    (_('one of the most popular\nresorts and preferred\nby tourists'), 2, _('Atlántida'), _('It is on a peninsula')),
+    (_('a resort that is on\nthe stream Solís Chico'), 2, _('Parque del Plata'), _('It is east of Atlántida')),
+    (_('one of the oldest\nresorts on the\nCosta de Oro'), 2, _('La Floresta'), _('The name refers\nto the vegetation')),
+    (_('where there is a\nfishing village'), 2, _('San Luis'), _('It has saint name')),
+    (_('one of the most\npicturesque resorts\nin the Costa de Oro'), 2, _('Cuchilla Alta'), _('It is famous for\nits freshwater jet\non the beach')),
+    (_('The resort that is\nsituated on the\nbanks of the\nArroyo Solís Grande'), 2, _('Jaureguiberry'), _("It's the last resort of\nCosta de Oro")),
+    (_('where Arabian horses\nruns international rallies'), 2, _('Bello Horizonte'), _("It's near of %s") % _('La Floresta')),
+    (_('where creoles are\nperformed during Holy Week'), 2, _('Parque Roosvelt'), _("It's on the border\nwith %s") % _('Montevideo'))
 ]
 ]
 	
@@ -94,7 +94,7 @@ LEVEL3 = [
         [],
 [
     (_('Río de la Plata'), _("It's in the south")),
-    (_('Río Santa Lucía'), _('Queda al norte y oeste')),
+    (_('Río Santa Lucía'), _("It's in the north")),
     (_('Arroyo Vejigas'), _("It's in the north")),
     (_('Arroyo del Tala'), _("It's in the north")),
     (_('Arroyo Sarandí'), _("It's in the east")),
@@ -119,7 +119,7 @@ LEVEL4 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %(f)s') % {'f': _('Cuchilla Grande')}, 4, _('Cuchilla Grande'), _('Atraviesa el departamento\npor el centro')),
+    (_('the %(f)s') % {'f': _('Cuchilla Grande')}, 4, _('Cuchilla Grande'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla Cabo de Hornos')}, 4, _('Cabo de Hornos'), _("It's in the east"))
 ]
 ]
@@ -134,8 +134,8 @@ LEVEL5 = [
     (_('Route %s') % 6, _('Passes through of %s') % _('Sauce')),
     (_('Route %s') % 7, _('Passes through of %s') % _('San Jacinto')),
     (_('Route %s') % 8, _('Passes through of %s') % _('Pando')),
-    (_('Route %s') % 9, _('Va hacia el este')),
-    (_('Route %s') % 'Interbalnearia', _('Pasa por los balnearios')),
+    (_('Route %s') % 9, _('Try again')),
+    (_('Route %s') % 'Interbalnearia', _('Try again')),
     (_('Route %s') % 11, _('Ends in %s') % _('Atlántida'))
 ]
 ]
