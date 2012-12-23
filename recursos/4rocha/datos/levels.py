@@ -81,13 +81,13 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 9, _('Va hasta el Chuy')),
+    (_('Route %s') % 9, _("Ends in %s") % _('Chuy')),
     (_('Route %s') % 10, _('Passes through of %s') % _('La Paloma')),
-    (_('Route %s') % 109, _('Termina en la\nciudad de Rocha')),
+    (_('Route %s') % 109, _("Ends in %s") % _('Rocha')),
     (_('Route %s') % 15, _('Passes through of %s') % _('Lascano')),
     (_('Route %s') % 13, _("It's in the center\nof the departament")),
     (_('Route %s') % 16, _('Passes through of %s') % _('Castillos')),
-    (_('Route %s') % 14, _('Viene del departamento\nde Lavalleja')),
+    (_('Route %s') % 14, _('Try again')),
     (_('Route %s') % 19,_('Passes through of %s') % _('San Luis al Medio'))
 ]
 ]
