@@ -38,7 +38,7 @@ LEVEL3 = [
     (_('Arroyo Palma Sola Grande'), _("It's in the southwest")),
     (_('Arroyo Sarandí'), _("It's in the southwest")),
     (_('Arroyo Yucutuya'), _('Flows in the %s') % _('Río Cuareim')),
-    (_('Arroyo Cuaro Grande'), _('Es uno de los más\nlargos del departamento')),
+    (_('Arroyo Cuaro Grande'), _('Try again')),
     (_('Arroyo Cuaro Chico'), _("It's in the center")),
     (_('Arroyo Pelado'), _("It's in the center")),
     (_('Arroyo Tres Cruces Grande'), _('Flows in the %s') % _('Río Cuareim')),
@@ -67,8 +67,8 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Cuchilla Yacaré Cururú')}, 4, _('Cuchilla Yacaré Cururú'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla de Belén')}, 4, _('Cuchilla de Belén'), _('Try again')),
     (_('the %(m)s') % {'m': _('Cerro Chato')}, 5, _('Cerro Chato'), _("It's in the north")),
-    (_('the %(m)s') % {'m': _('Tres Cerros de Catalán')}, 5, _('Tres Cerros de Catalán'), _('Están al este')),
-    (_('the %(m)s') % {'m': _('Cerro Pintado')}, 5, _('Cerro Pintado'), _('Está cerca de la capital'))
+    (_('the %(m)s') % {'m': _('Tres Cerros de Catalán')}, 5, _('Tres Cerros de Catalán'), _('Try again')),
+    (_('the %(m)s') % {'m': _('Cerro Pintado')}, 5, _('Cerro Pintado'), _('Try again'))
 ]
 ]
 
