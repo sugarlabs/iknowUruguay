@@ -48,7 +48,7 @@ CITIES = [
     (_('Cuchilla Alta'), 691, 624, 2, 0, 12),
     (_('Jaureguiberry'), 739, 616, 2, -6, -15),
     (_('Bello Horizonte'), 586, 606, 2, 0, 15),
-    (_('Parque Roosvelt'), 349, 666, 2, 70, 0)
+    (_('Parque Roosevelt'), 349, 666, 2, 70, 0)
 ]
 
 RIVERS = [

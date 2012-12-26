@@ -67,7 +67,7 @@ LEVEL4 = [
     (_('the %(m)s') % {'m': _('Cerro Redondo'), 5, _('Cerro Redondo'), _("It's in the northeast")),
     (_('the %(m)s') % {'m': _('Cerro Pablo Pérez'), 5, _('Cerro Pablo Pérez'), _("It's in the southwest")),
     (_('the %(m)s') % {'m': _('Cerro Largo'), 5, _('Cerro Largo'), _("It's in the south")),
-    (_('the %(m)s') % {'m': _('Cerro Verde'), 5, _('Cerro Verde'), _("It's near of %s") % _('Melo'))
+    (_('the %(m)s') % {'m': _('Cerro Verde'), 5, _('Cerro Verde'), _("It is near %s") % _('Melo'))
 ]
 ]
 
@@ -77,11 +77,11 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 7, _('Passes through of %s') % _('Fraile Muerto')),
-    (_('Route %s') % 8, _('Passes through of %s') % _('Melo')),
+    (_('Route %s') % 7, _('Passes through %s') % _('Fraile Muerto')),
+    (_('Route %s') % 8, _('Passes through %s') % _('Melo')),
     (_('Route %s') % 26, _('Ends in %s') % _('Río Branco')),
     (_('Route %s') % 44, _('Cross through of %s') % _('Río Negro')),
-    (_('Route %s') % 18, _('Viene de Treinta y Tres'))
+    (_('Route %s') % 18, _('Comes from %s') % _('Treinta y Tres'))
 ]
 ]
 

@@ -85,8 +85,8 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Cuchilla de Medina')}, 4, _('Cuchilla de Medina'), _('Try again')),
     (_('the %(f)s') % {'f': _('Sierra de Carapé')}, 4, _('Sierra de Carapé'), _('Try again')),
     (_('the %(m)s') % {'m': _('Cerro Espuelitas')}, 5, _('Cerro Espuelitas'), _("It's in the west")),
-    (_('the %(m)s') % {'m': _('Cerro Arequita')}, 5, _('Cerro Arequita'), _("It's near of %s") % _('Minas')),
-    (_('the %(m)s') % {'m': _('Cerro Verdún')}, 5, _('Cerro Verdún'), _("It's near of %s") % _('Minas')),
+    (_('the %(m)s') % {'m': _('Cerro Arequita')}, 5, _('Cerro Arequita'), _("It is near %s") % _('Minas')),
+    (_('the %(m)s') % {'m': _('Cerro Verdún')}, 5, _('Cerro Verdún'), _("It is near %s") % _('Minas')),
     (_('the %(m)s') % {'m': _('Cerro Retamosa')}, 5, _('Cerro Retamosa'), _("It's in the north"))
 ]
 ]
@@ -100,10 +100,10 @@ LEVEL5 = [
     (_('Route %s') % 8, _('Cruza el departamento\nde sur a norte')),
     (_('Route %s') % 60, _('Va de Minas al sur')),
     (_('Route %s') % 12, _('Pasa por Villa del Rosario')),
-    (_('Route %s') % 58, _('Passes through of %s') % _('Polanco')),
+    (_('Route %s') % 58, _('Passes through %s') % _('Polanco')),
     (_('Route %s') % 40, _('Termina en Pirarajá')),
     (_('Route %s') % 13, _('Va hacia el este')),
-    (_('Route %s') % 14, _('Passes through of %s') % _('José Pedro Varela'))
+    (_('Route %s') % 14, _('Passes through %s') % _('José Pedro Varela'))
 ]
 ]
 

@@ -97,9 +97,9 @@ LEVEL5 = [
 [
     (_('Route %s') % 1, _('Va hasta Montevideo')),
     (_('Route %s') % 3, _('Va hacia el norte')),
-    (_('Route %s') % 11, _('Passes through of %s') % _('Santa Lucía')),
-    (_('Route %s') % 23, _('Passes through of %s') % _('Ismael Cortinas')),
-    (_('Route %s') % 45, _('Passes through of %s') % _('Villa Rodríguez'))
+    (_('Route %s') % 11, _('Passes through %s') % _('Santa Lucía')),
+    (_('Route %s') % 23, _('Passes through %s') % _('Ismael Cortinas')),
+    (_('Route %s') % 45, _('Passes through %s') % _('Villa Rodríguez'))
 ]
 ]
 

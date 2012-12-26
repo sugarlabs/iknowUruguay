@@ -96,7 +96,7 @@ LEVEL5 = [
 [
     (_('Route %s') % 5, _('Cruza el departamento\nde norte a sur')),
     (_('Route %s') % 6, _('Pasa por\nCuchilla de Caraguatá')),
-    (_('Route %s') % 26, _('Passes through of %s') % _('Ansina')),
+    (_('Route %s') % 26, _('Passes through %s') % _('Ansina')),
     (_('Route %s') % 31, _('Viene de Salto')),
     (_('Route %s') % 43, _('Va hasta\nSan Gregorio de Polanco')),
     (_('Route %s') % 20, _('Viene de Río Negro'))

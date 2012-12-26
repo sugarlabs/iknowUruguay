@@ -93,7 +93,7 @@ LEVEL5 = [
     (_('Route %s') % 3, _('Try again')),
     (_('Route %s') % 14, _('Try again')),
     (_('Route %s') % 57, _('Try again')),
-    (_('Route %s') % 23, _('Passes through of %s') % _('Ismael Cortinas'))
+    (_('Route %s') % 23, _('Passes through %s') % _('Ismael Cortinas'))
 ]
 ]
 

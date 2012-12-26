@@ -80,10 +80,10 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 5, _('Passes through of %s') % _('the capital')),
-    (_('Route %s') % 30, _('Passes through of %s') % _('Tranqueras')),
+    (_('Route %s') % 5, _('Passes through %s') % _('the capital')),
+    (_('Route %s') % 30, _('Passes through %s') % _('Tranqueras')),
     (_('Route %s') % 29, _('Ends in %s') % _('Minas de Corrales')),
-    (_('Route %s') % 27, _('Passes through of %s') % _('Cerro Pelado')),
+    (_('Route %s') % 27, _('Passes through %s') % _('Cerro Pelado')),
     (_('Route %s') % 6, _('Llega hasta Brasil')),
     (_('Route %s') % 28, _('Pasa por el límite\ncon Tacuarembó')),
     (_('Route %s') % 44, _('Va hacia Cerro Largo'))

@@ -71,7 +71,7 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Cuchilla del Perdido')}, 4, _('Cuchilla del Perdido'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla del Bizcocho')}, 4, _('Cuchilla del Bizcocho'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla San Salvador')}, 4, _('Cuchilla San Salvador'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro Espinillo')}, 5, _('Cerro Espinillo'), _("It's near of %s") % _('Dolores')),
+    (_('the %(m)s') % {'m': _('Cerro Espinillo')}, 5, _('Cerro Espinillo'), _("It is near %s") % _('Dolores')),
     (_('the %(m)s') % {'m': _('Cerro Curupí')}, 5, _('Cerro Curupí'), _("It's in the north"))
 ]
 ]
@@ -82,8 +82,8 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 2, _('Passes through of %s') % _('Palmitas')),
-    (_('Route %s') % 21, _('Passes through of %s') % _('Dolores')),
+    (_('Route %s') % 2, _('Passes through %s') % _('Palmitas')),
+    (_('Route %s') % 21, _('Passes through %s') % _('Dolores')),
     (_('Route %s') % 14, _('Va hasta Flores')),
     (_('Route %s') % 96, _('Va hasta Villa Soriano')),
     (_('Route %s') % 95, _('Sale de Mercedes')),

@@ -71,12 +71,12 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 8, _('Passes through of departamental capital')),
+    (_('Route %s') % 8, _('Passes through departamental capital')),
     (_('Route %s') % 19, _('Comes from %s') % _('Florida')),
-    (_('Route %s') % 7, _('Passes through of the limit with %s') % _('Florida')),
-    (_('Route %s') % 98, _('Passes through of %s') % _('Isla Patrulla')),
-    (_('Route %s') % 18, _('Passes through of %s') % _('Vergara')),
-    (_('Route %s') % 17, _('Passes through of %s') % _('La Charqueada'))
+    (_('Route %s') % 7, _('Passes through the limit with %s') % _('Florida')),
+    (_('Route %s') % 98, _('Passes through %s') % _('Isla Patrulla')),
+    (_('Route %s') % 18, _('Passes through %s') % _('Vergara')),
+    (_('Route %s') % 17, _('Passes through %s') % _('La Charqueada'))
 ]
 ]
 

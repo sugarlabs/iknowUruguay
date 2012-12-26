@@ -69,12 +69,12 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 2, _('Viene de Mercedes')),
-    (_('Route %s') % 24, _('Va a Paysandú')),
-    (_('Route %s') % 3, _('Pasa por Young')),
-    (_('Route %s') % 20, _('Va hacia el este')),
-    (_('Route %s') % 25, _('Pasa por Young')),
-    (_('Route %s') % 4, _('Pasa por la represa\nde Baygorria'))
+    (_('Route %s') % 2, _('Comes from %s') % _('Mercedes')),
+    (_('Route %s') % 24, _('Try again')),
+    (_('Route %s') % 3, _('Passes through of %s') % _('Young')),
+    (_('Route %s') % 20, _('Try again')),
+    (_('Route %s') % 25, _('Passes through of %s') % _('Young')),
+    (_('Route %s') % 4, _('Passes through of %s') % _('Baygorria'))
 ]
 ]
 

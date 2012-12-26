@@ -101,7 +101,7 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Cuchilla del Pintado'), 4, _('Cuchilla del Pintado'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla Santa Lucía'), 4, _('Cuchilla Santa Lucía'), _('Try again')),
     (_('the %(m)s') % {'m': _('Cerro Pescado'), 5, _('Cerro Pescado'), _("It's in the northeast")),
-    (_('the %(m)s') % {'m': _('Cerro Florida'), 5, _('Cerro Florida'), _("It's near of %s") % _('the capital')),
+    (_('the %(m)s') % {'m': _('Cerro Florida'), 5, _('Cerro Florida'), _("It is near %s") % _('the capital')),
     (_('the %(m)s') % {'m': _('Cerro Valentín'), 5, _('Cerro Valentín'), _("It's on the border\nwith %s") % _('Treinta y Tres'))
 ]
 ]

@@ -17,12 +17,12 @@ LEVEL2 = [
     (_('the town of %s') % _('Velázquez'), 2, _('Velázquez'), _("It's in the center")),
     (_('the city of %s') % _('Castillos'), 2, _('Castillos'), _("It's in the southeast")),
     (_('the city of %s') % _('La Paloma'), 2, _('La Paloma'), _('Es un importante puerto\ny balneario')),
-    (_('the resort of %s') % _('La Pedrera'), 2, _('La Pedrera'), _("It's near of %s") % _('La Paloma')),
+    (_('the resort of %s') % _('La Pedrera'), 2, _('La Pedrera'), _("It is near %s") % _('La Paloma')),
     (_('the resort of %s') % _('Cabo Polonio'), 2, _('Cabo Polonio'), _("It's in the southeast")),
-    (_('the resort of %s') % _('Barra de Valizas'), 2, _('Barra de Valizas'), _("It's near of %s") % _('Cabo Polonio')),
-    (_('the resort of %s') % _('Aguas Dulces'), 2, _('Aguas Dulces'), _("It's near of %s") % _('Castillos')),
-    (_('the resort of %s') % _('Punta del Diablo'), 2, _('Punta del Diablo'), _("It's near of %s") % _('Laguna Negra')),
-    (_('el Parque Nacional\nde Santa Teresa'), 2, _('Parque Santa Teresa'), _("It's near of %s") % _('La Coronilla')),
+    (_('the resort of %s') % _('Barra de Valizas'), 2, _('Barra de Valizas'), _("It is near %s") % _('Cabo Polonio')),
+    (_('the resort of %s') % _('Aguas Dulces'), 2, _('Aguas Dulces'), _("It is near %s") % _('Castillos')),
+    (_('the resort of %s') % _('Punta del Diablo'), 2, _('Punta del Diablo'), _("It is near %s") % _('Laguna Negra')),
+    (_('el Parque Nacional\nde Santa Teresa'), 2, _('Parque Santa Teresa'), _("It is near %s") % _('La Coronilla')),
     (_('the resort of %s') % _('Barra del Chuy'), 2, _('Barra del Chuy'), _("It's on the border\nwith %s") % _('Brazil')),
     (_('the city of %s') % _('Chuy'), 2, _('Chuy'), _("It's on the border\nwith %s") % _('Brazil')),
     (_('the town of %s') % _('19 de Abril'), 2, _('19 de Abril'), _('Queda entre Rocha y\nCastillos'))
@@ -82,13 +82,13 @@ LEVEL5 = [
         ['capitales', 'ciudades'],
 [
     (_('Route %s') % 9, _("Ends in %s") % _('Chuy')),
-    (_('Route %s') % 10, _('Passes through of %s') % _('La Paloma')),
+    (_('Route %s') % 10, _('Passes through %s') % _('La Paloma')),
     (_('Route %s') % 109, _("Ends in %s") % _('Rocha')),
-    (_('Route %s') % 15, _('Passes through of %s') % _('Lascano')),
+    (_('Route %s') % 15, _('Passes through %s') % _('Lascano')),
     (_('Route %s') % 13, _("It's in the center\nof the departament")),
-    (_('Route %s') % 16, _('Passes through of %s') % _('Castillos')),
+    (_('Route %s') % 16, _('Passes through %s') % _('Castillos')),
     (_('Route %s') % 14, _('Try again')),
-    (_('Route %s') % 19,_('Passes through of %s') % _('San Luis al Medio'))
+    (_('Route %s') % 19,_('Passes through %s') % _('San Luis al Medio'))
 ]
 ]
 
