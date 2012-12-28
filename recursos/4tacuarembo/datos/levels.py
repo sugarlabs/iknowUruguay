@@ -63,7 +63,7 @@ LEVEL3 = [
     (_('Arroyo de los Sauces'), _("It's in the east")),
     (_('Arroyo Laureles'), _("It's in the north")),
     (_('Arroyo Tacuarembó Chico'), _("It's in the northwest")),
-    (_('Arroyo Tranqueras'), _('Está al nororeste')),
+    (_('Arroyo Tranqueras'), _("It's in the northwest")),
     (_('Arroyo Batoví'), _("It's in the center")),
     (_('Arroyo Tres Cruces'), _("It's in the northwest")),
     (_('Arroyo Cañas'), _("It's in the north"))
@@ -82,7 +82,7 @@ LEVEL4 = [
     (_('the %(f)s') % {'f': _('Cuchilla de Peralta')}, 4, _('Cuchilla de Peralta'), _('Try again')),
     (_('the %(f)s') % {'f': _('Cuchilla de Haedo')}, 4, _('Cuchilla de Haedo'), _('Try again')),
     (_('the %(m)s') % {'m': _('Cerro de las Minas')}, 5, _('Cerro de las Minas'), _("It's in the west")),
-    (_('the %(m)s') % {'m': _('Cerros de Batoví')}, 5, _('Cerros de Batoví'), _('Están cerca de la capital')),
+    (_('the %(m)s') % {'m': _('Cerros de Batoví')}, 5, _('Cerros de Batoví'), _('Try again')),
     (_('the %(m)s') % {'m': _('Cerro Lambaré')}, 5, _('Cerro Lambaré'), _("It's in the northwest")),
     (_('the %(m)s') % {'m': _('Cerro del Ñandubal')}, 5, _('Cerro del Ñandubal'), _("It's in the northeast"))
 ]
@@ -94,12 +94,12 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 5, _('Cruza el departamento\nde norte a sur')),
-    (_('Route %s') % 6, _('Pasa por\nCuchilla de Caraguatá')),
+    (_('Route %s') % 5, _('Try again')),
+    (_('Route %s') % 6, _("Ends in %s") % _('Cuchilla de Caraguatá')),
     (_('Route %s') % 26, _('Passes through %s') % _('Ansina')),
-    (_('Route %s') % 31, _('Viene de Salto')),
-    (_('Route %s') % 43, _('Va hasta\nSan Gregorio de Polanco')),
-    (_('Route %s') % 20, _('Viene de Río Negro'))
+    (_('Route %s') % 31, _('Try again')),
+    (_('Route %s') % 43, _("Ends in %s") % _('San Gregorio de Polanco')),
+    (_('Route %s') % 20, _('Try again'))
 ]
 ]
 

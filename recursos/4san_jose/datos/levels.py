@@ -37,12 +37,12 @@ LEVEL2 = [
     (_('the town of %s') % _('Puntas de Valdez'), 2, _('Puntas de Valdez'), _("It's in the southeast")),
     (_('the town of %s') % _('Rafael Perazza'), 2, _('Rafael Perazza'), _("It's in the south")),
     (_('the town of %s') % _('Rincón del Pino'), 2, _('Rincón del Pino'), _("It's in the south")),
-    (_('the resort of %s') % _('Kiyú'), 2, _('Kiyú'), _('Está sobre el\nRío de la Plata')),
-    (_('the resort of %s') % _('Ordeig'), 2, _('Ordeig'), _('Está sobre el\nRío de la Plata')),
+    (_('the resort of %s') % _('Kiyú'), 2, _('Kiyú'), _("It's in the south")),
+    (_('the resort of %s') % _('Ordeig'), 2, _('Ordeig'), _("It's in the south")),
     (_('the city of %s') % _('Libertad'), 2, _('Libertad'), _("It's in the south")),
-    (_('the town of %s') % _('Delta del Tigre'), 2, _('Delta del Tigre'), _('Está en la desembocadura\ndel Río Santa Lucía')),
+    (_('the town of %s') % _('Delta del Tigre'), 2, _('Delta del Tigre'), _("It's in the south")),
     (_('the %s') % _('Ciudad del Plata'), 2, _('Ciudad del Plata'), _("It's in the south")),
-    (_('the town of %s') % _('Playa Pascual'), 2, _('Playa Pascual'), _('Está sobre el\nRío de la Plata'))	
+    (_('the town of %s') % _('Playa Pascual'), 2, _('Playa Pascual'), _("It's in the south"))	
 ]
 ]
 
@@ -95,8 +95,8 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 1, _('Va hasta Montevideo')),
-    (_('Route %s') % 3, _('Va hacia el norte')),
+    (_('Route %s') % 1, _("Ends in %s") % _('Montevideo')),
+    (_('Route %s') % 3, _('Try again')),
     (_('Route %s') % 11, _('Passes through %s') % _('Santa Lucía')),
     (_('Route %s') % 23, _('Passes through %s') % _('Ismael Cortinas')),
     (_('Route %s') % 45, _('Passes through %s') % _('Villa Rodríguez'))

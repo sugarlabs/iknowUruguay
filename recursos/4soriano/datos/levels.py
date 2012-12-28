@@ -84,13 +84,13 @@ LEVEL5 = [
 [
     (_('Route %s') % 2, _('Passes through %s') % _('Palmitas')),
     (_('Route %s') % 21, _('Passes through %s') % _('Dolores')),
-    (_('Route %s') % 14, _('Va hasta Flores')),
-    (_('Route %s') % 96, _('Va hasta Villa Soriano')),
-    (_('Route %s') % 95, _('Sale de Mercedes')),
-    (_('Route %s') % 105, _('Va de Dolores\na Palmitas')),
+    (_('Route %s') % 14, _('Ends in %s') % _('Flores')),
+    (_('Route %s') % 96, _('Ends in %s') % _('Villa Soriano')),
+    (_('Route %s') % 95, _('Try again')),
+    (_('Route %s') % 105, _('Try again')),
     (_('Route %s') % 55, _('Ends in %s') % _('José Enrique Rodó')),
     (_('Route %s') % 12, _("It's on the border\nwith %s") % _('Colonia')),
-    (_('Route %s') % 57, _('Va hasta Flores'))
+    (_('Route %s') % 57, _('Ends in %s') % _('Flores'))
 ]
 ]
 

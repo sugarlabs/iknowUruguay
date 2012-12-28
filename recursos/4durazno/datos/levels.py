@@ -25,7 +25,7 @@ LEVEL2 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         [],
 [
-    (_('the city of %s') % _('Durazno'), 2, _('Durazno'), _('Es la capital\ndel departamento')),
+    (_('the city of %s') % _('Durazno'), 2, _('Durazno'), _("It's the capital\nof the department")),
     (_('the city of %s') % _('Sarandi del Yi'), 2, _('Sarandi del Yi'), _("It's in the south")),
     (_('the town of %s') % _('Blanquillo'), 2, _('Blanquillo'), _("It's in the west")),
     (_('the town of %s') % _('La Paloma'), 2, _('La Paloma'), _("It's in the northeast")),
@@ -87,13 +87,13 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 5, _('Pasa por Durazno')),
-    (_('Route %s') % 4, _('Pasa por Baygorria')),
-    (_('Route %s') % 14, _('Pasa por Villa del Carmen')),
-    (_('Route %s') % 6, _('Pasa por Sarandí del Yi')),
-    (_('Route %s') % 43, _('Pasa por Blanquillo')),
-    (_('Route %s') % 19, _('Pasa cerca de Rossell y Rius')),
-    (_('Route %s') % 100, _('Va hasta el embalse\ndel Río Negro'))
+    (_('Route %s') % 5, _('Passes through %s') % _('Durazno')),
+    (_('Route %s') % 4, _('Passes through %s') % _('Baygorria')),
+    (_('Route %s') % 14, _('Passes through %s') % _('Villa del Carmen')),
+    (_('Route %s') % 6, _('Passes through %s') % _('Sarandí del Yi')),
+    (_('Route %s') % 43, _('Passes through %s') % _('Blanquillo')),
+    (_('Route %s') % 19, _('Passes through %s') % _('Rossell y Rius')),
+    (_('Route %s') % 100, _('Try again'))
 ]
 ]
 

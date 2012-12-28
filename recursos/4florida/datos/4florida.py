@@ -78,7 +78,7 @@ CUCHILLAS = [
     (_('Cuchilla Grande'), 253, 629, 387, 75),
     (_('Cuchilla Grande Inferior'), 252, 266, 449, 0),
     (_('Cuchilla del Pintado'), 251, 105, 672, 90),
-    (_('Cuchilla StArroyo Lucía'), 250, 316, 621, 30)
+    (_('Cuchilla Santa Lucía'), 250, 316, 621, 30)
 ]
 
 HILLS = [

@@ -62,7 +62,7 @@ LEVEL3 = [
     (_('Arroyo Tapes'), _("It's in the center")),
     (_('Arroyo Barriga Negra'), _("It's in the center")),
     (_('Arroyo Polanco'), _("It's in the center")),
-    (_('Arroyo Malo Grande'), _('Está en el centronorte')),
+    (_('Arroyo Malo Grande'), _("It's in the north")),
     (_('Arroyo Malo Chico'), _("It's in the northwest")),
     (_('Arroyo de los Chanchos'), _("It's in the west")),
     (_('Arroyo de los Molles'), _("It's in the west")),
@@ -97,12 +97,12 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 8, _('Cruza el departamento\nde sur a norte')),
-    (_('Route %s') % 60, _('Va de Minas al sur')),
-    (_('Route %s') % 12, _('Pasa por Villa del Rosario')),
+    (_('Route %s') % 8, _('Try again')),
+    (_('Route %s') % 60, _('Try again')),
+    (_('Route %s') % 12, _('Passes through %s') % _('Villa del Rosario')),
     (_('Route %s') % 58, _('Passes through %s') % _('Polanco')),
-    (_('Route %s') % 40, _('Termina en Pirarajá')),
-    (_('Route %s') % 13, _('Va hacia el este')),
+    (_('Route %s') % 40, _("Ends in %s") % _('Pirarajá')),
+    (_('Route %s') % 13, _('Try again')),
     (_('Route %s') % 14, _('Passes through %s') % _('José Pedro Varela'))
 ]
 ]
