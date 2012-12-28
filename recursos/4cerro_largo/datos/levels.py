@@ -80,7 +80,7 @@ LEVEL5 = [
     (_('Route %s') % 7, _('Passes through %s') % _('Fraile Muerto')),
     (_('Route %s') % 8, _('Passes through %s') % _('Melo')),
     (_('Route %s') % 26, _('Ends in %s') % _('Río Branco')),
-    (_('Route %s') % 44, _('Cross through of %s') % _('Río Negro')),
+    (_('Route %s') % 44, _('Passes through %s') % _('Río Negro')),
     (_('Route %s') % 18, _('Comes from %s') % _('Treinta y Tres'))
 ]
 ]

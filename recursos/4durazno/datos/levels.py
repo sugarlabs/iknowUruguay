@@ -25,8 +25,8 @@ LEVEL2 = [
         ['lineasDepto', 'capitales', 'ciudades'],
         [],
 [
-    (_('the city of %s') % _('Durazno'), 2, _('Durazno'), _("It's the capital\nof the department")),
-    (_('the city of %s') % _('Sarandi del Yi'), 2, _('Sarandi del Yi'), _("It's in the south")),
+    (_('the city of %s') % _('Durazno'), 2, _('Durazno'), _("It's the capital of\nthe department")),
+    (_('the city of %s') % _('Sarandí del Yi'), 2, _('Sarandí del Yi'), _("It's in the south")),
     (_('the town of %s') % _('Blanquillo'), 2, _('Blanquillo'), _("It's in the west")),
     (_('the town of %s') % _('La Paloma'), 2, _('La Paloma'), _("It's in the northeast")),
     (_('the town of %s') % _('Carlos Reyles'), 2, _('Carlos Reyles'), _("It's in the west")),
