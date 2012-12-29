@@ -14,7 +14,7 @@ LEVEL1 = [
     (_('the city of %s') % _('Nueva Palmira'), 2, _('Nueva Palmira'), _('Has an important port')),
     (_('the city of %s') % _('Carmelo'), 2, _('Carmelo'), _('Founded by Artigas\nin the west of\nthe department')),
     (_('the town of %s') % _('Conchillas'), 2, _('Conchillas'), _('Had an important\nmining activity in\nthe west of the department')),
-    (_('the town of %s') % _('Antolin'), 2, _('Antolin'), _("The Arroyo San Juan\nasses through here")),
+    (_('the town of %s') % _('Antolin'), 2, _('Antolin'), _("The Arroyo San Juan\npasses through here")),
     (_('the town of %s') % _('La Estanzuela'), 2, _('La Estanzuela'), _('Has an important\nresearch center')),
     (_('the town of %s') % _('Semillero'), 2, _('Semillero'), _('known as the\n"bread basket of Uruguay"')),
     (_('the town of %s') % _('Ombúes de Lavalle'), 2, _('Ombúes de Lavalle'), _("It's on the border\nwith %s") % _('Soriano')),

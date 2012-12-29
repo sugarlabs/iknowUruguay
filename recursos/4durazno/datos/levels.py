@@ -35,7 +35,7 @@ LEVEL2 = [
     (_('the town of %s') % _('Aguas Buenas'), 2, _('Aguas Buenas'), _("It's in the north")),
     (_('the town of %s') % _('Alvarez'), 2, _('Pueblo de Alvarez'), _("It's in the northeast")),
     (_('the town of %s') % _('Feliciano'), 2, _('Feliciano'), _("It's in the west")),
-    (_('the town of %s') % _('Ombúes de Oribe'), 2, _('Ombúes de Oribe'), _('Está al centro')),
+    (_('the town of %s') % _('Ombúes de Oribe'), 2, _('Ombúes de Oribe'), _("It's in the center")),
     (_('the town of %s') % _('Rossell y Rius'), 2, _('Rossell y Rius'), _("It's in the southeast")),
     (_('the town of %s') % _('San Jorge'), 2, _('San Jorge'), _("It's in the north")),
     (_('the town of %s') % _('Carmen'), 2, _('Carmen'), _("It's in the south")),
