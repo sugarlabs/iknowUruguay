@@ -67,7 +67,7 @@ LEVEL3 = [
     (_('the %(m)s') % {'m': _('Cerro del Toro')}, 5, _('Cerro del Toro'), _("It is near %s") % _('Piriápolis')),
     (_('the %(m)s') % {'m': _('Cerro San Antonio')}, 5, _('Cerro San Antonio'), _("It is near %s") % _('Piriápolis')),
     (_('the %(m)s') % {'m': _('Cerro Pan de Azúcar')}, 5, _('Cerro Pan de Azúcar'), _("It's in the south")),
-    (_('the %(m)s') % {'m': _('Cerro Catedral')}, 5, _('Cerro Catedral'), _("It's the highest of Uruguay"))
+    (_('the %(m)s') % {'m': _('Cerro Catedral')}, 5, _('Cerro Catedral'), _("It's the highest in Uruguay"))
 ]
 ]
 

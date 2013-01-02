@@ -52,21 +52,21 @@ LEVEL2 = [
     (_('where there is a\nlarge soft drink factory'), 2, _('Antolin'), _("It's in the center")),
     (_('with the name of\na median stay'), 2, _('La Estanzuela'), _("It's in the south")),
     (_('where was the\nbarn of the Uruguay'), 2, _('Semillero'), _("It's in the south")),
-    (_('where at one time\nhad a large native\ntree forest'), 2, _('Ombúes de Lavalle'), _("It's in the north")),
+    (_('where there was once\na large native forest'), 2, _('Ombúes de Lavalle'), _("It's in the north")),
     (_('a town that\ngrew up around\nthe train station'), 2, _('Barker'), _("It's in the west")),
-    (_('a city with more\nthan 200 years'), 2, _('Rosario'), _("It's in the east")),
+    (_('a city more than\n200 years old'), 2, _('Rosario'), _("It's in the east")),
     (_('a town whose name\nis in honor of an\nimportant Uruguayan writer'), 2, _('Florencio Sánchez'), _("It's on the border\nwith %s") % _('Soriano')),
     (_('a city whose name\nis derived from\nits founder'), 2, _('Juan Lacaze'), _('Has a important port')),
     (_('called the garden city'), 2, _('Colonia Valdense'), _("It's in the west")),
     (_('a city founded\nby Swiss immigrants'), 2, _('Nueva Helvecia'), _("It's in the east")),
     (_('where its people\nare mainly engaged\nin farming'), 2, _('Miguelete'), _("It's in the north")),
     (_('which at the time\nwas a village\nof stonecutters'), 2, _('Cufré'), _("It's on the border\nwith %s") % _('San José')),
-    (_('a city founded by\nimmigrants Waldenses\nof Piedmont region'), 2, _('La Paz'), _("It is near %s") % _('Rosario')),
-    (_('where they meet\nthree routes'), 2, _('Tres Esquinas'), _("It's in the north")),
-    (_('a town named from\na natural source of water'), 2, _('Manantiales'), _("It's in the north")),
+    (_('a city founded by\nWaldensian immigrants\nfrom the Piedmont region'), 2, _('La Paz'), _("It is near %s") % _('Rosario')),
+    (_('where three\nroutes meet'), 2, _('Tres Esquinas'), _("It's in the north")),
+    (_('a town named for its\nnatural water source'), 2, _('Manantiales'), _("It's in the north")),
     (_('a town with a\nregular polygon name'), 2, _('El Cuadro'), _("It's in the center")),
     (_('a town with a\ngeographical name'), 2, _('El Cerro'), _("It's in the west")),
-    (_('a town bearing\nthe name a\npoisonous vermin'), 2, _('Víboras'), _("It's in the west")),
+    (_('a town bearing\nthe name of a\npoisonous creature'), 2, _('Víboras'), _("It's in the west")),
     (_('a town that has\nthe name of a\npart of a church tower'), 2, _('Campana'), _("It's in the north")),
     (_('where there were\nmany weapons'), 2, _('Cerro de las Armas'), _("It's in the north"))
 ]
@@ -75,20 +75,20 @@ LEVEL2 = [
 
 LEVEL3 = [
         1,
-        _('Beachs'),
+        _('Beaches'),
         ['lineasDepto', 'capitales', 'ciudades'],
         ['capitales', 'ciudades'],
 [
-    (_('a resort that "gets sleepy"'), 2, _('El Ensueño'), _("It's in the south")),
-    (_('a resort with holy name'), 2, _('Santa Regina'), _("It's on the border\nwith %s") % _('San José')),
+    (_('a resort that\n"gets sleepy"'), 2, _('El Ensueño'), _("It's in the south")),
+    (_('a resort named\nfor a saint'), 2, _('Santa Regina'), _("It's on the border\nwith %s") % _('San José')),
     (_('a place that has\nmany trees of a\ncertain kind'), 2, _('Los Pinos'), _('Try again')),
-    (_('a city whose name\nis synonymous of\npromoting'), 2, _('Fomento'), _("It's in the southeast")),
+    (_('a city whose name\nis synonymous with\npromoting'), 2, _('Fomento'), _("It's in the southeast")),
     (_('a city with the\nname of a fine\nwater course'), 2, _('Riachuelo'), _("It is near %s") % _('Colonia')),
     (_('a resort with\nname of people\ncarrying the cannons'), 2, _('Artilleros'), _("It's in the south")),
     (_('a place that is\nthe mouth of another'), 2, _('Boca del Rosario'), _("It is near %s") % _('Juan Lacaze')),
     (_('a resort with\nwhite sand'), 2, _('Blancarena'), _("It's in the southeast")),
     (_('a resort with\nGreek style city name'), 2, _('Britópolis'), _("It's on the border\nwith %s") % _('San José')),
-    (_('a resort with holy name'), 2, _('Santa Ana'), _("It's in the south"))
+    (_('a resort named\nfor a saint'), 2, _('Santa Ana'), _("It's in the south"))
 ]
 ]
 

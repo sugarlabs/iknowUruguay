@@ -24,8 +24,8 @@ LEVEL2 = [
         [],
 [
     (_('the city of %s') % _('Minas'), 2, _('Minas'), _("It's the capital of\nthe department")),
-    (_('the town of %s') % _('Batlle y Ordoñez'), 2, _('Batlle y Ordoñez'), _("It's in the northwest")),
-    (_('the town of %s') % _('J. P. Varela'), 2, _('J. P. Varela'), _("It's in the northeast")),
+    (_('the town of %s') % _('José Batlle y Ordóñez'), 2, _('José Batlle y Ordóñez'), _("It's in the northwest")),
+    (_('the town of %s') % _('José Pedro Varela'), 2, _('José Pedro Varela'), _("It's in the northeast")),
     (_('the town of %s') % _('Pirarajá'), 2, _('Pirarajá'), _("It's in the north")),
     (_('the town of %s') % _('Polanco'), 2, _('Polanco'), _("It's in the center")),
     (_('the town of %s') % _('Gaetán'), 2, _('Gaetán'), _("It's in the west")),

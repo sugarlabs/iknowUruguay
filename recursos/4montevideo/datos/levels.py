@@ -59,10 +59,10 @@ LEVEL2 = [
     (_('the second highest\npoint in the department'), 2, _('Cerrito de la Victoria'), _('It is a popular neighborhood')),
     (_('the stream that borders with Canelones'), 3, _('Arroyo Carrasco'), _('Flows into the %s') % _('Río de la Plata')),
     (_('the neighborhood where\nthe city was originally\nfounded in San Felipe\nand Santiago of Montevideo'), 2, _('Ciudad Vieja'), _('It is on the bay')),
-    (_('the neighborhood where\nthey operated railway\nworkshops'), 2, _('Peñarol'), _('An important football\nteam named after him')),
+    (_('the neighborhood where\nthey operated railway\nworkshops'), 2, _('Peñarol'), _('An important football\nteam is named after him')),
     (_('The neighborhood is\nnamed after the area\nwhere there were\nnumerous water wells'), 2, _('Aguada'), _('It is currently\nlocated where the \nLegislative Palace')),
     (_('the beach where\nattending washerwomen\ndoing laundry wells'), 2, _('Pocitos'), _('It is a very busy beach')),
-    (_('the neighborhood\nfrom where the parade of Llamadas start'), 2, _('Sur'), _("It's in the south")),
+    (_('the neighborhood where\nthe parade of Llamadas starts'), 2, _('Sur'), _("It's in the south")),
     (_('where is the\n"World Football Monument"'), 2, _('Parque Batlle'), _('The "World Soccer\nMonument" is the\nEstadio Centenario')),
     (_('the river that supplies\ndrinking water to\nthe department of\nMontevideo'), 3, _('Río Santa Lucía'), _("It's on the border\nwith %s") % _('San José'))
 ]
@@ -122,8 +122,8 @@ LEVEL5 = [
     (_("the %s Avenue") % _('Agraciada'), 6, _('Agraciada'), _('Try again')),
     (_("the %s Avenue") % _('Garzón'), 6, _('Garzón'), _('Try again')),
     (_('los Accesos de las\nRutas 1 y 5'), 6, _('Accesos'), _('Try again')),
-    (_('Ruta 1'), 6, _('Ruta 1'), _('Try again')),
-    (_('Ruta 5'), 6, _('Ruta 5'), _('Try again')),
+    (_('Route %s') % 1, 6, _('Route %s') % 1, _('Try again')),
+    (_('Route %s') % 5, 6, _('Route %s') % 5, _('Try again')),
     (_("the %s Avenue") % _('Luis Batlle Berres'), 6, _('Luis Batlle Berres'), _('Try again')),
     (_('Camino Sanguinetti'), 6, _('Camino Sanguinetti'), _('Try again')),
     (_('Camino Tomkinson'), 6, _('Camino Tomkinson'), _('Try again')),
