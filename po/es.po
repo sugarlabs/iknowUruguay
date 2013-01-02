@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-30 00:30-0500\n"
-"PO-Revision-Date: 2012-12-31 22:57+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"POT-Creation-Date: 2013-01-02 00:30-0500\n"
+"PO-Revision-Date: 2013-01-02 17:22+0200\n"
+"Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -724,15 +724,22 @@ msgid "Guichón"
 msgstr "Guichón"
 
 #: recursos/0uruguay/datos/0uruguay.py:70 recursos/0uruguay/datos/levels.py:90
-msgid "J. Batlle y Ordóñez"
+#: recursos/4lavalleja/datos/4lavalleja.py:18
+#: recursos/4lavalleja/datos/levels.py:27
+#: recursos/4montevideo/datos/levels.py:120
+msgid "José Batlle y Ordóñez"
 msgstr "José Batlle y Ordóñez"
 
 #: recursos/0uruguay/datos/0uruguay.py:71 recursos/0uruguay/datos/levels.py:91
-msgid "J. Pedro Varela"
+#: recursos/4lavalleja/datos/4lavalleja.py:19
+#: recursos/4lavalleja/datos/levels.py:28
+#: recursos/4lavalleja/datos/levels.py:106
+msgid "José Pedro Varela"
 msgstr "José Pedro Varela"
 
 #: recursos/0uruguay/datos/0uruguay.py:72 recursos/0uruguay/datos/levels.py:92
-msgid "José E. Rodó"
+#: recursos/4soriano/datos/levels.py:91
+msgid "José Enrique Rodó"
 msgstr "José Enrique Rodó"
 
 #: recursos/0uruguay/datos/0uruguay.py:73 recursos/0uruguay/datos/levels.py:93
@@ -1437,6 +1444,10 @@ msgstr "Laguna del Sauce"
 #: recursos/4maldonado/datos/levels.py:86
 #: recursos/4maldonado/datos/levels.py:87
 #: recursos/4maldonado/datos/levels.py:88
+#: recursos/4montevideo/datos/4montevideo.py:98
+#: recursos/4montevideo/datos/4montevideo.py:99
+#: recursos/4montevideo/datos/levels.py:125
+#: recursos/4montevideo/datos/levels.py:126
 #: recursos/4paysandu/datos/4paysandu.py:96
 #: recursos/4paysandu/datos/4paysandu.py:97
 #: recursos/4paysandu/datos/4paysandu.py:98
@@ -4498,12 +4509,11 @@ msgstr ""
 
 #: recursos/4colonia/datos/levels.py:55
 msgid ""
-"where at one time\n"
-"had a large native\n"
-"tree forest"
+"where there was once\n"
+"a large native forest"
 msgstr ""
-"donde hubo un gran\n"
-"bosque nativo"
+"donde hubo una vez\n"
+"un gran monte nativo"
 
 #: recursos/4colonia/datos/levels.py:56
 msgid ""
@@ -4517,8 +4527,8 @@ msgstr ""
 
 #: recursos/4colonia/datos/levels.py:57
 msgid ""
-"a city with more\n"
-"than 200 years"
+"a city more than\n"
+"200 years old"
 msgstr ""
 "una ciudad con mas\n"
 "de 200 años"
@@ -4578,28 +4588,28 @@ msgstr ""
 #: recursos/4colonia/datos/levels.py:64
 msgid ""
 "a city founded by\n"
-"immigrants Waldenses\n"
-"of Piedmont region"
+"Waldensian immigrants\n"
+"from the Piedmont region"
 msgstr ""
 "una ciudad fundada por\n"
-"inmigrantes valdenses\n"
-"de la región de Piamonte"
+"inmigrantes Valdenses de\n"
+"la región del Piamonte"
 
 #: recursos/4colonia/datos/levels.py:65
 msgid ""
-"where they meet\n"
-"three routes"
+"where three\n"
+"routes meet"
 msgstr ""
-"donde se cruzan\n"
+"donde se juntan\n"
 "tres rutas"
 
 #: recursos/4colonia/datos/levels.py:66
 msgid ""
-"a town named from\n"
-"a natural source of water"
+"a town named for its\n"
+"natural water source"
 msgstr ""
-"un pueblo con nombre de\n"
-"una fuente natural de agua"
+"un pueblo llamado por\n"
+"su fuente natural de agua"
 
 #: recursos/4colonia/datos/levels.py:67
 msgid ""
@@ -4620,12 +4630,12 @@ msgstr ""
 #: recursos/4colonia/datos/levels.py:69
 msgid ""
 "a town bearing\n"
-"the name a\n"
-"poisonous vermin"
+"the name of a\n"
+"poisonous creature"
 msgstr ""
 "un pueblo que tiene el\n"
 "mismo nombre de una\n"
-"alimaña ponzoñosa"
+"criatura ponzoñosa"
 
 #: recursos/4colonia/datos/levels.py:70
 msgid ""
@@ -4646,18 +4656,24 @@ msgstr ""
 "muchas armas"
 
 #: recursos/4colonia/datos/levels.py:78
-msgid "Beachs"
+msgid "Beaches"
 msgstr "Playas"
 
 #: recursos/4colonia/datos/levels.py:82
-msgid "a resort that \"gets sleepy\""
-msgstr "un complejo que \"da sueño\""
+msgid ""
+"a resort that\n"
+"\"gets sleepy\""
+msgstr ""
+"un balneario\n"
+"que \"da sueño\""
 
 #: recursos/4colonia/datos/levels.py:83 recursos/4colonia/datos/levels.py:91
-msgid "a resort with holy name"
+msgid ""
+"a resort named\n"
+"for a saint"
 msgstr ""
-"un balneario con\n"
-"nombre de santo"
+"un balneario llamado\n"
+"por el nombre de un santo"
 
 #: recursos/4colonia/datos/levels.py:84
 msgid ""
@@ -4672,7 +4688,7 @@ msgstr ""
 #: recursos/4colonia/datos/levels.py:85
 msgid ""
 "a city whose name\n"
-"is synonymous of\n"
+"is synonymous with\n"
 "promoting"
 msgstr ""
 "una ciudad cuyo nombre\n"
@@ -5185,16 +5201,6 @@ msgstr "Cerro Valentín"
 msgid "the capital"
 msgstr "la capital"
 
-#: recursos/4lavalleja/datos/4lavalleja.py:18
-#: recursos/4lavalleja/datos/levels.py:27
-msgid "Batlle y Ordoñez"
-msgstr "Batlle y Ordoñez"
-
-#: recursos/4lavalleja/datos/4lavalleja.py:19
-#: recursos/4lavalleja/datos/levels.py:28
-msgid "J. P. Varela"
-msgstr "J. P. Varela"
-
 #: recursos/4lavalleja/datos/4lavalleja.py:20
 #: recursos/4lavalleja/datos/levels.py:29
 #: recursos/4lavalleja/datos/levels.py:104
@@ -5375,10 +5381,6 @@ msgstr "Cerro Espuelitas"
 msgid "Cerro Retamosa"
 msgstr "Cerro Retamosa"
 
-#: recursos/4lavalleja/datos/levels.py:106
-msgid "José Pedro Varela"
-msgstr "José Pedro Varela"
-
 #: recursos/4maldonado/datos/4maldonado.py:17
 #: recursos/4maldonado/datos/levels.py:12
 msgid "Los Talas"
@@ -5514,8 +5516,8 @@ msgid "Cerro San Antonio"
 msgstr "Cerro San Antonio"
 
 #: recursos/4maldonado/datos/levels.py:70
-msgid "It's the highest of Uruguay"
-msgstr "Es el más alto de Uruguay"
+msgid "It's the highest in Uruguay"
+msgstr "Es el más alto en Uruguay"
 
 #: recursos/4maldonado/datos/levels.py:85
 msgid "major resort"
@@ -5805,7 +5807,8 @@ msgid "Mendoza"
 msgstr "Mendoza"
 
 #: recursos/4montevideo/datos/4montevideo.py:92
-msgid "Gral. Flores"
+#: recursos/4montevideo/datos/levels.py:119
+msgid "General Flores"
 msgstr "General Flores"
 
 #: recursos/4montevideo/datos/4montevideo.py:93
@@ -5826,16 +5829,6 @@ msgstr "Agraciada"
 #: recursos/4montevideo/datos/levels.py:124
 msgid "Accesos"
 msgstr "Accesos"
-
-#: recursos/4montevideo/datos/4montevideo.py:98
-#: recursos/4montevideo/datos/levels.py:125
-msgid "Ruta 1"
-msgstr "Ruta 1"
-
-#: recursos/4montevideo/datos/4montevideo.py:99
-#: recursos/4montevideo/datos/levels.py:126
-msgid "Ruta 5"
-msgstr "Ruta 5"
 
 #: recursos/4montevideo/datos/4montevideo.py:100
 #: recursos/4montevideo/datos/levels.py:127
@@ -5931,8 +5924,10 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:62
 msgid ""
 "An important football\n"
-"team named after him"
-msgstr "Un importante equipo de fútbol lleva su nombre"
+"team is named after him"
+msgstr ""
+"Un importante equipo de\n"
+"fútbol lleva su nombre"
 
 #: recursos/4montevideo/datos/levels.py:63
 msgid ""
@@ -5972,8 +5967,8 @@ msgstr "Es una playa muy concurrida"
 
 #: recursos/4montevideo/datos/levels.py:65
 msgid ""
-"the neighborhood\n"
-"from where the parade of Llamadas start"
+"the neighborhood where\n"
+"the parade of Llamadas starts"
 msgstr ""
 "el barrio de donde empieza\n"
 "el desfile de Llamadas"
@@ -6033,14 +6028,6 @@ msgstr "Italia"
 #: recursos/4montevideo/datos/levels.py:118
 msgid "Camino Mendoza"
 msgstr "Camino Mendoza"
-
-#: recursos/4montevideo/datos/levels.py:119
-msgid "General Flores"
-msgstr "General Flores"
-
-#: recursos/4montevideo/datos/levels.py:120
-msgid "José Batlle y Ordóñez"
-msgstr "José Batlle y Ordóñez"
 
 #: recursos/4montevideo/datos/levels.py:124
 msgid ""
@@ -7181,10 +7168,6 @@ msgstr "Cerro Espinillo"
 msgid "Cerro Curupí"
 msgstr "Cerro Curupí"
 
-#: recursos/4soriano/datos/levels.py:91
-msgid "José Enrique Rodó"
-msgstr "José Enrique Rodó"
-
 #: recursos/4tacuarembo/datos/4tacuarembo.py:22
 #: recursos/4tacuarembo/datos/levels.py:30
 msgid "Paso del Cerro"
@@ -7648,6 +7631,73 @@ msgid ""
 msgstr ""
 "Fuentes descargadas de urbanfonts.com: AllCaps.ttf by BobFrantic y Share-"
 "Regular.ttf by anónimo"
+
+#~ msgid "J. Batlle y Ordóñez"
+#~ msgstr "José Batlle y Ordóñez"
+
+#~ msgid "J. Pedro Varela"
+#~ msgstr "José Pedro Varela"
+
+#~ msgid "José E. Rodó"
+#~ msgstr "José Enrique Rodó"
+
+#~ msgid ""
+#~ "where at one time\n"
+#~ "had a large native\n"
+#~ "tree forest"
+#~ msgstr ""
+#~ "donde hubo un gran\n"
+#~ "bosque nativo"
+
+#~ msgid ""
+#~ "a city with more\n"
+#~ "than 200 years"
+#~ msgstr ""
+#~ "una ciudad con mas\n"
+#~ "de 200 años"
+
+#~ msgid ""
+#~ "a city founded by\n"
+#~ "immigrants Waldenses\n"
+#~ "of Piedmont region"
+#~ msgstr ""
+#~ "una ciudad fundada por\n"
+#~ "inmigrantes valdenses\n"
+#~ "de la región de Piamonte"
+
+#~ msgid ""
+#~ "where they meet\n"
+#~ "three routes"
+#~ msgstr ""
+#~ "donde se cruzan\n"
+#~ "tres rutas"
+
+#~ msgid ""
+#~ "a town named from\n"
+#~ "a natural source of water"
+#~ msgstr ""
+#~ "un pueblo con nombre de\n"
+#~ "una fuente natural de agua"
+
+#~ msgid "a resort with holy name"
+#~ msgstr ""
+#~ "un balneario con\n"
+#~ "nombre de santo"
+
+#~ msgid "Batlle y Ordoñez"
+#~ msgstr "Batlle y Ordoñez"
+
+#~ msgid "J. P. Varela"
+#~ msgstr "J. P. Varela"
+
+#~ msgid "Gral. Flores"
+#~ msgstr "General Flores"
+
+#~ msgid "Ruta 1"
+#~ msgstr "Ruta 1"
+
+#~ msgid "Ruta 5"
+#~ msgstr "Ruta 5"
 
 #~ msgid "It's a departmental capital"
 #~ msgstr "Es una capital departamental"
