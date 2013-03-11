@@ -57,17 +57,17 @@ LEVEL4 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %(f)s') % {'f': _('Sierra de Aceguá'), 4, _('Sierra de Aceguá'), _('Try again')),
-    (_('the %(f)s') % {'f': _('Cuchilla Grande'), 4, _('Cuchilla Grande'), _('Try again')),
-    (_('the %(f)s') % {'f': _('Sierra de los Ríos'), 4, _('Sierra de los Ríos'), _('Try again')),
-    (_('the %(f)s') % {'f': _('Cuchilla de Mangrullo'), 4, _('Cuchilla de Mangrullo'), _('Try again')),
-    (_('the %(f)s') % {'f': _('Cuchilla del Cordobés'), 4, _('Cuchilla del Cordobés'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro Grande de Aceguá'), 5, _('Cerro Grande de Aceguá'), _("It's in the north")),
-    (_('the %(m)s') % {'m': _('Cerro Colorado'), 5, _('Cerro Colorado'), _("It's in the east")),
-    (_('the %(m)s') % {'m': _('Cerro Redondo'), 5, _('Cerro Redondo'), _("It's in the northeast")),
-    (_('the %(m)s') % {'m': _('Cerro Pablo Pérez'), 5, _('Cerro Pablo Pérez'), _("It's in the southwest")),
-    (_('the %(m)s') % {'m': _('Cerro Largo'), 5, _('Cerro Largo'), _("It's in the south")),
-    (_('the %(m)s') % {'m': _('Cerro Verde'), 5, _('Cerro Verde'), _("It is near %s") % _('Melo'))
+    (_('the %(f)s') % {'f': _('Sierra de Aceguá')}, 4, _('Sierra de Aceguá'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla Grande')}, 4, _('Cuchilla Grande'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Sierra de los Ríos')}, 4, _('Sierra de los Ríos'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla de Mangrullo')}, 4, _('Cuchilla de Mangrullo'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla del Cordobés')}, 4, _('Cuchilla del Cordobés'), _('Try again')),
+    (_('the %(m)s') % {'m': _('Cerro Grande de Aceguá')}, 5, _('Cerro Grande de Aceguá'), _("It's in the north")),
+    (_('the %(m)s') % {'m': _('Cerro Colorado')}, 5, _('Cerro Colorado'), _("It's in the east")),
+    (_('the %(m)s') % {'m': _('Cerro Redondo')}, 5, _('Cerro Redondo'), _("It's in the northeast")),
+    (_('the %(m)s') % {'m': _('Cerro Pablo Pérez')}, 5, _('Cerro Pablo Pérez'), _("It's in the southwest")),
+    (_('the %(m)s') % {'m': _('Cerro Largo')}, 5, _('Cerro Largo'), _("It's in the south")),
+    (_('the %(m)s') % {'m': _('Cerro Verde')}, 5, _('Cerro Verde'), _("It is near %s") % _('Melo'))
 ]
 ]
 
