@@ -60,7 +60,7 @@ CREDITS = [
     _("Information for the level 'Historical sites' of Uruguay: Ana Trujillo and Ana Cichero (coordination)"),
     _("Information for Canelones: Nancy Gómez, her son hijo Matías and Ana Cichero (coordination)"),
     _("Information for the level 'Information of Montevideo': Miriam Martínez and Magdalena Lallo"),
-    _("Sounds downloaded from freesound.org: btn045.wav by junggle and boom1.wav by NoiseCollector"),
-    _("Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-Regular.ttf by anónimo")
+    _("Sounds downloaded from freesound.org: junggle_btn117.wav by junggle and boom1.wav by NoiseCollector"),
+    _("Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo")
 ]
 
