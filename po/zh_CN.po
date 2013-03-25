@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-02 00:30-0500\n"
-"PO-Revision-Date: 2013-02-03 12:23+0200\n"
+"POT-Creation-Date: 2013-03-14 00:31-0400\n"
+"PO-Revision-Date: 2013-03-17 17:05+0200\n"
 "Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -6835,281 +6835,252 @@ msgstr "Risso"
 
 #: recursos/4soriano/datos/4soriano.py:23 recursos/4soriano/datos/levels.py:18
 msgid "Rodó"
-msgstr ""
+msgstr "罗多"
 
 #: recursos/4soriano/datos/4soriano.py:24 recursos/4soriano/datos/levels.py:19
 msgid "Perseverano"
-msgstr ""
+msgstr "Perseverano"
 
 #: recursos/4soriano/datos/4soriano.py:25 recursos/4soriano/datos/levels.py:20
-#, fuzzy
 msgid "Castillo"
-msgstr "卡斯蒂约斯"
+msgstr "卡斯蒂略"
 
 #: recursos/4soriano/datos/4soriano.py:26
-#, fuzzy
 msgid "Cuch. del Perdido"
-msgstr "贝伦丘陵"
+msgstr "Cuch. del Perdido"
 
 #: recursos/4soriano/datos/4soriano.py:27 recursos/4soriano/datos/levels.py:22
 msgid "Santa Catalina"
-msgstr ""
+msgstr "圣卡塔利娜"
 
 #: recursos/4soriano/datos/4soriano.py:29 recursos/4soriano/datos/levels.py:24
 #: recursos/4soriano/datos/levels.py:88
 msgid "Villa Soriano"
-msgstr ""
+msgstr "索里亚诺镇"
 
 #: recursos/4soriano/datos/4soriano.py:38 recursos/4soriano/datos/levels.py:39
-#, fuzzy
 msgid "Arroyo de Espinillo"
 msgstr "埃斯皮尼约河"
 
 #: recursos/4soriano/datos/4soriano.py:40 recursos/4soriano/datos/levels.py:41
 msgid "Arroyo Bizcocho"
-msgstr ""
+msgstr "比斯科乔河"
 
 #: recursos/4soriano/datos/4soriano.py:41 recursos/4soriano/datos/levels.py:42
 msgid "Arroyo Magallanes"
-msgstr ""
+msgstr "麦哲伦河"
 
 #: recursos/4soriano/datos/4soriano.py:42 recursos/4soriano/datos/levels.py:43
-#, fuzzy
 msgid "Arroyo del Águila"
-msgstr "A. de los Ceibos"
+msgstr "德尔阿吉拉河"
 
 #: recursos/4soriano/datos/4soriano.py:43 recursos/4soriano/datos/levels.py:44
 msgid "Arroyo del Corralito"
-msgstr ""
+msgstr "德尔米利托河"
 
 #: recursos/4soriano/datos/4soriano.py:45 recursos/4soriano/datos/levels.py:46
-#, fuzzy
 msgid "Arroyo San Martín"
-msgstr "圣玛丽亚河"
+msgstr "圣马丁河"
 
 #: recursos/4soriano/datos/4soriano.py:46 recursos/4soriano/datos/levels.py:47
-#, fuzzy
 msgid "Arroyo del Medio"
-msgstr "Cerro del Medio"
+msgstr "德尔梅迪奥河"
 
 #: recursos/4soriano/datos/4soriano.py:47 recursos/4soriano/datos/levels.py:48
-#, fuzzy
 msgid "Arroyo de las Maulas"
-msgstr "A. de las Averías"
+msgstr "Arroyo de las Maulas"
 
 #: recursos/4soriano/datos/4soriano.py:48 recursos/4soriano/datos/levels.py:49
 msgid "Arroyo Bequeló"
-msgstr ""
+msgstr "比齐罗河"
 
 #: recursos/4soriano/datos/4soriano.py:49 recursos/4soriano/datos/levels.py:50
 msgid "Arroyo Coquimbo"
-msgstr ""
+msgstr "科金博河"
 
 #: recursos/4soriano/datos/4soriano.py:51 recursos/4soriano/datos/levels.py:52
-#, fuzzy
 msgid "Arroyo Caballudo"
-msgstr "塞瓦略斯河"
+msgstr "卡巴尔鲁多河"
 
 #: recursos/4soriano/datos/4soriano.py:52 recursos/4soriano/datos/levels.py:53
-#, fuzzy
 msgid "Arroyo Maia"
-msgstr "马尼科河"
+msgstr "马亚河"
 
 #: recursos/4soriano/datos/4soriano.py:53 recursos/4soriano/datos/levels.py:54
-#, fuzzy
 msgid "Arroyo Cololó"
-msgstr "科拉河"
+msgstr "科罗洛河"
 
 #: recursos/4soriano/datos/4soriano.py:54 recursos/4soriano/datos/levels.py:55
-#, fuzzy
 msgid "Arroyo Perico"
-msgstr "佩拉多河"
+msgstr "佩里科河"
 
 #: recursos/4soriano/datos/4soriano.py:55 recursos/4soriano/datos/levels.py:56
-#, fuzzy
 msgid "Arroyo de Vera"
-msgstr "A. de los Ceibos"
+msgstr "维拉河"
 
 #: recursos/4soriano/datos/4soriano.py:57 recursos/4soriano/datos/levels.py:58
-#, fuzzy
 msgid "Arroyo del Perdido"
-msgstr "A. de los Ceibos"
+msgstr "德尔佩尔迪河"
 
 #: recursos/4soriano/datos/4soriano.py:58 recursos/4soriano/datos/levels.py:59
-#, fuzzy
 msgid "Arroyo del Durazno"
-msgstr "A. de los Ceibos"
+msgstr "德尔杜拉斯诺河"
 
 #: recursos/4soriano/datos/4soriano.py:63 recursos/4soriano/datos/levels.py:70
 msgid "Cuchilla de Bequeló"
-msgstr ""
+msgstr "比奇洛丘陵"
 
 #: recursos/4soriano/datos/4soriano.py:64 recursos/4soriano/datos/levels.py:21
 #: recursos/4soriano/datos/levels.py:71
-#, fuzzy
 msgid "Cuchilla del Perdido"
-msgstr "贝伦丘陵"
+msgstr "德尔佩尔迪丘陵"
 
 #: recursos/4soriano/datos/4soriano.py:65 recursos/4soriano/datos/levels.py:72
 msgid "Cuchilla del Bizcocho"
-msgstr ""
+msgstr "比斯科乔丘陵"
 
 #: recursos/4soriano/datos/4soriano.py:66 recursos/4soriano/datos/levels.py:73
 msgid "Cuchilla San Salvador"
-msgstr ""
+msgstr "圣萨尔瓦多丘陵"
 
 #: recursos/4soriano/datos/4soriano.py:70 recursos/4soriano/datos/levels.py:74
-#, fuzzy
 msgid "Cerro Espinillo"
-msgstr "埃斯皮尼约河"
+msgstr "埃斯皮尼约山"
 
 #: recursos/4soriano/datos/4soriano.py:71 recursos/4soriano/datos/levels.py:75
 msgid "Cerro Curupí"
-msgstr ""
+msgstr "库鲁皮山"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:22
 #: recursos/4tacuarembo/datos/levels.py:30
 msgid "Paso del Cerro"
-msgstr ""
+msgstr "帕索 - 塞罗"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:25
 #: recursos/4tacuarembo/datos/levels.py:33
 msgid "Curtina"
-msgstr ""
+msgstr "库尔蒂纳"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:26
 #: recursos/4tacuarembo/datos/levels.py:34
 msgid "Achar"
-msgstr ""
+msgstr "阿查尔"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:27
 #: recursos/4tacuarembo/datos/levels.py:35
 msgid "Peralta"
-msgstr ""
+msgstr "佩拉尔塔"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:29
 #: recursos/4tacuarembo/datos/levels.py:37
 msgid "Rincón de Pereira"
-msgstr ""
+msgstr "林孔 - 佩雷拉"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:31
 #: recursos/4tacuarembo/datos/levels.py:39
 #: recursos/4tacuarembo/datos/levels.py:98
-#, fuzzy
 msgid "Cuchilla de Caraguatá"
-msgstr "Cuchilla de Haedo"
+msgstr "卡拉瓜塔丘陵"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:32
 #: recursos/4tacuarembo/datos/levels.py:40
 msgid "Picada de Cuello"
-msgstr ""
+msgstr "Picada de Cuello"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:33
 #: recursos/4tacuarembo/datos/levels.py:41
 msgid "Valle Edén"
-msgstr ""
+msgstr "Valle Edén"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:34
 #: recursos/4tacuarembo/datos/levels.py:42
 msgid "Martinote"
-msgstr ""
+msgstr "马汀那"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:41
 #: recursos/4tacuarembo/datos/levels.py:55
-#, fuzzy
 msgid "Arroyo Salsipuedes Chico"
-msgstr "大萨尔西普埃德斯河"
+msgstr "小萨尔西普埃德斯河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:42
 #: recursos/4tacuarembo/datos/levels.py:56
-#, fuzzy
 msgid "Arroyo Cardoso"
-msgstr "卡拉斯科河"
+msgstr "卡多佐河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:44
 #: recursos/4tacuarembo/datos/levels.py:58
-#, fuzzy
 msgid "Arroyo de la Quebrada"
-msgstr "Arroyo de la Invernada"
+msgstr "拉塔夫拉达河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:46
 #: recursos/4tacuarembo/datos/levels.py:60
-#, fuzzy
 msgid "Arroyo de Clara"
-msgstr "A. de los Ceibos"
+msgstr "克拉拉河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:49
 #: recursos/4tacuarembo/datos/levels.py:63
-#, fuzzy
 msgid "Arroyo de los Sauces"
-msgstr "A. de los Ceibos"
+msgstr "洛斯绍斯河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:51
 #: recursos/4tacuarembo/datos/levels.py:65
 msgid "Arroyo Tacuarembó Chico"
-msgstr ""
+msgstr "小塔夸伦博河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:52
 #: recursos/4tacuarembo/datos/levels.py:66
-#, fuzzy
 msgid "Arroyo Tranqueras"
-msgstr "马尼科河"
+msgstr " 特兰克拉斯河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:53
 #: recursos/4tacuarembo/datos/levels.py:67
 msgid "Arroyo Batoví"
-msgstr ""
+msgstr "巴托维河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:54
 #: recursos/4tacuarembo/datos/levels.py:68
-#, fuzzy
 msgid "Arroyo Tres Cruces"
-msgstr "特雷斯阿波勒斯河"
+msgstr "特雷斯克鲁西斯河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:55
 #: recursos/4tacuarembo/datos/levels.py:69
-#, fuzzy
 msgid "Arroyo Cañas"
-msgstr "马尼科河"
+msgstr "卡纳斯河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:59
 #: recursos/4tacuarembo/datos/levels.py:79
 msgid "Cuchilla de las Tres Cruces"
-msgstr ""
+msgstr "拉斯特雷斯克鲁西斯丘陵"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:60
 #: recursos/4tacuarembo/datos/levels.py:80
-#, fuzzy
 msgid "Cuchilla de Yaguarí"
-msgstr "Cuchilla de Haedo"
+msgstr "亚瓜里丘陵"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:61
 #: recursos/4tacuarembo/datos/levels.py:81
-#, fuzzy
 msgid "Cuchilla del Caraguata"
-msgstr "Cuchilla de Haedo"
+msgstr "德尔卡拉瓜塔河"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:62
 #: recursos/4tacuarembo/datos/levels.py:82
-#, fuzzy
 msgid "Cuchilla de Peralta"
-msgstr "贝伦丘陵"
+msgstr "佩拉尔塔丘陵"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:67
 #: recursos/4tacuarembo/datos/levels.py:84
-#, fuzzy
 msgid "Cerro de las Minas"
-msgstr "Cerro de las Animas"
+msgstr "拉斯米纳斯山"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:69
 #: recursos/4tacuarembo/datos/levels.py:86
 msgid "Cerro Lambaré"
-msgstr ""
+msgstr "兰巴雷山"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:70
 #: recursos/4tacuarembo/datos/levels.py:87
 msgid "Cerro del Ñandubal"
-msgstr ""
+msgstr "Cerro del Ñandubal"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:21
 #: recursos/4treinta_y_tres/datos/levels.py:13
@@ -7140,68 +7111,58 @@ msgstr "图潘巴埃"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:39
 #: recursos/4treinta_y_tres/datos/levels.py:37
-#, fuzzy
 msgid "Arroyo Ayala"
-msgstr "马尼科河"
+msgstr "阿亚拉河"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:41
 #: recursos/4treinta_y_tres/datos/levels.py:39
-#, fuzzy
 msgid "Arroyo Corrales del Parao"
-msgstr "A. Corrales del Parao"
+msgstr "Arroyo Corrales del Parao"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:42
 #: recursos/4treinta_y_tres/datos/levels.py:40
 msgid "Arroyo Leoncho"
-msgstr ""
+msgstr "里昂齐沃河"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:43
 #: recursos/4treinta_y_tres/datos/levels.py:41
-#, fuzzy
 msgid "Arroyo Olazo"
-msgstr "佩拉多河"
+msgstr "奥拉索河"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:44
 #: recursos/4treinta_y_tres/datos/levels.py:42
-#, fuzzy
 msgid "Arroyo Yerbal Grande"
-msgstr "大夸罗河"
+msgstr "大赫尔巴河"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:45
 #: recursos/4treinta_y_tres/datos/levels.py:43
-#, fuzzy
 msgid "Arroyo Yerbal Chico"
-msgstr "小加泰罗尼亚河"
+msgstr "小赫尔巴河"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:46
 #: recursos/4treinta_y_tres/datos/levels.py:44
-#, fuzzy
 msgid "Arroyo de los Porongos"
-msgstr "A. de los Porongos"
+msgstr "Arroyo de los Porongos"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:47
 #: recursos/4treinta_y_tres/datos/levels.py:45
-#, fuzzy
 msgid "Arroyo de los Ceibos"
-msgstr "A. de los Ceibos"
+msgstr "Arroyo de los Ceibos"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:48
 #: recursos/4treinta_y_tres/datos/levels.py:46
-#, fuzzy
 msgid "Arroyo de las Pavas"
-msgstr "A. de las Averías"
+msgstr "拉斯帕瓦斯河"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:49
 #: recursos/4treinta_y_tres/datos/levels.py:47
-#, fuzzy
 msgid "Arroyo de las Averías"
-msgstr "A. de las Averías"
+msgstr "拉斯阿韦里亚斯河"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:50
 #: recursos/4treinta_y_tres/datos/levels.py:48
-#, fuzzy
 msgid "Arroyo Avestruz Grande"
-msgstr "大夸罗河"
+msgstr "Arroyo Avestruz Grande"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:56
 #: recursos/4treinta_y_tres/datos/levels.py:59
@@ -7211,27 +7172,26 @@ msgstr "Asperezas del Yerbal"
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:57
 #: recursos/4treinta_y_tres/datos/levels.py:60
 msgid "Cuchilla del Carmen"
-msgstr "Cuchilla del Carmen"
+msgstr "卡门丘陵"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:58
 #: recursos/4treinta_y_tres/datos/levels.py:61
 msgid "Cuchilla de Palomeque"
-msgstr "Cuchilla de Palomeque"
+msgstr "帕洛梅克丘陵"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:64
 #: recursos/4treinta_y_tres/datos/levels.py:64
-#, fuzzy
 msgid "Cerro del Olimar"
-msgstr "Co. del Olimar"
+msgstr "德尔奥利马尔山"
 
 #: recursos/4treinta_y_tres/datos/levels.py:74
 msgid "Passes through departamental capital"
-msgstr ""
+msgstr "经过地区首府"
 
 #: recursos/4treinta_y_tres/datos/levels.py:76
 #, python-format
 msgid "Passes through the limit with %s"
-msgstr ""
+msgstr "经过%s的范围"
 
 #: recursos/comun/datos/commons.py:8
 msgid ""
@@ -7239,6 +7199,9 @@ msgid ""
 "I will explore that territory.\n"
 "There I go!"
 msgstr ""
+"好美丽的世界！\n"
+"我将探访该地区。\n"
+"现在就出发！"
 
 #: recursos/comun/datos/commons.py:9
 msgid ""
@@ -7246,6 +7209,9 @@ msgid ""
 "The ship has problems,\n"
 "I'm going to crash!"
 msgstr ""
+"哦，不！\n"
+"船出了问题，\n"
+"要坠毁了！"
 
 #: recursos/comun/datos/commons.py:10
 msgid ""
@@ -7253,92 +7219,99 @@ msgid ""
 "Now I have to rebuild my ship.\n"
 "Need help!"
 msgstr ""
+"真幸运，我得救了！\n"
+"现在，我要重新建造我的船。\n"
+"请帮助我！"
 
 #: recursos/comun/datos/commons.py:14
 msgid "We have to find"
-msgstr ""
+msgstr "我们必须找到"
 
 #: recursos/comun/datos/commons.py:15
 msgid "Now we have to find"
-msgstr ""
+msgstr "现在，我们必须找到"
 
 #: recursos/comun/datos/commons.py:16
 msgid ""
 "We have to look\n"
 "a piece of my ship in"
-msgstr ""
+msgstr "我们要发现船的一部分"
 
 #: recursos/comun/datos/commons.py:17
 msgid ""
 "There's a piece\n"
 "of my ship in"
-msgstr ""
+msgstr "这里有船的一部分"
 
 #: recursos/comun/datos/commons.py:18
 msgid ""
 "According to my information\n"
 "have to look at"
 msgstr ""
+"根据我的信息\n"
+"必须来看一看"
 
 #: recursos/comun/datos/commons.py:19
 msgid ""
 "We have to\n"
 "go up"
 msgstr ""
+"我们必须\n"
+"要向上"
 
 #: recursos/comun/datos/commons.py:20
 msgid ""
 "A piece of my\n"
 "ship fell into"
-msgstr ""
+msgstr "船的一部分掉落"
 
 #: recursos/comun/datos/commons.py:24
 msgid "Can you tell me where it is?"
-msgstr ""
+msgstr "你能告诉我在哪里吗？"
 
 #: recursos/comun/datos/commons.py:25
 msgid "Where is it?"
-msgstr ""
+msgstr "在哪里？"
 
 #: recursos/comun/datos/commons.py:26
 msgid "Can you show me where it is?"
-msgstr ""
+msgstr "你能告诉我在哪里吗？"
 
 #: recursos/comun/datos/commons.py:27
 msgid "Can you find it?"
-msgstr ""
+msgstr "你能找到它吗？"
 
 #: recursos/comun/datos/commons.py:31
 msgid "Very well!"
-msgstr ""
+msgstr "很好！"
 
 #: recursos/comun/datos/commons.py:32
 msgid "Brilliant!"
-msgstr ""
+msgstr "太棒了！"
 
 #: recursos/comun/datos/commons.py:33
 msgid "You found it!"
-msgstr ""
+msgstr "你找到了！"
 
 #: recursos/comun/datos/commons.py:34
 msgid "Yes!"
-msgstr ""
+msgstr "是的！"
 
 #: recursos/comun/datos/commons.py:38
 msgid "No, that is not correct"
-msgstr ""
+msgstr "不，那不是正确的"
 
 #: recursos/comun/datos/commons.py:39
 msgid "No, it is not there"
-msgstr ""
+msgstr "不，它不在那儿"
 
 #: recursos/comun/datos/commons.py:40
 msgid "No, that seems to be wrong"
-msgstr ""
+msgstr "不，这看上去是错误的"
 
 #: recursos/comun/datos/commons.py:41
 msgid "That is not correct"
-msgstr ""
+msgstr "那不是正确的"
 
 #: recursos/comun/datos/commons.py:45
 msgid ""
@@ -7346,12 +7319,16 @@ msgid ""
 "Farewell to my planet.\n"
 "Thanks for your help!"
 msgstr ""
+"现在，永别了，我可以返回我的星球了。\n"
+"感谢您的帮助！"
 
 #: recursos/comun/datos/commons.py:46
 msgid ""
 "My ship is ready.\n"
 "Bye and thanks for helping!"
 msgstr ""
+"我的飞船已经准备就绪。\n"
+"再见，感谢您的帮助！"
 
 #: recursos/comun/datos/commons.py:47
 msgid ""
@@ -7359,64 +7336,71 @@ msgid ""
 "I'm Ready to take off.\n"
 "Until next time!"
 msgstr ""
+"我们做到了！\n"
+"我准备好起飞了。\n"
+"下一次见！"
 
 #: recursos/comun/datos/commons.py:51
 msgid "Autor: Gabriel Eirea (geirea@gmail.com)"
-msgstr ""
+msgstr "作者: Gabriel Eirea (geirea@gmail.com)"
 
 #: recursos/comun/datos/commons.py:52
 msgid "Author: Alan Aguiar (alanjas@hotmail.com)"
-msgstr ""
+msgstr "作者: Alan Aguiar (alanjas@hotmail.com)"
 
 #: recursos/comun/datos/commons.py:53
 msgid "Ayudante: Fabio Eirea"
-msgstr ""
+msgstr "助理: Fabio Eirea"
 
 #: recursos/comun/datos/commons.py:54
 msgid "Send corrections, comments or suggestions"
-msgstr ""
+msgstr "发送更正，意见或建议"
 
 #: recursos/comun/datos/commons.py:56
 msgid "This program is free software developed by the community"
-msgstr ""
+msgstr "这个程序是由社区开发的免费软件"
 
 #: recursos/comun/datos/commons.py:57
 msgid "For more information visit http://ceibaljam.org"
-msgstr ""
+msgstr "欲了解更多信息，请访问 http://ceibaljam.org"
 
 #: recursos/comun/datos/commons.py:59
 msgid "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
-msgstr ""
+msgstr "图形和所有地区关卡（少量Canelones）：Alan Aguiar"
 
 #: recursos/comun/datos/commons.py:60
 msgid ""
 "Information for the level 'Historical sites' of Uruguay: Ana Trujillo and "
 "Ana Cichero (coordination)"
-msgstr ""
+msgstr "乌拉圭中“历史遗址”关卡的信息：Ana Trujillo 和 Ana Cichero （协作）"
 
 #: recursos/comun/datos/commons.py:61
 msgid ""
 "Information for Canelones: Nancy Gómez, her son hijo Matías and Ana Cichero "
 "(coordination)"
-msgstr ""
+msgstr "Canelones的信息：Nancy Gómez, her son hijo Matías 和 Ana Cichero （协作）"
 
 #: recursos/comun/datos/commons.py:62
 msgid ""
 "Information for the level 'Information of Montevideo': Miriam Martínez and "
 "Magdalena Lallo"
-msgstr ""
+msgstr "‘了解蒙得维的亚’关卡的信息：Miriam Martínez 和 Magdalena Lallo"
 
 #: recursos/comun/datos/commons.py:63
 msgid ""
-"Sounds downloaded from freesound.org: btn045.wav by junggle and boom1.wav by "
-"NoiseCollector"
-msgstr ""
+"Sounds downloaded from freesound.org: junggle_btn117.wav by junggle and "
+"boom1.wav by NoiseCollector"
+msgstr "声音从 freesound.org 下载：btn045.wav来自junggle， boom1.wav来自NoiseCollector"
 
 #: recursos/comun/datos/commons.py:64
-msgid ""
-"Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-"
-"Regular.ttf by anónimo"
-msgstr ""
+msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
+msgstr "字体从 urbanfonts.com 下载：Share-Regular.ttf 来自 anónimo"
+
+#~ msgid ""
+#~ "Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-"
+#~ "Regular.ttf by anónimo"
+#~ msgstr ""
+#~ "字体从 urbanfonts.com 下载：BobFrantic贡献AllCaps.ttf，anónimo贡献Share-Regular.ttf"
 
 #~ msgid "J. Batlle y Ordóñez"
 #~ msgstr "何塞·巴特列·奥多涅斯"
