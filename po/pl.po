@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-30 00:30-0500\n"
-"PO-Revision-Date: 2012-12-31 04:31+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"POT-Creation-Date: 2013-03-14 00:31-0400\n"
+"PO-Revision-Date: 2013-01-03 21:25+0200\n"
+"Last-Translator: Kamila <kamilafilipowska@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "Znam Urugwaj."
 #: conozcouy.py:517
 #, python-format
 msgid "Cannot open %s"
-msgstr "Nie można otworzyć %s"
+msgstr "Nie można otworzyć %"
 
 #: conozcouy.py:464
 #, python-format
@@ -37,6 +37,8 @@ msgid ""
 "the city of\n"
 "%s"
 msgstr ""
+"miasto\n"
+"%"
 
 #: conozcouy.py:467
 #, python-format
@@ -44,6 +46,8 @@ msgid ""
 "the department of\n"
 "%s"
 msgstr ""
+"departament\n"
+"%"
 
 #: conozcouy.py:470
 #, python-format
@@ -51,6 +55,8 @@ msgid ""
 "the province of\n"
 "%s"
 msgstr ""
+"prowincja\n"
+"%"
 
 #: conozcouy.py:473
 #, python-format
@@ -58,6 +64,8 @@ msgid ""
 "the district of\n"
 "%s"
 msgstr ""
+"dzielnica\n"
+"%"
 
 #: conozcouy.py:476
 #, python-format
@@ -65,6 +73,8 @@ msgid ""
 "the state of\n"
 "%s"
 msgstr ""
+"stan\n"
+"%"
 
 #: conozcouy.py:479
 #, python-format
@@ -72,6 +82,8 @@ msgid ""
 "the region of\n"
 "%s"
 msgstr ""
+"region\n"
+"%"
 
 #: conozcouy.py:482
 #, python-format
@@ -79,6 +91,8 @@ msgid ""
 "the parish of\n"
 "%s"
 msgstr ""
+"parafia\n"
+"%"
 
 #: conozcouy.py:485
 #, python-format
@@ -86,6 +100,8 @@ msgid ""
 "the taluka of\n"
 "%s"
 msgstr ""
+"taluka\n"
+"%"
 
 #: conozcouy.py:488
 #, python-format
@@ -93,6 +109,8 @@ msgid ""
 "the municipality of\n"
 "%s"
 msgstr ""
+"okręg\n"
+"%"
 
 #: conozcouy.py:491 recursos/0uruguay/datos/levels.py:187
 #: recursos/0uruguay/datos/levels.py:188 recursos/0uruguay/datos/levels.py:189
@@ -107,26 +125,26 @@ msgstr ""
 #: recursos/4san_jose/datos/levels.py:44
 #, python-format
 msgid "the %s"
-msgstr ""
+msgstr "%"
 
 #: conozcouy.py:494
 #, python-format
 msgid "the %(river)s"
-msgstr ""
+msgstr "%(rzeka)"
 
 #: conozcouy.py:497
 #, python-format
 msgid "the %(route)s"
-msgstr ""
+msgstr "%(droga)"
 
 #: conozcouy.py:552
 #, python-format
 msgid "About %s"
-msgstr "O %s"
+msgstr "O %"
 
 #: conozcouy.py:566
 msgid "Press any key to return"
-msgstr ""
+msgstr "Naciśnij dowolny klawisz, aby powrócić"
 
 #: conozcouy.py:597
 msgid "You have chosen the map "
@@ -138,7 +156,7 @@ msgstr "Graj"
 
 #: conozcouy.py:619
 msgid "Explore"
-msgstr ""
+msgstr "Odkrywaj"
 
 #: conozcouy.py:639 conozcouy.py:783
 msgid "About this game"
@@ -707,16 +725,23 @@ msgid "Guichón"
 msgstr "Guichón"
 
 #: recursos/0uruguay/datos/0uruguay.py:70 recursos/0uruguay/datos/levels.py:90
-msgid "J. Batlle y Ordóñez"
-msgstr "J. Batlle y Ordóñez"
+#: recursos/4lavalleja/datos/4lavalleja.py:18
+#: recursos/4lavalleja/datos/levels.py:27
+#: recursos/4montevideo/datos/levels.py:120
+msgid "José Batlle y Ordóñez"
+msgstr "José Batlle y Ordóñez"
 
 #: recursos/0uruguay/datos/0uruguay.py:71 recursos/0uruguay/datos/levels.py:91
-msgid "J. Pedro Varela"
-msgstr "J. Pedro Varela"
+#: recursos/4lavalleja/datos/4lavalleja.py:19
+#: recursos/4lavalleja/datos/levels.py:28
+#: recursos/4lavalleja/datos/levels.py:106
+msgid "José Pedro Varela"
+msgstr "José Pedro Varela"
 
 #: recursos/0uruguay/datos/0uruguay.py:72 recursos/0uruguay/datos/levels.py:92
-msgid "José E. Rodó"
-msgstr "José E. Rodó"
+#: recursos/4soriano/datos/levels.py:91
+msgid "José Enrique Rodó"
+msgstr "José Enrique Rodó"
 
 #: recursos/0uruguay/datos/0uruguay.py:73 recursos/0uruguay/datos/levels.py:93
 #: recursos/4colonia/datos/4colonia.py:27 recursos/4colonia/datos/levels.py:24
@@ -1293,13 +1318,13 @@ msgstr "Jezioro Castillos"
 #: recursos/0uruguay/datos/0uruguay.py:159
 #: recursos/0uruguay/datos/levels.py:176 recursos/4rocha/datos/4rocha.py:64
 msgid "Laguna de Rocha"
-msgstr ""
+msgstr "Jezioro Rocha"
 
 #: recursos/0uruguay/datos/0uruguay.py:160
 #: recursos/0uruguay/datos/levels.py:177
 #: recursos/4maldonado/datos/4maldonado.py:54
 msgid "Laguna del Sauce"
-msgstr ""
+msgstr "Jezioro Sauce"
 
 #: recursos/0uruguay/datos/0uruguay.py:164
 #: recursos/0uruguay/datos/0uruguay.py:165
@@ -1420,6 +1445,10 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:86
 #: recursos/4maldonado/datos/levels.py:87
 #: recursos/4maldonado/datos/levels.py:88
+#: recursos/4montevideo/datos/4montevideo.py:98
+#: recursos/4montevideo/datos/4montevideo.py:99
+#: recursos/4montevideo/datos/levels.py:125
+#: recursos/4montevideo/datos/levels.py:126
 #: recursos/4paysandu/datos/4paysandu.py:96
 #: recursos/4paysandu/datos/4paysandu.py:97
 #: recursos/4paysandu/datos/4paysandu.py:98
@@ -1508,7 +1537,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:79
 #, python-format
 msgid "Route %s"
-msgstr "Droga %s"
+msgstr "Droga %"
 
 #: recursos/0uruguay/datos/0uruguay.py:181
 msgid "Capital:"
@@ -2044,7 +2073,7 @@ msgstr "Spróbuj jeszcze raz"
 
 #: recursos/0uruguay/datos/levels.py:85
 msgid "the center"
-msgstr ""
+msgstr "centrum"
 
 #: recursos/0uruguay/datos/levels.py:88 recursos/0uruguay/datos/levels.py:107
 #: recursos/0uruguay/datos/levels.py:140
@@ -2476,8 +2505,9 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:39 recursos/4salto/datos/4salto.py:58
 #: recursos/4salto/datos/levels.py:57 recursos/4soriano/datos/4soriano.py:50
 #: recursos/4soriano/datos/levels.py:51
+#, fuzzy
 msgid "Arroyo Sarandí"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4artigas/datos/4artigas.py:41 recursos/4artigas/datos/levels.py:40
 msgid "Arroyo Yucutuya"
@@ -2492,8 +2522,9 @@ msgid "Arroyo Cuaro Chico"
 msgstr ""
 
 #: recursos/4artigas/datos/4artigas.py:44 recursos/4artigas/datos/levels.py:43
+#, fuzzy
 msgid "Arroyo Pelado"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4artigas/datos/4artigas.py:45 recursos/4artigas/datos/levels.py:44
 msgid "Arroyo Tres Cruces Grande"
@@ -2512,8 +2543,9 @@ msgid "Arroyo Catalancito"
 msgstr ""
 
 #: recursos/4artigas/datos/4artigas.py:49 recursos/4artigas/datos/levels.py:48
+#, fuzzy
 msgid "Arroyo Maneco"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4artigas/datos/4artigas.py:50 recursos/4artigas/datos/levels.py:49
 msgid "Arroyo de la Invernada"
@@ -2529,24 +2561,28 @@ msgid "Arroyo Yacuy"
 msgstr ""
 
 #: recursos/4artigas/datos/4artigas.py:53 recursos/4artigas/datos/levels.py:52
+#, fuzzy
 msgid "Arroyo Ceballos"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4artigas/datos/4artigas.py:54 recursos/4artigas/datos/levels.py:53
 #: recursos/4durazno/datos/4durazno.py:54 recursos/4durazno/datos/levels.py:67
 #: recursos/4maldonado/datos/4maldonado.py:46
 #: recursos/4maldonado/datos/levels.py:47 recursos/4salto/datos/4salto.py:48
 #: recursos/4salto/datos/levels.py:47
+#, fuzzy
 msgid "Arroyo de las Cañas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4artigas/datos/4artigas.py:55 recursos/4artigas/datos/levels.py:54
+#, fuzzy
 msgid "Arroyo Patitos"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4artigas/datos/4artigas.py:56 recursos/4artigas/datos/levels.py:55
+#, fuzzy
 msgid "Arroyo Sequeira"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4artigas/datos/4artigas.py:57 recursos/4artigas/datos/levels.py:56
 msgid "Arroyo Espinillo"
@@ -2635,8 +2671,11 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:14
 #: recursos/4treinta_y_tres/datos/levels.py:17
 #, python-format
+#, python-format, fuzzy
 msgid "the city of %s"
 msgstr ""
+"miasto\n"
+"%s"
 
 #: recursos/4artigas/datos/levels.py:13
 #: recursos/4canelones/datos/levels.py:101
@@ -3270,8 +3309,9 @@ msgstr ""
 
 #: recursos/4canelones/datos/4canelones.py:62
 #: recursos/4canelones/datos/levels.py:103
+#, fuzzy
 msgid "Arroyo Pando"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4canelones/datos/4canelones.py:63
 #: recursos/4canelones/datos/levels.py:104
@@ -3298,8 +3338,9 @@ msgstr ""
 #: recursos/4maldonado/datos/4maldonado.py:42
 #: recursos/4maldonado/datos/levels.py:43 recursos/4rocha/datos/4rocha.py:44
 #: recursos/4rocha/datos/levels.py:45
+#, fuzzy
 msgid "Arroyo Sauce"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4canelones/datos/4canelones.py:67
 #: recursos/4canelones/datos/levels.py:108
@@ -3310,8 +3351,9 @@ msgstr ""
 #: recursos/4canelones/datos/levels.py:109
 #: recursos/4montevideo/datos/4montevideo.py:63
 #: recursos/4montevideo/datos/levels.py:85
+#, fuzzy
 msgid "Arroyo de las Piedras"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4canelones/datos/4canelones.py:69
 #: recursos/4canelones/datos/levels.py:110
@@ -3324,8 +3366,9 @@ msgstr ""
 #: recursos/4canelones/datos/levels.py:111
 #: recursos/4montevideo/datos/4montevideo.py:64
 #: recursos/4montevideo/datos/levels.py:86
+#, fuzzy
 msgid "Arroyo Toledo"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4canelones/datos/4canelones.py:71
 #: recursos/4canelones/datos/levels.py:112
@@ -3831,16 +3874,18 @@ msgstr "Cerro del Medio"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:37
 #: recursos/4cerro_largo/datos/levels.py:36
+#, fuzzy
 msgid "Arroyo Santos"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:38
 #: recursos/4cerro_largo/datos/levels.py:37
 #: recursos/4flores/datos/4flores.py:48 recursos/4flores/datos/levels.py:63
 #: recursos/4tacuarembo/datos/4tacuarembo.py:43
 #: recursos/4tacuarembo/datos/levels.py:57
+#, fuzzy
 msgid "Arroyo Malo"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:39
 #: recursos/4cerro_largo/datos/levels.py:38
@@ -3914,16 +3959,18 @@ msgstr ""
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:50
 #: recursos/4cerro_largo/datos/levels.py:49
+#, fuzzy
 msgid "Arroyo Aceguá"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:51
 #: recursos/4cerro_largo/datos/levels.py:50
 #: recursos/4florida/datos/4florida.py:67 recursos/4florida/datos/levels.py:82
 #: recursos/4montevideo/datos/4montevideo.py:60
 #: recursos/4montevideo/datos/levels.py:82
+#, fuzzy
 msgid "Arroyo Pantanoso"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:56
 #: recursos/4cerro_largo/datos/levels.py:60
@@ -4104,13 +4151,15 @@ msgstr ""
 
 #: recursos/4colonia/datos/4colonia.py:59
 #: recursos/4colonia/datos/levels.py:105
+#, fuzzy
 msgid "Arroyo de las Víboras"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4colonia/datos/4colonia.py:60
 #: recursos/4colonia/datos/levels.py:106
+#, fuzzy
 msgid "Arroyo de las Vacas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4colonia/datos/4colonia.py:61
 #: recursos/4colonia/datos/levels.py:107
@@ -4127,13 +4176,15 @@ msgstr ""
 
 #: recursos/4colonia/datos/4colonia.py:63
 #: recursos/4colonia/datos/levels.py:109
+#, fuzzy
 msgid "Arroyo del General"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4colonia/datos/4colonia.py:64
 #: recursos/4colonia/datos/levels.py:110
+#, fuzzy
 msgid "Arroyo Colla"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4colonia/datos/4colonia.py:65
 #: recursos/4colonia/datos/levels.py:111
@@ -4144,8 +4195,9 @@ msgstr ""
 #: recursos/4colonia/datos/levels.py:113
 #: recursos/4san_jose/datos/4san_jose.py:50
 #: recursos/4san_jose/datos/levels.py:65
+#, fuzzy
 msgid "Arroyo Cufré"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4colonia/datos/4colonia.py:67
 #: recursos/4colonia/datos/levels.py:112 recursos/4rivera/datos/4rivera.py:48
@@ -4177,13 +4229,15 @@ msgstr ""
 #: recursos/4colonia/datos/levels.py:118
 #: recursos/4lavalleja/datos/4lavalleja.py:49
 #: recursos/4lavalleja/datos/levels.py:64
+#, fuzzy
 msgid "Arroyo Polanco"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4colonia/datos/4colonia.py:74
 #: recursos/4colonia/datos/levels.py:119
+#, fuzzy
 msgid "Arroyo Minuano"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4colonia/datos/4colonia.py:78
 #: recursos/4colonia/datos/levels.py:129
@@ -4363,9 +4417,8 @@ msgstr ""
 
 #: recursos/4colonia/datos/levels.py:55
 msgid ""
-"where at one time\n"
-"had a large native\n"
-"tree forest"
+"where there was once\n"
+"a large native forest"
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:56
@@ -4377,8 +4430,8 @@ msgstr ""
 
 #: recursos/4colonia/datos/levels.py:57
 msgid ""
-"a city with more\n"
-"than 200 years"
+"a city more than\n"
+"200 years old"
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:58
@@ -4428,20 +4481,20 @@ msgstr ""
 #: recursos/4colonia/datos/levels.py:64
 msgid ""
 "a city founded by\n"
-"immigrants Waldenses\n"
-"of Piedmont region"
+"Waldensian immigrants\n"
+"from the Piedmont region"
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:65
 msgid ""
-"where they meet\n"
-"three routes"
+"where three\n"
+"routes meet"
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:66
 msgid ""
-"a town named from\n"
-"a natural source of water"
+"a town named for its\n"
+"natural water source"
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:67
@@ -4459,8 +4512,8 @@ msgstr ""
 #: recursos/4colonia/datos/levels.py:69
 msgid ""
 "a town bearing\n"
-"the name a\n"
-"poisonous vermin"
+"the name of a\n"
+"poisonous creature"
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:70
@@ -4477,15 +4530,19 @@ msgid ""
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:78
-msgid "Beachs"
+msgid "Beaches"
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:82
-msgid "a resort that \"gets sleepy\""
+msgid ""
+"a resort that\n"
+"\"gets sleepy\""
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:83 recursos/4colonia/datos/levels.py:91
-msgid "a resort with holy name"
+msgid ""
+"a resort named\n"
+"for a saint"
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:84
@@ -4496,9 +4553,10 @@ msgid ""
 msgstr ""
 
 #: recursos/4colonia/datos/levels.py:85
+#, fuzzy
 msgid ""
 "a city whose name\n"
-"is synonymous of\n"
+"is synonymous with\n"
 "promoting"
 msgstr ""
 "miasto, którego nazwa\n"
@@ -4611,12 +4669,14 @@ msgstr ""
 #: recursos/4flores/datos/4flores.py:54 recursos/4flores/datos/levels.py:69
 #: recursos/4florida/datos/4florida.py:57 recursos/4florida/datos/levels.py:72
 #: recursos/4soriano/datos/4soriano.py:44 recursos/4soriano/datos/levels.py:45
+#, fuzzy
 msgid "Arroyo Maciel"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4durazno/datos/4durazno.py:46 recursos/4durazno/datos/levels.py:59
+#, fuzzy
 msgid "Arroyo de Tejera"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4durazno/datos/4durazno.py:47 recursos/4durazno/datos/levels.py:60
 msgid "Arroyo Tomás Cuadra"
@@ -4635,8 +4695,9 @@ msgid "Arroyo Malbajar"
 msgstr ""
 
 #: recursos/4durazno/datos/4durazno.py:52 recursos/4durazno/datos/levels.py:65
+#, fuzzy
 msgid "Arroyo Palmas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4durazno/datos/4durazno.py:53 recursos/4durazno/datos/levels.py:66
 msgid "Arroyo Blanquillo"
@@ -4688,8 +4749,9 @@ msgstr ""
 #: recursos/4rio_negro/datos/4rio_negro.py:35
 #: recursos/4rio_negro/datos/levels.py:34
 #: recursos/4soriano/datos/4soriano.py:56 recursos/4soriano/datos/levels.py:57
+#, fuzzy
 msgid "Arroyo Grande"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4flores/datos/4flores.py:31 recursos/4flores/datos/levels.py:46
 msgid "Arroyo Marincho"
@@ -4699,12 +4761,14 @@ msgstr ""
 #: recursos/4maldonado/datos/4maldonado.py:41
 #: recursos/4maldonado/datos/levels.py:42 recursos/4rivera/datos/4rivera.py:42
 #: recursos/4rivera/datos/levels.py:42
+#, fuzzy
 msgid "Arroyo Coronilla"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4flores/datos/4flores.py:33 recursos/4flores/datos/levels.py:48
+#, fuzzy
 msgid "Arroyo Sarandi"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4flores/datos/4flores.py:34 recursos/4flores/datos/levels.py:49
 msgid "Arroyo Porongos"
@@ -4719,16 +4783,18 @@ msgid "Arroyo San Gregorio"
 msgstr ""
 
 #: recursos/4flores/datos/4flores.py:38 recursos/4flores/datos/levels.py:53
+#, fuzzy
 msgid "Arroyo Pintos"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4flores/datos/4flores.py:39 recursos/4flores/datos/levels.py:54
 msgid "Arroyo Bolas Grande"
 msgstr ""
 
 #: recursos/4flores/datos/4flores.py:40 recursos/4flores/datos/levels.py:55
+#, fuzzy
 msgid "Arroyo Juncal"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4flores/datos/4flores.py:42 recursos/4flores/datos/levels.py:57
 msgid "Arroyo Ojosmín"
@@ -4747,8 +4813,9 @@ msgid "Arroyo Arenal Chico"
 msgstr ""
 
 #: recursos/4flores/datos/4flores.py:47 recursos/4flores/datos/levels.py:62
+#, fuzzy
 msgid "Arroyo Tala"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4flores/datos/4flores.py:49 recursos/4flores/datos/levels.py:64
 msgid "Arroyo de la Cordobesa"
@@ -4763,8 +4830,9 @@ msgid "Arroyo Chamangá"
 msgstr ""
 
 #: recursos/4flores/datos/4flores.py:52 recursos/4flores/datos/levels.py:67
+#, fuzzy
 msgid "Arroyo de los Ahogados"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4flores/datos/4flores.py:53 recursos/4flores/datos/levels.py:68
 msgid "Arroyo Piedra Sola"
@@ -4772,8 +4840,9 @@ msgstr ""
 
 #: recursos/4flores/datos/4flores.py:55 recursos/4flores/datos/levels.py:70
 #: recursos/4florida/datos/4florida.py:56 recursos/4florida/datos/levels.py:71
+#, fuzzy
 msgid "Arroyo Manguera"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4flores/datos/4flores.py:59 recursos/4flores/datos/levels.py:80
 msgid "Cuchilla Marincho"
@@ -4869,8 +4938,9 @@ msgid "Arroyo Palermo"
 msgstr ""
 
 #: recursos/4florida/datos/4florida.py:49 recursos/4florida/datos/levels.py:64
+#, fuzzy
 msgid "Arroyo de la Cruz"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4florida/datos/4florida.py:50 recursos/4florida/datos/levels.py:65
 msgid "Arroyo Mansavillagra"
@@ -4896,8 +4966,9 @@ msgstr ""
 
 #: recursos/4florida/datos/4florida.py:55 recursos/4florida/datos/levels.py:70
 #: recursos/4soriano/datos/4soriano.py:59 recursos/4soriano/datos/levels.py:60
+#, fuzzy
 msgid "Arroyo Monzón"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4florida/datos/4florida.py:58 recursos/4florida/datos/levels.py:73
 #: recursos/4san_jose/datos/4san_jose.py:43
@@ -4930,8 +5001,9 @@ msgid "Arroyo Chamamé"
 msgstr ""
 
 #: recursos/4florida/datos/4florida.py:64 recursos/4florida/datos/levels.py:79
+#, fuzzy
 msgid "Arroyo la Cruz"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4florida/datos/4florida.py:65 recursos/4florida/datos/levels.py:80
 #: recursos/4lavalleja/datos/4lavalleja.py:36
@@ -4940,12 +5012,14 @@ msgid "Arroyo Casupá"
 msgstr ""
 
 #: recursos/4florida/datos/4florida.py:66 recursos/4florida/datos/levels.py:81
+#, fuzzy
 msgid "Arroyo Pintado"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4florida/datos/4florida.py:69 recursos/4florida/datos/levels.py:84
+#, fuzzy
 msgid "Arroyo Timote"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4florida/datos/4florida.py:70 recursos/4florida/datos/levels.py:85
 msgid "Arroyo Molles de Timote"
@@ -4958,8 +5032,9 @@ msgstr ""
 #: recursos/4florida/datos/4florida.py:72 recursos/4florida/datos/levels.py:87
 #: recursos/4rio_negro/datos/4rio_negro.py:43
 #: recursos/4rio_negro/datos/levels.py:42
+#, fuzzy
 msgid "Arroyo Bellaco"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4florida/datos/4florida.py:73 recursos/4florida/datos/levels.py:88
 #: recursos/4salto/datos/4salto.py:65 recursos/4salto/datos/levels.py:64
@@ -5003,17 +5078,6 @@ msgstr ""
 #: recursos/4florida/datos/levels.py:104 recursos/4rivera/datos/levels.py:83
 msgid "the capital"
 msgstr "stolica"
-
-#: recursos/4lavalleja/datos/4lavalleja.py:18
-#: recursos/4lavalleja/datos/levels.py:27
-#, fuzzy
-msgid "Batlle y Ordoñez"
-msgstr "J. Batlle y Ordóñez"
-
-#: recursos/4lavalleja/datos/4lavalleja.py:19
-#: recursos/4lavalleja/datos/levels.py:28
-msgid "J. P. Varela"
-msgstr ""
 
 #: recursos/4lavalleja/datos/4lavalleja.py:20
 #: recursos/4lavalleja/datos/levels.py:29
@@ -5060,13 +5124,15 @@ msgstr ""
 #: recursos/4lavalleja/datos/levels.py:50
 #: recursos/4maldonado/datos/4maldonado.py:45
 #: recursos/4maldonado/datos/levels.py:46
+#, fuzzy
 msgid "Arroyo Mataojo"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:38
 #: recursos/4lavalleja/datos/levels.py:53
+#, fuzzy
 msgid "Arroyo Gaitea"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:39
 #: recursos/4lavalleja/datos/levels.py:54
@@ -5086,8 +5152,9 @@ msgstr ""
 
 #: recursos/4lavalleja/datos/4lavalleja.py:42
 #: recursos/4lavalleja/datos/levels.py:57
+#, fuzzy
 msgid "Arroyo de la Plata"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:43
 #: recursos/4lavalleja/datos/levels.py:58
@@ -5097,8 +5164,9 @@ msgstr ""
 #: recursos/4lavalleja/datos/4lavalleja.py:44
 #: recursos/4lavalleja/datos/levels.py:59 recursos/4rocha/datos/4rocha.py:60
 #: recursos/4rocha/datos/levels.py:61
+#, fuzzy
 msgid "Arroyo Aiguá"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:45
 #: recursos/4lavalleja/datos/levels.py:60
@@ -5107,13 +5175,15 @@ msgstr ""
 
 #: recursos/4lavalleja/datos/4lavalleja.py:46
 #: recursos/4lavalleja/datos/levels.py:61
+#, fuzzy
 msgid "Arroyo de los Viera"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:47
 #: recursos/4lavalleja/datos/levels.py:62
+#, fuzzy
 msgid "Arroyo Tapes"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:48
 #: recursos/4lavalleja/datos/levels.py:63
@@ -5132,25 +5202,29 @@ msgstr ""
 
 #: recursos/4lavalleja/datos/4lavalleja.py:52
 #: recursos/4lavalleja/datos/levels.py:67
+#, fuzzy
 msgid "Arroyo de los Chanchos"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:53
 #: recursos/4lavalleja/datos/levels.py:68
 #: recursos/4paysandu/datos/4paysandu.py:68
 #: recursos/4paysandu/datos/levels.py:67
+#, fuzzy
 msgid "Arroyo de los Molles"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:54
 #: recursos/4lavalleja/datos/levels.py:69
+#, fuzzy
 msgid "Arroyo de los Tapes"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:55
 #: recursos/4lavalleja/datos/levels.py:70
+#, fuzzy
 msgid "Arroyo Piranga"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:56
 #: recursos/4lavalleja/datos/levels.py:71
@@ -5197,11 +5271,6 @@ msgstr ""
 msgid "Cerro Retamosa"
 msgstr ""
 
-#: recursos/4lavalleja/datos/levels.py:106
-#, fuzzy
-msgid "José Pedro Varela"
-msgstr "J. Pedro Varela"
-
 #: recursos/4maldonado/datos/4maldonado.py:17
 #: recursos/4maldonado/datos/levels.py:12
 msgid "Los Talas"
@@ -5238,13 +5307,15 @@ msgstr ""
 #: recursos/4maldonado/datos/4maldonado.py:33
 #: recursos/4maldonado/datos/levels.py:34 recursos/4rocha/datos/4rocha.py:55
 #: recursos/4rocha/datos/levels.py:56
+#, fuzzy
 msgid "Arroyo Garzón"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4maldonado/datos/4maldonado.py:34
 #: recursos/4maldonado/datos/levels.py:35
+#, fuzzy
 msgid "Arroyo de Rocha"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4maldonado/datos/4maldonado.py:35
 #: recursos/4maldonado/datos/levels.py:36
@@ -5258,8 +5329,9 @@ msgstr ""
 
 #: recursos/4maldonado/datos/4maldonado.py:37
 #: recursos/4maldonado/datos/levels.py:38
+#, fuzzy
 msgid "Arroyo del Aiguá"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4maldonado/datos/4maldonado.py:39
 #: recursos/4maldonado/datos/levels.py:40
@@ -5275,13 +5347,15 @@ msgstr "Cerro Pan de Azúcar"
 
 #: recursos/4maldonado/datos/4maldonado.py:47
 #: recursos/4maldonado/datos/levels.py:48
+#, fuzzy
 msgid "Arroyo de los Caracoles"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4maldonado/datos/4maldonado.py:48
 #: recursos/4maldonado/datos/levels.py:49
+#, fuzzy
 msgid "Arroyo de los Carpés"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4maldonado/datos/4maldonado.py:49
 #: recursos/4maldonado/datos/levels.py:50
@@ -5341,7 +5415,7 @@ msgid "Cerro San Antonio"
 msgstr ""
 
 #: recursos/4maldonado/datos/levels.py:70
-msgid "It's the highest of Uruguay"
+msgid "It's the highest in Uruguay"
 msgstr ""
 
 #: recursos/4maldonado/datos/levels.py:85
@@ -5543,8 +5617,9 @@ msgstr ""
 
 #: recursos/4montevideo/datos/4montevideo.py:49
 #: recursos/4montevideo/datos/levels.py:46
+#, fuzzy
 msgid "Paso de la Arena"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4montevideo/datos/4montevideo.py:50
 #: recursos/4montevideo/datos/levels.py:47
@@ -5568,8 +5643,9 @@ msgstr ""
 
 #: recursos/4montevideo/datos/4montevideo.py:66
 #: recursos/4montevideo/datos/levels.py:88
+#, fuzzy
 msgid "Arroyo Manga"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4montevideo/datos/4montevideo.py:67
 msgid "Cañada Piedritas"
@@ -5633,7 +5709,8 @@ msgid "Mendoza"
 msgstr ""
 
 #: recursos/4montevideo/datos/4montevideo.py:92
-msgid "Gral. Flores"
+#: recursos/4montevideo/datos/levels.py:119
+msgid "General Flores"
 msgstr ""
 
 #: recursos/4montevideo/datos/4montevideo.py:93
@@ -5653,16 +5730,6 @@ msgstr ""
 #: recursos/4montevideo/datos/4montevideo.py:97
 #: recursos/4montevideo/datos/levels.py:124
 msgid "Accesos"
-msgstr ""
-
-#: recursos/4montevideo/datos/4montevideo.py:98
-#: recursos/4montevideo/datos/levels.py:125
-msgid "Ruta 1"
-msgstr ""
-
-#: recursos/4montevideo/datos/4montevideo.py:99
-#: recursos/4montevideo/datos/levels.py:126
-msgid "Ruta 5"
 msgstr ""
 
 #: recursos/4montevideo/datos/4montevideo.py:100
@@ -5746,9 +5813,10 @@ msgid ""
 msgstr ""
 
 #: recursos/4montevideo/datos/levels.py:62
+#, fuzzy
 msgid ""
 "An important football\n"
-"team named after him"
+"team is named after him"
 msgstr ""
 "na jego cześć została nazwana\n"
 "znana drużyna piłkarska"
@@ -5781,8 +5849,8 @@ msgstr ""
 
 #: recursos/4montevideo/datos/levels.py:65
 msgid ""
-"the neighborhood\n"
-"from where the parade of Llamadas start"
+"the neighborhood where\n"
+"the parade of Llamadas starts"
 msgstr ""
 
 #: recursos/4montevideo/datos/levels.py:66
@@ -5833,15 +5901,6 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:118
 msgid "Camino Mendoza"
 msgstr ""
-
-#: recursos/4montevideo/datos/levels.py:119
-msgid "General Flores"
-msgstr ""
-
-#: recursos/4montevideo/datos/levels.py:120
-#, fuzzy
-msgid "José Batlle y Ordóñez"
-msgstr "J. Batlle y Ordóñez"
 
 #: recursos/4montevideo/datos/levels.py:124
 msgid ""
@@ -5941,8 +6000,9 @@ msgstr ""
 #: recursos/4paysandu/datos/levels.py:31 recursos/4paysandu/datos/levels.py:57
 #: recursos/4rio_negro/datos/4rio_negro.py:42
 #: recursos/4rio_negro/datos/levels.py:41
+#, fuzzy
 msgid "Arroyo Negro"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4paysandu/datos/4paysandu.py:38
 #: recursos/4paysandu/datos/levels.py:32
@@ -6001,13 +6061,15 @@ msgstr ""
 
 #: recursos/4paysandu/datos/4paysandu.py:59
 #: recursos/4paysandu/datos/levels.py:58
+#, fuzzy
 msgid "Arroyo Rabón"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4paysandu/datos/4paysandu.py:60
 #: recursos/4paysandu/datos/levels.py:59
+#, fuzzy
 msgid "Arroyo Valdés"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4paysandu/datos/4paysandu.py:61
 #: recursos/4paysandu/datos/levels.py:60
@@ -6042,8 +6104,9 @@ msgstr ""
 
 #: recursos/4paysandu/datos/4paysandu.py:67
 #: recursos/4paysandu/datos/levels.py:66
+#, fuzzy
 msgid "Arroyo de los Corrales"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4paysandu/datos/4paysandu.py:69
 #: recursos/4paysandu/datos/levels.py:68
@@ -6156,8 +6219,9 @@ msgstr ""
 
 #: recursos/4rio_negro/datos/4rio_negro.py:23
 #: recursos/4rio_negro/datos/levels.py:16
+#, fuzzy
 msgid "Paso de la Cruz"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:24
 #: recursos/4rio_negro/datos/levels.py:17
@@ -6181,8 +6245,9 @@ msgstr ""
 
 #: recursos/4rio_negro/datos/4rio_negro.py:36
 #: recursos/4rio_negro/datos/levels.py:35
+#, fuzzy
 msgid "Arroyo de las Flores"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:37
 #: recursos/4rio_negro/datos/levels.py:36
@@ -6228,14 +6293,16 @@ msgstr ""
 #: recursos/4rio_negro/datos/levels.py:48
 #: recursos/4tacuarembo/datos/4tacuarembo.py:45
 #: recursos/4tacuarembo/datos/levels.py:59
+#, fuzzy
 msgid "Arroyo Rolón"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:50
 #: recursos/4rio_negro/datos/levels.py:49 recursos/4rivera/datos/4rivera.py:52
 #: recursos/4rivera/datos/levels.py:52
+#, fuzzy
 msgid "Arroyo Molles"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:55
 #: recursos/4rio_negro/datos/levels.py:60
@@ -6289,20 +6356,23 @@ msgstr ""
 #: recursos/4rivera/datos/4rivera.py:34 recursos/4rivera/datos/levels.py:34
 #: recursos/4san_jose/datos/4san_jose.py:56
 #: recursos/4san_jose/datos/levels.py:71
+#, fuzzy
 msgid "Arroyo Tigre"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rivera/datos/4rivera.py:35 recursos/4rivera/datos/levels.py:35
 msgid "Arroyo Médanos"
 msgstr ""
 
 #: recursos/4rivera/datos/4rivera.py:36 recursos/4rivera/datos/levels.py:36
+#, fuzzy
 msgid "Arroyo Mangueras"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rivera/datos/4rivera.py:37 recursos/4rivera/datos/levels.py:37
+#, fuzzy
 msgid "Arroyo del Ataque"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rivera/datos/4rivera.py:38 recursos/4rivera/datos/levels.py:38
 msgid "Arroyo Batoví Dorado"
@@ -6333,8 +6403,9 @@ msgstr ""
 #: recursos/4rivera/datos/4rivera.py:46 recursos/4rivera/datos/levels.py:46
 #: recursos/4san_jose/datos/4san_jose.py:47
 #: recursos/4san_jose/datos/levels.py:62
+#, fuzzy
 msgid "Arroyo Cerro"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rivera/datos/4rivera.py:47 recursos/4rivera/datos/levels.py:47
 msgid "Arroyo del Hospital"
@@ -6349,8 +6420,9 @@ msgid "Arroyo Zanja Honda"
 msgstr ""
 
 #: recursos/4rivera/datos/4rivera.py:51 recursos/4rivera/datos/levels.py:51
+#, fuzzy
 msgid "Arroyo Blanco"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rivera/datos/4rivera.py:53 recursos/4rivera/datos/levels.py:53
 #: recursos/4tacuarembo/datos/4tacuarembo.py:47
@@ -6376,8 +6448,9 @@ msgid "Cerro del Hospital"
 msgstr ""
 
 #: recursos/4rivera/datos/4rivera.py:68 recursos/4rivera/datos/levels.py:71
+#, fuzzy
 msgid "Cerro de la Cruz"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rivera/datos/4rivera.py:70 recursos/4rivera/datos/levels.py:73
 msgid "Cerro de los Peludos"
@@ -6431,8 +6504,9 @@ msgid "Río San Luis"
 msgstr "Rzeka San Juan"
 
 #: recursos/4rocha/datos/4rocha.py:40 recursos/4rocha/datos/levels.py:41
+#, fuzzy
 msgid "Arroyo de las Pelotas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rocha/datos/4rocha.py:41 recursos/4rocha/datos/levels.py:42
 msgid "Arroyo de la India Muerta"
@@ -6460,8 +6534,9 @@ msgid "Arroyo S. del Peñon"
 msgstr "Cerro del Medio"
 
 #: recursos/4rocha/datos/4rocha.py:49 recursos/4rocha/datos/levels.py:50
+#, fuzzy
 msgid "Arroyo del Chuy"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rocha/datos/4rocha.py:50 recursos/4rocha/datos/levels.py:51
 #, fuzzy
@@ -6469,8 +6544,9 @@ msgid "Arroyo del Peñon"
 msgstr "Cerro del Medio"
 
 #: recursos/4rocha/datos/4rocha.py:52 recursos/4rocha/datos/levels.py:53
+#, fuzzy
 msgid "Arroyo Castillos"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rocha/datos/4rocha.py:53 recursos/4rocha/datos/levels.py:54
 msgid "Arroyo Don Carlos"
@@ -6490,8 +6566,9 @@ msgid "Arroyo del Oeste"
 msgstr "Cerro del Medio"
 
 #: recursos/4rocha/datos/4rocha.py:58 recursos/4rocha/datos/levels.py:59
+#, fuzzy
 msgid "Arroyo de los Rocha"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4rocha/datos/4rocha.py:59 recursos/4rocha/datos/levels.py:60
 msgid "Arroyo del Alférez"
@@ -6605,8 +6682,9 @@ msgid "Arroyo Laureles Chico"
 msgstr ""
 
 #: recursos/4salto/datos/4salto.py:49 recursos/4salto/datos/levels.py:48
+#, fuzzy
 msgid "Arroyo Sopas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4salto/datos/4salto.py:51 recursos/4salto/datos/levels.py:50
 msgid "Arroyo S. Mataojito"
@@ -6633,24 +6711,28 @@ msgid "Arroyo Valentín Grande"
 msgstr ""
 
 #: recursos/4salto/datos/4salto.py:57 recursos/4salto/datos/levels.py:56
+#, fuzzy
 msgid "Arroyo Arerunguá"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4salto/datos/4salto.py:60 recursos/4salto/datos/levels.py:59
+#, fuzzy
 msgid "Arroyo Tapado"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4salto/datos/4salto.py:61 recursos/4salto/datos/levels.py:60
+#, fuzzy
 msgid "Arroyo de los Talas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4salto/datos/4salto.py:62 recursos/4salto/datos/levels.py:61
 msgid "Arroyo Valentín Chico"
 msgstr ""
 
 #: recursos/4salto/datos/4salto.py:63 recursos/4salto/datos/levels.py:62
+#, fuzzy
 msgid "Arroyo Tunas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4salto/datos/4salto.py:64 recursos/4salto/datos/levels.py:63
 msgid "Arroyo S. del Arapey"
@@ -6780,8 +6862,9 @@ msgstr ""
 
 #: recursos/4san_jose/datos/4san_jose.py:44
 #: recursos/4san_jose/datos/levels.py:59
+#, fuzzy
 msgid "Arroyo Mahoma"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4san_jose/datos/4san_jose.py:45
 #: recursos/4san_jose/datos/levels.py:60
@@ -6805,8 +6888,9 @@ msgstr ""
 
 #: recursos/4san_jose/datos/4san_jose.py:52
 #: recursos/4san_jose/datos/levels.py:67
+#, fuzzy
 msgid "Arroyo Pavón"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4san_jose/datos/4san_jose.py:53
 #: recursos/4san_jose/datos/levels.py:68
@@ -6815,8 +6899,9 @@ msgstr ""
 
 #: recursos/4san_jose/datos/4san_jose.py:54
 #: recursos/4san_jose/datos/levels.py:69
+#, fuzzy
 msgid "Arroyo Pereira"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4san_jose/datos/4san_jose.py:57
 #: recursos/4san_jose/datos/levels.py:72
@@ -6830,8 +6915,9 @@ msgstr ""
 
 #: recursos/4san_jose/datos/4san_jose.py:64
 #: recursos/4san_jose/datos/levels.py:85
+#, fuzzy
 msgid "Cuchilla del Tala"
-msgstr ""
+msgstr "Cuchilla de Haedo"
 
 #: recursos/4san_jose/datos/4san_jose.py:65
 #: recursos/4san_jose/datos/levels.py:86
@@ -6907,8 +6993,9 @@ msgid "Arroyo Magallanes"
 msgstr ""
 
 #: recursos/4soriano/datos/4soriano.py:42 recursos/4soriano/datos/levels.py:43
+#, fuzzy
 msgid "Arroyo del Águila"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4soriano/datos/4soriano.py:43 recursos/4soriano/datos/levels.py:44
 msgid "Arroyo del Corralito"
@@ -6924,8 +7011,9 @@ msgid "Arroyo del Medio"
 msgstr "Cerro del Medio"
 
 #: recursos/4soriano/datos/4soriano.py:47 recursos/4soriano/datos/levels.py:48
+#, fuzzy
 msgid "Arroyo de las Maulas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4soriano/datos/4soriano.py:48 recursos/4soriano/datos/levels.py:49
 msgid "Arroyo Bequeló"
@@ -6940,16 +7028,19 @@ msgid "Arroyo Caballudo"
 msgstr ""
 
 #: recursos/4soriano/datos/4soriano.py:52 recursos/4soriano/datos/levels.py:53
+#, fuzzy
 msgid "Arroyo Maia"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4soriano/datos/4soriano.py:53 recursos/4soriano/datos/levels.py:54
+#, fuzzy
 msgid "Arroyo Cololó"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4soriano/datos/4soriano.py:54 recursos/4soriano/datos/levels.py:55
+#, fuzzy
 msgid "Arroyo Perico"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4soriano/datos/4soriano.py:55 recursos/4soriano/datos/levels.py:56
 #, fuzzy
@@ -6992,10 +7083,6 @@ msgstr ""
 msgid "Cerro Curupí"
 msgstr ""
 
-#: recursos/4soriano/datos/levels.py:91
-msgid "José Enrique Rodó"
-msgstr ""
-
 #: recursos/4tacuarembo/datos/4tacuarembo.py:22
 #: recursos/4tacuarembo/datos/levels.py:30
 msgid "Paso del Cerro"
@@ -7024,8 +7111,9 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:31
 #: recursos/4tacuarembo/datos/levels.py:39
 #: recursos/4tacuarembo/datos/levels.py:98
+#, fuzzy
 msgid "Cuchilla de Caraguatá"
-msgstr ""
+msgstr "Cuchilla de Haedo"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:32
 #: recursos/4tacuarembo/datos/levels.py:40
@@ -7065,8 +7153,9 @@ msgstr "Cerro del Medio"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:49
 #: recursos/4tacuarembo/datos/levels.py:63
+#, fuzzy
 msgid "Arroyo de los Sauces"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:51
 #: recursos/4tacuarembo/datos/levels.py:65
@@ -7075,8 +7164,9 @@ msgstr ""
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:52
 #: recursos/4tacuarembo/datos/levels.py:66
+#, fuzzy
 msgid "Arroyo Tranqueras"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:53
 #: recursos/4tacuarembo/datos/levels.py:67
@@ -7090,8 +7180,9 @@ msgstr ""
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:55
 #: recursos/4tacuarembo/datos/levels.py:69
+#, fuzzy
 msgid "Arroyo Cañas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:59
 #: recursos/4tacuarembo/datos/levels.py:79
@@ -7100,13 +7191,15 @@ msgstr "Kościół Trzech Krzyży"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:60
 #: recursos/4tacuarembo/datos/levels.py:80
+#, fuzzy
 msgid "Cuchilla de Yaguarí"
-msgstr ""
+msgstr "Cuchilla de Haedo"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:61
 #: recursos/4tacuarembo/datos/levels.py:81
+#, fuzzy
 msgid "Cuchilla del Caraguata"
-msgstr ""
+msgstr "Cuchilla de Haedo"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:62
 #: recursos/4tacuarembo/datos/levels.py:82
@@ -7159,8 +7252,9 @@ msgstr ""
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:39
 #: recursos/4treinta_y_tres/datos/levels.py:37
+#, fuzzy
 msgid "Arroyo Ayala"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:41
 #: recursos/4treinta_y_tres/datos/levels.py:39
@@ -7174,8 +7268,9 @@ msgstr ""
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:43
 #: recursos/4treinta_y_tres/datos/levels.py:41
+#, fuzzy
 msgid "Arroyo Olazo"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:44
 #: recursos/4treinta_y_tres/datos/levels.py:42
@@ -7189,23 +7284,27 @@ msgstr ""
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:46
 #: recursos/4treinta_y_tres/datos/levels.py:44
+#, fuzzy
 msgid "Arroyo de los Porongos"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:47
 #: recursos/4treinta_y_tres/datos/levels.py:45
+#, fuzzy
 msgid "Arroyo de los Ceibos"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:48
 #: recursos/4treinta_y_tres/datos/levels.py:46
+#, fuzzy
 msgid "Arroyo de las Pavas"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:49
 #: recursos/4treinta_y_tres/datos/levels.py:47
+#, fuzzy
 msgid "Arroyo de las Averías"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:50
 #: recursos/4treinta_y_tres/datos/levels.py:48
@@ -7423,20 +7522,37 @@ msgid ""
 msgstr ""
 
 #: recursos/comun/datos/commons.py:63
+#, fuzzy
 msgid ""
-"Sounds downloaded from freesound.org: btn045.wav by junggle and boom1.wav by "
-"NoiseCollector"
+"Sounds downloaded from freesound.org: junggle_btn117.wav by junggle and "
+"boom1.wav by NoiseCollector"
 msgstr ""
 "Dźwięki pobrane z freesound.org: btn045.wav od junggle oraz boom1.wav od "
 "NoiseCollector"
 
 #: recursos/comun/datos/commons.py:64
-msgid ""
-"Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-"
-"Regular.ttf by anónimo"
+msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
 msgstr ""
-"Czcionki pobrane z urbanfonts.com: AllCaps.ttf od BobFrantic oraz Share-"
-"Regular.ttf od anonima."
+
+#~ msgid ""
+#~ "Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-"
+#~ "Regular.ttf by anónimo"
+#~ msgstr ""
+#~ "Czcionki pobrane z urbanfonts.com: AllCaps.ttf od BobFrantic oraz Share-"
+#~ "Regular.ttf od anonima."
+
+#~ msgid "J. Batlle y Ordóñez"
+#~ msgstr "J. Batlle y Ordóñez"
+
+#~ msgid "J. Pedro Varela"
+#~ msgstr "J. Pedro Varela"
+
+#~ msgid "José E. Rodó"
+#~ msgstr "José E. Rodó"
+
+#, fuzzy
+#~ msgid "Batlle y Ordoñez"
+#~ msgstr "J. Batlle y Ordóñez"
 
 #~ msgid "Está al centro"
 #~ msgstr "Jest w centrum"
