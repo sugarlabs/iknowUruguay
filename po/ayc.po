@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: 2013-01-31 07:30+0200\n"
+"PO-Revision-Date: 2013-04-27 20:42+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ayc\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. TRANS: "description" option from activity.info file
 #: recursos/comun/datos/commons.py:5
 msgid "I know Uruguay"
-msgstr ""
+msgstr "Uruguay marka uñjthwa"
 
 #: conozcouy.py:239 conozcouy.py:356 conozcouy.py:379 conozcouy.py:431
 #: conozcouy.py:517
@@ -129,7 +129,7 @@ msgstr "akïri %s"
 #: conozcouy.py:494
 #, python-format
 msgid "the %(river)s"
-msgstr ""
+msgstr "%(river)s wakichata"
 
 #: conozcouy.py:497
 #, python-format
@@ -147,7 +147,7 @@ msgstr "maski kawkipiri limt'añsa kutt'añataki limt'ma"
 
 #: conozcouy.py:597
 msgid "You have chosen the map "
-msgstr "Akïri suyuna rixipa jajllta ..."
+msgstr "Akïri suyuna rixipa jajllta ... "
 
 #: conozcouy.py:603
 msgid "Play"
@@ -727,7 +727,6 @@ msgstr "Guichón marka"
 #: recursos/4lavalleja/datos/4lavalleja.py:18
 #: recursos/4lavalleja/datos/levels.py:27
 #: recursos/4montevideo/datos/levels.py:120
-#, fuzzy
 msgid "José Batlle y Ordóñez"
 msgstr "José Batlle y Ordóñez p'iqiña kankañani tatanaka"
 
@@ -735,14 +734,13 @@ msgstr "José Batlle y Ordóñez p'iqiña kankañani tatanaka"
 #: recursos/4lavalleja/datos/4lavalleja.py:19
 #: recursos/4lavalleja/datos/levels.py:28
 #: recursos/4lavalleja/datos/levels.py:106
-#, fuzzy
 msgid "José Pedro Varela"
 msgstr "José Pedro Varela p'iqiña kankañani tata"
 
 #: recursos/0uruguay/datos/0uruguay.py:72 recursos/0uruguay/datos/levels.py:92
 #: recursos/4soriano/datos/levels.py:91
 msgid "José Enrique Rodó"
-msgstr ""
+msgstr "José Enrique Rodó p'iqiña kankañani tata"
 
 #: recursos/0uruguay/datos/0uruguay.py:73 recursos/0uruguay/datos/levels.py:93
 #: recursos/4colonia/datos/4colonia.py:27 recursos/4colonia/datos/levels.py:24
@@ -1065,13 +1063,13 @@ msgstr "Medio apu qullu"
 #: recursos/4tacuarembo/datos/4tacuarembo.py:63
 #: recursos/4tacuarembo/datos/levels.py:83
 msgid "Cuchilla de Haedo"
-msgstr ""
+msgstr "Cuchilla de Haedo jach'a khunu qullu"
 
 #: recursos/0uruguay/datos/0uruguay.py:125
 #: recursos/0uruguay/datos/levels.py:189 recursos/0uruguay/datos/levels.py:200
 #: recursos/4rivera/datos/4rivera.py:62 recursos/4rivera/datos/levels.py:68
 msgid "Cuchilla de Santa Ana"
-msgstr ""
+msgstr "Cuchilla de Santa Ana jach'a khunu qullu"
 
 #: recursos/0uruguay/datos/0uruguay.py:126
 #: recursos/0uruguay/datos/levels.py:190
@@ -1087,7 +1085,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:55
 #: recursos/4treinta_y_tres/datos/levels.py:58
 msgid "Cuchilla Grande"
-msgstr ""
+msgstr "Cuchilla Grande jach'a khunu qullu"
 
 #: recursos/0uruguay/datos/0uruguay.py:127
 #: recursos/0uruguay/datos/levels.py:191
@@ -1106,19 +1104,19 @@ msgstr "Cuchilla Grande Inferior marka"
 #: recursos/0uruguay/datos/levels.py:188 recursos/4rivera/datos/4rivera.py:60
 #: recursos/4rivera/datos/levels.py:66
 msgid "Cuchilla Negra"
-msgstr ""
+msgstr "Cuchilla Negra larama jach'a khunu qullu"
 
 #: recursos/0uruguay/datos/0uruguay.py:133
 #: recursos/0uruguay/datos/levels.py:150 recursos/4salto/datos/4salto.py:44
 #: recursos/4salto/datos/levels.py:43
 msgid "Río Arapey Chico"
-msgstr ""
+msgstr "Arapey Chico jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:134
 #: recursos/0uruguay/datos/levels.py:151 recursos/4salto/datos/4salto.py:43
 #: recursos/4salto/datos/levels.py:42
 msgid "Río Arapey Grande"
-msgstr ""
+msgstr "Arapey Grande jach'a jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:135
 #: recursos/0uruguay/datos/levels.py:152
@@ -1128,14 +1126,14 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:35
 #: recursos/4treinta_y_tres/datos/levels.py:33
 msgid "Río Cebollatí"
-msgstr ""
+msgstr "Cebollatí jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:136
 #: recursos/0uruguay/datos/levels.py:153
 #: recursos/4artigas/datos/4artigas.py:33 recursos/4artigas/datos/levels.py:32
 #: recursos/4artigas/datos/levels.py:40 recursos/4artigas/datos/levels.py:44
 msgid "Río Cuareim"
-msgstr ""
+msgstr "Cuareim jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:137
 #: recursos/0uruguay/datos/levels.py:154
@@ -1143,7 +1141,7 @@ msgstr ""
 #: recursos/4paysandu/datos/levels.py:47 recursos/4salto/datos/4salto.py:45
 #: recursos/4salto/datos/levels.py:44
 msgid "Río Daymán"
-msgstr ""
+msgstr "Daymán jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:139
 #: recursos/0uruguay/datos/levels.py:156
@@ -1152,42 +1150,41 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:33
 #: recursos/4treinta_y_tres/datos/levels.py:31
 msgid "Río Olimar Chico"
-msgstr ""
+msgstr "Olimar Chico jisk'a jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:140
 #: recursos/0uruguay/datos/levels.py:157
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:32
 #: recursos/4treinta_y_tres/datos/levels.py:30
 msgid "Río Olimar Grande"
-msgstr ""
+msgstr "Olimar Grande jach'a jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:141
 #: recursos/0uruguay/datos/levels.py:158
 #: recursos/4paysandu/datos/4paysandu.py:49
 #: recursos/4paysandu/datos/levels.py:49
 msgid "Río Queguay Chico"
-msgstr ""
+msgstr "Queguay Chico jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:142
 #: recursos/0uruguay/datos/levels.py:159
 msgid "Río Queguay"
-msgstr ""
+msgstr "Queguay jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:143
 #: recursos/0uruguay/datos/levels.py:160
 #: recursos/4colonia/datos/4colonia.py:58
 #: recursos/4colonia/datos/levels.py:102
 msgid "Río Rosario"
-msgstr ""
+msgstr "Rosario jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:144
 #: recursos/0uruguay/datos/levels.py:161 recursos/4flores/datos/4flores.py:27
 #: recursos/4flores/datos/levels.py:42
 #: recursos/4san_jose/datos/4san_jose.py:42
 #: recursos/4san_jose/datos/levels.py:57
-#, fuzzy
 msgid "Río San José"
-msgstr "San Juan jawira"
+msgstr "San José jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:145
 #: recursos/0uruguay/datos/levels.py:162
@@ -1199,7 +1196,6 @@ msgstr "San Juan jawira"
 #: recursos/0uruguay/datos/0uruguay.py:146
 #: recursos/0uruguay/datos/levels.py:163
 #: recursos/4soriano/datos/4soriano.py:37 recursos/4soriano/datos/levels.py:38
-#, fuzzy
 msgid "Río San Salvador"
 msgstr "San Salvador jawira"
 
@@ -1219,13 +1215,13 @@ msgstr "San Salvador jawira"
 #: recursos/4san_jose/datos/4san_jose.py:41
 #: recursos/4san_jose/datos/levels.py:56
 msgid "Río Santa Lucía"
-msgstr ""
+msgstr "Santa Lucía jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:148
 #: recursos/0uruguay/datos/levels.py:165
 #: recursos/4florida/datos/4florida.py:47 recursos/4florida/datos/levels.py:62
 msgid "Río Santa Lucía Chico"
-msgstr ""
+msgstr "Santa Lucía Chico jisk'a jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:149
 #: recursos/0uruguay/datos/levels.py:166 recursos/4rivera/datos/4rivera.py:31
@@ -1233,7 +1229,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:38
 #: recursos/4tacuarembo/datos/levels.py:52
 msgid "Río Tacuarembó"
-msgstr ""
+msgstr "Tacuarembó jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:150
 #: recursos/0uruguay/datos/levels.py:167
@@ -1242,7 +1238,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:34
 #: recursos/4treinta_y_tres/datos/levels.py:32
 msgid "Río Tacuarí"
-msgstr ""
+msgstr "Tacuarí jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:151
 #: recursos/0uruguay/datos/levels.py:168
@@ -1256,19 +1252,19 @@ msgstr ""
 #: recursos/4salto/datos/levels.py:41 recursos/4soriano/datos/4soriano.py:34
 #: recursos/4soriano/datos/levels.py:35
 msgid "Río Uruguay"
-msgstr ""
+msgstr "Uruguay jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:152
 #: recursos/0uruguay/datos/levels.py:169
 #: recursos/4cerro_largo/datos/4cerro_largo.py:33
 #: recursos/4cerro_largo/datos/levels.py:32
 msgid "Río Yaguarón"
-msgstr ""
+msgstr "Yaguarón jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:153
 #: recursos/0uruguay/datos/levels.py:170
 msgid "Río Yi"
-msgstr ""
+msgstr "Yí jawira"
 
 #: recursos/0uruguay/datos/0uruguay.py:154
 #: recursos/0uruguay/datos/levels.py:171
@@ -1305,29 +1301,29 @@ msgstr "Océano Atlántico jach'a lamara quta"
 #: recursos/4rocha/datos/4rocha.py:61
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:51
 msgid "Laguna Merín"
-msgstr ""
+msgstr "Merín qutaña"
 
 #: recursos/0uruguay/datos/0uruguay.py:157
 #: recursos/0uruguay/datos/levels.py:174 recursos/4rocha/datos/4rocha.py:62
 #: recursos/4rocha/datos/levels.py:24
 msgid "Laguna Negra"
-msgstr ""
+msgstr "Larama qutaña"
 
 #: recursos/0uruguay/datos/0uruguay.py:158
 #: recursos/0uruguay/datos/levels.py:175
 msgid "Laguna de Castillos"
-msgstr ""
+msgstr "De Castillos qutaña"
 
 #: recursos/0uruguay/datos/0uruguay.py:159
 #: recursos/0uruguay/datos/levels.py:176 recursos/4rocha/datos/4rocha.py:64
 msgid "Laguna de Rocha"
-msgstr ""
+msgstr "De Rocha qutaña"
 
 #: recursos/0uruguay/datos/0uruguay.py:160
 #: recursos/0uruguay/datos/levels.py:177
 #: recursos/4maldonado/datos/4maldonado.py:54
 msgid "Laguna del Sauce"
-msgstr ""
+msgstr "Sauce qutaña"
 
 #: recursos/0uruguay/datos/0uruguay.py:164
 #: recursos/0uruguay/datos/0uruguay.py:165
@@ -1539,9 +1535,9 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:78
 #: recursos/4treinta_y_tres/datos/levels.py:79
 #, python-format
-#, python-format, fuzzy
+#, python-format, 
 msgid "Route %s"
-msgstr "Thakinaka"
+msgstr "Thaki %s"
 
 #: recursos/0uruguay/datos/0uruguay.py:181
 msgid "Capital:"
@@ -2081,7 +2077,6 @@ msgstr "Taypiru"
 
 #: recursos/0uruguay/datos/levels.py:88 recursos/0uruguay/datos/levels.py:107
 #: recursos/0uruguay/datos/levels.py:140
-#, fuzzy
 msgid "Rio Negro"
 msgstr "Ch'amaka jawira"
 
@@ -2105,6 +2100,8 @@ msgid ""
 "It's the capital of\n"
 "the department"
 msgstr ""
+"Uka markana jilïri markapa\n"
+"departamento suyu"
 
 #: recursos/0uruguay/datos/levels.py:151 recursos/0uruguay/datos/levels.py:152
 #: recursos/0uruguay/datos/levels.py:154 recursos/0uruguay/datos/levels.py:159
@@ -2122,7 +2119,7 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:83
 #, python-format
 msgid "Flows into the %s"
-msgstr ""
+msgstr "Jalxatiwa uka %s"
 
 #: recursos/0uruguay/datos/levels.py:155
 msgid "Has three dams"
@@ -2173,7 +2170,6 @@ msgstr "Kimsa uma irpa jark'añaniwa"
 #: recursos/4tacuarembo/datos/levels.py:63
 #: recursos/4treinta_y_tres/datos/levels.py:37
 #: recursos/4treinta_y_tres/datos/levels.py:47
-#, fuzzy
 msgid "It's in the east"
 msgstr "Taypinkiwa"
 
@@ -2242,9 +2238,8 @@ msgstr "Taypinkiwa"
 #: recursos/4treinta_y_tres/datos/levels.py:38
 #: recursos/4treinta_y_tres/datos/levels.py:40
 #: recursos/4treinta_y_tres/datos/levels.py:41
-#, fuzzy
 msgid "It's in the north"
-msgstr "Taypinkiwa"
+msgstr "Ch'iqäxankiwa"
 
 #: recursos/0uruguay/datos/levels.py:188 recursos/4artigas/datos/levels.py:31
 #: recursos/4artigas/datos/levels.py:32 recursos/4artigas/datos/levels.py:33
@@ -2288,6 +2283,8 @@ msgid ""
 "It's on the border\n"
 "with %s"
 msgstr ""
+"Qurpankiwa\n"
+"ukampi %s"
 
 #: recursos/0uruguay/datos/levels.py:188
 #: recursos/4artigas/datos/4artigas.py:14 recursos/4artigas/datos/levels.py:32
@@ -2298,7 +2295,6 @@ msgstr ""
 #: recursos/4rocha/datos/4rocha.py:12 recursos/4salto/datos/4salto.py:14
 #: recursos/4tacuarembo/datos/4tacuarembo.py:17
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:14
-#, fuzzy
 msgid "Brasil"
 msgstr "Brasil marka"
 
@@ -2382,9 +2378,8 @@ msgstr "Brasil marka"
 #: recursos/4tacuarembo/datos/levels.py:60
 #: recursos/4treinta_y_tres/datos/levels.py:30
 #: recursos/4treinta_y_tres/datos/levels.py:34
-#, fuzzy
 msgid "It's in the south"
-msgstr "Taypinkiwa"
+msgstr "Kupïxankiwa"
 
 #: recursos/0uruguay/datos/levels.py:213 recursos/0uruguay/datos/levels.py:218
 #: recursos/0uruguay/datos/levels.py:219 recursos/0uruguay/datos/levels.py:220
@@ -2424,7 +2419,7 @@ msgstr "Taypinkiwa"
 #: recursos/4treinta_y_tres/datos/levels.py:79
 #, python-format
 msgid "Passes through %s"
-msgstr ""
+msgstr "Uknama sari %s"
 
 #: recursos/0uruguay/datos/levels.py:217
 #: recursos/4canelones/datos/levels.py:139
@@ -2439,11 +2434,11 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:101
 #, python-format
 msgid "Ends in %s"
-msgstr ""
+msgstr "Tukuyiwa ukaru %s"
 
 #: recursos/0uruguay/datos/levels.py:222
 msgid "and"
-msgstr ""
+msgstr "ukata"
 
 #: recursos/4artigas/datos/4artigas.py:13 recursos/4artigas/datos/levels.py:31
 #: recursos/4paysandu/datos/4paysandu.py:13
@@ -2454,57 +2449,57 @@ msgstr "Argentina marka"
 
 #: recursos/4artigas/datos/4artigas.py:21 recursos/4artigas/datos/levels.py:14
 msgid "Colonia Palma"
-msgstr ""
+msgstr "Colonia Palma marka"
 
 #: recursos/4artigas/datos/4artigas.py:22 recursos/4artigas/datos/levels.py:15
 msgid "Paso Farías"
-msgstr ""
+msgstr "Paso Farías marka"
 
 #: recursos/4artigas/datos/4artigas.py:24 recursos/4artigas/datos/levels.py:17
 msgid "Bernabé Rivera"
-msgstr ""
+msgstr "Bernabé Rivera p'iqiña kankañani tata"
 
 #: recursos/4artigas/datos/4artigas.py:25 recursos/4artigas/datos/levels.py:18
 msgid "Diego Lamas"
-msgstr ""
+msgstr "Diego Lamas p'iqiña kankañani tata"
 
 #: recursos/4artigas/datos/4artigas.py:26 recursos/4artigas/datos/levels.py:19
 msgid "Paso Campamento"
-msgstr ""
+msgstr "Paso Campamento marka"
 
 #: recursos/4artigas/datos/4artigas.py:27 recursos/4artigas/datos/levels.py:20
 msgid "Sequeira"
-msgstr ""
+msgstr "Sequeira marka"
 
 #: recursos/4artigas/datos/4artigas.py:28 recursos/4artigas/datos/levels.py:21
 msgid "Catalán"
-msgstr ""
+msgstr "Catalán marka"
 
 #: recursos/4artigas/datos/4artigas.py:34 recursos/4artigas/datos/levels.py:33
 msgid "Río Arapey"
-msgstr ""
+msgstr "Arapey jawira"
 
 #: recursos/4artigas/datos/4artigas.py:35 recursos/4artigas/datos/levels.py:34
 msgid "Arroyo Itacumbú"
-msgstr ""
+msgstr "Arroyo Itacumbú uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:36 recursos/4artigas/datos/levels.py:35
 msgid "Arroyo Ñaquiña"
-msgstr ""
+msgstr "Arroyo Ñaquiña uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:37 recursos/4artigas/datos/levels.py:36
 msgid "Arroyo Mandiyú"
-msgstr ""
+msgstr "Arroyo Mandiyú uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:38 recursos/4artigas/datos/levels.py:37
 #: recursos/4paysandu/datos/4paysandu.py:51
 #: recursos/4paysandu/datos/levels.py:50
 msgid "Arroyo Guaviyú"
-msgstr ""
+msgstr "Arroyo Guaviyú uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:39 recursos/4artigas/datos/levels.py:38
 msgid "Arroyo Palma Sola Grande"
-msgstr ""
+msgstr "Arroyo Palma Sola Grande uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:40 recursos/4artigas/datos/levels.py:39
 #: recursos/4canelones/datos/4canelones.py:59
@@ -2515,60 +2510,60 @@ msgstr ""
 #: recursos/4salto/datos/levels.py:57 recursos/4soriano/datos/4soriano.py:50
 #: recursos/4soriano/datos/levels.py:51
 msgid "Arroyo Sarandí"
-msgstr ""
+msgstr "Arroyo Sarandí uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:41 recursos/4artigas/datos/levels.py:40
 msgid "Arroyo Yucutuya"
-msgstr ""
+msgstr "Arroyo Yucutuya uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:42 recursos/4artigas/datos/levels.py:41
 msgid "Arroyo Cuaro Grande"
-msgstr ""
+msgstr "Arroyo Cuaro Grande uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:43 recursos/4artigas/datos/levels.py:42
 msgid "Arroyo Cuaro Chico"
-msgstr ""
+msgstr "Arroyo Cuaro Chico uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:44 recursos/4artigas/datos/levels.py:43
 msgid "Arroyo Pelado"
-msgstr ""
+msgstr "Arroyo Pelado uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:45 recursos/4artigas/datos/levels.py:44
 msgid "Arroyo Tres Cruces Grande"
-msgstr ""
+msgstr "Arroyo Tres Cruces Grande uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:46 recursos/4artigas/datos/levels.py:45
 msgid "Arroyo Catalán Grande"
-msgstr ""
+msgstr "Arroyo Catalán Grande uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:47 recursos/4artigas/datos/levels.py:46
 msgid "Arroyo Catalán Chico"
-msgstr ""
+msgstr "Arroyo Catalán Chico uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:48 recursos/4artigas/datos/levels.py:47
 msgid "Arroyo Catalancito"
-msgstr ""
+msgstr "Arroyo Catalancito uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:49 recursos/4artigas/datos/levels.py:48
 msgid "Arroyo Maneco"
-msgstr ""
+msgstr "Arroyo Maneco uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:50 recursos/4artigas/datos/levels.py:49
 msgid "Arroyo de la Invernada"
-msgstr ""
+msgstr "Arroyo de la Invernada uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:51 recursos/4artigas/datos/levels.py:50
 msgid "Arroyo Sepultura"
-msgstr ""
+msgstr "Arroyo Sepultura uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:52 recursos/4artigas/datos/levels.py:51
 #: recursos/4salto/datos/4salto.py:70 recursos/4salto/datos/levels.py:69
 msgid "Arroyo Yacuy"
-msgstr ""
+msgstr "Arroyo Yacuy uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:53 recursos/4artigas/datos/levels.py:52
 msgid "Arroyo Ceballos"
-msgstr ""
+msgstr "Arroyo Ceballos uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:54 recursos/4artigas/datos/levels.py:53
 #: recursos/4durazno/datos/4durazno.py:54 recursos/4durazno/datos/levels.py:67
@@ -2576,37 +2571,37 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:47 recursos/4salto/datos/4salto.py:48
 #: recursos/4salto/datos/levels.py:47
 msgid "Arroyo de las Cañas"
-msgstr ""
+msgstr "Arroyo de las Cañas uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:55 recursos/4artigas/datos/levels.py:54
 msgid "Arroyo Patitos"
-msgstr ""
+msgstr "Arroyo Patitos uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:56 recursos/4artigas/datos/levels.py:55
 msgid "Arroyo Sequeira"
-msgstr ""
+msgstr "Arroyo Sequeira uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:57 recursos/4artigas/datos/levels.py:56
 msgid "Arroyo Espinillo"
-msgstr ""
+msgstr "Arroyo Espinillo uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:58 recursos/4artigas/datos/levels.py:57
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:37
 #: recursos/4treinta_y_tres/datos/levels.py:35
 msgid "Arroyo Sarandí Grande"
-msgstr ""
+msgstr "Arroyo Sarandí Grande uma irpa"
 
 #: recursos/4artigas/datos/4artigas.py:62 recursos/4artigas/datos/levels.py:67
 msgid "Cuchilla Yacaré Cururú"
-msgstr ""
+msgstr "Cuchilla Yacaré Cururú khunu qullu"
 
 #: recursos/4artigas/datos/4artigas.py:63 recursos/4artigas/datos/levels.py:68
 msgid "Cuchilla de Belén"
-msgstr ""
+msgstr "Cuchilla de Belén khunu qullu"
 
 #: recursos/4artigas/datos/4artigas.py:68 recursos/4artigas/datos/levels.py:70
 msgid "Tres Cerros de Catalán"
-msgstr ""
+msgstr "Catalán kimsa qullu"
 
 #: recursos/4artigas/datos/4artigas.py:69 recursos/4artigas/datos/levels.py:71
 msgid "Cerro Pintado"
@@ -2715,9 +2710,8 @@ msgstr "akïri markapa %s"
 #: recursos/4tacuarembo/datos/levels.py:68
 #: recursos/4tacuarembo/datos/levels.py:86
 #: recursos/4treinta_y_tres/datos/levels.py:12
-#, fuzzy
 msgid "It's in the northwest"
-msgstr "Taypinkiwa"
+msgstr "Ch'iqäxa inti jalsu tuqinkiri"
 
 #: recursos/4artigas/datos/levels.py:14 recursos/4artigas/datos/levels.py:15
 #: recursos/4artigas/datos/levels.py:16 recursos/4artigas/datos/levels.py:17
@@ -2839,7 +2833,7 @@ msgstr "Taypinkiwa"
 #: recursos/4treinta_y_tres/datos/levels.py:20
 #, python-format
 msgid "the town of %s"
-msgstr ""
+msgstr "Ukana markapa %s"
 
 #: recursos/4artigas/datos/levels.py:14 recursos/4canelones/datos/levels.py:13
 #: recursos/4canelones/datos/levels.py:16
@@ -2894,9 +2888,8 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:46
 #: recursos/4treinta_y_tres/datos/levels.py:48
 #: recursos/4treinta_y_tres/datos/levels.py:63
-#, fuzzy
 msgid "It's in the west"
-msgstr "Taypinkiwa"
+msgstr "Inti jalanta tuqinkiwa"
 
 #: recursos/4artigas/datos/levels.py:15 recursos/4artigas/datos/levels.py:18
 #: recursos/4artigas/datos/levels.py:19 recursos/4artigas/datos/levels.py:42
@@ -2971,7 +2964,6 @@ msgstr "Taypinkiwa"
 #: recursos/4treinta_y_tres/datos/levels.py:44
 #: recursos/4treinta_y_tres/datos/levels.py:45
 #: recursos/4treinta_y_tres/datos/levels.py:64
-#, fuzzy
 msgid "It's in the center"
 msgstr "Taypinkiwa"
 
@@ -3017,9 +3009,8 @@ msgstr "Taypinkiwa"
 #: recursos/4tacuarembo/datos/levels.py:56
 #: recursos/4tacuarembo/datos/levels.py:59
 #: recursos/4treinta_y_tres/datos/levels.py:31
-#, fuzzy
 msgid "It's in the southwest"
-msgstr "Taypinkiwa"
+msgstr "Kupïxa inti jalsu tuqinkiwa"
 
 #: recursos/4artigas/datos/levels.py:67 recursos/4artigas/datos/levels.py:68
 #: recursos/4canelones/datos/levels.py:122
@@ -3074,7 +3065,7 @@ msgstr "Taypinkiwa"
 #: recursos/4treinta_y_tres/datos/levels.py:61
 #, python-format
 msgid "the %(f)s"
-msgstr ""
+msgstr "%(f)s wakichata"
 
 #: recursos/4artigas/datos/levels.py:69 recursos/4artigas/datos/levels.py:70
 #: recursos/4artigas/datos/levels.py:71
@@ -3119,30 +3110,30 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:64
 #, python-format
 msgid "the %(m)s"
-msgstr ""
+msgstr "%(m)s wakichata"
 
 #: recursos/4canelones/datos/4canelones.py:18
 #: recursos/4canelones/datos/levels.py:12
 #: recursos/4canelones/datos/levels.py:63
 msgid "Aguas Corrientes"
-msgstr ""
+msgstr "Aguas Corrientes marka"
 
 #: recursos/4canelones/datos/4canelones.py:19
 #: recursos/4canelones/datos/levels.py:13
 #: recursos/4canelones/datos/levels.py:59
 msgid "Los Cerrillos"
-msgstr ""
+msgstr "Los Cerrillos Municipio marka"
 
 #: recursos/4canelones/datos/4canelones.py:20
 #: recursos/4canelones/datos/levels.py:14
 msgid "Juanicó"
-msgstr ""
+msgstr "Juanicó marka"
 
 #: recursos/4canelones/datos/4canelones.py:22
 #: recursos/4canelones/datos/levels.py:16
 #: recursos/4canelones/datos/levels.py:61
 msgid "Progreso"
-msgstr ""
+msgstr "Progreso marka"
 
 #: recursos/4canelones/datos/4canelones.py:24
 #: recursos/4canelones/datos/levels.py:18
@@ -3169,35 +3160,35 @@ msgstr "Santa Rosa marka"
 #: recursos/4canelones/datos/levels.py:55
 #: recursos/4canelones/datos/levels.py:134
 msgid "Sauce"
-msgstr ""
+msgstr "Sauce marka"
 
 #: recursos/4canelones/datos/4canelones.py:28
 #: recursos/4canelones/datos/levels.py:22
 msgid "Toledo"
-msgstr "Toledo P'iqiña"
+msgstr "Toledo marka"
 
 #: recursos/4canelones/datos/4canelones.py:30
 #: recursos/4canelones/datos/levels.py:24
 #: recursos/4canelones/datos/levels.py:60
 msgid "San Bautista"
-msgstr ""
+msgstr "San Bautista marka"
 
 #: recursos/4canelones/datos/4canelones.py:31
 #: recursos/4canelones/datos/levels.py:25
 #: recursos/4canelones/datos/levels.py:135
 msgid "San Jacinto"
-msgstr ""
+msgstr "San Jacinto marka"
 
 #: recursos/4canelones/datos/4canelones.py:32
 #: recursos/4canelones/datos/levels.py:26
 #: recursos/4canelones/datos/levels.py:58
 msgid "Suárez"
-msgstr ""
+msgstr "Suárez marka"
 
 #: recursos/4canelones/datos/4canelones.py:34
 #: recursos/4canelones/datos/levels.py:28
 msgid "Empalme Olmos"
-msgstr ""
+msgstr "Empalme Olmos marka"
 
 #: recursos/4canelones/datos/4canelones.py:35
 #: recursos/4canelones/datos/levels.py:29
@@ -3216,18 +3207,18 @@ msgstr "Parque del Plata marka"
 #: recursos/4canelones/datos/levels.py:81
 #: recursos/4canelones/datos/levels.py:85
 msgid "La Floresta"
-msgstr ""
+msgstr "La Floresta marka"
 
 #: recursos/4canelones/datos/4canelones.py:40
 #: recursos/4canelones/datos/levels.py:34
 #: recursos/4canelones/datos/levels.py:62
 msgid "Migues"
-msgstr ""
+msgstr "Migues marka"
 
 #: recursos/4canelones/datos/4canelones.py:41
 #: recursos/4canelones/datos/levels.py:35
 msgid "Montes"
-msgstr ""
+msgstr "Montes marka"
 
 #: recursos/4canelones/datos/4canelones.py:42
 #: recursos/4canelones/datos/levels.py:36
@@ -3243,37 +3234,37 @@ msgstr "San Luis marka"
 #: recursos/4canelones/datos/4canelones.py:44
 #: recursos/4canelones/datos/levels.py:38
 msgid "Piedras de Afilar"
-msgstr ""
+msgstr "Khituña qalanaka"
 
 #: recursos/4canelones/datos/4canelones.py:45
 #: recursos/4canelones/datos/levels.py:39
 #: recursos/4canelones/datos/levels.py:75
 msgid "Lagomar"
-msgstr ""
+msgstr "Lagomar chuyma qhanart'ayasiña uta"
 
 #: recursos/4canelones/datos/4canelones.py:46
 #: recursos/4canelones/datos/levels.py:40
 #: recursos/4canelones/datos/levels.py:76
 msgid "Solymar"
-msgstr ""
+msgstr "Solymar qurpachasiña uta"
 
 #: recursos/4canelones/datos/4canelones.py:47
 #: recursos/4canelones/datos/levels.py:41
 #: recursos/4canelones/datos/levels.py:77
 msgid "El Pinar"
-msgstr ""
+msgstr "El Pinar marka"
 
 #: recursos/4canelones/datos/4canelones.py:48
 #: recursos/4canelones/datos/levels.py:42
 #: recursos/4canelones/datos/levels.py:83
 msgid "Cuchilla Alta"
-msgstr ""
+msgstr "Cuchilla Alta khunu qullu"
 
 #: recursos/4canelones/datos/4canelones.py:49
 #: recursos/4canelones/datos/levels.py:43
 #: recursos/4canelones/datos/levels.py:84
 msgid "Jaureguiberry"
-msgstr ""
+msgstr "Jaureguiberry jach'a lamara quta qawaya marka"
 
 #: recursos/4canelones/datos/4canelones.py:50
 #: recursos/4canelones/datos/levels.py:44
@@ -3285,41 +3276,40 @@ msgstr "Bello Horizonte marka"
 #: recursos/4canelones/datos/levels.py:45
 #: recursos/4canelones/datos/levels.py:86
 msgid "Parque Roosevelt"
-msgstr ""
+msgstr "Parque Roosevelt marka"
 
 #: recursos/4canelones/datos/4canelones.py:57
 #: recursos/4canelones/datos/levels.py:98
 msgid "Arroyo Vejigas"
-msgstr ""
+msgstr "Vejigas uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:58
 #: recursos/4canelones/datos/levels.py:99 recursos/4flores/datos/4flores.py:36
 #: recursos/4flores/datos/levels.py:51
 #: recursos/4san_jose/datos/4san_jose.py:58
 #: recursos/4san_jose/datos/levels.py:73
-#, fuzzy
 msgid "Arroyo del Tala"
-msgstr "Medio apu qullu"
+msgstr "Tala uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:60
 #: recursos/4canelones/datos/levels.py:101
 msgid "Arroyo Canelón Grande"
-msgstr ""
+msgstr "Canelón Grande jach'a uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:61
 #: recursos/4canelones/datos/levels.py:102
 msgid "Arroyo Canelón Chico"
-msgstr ""
+msgstr "Canelón Chico jisk'a uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:62
 #: recursos/4canelones/datos/levels.py:103
 msgid "Arroyo Pando"
-msgstr ""
+msgstr "Pando uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:63
 #: recursos/4canelones/datos/levels.py:104
 msgid "Arroyo Solís Chico"
-msgstr ""
+msgstr "Solís Chico uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:64
 #: recursos/4canelones/datos/levels.py:105
@@ -3328,12 +3318,12 @@ msgstr ""
 #: recursos/4maldonado/datos/4maldonado.py:40
 #: recursos/4maldonado/datos/levels.py:41
 msgid "Arroyo Solís Grande"
-msgstr ""
+msgstr "Solís Grande uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:65
 #: recursos/4canelones/datos/levels.py:106
 msgid "Arroyo Mosquitos"
-msgstr ""
+msgstr "Mosquitos uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:66
 #: recursos/4canelones/datos/levels.py:107
@@ -3342,33 +3332,33 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:43 recursos/4rocha/datos/4rocha.py:44
 #: recursos/4rocha/datos/levels.py:45
 msgid "Arroyo Sauce"
-msgstr ""
+msgstr "Sauce uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:67
 #: recursos/4canelones/datos/levels.py:108
 msgid "Arroyo Brujas Grande"
-msgstr ""
+msgstr "Brujas Grande uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:68
 #: recursos/4canelones/datos/levels.py:109
 #: recursos/4montevideo/datos/4montevideo.py:63
 #: recursos/4montevideo/datos/levels.py:85
 msgid "Arroyo de las Piedras"
-msgstr ""
+msgstr "De las Piedras uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:69
 #: recursos/4canelones/datos/levels.py:110
 #: recursos/4montevideo/datos/4montevideo.py:57
 #: recursos/4montevideo/datos/levels.py:79
 msgid "Arroyo Colorado"
-msgstr ""
+msgstr "Colorado uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:70
 #: recursos/4canelones/datos/levels.py:111
 #: recursos/4montevideo/datos/4montevideo.py:64
 #: recursos/4montevideo/datos/levels.py:86
 msgid "Arroyo Toledo"
-msgstr ""
+msgstr "Toledo uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:71
 #: recursos/4canelones/datos/levels.py:112
@@ -3376,18 +3366,20 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:60
 #: recursos/4montevideo/datos/levels.py:87
 msgid "Arroyo Carrasco"
-msgstr ""
+msgstr "Carrasco uma irpa"
 
 #: recursos/4canelones/datos/4canelones.py:76
 #: recursos/4canelones/datos/levels.py:123
 msgid "Cabo de Hornos"
-msgstr ""
+msgstr "Cabo de Hornos jach'a lamara quta qullu"
 
 #: recursos/4canelones/datos/levels.py:14
 msgid ""
 "It's to the south\n"
 "of the capital"
 msgstr ""
+"Kupïxankiwa\n"
+"jilïri markata"
 
 #: recursos/4canelones/datos/levels.py:17
 #: recursos/4canelones/datos/levels.py:26
@@ -3420,23 +3412,22 @@ msgstr ""
 #: recursos/4soriano/datos/levels.py:74
 #, python-format
 msgid "It is near %s"
-msgstr ""
+msgstr "Uka jak'ankiwa %s"
 
 #: recursos/4canelones/datos/levels.py:19
 #: recursos/4canelones/datos/levels.py:20
 #: recursos/4canelones/datos/levels.py:24
 #: recursos/4canelones/datos/levels.py:60
 #, python-format
-#, fuzzy
 msgid "It's in the %s"
-msgstr "Taypinkiwa"
+msgstr "Ukankiwa %s"
 
 #: recursos/4canelones/datos/levels.py:19
 #: recursos/4canelones/datos/levels.py:20
 #: recursos/4canelones/datos/levels.py:24
 #: recursos/4canelones/datos/levels.py:60
 msgid "center-north"
-msgstr ""
+msgstr "taypi-ch'iqäxa"
 
 #: recursos/4canelones/datos/levels.py:29
 #: recursos/4canelones/datos/levels.py:31
@@ -3460,7 +3451,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:36
 #, python-format
 msgid "the resort of %s"
-msgstr ""
+msgstr "Uka jach'a lamara quta qawaya markapa %s"
 
 #: recursos/4canelones/datos/levels.py:29
 #: recursos/4canelones/datos/levels.py:32
@@ -3472,6 +3463,8 @@ msgid ""
 "It's a resort\n"
 "of %s"
 msgstr ""
+"Jach'a lamara quta qawaya maya markawa\n"
+"ukasti %s"
 
 #: recursos/4canelones/datos/levels.py:30
 #: recursos/4cerro_largo/datos/levels.py:67
@@ -3514,18 +3507,18 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:35
 #: recursos/4treinta_y_tres/datos/levels.py:36
 msgid "It's in the northeast"
-msgstr ""
+msgstr "Ch'iqäxa inti jalsu tuqinkiwa"
 
 #: recursos/4canelones/datos/levels.py:31 recursos/4rocha/datos/levels.py:19
 msgid "It's an important resort"
-msgstr ""
+msgstr "Jach'a lamara quta qawaya maya wakisiri markawa"
 
 #: recursos/4canelones/datos/levels.py:32
 #: recursos/4canelones/datos/levels.py:33
 #: recursos/4canelones/datos/levels.py:42
 #: recursos/4canelones/datos/levels.py:44
 msgid "Costa de Oro"
-msgstr ""
+msgstr "Costa de Oro marka"
 
 #: recursos/4canelones/datos/levels.py:36
 #: recursos/4canelones/datos/levels.py:38
@@ -3569,22 +3562,22 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:18
 #: recursos/4treinta_y_tres/datos/levels.py:33
 msgid "It's in the southeast"
-msgstr ""
+msgstr "Kupïxa inti jalsu tuqinkiwa"
 
 #: recursos/4canelones/datos/levels.py:37
 msgid "It's a resort"
-msgstr ""
+msgstr "Jach'a lamara quta qawaya markawa"
 
 #: recursos/4canelones/datos/levels.py:39
 #: recursos/4canelones/datos/levels.py:40
 #: recursos/4canelones/datos/levels.py:41
 msgid "Ciudad de la Costa"
-msgstr ""
+msgstr "De la Costa marka"
 
 #: recursos/4canelones/datos/levels.py:51 recursos/4colonia/datos/levels.py:43
 #: recursos/4montevideo/datos/levels.py:54
 msgid "Information"
-msgstr ""
+msgstr "Yatiyäwi"
 
 #: recursos/4canelones/datos/levels.py:55
 msgid ""
@@ -3593,22 +3586,32 @@ msgid ""
 "prehistoric animals of\n"
 "South America"
 msgstr ""
+"Ukasti kawkina jakitasa\n"
+"wali jach'a amayawa\n"
+"nayra pacha uywanakani\n"
+"Sudamérica markaru wakisiri"
 
 #: recursos/4canelones/datos/levels.py:55
 msgid "It is the birthplace of Artigas"
-msgstr ""
+msgstr "Artigas p'iqiña kankañani tatana yurïwipawa"
 
 #: recursos/4canelones/datos/levels.py:56
 msgid ""
 "where is the only\n"
 "Jewish cemetery in Uruguay"
 msgstr ""
+"kawkinkisa uka sapaxa\n"
+"Judío amayankiwa\n"
+"Uruguay"
 
 #: recursos/4canelones/datos/levels.py:57
 msgid ""
 "one of the main\n"
 "sites for winemaking"
 msgstr ""
+"Maynïri wakisiriwa\n"
+"wakichäwinaka\n"
+"vino wakisiri"
 
 #: recursos/4canelones/datos/levels.py:58
 msgid ""
@@ -3617,6 +3620,9 @@ msgid ""
 "president of Uruguay\n"
 "from 1843 to 1852"
 msgstr ""
+"ukhama sutini marka\n"
+"uka jilïri p'iqiña yaqha chhijllankama\n"
+"Uruguay markana 1843 marata 1852 marakama"
 
 #: recursos/4canelones/datos/levels.py:59
 msgid ""
@@ -3624,6 +3630,9 @@ msgid ""
 "noted the \"great abundance\n"
 "and fertility of this land\""
 msgstr ""
+"Hernandarias p'iqiña kankañapana\n"
+"wali \"utjäwi\n"
+"ukata uraqisa suma achirïna\""
 
 #: recursos/4canelones/datos/levels.py:60
 msgid ""
@@ -3631,6 +3640,9 @@ msgid ""
 "countless exponents of\n"
 "music and art"
 msgstr ""
+"uka chiqana utjawiwa\n"
+"walja yatiñaninaka\n"
+"uka warurt'äwi ukata sawutanaka"
 
 #: recursos/4canelones/datos/levels.py:61
 msgid ""
@@ -3639,6 +3651,10 @@ msgid ""
 "a sense of improvement\n"
 "in the human condition"
 msgstr ""
+"uka markana sutipaxa\n"
+"ukanaka utjatapa yatiyasi\n"
+"ukasti ch'amanchasispawa\n"
+"jaqina munañapata"
 
 #: recursos/4canelones/datos/levels.py:62
 msgid ""
@@ -3647,6 +3663,10 @@ msgid ""
 "to the independence of\n"
 "the Republic"
 msgstr ""
+"ukana pachachata luratawa utji\n"
+"niya 8 chillqi sayt'uwa\n"
+"Sapa sartasïwi\n"
+"República mayachäwina"
 
 #: recursos/4canelones/datos/levels.py:63
 msgid ""
@@ -3656,6 +3676,10 @@ msgid ""
 "plants, water filtering\n"
 "and purification"
 msgstr ""
+"uka markana sutipaxa\n"
+"mallkintata yatiyi\n"
+"uma irpampi jiliri quqa,\n"
+"ukampinsa uma suma q'uma ch'umampi"
 
 #: recursos/4canelones/datos/levels.py:64
 msgid ""
@@ -3664,6 +3688,10 @@ msgid ""
 "former mining area\n"
 "of stone masons"
 msgstr ""
+"uka markana sutipaxa\n"
+"nayra pachata juti\n"
+"nayra markata\n"
+"qala ch'ixiri jaqinakana markapata"
 
 #: recursos/4canelones/datos/levels.py:64
 msgid ""
@@ -3671,6 +3699,9 @@ msgid ""
 "a major battle \n"
 "for independence"
 msgstr ""
+"uka chiqana apasiwiwa\n"
+"maya jach'a sayt'asïwi\n"
+"sapa sartaña layku"
 
 #: recursos/4canelones/datos/levels.py:65
 msgid ""
@@ -3678,10 +3709,13 @@ msgid ""
 "and industrial center\n"
 "of the department"
 msgstr ""
+"maya wakisiri jilïri markawa\n"
+"alxañataki yänaka lurañataki\n"
+"uka departamentowakisirina"
 
 #: recursos/4canelones/datos/levels.py:71
 msgid "resorts"
-msgstr ""
+msgstr "jach'a lamara quta qawaya markanaka"
 
 #: recursos/4canelones/datos/levels.py:75
 msgid ""
@@ -3689,6 +3723,9 @@ msgid ""
 "located north of\n"
 "Avenue Giannattasio"
 msgstr ""
+"jach'a lamara quta qawaya markana\n"
+"ch'iqäxana maya qutawa utji\n"
+"Giannattasio thakina jikxatasi"
 
 #: recursos/4canelones/datos/levels.py:75
 msgid ""
@@ -3696,30 +3733,41 @@ msgid ""
 "the salt waters of\n"
 "the Rio de la Plata"
 msgstr ""
+"uka sutixa jutiwa\n"
+"jayu k'ara utjäwita\n"
+"ukasti Río de la Plata jawiraru wakisiriwa"
 
 #: recursos/4canelones/datos/levels.py:76
 msgid ""
 "where is the original\n"
 "Bread Museum"
 msgstr ""
+"ukankiwa qallta lurataxa\n"
+"Museo del Pan taypina"
 
 #: recursos/4canelones/datos/levels.py:76
 msgid ""
 "The name refers\n"
 "to the summer"
 msgstr ""
+"uka sutixa\n"
+"junt'u pacharuwa wakisi"
 
 #: recursos/4canelones/datos/levels.py:77
 msgid ""
 "where is the Autodrome\n"
 "Victor Borrat Fabini"
 msgstr ""
+"Autódromo wakichäwiwa ukanki\n"
+"Victor Borrat Fabini sutinchata"
 
 #: recursos/4canelones/datos/levels.py:77
 msgid ""
 "Location of the first\n"
 "toll to the East"
 msgstr ""
+"ukankiwa nayríri\n"
+"peaje mayachäwi Inti jalsu tuqina"
 
 #: recursos/4canelones/datos/levels.py:78
 msgid ""
@@ -3727,26 +3775,34 @@ msgid ""
 "you with a bow\n"
 "on the route"
 msgstr ""
+"uka jach'a lamara quta qawaya markaxa\n"
+"suma katuqt'ätma\n"
+"thakina maya suma arku k'achachäwimpi"
 
 #: recursos/4canelones/datos/levels.py:79
 msgid ""
 "one of the most popular\n"
 "resorts with tourists"
 msgstr ""
+"wali munata\n"
+" jach'a lamara quta qawaya marka"
 
 #: recursos/4canelones/datos/levels.py:79
 msgid "It is on a peninsula"
-msgstr ""
+msgstr "Maya quta taypi markankiwa"
 
 #: recursos/4canelones/datos/levels.py:80
 msgid ""
 "a resort that is on\n"
 "the stream Solís Chico"
 msgstr ""
+"jach'a lamara quta qawaya uka markaxa\n"
+"uma irpa lakankiwa\n"
+"ukasti Solís Chico satawa"
 
 #: recursos/4canelones/datos/levels.py:80
 msgid "It is east of Atlántida"
-msgstr ""
+msgstr "ukaxa Atlántida inti jalsu tuqinkiwa"
 
 #: recursos/4canelones/datos/levels.py:81
 msgid ""
@@ -3754,22 +3810,28 @@ msgid ""
 "resorts on the\n"
 "Costa de Oro"
 msgstr ""
+"jach'a lamara quta qawaya uka markaxa\n"
+"Costa de Oro markata sinti nayrawa"
 
 #: recursos/4canelones/datos/levels.py:81
 msgid ""
 "The name refers\n"
 "to the vegetation"
 msgstr ""
+"uka sutixa\n"
+"quqanakaru wakisiriwa"
 
 #: recursos/4canelones/datos/levels.py:82
 msgid ""
 "where there is a\n"
 "fishing village"
 msgstr ""
+"uka markaxa\n"
+"chawlla katurinakana markapawa"
 
 #: recursos/4canelones/datos/levels.py:82
 msgid "It is named for a saint"
-msgstr ""
+msgstr "ukaxa maya Santuna sutipanjamawa"
 
 #: recursos/4canelones/datos/levels.py:83
 msgid ""
@@ -3777,6 +3839,9 @@ msgid ""
 "picturesque resorts\n"
 "in the Costa de Oro"
 msgstr ""
+"ukaxa waki k'achachata\n"
+"jach'a lamara quta qawaya markawa\n"
+"Costa de Oro markaru wakisiri"
 
 #: recursos/4canelones/datos/levels.py:83
 msgid ""
@@ -3784,6 +3849,9 @@ msgid ""
 "its freshwater jet\n"
 "on the beach"
 msgstr ""
+"ukaxa wali sumawa\n"
+"muxsa umanitapata\n"
+"uka lamara quta qawayana"
 
 #: recursos/4canelones/datos/levels.py:84
 msgid ""
@@ -3792,58 +3860,68 @@ msgid ""
 "banks of the\n"
 "Arroyo Solís Grande"
 msgstr ""
+"uka jach'a lamara quta qawaya markaxa\n"
+"jach'a uma irpa lakankiwa\n"
+"Solís Grande sutini uma irparu wakisiri"
 
 #: recursos/4canelones/datos/levels.py:84
 msgid ""
 "It's the last resort of\n"
 "Costa de Oro"
 msgstr ""
+"uka jach'a lamara quta qawaya markaxa\n"
+"Costa de Oro sutini qhipïri jach'a lamara quta qawaya markawa"
 
 #: recursos/4canelones/datos/levels.py:85
 msgid ""
 "where Arabian horses\n"
 "run in international rallies"
 msgstr ""
+"ukana árabes kawallunakawa\n"
+"walja rallies internacionales atipasïwinakana t'ijunaqapxi"
 
 #: recursos/4canelones/datos/levels.py:86
 msgid ""
 "where rodeos are\n"
 "held during Easter Week"
 msgstr ""
+"ukana atipasïwinaka apasi\n"
+"rodeos sutinchata\n"
+"uka semana santa jach'ürunakana"
 
 #: recursos/4canelones/datos/levels.py:123
 msgid "Cuchilla Cabo de Hornos"
-msgstr ""
+msgstr "Cabo de Hornos jach'a khunu qullu"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:18
 #: recursos/4cerro_largo/datos/levels.py:12
 msgid "Isidoro Noblía"
-msgstr ""
+msgstr "Isidoro Noblía marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:19
 #: recursos/4cerro_largo/datos/levels.py:13
 msgid "Centurión"
-msgstr ""
+msgstr "Centurión sutini jach'a q'axchasiri awtu"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:20
 #: recursos/4cerro_largo/datos/levels.py:14
 msgid "Bañados de Medina"
-msgstr ""
+msgstr "Bañados de Medina uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:21
 #: recursos/4cerro_largo/datos/levels.py:15
 msgid "Tres Islas"
-msgstr ""
+msgstr "Tres Islas sutini quta taypi markanaka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:22
 #: recursos/4cerro_largo/datos/levels.py:16
 msgid "Arévalo"
-msgstr ""
+msgstr "Arévalo marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:23
 #: recursos/4cerro_largo/datos/levels.py:17
 msgid "C. de las Cuentas"
-msgstr ""
+msgstr "C. de las Cuentas marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:25
 #: recursos/4cerro_largo/datos/levels.py:19
@@ -3853,25 +3931,24 @@ msgstr "Arbolito marka"
 #: recursos/4cerro_largo/datos/4cerro_largo.py:26
 #: recursos/4cerro_largo/datos/levels.py:20
 msgid "Plácido Rosas"
-msgstr ""
+msgstr "Plácido Rosas marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:28
 #: recursos/4cerro_largo/datos/levels.py:22
 msgid "Tambos de Melo"
-msgstr ""
+msgstr "Tambos de Melo marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:36
 #: recursos/4cerro_largo/datos/levels.py:35
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:40
 #: recursos/4treinta_y_tres/datos/levels.py:38
-#, fuzzy
 msgid "Arroyo del Parao"
-msgstr "Medio apu qullu"
+msgstr "Parao jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:37
 #: recursos/4cerro_largo/datos/levels.py:36
 msgid "Arroyo Santos"
-msgstr ""
+msgstr "Santos jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:38
 #: recursos/4cerro_largo/datos/levels.py:37
@@ -3879,12 +3956,12 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:43
 #: recursos/4tacuarembo/datos/levels.py:57
 msgid "Arroyo Malo"
-msgstr ""
+msgstr "Malo jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:39
 #: recursos/4cerro_largo/datos/levels.py:38
 msgid "Arroyo Chuy"
-msgstr ""
+msgstr "Chuy jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:40
 #: recursos/4cerro_largo/datos/levels.py:39
@@ -3896,65 +3973,63 @@ msgstr ""
 #: recursos/4rocha/datos/levels.py:52 recursos/4salto/datos/4salto.py:50
 #: recursos/4salto/datos/levels.py:49 recursos/4soriano/datos/4soriano.py:39
 #: recursos/4soriano/datos/levels.py:40
-#, fuzzy
 msgid "Arroyo del Sauce"
-msgstr "Medio apu qullu"
+msgstr "Sauce jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:41
 #: recursos/4cerro_largo/datos/levels.py:40
 #: recursos/4durazno/datos/4durazno.py:51 recursos/4durazno/datos/levels.py:64
 msgid "Arroyo del Cordobés"
-msgstr ""
+msgstr "Cordobés jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:42
 #: recursos/4cerro_largo/datos/levels.py:41
 msgid "Arroyo Lechiguana"
-msgstr ""
+msgstr "Lechiguana jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:43
 #: recursos/4cerro_largo/datos/levels.py:42
 msgid "Arroyo Pablo Páez"
-msgstr ""
+msgstr "Pablo Páez jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:44
 #: recursos/4cerro_largo/datos/levels.py:43
 #: recursos/4colonia/datos/4colonia.py:68
 #: recursos/4colonia/datos/levels.py:114
 msgid "Arroyo Tarariras"
-msgstr ""
+msgstr "Tarariras jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:45
 #: recursos/4cerro_largo/datos/levels.py:44
 msgid "Arroyo Tupambaé"
-msgstr ""
+msgstr "Tupambaé jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:46
 #: recursos/4cerro_largo/datos/levels.py:45
 msgid "Arroyo Quebracho"
-msgstr ""
+msgstr "Quebracho jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:47
 #: recursos/4cerro_largo/datos/levels.py:46
 msgid "Arroyo Fraile Muerto"
-msgstr ""
+msgstr "Fraile Muerto jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:48
 #: recursos/4cerro_largo/datos/levels.py:47
 #: recursos/4flores/datos/4flores.py:35 recursos/4flores/datos/levels.py:50
 #: recursos/4rocha/datos/4rocha.py:48 recursos/4rocha/datos/levels.py:49
-#, fuzzy
 msgid "Arroyo del Sarandí"
-msgstr "Medio apu qullu"
+msgstr "Sarandí jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:49
 #: recursos/4cerro_largo/datos/levels.py:48
 msgid "Arroyo Zapallar"
-msgstr ""
+msgstr "Zapallar jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:50
 #: recursos/4cerro_largo/datos/levels.py:49
 msgid "Arroyo Aceguá"
-msgstr ""
+msgstr "Aceguá jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:51
 #: recursos/4cerro_largo/datos/levels.py:50
@@ -3962,32 +4037,32 @@ msgstr ""
 #: recursos/4montevideo/datos/4montevideo.py:60
 #: recursos/4montevideo/datos/levels.py:82
 msgid "Arroyo Pantanoso"
-msgstr ""
+msgstr "Pantanoso jach'a uma irpa"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:56
 #: recursos/4cerro_largo/datos/levels.py:60
 msgid "Sierra de Aceguá"
-msgstr ""
+msgstr "Sierra de Aceguá marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:58
 #: recursos/4cerro_largo/datos/levels.py:62
 msgid "Sierra de los Ríos"
-msgstr ""
+msgstr "Sierra de los Ríos marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:59
 #: recursos/4cerro_largo/datos/levels.py:63
 msgid "Cuchilla de Mangrullo"
-msgstr ""
+msgstr "Mangrullo jach'a khunu qullu"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:60
 #: recursos/4cerro_largo/datos/levels.py:64
 msgid "Cuchilla del Cordobés"
-msgstr ""
+msgstr "Cordobés jach'a khunu qullu"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:64
 #: recursos/4cerro_largo/datos/levels.py:65
 msgid "Cerro Grande de Aceguá"
-msgstr ""
+msgstr "Cerro Grande de Aceguá marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:65
 #: recursos/4cerro_largo/datos/levels.py:66
@@ -3995,45 +4070,44 @@ msgstr ""
 #: recursos/4florida/datos/4florida.py:24 recursos/4florida/datos/levels.py:33
 #: recursos/4florida/datos/levels.py:121
 msgid "Cerro Colorado"
-msgstr ""
+msgstr "Cerro Colorado marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:66
 #: recursos/4cerro_largo/datos/levels.py:67
 msgid "Cerro Redondo"
-msgstr ""
+msgstr "Cerro Redondo marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:67
 #: recursos/4cerro_largo/datos/levels.py:68
 msgid "Cerro Pablo Pérez"
-msgstr ""
+msgstr "Cerro Pablo Pérez marka"
 
 #: recursos/4cerro_largo/datos/4cerro_largo.py:69
 #: recursos/4cerro_largo/datos/levels.py:70
-#, fuzzy
 msgid "Cerro Verde"
-msgstr "Verdún apu qullu"
+msgstr "Cerro Verde marka"
 
 #: recursos/4cerro_largo/datos/levels.py:84
 #: recursos/4rio_negro/datos/levels.py:72
 #: recursos/4treinta_y_tres/datos/levels.py:75
 #, python-format
 msgid "Comes from %s"
-msgstr ""
+msgstr "ukaxa jutiwa %s"
 
 #: recursos/4colonia/datos/4colonia.py:19 recursos/4colonia/datos/levels.py:16
 #: recursos/4colonia/datos/levels.py:51
 msgid "Conchillas"
-msgstr ""
+msgstr "Conchillas marka"
 
 #: recursos/4colonia/datos/4colonia.py:20 recursos/4colonia/datos/levels.py:17
 #: recursos/4colonia/datos/levels.py:52
 msgid "Antolin"
-msgstr ""
+msgstr "Antolin mayachäwi"
 
 #: recursos/4colonia/datos/4colonia.py:21 recursos/4colonia/datos/levels.py:18
 #: recursos/4colonia/datos/levels.py:53
 msgid "La Estanzuela"
-msgstr ""
+msgstr "Estanzuela marka"
 
 #: recursos/4colonia/datos/4colonia.py:22 recursos/4colonia/datos/levels.py:19
 #: recursos/4colonia/datos/levels.py:54
@@ -4043,27 +4117,27 @@ msgstr "Semillero marka"
 #: recursos/4colonia/datos/4colonia.py:24 recursos/4colonia/datos/levels.py:21
 #: recursos/4colonia/datos/levels.py:56
 msgid "Barker"
-msgstr ""
+msgstr "Barker marka"
 
 #: recursos/4colonia/datos/4colonia.py:26 recursos/4colonia/datos/levels.py:23
 #: recursos/4colonia/datos/levels.py:58
 msgid "Florencio Sánchez"
-msgstr ""
+msgstr "Florencio Sánchez yatiyäwinaka tuqita yatiñani tata"
 
 #: recursos/4colonia/datos/4colonia.py:28 recursos/4colonia/datos/levels.py:25
 #: recursos/4colonia/datos/levels.py:60
 msgid "Colonia Valdense"
-msgstr ""
+msgstr "Colonia Valdense marka"
 
 #: recursos/4colonia/datos/4colonia.py:30 recursos/4colonia/datos/levels.py:27
 #: recursos/4colonia/datos/levels.py:62
 msgid "Miguelete"
-msgstr ""
+msgstr "Miguelete sata inlisanaka k'achachäwi"
 
 #: recursos/4colonia/datos/4colonia.py:31 recursos/4colonia/datos/levels.py:28
 #: recursos/4colonia/datos/levels.py:63
 msgid "Cufré"
-msgstr ""
+msgstr "Cufré anatiri jilata"
 
 #: recursos/4colonia/datos/4colonia.py:33 recursos/4colonia/datos/levels.py:30
 #: recursos/4colonia/datos/levels.py:65
@@ -4073,22 +4147,22 @@ msgstr "Tres Esquinas marka"
 #: recursos/4colonia/datos/4colonia.py:34 recursos/4colonia/datos/levels.py:31
 #: recursos/4colonia/datos/levels.py:66
 msgid "Manantiales"
-msgstr ""
+msgstr "Manantiales uma phaxcha"
 
 #: recursos/4colonia/datos/4colonia.py:35 recursos/4colonia/datos/levels.py:32
 #: recursos/4colonia/datos/levels.py:67
 msgid "El Cuadro"
-msgstr ""
+msgstr "Uruguay anatirinaka"
 
 #: recursos/4colonia/datos/4colonia.py:36 recursos/4colonia/datos/levels.py:33
 #: recursos/4colonia/datos/levels.py:68
 msgid "El Cerro"
-msgstr ""
+msgstr "El Cerro marka"
 
 #: recursos/4colonia/datos/4colonia.py:37 recursos/4colonia/datos/levels.py:34
 #: recursos/4colonia/datos/levels.py:69
 msgid "Víboras"
-msgstr ""
+msgstr "Jach'a asiru"
 
 #: recursos/4colonia/datos/4colonia.py:38 recursos/4colonia/datos/levels.py:35
 #: recursos/4colonia/datos/levels.py:70
@@ -4097,17 +4171,16 @@ msgstr "Campana marka"
 
 #: recursos/4colonia/datos/4colonia.py:39 recursos/4colonia/datos/levels.py:36
 #: recursos/4colonia/datos/levels.py:71
-#, fuzzy
 msgid "Cerro de las Armas"
-msgstr "Animas apu qullu"
+msgstr "Cerro de las Armas marka"
 
 #: recursos/4colonia/datos/4colonia.py:43 recursos/4colonia/datos/levels.py:86
 msgid "Riachuelo"
-msgstr ""
+msgstr "Riachuelo jach'a jawira"
 
 #: recursos/4colonia/datos/4colonia.py:44 recursos/4colonia/datos/levels.py:82
 msgid "El Ensueño"
-msgstr ""
+msgstr "El Ensueño marka"
 
 #: recursos/4colonia/datos/4colonia.py:45 recursos/4colonia/datos/levels.py:91
 msgid "Santa Ana"
@@ -4115,28 +4188,27 @@ msgstr "Santa Ana marka"
 
 #: recursos/4colonia/datos/4colonia.py:46 recursos/4colonia/datos/levels.py:87
 msgid "Artilleros"
-msgstr ""
+msgstr "Artilleros qurpachasiña uta"
 
 #: recursos/4colonia/datos/4colonia.py:47 recursos/4colonia/datos/levels.py:88
 msgid "Boca del Rosario"
-msgstr ""
+msgstr "Boca del Rosario qurpachasiña uta"
 
 #: recursos/4colonia/datos/4colonia.py:48 recursos/4colonia/datos/levels.py:89
 msgid "Blancarena"
-msgstr ""
+msgstr "Blancarena qurpachasiña uta"
 
 #: recursos/4colonia/datos/4colonia.py:49 recursos/4colonia/datos/levels.py:90
 msgid "Britópolis"
-msgstr ""
+msgstr "Britópolis marka"
 
 #: recursos/4colonia/datos/4colonia.py:50 recursos/4colonia/datos/levels.py:85
 msgid "Fomento"
-msgstr ""
+msgstr "Fomento sata jach'a lamara quta qawaya marka"
 
 #: recursos/4colonia/datos/4colonia.py:51 recursos/4colonia/datos/levels.py:84
-#, fuzzy
 msgid "Los Pinos"
-msgstr "Los Rios jach'a suyu"
+msgstr "Los Pinos marka"
 
 #: recursos/4colonia/datos/4colonia.py:52 recursos/4colonia/datos/levels.py:83
 msgid "Santa Regina"
@@ -4145,17 +4217,17 @@ msgstr "Santa Regina marka"
 #: recursos/4colonia/datos/4colonia.py:59
 #: recursos/4colonia/datos/levels.py:105
 msgid "Arroyo de las Víboras"
-msgstr ""
+msgstr "Víboras jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:60
 #: recursos/4colonia/datos/levels.py:106
 msgid "Arroyo de las Vacas"
-msgstr ""
+msgstr "Vacas jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:61
 #: recursos/4colonia/datos/levels.py:107
 msgid "Arroyo Juan González"
-msgstr ""
+msgstr "Juan González jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:62
 #: recursos/4colonia/datos/levels.py:108
@@ -4163,113 +4235,113 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:83
 #: recursos/4montevideo/datos/levels.py:84
 msgid "Arroyo Miguelete"
-msgstr ""
+msgstr "Miguelete jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:63
 #: recursos/4colonia/datos/levels.py:109
 msgid "Arroyo del General"
-msgstr ""
+msgstr "General jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:64
 #: recursos/4colonia/datos/levels.py:110
 msgid "Arroyo Colla"
-msgstr ""
+msgstr "Colla jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:65
 #: recursos/4colonia/datos/levels.py:111
 msgid "Arroyo Pichinango"
-msgstr ""
+msgstr "Pichinango jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:66
 #: recursos/4colonia/datos/levels.py:113
 #: recursos/4san_jose/datos/4san_jose.py:50
 #: recursos/4san_jose/datos/levels.py:65
 msgid "Arroyo Cufré"
-msgstr ""
+msgstr "Cufré jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:67
 #: recursos/4colonia/datos/levels.py:112 recursos/4rivera/datos/4rivera.py:48
 #: recursos/4rivera/datos/levels.py:48
 msgid "Arroyo San Luis"
-msgstr ""
+msgstr "San Luis jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:69
 #: recursos/4colonia/datos/levels.py:115
 msgid "Arroyo del Riachuelo"
-msgstr ""
+msgstr "Riachuelo jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:70
 #: recursos/4colonia/datos/levels.py:116
 msgid "Arroyo San Pedro"
-msgstr ""
+msgstr "San Pedro jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:71
 #: recursos/4colonia/datos/levels.py:104
 msgid "Arroyo Sauce Grande"
-msgstr ""
+msgstr "Sauce Grande jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:72
 #: recursos/4colonia/datos/levels.py:117
 msgid "Arroyo Chileno"
-msgstr ""
+msgstr "Chileno jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:73
 #: recursos/4colonia/datos/levels.py:118
 #: recursos/4lavalleja/datos/4lavalleja.py:49
 #: recursos/4lavalleja/datos/levels.py:64
 msgid "Arroyo Polanco"
-msgstr ""
+msgstr "Polanco jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:74
 #: recursos/4colonia/datos/levels.py:119
 msgid "Arroyo Minuano"
-msgstr ""
+msgstr "Minuano jach'a uma irpa"
 
 #: recursos/4colonia/datos/4colonia.py:78
 #: recursos/4colonia/datos/levels.py:129
 msgid "Cuchilla de San Juan"
-msgstr ""
+msgstr "San Juan jach'a khunu qullu"
 
 #: recursos/4colonia/datos/4colonia.py:79
 #: recursos/4colonia/datos/levels.py:130
 msgid "Cuchilla de la Colonia"
-msgstr ""
+msgstr "Colonia jach'a khunu qullu"
 
 #: recursos/4colonia/datos/4colonia.py:80
 #: recursos/4colonia/datos/levels.py:131
 msgid "Cuchilla de la Cruz"
-msgstr ""
+msgstr "Cruz jach'a khunu qullu"
 
 #: recursos/4colonia/datos/4colonia.py:81
 #: recursos/4colonia/datos/levels.py:132
 #: recursos/4san_jose/datos/4san_jose.py:62
 #: recursos/4san_jose/datos/levels.py:83
 msgid "Cuchilla Guaycurú"
-msgstr ""
+msgstr "Guaycurú jach'a khunu qullu"
 
 #: recursos/4colonia/datos/4colonia.py:85
 #: recursos/4colonia/datos/levels.py:133
 msgid "Cerro Blanco"
-msgstr ""
+msgstr "Cerro Blanco marka"
 
 #: recursos/4colonia/datos/4colonia.py:86
 #: recursos/4colonia/datos/levels.py:134
 msgid "Cerros Negros"
-msgstr ""
+msgstr "Cerros Negros marka"
 
 #: recursos/4colonia/datos/4colonia.py:87
 #: recursos/4colonia/datos/levels.py:135
 msgid "Cerro de la Campana"
-msgstr ""
+msgstr "Cerro de la Campana marka"
 
 #: recursos/4colonia/datos/4colonia.py:88
 #: recursos/4colonia/datos/levels.py:136
 msgid "Cerros de San Juan"
-msgstr ""
+msgstr "Cerros de San Juan marka"
 
 #: recursos/4colonia/datos/levels.py:14
 msgid "Has an important port"
-msgstr ""
+msgstr "wakisiri jach'a lamara qutata mistuñaniwa"
 
 #: recursos/4colonia/datos/levels.py:15
 msgid ""
@@ -4277,6 +4349,9 @@ msgid ""
 "in the west of\n"
 "the department"
 msgstr ""
+"Artigas markana inuqata\n"
+"ukasti inti jalanta tuqinkiwa\n"
+"uka departamento suyuna"
 
 #: recursos/4colonia/datos/levels.py:16
 msgid ""
@@ -4284,58 +4359,77 @@ msgid ""
 "mining activity in\n"
 "the west of the department"
 msgstr ""
+"wakisiri lurawinïnawa\n"
+"qhuyanaka taypina\n"
+"uka departamento suyu inti jalanta tuqina"
 
 #: recursos/4colonia/datos/levels.py:17
 msgid ""
 "The Arroyo San Juan\n"
 "passes through here"
 msgstr ""
+"San Juan jach'a uma irpana\n"
+"uknama sari"
 
 #: recursos/4colonia/datos/levels.py:18
 msgid ""
 "Has an important\n"
 "research center"
 msgstr ""
+"ukana wali wakisiri\n"
+"yatxataña mayachäwiniwa"
 
 #: recursos/4colonia/datos/levels.py:19
 msgid ""
 "known as the\n"
 "\"bread basket of Uruguay\""
 msgstr ""
+"ukasti\n"
+"\"granero del Uruguay\" sutimpi uñt'atawa"
 
 #: recursos/4colonia/datos/levels.py:22
 msgid ""
 "It's near the\n"
 "river of same name"
 msgstr ""
+"jawira lakankiwa\n"
+"uka pachpa sutini"
 
 #: recursos/4colonia/datos/levels.py:24
 msgid ""
 "Has an important\n"
 "paper mill"
 msgstr ""
+"wali wakisiri\n"
+"qillqaña laphinaka lurañaniwa"
 
 #: recursos/4colonia/datos/levels.py:25 recursos/4colonia/datos/levels.py:60
 msgid "called the garden city"
-msgstr ""
+msgstr "Ciudad jardín sutini marka"
 
 #: recursos/4colonia/datos/levels.py:26
 msgid ""
 "Renowned for its\n"
 "high quality cheese"
 msgstr ""
+"ukasti wali uñt'atawa\n"
+"suma kisunakapata"
 
 #: recursos/4colonia/datos/levels.py:29
 msgid ""
 "Also called\n"
 "Colonia Piamontesa"
 msgstr ""
+"ukampinsa sutinchatawa\n"
+"Colonia Piamontesa sata marka"
 
 #: recursos/4colonia/datos/levels.py:30
 msgid ""
 "It's in the north of\n"
 "de Rosario"
 msgstr ""
+"ukaxa ch'iqäxankiwa\n"
+"Rosario markana"
 
 #: recursos/4colonia/datos/levels.py:47
 msgid ""
@@ -4343,6 +4437,9 @@ msgid ""
 "human-powered revolving\n"
 "bridge in the Uruguay"
 msgstr ""
+"ukankiwa uka sapa\n"
+"jaqi saraña chaka\n"
+"Uruguay markana"
 
 #: recursos/4colonia/datos/levels.py:48
 msgid ""
@@ -4350,6 +4447,10 @@ msgid ""
 "district declared a\n"
 "World Heritage Site"
 msgstr ""
+"wakisiri markana\n"
+"taqina yatxatata\n"
+"wakisiri utjiripawa\n"
+"taqi jaqiru wakisiri"
 
 #: recursos/4colonia/datos/levels.py:49
 msgid ""
@@ -4357,6 +4458,9 @@ msgid ""
 "around a crossroads\n"
 "and a train station"
 msgstr ""
+"ukaxa wali jach'aptata markawa\n"
+"walja thakinakani\n"
+"ukata lukumutura sayäwini"
 
 #: recursos/4colonia/datos/levels.py:50
 msgid ""
@@ -4364,6 +4468,8 @@ msgid ""
 "port, especially for\n"
 "grain shipment"
 msgstr ""
+"wakisiri alakipasiña lamara qutata mistuña marka\n"
+"chiqanxa juyranakawa uka alxasi"
 
 #: recursos/4colonia/datos/levels.py:51
 msgid ""
@@ -4371,30 +4477,41 @@ msgid ""
 "the distinctive style\n"
 "of a mining town"
 msgstr ""
+"ukana utanakapa\n"
+"wali uñaqata\n"
+"qhuyanakana irnaqiri jaqinakana utapjama"
 
 #: recursos/4colonia/datos/levels.py:52
 msgid ""
 "where there is a\n"
 "large soft drink factory"
 msgstr ""
+"ukana wali jach'a\n"
+"muxsa umanaka lurañawa utji"
 
 #: recursos/4colonia/datos/levels.py:53
 msgid ""
 "with the name of\n"
 "a median stay"
 msgstr ""
+"uka markana\n"
+"sutipata sutini"
 
 #: recursos/4colonia/datos/levels.py:54
 msgid ""
 "where was the\n"
 "barn of the Uruguay"
 msgstr ""
+"ukankänawa\n"
+"Uruguay marka juyrachiri"
 
 #: recursos/4colonia/datos/levels.py:55
 msgid ""
 "where there was once\n"
 "a large native forest"
 msgstr ""
+"ukana maya kuti utjäna\n"
+"nayra qullu"
 
 #: recursos/4colonia/datos/levels.py:56
 msgid ""
@@ -4402,12 +4519,17 @@ msgid ""
 "grew up around\n"
 "the train station"
 msgstr ""
+"uka markaxa\n"
+"uka muytaruwa jach'aptäna\n"
+"lukumutura sayäwiru"
 
 #: recursos/4colonia/datos/levels.py:57
 msgid ""
 "a city more than\n"
 "200 years old"
 msgstr ""
+"uka markaxa\n"
+"200 maraniwa"
 
 #: recursos/4colonia/datos/levels.py:58
 msgid ""
@@ -4415,6 +4537,9 @@ msgid ""
 "is in honor of an\n"
 "important Uruguayan writer"
 msgstr ""
+"uka markana sutipaxa\n"
+"wali uñaqata jaqina\n"
+"uruguayo qillqiri jaqina sutipata sutiniwa"
 
 #: recursos/4colonia/datos/levels.py:59
 msgid ""
@@ -4422,16 +4547,21 @@ msgid ""
 "is derived from\n"
 "its founder"
 msgstr ""
+"uka markana sutipaxa\n"
+"jutiwa\n"
+"inuqiripata"
 
 #: recursos/4colonia/datos/levels.py:59
 msgid "Has a important port"
-msgstr ""
+msgstr "lamara qutata wakisiri mistuñaniwa"
 
 #: recursos/4colonia/datos/levels.py:61
 msgid ""
 "a city founded\n"
 "by Swiss immigrants"
 msgstr ""
+"uka markaxa inuqatawa\n"
+"suizo jaqinakana"
 
 #: recursos/4colonia/datos/levels.py:62
 msgid ""
@@ -4439,6 +4569,9 @@ msgid ""
 "are mainly engaged\n"
 "in farming"
 msgstr ""
+"ukana jaqinakapaxa\n"
+"chiqana wayusipxiwa\n"
+"yapuchañaru"
 
 #: recursos/4colonia/datos/levels.py:63
 msgid ""
@@ -4446,6 +4579,9 @@ msgid ""
 "was a village\n"
 "of stonecutters"
 msgstr ""
+"uka pacha\n"
+"uka markaxa\n"
+"canteros jaqinakankänawa"
 
 #: recursos/4colonia/datos/levels.py:64
 msgid ""
@@ -4453,30 +4589,41 @@ msgid ""
 "Waldensian immigrants\n"
 "from the Piedmont region"
 msgstr ""
+"uka markaxa inuqatawa\n"
+"Valdenses jaqinakana\n"
+"ukaxa Piamonte markaru wakisiriwa"
 
 #: recursos/4colonia/datos/levels.py:65
 msgid ""
 "where three\n"
 "routes meet"
 msgstr ""
+"ukana jakisiwa\n"
+"kimsa thaki"
 
 #: recursos/4colonia/datos/levels.py:66
 msgid ""
 "a town named for its\n"
 "natural water source"
 msgstr ""
+"uka markana sutipaxa\n"
+"umapata ukhama sutinixa"
 
 #: recursos/4colonia/datos/levels.py:67
 msgid ""
 "a town with a\n"
 "regular polygon name"
 msgstr ""
+"uka markaxa\n"
+"maya polígono regular sutipata sutiniwa"
 
 #: recursos/4colonia/datos/levels.py:68
 msgid ""
 "a town with a\n"
 "geographical name"
 msgstr ""
+"uka markaxa\n"
+"pachana sutipata sutiniwa"
 
 #: recursos/4colonia/datos/levels.py:69
 msgid ""
@@ -4484,6 +4631,9 @@ msgid ""
 "the name of a\n"
 "poisonous creature"
 msgstr ""
+"uka markaxa\n"
+"uka sutita sutiniwa\n"
+"jisk'a asuna sutipata sutini"
 
 #: recursos/4colonia/datos/levels.py:70
 msgid ""
@@ -4491,28 +4641,37 @@ msgid ""
 "the name of a\n"
 "part of a church tower"
 msgstr ""
+"uka markaxa\n"
+"uka maya juk'a\n"
+"inlisana sutipata sutiniwa"
 
 #: recursos/4colonia/datos/levels.py:71
 msgid ""
 "where there were\n"
 "many weapons"
 msgstr ""
+"ukana utjänawa\n"
+"walja q'axchañanaka"
 
 #: recursos/4colonia/datos/levels.py:78
 msgid "Beaches"
-msgstr ""
+msgstr "lamara quta qawayanaka"
 
 #: recursos/4colonia/datos/levels.py:82
 msgid ""
 "a resort that\n"
 "\"gets sleepy\""
 msgstr ""
+"maya jach'a lamara quta qawaya markaxa\n"
+"\"iki puriyasi\""
 
 #: recursos/4colonia/datos/levels.py:83 recursos/4colonia/datos/levels.py:91
 msgid ""
 "a resort named\n"
 "for a saint"
 msgstr ""
+"uka jach'a lamara quta qawaya markana sutipaxa\n"
+"maya Santuna sutipata sutiniwa"
 
 #: recursos/4colonia/datos/levels.py:84
 msgid ""
@@ -4520,6 +4679,9 @@ msgid ""
 "many trees of a\n"
 "certain kind"
 msgstr ""
+"uka chiqana\n"
+"walja quqanakawa utji\n"
+"kunaymana kasta"
 
 #: recursos/4colonia/datos/levels.py:85
 msgid ""
@@ -4527,6 +4689,9 @@ msgid ""
 "is synonymous with\n"
 "promoting"
 msgstr ""
+"uka markana sutipa\n"
+"yaqha tuqita\n"
+"ch'amanchaña saña muni"
 
 #: recursos/4colonia/datos/levels.py:86
 msgid ""
@@ -4534,6 +4699,9 @@ msgid ""
 "name of a fine\n"
 "water course"
 msgstr ""
+"uka markaxa\n"
+"sutiniwa\n"
+"q'uma umana sutipani"
 
 #: recursos/4colonia/datos/levels.py:87
 msgid ""
@@ -4541,42 +4709,51 @@ msgid ""
 "name of people\n"
 "carrying the cannons"
 msgstr ""
+"uka jach'a lamara quta qawaya markaxa\n"
+"sutinchatawa\n"
+"qhaxchaña kañuna apnaqiri jaqinakana sutipampi"
 
 #: recursos/4colonia/datos/levels.py:88
 msgid ""
 "a place that is\n"
 "the mouth of another"
 msgstr ""
+"uka chiqaxa\n"
+"yaqhana lakapata lakaniwa"
 
 #: recursos/4colonia/datos/levels.py:89
 msgid ""
 "a resort with\n"
 "white sand"
 msgstr ""
+"uka jach'a lamara quta qawaya markaxa ch'allaniwa\n"
+"janq'u kasta ch'allani"
 
 #: recursos/4colonia/datos/levels.py:90
 msgid ""
 "a resort with\n"
 "Greek style city name"
 msgstr ""
+"jach'a lamara quta qawaya markana sutipaxa\n"
+"griego markana sutipawa"
 
 #: recursos/4durazno/datos/4durazno.py:23 recursos/4durazno/datos/levels.py:30
 #: recursos/4durazno/datos/levels.py:94
 msgid "Blanquillo"
-msgstr ""
+msgstr "Blanquillo marka"
 
 #: recursos/4durazno/datos/4durazno.py:25 recursos/4durazno/datos/levels.py:32
 msgid "Carlos Reyles"
-msgstr ""
+msgstr "Carlos Reyles yatiñani tata"
 
 #: recursos/4durazno/datos/4durazno.py:26 recursos/4durazno/datos/levels.py:33
 msgid "Centenario"
-msgstr ""
+msgstr "Centenario marka"
 
 #: recursos/4durazno/datos/4durazno.py:27 recursos/4durazno/datos/levels.py:34
 #: recursos/4durazno/datos/levels.py:91 recursos/4rio_negro/datos/levels.py:77
 msgid "Baygorria"
-msgstr ""
+msgstr "Baygorria jach'a uma chaka"
 
 #: recursos/4durazno/datos/4durazno.py:28 recursos/4durazno/datos/levels.py:35
 msgid "Aguas Buenas"
@@ -4584,20 +4761,20 @@ msgstr "Aguas Buenas marka"
 
 #: recursos/4durazno/datos/4durazno.py:29 recursos/4durazno/datos/levels.py:36
 msgid "Pueblo de Alvarez"
-msgstr ""
+msgstr "Alvarez marka"
 
 #: recursos/4durazno/datos/4durazno.py:30 recursos/4durazno/datos/levels.py:37
 msgid "Feliciano"
-msgstr ""
+msgstr "Feliciano jilïri p'iqiña"
 
 #: recursos/4durazno/datos/4durazno.py:31 recursos/4durazno/datos/levels.py:38
 msgid "Ombúes de Oribe"
-msgstr ""
+msgstr "Ombúes de Oribe marka"
 
 #: recursos/4durazno/datos/4durazno.py:32 recursos/4durazno/datos/levels.py:39
 #: recursos/4durazno/datos/levels.py:95
 msgid "Rossell y Rius"
-msgstr ""
+msgstr "Rossell y Rius marka"
 
 #: recursos/4durazno/datos/4durazno.py:33 recursos/4durazno/datos/levels.py:40
 msgid "San Jorge"
@@ -4605,132 +4782,132 @@ msgstr "San Jorge marka"
 
 #: recursos/4durazno/datos/4durazno.py:34 recursos/4durazno/datos/levels.py:41
 msgid "Carmen"
-msgstr ""
+msgstr "Carmen marka"
 
 #: recursos/4durazno/datos/4durazno.py:36 recursos/4durazno/datos/levels.py:43
 msgid "Santa Bernardina"
-msgstr ""
+msgstr "Santa Bernardina marka"
 
 #: recursos/4durazno/datos/4durazno.py:37 recursos/4durazno/datos/levels.py:44
 msgid "Puntas de Malbajar"
-msgstr ""
+msgstr "Puntas de Malbajar khunu qullu"
 
 #: recursos/4durazno/datos/4durazno.py:42 recursos/4durazno/datos/levels.py:55
 #: recursos/4flores/datos/4flores.py:28 recursos/4flores/datos/levels.py:43
 #: recursos/4florida/datos/4florida.py:45 recursos/4florida/datos/levels.py:60
 msgid "Río Yí"
-msgstr ""
+msgstr "Yí jawira"
 
 #: recursos/4durazno/datos/4durazno.py:43 recursos/4durazno/datos/levels.py:56
 msgid "Arroyo de Caballero"
-msgstr ""
+msgstr "Caballero jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:44 recursos/4durazno/datos/levels.py:57
 msgid "Arroyo Villasboas"
-msgstr ""
+msgstr "Villasboas jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:45 recursos/4durazno/datos/levels.py:58
 #: recursos/4flores/datos/4flores.py:54 recursos/4flores/datos/levels.py:69
 #: recursos/4florida/datos/4florida.py:57 recursos/4florida/datos/levels.py:72
 #: recursos/4soriano/datos/4soriano.py:44 recursos/4soriano/datos/levels.py:45
 msgid "Arroyo Maciel"
-msgstr ""
+msgstr "Maciel jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:46 recursos/4durazno/datos/levels.py:59
 msgid "Arroyo de Tejera"
-msgstr ""
+msgstr "Tejera jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:47 recursos/4durazno/datos/levels.py:60
 msgid "Arroyo Tomás Cuadra"
-msgstr ""
+msgstr "Tomás Cuadra jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:48 recursos/4durazno/datos/levels.py:61
 msgid "Arroyo Maestre de Campo"
-msgstr ""
+msgstr "Maestre de Campo jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:49 recursos/4durazno/datos/levels.py:62
 msgid "Arroyo Antonio Herrera"
-msgstr ""
+msgstr "Antonio Herrera jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:50 recursos/4durazno/datos/levels.py:63
 msgid "Arroyo Malbajar"
-msgstr ""
+msgstr "Malbajar jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:52 recursos/4durazno/datos/levels.py:65
 msgid "Arroyo Palmas"
-msgstr ""
+msgstr "Palmas jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:53 recursos/4durazno/datos/levels.py:66
 msgid "Arroyo Blanquillo"
-msgstr ""
+msgstr "Blanquillo jach'a uma irpa"
 
 #: recursos/4durazno/datos/4durazno.py:58 recursos/4durazno/datos/levels.py:77
 msgid "Cuchilla Ramírez"
-msgstr ""
+msgstr "Ramírez jach'a khunu qullu"
 
 #: recursos/4durazno/datos/4durazno.py:60 recursos/4durazno/datos/levels.py:79
 #: recursos/4flores/datos/4flores.py:60 recursos/4flores/datos/levels.py:81
 msgid "Cuchilla Villasboas"
-msgstr ""
+msgstr "Villasboas jach'a khunu qullu"
 
 #: recursos/4durazno/datos/4durazno.py:64 recursos/4durazno/datos/levels.py:80
 msgid "Cerro Dos Hermanos"
-msgstr ""
+msgstr "Cerro Dos Hermanos marka"
 
 #: recursos/4durazno/datos/levels.py:36
 msgid "Alvarez"
-msgstr ""
+msgstr "Alvarez anatiri jilata"
 
 #: recursos/4durazno/datos/levels.py:92
 msgid "Villa del Carmen"
-msgstr ""
+msgstr "Villa del Carmen marka"
 
 #: recursos/4flores/datos/4flores.py:18 recursos/4flores/datos/levels.py:27
 msgid "Andresito"
-msgstr ""
+msgstr "Andresito marka"
 
 #: recursos/4flores/datos/4flores.py:19 recursos/4flores/datos/levels.py:28
 msgid "Juan José Castro"
-msgstr ""
+msgstr "Juan José Castro marka"
 
 #: recursos/4flores/datos/4flores.py:21 recursos/4flores/datos/levels.py:30
 msgid "La Casilla"
-msgstr ""
+msgstr "Casilla marka"
 
 #: recursos/4flores/datos/4flores.py:22 recursos/4flores/datos/levels.py:31
 msgid "San Gregorio"
-msgstr ""
+msgstr "San Gregorio marka"
 
 #: recursos/4flores/datos/4flores.py:23 recursos/4flores/datos/levels.py:32
 #: recursos/4flores/datos/levels.py:96 recursos/4san_jose/datos/levels.py:101
 msgid "Ismael Cortinas"
-msgstr ""
+msgstr "Ismael Cortinas marka"
 
 #: recursos/4flores/datos/4flores.py:30 recursos/4flores/datos/levels.py:45
 #: recursos/4rio_negro/datos/4rio_negro.py:35
 #: recursos/4rio_negro/datos/levels.py:34
 #: recursos/4soriano/datos/4soriano.py:56 recursos/4soriano/datos/levels.py:57
 msgid "Arroyo Grande"
-msgstr ""
+msgstr "Jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:31 recursos/4flores/datos/levels.py:46
 msgid "Arroyo Marincho"
-msgstr ""
+msgstr "Marincho jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:32 recursos/4flores/datos/levels.py:47
 #: recursos/4maldonado/datos/4maldonado.py:41
 #: recursos/4maldonado/datos/levels.py:42 recursos/4rivera/datos/4rivera.py:42
 #: recursos/4rivera/datos/levels.py:42
 msgid "Arroyo Coronilla"
-msgstr ""
+msgstr "Coronilla jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:33 recursos/4flores/datos/levels.py:48
 msgid "Arroyo Sarandi"
-msgstr ""
+msgstr "Sarandí jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:34 recursos/4flores/datos/levels.py:49
 msgid "Arroyo Porongos"
-msgstr ""
+msgstr "Porongos jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:37 recursos/4flores/datos/levels.py:52
 #: recursos/4montevideo/datos/4montevideo.py:59
@@ -4738,92 +4915,92 @@ msgstr ""
 #: recursos/4san_jose/datos/4san_jose.py:55
 #: recursos/4san_jose/datos/levels.py:70
 msgid "Arroyo San Gregorio"
-msgstr ""
+msgstr "San Gregorio jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:38 recursos/4flores/datos/levels.py:53
 msgid "Arroyo Pintos"
-msgstr ""
+msgstr "Pintos jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:39 recursos/4flores/datos/levels.py:54
 msgid "Arroyo Bolas Grande"
-msgstr ""
+msgstr "Bolas Grande jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:40 recursos/4flores/datos/levels.py:55
 msgid "Arroyo Juncal"
-msgstr ""
+msgstr "Juncal jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:42 recursos/4flores/datos/levels.py:57
 msgid "Arroyo Ojosmín"
-msgstr ""
+msgstr "Ojosmín jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:43 recursos/4flores/datos/levels.py:58
 msgid "Arroyo Guardia Vieja"
-msgstr ""
+msgstr "Guardia Vieja jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:44 recursos/4flores/datos/levels.py:59
 msgid "Arroyo Manantiales"
-msgstr ""
+msgstr "Manantiales jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:45 recursos/4flores/datos/levels.py:60
 msgid "Arroyo Arenal Chico"
-msgstr ""
+msgstr "Arenal Chico jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:47 recursos/4flores/datos/levels.py:62
 msgid "Arroyo Tala"
-msgstr ""
+msgstr "Tala jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:49 recursos/4flores/datos/levels.py:64
 msgid "Arroyo de la Cordobesa"
-msgstr ""
+msgstr "Cordobesa jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:50 recursos/4flores/datos/levels.py:65
 msgid "Arroyo Duraznito"
-msgstr ""
+msgstr "Duraznito jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:51 recursos/4flores/datos/levels.py:66
 msgid "Arroyo Chamangá"
-msgstr ""
+msgstr "Chamangá jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:52 recursos/4flores/datos/levels.py:67
 msgid "Arroyo de los Ahogados"
-msgstr ""
+msgstr "Ahogados jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:53 recursos/4flores/datos/levels.py:68
 msgid "Arroyo Piedra Sola"
-msgstr ""
+msgstr "Piedra Sola jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:55 recursos/4flores/datos/levels.py:70
 #: recursos/4florida/datos/4florida.py:56 recursos/4florida/datos/levels.py:71
 msgid "Arroyo Manguera"
-msgstr ""
+msgstr "Manguera jach'a uma irpa"
 
 #: recursos/4flores/datos/4flores.py:59 recursos/4flores/datos/levels.py:80
 msgid "Cuchilla Marincho"
-msgstr ""
+msgstr "Marincho jach'a khunu qullu"
 
 #: recursos/4flores/datos/4flores.py:65 recursos/4flores/datos/levels.py:83
 msgid "Cerros de Ojosmín"
-msgstr ""
+msgstr "Cerros de Ojosmín marka"
 
 #: recursos/4florida/datos/4florida.py:20 recursos/4florida/datos/levels.py:29
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:28
 #: recursos/4treinta_y_tres/datos/levels.py:20
 msgid "Valentines"
-msgstr ""
+msgstr "Valentines marka"
 
 #: recursos/4florida/datos/4florida.py:21 recursos/4florida/datos/levels.py:30
 #: recursos/4florida/datos/levels.py:116
 msgid "Capilla del Sauce"
-msgstr ""
+msgstr "Capilla del Sauce marka"
 
 #: recursos/4florida/datos/4florida.py:22 recursos/4florida/datos/levels.py:31
 #: recursos/4florida/datos/levels.py:122
 msgid "Nico Pérez"
-msgstr ""
+msgstr "Nico Pérez marka"
 
 #: recursos/4florida/datos/4florida.py:23 recursos/4florida/datos/levels.py:32
 msgid "Illescas"
-msgstr ""
+msgstr "Illescas marka"
 
 #: recursos/4florida/datos/4florida.py:25 recursos/4florida/datos/levels.py:34
 msgid "San Gabriel"
@@ -4831,27 +5008,27 @@ msgstr "San Gabriel marka"
 
 #: recursos/4florida/datos/4florida.py:26 recursos/4florida/datos/levels.py:35
 msgid "Reboledo"
-msgstr ""
+msgstr "Reboledo marka"
 
 #: recursos/4florida/datos/4florida.py:28 recursos/4florida/datos/levels.py:37
 msgid "Fray Marcos"
-msgstr ""
+msgstr "Fray Marcos marka"
 
 #: recursos/4florida/datos/4florida.py:29 recursos/4florida/datos/levels.py:38
 msgid "Chamizo"
-msgstr ""
+msgstr "Chamizo marka"
 
 #: recursos/4florida/datos/4florida.py:30 recursos/4florida/datos/levels.py:39
 msgid "Goñi"
-msgstr ""
+msgstr "Goñi marka"
 
 #: recursos/4florida/datos/4florida.py:31 recursos/4florida/datos/levels.py:40
 msgid "Puntas de Maciel"
-msgstr ""
+msgstr "Puntas de Maciel marka"
 
 #: recursos/4florida/datos/4florida.py:33 recursos/4florida/datos/levels.py:42
 msgid "Pintado"
-msgstr ""
+msgstr "Pintado p'iqiña kankañani tata"
 
 #: recursos/4florida/datos/4florida.py:34 recursos/4florida/datos/levels.py:43
 msgid "La Cruz"
@@ -4859,27 +5036,27 @@ msgstr "Cruz marka"
 
 #: recursos/4florida/datos/4florida.py:35 recursos/4florida/datos/levels.py:44
 msgid "La Macana"
-msgstr ""
+msgstr "Macana marka"
 
 #: recursos/4florida/datos/4florida.py:36 recursos/4florida/datos/levels.py:45
 msgid "Berrondo"
-msgstr ""
+msgstr "Berrondo marka"
 
 #: recursos/4florida/datos/4florida.py:37 recursos/4florida/datos/levels.py:46
 msgid "25 de Mayo"
-msgstr ""
+msgstr "25 de Mayo marka"
 
 #: recursos/4florida/datos/4florida.py:38 recursos/4florida/datos/levels.py:47
 msgid "Mendoza Chico"
-msgstr ""
+msgstr "Mendoza Chico marka"
 
 #: recursos/4florida/datos/4florida.py:39 recursos/4florida/datos/levels.py:48
 msgid "Mendoza Grande"
-msgstr ""
+msgstr "Mendoza Grande marka"
 
 #: recursos/4florida/datos/4florida.py:40 recursos/4florida/datos/levels.py:49
 msgid "Cardal"
-msgstr ""
+msgstr "Cardal marka"
 
 #: recursos/4florida/datos/4florida.py:41 recursos/4florida/datos/levels.py:50
 msgid "Independencia"
@@ -4887,160 +5064,157 @@ msgstr "Independencia marka"
 
 #: recursos/4florida/datos/4florida.py:48 recursos/4florida/datos/levels.py:63
 msgid "Arroyo Palermo"
-msgstr ""
+msgstr "Palermo jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:49 recursos/4florida/datos/levels.py:64
 msgid "Arroyo de la Cruz"
-msgstr ""
+msgstr "Cruz jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:50 recursos/4florida/datos/levels.py:65
 msgid "Arroyo Mansavillagra"
-msgstr ""
+msgstr "Mansavillagra jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:51 recursos/4florida/datos/levels.py:66
-#, fuzzy
 msgid "Arroyo del Potrero"
-msgstr "Medio apu qullu"
+msgstr "Potrero jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:52 recursos/4florida/datos/levels.py:67
 msgid "Arroyo Illescas"
-msgstr ""
+msgstr "Illescas jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:53 recursos/4florida/datos/levels.py:68
-#, fuzzy
 msgid "Arroyo del Pescado"
-msgstr "Medio apu qullu"
+msgstr "Pescado jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:54 recursos/4florida/datos/levels.py:69
 msgid "Arroyo Molles de P."
-msgstr ""
+msgstr "Molles de P. jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:55 recursos/4florida/datos/levels.py:70
 #: recursos/4soriano/datos/4soriano.py:59 recursos/4soriano/datos/levels.py:60
 msgid "Arroyo Monzón"
-msgstr ""
+msgstr "Arroyo Monzón jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:58 recursos/4florida/datos/levels.py:73
 #: recursos/4san_jose/datos/4san_jose.py:43
 #: recursos/4san_jose/datos/levels.py:58
 msgid "Arroyo de la Virgen"
-msgstr ""
+msgstr "Virgen jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:59 recursos/4florida/datos/levels.py:74
 msgid "Arroyo de Mendoza"
-msgstr ""
+msgstr "Mendoza jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:60 recursos/4florida/datos/levels.py:75
 msgid "Arroyo de Arias"
-msgstr ""
+msgstr "Arias jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:61 recursos/4florida/datos/levels.py:76
 msgid "Arroyo San Gabriel"
-msgstr ""
+msgstr "San Gabriel jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:62 recursos/4florida/datos/levels.py:77
 #: recursos/4san_jose/datos/4san_jose.py:46
 #: recursos/4san_jose/datos/levels.py:61
 msgid "Arroyo Chamizo"
-msgstr ""
+msgstr "Chamizo jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:63 recursos/4florida/datos/levels.py:78
 #: recursos/4lavalleja/datos/4lavalleja.py:37
 #: recursos/4lavalleja/datos/levels.py:52
 msgid "Arroyo Chamamé"
-msgstr ""
+msgstr "Chamamé jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:64 recursos/4florida/datos/levels.py:79
 msgid "Arroyo la Cruz"
-msgstr ""
+msgstr "Cruz jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:65 recursos/4florida/datos/levels.py:80
 #: recursos/4lavalleja/datos/4lavalleja.py:36
 #: recursos/4lavalleja/datos/levels.py:51
 msgid "Arroyo Casupá"
-msgstr ""
+msgstr "Casupá jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:66 recursos/4florida/datos/levels.py:81
 msgid "Arroyo Pintado"
-msgstr ""
+msgstr "Pintado jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:69 recursos/4florida/datos/levels.py:84
 msgid "Arroyo Timote"
-msgstr ""
+msgstr "Timote jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:70 recursos/4florida/datos/levels.py:85
 msgid "Arroyo Molles de Timote"
-msgstr ""
+msgstr "Molles de Timote jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:71 recursos/4florida/datos/levels.py:86
 msgid "Arroyo Sauce de Timote"
-msgstr ""
+msgstr "Sauce de Timote jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:72 recursos/4florida/datos/levels.py:87
 #: recursos/4rio_negro/datos/4rio_negro.py:43
 #: recursos/4rio_negro/datos/levels.py:42
 msgid "Arroyo Bellaco"
-msgstr ""
+msgstr "Bellaco jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:73 recursos/4florida/datos/levels.py:88
 #: recursos/4salto/datos/4salto.py:65 recursos/4salto/datos/levels.py:64
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:38
 #: recursos/4treinta_y_tres/datos/levels.py:36
 msgid "Arroyo Sarandí Chico"
-msgstr ""
+msgstr "Sarandí Chico jach'a uma irpa"
 
 #: recursos/4florida/datos/4florida.py:77 recursos/4florida/datos/levels.py:98
 msgid "Cuchilla Mansavillagra"
-msgstr ""
+msgstr "Mansavillagra jach'a khunu qullu"
 
 #: recursos/4florida/datos/4florida.py:80
 #: recursos/4florida/datos/levels.py:101
 msgid "Cuchilla del Pintado"
-msgstr ""
+msgstr "Pintado jach'a khunu qullu"
 
 #: recursos/4florida/datos/4florida.py:81
 #: recursos/4florida/datos/levels.py:102
 msgid "Cuchilla Santa Lucía"
-msgstr ""
+msgstr "Santa Lucía jach'a khunu qullu"
 
 #: recursos/4florida/datos/4florida.py:85
 #: recursos/4florida/datos/levels.py:103
-#, fuzzy
 msgid "Cerro Pescado"
-msgstr "Cerro Pintado marka"
+msgstr "Cerro Pescado marka"
 
 #: recursos/4florida/datos/4florida.py:86
 #: recursos/4florida/datos/levels.py:104
 msgid "Cerro Florida"
-msgstr ""
+msgstr "Cerro Florida marka"
 
 #: recursos/4florida/datos/4florida.py:87
 #: recursos/4florida/datos/levels.py:105
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:62
 #: recursos/4treinta_y_tres/datos/levels.py:62
 msgid "Cerro Valentín"
-msgstr ""
+msgstr "Cerro Valentín marka"
 
 #: recursos/4florida/datos/levels.py:104 recursos/4rivera/datos/levels.py:83
 msgid "the capital"
-msgstr ""
+msgstr "Jilïri marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:20
 #: recursos/4lavalleja/datos/levels.py:29
 #: recursos/4lavalleja/datos/levels.py:104
 msgid "Pirarajá"
-msgstr ""
+msgstr "Pirarajá marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:21
 #: recursos/4lavalleja/datos/levels.py:30
 #: recursos/4lavalleja/datos/levels.py:103
 msgid "Polanco"
-msgstr ""
+msgstr "Polanco marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:22
 #: recursos/4lavalleja/datos/levels.py:31
 msgid "Gaetán"
-msgstr ""
+msgstr "Gaetán marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:23
 #: recursos/4lavalleja/datos/levels.py:32
@@ -5051,12 +5225,12 @@ msgstr "Mariscala marka"
 #: recursos/4lavalleja/datos/levels.py:33
 #: recursos/4lavalleja/datos/levels.py:102
 msgid "Villa del Rosario"
-msgstr ""
+msgstr "Villa del Rosario marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:25
 #: recursos/4lavalleja/datos/levels.py:34
 msgid "Solís de Mataojo"
-msgstr ""
+msgstr "Solís de Mataojo marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:33
 #: recursos/4lavalleja/datos/levels.py:48 recursos/4rivera/datos/4rivera.py:40
@@ -5064,305 +5238,300 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:36
 #: recursos/4treinta_y_tres/datos/levels.py:34
 msgid "Arroyo Corrales"
-msgstr ""
+msgstr "Corrales jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:35
 #: recursos/4lavalleja/datos/levels.py:50
 #: recursos/4maldonado/datos/4maldonado.py:45
 #: recursos/4maldonado/datos/levels.py:46
 msgid "Arroyo Mataojo"
-msgstr ""
+msgstr "Mataojo jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:38
 #: recursos/4lavalleja/datos/levels.py:53
 msgid "Arroyo Gaitea"
-msgstr ""
+msgstr "Gaitea jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:39
 #: recursos/4lavalleja/datos/levels.py:54
-#, fuzzy
 msgid "Arroyo del Soldado"
-msgstr "Medio apu qullu"
+msgstr "Campamento jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:40
 #: recursos/4lavalleja/datos/levels.py:55
 msgid "Arroyo Campamento"
-msgstr ""
+msgstr "Campamento jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:41
 #: recursos/4lavalleja/datos/levels.py:56
 msgid "Arroyo San Francisco"
-msgstr ""
+msgstr "San Francisco jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:42
 #: recursos/4lavalleja/datos/levels.py:57
 msgid "Arroyo de la Plata"
-msgstr ""
+msgstr "Plata jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:43
 #: recursos/4lavalleja/datos/levels.py:58
 msgid "Arroyo Marmarajá"
-msgstr ""
+msgstr "Marmarajá jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:44
 #: recursos/4lavalleja/datos/levels.py:59 recursos/4rocha/datos/4rocha.py:60
 #: recursos/4rocha/datos/levels.py:61
 msgid "Arroyo Aiguá"
-msgstr ""
+msgstr "Aiguá jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:45
 #: recursos/4lavalleja/datos/levels.py:60
 msgid "Arroyo de la Lorencita"
-msgstr ""
+msgstr "Lorencita jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:46
 #: recursos/4lavalleja/datos/levels.py:61
 msgid "Arroyo de los Viera"
-msgstr ""
+msgstr "Viera jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:47
 #: recursos/4lavalleja/datos/levels.py:62
 msgid "Arroyo Tapes"
-msgstr ""
+msgstr "Tapes jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:48
 #: recursos/4lavalleja/datos/levels.py:63
 msgid "Arroyo Barriga Negra"
-msgstr ""
+msgstr "Barriga Negra jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:50
 #: recursos/4lavalleja/datos/levels.py:65
 msgid "Arroyo Malo Grande"
-msgstr ""
+msgstr "Malo Grande jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:51
 #: recursos/4lavalleja/datos/levels.py:66
 msgid "Arroyo Malo Chico"
-msgstr ""
+msgstr "Malo Chico jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:52
 #: recursos/4lavalleja/datos/levels.py:67
 msgid "Arroyo de los Chanchos"
-msgstr ""
+msgstr "Chanchos jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:53
 #: recursos/4lavalleja/datos/levels.py:68
 #: recursos/4paysandu/datos/4paysandu.py:68
 #: recursos/4paysandu/datos/levels.py:67
 msgid "Arroyo de los Molles"
-msgstr ""
+msgstr "Molles jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:54
 #: recursos/4lavalleja/datos/levels.py:69
 msgid "Arroyo de los Tapes"
-msgstr ""
+msgstr "Tapes jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:55
 #: recursos/4lavalleja/datos/levels.py:70
 msgid "Arroyo Piranga"
-msgstr ""
+msgstr "Piranga jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:56
 #: recursos/4lavalleja/datos/levels.py:71
 #: recursos/4rio_negro/datos/4rio_negro.py:44
 #: recursos/4rio_negro/datos/levels.py:43
 msgid "Arroyo Gutiérrez"
-msgstr ""
+msgstr "Gutiérrez jach'a uma irpa"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:61
 #: recursos/4lavalleja/datos/levels.py:82
 msgid "Asperezas de Retamosa"
-msgstr ""
+msgstr "Asperezas de Retamosa marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:62
 #: recursos/4lavalleja/datos/levels.py:83
 msgid "Asperezas de Polanco"
-msgstr ""
+msgstr "Asperezas de Polanco marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:63
 #: recursos/4lavalleja/datos/levels.py:84
 msgid "Cuchilla Cerro Partido"
-msgstr ""
+msgstr "Cerro Partido jach'a khunu qullu"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:64
 #: recursos/4lavalleja/datos/levels.py:85
 msgid "Cuchilla de Medina"
-msgstr ""
+msgstr "Medina jach'a khunu qullu"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:65
 #: recursos/4lavalleja/datos/levels.py:86
 #: recursos/4maldonado/datos/4maldonado.py:62
 #: recursos/4maldonado/datos/levels.py:66
 msgid "Sierra de Carapé"
-msgstr ""
+msgstr "Sierra de Carapé marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:69
 #: recursos/4lavalleja/datos/levels.py:87
 msgid "Cerro Espuelitas"
-msgstr ""
+msgstr "Cerro Espuelitas marka"
 
 #: recursos/4lavalleja/datos/4lavalleja.py:72
 #: recursos/4lavalleja/datos/levels.py:90
 msgid "Cerro Retamosa"
-msgstr ""
+msgstr "Cerro Retamosa marka"
 
 #: recursos/4maldonado/datos/4maldonado.py:17
 #: recursos/4maldonado/datos/levels.py:12
 msgid "Los Talas"
-msgstr ""
+msgstr "Talas marka"
 
 #: recursos/4maldonado/datos/4maldonado.py:19
 #: recursos/4maldonado/datos/levels.py:14
 msgid "José Ignacio"
-msgstr ""
+msgstr "José Ignacio marka"
 
 #: recursos/4maldonado/datos/4maldonado.py:24
 #: recursos/4maldonado/datos/levels.py:19
 msgid "Punta Ballena"
-msgstr ""
+msgstr "Punta Ballena marka"
 
 #: recursos/4maldonado/datos/4maldonado.py:25
 #: recursos/4maldonado/datos/levels.py:20
 #: recursos/4montevideo/datos/4montevideo.py:96
 #: recursos/4montevideo/datos/levels.py:123
 msgid "Garzón"
-msgstr ""
+msgstr "Garzón marka"
 
 #: recursos/4maldonado/datos/4maldonado.py:26
 #: recursos/4maldonado/datos/levels.py:21 recursos/4rivera/datos/4rivera.py:26
 #: recursos/4rivera/datos/levels.py:20
 msgid "Las Flores"
-msgstr ""
+msgstr "Flores marka"
 
 #: recursos/4maldonado/datos/4maldonado.py:27
 #: recursos/4maldonado/datos/levels.py:22
 msgid "La Barra"
-msgstr ""
+msgstr "Barra marka"
 
 #: recursos/4maldonado/datos/4maldonado.py:33
 #: recursos/4maldonado/datos/levels.py:34 recursos/4rocha/datos/4rocha.py:55
 #: recursos/4rocha/datos/levels.py:56
 msgid "Arroyo Garzón"
-msgstr ""
+msgstr "Garzón jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:34
 #: recursos/4maldonado/datos/levels.py:35
 msgid "Arroyo de Rocha"
-msgstr ""
+msgstr "Rocha jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:35
 #: recursos/4maldonado/datos/levels.py:36
 msgid "Arroyo Valdivia"
-msgstr ""
+msgstr "Valdivia jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:36
 #: recursos/4maldonado/datos/levels.py:37
 msgid "Arroyo del Alferez"
-msgstr ""
+msgstr "Aiguá jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:37
 #: recursos/4maldonado/datos/levels.py:38
 msgid "Arroyo del Aiguá"
-msgstr ""
+msgstr "Aiguá jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:39
 #: recursos/4maldonado/datos/levels.py:40
-#, fuzzy
 msgid "Arroyo del León"
-msgstr "Medio apu qullu"
+msgstr "León jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:43
 #: recursos/4maldonado/datos/levels.py:44
-#, fuzzy
 msgid "Arroyo Pan de Azúcar"
-msgstr "Azúcar marka Cerro Pan muqupa"
+msgstr "Pan de Azúcar jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:47
 #: recursos/4maldonado/datos/levels.py:48
 msgid "Arroyo de los Caracoles"
-msgstr ""
+msgstr "Arroyo de los Caracoles jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:48
 #: recursos/4maldonado/datos/levels.py:49
 msgid "Arroyo de los Carpés"
-msgstr ""
+msgstr "Carpés jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:49
 #: recursos/4maldonado/datos/levels.py:50
 msgid "Arroyo San Carlos"
-msgstr ""
+msgstr "San Carlos jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:50
 #: recursos/4maldonado/datos/levels.py:51
 msgid "Arroyo Maldonado"
-msgstr ""
+msgstr "Maldonado jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:51
 #: recursos/4maldonado/datos/levels.py:52
 msgid "Arroyo José Ignacio"
-msgstr ""
+msgstr "José Ignacio jach'a uma irpa"
 
 #: recursos/4maldonado/datos/4maldonado.py:52
 msgid "Laguna Garzón"
-msgstr ""
+msgstr "Garzón qutaña"
 
 #: recursos/4maldonado/datos/4maldonado.py:53
 msgid "Laguna José Ignacio"
-msgstr ""
+msgstr "José Ignacio qutaña"
 
 #: recursos/4maldonado/datos/4maldonado.py:58
 #: recursos/4maldonado/datos/levels.py:62
-#, fuzzy
 msgid "Sierra de las Cañas"
-msgstr "Animas apu qullu"
+msgstr "Sierra de las Cañas qurpachasiña uta"
 
 #: recursos/4maldonado/datos/4maldonado.py:59
 #: recursos/4maldonado/datos/levels.py:63
 msgid "Sierra de los Caracoles"
-msgstr ""
+msgstr "Sierra de los Caracoles jañurasiña chiqa"
 
 #: recursos/4maldonado/datos/4maldonado.py:60
 #: recursos/4maldonado/datos/levels.py:64
-#, fuzzy
 msgid "Sierra de las Ánimas"
-msgstr "Animas apu qullu"
+msgstr "Sierra de las Ánimas thaya suyu"
 
 #: recursos/4maldonado/datos/4maldonado.py:61
 #: recursos/4maldonado/datos/levels.py:65
 msgid "Sierra de la Ballena"
-msgstr ""
+msgstr "Sierra de la Ballena jañurasiña chiqa"
 
 #: recursos/4maldonado/datos/4maldonado.py:66
 #: recursos/4maldonado/datos/levels.py:67
 #: recursos/4paysandu/datos/4paysandu.py:90
 #: recursos/4paysandu/datos/levels.py:92
 msgid "Cerro del Toro"
-msgstr ""
+msgstr "Cerro del Toro jach'a lamara quta qawaya marka"
 
 #: recursos/4maldonado/datos/4maldonado.py:67
 #: recursos/4maldonado/datos/levels.py:68
 msgid "Cerro San Antonio"
-msgstr ""
+msgstr "Cerro San Antonio marka"
 
 #: recursos/4maldonado/datos/levels.py:70
 msgid "It's the highest in Uruguay"
-msgstr ""
+msgstr "Uruguay markana ukawa sinti jach'a sayt'uxa"
 
 #: recursos/4maldonado/datos/levels.py:85
 msgid "major resort"
-msgstr ""
+msgstr "jach'a lamara quta qawaya jach'a markanaka"
 
 #: recursos/4montevideo/datos/4montevideo.py:14
 #: recursos/4montevideo/datos/levels.py:11
 msgid "Santiago Vázquez"
-msgstr ""
+msgstr "Santiago Vázquez marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:15
 #: recursos/4montevideo/datos/levels.py:12
 #: recursos/4montevideo/datos/levels.py:13
 #: recursos/4montevideo/datos/levels.py:61
 msgid "Ciudad Vieja"
-msgstr ""
+msgstr "Ciudad Vieja nayra marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:16
 #: recursos/4montevideo/datos/levels.py:13
@@ -5379,12 +5548,12 @@ msgstr "Kupi tuqi"
 #: recursos/4montevideo/datos/4montevideo.py:18
 #: recursos/4montevideo/datos/levels.py:15
 msgid "Palermo"
-msgstr ""
+msgstr "Palermo marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:19
 #: recursos/4montevideo/datos/levels.py:16
 msgid "Cordón"
-msgstr ""
+msgstr "Cordón marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:20
 #: recursos/4montevideo/datos/levels.py:17
@@ -5395,23 +5564,23 @@ msgstr "Aguada marka"
 #: recursos/4montevideo/datos/4montevideo.py:21
 #: recursos/4montevideo/datos/levels.py:18
 msgid "Punta Carretas"
-msgstr ""
+msgstr "Punta Carretas marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:22
 #: recursos/4montevideo/datos/levels.py:19
 #: recursos/4montevideo/datos/levels.py:64
 msgid "Pocitos"
-msgstr ""
+msgstr "Pocitos marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:23
 #: recursos/4montevideo/datos/levels.py:20
 msgid "Buceo"
-msgstr ""
+msgstr "Buceo marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:24
 #: recursos/4montevideo/datos/levels.py:21
 msgid "Malvín"
-msgstr ""
+msgstr "Malvín marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:25
 #: recursos/4montevideo/datos/levels.py:22
@@ -5427,7 +5596,7 @@ msgstr "Carrasco marka"
 #: recursos/4montevideo/datos/levels.py:24
 #: recursos/4montevideo/datos/levels.py:66
 msgid "Parque Batlle"
-msgstr ""
+msgstr "Parque Batlle jañurasiña chiqa"
 
 #: recursos/4montevideo/datos/4montevideo.py:28
 #: recursos/4montevideo/datos/levels.py:25
@@ -5439,63 +5608,63 @@ msgstr "Unión marka"
 #: recursos/4montevideo/datos/4montevideo.py:29
 #: recursos/4montevideo/datos/levels.py:26
 msgid "Maroñas"
-msgstr ""
+msgstr "Maroñas marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:30
 #: recursos/4montevideo/datos/levels.py:27
 msgid "Villa Española"
-msgstr ""
+msgstr "Villa Española marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:31
 #: recursos/4montevideo/datos/levels.py:28
 #: recursos/4san_jose/datos/4san_jose.py:27
 #: recursos/4san_jose/datos/levels.py:36
 msgid "Capurro"
-msgstr ""
+msgstr "Capurro marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:32
 #: recursos/4montevideo/datos/levels.py:29
 #: recursos/4montevideo/datos/levels.py:30
 #: recursos/4montevideo/datos/levels.py:43
 msgid "Prado"
-msgstr ""
+msgstr "Prado marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:33
 #: recursos/4montevideo/datos/levels.py:30
 msgid "Belvedere"
-msgstr ""
+msgstr "Belvedere marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:34
 #: recursos/4montevideo/datos/levels.py:31
 #: recursos/4montevideo/datos/levels.py:32
 msgid "Cerro"
-msgstr ""
+msgstr "Cerro mayachäwi"
 
 #: recursos/4montevideo/datos/4montevideo.py:35
 #: recursos/4montevideo/datos/levels.py:32
 msgid "Casabó"
-msgstr ""
+msgstr "Casabó marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:36
 #: recursos/4montevideo/datos/levels.py:33
 msgid "La Teja"
-msgstr ""
+msgstr "Teja marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:37
 #: recursos/4montevideo/datos/levels.py:34
 msgid "Nuevo París"
-msgstr ""
+msgstr "Nuevo París marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:38
 #: recursos/4montevideo/datos/levels.py:35
 msgid "Sayago"
-msgstr ""
+msgstr "Sayago marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:39
 #: recursos/4montevideo/datos/levels.py:36
 #: recursos/4montevideo/datos/levels.py:62
 msgid "Peñarol"
-msgstr ""
+msgstr "Peñarol marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:40
 #: recursos/4montevideo/datos/levels.py:37
@@ -5506,18 +5675,18 @@ msgstr "Colón suti"
 #: recursos/4montevideo/datos/4montevideo.py:41
 #: recursos/4montevideo/datos/levels.py:38
 msgid "Casavalle"
-msgstr ""
+msgstr "Casavalle marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:42
 #: recursos/4montevideo/datos/levels.py:39
 #: recursos/4montevideo/datos/levels.py:59
 msgid "Cerrito de la Victoria"
-msgstr ""
+msgstr "Cerrito de la Victoria marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:43
 #: recursos/4montevideo/datos/levels.py:40
 msgid "Jardines del Hipódromo"
-msgstr ""
+msgstr "Jardines del Hipódromo marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:44
 #: recursos/4montevideo/datos/levels.py:41
@@ -5527,32 +5696,32 @@ msgstr "Piedras Blancas marka"
 #: recursos/4montevideo/datos/4montevideo.py:45
 #: recursos/4montevideo/datos/levels.py:42
 msgid "Punta de Rieles"
-msgstr ""
+msgstr "Punta de Rieles marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:46
 #: recursos/4montevideo/datos/levels.py:43
 msgid "Brazo Oriental"
-msgstr ""
+msgstr "Brazo Oriental marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:47
 #: recursos/4montevideo/datos/levels.py:44
 msgid "Jacinto Vera"
-msgstr ""
+msgstr "Jacinto Vera marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:48
 #: recursos/4montevideo/datos/levels.py:45
 msgid "Lezica"
-msgstr ""
+msgstr "Lezica marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:49
 #: recursos/4montevideo/datos/levels.py:46
 msgid "Paso de la Arena"
-msgstr ""
+msgstr "Paso de la Arena marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:50
 #: recursos/4montevideo/datos/levels.py:47
 msgid "Villa García"
-msgstr ""
+msgstr "Villa García marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:51
 #: recursos/4montevideo/datos/levels.py:48
@@ -5562,73 +5731,73 @@ msgstr "Manga marka"
 #: recursos/4montevideo/datos/4montevideo.py:58
 #: recursos/4montevideo/datos/levels.py:80
 msgid "Arroyo de Melilla"
-msgstr ""
+msgstr "Melilla jach'a uma irpa"
 
 #: recursos/4montevideo/datos/4montevideo.py:62
 #: recursos/4montevideo/datos/levels.py:84
 msgid "Arroyo Mendoza"
-msgstr ""
+msgstr "Mendoza jach'a uma irpa"
 
 #: recursos/4montevideo/datos/4montevideo.py:66
 #: recursos/4montevideo/datos/levels.py:88
 msgid "Arroyo Manga"
-msgstr ""
+msgstr "Manga jach'a uma irpa"
 
 #: recursos/4montevideo/datos/4montevideo.py:67
 msgid "Cañada Piedritas"
-msgstr ""
+msgstr "Cañada Piedritas marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:68
 msgid "Cañada de las Canteras"
-msgstr ""
+msgstr "Cañada de las Canteras marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:69
 msgid "Cañada del Dragón"
-msgstr ""
+msgstr "Cañada del Dragón marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:70
 msgid "Bañado de Carrasco"
-msgstr ""
+msgstr "Bañado de Carrasco marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:75
 #: recursos/4montevideo/datos/levels.py:99
 msgid "Cabo de Pereira"
-msgstr ""
+msgstr "Cabo de Pereira marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:83
 #: recursos/4montevideo/datos/levels.py:110 recursos/4rocha/datos/4rocha.py:20
 #: recursos/4rocha/datos/levels.py:15
 msgid "18 de Julio"
-msgstr ""
+msgstr "18 de Julio marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:84
 #: recursos/4montevideo/datos/levels.py:111
 msgid "Boulevard Artigas"
-msgstr ""
+msgstr "Boulevard Artigas saräwi thaki"
 
 #: recursos/4montevideo/datos/4montevideo.py:86
 msgid "Avenida Italia"
-msgstr ""
+msgstr "Italia saräwi thaki"
 
 #: recursos/4montevideo/datos/4montevideo.py:87
 #: recursos/4montevideo/datos/levels.py:114
 msgid "Camino Carrasco"
-msgstr ""
+msgstr "Carrasco saräwi thaki"
 
 #: recursos/4montevideo/datos/4montevideo.py:88
 #: recursos/4montevideo/datos/levels.py:115
 msgid "Camino Maldonado"
-msgstr ""
+msgstr "Maldonado saräwi thaki"
 
 #: recursos/4montevideo/datos/4montevideo.py:89
 #: recursos/4montevideo/datos/levels.py:116
 msgid "8 de Octubre"
-msgstr ""
+msgstr "8 de Octubre marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:90
 #: recursos/4montevideo/datos/levels.py:117
 msgid "Belloni"
-msgstr ""
+msgstr "Belloni marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:91
 #: recursos/4montevideo/datos/levels.py:118
@@ -5638,91 +5807,95 @@ msgstr "Mendoza marka"
 #: recursos/4montevideo/datos/4montevideo.py:92
 #: recursos/4montevideo/datos/levels.py:119
 msgid "General Flores"
-msgstr ""
+msgstr "General Flores marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:93
 msgid "Propios"
-msgstr ""
+msgstr "Propios mayachäwi"
 
 #: recursos/4montevideo/datos/4montevideo.py:94
 #: recursos/4montevideo/datos/levels.py:121
 msgid "Instrucciones"
-msgstr ""
+msgstr "Yatiyäwinaka"
 
 #: recursos/4montevideo/datos/4montevideo.py:95
 #: recursos/4montevideo/datos/levels.py:122
 msgid "Agraciada"
-msgstr ""
+msgstr "atipsuri"
 
 #: recursos/4montevideo/datos/4montevideo.py:97
 #: recursos/4montevideo/datos/levels.py:124
 msgid "Accesos"
-msgstr ""
+msgstr "Mantañanaka"
 
 #: recursos/4montevideo/datos/4montevideo.py:100
 #: recursos/4montevideo/datos/levels.py:127
 msgid "Luis Batlle Berres"
-msgstr ""
+msgstr "Luis Batlle Berres marka"
 
 #: recursos/4montevideo/datos/4montevideo.py:101
 #: recursos/4montevideo/datos/levels.py:128
 msgid "Camino Sanguinetti"
-msgstr ""
+msgstr "Sanguinetti saräwi thaki"
 
 #: recursos/4montevideo/datos/4montevideo.py:102
 #: recursos/4montevideo/datos/levels.py:129
 msgid "Camino Tomkinson"
-msgstr ""
+msgstr "Tomkinson saräwi thaki"
 
 #: recursos/4montevideo/datos/4montevideo.py:103
 #: recursos/4montevideo/datos/levels.py:130
 msgid "Camino Cibils"
-msgstr ""
+msgstr "Cibils saräwi thaki"
 
 #: recursos/4montevideo/datos/4montevideo.py:104
 #: recursos/4montevideo/datos/levels.py:131
 msgid "Camino Melilla"
-msgstr ""
+msgstr "Melilla saräwi thaki"
 
 #: recursos/4montevideo/datos/explorations.py:13
 msgid "Cities and neighborhoods"
-msgstr ""
+msgstr "Jach'a jisk'a markanaka"
 
 #: recursos/4montevideo/datos/explorations.py:34
 #: recursos/4montevideo/datos/levels.py:106
 msgid "Avenues and routes"
-msgstr ""
+msgstr "Saräwinaka thakinaka"
 
 #: recursos/4montevideo/datos/levels.py:28
 #: recursos/4montevideo/datos/levels.py:31
 #: recursos/4montevideo/datos/levels.py:33
 #: recursos/4montevideo/datos/levels.py:61
 msgid "It is on the bay"
-msgstr ""
+msgstr "Lamara quta taypinkiwa"
 
 #: recursos/4montevideo/datos/levels.py:58
 msgid ""
 "the highest point\n"
 "of the department"
 msgstr ""
+"wali jach'a sayt'u tukuyaxa\n"
+"uka departamento wakisiriwa"
 
 #: recursos/4montevideo/datos/levels.py:58
 msgid "It is the symbol of the department"
-msgstr ""
+msgstr "uka departamento wakisiri chimpupawa"
 
 #: recursos/4montevideo/datos/levels.py:59
 msgid ""
 "the second highest\n"
 "point in the department"
 msgstr ""
+"ukasti payïri wali sayt'uwa\n"
+"uka departamento wakisirina utji"
 
 #: recursos/4montevideo/datos/levels.py:59
 msgid "It is a popular neighborhood"
-msgstr ""
+msgstr "wali suma markawa"
 
 #: recursos/4montevideo/datos/levels.py:60
 msgid "the stream that borders with Canelones"
-msgstr ""
+msgstr "Canelones markampi qurpa jach'a uma irpa"
 
 #: recursos/4montevideo/datos/levels.py:61
 msgid ""
@@ -5731,6 +5904,10 @@ msgid ""
 "founded in San Felipe\n"
 "and Santiago of Montevideo"
 msgstr ""
+"uka markana\n"
+"chhijnuqa markaxa\n"
+"San Felipe tatana inuqatawa\n"
+"ukata Santiago de Montevideo uka markasa"
 
 #: recursos/4montevideo/datos/levels.py:62
 msgid ""
@@ -5738,12 +5915,17 @@ msgid ""
 "they operated railway\n"
 "workshops"
 msgstr ""
+"uka markana\n"
+"walja askichaña utanakawa\n"
+"uka ferrocarril thaknama sariri askichañataki"
 
 #: recursos/4montevideo/datos/levels.py:62
 msgid ""
 "An important football\n"
 "team is named after him"
 msgstr ""
+"wali wakisiri anatiri mayachäwiwa\n"
+"sutipa api"
 
 #: recursos/4montevideo/datos/levels.py:63
 msgid ""
@@ -5752,6 +5934,10 @@ msgid ""
 "where there were\n"
 "numerous water wells"
 msgstr ""
+"markana sutipaxa\n"
+"uka chiqana sutipata sutiniwa\n"
+"ukana utjänawa\n"
+"walja uma phujunaka"
 
 #: recursos/4montevideo/datos/levels.py:63
 msgid ""
@@ -5759,6 +5945,9 @@ msgid ""
 "located where the \n"
 "Legislative Palace"
 msgstr ""
+"Jichhaxa jikxatasiwa\n"
+"kawkinkisa uka Palacio utaxa\n"
+"uka Legislativo kamichanaka sarayiri"
 
 #: recursos/4montevideo/datos/levels.py:64
 msgid ""
@@ -5766,22 +5955,29 @@ msgid ""
 "attending washerwomen\n"
 "doing laundry wells"
 msgstr ""
+"uka quta qawaynama saräna\n"
+"isi t'axsiri phujunaka jat'isa\n"
+"uksti ch'alla ch'allana"
 
 #: recursos/4montevideo/datos/levels.py:64
 msgid "It is a very busy beach"
-msgstr ""
+msgstr "uka quta qawayaru wali jaqi sarapxi"
 
 #: recursos/4montevideo/datos/levels.py:65
 msgid ""
 "the neighborhood where\n"
 "the parade of Llamadas starts"
 msgstr ""
+"uka markaxa qalltiwa\n"
+"walja jawsüwinakampi"
 
 #: recursos/4montevideo/datos/levels.py:66
 msgid ""
 "where is the\n"
 "\"World Football Monument\""
 msgstr ""
+"kawkinkiwa uka \"Monumento wakichataxa\n"
+"uka Fútbol Mundial wakisiri\""
 
 #: recursos/4montevideo/datos/levels.py:66
 msgid ""
@@ -5789,6 +5985,8 @@ msgid ""
 "Monument\" is the\n"
 "Estadio Centenario"
 msgstr ""
+"uka \"Monumento al Fútbol Mundial\" wakichataxa\n"
+" uka Estadio Centenario anataña uyuwa"
 
 #: recursos/4montevideo/datos/levels.py:67
 msgid ""
@@ -5797,11 +5995,14 @@ msgid ""
 "the department of\n"
 "Montevideo"
 msgstr ""
+"uka jawirawa\n"
+"umaña q'uma umal\n"
+"departamento de Montevideo markaru churi"
 
 #: recursos/4montevideo/datos/levels.py:82
 #: recursos/4montevideo/datos/levels.py:83
 msgid "Bahía de Montevideo"
-msgstr ""
+msgstr "Bahía de Montevideo lamara quta laka marka"
 
 #: recursos/4montevideo/datos/levels.py:110
 #: recursos/4montevideo/datos/levels.py:112
@@ -5816,26 +6017,28 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:127
 #, python-format
 msgid "the %s Avenue"
-msgstr ""
+msgstr "Saräwi thaki %s"
 
 #: recursos/4montevideo/datos/levels.py:113
 msgid "Italia"
-msgstr ""
+msgstr "Italia mayachäwi"
 
 #: recursos/4montevideo/datos/levels.py:118
 msgid "Camino Mendoza"
-msgstr ""
+msgstr "Mendoza saräwi thaki"
 
 #: recursos/4montevideo/datos/levels.py:124
 msgid ""
 "los Accesos de las\n"
 "Rutas 1 y 5"
 msgstr ""
+"Markaru mantaña thakinaka\n"
+"Ukaxa 1 ukata 5 thaki"
 
 #: recursos/4paysandu/datos/4paysandu.py:18
 #: recursos/4paysandu/datos/levels.py:12
 msgid "Chapicuy"
-msgstr ""
+msgstr "Chapicuy marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:19
 #: recursos/4paysandu/datos/levels.py:13
@@ -5845,17 +6048,17 @@ msgstr "Bella Vista marka"
 #: recursos/4paysandu/datos/4paysandu.py:20
 #: recursos/4paysandu/datos/levels.py:14
 msgid "Pueblo Gallinal"
-msgstr ""
+msgstr "Pueblo Gallinal marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:23
 #: recursos/4paysandu/datos/levels.py:17
 msgid "Soto"
-msgstr ""
+msgstr "Soto anatiri jilata"
 
 #: recursos/4paysandu/datos/4paysandu.py:24
 #: recursos/4paysandu/datos/levels.py:18
 msgid "El Eucalipto"
-msgstr ""
+msgstr "Eucalipto qulli"
 
 #: recursos/4paysandu/datos/4paysandu.py:25
 #: recursos/4paysandu/datos/levels.py:19
@@ -5864,29 +6067,29 @@ msgstr "Tambores marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:26
 msgid "Guarapirí"
-msgstr ""
+msgstr "Guarapirí marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:27
 #: recursos/4paysandu/datos/levels.py:21
 msgid "Queguayar"
-msgstr ""
+msgstr "Queguayar marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:28
 #: recursos/4paysandu/datos/levels.py:22
 msgid "Lorenzo Geyres"
-msgstr ""
+msgstr "Lorenzo Geyres marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:29
 #: recursos/4paysandu/datos/levels.py:23
 msgid "Cuchilla del Fuego"
-msgstr ""
+msgstr "Fuego jach'a khunu qullu"
 
 #: recursos/4paysandu/datos/4paysandu.py:30
 #: recursos/4paysandu/datos/levels.py:24
 #: recursos/4tacuarembo/datos/4tacuarembo.py:24
 #: recursos/4tacuarembo/datos/levels.py:32
 msgid "Piedra Sola"
-msgstr ""
+msgstr "Piedra Sola marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:31
 #: recursos/4paysandu/datos/levels.py:25
@@ -5896,7 +6099,7 @@ msgstr "Constancia marka"
 #: recursos/4paysandu/datos/4paysandu.py:32
 #: recursos/4paysandu/datos/levels.py:26
 msgid "Curapí"
-msgstr ""
+msgstr "Curapí marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:33
 #: recursos/4paysandu/datos/levels.py:27
@@ -5906,17 +6109,17 @@ msgstr "Esperanza marka"
 #: recursos/4paysandu/datos/4paysandu.py:34
 #: recursos/4paysandu/datos/levels.py:28
 msgid "Porvenir"
-msgstr ""
+msgstr "Porvenir marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:35
 #: recursos/4paysandu/datos/levels.py:29
 msgid "Piedras Coloradas"
-msgstr ""
+msgstr "Piedras Coloradas marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:36
 #: recursos/4paysandu/datos/levels.py:30
 msgid "Orgoroso"
-msgstr ""
+msgstr "Orgoroso marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:37
 #: recursos/4paysandu/datos/4paysandu.py:58
@@ -5924,118 +6127,118 @@ msgstr ""
 #: recursos/4rio_negro/datos/4rio_negro.py:42
 #: recursos/4rio_negro/datos/levels.py:41
 msgid "Arroyo Negro"
-msgstr ""
+msgstr "Ch'amaka jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:38
 #: recursos/4paysandu/datos/levels.py:32
 msgid "La Tentación"
-msgstr ""
+msgstr "Tentación marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:40
 #: recursos/4paysandu/datos/levels.py:34
 msgid "Beisso"
-msgstr ""
+msgstr "Beisso marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:41
 #: recursos/4paysandu/datos/levels.py:35
 msgid "Tres Arboles"
-msgstr ""
+msgstr "Tres Arboles qurpachasiña uta"
 
 #: recursos/4paysandu/datos/4paysandu.py:42
 #: recursos/4paysandu/datos/levels.py:36
 msgid "Tiatucurá"
-msgstr ""
+msgstr "Tiatucurá marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:48
 #: recursos/4paysandu/datos/levels.py:48
 msgid "Río Queguay Grande"
-msgstr ""
+msgstr "Queguay Grande jawira"
 
 #: recursos/4paysandu/datos/4paysandu.py:52
 #: recursos/4paysandu/datos/levels.py:51
 msgid "Arroyo Quebracho Grande"
-msgstr ""
+msgstr "Quebracho Grande jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:53
 #: recursos/4paysandu/datos/levels.py:52
 msgid "Arroyo Araujo"
-msgstr ""
+msgstr "Araujo jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:54
 #: recursos/4paysandu/datos/levels.py:53
 msgid "Arroyo de Soto"
-msgstr ""
+msgstr "Soto jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:55
 #: recursos/4paysandu/datos/levels.py:54
 msgid "Arroyo Buricayupí"
-msgstr ""
+msgstr "Buricayupí jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:56
 #: recursos/4paysandu/datos/levels.py:55
 msgid "Arroyo Carumbé"
-msgstr ""
+msgstr "Carumbé jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:57
 #: recursos/4paysandu/datos/levels.py:56
 msgid "Arroyo San Francisco Grande"
-msgstr ""
+msgstr "San Francisco Grande jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:59
 #: recursos/4paysandu/datos/levels.py:58
 msgid "Arroyo Rabón"
-msgstr ""
+msgstr "Rabón jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:60
 #: recursos/4paysandu/datos/levels.py:59
 msgid "Arroyo Valdés"
-msgstr ""
+msgstr "Valdés jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:61
 #: recursos/4paysandu/datos/levels.py:60
 msgid "Arroyo Celestina"
-msgstr ""
+msgstr "Celestina jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:62
 #: recursos/4paysandu/datos/levels.py:61
 msgid "Arroyo Bacacuá Grande"
-msgstr ""
+msgstr "Bacacuá Grande jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:63
 #: recursos/4paysandu/datos/levels.py:62
 msgid "Arroyo Ñacurutú Grande"
-msgstr ""
+msgstr "Ñacurutú Grande jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:64
 #: recursos/4paysandu/datos/levels.py:63
 msgid "Arroyo de la Capilla"
-msgstr ""
+msgstr "Capilla jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:65
 #: recursos/4paysandu/datos/levels.py:64 recursos/4salto/datos/4salto.py:59
 #: recursos/4salto/datos/levels.py:58
 msgid "Arroyo Guayabos"
-msgstr ""
+msgstr "Guayabos jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:66
 #: recursos/4paysandu/datos/levels.py:65
 msgid "Arroyo Santa Ana"
-msgstr ""
+msgstr "Santa Ana jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:67
 #: recursos/4paysandu/datos/levels.py:66
 msgid "Arroyo de los Corrales"
-msgstr ""
+msgstr "Corrales jach'a uma irpa"
 
 #: recursos/4paysandu/datos/4paysandu.py:69
 #: recursos/4paysandu/datos/levels.py:68
 msgid "Arroyo Zapatero"
-msgstr ""
+msgstr "Arroyo Zapatero Jach'a yatiña uta p'iqiña"
 
 #: recursos/4paysandu/datos/4paysandu.py:70
 #: recursos/4paysandu/datos/levels.py:69
 msgid "Arroyo Juan Tomás"
-msgstr ""
+msgstr "Arroyo Juan Tomás marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:71
 #: recursos/4paysandu/datos/levels.py:70
@@ -6044,334 +6247,333 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:40
 #: recursos/4tacuarembo/datos/levels.py:54
 msgid "Arroyo Salsipuedes Grande"
-msgstr ""
+msgstr "Arroyo Salsipuedes Jilïri marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:72
 #: recursos/4paysandu/datos/levels.py:71
 msgid "Arroyo Molles Grande"
-msgstr ""
+msgstr "Arroyo Molles Jilïri marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:73
 #: recursos/4paysandu/datos/levels.py:72
 msgid "Arroyo Molles Chico"
-msgstr ""
+msgstr "Arroyo Molles Sullkïri marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:74
 #: recursos/4paysandu/datos/levels.py:73
 msgid "Arroyo Gualeguay"
-msgstr ""
+msgstr "Arroyo Gualeguay marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:75
 #: recursos/4paysandu/datos/levels.py:74
 msgid "Arroyo Guarapirú"
-msgstr ""
+msgstr "Arroyo Guarapirú marka"
 
 #: recursos/4paysandu/datos/4paysandu.py:79
 #: recursos/4paysandu/datos/levels.py:84
 msgid "Cuchilla del Queguay"
-msgstr ""
+msgstr "Queguay jach'a khunu qullu"
 
 #: recursos/4paysandu/datos/4paysandu.py:84
 #: recursos/4paysandu/datos/levels.py:86
 msgid "Cerro de los Difuntos"
-msgstr ""
+msgstr "Amaya qullunaka"
 
 #: recursos/4paysandu/datos/4paysandu.py:85
 #: recursos/4paysandu/datos/levels.py:87
 msgid "Cerro Buricayupí"
-msgstr ""
+msgstr "Buricayupí qullu"
 
 #: recursos/4paysandu/datos/4paysandu.py:86
 #: recursos/4paysandu/datos/levels.py:88
 msgid "Cerro de la Glorieta"
-msgstr ""
+msgstr "Glorieta qullu"
 
 #: recursos/4paysandu/datos/4paysandu.py:87
 #: recursos/4paysandu/datos/levels.py:89
 msgid "Cerro del Vigía"
-msgstr ""
+msgstr "Vigía qullu"
 
 #: recursos/4paysandu/datos/4paysandu.py:88
 #: recursos/4paysandu/datos/levels.py:90
 msgid "Cerro Campana"
-msgstr ""
+msgstr "Campana qullu"
 
 #: recursos/4paysandu/datos/4paysandu.py:89
 #: recursos/4paysandu/datos/levels.py:91
 msgid "Cerro Arbolito"
-msgstr ""
+msgstr "Arbolito qullu"
 
 #: recursos/4paysandu/datos/4paysandu.py:91
 #: recursos/4paysandu/datos/levels.py:93
 msgid "Cerro Palmera Sola"
-msgstr ""
+msgstr "Palmera Sola qullu"
 
 #: recursos/4paysandu/datos/4paysandu.py:92
 #: recursos/4paysandu/datos/levels.py:94
 msgid "Meseta de Artigas"
-msgstr ""
+msgstr "Artigas jach'a qullu kayu"
 
 #: recursos/4paysandu/datos/levels.py:20
 msgid "Guarapirú"
-msgstr ""
+msgstr "Guarapirú marka"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:19
 #: recursos/4rio_negro/datos/levels.py:12
 msgid "Merinos"
-msgstr ""
+msgstr "Merinos marka"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:20
 #: recursos/4rio_negro/datos/levels.py:13
 msgid "Algorta"
-msgstr ""
+msgstr "Algorta marka"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:21
 #: recursos/4rio_negro/datos/levels.py:14
 msgid "P. de los Mellizos"
-msgstr ""
+msgstr "P. de los Mellizos wakichata"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:22
 #: recursos/4rio_negro/datos/levels.py:15
 msgid "Sarandí de Navarro"
-msgstr ""
+msgstr "Sarandí de Navarro marka"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:23
 #: recursos/4rio_negro/datos/levels.py:16
 msgid "Paso de la Cruz"
-msgstr ""
+msgstr "Paso de la Cruz wakichata"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:24
 #: recursos/4rio_negro/datos/levels.py:17
 msgid "San Javier"
-msgstr ""
+msgstr "San Javier marka"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:26
 #: recursos/4rio_negro/datos/levels.py:19
 msgid "Tres Quintas"
-msgstr ""
+msgstr "Tres Quintas marka"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:27
 #: recursos/4rio_negro/datos/levels.py:20
 msgid "Bellaco"
-msgstr ""
+msgstr "Bellaco marka"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:28
 #: recursos/4rio_negro/datos/levels.py:21
 msgid "Grecco"
-msgstr ""
+msgstr "Grecco marka"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:36
 #: recursos/4rio_negro/datos/levels.py:35
 msgid "Arroyo de las Flores"
-msgstr ""
+msgstr "Flores jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:37
 #: recursos/4rio_negro/datos/levels.py:36
 msgid "Arroyo Averías Grande"
-msgstr ""
+msgstr "Averías Grande jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:38
 #: recursos/4rio_negro/datos/levels.py:37
 msgid "Arroyo Averías Chico"
-msgstr ""
+msgstr "Averías Chico jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:39
 #: recursos/4rio_negro/datos/levels.py:38
 msgid "Arroyo Ñandubay"
-msgstr ""
+msgstr "Ñandubay jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:40
 #: recursos/4rio_negro/datos/levels.py:39
 msgid "Arroyo Don Esteban"
-msgstr ""
+msgstr "Don Esteban jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:41
 #: recursos/4rio_negro/datos/levels.py:40
 msgid "Arroyo Santa María"
-msgstr ""
+msgstr "Santa María jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:45
 #: recursos/4rio_negro/datos/levels.py:44
 msgid "Arroyo Coladeras"
-msgstr ""
+msgstr "Coladeras jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:46
 #: recursos/4rio_negro/datos/levels.py:45
 msgid "Arroyo Sánchez"
-msgstr ""
+msgstr "Sánchez jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:48
 #: recursos/4rio_negro/datos/levels.py:47
 msgid "Arroyo Tres Árboles"
-msgstr ""
+msgstr "Tres Árboles jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:49
 #: recursos/4rio_negro/datos/levels.py:48
 #: recursos/4tacuarembo/datos/4tacuarembo.py:45
 #: recursos/4tacuarembo/datos/levels.py:59
 msgid "Arroyo Rolón"
-msgstr ""
+msgstr "Rolón jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:50
 #: recursos/4rio_negro/datos/levels.py:49 recursos/4rivera/datos/4rivera.py:52
 #: recursos/4rivera/datos/levels.py:52
 msgid "Arroyo Molles"
-msgstr ""
+msgstr "Molles jach'a uma irpa"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:55
 #: recursos/4rio_negro/datos/levels.py:60
 msgid "Cuchilla de Navarro"
-msgstr ""
+msgstr "Navarro jach'a khunu qullu"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:59
 #: recursos/4rio_negro/datos/levels.py:61 recursos/4rivera/datos/4rivera.py:23
 #: recursos/4rivera/datos/levels.py:17 recursos/4rivera/datos/levels.py:86
-#, fuzzy
 msgid "Cerro Pelado"
-msgstr "Cerro Pintado marka"
+msgstr "Q'ara qullu"
 
 #: recursos/4rio_negro/datos/4rio_negro.py:60
 #: recursos/4rio_negro/datos/levels.py:62
 msgid "Cerro del Quebracho"
-msgstr ""
+msgstr "Quebracho qullu"
 
 #: recursos/4rio_negro/datos/levels.py:74
 #: recursos/4rio_negro/datos/levels.py:76
 #: recursos/4rio_negro/datos/levels.py:77
 #, python-format
 msgid "Passes through of %s"
-msgstr ""
+msgstr "Uknama sari %s"
 
 #: recursos/4rivera/datos/4rivera.py:18 recursos/4rivera/datos/levels.py:12
 msgid "Curticeiras"
-msgstr ""
+msgstr "Curticeiras marka"
 
 #: recursos/4rivera/datos/4rivera.py:20 recursos/4rivera/datos/levels.py:14
 msgid "La Calera"
-msgstr ""
+msgstr "Calera nayra marka"
 
 #: recursos/4rivera/datos/4rivera.py:21 recursos/4rivera/datos/levels.py:15
 msgid "Lapuente"
-msgstr ""
+msgstr "Lapuente marka"
 
 #: recursos/4rivera/datos/4rivera.py:22 recursos/4rivera/datos/levels.py:16
 msgid "Cerrillada"
-msgstr ""
+msgstr "Cerrillada marka"
 
 #: recursos/4rivera/datos/4rivera.py:25 recursos/4rivera/datos/levels.py:19
 msgid "Hospital"
-msgstr ""
+msgstr "Hospital jach'a qullaña uta"
 
 #: recursos/4rivera/datos/4rivera.py:33 recursos/4rivera/datos/levels.py:33
 #: recursos/4tacuarembo/datos/4tacuarembo.py:50
 #: recursos/4tacuarembo/datos/levels.py:64
 msgid "Arroyo Laureles"
-msgstr ""
+msgstr "Laureles jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:34 recursos/4rivera/datos/levels.py:34
 #: recursos/4san_jose/datos/4san_jose.py:56
 #: recursos/4san_jose/datos/levels.py:71
 msgid "Arroyo Tigre"
-msgstr ""
+msgstr "Tigre jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:35 recursos/4rivera/datos/levels.py:35
 msgid "Arroyo Médanos"
-msgstr ""
+msgstr "Médanos jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:36 recursos/4rivera/datos/levels.py:36
 msgid "Arroyo Mangueras"
-msgstr ""
+msgstr "Mangueras jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:37 recursos/4rivera/datos/levels.py:37
 msgid "Arroyo del Ataque"
-msgstr ""
+msgstr "Ataque jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:38 recursos/4rivera/datos/levels.py:38
 msgid "Arroyo Batoví Dorado"
-msgstr ""
+msgstr "Batoví Dorado jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:39 recursos/4rivera/datos/levels.py:39
 msgid "Arroyo Cuñapirú"
-msgstr ""
+msgstr "Cuñapirú jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:41 recursos/4rivera/datos/levels.py:41
 msgid "Arroyo J. Amarillas"
-msgstr ""
+msgstr "J. Amarillas jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:43 recursos/4rivera/datos/levels.py:43
 msgid "Arroyo Carpintería"
-msgstr ""
+msgstr "Carpintería jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:44 recursos/4rivera/datos/levels.py:44
 #: recursos/4tacuarembo/datos/4tacuarembo.py:48
 #: recursos/4tacuarembo/datos/levels.py:62
 msgid "Arroyo Yaguarí"
-msgstr ""
+msgstr "Yaguarí jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:45 recursos/4rivera/datos/levels.py:45
 msgid "Arroyo Amarillo"
-msgstr ""
+msgstr "Amarillo jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:46 recursos/4rivera/datos/levels.py:46
 #: recursos/4san_jose/datos/4san_jose.py:47
 #: recursos/4san_jose/datos/levels.py:62
 msgid "Arroyo Cerro"
-msgstr ""
+msgstr "Cerro jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:47 recursos/4rivera/datos/levels.py:47
 msgid "Arroyo del Hospital"
-msgstr ""
+msgstr "Hospital jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:49 recursos/4rivera/datos/levels.py:49
 msgid "Arroyo Ceibal"
-msgstr ""
+msgstr "Ceibal jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:50 recursos/4rivera/datos/levels.py:50
 msgid "Arroyo Zanja Honda"
-msgstr ""
+msgstr "Zanja Honda jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:51 recursos/4rivera/datos/levels.py:51
 msgid "Arroyo Blanco"
-msgstr ""
+msgstr "Janq'u jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:53 recursos/4rivera/datos/levels.py:53
 #: recursos/4tacuarembo/datos/4tacuarembo.py:47
 #: recursos/4tacuarembo/datos/levels.py:61
 msgid "Arroyo Caraguatá"
-msgstr ""
+msgstr "Caraguatá jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:54 recursos/4rivera/datos/levels.py:54
 msgid "Arroyo Cerro Chato"
-msgstr ""
+msgstr "Cerro Chato jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:58 recursos/4rivera/datos/levels.py:64
 msgid "Cuchilla de Cuñapirú"
-msgstr ""
+msgstr "Cuñapirú jach'a uma irpa"
 
 #: recursos/4rivera/datos/4rivera.py:59 recursos/4rivera/datos/levels.py:65
 msgid "Cuchilla del Yaguarí"
-msgstr ""
+msgstr "Yaguarí jach'a khunu qullu"
 
 #: recursos/4rivera/datos/4rivera.py:66 recursos/4rivera/datos/levels.py:69
 msgid "Cerro del Hospital"
-msgstr ""
+msgstr "Hospital qullu"
 
 #: recursos/4rivera/datos/4rivera.py:68 recursos/4rivera/datos/levels.py:71
 msgid "Cerro de la Cruz"
-msgstr ""
+msgstr "Cruz qullu"
 
 #: recursos/4rivera/datos/4rivera.py:70 recursos/4rivera/datos/levels.py:73
 msgid "Cerro de los Peludos"
-msgstr ""
+msgstr "Peludos qullu"
 
 #: recursos/4rocha/datos/4rocha.py:18 recursos/4rocha/datos/levels.py:13
 #: recursos/4rocha/datos/levels.py:91
 msgid "San Luis al Medio"
-msgstr ""
+msgstr "San Luis al Medio marka"
 
 #: recursos/4rocha/datos/4rocha.py:22 recursos/4rocha/datos/levels.py:17
 msgid "Velázquez"
-msgstr ""
+msgstr "Velázquez marka"
 
 #: recursos/4rocha/datos/4rocha.py:25 recursos/4rocha/datos/levels.py:20
 msgid "La Pedrera"
@@ -6380,123 +6582,119 @@ msgstr "La Pedrera marka"
 #: recursos/4rocha/datos/4rocha.py:26 recursos/4rocha/datos/levels.py:21
 #: recursos/4rocha/datos/levels.py:22
 msgid "Cabo Polonio"
-msgstr ""
+msgstr "Cabo Polonio marka"
 
 #: recursos/4rocha/datos/4rocha.py:27 recursos/4rocha/datos/levels.py:22
 msgid "Barra de Valizas"
-msgstr ""
+msgstr "Barra de Valizas lamara quta qawaya marka"
 
 #: recursos/4rocha/datos/4rocha.py:28 recursos/4rocha/datos/levels.py:23
 msgid "Aguas Dulces"
-msgstr ""
+msgstr "Aguas Dulces marka"
 
 #: recursos/4rocha/datos/4rocha.py:29 recursos/4rocha/datos/levels.py:24
 msgid "Punta del Diablo"
-msgstr ""
+msgstr "Aguas Dulces marka"
 
 #: recursos/4rocha/datos/4rocha.py:30 recursos/4rocha/datos/levels.py:25
 msgid "Parque Santa Teresa"
-msgstr ""
+msgstr "Parque Santa Teresa marka"
 
 #: recursos/4rocha/datos/4rocha.py:31 recursos/4rocha/datos/levels.py:26
 msgid "Barra del Chuy"
-msgstr ""
+msgstr "Barra del Chuy marka"
 
 #: recursos/4rocha/datos/4rocha.py:33 recursos/4rocha/datos/levels.py:28
 msgid "19 de Abril"
-msgstr ""
+msgstr "19 de Abril marka"
 
 #: recursos/4rocha/datos/4rocha.py:39 recursos/4rocha/datos/levels.py:40
-#, fuzzy
 msgid "Río San Luis"
 msgstr "San Luis jawira"
 
 #: recursos/4rocha/datos/4rocha.py:40 recursos/4rocha/datos/levels.py:41
 msgid "Arroyo de las Pelotas"
-msgstr ""
+msgstr "Pelotas jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:41 recursos/4rocha/datos/levels.py:42
 msgid "Arroyo de la India Muerta"
-msgstr ""
+msgstr "India Muerta jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:42 recursos/4rocha/datos/levels.py:43
 msgid "Arroyo S. de la Paloma"
-msgstr ""
+msgstr "S. de la Paloma jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:43 recursos/4rocha/datos/levels.py:44
 msgid "Arroyo Sarandí de la I. M."
-msgstr ""
+msgstr "Sarandí de la I. M. jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:45 recursos/4rocha/datos/levels.py:46
 msgid "Arroyo Sauce Caído"
-msgstr ""
+msgstr "Sauce Caído jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:46 recursos/4rocha/datos/levels.py:47
 msgid "Arroyo San Miguel"
-msgstr ""
+msgstr "San Miguel jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:47 recursos/4rocha/datos/levels.py:48
-#, fuzzy
 msgid "Arroyo S. del Peñon"
-msgstr "Medio apu qullu"
+msgstr "S. del Peñon jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:49 recursos/4rocha/datos/levels.py:50
 msgid "Arroyo del Chuy"
-msgstr ""
+msgstr "Chuy jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:50 recursos/4rocha/datos/levels.py:51
-#, fuzzy
 msgid "Arroyo del Peñon"
-msgstr "Medio apu qullu"
+msgstr "Peñon jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:52 recursos/4rocha/datos/levels.py:53
 msgid "Arroyo Castillos"
-msgstr ""
+msgstr "Castillos jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:53 recursos/4rocha/datos/levels.py:54
 msgid "Arroyo Don Carlos"
-msgstr ""
+msgstr "Don Carlos jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:54 recursos/4rocha/datos/levels.py:55
 msgid "Arroyo del Chafalote"
-msgstr ""
+msgstr "Chafalote jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:56 recursos/4rocha/datos/levels.py:57
 msgid "Arroyo Carpinchos"
-msgstr ""
+msgstr "Carpinchos jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:57 recursos/4rocha/datos/levels.py:58
-#, fuzzy
 msgid "Arroyo del Oeste"
-msgstr "Medio apu qullu"
+msgstr "Oeste jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:58 recursos/4rocha/datos/levels.py:59
 msgid "Arroyo de los Rocha"
-msgstr ""
+msgstr "Rocha jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:59 recursos/4rocha/datos/levels.py:60
 msgid "Arroyo del Alférez"
-msgstr ""
+msgstr "Alférez jach'a uma irpa"
 
 #: recursos/4rocha/datos/4rocha.py:63
 msgid "Laguna Castillos"
-msgstr ""
+msgstr "Castillos qutaña"
 
 #: recursos/4rocha/datos/4rocha.py:68 recursos/4rocha/datos/levels.py:71
 msgid "Cuchilla de las Averías"
-msgstr ""
+msgstr "Averías jach'a khunu qullu"
 
 #: recursos/4rocha/datos/4rocha.py:69 recursos/4rocha/datos/levels.py:72
 msgid "Cuchilla de la Carbonera"
-msgstr ""
+msgstr "Carbonera jach'a khunu qullu"
 
 #: recursos/4rocha/datos/4rocha.py:70 recursos/4rocha/datos/levels.py:73
 msgid "Cuchilla de la India Muerta"
-msgstr ""
+msgstr "India Muerta jach'a khunu qullu"
 
 #: recursos/4rocha/datos/4rocha.py:74 recursos/4rocha/datos/levels.py:74
 msgid "Cerro de Aguirre"
-msgstr ""
+msgstr "Aguirre jach'a khunu qullu"
 
 #: recursos/4rocha/datos/levels.py:26 recursos/4rocha/datos/levels.py:27
 msgid "Brazil"
@@ -6507,6 +6705,8 @@ msgid ""
 "It's in the center\n"
 "of the departament"
 msgstr ""
+"Taypinkiwa\n"
+"uka departamento suyuna"
 
 #: recursos/4salto/datos/4salto.py:21 recursos/4salto/datos/levels.py:14
 msgid "Palomas"
@@ -6514,7 +6714,7 @@ msgstr "Palomas marka"
 
 #: recursos/4salto/datos/4salto.py:22 recursos/4salto/datos/levels.py:15
 msgid "Colonia Lavalleja"
-msgstr ""
+msgstr "Colonia Lavalleja marka"
 
 #: recursos/4salto/datos/4salto.py:23 recursos/4salto/datos/levels.py:16
 msgid "Saucedo"
@@ -6522,231 +6722,231 @@ msgstr "Saucedo marka"
 
 #: recursos/4salto/datos/4salto.py:24 recursos/4salto/datos/levels.py:17
 msgid "Masoller"
-msgstr ""
+msgstr "Masoller marka"
 
 #: recursos/4salto/datos/4salto.py:25 recursos/4salto/datos/levels.py:18
 msgid "Cayetano"
-msgstr ""
+msgstr "Cayetano marka"
 
 #: recursos/4salto/datos/4salto.py:26 recursos/4salto/datos/levels.py:19
 msgid "Biassini"
-msgstr ""
+msgstr "Biassini marka"
 
 #: recursos/4salto/datos/4salto.py:27 recursos/4salto/datos/levels.py:20
 msgid "Rincón de Valentín"
-msgstr ""
+msgstr "Rincón de Valentín marka"
 
 #: recursos/4salto/datos/4salto.py:28 recursos/4salto/datos/levels.py:21
 msgid "Celeste"
-msgstr ""
+msgstr "Celeste marka"
 
 #: recursos/4salto/datos/4salto.py:30 recursos/4salto/datos/levels.py:23
 msgid "Albisu"
-msgstr ""
+msgstr "Albisu marka"
 
 #: recursos/4salto/datos/4salto.py:31 recursos/4salto/datos/levels.py:24
 msgid "Laureles"
-msgstr ""
+msgstr "Laureles marka"
 
 #: recursos/4salto/datos/4salto.py:32 recursos/4salto/datos/levels.py:25
 msgid "Puntas de Valentín"
-msgstr ""
+msgstr "Puntas de Valentín marka"
 
 #: recursos/4salto/datos/4salto.py:33 recursos/4salto/datos/levels.py:26
 msgid "Cerros de Vera"
-msgstr ""
+msgstr "Cerros de Vera marka"
 
 #: recursos/4salto/datos/4salto.py:34 recursos/4salto/datos/levels.py:27
 msgid "Paso del Parque"
-msgstr ""
+msgstr "Parque saräwi"
 
 #: recursos/4salto/datos/4salto.py:35 recursos/4salto/datos/levels.py:28
 msgid "Arerunguá"
-msgstr ""
+msgstr "Arerunguá marka"
 
 #: recursos/4salto/datos/4salto.py:36 recursos/4salto/datos/levels.py:29
 msgid "Termas del Arapey"
-msgstr ""
+msgstr "Termas del Arapey marka"
 
 #: recursos/4salto/datos/4salto.py:37 recursos/4salto/datos/levels.py:30
 msgid "Olivera"
-msgstr ""
+msgstr "Olivera marka"
 
 #: recursos/4salto/datos/4salto.py:38 recursos/4salto/datos/levels.py:31
 msgid "Mataojo"
-msgstr ""
+msgstr "Mataojo marka"
 
 #: recursos/4salto/datos/4salto.py:46 recursos/4salto/datos/levels.py:45
 msgid "Arroyo Laureles Grande"
-msgstr ""
+msgstr "Laureles Grande jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:47 recursos/4salto/datos/levels.py:46
 msgid "Arroyo Laureles Chico"
-msgstr ""
+msgstr "Laureles Chico jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:49 recursos/4salto/datos/levels.py:48
 msgid "Arroyo Sopas"
-msgstr ""
+msgstr "Sopas jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:51 recursos/4salto/datos/levels.py:50
 msgid "Arroyo S. Mataojito"
-msgstr ""
+msgstr "S. Mataojito jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:52 recursos/4salto/datos/levels.py:51
 msgid "Arroyo Mataojo Grande"
-msgstr ""
+msgstr "Mataojo Grande jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:53 recursos/4salto/datos/levels.py:52
 msgid "Arroyo Mataojo Chico"
-msgstr ""
+msgstr "Mataojo Chico jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:54 recursos/4salto/datos/levels.py:53
 msgid "Arroyo Paloma Grande"
-msgstr ""
+msgstr "Paloma Grande jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:55 recursos/4salto/datos/levels.py:54
 msgid "Arroyo Tangarupá"
-msgstr ""
+msgstr "Tangarupá jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:56 recursos/4salto/datos/levels.py:55
 msgid "Arroyo Valentín Grande"
-msgstr ""
+msgstr "Valentín Grande jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:57 recursos/4salto/datos/levels.py:56
 msgid "Arroyo Arerunguá"
-msgstr ""
+msgstr "Arerunguá jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:60 recursos/4salto/datos/levels.py:59
 msgid "Arroyo Tapado"
-msgstr ""
+msgstr "Tapado jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:61 recursos/4salto/datos/levels.py:60
 msgid "Arroyo de los Talas"
-msgstr ""
+msgstr "Talas jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:62 recursos/4salto/datos/levels.py:61
 msgid "Arroyo Valentín Chico"
-msgstr ""
+msgstr "Valentín Chico jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:63 recursos/4salto/datos/levels.py:62
 msgid "Arroyo Tunas"
-msgstr ""
+msgstr "Tunas jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:64 recursos/4salto/datos/levels.py:63
 msgid "Arroyo S. del Arapey"
-msgstr ""
+msgstr "S. del Arapey jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:66 recursos/4salto/datos/levels.py:65
 msgid "Arroyo Moisés"
-msgstr ""
+msgstr "Moisés jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:67 recursos/4salto/datos/levels.py:66
 msgid "Arroyo Itapeby Grande"
-msgstr ""
+msgstr "Itapeby Grande jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:68 recursos/4salto/datos/levels.py:67
 msgid "Arroyo Itapeby Chico"
-msgstr ""
+msgstr "Itapeby Chico jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:69 recursos/4salto/datos/levels.py:68
 msgid "Arroyo San Antonio"
-msgstr ""
+msgstr "San Antonio jach'a uma irpa"
 
 #: recursos/4salto/datos/4salto.py:74 recursos/4salto/datos/levels.py:79
 msgid "Cuchilla de los Arapeyes"
-msgstr ""
+msgstr "Arapeyes jach'a khunu qullu"
 
 #: recursos/4salto/datos/4salto.py:75 recursos/4salto/datos/levels.py:80
 msgid "Cuchilla del Daymán"
-msgstr ""
+msgstr "Daymán jach'a khunu qullu"
 
 #: recursos/4salto/datos/4salto.py:80 recursos/4salto/datos/levels.py:82
 msgid "Cerro Fortaleza"
-msgstr ""
+msgstr "Fortaleza qullu"
 
 #: recursos/4salto/datos/4salto.py:81 recursos/4salto/datos/levels.py:83
 msgid "Cerro de Corumbé"
-msgstr ""
+msgstr "Corumbé qullu"
 
 #: recursos/4salto/datos/4salto.py:82 recursos/4salto/datos/levels.py:84
 msgid "Cerro Charrúa"
-msgstr ""
+msgstr "Charrúa qullu"
 
 #: recursos/4salto/datos/levels.py:29
 #, python-format
 msgid "the health resort of %s"
-msgstr ""
+msgstr "lamara quta qawaya marka %s"
 
 #: recursos/4san_jose/datos/4san_jose.py:19
 #: recursos/4san_jose/datos/levels.py:28
 msgid "Mal Abrigo"
-msgstr ""
+msgstr "Mal Abrigo marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:20
 #: recursos/4san_jose/datos/levels.py:29
 msgid "Carreta Quemada"
-msgstr ""
+msgstr "Carreta Quemada jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:21
 #: recursos/4san_jose/datos/levels.py:30
 msgid "Estación González"
-msgstr ""
+msgstr "Estación González marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:22
 #: recursos/4san_jose/datos/levels.py:31
 msgid "Juan Soler"
-msgstr ""
+msgstr "Juan Soler marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:23
 #: recursos/4san_jose/datos/levels.py:32
 msgid "Raigon"
-msgstr ""
+msgstr "Raigon marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:24
 #: recursos/4san_jose/datos/levels.py:33
 msgid "Ecilda Paullier"
-msgstr ""
+msgstr "Ecilda Paullier marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:25
 #: recursos/4san_jose/datos/levels.py:34
 #: recursos/4san_jose/datos/levels.py:102
 msgid "Villa Rodríguez"
-msgstr ""
+msgstr "Villa Rodríguez marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:26
 #: recursos/4san_jose/datos/levels.py:35
 msgid "Ituzaingó"
-msgstr ""
+msgstr "Ituzaingó marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:28
 #: recursos/4san_jose/datos/levels.py:37
 msgid "Puntas de Valdez"
-msgstr ""
+msgstr "Puntas de Valdez marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:29
 #: recursos/4san_jose/datos/levels.py:38
 msgid "Rafael Perazza"
-msgstr ""
+msgstr "Rafael Perazza marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:30
 #: recursos/4san_jose/datos/levels.py:39
 msgid "Rincón del Pino"
-msgstr ""
+msgstr "Rincón del Pino marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:31
 #: recursos/4san_jose/datos/levels.py:40
 msgid "Kiyú"
-msgstr ""
+msgstr "Kiyú marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:32
 #: recursos/4san_jose/datos/levels.py:41
 msgid "Ordeig"
-msgstr ""
+msgstr "Ordeig marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:34
 #: recursos/4san_jose/datos/levels.py:43
 msgid "Delta del Tigre"
-msgstr ""
+msgstr "Delta del Tigre marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:35
 #: recursos/4san_jose/datos/levels.py:44
@@ -6756,105 +6956,105 @@ msgstr "Ciudad del Plata marka"
 #: recursos/4san_jose/datos/4san_jose.py:36
 #: recursos/4san_jose/datos/levels.py:45
 msgid "Playa Pascual"
-msgstr ""
+msgstr "Playa Pascual marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:44
 #: recursos/4san_jose/datos/levels.py:59
 msgid "Arroyo Mahoma"
-msgstr ""
+msgstr "Mahoma jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:45
 #: recursos/4san_jose/datos/levels.py:60
 msgid "Arroyo Guaycurú"
-msgstr ""
+msgstr "Guaycurú jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:48
 #: recursos/4san_jose/datos/levels.py:63
 msgid "Arroyo Carreta Quemada"
-msgstr ""
+msgstr "Carreta Quemada jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:49
 #: recursos/4san_jose/datos/levels.py:64
 msgid "Arroyo Tala Grande"
-msgstr ""
+msgstr "Tala Grande jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:51
 #: recursos/4san_jose/datos/levels.py:66
 msgid "Arroyo Escudero"
-msgstr ""
+msgstr "Escudero jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:52
 #: recursos/4san_jose/datos/levels.py:67
 msgid "Arroyo Pavón"
-msgstr ""
+msgstr "Pavón jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:53
 #: recursos/4san_jose/datos/levels.py:68
 msgid "Arroyo Toscaso"
-msgstr ""
+msgstr "Toscaso jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:54
 #: recursos/4san_jose/datos/levels.py:69
 msgid "Arroyo Pereira"
-msgstr ""
+msgstr "Pereira jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:57
 #: recursos/4san_jose/datos/levels.py:72
 msgid "Arroyo Cagancha"
-msgstr ""
+msgstr "Cagancha jach'a uma irpa"
 
 #: recursos/4san_jose/datos/4san_jose.py:63
 #: recursos/4san_jose/datos/levels.py:84
 msgid "Sierra Mahoma"
-msgstr ""
+msgstr "Sierra Mahoma marka"
 
 #: recursos/4san_jose/datos/4san_jose.py:64
 #: recursos/4san_jose/datos/levels.py:85
 msgid "Cuchilla del Tala"
-msgstr ""
+msgstr "Tala jach'a khunu qullu"
 
 #: recursos/4san_jose/datos/4san_jose.py:65
 #: recursos/4san_jose/datos/levels.py:86
 msgid "Cuchilla Mangrullo"
-msgstr ""
+msgstr "Mangrullo jach'a khunu qullu"
 
 #: recursos/4san_jose/datos/4san_jose.py:69
 #: recursos/4san_jose/datos/levels.py:87
 msgid "Cerro Clara"
-msgstr ""
+msgstr "Clara qullu"
 
 #: recursos/4san_jose/datos/4san_jose.py:70
 #: recursos/4san_jose/datos/levels.py:88
 msgid "Cerro San José"
-msgstr ""
+msgstr "San José qullu"
 
 #: recursos/4soriano/datos/4soriano.py:17 recursos/4soriano/datos/levels.py:12
 msgid "Sacachispas"
-msgstr ""
+msgstr "Sacachispas marka"
 
 #: recursos/4soriano/datos/4soriano.py:18 recursos/4soriano/datos/levels.py:13
 msgid "El Tala"
-msgstr ""
+msgstr "Tala marka"
 
 #: recursos/4soriano/datos/4soriano.py:20 recursos/4soriano/datos/levels.py:15
 msgid "Colonia Concordia"
-msgstr ""
+msgstr "Colonia Concordia marka"
 
 #: recursos/4soriano/datos/4soriano.py:21 recursos/4soriano/datos/levels.py:16
 msgid "Egaña"
-msgstr ""
+msgstr "Egaña marka"
 
 #: recursos/4soriano/datos/4soriano.py:22 recursos/4soriano/datos/levels.py:17
 msgid "Risso"
-msgstr ""
+msgstr "Risso marka"
 
 #: recursos/4soriano/datos/4soriano.py:23 recursos/4soriano/datos/levels.py:18
 msgid "Rodó"
-msgstr ""
+msgstr "Rodó marka"
 
 #: recursos/4soriano/datos/4soriano.py:24 recursos/4soriano/datos/levels.py:19
 msgid "Perseverano"
-msgstr ""
+msgstr "Perseverano marka"
 
 #: recursos/4soriano/datos/4soriano.py:25 recursos/4soriano/datos/levels.py:20
 msgid "Castillo"
@@ -6862,7 +7062,7 @@ msgstr "Castillo marka"
 
 #: recursos/4soriano/datos/4soriano.py:26
 msgid "Cuch. del Perdido"
-msgstr ""
+msgstr "Chhaqata jach'a khunu qullu"
 
 #: recursos/4soriano/datos/4soriano.py:27 recursos/4soriano/datos/levels.py:22
 msgid "Santa Catalina"
@@ -6871,109 +7071,105 @@ msgstr "Santa Catalina marka"
 #: recursos/4soriano/datos/4soriano.py:29 recursos/4soriano/datos/levels.py:24
 #: recursos/4soriano/datos/levels.py:88
 msgid "Villa Soriano"
-msgstr ""
+msgstr "Villa Soriano marka"
 
 #: recursos/4soriano/datos/4soriano.py:38 recursos/4soriano/datos/levels.py:39
 msgid "Arroyo de Espinillo"
-msgstr ""
+msgstr "Espinillo jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:40 recursos/4soriano/datos/levels.py:41
 msgid "Arroyo Bizcocho"
-msgstr ""
+msgstr "Bizcocho jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:41 recursos/4soriano/datos/levels.py:42
 msgid "Arroyo Magallanes"
-msgstr ""
+msgstr "Magallanes jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:42 recursos/4soriano/datos/levels.py:43
 msgid "Arroyo del Águila"
-msgstr ""
+msgstr "Águila jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:43 recursos/4soriano/datos/levels.py:44
 msgid "Arroyo del Corralito"
-msgstr ""
+msgstr "Corralito jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:45 recursos/4soriano/datos/levels.py:46
 msgid "Arroyo San Martín"
-msgstr ""
+msgstr "San Martín jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:46 recursos/4soriano/datos/levels.py:47
-#, fuzzy
 msgid "Arroyo del Medio"
-msgstr "Medio apu qullu"
+msgstr "Taypi jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:47 recursos/4soriano/datos/levels.py:48
 msgid "Arroyo de las Maulas"
-msgstr ""
+msgstr "Maulas jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:48 recursos/4soriano/datos/levels.py:49
 msgid "Arroyo Bequeló"
-msgstr ""
+msgstr "Bequeló jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:49 recursos/4soriano/datos/levels.py:50
 msgid "Arroyo Coquimbo"
-msgstr ""
+msgstr "Coquimbo jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:51 recursos/4soriano/datos/levels.py:52
 msgid "Arroyo Caballudo"
-msgstr ""
+msgstr "Caballudo jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:52 recursos/4soriano/datos/levels.py:53
 msgid "Arroyo Maia"
-msgstr ""
+msgstr "Maia jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:53 recursos/4soriano/datos/levels.py:54
 msgid "Arroyo Cololó"
-msgstr ""
+msgstr "Cololó jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:54 recursos/4soriano/datos/levels.py:55
 msgid "Arroyo Perico"
-msgstr ""
+msgstr "Perico jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:55 recursos/4soriano/datos/levels.py:56
-#, fuzzy
 msgid "Arroyo de Vera"
-msgstr "Medio apu qullu"
+msgstr "Vera jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:57 recursos/4soriano/datos/levels.py:58
-#, fuzzy
 msgid "Arroyo del Perdido"
-msgstr "Medio apu qullu"
+msgstr "Jithirata jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:58 recursos/4soriano/datos/levels.py:59
-#, fuzzy
 msgid "Arroyo del Durazno"
-msgstr "Medio apu qullu"
+msgstr "Durazno jach'a uma irpa"
 
 #: recursos/4soriano/datos/4soriano.py:63 recursos/4soriano/datos/levels.py:70
 msgid "Cuchilla de Bequeló"
-msgstr ""
+msgstr "Bequeló jach'a khunu qullu"
 
 #: recursos/4soriano/datos/4soriano.py:64 recursos/4soriano/datos/levels.py:21
 #: recursos/4soriano/datos/levels.py:71
 msgid "Cuchilla del Perdido"
-msgstr ""
+msgstr "Chullurata jach'a khunu qullu"
 
 #: recursos/4soriano/datos/4soriano.py:65 recursos/4soriano/datos/levels.py:72
 msgid "Cuchilla del Bizcocho"
-msgstr ""
+msgstr "Bizcocho jach'a khunu qullu"
 
 #: recursos/4soriano/datos/4soriano.py:66 recursos/4soriano/datos/levels.py:73
 msgid "Cuchilla San Salvador"
-msgstr ""
+msgstr "San Salvador jach'a khunu qullu"
 
 #: recursos/4soriano/datos/4soriano.py:70 recursos/4soriano/datos/levels.py:74
 msgid "Cerro Espinillo"
-msgstr ""
+msgstr "Espinillo qullu"
 
 #: recursos/4soriano/datos/4soriano.py:71 recursos/4soriano/datos/levels.py:75
 msgid "Cerro Curupí"
-msgstr ""
+msgstr "Curupí qullu"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:22
 #: recursos/4tacuarembo/datos/levels.py:30
 msgid "Paso del Cerro"
-msgstr ""
+msgstr "Qulluru saräwi"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:25
 #: recursos/4tacuarembo/datos/levels.py:33
@@ -6983,125 +7179,123 @@ msgstr "Curtina marka"
 #: recursos/4tacuarembo/datos/4tacuarembo.py:26
 #: recursos/4tacuarembo/datos/levels.py:34
 msgid "Achar"
-msgstr ""
+msgstr "Achar marka"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:27
 #: recursos/4tacuarembo/datos/levels.py:35
 msgid "Peralta"
-msgstr ""
+msgstr "Peralta marka"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:29
 #: recursos/4tacuarembo/datos/levels.py:37
 msgid "Rincón de Pereira"
-msgstr ""
+msgstr "Rincón de Pereira marka"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:31
 #: recursos/4tacuarembo/datos/levels.py:39
 #: recursos/4tacuarembo/datos/levels.py:98
 msgid "Cuchilla de Caraguatá"
-msgstr ""
+msgstr "Caraguatá jach'a khunu qullu"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:32
 #: recursos/4tacuarembo/datos/levels.py:40
 msgid "Picada de Cuello"
-msgstr ""
+msgstr "Picada de Cuello marka"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:33
 #: recursos/4tacuarembo/datos/levels.py:41
 msgid "Valle Edén"
-msgstr ""
+msgstr "Valle Edén marka"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:34
 #: recursos/4tacuarembo/datos/levels.py:42
 msgid "Martinote"
-msgstr ""
+msgstr "Martinote marka"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:41
 #: recursos/4tacuarembo/datos/levels.py:55
 msgid "Arroyo Salsipuedes Chico"
-msgstr ""
+msgstr "Salsipuedes sullka jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:42
 #: recursos/4tacuarembo/datos/levels.py:56
 msgid "Arroyo Cardoso"
-msgstr ""
+msgstr "Cardoso jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:44
 #: recursos/4tacuarembo/datos/levels.py:58
 msgid "Arroyo de la Quebrada"
-msgstr ""
+msgstr "Quebrada jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:46
 #: recursos/4tacuarembo/datos/levels.py:60
-#, fuzzy
 msgid "Arroyo de Clara"
-msgstr "Medio apu qullu"
+msgstr "Clara jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:49
 #: recursos/4tacuarembo/datos/levels.py:63
 msgid "Arroyo de los Sauces"
-msgstr ""
+msgstr "Sauces jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:51
 #: recursos/4tacuarembo/datos/levels.py:65
 msgid "Arroyo Tacuarembó Chico"
-msgstr ""
+msgstr "Tacuarembó sullka jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:52
 #: recursos/4tacuarembo/datos/levels.py:66
 msgid "Arroyo Tranqueras"
-msgstr ""
+msgstr "Tranqueras jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:53
 #: recursos/4tacuarembo/datos/levels.py:67
 msgid "Arroyo Batoví"
-msgstr ""
+msgstr "Batoví jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:54
 #: recursos/4tacuarembo/datos/levels.py:68
 msgid "Arroyo Tres Cruces"
-msgstr ""
+msgstr "Tres Cruces jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:55
 #: recursos/4tacuarembo/datos/levels.py:69
 msgid "Arroyo Cañas"
-msgstr ""
+msgstr "Cañas jach'a uma irpa"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:59
 #: recursos/4tacuarembo/datos/levels.py:79
 msgid "Cuchilla de las Tres Cruces"
-msgstr ""
+msgstr "Tres Cruces jach'a khunu qullu"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:60
 #: recursos/4tacuarembo/datos/levels.py:80
 msgid "Cuchilla de Yaguarí"
-msgstr ""
+msgstr "Yaguarí jach'a khunu qullu"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:61
 #: recursos/4tacuarembo/datos/levels.py:81
 msgid "Cuchilla del Caraguata"
-msgstr ""
+msgstr "Caraguata jach'a khunu qullu"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:62
 #: recursos/4tacuarembo/datos/levels.py:82
 msgid "Cuchilla de Peralta"
-msgstr ""
+msgstr "Peralta jach'a khunu qullu"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:67
 #: recursos/4tacuarembo/datos/levels.py:84
-#, fuzzy
 msgid "Cerro de las Minas"
 msgstr "Animas apu qullu"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:69
 #: recursos/4tacuarembo/datos/levels.py:86
 msgid "Cerro Lambaré"
-msgstr ""
+msgstr "Lambaré apu qullu"
 
 #: recursos/4tacuarembo/datos/4tacuarembo.py:70
 #: recursos/4tacuarembo/datos/levels.py:87
 msgid "Cerro del Ñandubal"
-msgstr ""
+msgstr "Ñandubal apu qullu"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:21
 #: recursos/4treinta_y_tres/datos/levels.py:13
@@ -7112,7 +7306,7 @@ msgstr "Rincón marka"
 #: recursos/4treinta_y_tres/datos/levels.py:15
 #: recursos/4treinta_y_tres/datos/levels.py:77
 msgid "Isla Patrulla"
-msgstr ""
+msgstr "Patrulla quta taypi marka"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:24
 #: recursos/4treinta_y_tres/datos/levels.py:16
@@ -7123,96 +7317,96 @@ msgstr "Quri marka"
 #: recursos/4treinta_y_tres/datos/levels.py:18
 #: recursos/4treinta_y_tres/datos/levels.py:79
 msgid "La Charqueada"
-msgstr ""
+msgstr "Charqueada marka"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:27
 #: recursos/4treinta_y_tres/datos/levels.py:19
 msgid "Tupambaé"
-msgstr ""
+msgstr "Tupambaé marka"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:39
 #: recursos/4treinta_y_tres/datos/levels.py:37
 msgid "Arroyo Ayala"
-msgstr ""
+msgstr "Ayala jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:41
 #: recursos/4treinta_y_tres/datos/levels.py:39
 msgid "Arroyo Corrales del Parao"
-msgstr ""
+msgstr "Corrales del Parao jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:42
 #: recursos/4treinta_y_tres/datos/levels.py:40
 msgid "Arroyo Leoncho"
-msgstr ""
+msgstr "Leoncho jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:43
 #: recursos/4treinta_y_tres/datos/levels.py:41
 msgid "Arroyo Olazo"
-msgstr ""
+msgstr "Olazo jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:44
 #: recursos/4treinta_y_tres/datos/levels.py:42
 msgid "Arroyo Yerbal Grande"
-msgstr ""
+msgstr "Yerbal jilïri jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:45
 #: recursos/4treinta_y_tres/datos/levels.py:43
 msgid "Arroyo Yerbal Chico"
-msgstr ""
+msgstr "Yerbal sullka jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:46
 #: recursos/4treinta_y_tres/datos/levels.py:44
 msgid "Arroyo de los Porongos"
-msgstr ""
+msgstr "Porongos jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:47
 #: recursos/4treinta_y_tres/datos/levels.py:45
 msgid "Arroyo de los Ceibos"
-msgstr ""
+msgstr "Ceibos jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:48
 #: recursos/4treinta_y_tres/datos/levels.py:46
 msgid "Arroyo de las Pavas"
-msgstr ""
+msgstr "Pavas jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:49
 #: recursos/4treinta_y_tres/datos/levels.py:47
 msgid "Arroyo de las Averías"
-msgstr ""
+msgstr "Averías jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:50
 #: recursos/4treinta_y_tres/datos/levels.py:48
 msgid "Arroyo Avestruz Grande"
-msgstr ""
+msgstr "Avestruz jila jach'a uma irpa"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:56
 #: recursos/4treinta_y_tres/datos/levels.py:59
 msgid "Asperezas del Yerbal"
-msgstr ""
+msgstr "Asperezas del Yerbal marka"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:57
 #: recursos/4treinta_y_tres/datos/levels.py:60
 msgid "Cuchilla del Carmen"
-msgstr ""
+msgstr "Carmen jach'a khunu qullu"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:58
 #: recursos/4treinta_y_tres/datos/levels.py:61
 msgid "Cuchilla de Palomeque"
-msgstr ""
+msgstr "Palomeque jach'a khunu qullu"
 
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:64
 #: recursos/4treinta_y_tres/datos/levels.py:64
 msgid "Cerro del Olimar"
-msgstr ""
+msgstr "Olimar apu qullu"
 
 #: recursos/4treinta_y_tres/datos/levels.py:74
 msgid "Passes through departamental capital"
-msgstr ""
+msgstr "Departamento suyu jilïri marknama sari"
 
 #: recursos/4treinta_y_tres/datos/levels.py:76
 #, python-format
 msgid "Passes through the limit with %s"
-msgstr ""
+msgstr "uka qurpnama sari %s"
 
 #: recursos/comun/datos/commons.py:8
 msgid ""
@@ -7220,6 +7414,9 @@ msgid ""
 "I will explore that territory.\n"
 "There I go!"
 msgstr ""
+"¡Jukha suma uraqi pacha!\n"
+"Uka uraqi uñakipaja.\n"
+"¡Sarä!"
 
 #: recursos/comun/datos/commons.py:9
 msgid ""
@@ -7227,6 +7424,9 @@ msgid ""
 "The ship has problems,\n"
 "I'm going to crash!"
 msgstr ""
+"¡Kamachisa!\n"
+"¡Awyunaxa janiwa walt'iti\n"
+"jawq'jasijawa!"
 
 #: recursos/comun/datos/commons.py:10
 msgid ""
@@ -7234,6 +7434,9 @@ msgid ""
 "Now I have to rebuild my ship.\n"
 "Need help!"
 msgstr ""
+"¡Maya jisk'itata qhisptha!\n"
+"Jichhaxa awyuna mayampi jaktayañajawa.\n"
+"¡Yanapt'a muntha!"
 
 #: recursos/comun/datos/commons.py:14
 msgid "We have to find"
@@ -7248,30 +7451,38 @@ msgid ""
 "We have to look\n"
 "a piece of my ship in"
 msgstr ""
+"maya chiqapa thaqañawa\n"
+"uka awyunana"
 
 #: recursos/comun/datos/commons.py:17
 msgid ""
 "There's a piece\n"
 "of my ship in"
 msgstr ""
+"uka chiqaxa\n"
+"awyunajankiwa"
 
 #: recursos/comun/datos/commons.py:18
 msgid ""
 "According to my information\n"
 "have to look at"
 msgstr ""
+"Amuyatajatakixa\n"
+"ukana thaqañasaspawa"
 
 #: recursos/comun/datos/commons.py:19
 msgid ""
 "We have to\n"
 "go up"
-msgstr ""
+msgstr "ukakama sarañasawa"
 
 #: recursos/comun/datos/commons.py:20
 msgid ""
 "A piece of my\n"
 "ship fell into"
 msgstr ""
+"awyunajana maya chiqapaxa\n"
+"ukaruwa jalaqpacha"
 
 #: recursos/comun/datos/commons.py:24
 msgid "Can you tell me where it is?"
@@ -7327,12 +7538,17 @@ msgid ""
 "Farewell to my planet.\n"
 "Thanks for your help!"
 msgstr ""
+"Jichhakucha kutxaja\n"
+"uka uraqijaru.\n"
+"¡waliki yanapt'awistaxa!"
 
 #: recursos/comun/datos/commons.py:46
 msgid ""
 "My ship is ready.\n"
 "Bye and thanks for helping!"
 msgstr ""
+"Awyunajaxa saythapitawa.\n"
+"¡Waliki yanapt'awistaxa, jakisiñkama!"
 
 #: recursos/comun/datos/commons.py:47
 msgid ""
@@ -7340,22 +7556,25 @@ msgid ""
 "I'm Ready to take off.\n"
 "Until next time!"
 msgstr ""
+"¡Askina askichawtanxa!\n"
+"Thuqtañataki wakichatäthwa.\n"
+"¡Jakisiñkama!"
 
 #: recursos/comun/datos/commons.py:51
 msgid "Autor: Gabriel Eirea (geirea@gmail.com)"
-msgstr ""
+msgstr "Luriri: Gabriel Eirea (geirea@gmail.com)"
 
 #: recursos/comun/datos/commons.py:52
 msgid "Author: Alan Aguiar (alanjas@hotmail.com)"
-msgstr ""
+msgstr "Luriri: Alan Aguiar (alanjas@hotmail.com)"
 
 #: recursos/comun/datos/commons.py:53
 msgid "Ayudante: Fabio Eirea"
-msgstr ""
+msgstr "Yanapiri: Fabio Eirea"
 
 #: recursos/comun/datos/commons.py:54
 msgid "Send corrections, comments or suggestions"
-msgstr ""
+msgstr "Askichatanaka apayaña, amuyt'anaka jani ukaxa iwxanaka"
 
 #: recursos/comun/datos/commons.py:56
 msgid "This program is free software developed by the community"
@@ -7370,34 +7589,45 @@ msgstr "Juk'ampi yatxatañataki akïri wakichäwiru mantma http://ceibaljam.org"
 #: recursos/comun/datos/commons.py:59
 msgid "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
 msgstr ""
+"departamento suyunaka rixinakapa siqinakapa (menos Canelones): Alan Aguiar"
 
 #: recursos/comun/datos/commons.py:60
 msgid ""
 "Information for the level 'Historical sites' of Uruguay: Ana Trujillo and "
 "Ana Cichero (coordination)"
 msgstr ""
+"akïri siqitaki yatiyäwi 'Nayra pacha uraqinaka' Uruguay markaru wakisiri: "
+"Ana Trujillo y Ana Cichero (coordinación)"
 
 #: recursos/comun/datos/commons.py:61
 msgid ""
 "Information for Canelones: Nancy Gómez, her son hijo Matías and Ana Cichero "
 "(coordination)"
 msgstr ""
+"Canelones manq'añataki wakisiri: Nancy Gómez, su hijo Matías y Ana Cichero "
+"(coordinación)"
 
 #: recursos/comun/datos/commons.py:62
 msgid ""
 "Information for the level 'Information of Montevideo': Miriam Martínez and "
 "Magdalena Lallo"
 msgstr ""
+"Akïri siqitaki yatiyäwi 'Montevideo yatiyäwi': Miriam Martínez y Magdalena "
+"Lallo"
 
 #: recursos/comun/datos/commons.py:63
 msgid ""
 "Sounds downloaded from freesound.org: junggle_btn117.wav by junggle and "
 "boom1.wav by NoiseCollector"
 msgstr ""
+"Ch'ililinaka apaqatanaka freesound.org: junggle_btn117.wav by junggle and "
+"boom1.wav por NoiseCollector"
 
 #: recursos/comun/datos/commons.py:64
 msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
 msgstr ""
+"Wakisirinaka apaqata urbanfonts.com: Share-Regular.ttf jani uñt'atana "
+"apaqata"
 
 #~ msgid "Calamar"
 #~ msgstr "Calamar marka"
