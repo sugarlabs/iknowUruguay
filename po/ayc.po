@@ -7628,4 +7628,3 @@ msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
 msgstr ""
 "Wakisirinaka apaqata urbanfonts.com: Share-Regular.ttf jani uñt'atana "
 "apaqata"
-
