@@ -1,3 +1,8 @@
+* Versión 12 (20/06/13)
+  - Se cambia OlpcGames por SugarGames
+  - Se internacionaliza
+  - Se cambia el sistema interno (de .txt a .py)
+
 * Versión 11 (20/10/11)
 
   - Se corrigió error de detección de mapas debido a nueva versión de 

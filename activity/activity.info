@@ -1,7 +1,7 @@
 [Activity]
 name = I know Uruguay
-activity_version = 11
+activity_version = 12
 bundle_id = uy.edu.fing.geirea.conozcouruguay
 icon = activity
 exec = sugar-activity activity.Activity
-license = GPL+
+license = GPLv2+
