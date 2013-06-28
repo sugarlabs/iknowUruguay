@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: 2013-03-25 04:07+0200\n"
+"PO-Revision-Date: 2013-06-28 21:26+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
@@ -148,7 +148,7 @@ msgstr "Naciśnij dowolny klawisz, aby powrócić"
 
 #: conozcouy.py:597
 msgid "You have chosen the map "
-msgstr "Wybrałeś mapę"
+msgstr "Wybrałeś mapę "
 
 #: conozcouy.py:603
 msgid "Play"
@@ -2552,8 +2552,9 @@ msgid "Arroyo de la Invernada"
 msgstr ""
 
 #: recursos/4artigas/datos/4artigas.py:51 recursos/4artigas/datos/levels.py:50
+#, fuzzy
 msgid "Arroyo Sepultura"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4artigas/datos/4artigas.py:52 recursos/4artigas/datos/levels.py:51
 #: recursos/4salto/datos/4salto.py:70 recursos/4salto/datos/levels.py:69
@@ -6739,8 +6740,9 @@ msgid "Arroyo S. del Arapey"
 msgstr ""
 
 #: recursos/4salto/datos/4salto.py:66 recursos/4salto/datos/levels.py:65
+#, fuzzy
 msgid "Arroyo Moisés"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4salto/datos/4salto.py:67 recursos/4salto/datos/levels.py:66
 msgid "Arroyo Itapeby Grande"
@@ -7024,8 +7026,9 @@ msgid "Arroyo Coquimbo"
 msgstr ""
 
 #: recursos/4soriano/datos/4soriano.py:51 recursos/4soriano/datos/levels.py:52
+#, fuzzy
 msgid "Arroyo Caballudo"
-msgstr ""
+msgstr "Cerro del Medio"
 
 #: recursos/4soriano/datos/4soriano.py:52 recursos/4soriano/datos/levels.py:53
 #, fuzzy
