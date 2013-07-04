@@ -7,10 +7,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: 2013-01-04 10:33+0200\n"
+"PO-Revision-Date: 2013-07-05 00:16+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Sugar Labs\n"
-"Language: en\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7607,17 +7607,16 @@ msgstr ""
 "Magdalena Lallo"
 
 #: recursos/comun/datos/commons.py:63
-#, fuzzy
 msgid ""
 "Sounds downloaded from freesound.org: junggle_btn117.wav by junggle and "
 "boom1.wav by NoiseCollector"
 msgstr ""
-"Sounds downloaded from freesound.org: btn045.wav by junggle and boom1.wav by "
-"NoiseCollector"
+"Sounds downloaded from freesound.org: junggle_btn117.wav by junggle and "
+"boom1.wav by NoiseCollector"
 
 #: recursos/comun/datos/commons.py:64
 msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
-msgstr ""
+msgstr "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
 
 #~ msgid ""
 #~ "Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-"
