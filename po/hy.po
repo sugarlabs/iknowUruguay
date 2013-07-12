@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: 2012-12-25 00:17+0200\n"
+"PO-Revision-Date: 2013-07-13 00:55+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -194,7 +194,7 @@ msgstr "Սեղմեք որևէ ստեղն, բաց թողնելու համար"
 #: recursos/0uruguay/datos/0uruguay.py:5 recursos/0uruguay/datos/levels.py:151
 #: recursos/0uruguay/datos/levels.py:154 recursos/0uruguay/datos/levels.py:159
 msgid "Uruguay"
-msgstr ""
+msgstr "Ուրուգվայ"
 
 #: recursos/0uruguay/datos/0uruguay.py:8
 #: recursos/0uruguay/datos/0uruguay.py:30 recursos/0uruguay/datos/levels.py:11
@@ -1539,26 +1539,25 @@ msgid "Route %s"
 msgstr ""
 
 #: recursos/0uruguay/datos/0uruguay.py:181
-#, fuzzy
 msgid "Capital:"
-msgstr "Մայրաքաղաքներ"
+msgstr "Մայրաքաղաք."
 
 #: recursos/0uruguay/datos/0uruguay.py:181
 #, fuzzy
 msgid "(34º53' S - 56º10' W)"
-msgstr "(10º30' N - 66º58' W)"
+msgstr "(34º53' S - 56º10' W)"
 
 #: recursos/0uruguay/datos/0uruguay.py:182
 msgid "Language:"
-msgstr ""
+msgstr "Լեզու."
 
 #: recursos/0uruguay/datos/0uruguay.py:182
 msgid "Spanish"
-msgstr ""
+msgstr "Իսպաներեն"
 
 #: recursos/0uruguay/datos/0uruguay.py:183
 msgid "Government:"
-msgstr ""
+msgstr "Կառավարություն."
 
 #: recursos/0uruguay/datos/0uruguay.py:183
 msgid "Presidential republic"
@@ -1566,7 +1565,7 @@ msgstr ""
 
 #: recursos/0uruguay/datos/0uruguay.py:184
 msgid "President:"
-msgstr ""
+msgstr "Նախագահ."
 
 #: recursos/0uruguay/datos/0uruguay.py:184
 msgid "José Mujica"
@@ -1574,7 +1573,7 @@ msgstr ""
 
 #: recursos/0uruguay/datos/0uruguay.py:185
 msgid "Vice President:"
-msgstr ""
+msgstr "Փոխնախագահ."
 
 #: recursos/0uruguay/datos/0uruguay.py:185
 msgid "Danilo Astori"
@@ -1582,12 +1581,12 @@ msgstr ""
 
 #: recursos/0uruguay/datos/0uruguay.py:186
 msgid "Independence:"
-msgstr ""
+msgstr "Անկախություն."
 
 #: recursos/0uruguay/datos/0uruguay.py:186
 #, python-format
 msgid "declared: %s"
-msgstr ""
+msgstr "հայտարարված` %s"
 
 #: recursos/0uruguay/datos/0uruguay.py:186
 msgid "25 of august of 1825"
@@ -1596,7 +1595,7 @@ msgstr ""
 #: recursos/0uruguay/datos/0uruguay.py:187
 #, python-format
 msgid "recognized: %s"
-msgstr ""
+msgstr "ճանաչվել է` %s"
 
 #: recursos/0uruguay/datos/0uruguay.py:187
 msgid "28 of august of 1828"
@@ -1604,15 +1603,15 @@ msgstr ""
 
 #: recursos/0uruguay/datos/0uruguay.py:188
 msgid "Area:"
-msgstr ""
+msgstr "Տարածք."
 
 #: recursos/0uruguay/datos/0uruguay.py:188
 msgid "176.215 km² (90th)"
-msgstr ""
+msgstr "176.215 կմ² (90րդ)"
 
 #: recursos/0uruguay/datos/0uruguay.py:189
 msgid "Population:"
-msgstr ""
+msgstr "Բնակչություն."
 
 #: recursos/0uruguay/datos/0uruguay.py:189
 msgid "3.424.595 (128th)"
@@ -2295,7 +2294,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:17
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:14
 msgid "Brasil"
-msgstr ""
+msgstr "Բրազիլիա"
 
 #: recursos/0uruguay/datos/levels.py:190 recursos/4artigas/datos/levels.py:20
 #: recursos/4artigas/datos/levels.py:52 recursos/4artigas/datos/levels.py:53
@@ -2444,7 +2443,7 @@ msgstr ""
 #: recursos/4rio_negro/datos/4rio_negro.py:14
 #: recursos/4salto/datos/4salto.py:13 recursos/4soriano/datos/4soriano.py:12
 msgid "Argentina"
-msgstr ""
+msgstr "Արգենտինա"
 
 #: recursos/4artigas/datos/4artigas.py:21 recursos/4artigas/datos/levels.py:14
 msgid "Colonia Palma"
