@@ -26,11 +26,11 @@ LEVEL1 = [
     (_('the city of %s') % _('Suárez'), 2, _('Suárez'), _("It is near %s") % _('Pando')),
     (_('the city of %s') % _('Pando'), 2, _('Pando'), _("It is near %s") % _('Montevideo')),
     (_('the city of %s') % _('Empalme Olmos'), 2, _('Empalme Olmos'), _("It is near %s") % _('Pando')),
-    (_('the resort of %s') % _('Salinas'), 2, _('Salinas'), _("It's a resort\nof %s") % _('Río de la Plata')),
+    (_('the resort of %s') % _('Salinas'), 2, _('Salinas'), _("It's a resort\nin %s") % _('Río de la Plata')),
     (_('the city of %s') % _('Tala'), 2, _('Tala'), _("It's in the northeast")),
     (_('the resort of %s') % _('Atlántida'), 2, _('Atlántida'), _("It's an important resort")),
-    (_('the resort of %s') % _('Parque del Plata'), 2, _('Parque del Plata'), _("It's a resort\nof %s") % _('Costa de Oro')),
-    (_('the resort of %s') % _('La Floresta'), 2, _('La Floresta'), _("It's a resort\nof %s") % _('Costa de Oro')),
+    (_('the resort of %s') % _('Parque del Plata'), 2, _('Parque del Plata'), _("It's a resort\nin %s") % _('Costa de Oro')),
+    (_('the resort of %s') % _('La Floresta'), 2, _('La Floresta'), _("It's a resort\nin %s") % _('Costa de Oro')),
     (_('the city of %s') % _('Migues'), 2, _('Migues'), _("It's in the east")),
     (_('the city of %s') % _('Montes'), 2, _('Montes'), _("It's on the border\nwith %s") % _('Lavalleja')),
     (_('the city of %s') % _('Soca'), 2, _('Soca'), _("It's in the southeast")),
@@ -39,9 +39,9 @@ LEVEL1 = [
     (_('the resort of %s') % _('Lagomar'), 2, _('Lagomar'), _("It's in %s") % _('Ciudad de la Costa')),
     (_('the resort of %s') % _('Solymar'), 2, _('Solymar'), _("It's in %s") % _('Ciudad de la Costa')),
     (_('the resort of %s') % _('El Pinar'), 2, _('El Pinar'), _("It's in %s") % _('Ciudad de la Costa')),
-    (_('the resort of %s') % _('Cuchilla Alta'), 2, _('Cuchilla Alta'), _("It's a resort\nof %s") % _('Costa de Oro')),
+    (_('the resort of %s') % _('Cuchilla Alta'), 2, _('Cuchilla Alta'), _("It's a resort\nin %s") % _('Costa de Oro')),
     (_('the resort of %s') % _('Jaureguiberry'), 2, _('Jaureguiberry'), _("It's on the border\nwith %s") % _('Maldonado')),
-    (_('the resort of %s') % _('Bello Horizonte'), 2, _('Bello Horizonte'), _("It's a resort\nof %s") % _('Costa de Oro')),
+    (_('the resort of %s') % _('Bello Horizonte'), 2, _('Bello Horizonte'), _("It's a resort\nin %s") % _('Costa de Oro')),
     (_('the %s') % _('Parque Roosevelt'), 2, _('Parque Roosevelt'), _("It's on the border\nwith %s") % _('Montevideo'))
 ]
 ]

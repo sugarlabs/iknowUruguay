@@ -71,7 +71,7 @@ LEVEL5 = [
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
 [
-    (_('Route %s') % 8, _('Passes through departamental capital')),
+    (_('Route %s') % 8, _('Passes through departmental capital')),
     (_('Route %s') % 19, _('Comes from %s') % _('Florida')),
     (_('Route %s') % 7, _('Passes through the limit with %s') % _('Florida')),
     (_('Route %s') % 98, _('Passes through %s') % _('Isla Patrulla')),

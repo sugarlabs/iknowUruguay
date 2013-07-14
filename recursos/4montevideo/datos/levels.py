@@ -121,7 +121,7 @@ LEVEL5 = [
     (_("the %s Avenue") % _('Instrucciones'), 6, _('Instrucciones'), _('Try again')),
     (_("the %s Avenue") % _('Agraciada'), 6, _('Agraciada'), _('Try again')),
     (_("the %s Avenue") % _('Garzón'), 6, _('Garzón'), _('Try again')),
-    (_('los Accesos de las\nRutas 1 y 5'), 6, _('Accesos'), _('Try again')),
+    (_('the Access of\nRoutes 1 and 5'), 6, _('Access'), _('Try again')),
     (_('Route %s') % 1, 6, _('Route %s') % 1, _('Try again')),
     (_('Route %s') % 5, 6, _('Route %s') % 5, _('Try again')),
     (_("the %s Avenue") % _('Luis Batlle Berres'), 6, _('Luis Batlle Berres'), _('Try again')),

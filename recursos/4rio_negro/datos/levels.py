@@ -71,10 +71,10 @@ LEVEL5 = [
 [
     (_('Route %s') % 2, _('Comes from %s') % _('Mercedes')),
     (_('Route %s') % 24, _('Try again')),
-    (_('Route %s') % 3, _('Passes through of %s') % _('Young')),
+    (_('Route %s') % 3, _('Passes through %s') % _('Young')),
     (_('Route %s') % 20, _('Try again')),
-    (_('Route %s') % 25, _('Passes through of %s') % _('Young')),
-    (_('Route %s') % 4, _('Passes through of %s') % _('Baygorria'))
+    (_('Route %s') % 25, _('Passes through %s') % _('Young')),
+    (_('Route %s') % 4, _('Passes through %s') % _('Baygorria'))
 ]
 ]
 

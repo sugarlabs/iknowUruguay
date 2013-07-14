@@ -56,7 +56,7 @@ CREDITS = [
     _("This program is free software developed by the community"),
     _("For more information visit http://ceibaljam.org"),
     "",
-    _("Graphics and levels of all departaments (less Canelones): Alan Aguiar"),
+    _("Graphics and levels of all departments (less Canelones): Alan Aguiar"),
     _("Information for the level 'Historical sites' of Uruguay: Ana Trujillo and Ana Cichero (coordination)"),
     _("Information for Canelones: Nancy Gómez, her son hijo Matías and Ana Cichero (coordination)"),
     _("Information for the level 'Information of Montevideo': Miriam Martínez and Magdalena Lallo"),
