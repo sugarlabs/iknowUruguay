@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: 2013-07-13 00:55+0200\n"
+"PO-Revision-Date: 2013-07-13 01:36+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -1619,7 +1619,7 @@ msgstr ""
 
 #: recursos/0uruguay/datos/0uruguay.py:190
 msgid "GDP:"
-msgstr ""
+msgstr "ՀՆԱ."
 
 #: recursos/0uruguay/datos/0uruguay.py:190
 #, fuzzy
@@ -4865,8 +4865,9 @@ msgid "Cardal"
 msgstr ""
 
 #: recursos/4florida/datos/4florida.py:41 recursos/4florida/datos/levels.py:50
+#, fuzzy
 msgid "Independencia"
-msgstr ""
+msgstr "Անկախություն."
 
 #: recursos/4florida/datos/4florida.py:48 recursos/4florida/datos/levels.py:63
 msgid "Arroyo Palermo"
@@ -6469,8 +6470,9 @@ msgid "Cerro de Aguirre"
 msgstr ""
 
 #: recursos/4rocha/datos/levels.py:26 recursos/4rocha/datos/levels.py:27
+#, fuzzy
 msgid "Brazil"
-msgstr ""
+msgstr "Բրազիլիա"
 
 #: recursos/4rocha/datos/levels.py:88
 msgid ""
