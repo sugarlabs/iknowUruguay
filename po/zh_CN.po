@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-14 00:31-0400\n"
+"POT-Creation-Date: 2013-08-09 13:33-0400\n"
 "PO-Revision-Date: 2013-03-17 17:05+0200\n"
 "Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2400,7 +2400,10 @@ msgstr "这在南部"
 #: recursos/4maldonado/datos/levels.py:85
 #: recursos/4maldonado/datos/levels.py:86
 #: recursos/4maldonado/datos/levels.py:87
-#: recursos/4maldonado/datos/levels.py:88 recursos/4rivera/datos/levels.py:83
+#: recursos/4maldonado/datos/levels.py:88
+#: recursos/4rio_negro/datos/levels.py:74
+#: recursos/4rio_negro/datos/levels.py:76
+#: recursos/4rio_negro/datos/levels.py:77 recursos/4rivera/datos/levels.py:83
 #: recursos/4rivera/datos/levels.py:84 recursos/4rivera/datos/levels.py:86
 #: recursos/4rocha/datos/levels.py:85 recursos/4rocha/datos/levels.py:87
 #: recursos/4rocha/datos/levels.py:89 recursos/4rocha/datos/levels.py:91
@@ -3453,9 +3456,10 @@ msgstr "%s 的度假胜地"
 #: recursos/4canelones/datos/levels.py:42
 #: recursos/4canelones/datos/levels.py:44
 #, python-format
+#, python-format, fuzzy
 msgid ""
 "It's a resort\n"
-"of %s"
+"in %s"
 msgstr "这是 %s 的一个度假胜地"
 
 #: recursos/4canelones/datos/levels.py:30
@@ -5643,7 +5647,8 @@ msgstr "阿格拉西亚达"
 
 #: recursos/4montevideo/datos/4montevideo.py:97
 #: recursos/4montevideo/datos/levels.py:124
-msgid "Accesos"
+#, fuzzy
+msgid "Access"
 msgstr "Accesos"
 
 #: recursos/4montevideo/datos/4montevideo.py:100
@@ -5817,9 +5822,9 @@ msgstr "门多萨路"
 
 #: recursos/4montevideo/datos/levels.py:124
 msgid ""
-"los Accesos de las\n"
-"Rutas 1 y 5"
-msgstr "访问路线1和5"
+"the Access of\n"
+"Routes 1 and 5"
+msgstr ""
 
 #: recursos/4paysandu/datos/4paysandu.py:18
 #: recursos/4paysandu/datos/levels.py:12
@@ -6223,14 +6228,6 @@ msgstr "佩拉多峰"
 msgid "Cerro del Quebracho"
 msgstr "德尔克夫拉乔峰"
 
-#: recursos/4rio_negro/datos/levels.py:74
-#: recursos/4rio_negro/datos/levels.py:76
-#: recursos/4rio_negro/datos/levels.py:77
-#, python-format
-#, python-format,
-msgid "Passes through of %s"
-msgstr "经过 %s"
-
 #: recursos/4rivera/datos/4rivera.py:18 recursos/4rivera/datos/levels.py:12
 msgid "Curticeiras"
 msgstr "Curticeiras"
@@ -6488,9 +6485,10 @@ msgid "Brazil"
 msgstr "巴西"
 
 #: recursos/4rocha/datos/levels.py:88
+#, fuzzy
 msgid ""
 "It's in the center\n"
-"of the departament"
+"of the department"
 msgstr "它位于该地区的中部。"
 
 #: recursos/4salto/datos/4salto.py:21 recursos/4salto/datos/levels.py:14
@@ -7185,7 +7183,8 @@ msgid "Cerro del Olimar"
 msgstr "德尔奥利马尔山"
 
 #: recursos/4treinta_y_tres/datos/levels.py:74
-msgid "Passes through departamental capital"
+#, fuzzy
+msgid "Passes through departmental capital"
 msgstr "经过地区首府"
 
 #: recursos/4treinta_y_tres/datos/levels.py:76
@@ -7365,7 +7364,8 @@ msgid "For more information visit http://ceibaljam.org"
 msgstr "欲了解更多信息，请访问 http://ceibaljam.org"
 
 #: recursos/comun/datos/commons.py:59
-msgid "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
+#, fuzzy
+msgid "Graphics and levels of all departments (less Canelones): Alan Aguiar"
 msgstr "图形和所有地区关卡（少量Canelones）：Alan Aguiar"
 
 #: recursos/comun/datos/commons.py:60
@@ -7395,6 +7395,16 @@ msgstr "声音从 freesound.org 下载：btn045.wav来自junggle， boom1.wav来
 #: recursos/comun/datos/commons.py:64
 msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
 msgstr "字体从 urbanfonts.com 下载：Share-Regular.ttf 来自 anónimo"
+
+#~ msgid ""
+#~ "los Accesos de las\n"
+#~ "Rutas 1 y 5"
+#~ msgstr "访问路线1和5"
+
+#, python-format
+#, python-format,
+#~ msgid "Passes through of %s"
+#~ msgstr "经过 %s"
 
 #~ msgid ""
 #~ "Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-"

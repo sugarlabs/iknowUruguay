@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-14 00:31-0400\n"
+"POT-Creation-Date: 2013-08-09 13:33-0400\n"
 "PO-Revision-Date: 2013-06-28 21:26+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2401,7 +2401,10 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:85
 #: recursos/4maldonado/datos/levels.py:86
 #: recursos/4maldonado/datos/levels.py:87
-#: recursos/4maldonado/datos/levels.py:88 recursos/4rivera/datos/levels.py:83
+#: recursos/4maldonado/datos/levels.py:88
+#: recursos/4rio_negro/datos/levels.py:74
+#: recursos/4rio_negro/datos/levels.py:76
+#: recursos/4rio_negro/datos/levels.py:77 recursos/4rivera/datos/levels.py:83
 #: recursos/4rivera/datos/levels.py:84 recursos/4rivera/datos/levels.py:86
 #: recursos/4rocha/datos/levels.py:85 recursos/4rocha/datos/levels.py:87
 #: recursos/4rocha/datos/levels.py:89 recursos/4rocha/datos/levels.py:91
@@ -3470,7 +3473,7 @@ msgstr ""
 #, python-format
 msgid ""
 "It's a resort\n"
-"of %s"
+"in %s"
 msgstr ""
 
 #: recursos/4canelones/datos/levels.py:30
@@ -5730,7 +5733,7 @@ msgstr ""
 
 #: recursos/4montevideo/datos/4montevideo.py:97
 #: recursos/4montevideo/datos/levels.py:124
-msgid "Accesos"
+msgid "Access"
 msgstr ""
 
 #: recursos/4montevideo/datos/4montevideo.py:100
@@ -5905,8 +5908,8 @@ msgstr ""
 
 #: recursos/4montevideo/datos/levels.py:124
 msgid ""
-"los Accesos de las\n"
-"Rutas 1 y 5"
+"the Access of\n"
+"Routes 1 and 5"
 msgstr ""
 
 #: recursos/4paysandu/datos/4paysandu.py:18
@@ -6321,13 +6324,6 @@ msgstr ""
 msgid "Cerro del Quebracho"
 msgstr ""
 
-#: recursos/4rio_negro/datos/levels.py:74
-#: recursos/4rio_negro/datos/levels.py:76
-#: recursos/4rio_negro/datos/levels.py:77
-#, python-format
-msgid "Passes through of %s"
-msgstr ""
-
 #: recursos/4rivera/datos/4rivera.py:18 recursos/4rivera/datos/levels.py:12
 msgid "Curticeiras"
 msgstr ""
@@ -6603,7 +6599,7 @@ msgstr ""
 #: recursos/4rocha/datos/levels.py:88
 msgid ""
 "It's in the center\n"
-"of the departament"
+"of the department"
 msgstr ""
 
 #: recursos/4salto/datos/4salto.py:21 recursos/4salto/datos/levels.py:14
@@ -7335,7 +7331,7 @@ msgid "Cerro del Olimar"
 msgstr ""
 
 #: recursos/4treinta_y_tres/datos/levels.py:74
-msgid "Passes through departamental capital"
+msgid "Passes through departmental capital"
 msgstr ""
 
 #: recursos/4treinta_y_tres/datos/levels.py:76
@@ -7503,7 +7499,7 @@ msgid "For more information visit http://ceibaljam.org"
 msgstr "Więcej informacji pod adresem: http://ceibaljam.org"
 
 #: recursos/comun/datos/commons.py:59
-msgid "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
+msgid "Graphics and levels of all departments (less Canelones): Alan Aguiar"
 msgstr ""
 
 #: recursos/comun/datos/commons.py:60

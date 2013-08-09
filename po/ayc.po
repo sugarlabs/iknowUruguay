@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-14 00:31-0400\n"
+"POT-Creation-Date: 2013-08-09 13:33-0400\n"
 "PO-Revision-Date: 2013-04-27 20:42+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2405,7 +2405,10 @@ msgstr "Kupïxankiwa"
 #: recursos/4maldonado/datos/levels.py:85
 #: recursos/4maldonado/datos/levels.py:86
 #: recursos/4maldonado/datos/levels.py:87
-#: recursos/4maldonado/datos/levels.py:88 recursos/4rivera/datos/levels.py:83
+#: recursos/4maldonado/datos/levels.py:88
+#: recursos/4rio_negro/datos/levels.py:74
+#: recursos/4rio_negro/datos/levels.py:76
+#: recursos/4rio_negro/datos/levels.py:77 recursos/4rivera/datos/levels.py:83
 #: recursos/4rivera/datos/levels.py:84 recursos/4rivera/datos/levels.py:86
 #: recursos/4rocha/datos/levels.py:85 recursos/4rocha/datos/levels.py:87
 #: recursos/4rocha/datos/levels.py:89 recursos/4rocha/datos/levels.py:91
@@ -3458,10 +3461,10 @@ msgstr "Uka jach'a lamara quta qawaya markapa %s"
 #: recursos/4canelones/datos/levels.py:33
 #: recursos/4canelones/datos/levels.py:42
 #: recursos/4canelones/datos/levels.py:44
-#, python-format
+#, python-format, fuzzy
 msgid ""
 "It's a resort\n"
-"of %s"
+"in %s"
 msgstr ""
 "Jach'a lamara quta qawaya maya markawa\n"
 "ukasti %s"
@@ -5825,7 +5828,8 @@ msgstr "atipsuri"
 
 #: recursos/4montevideo/datos/4montevideo.py:97
 #: recursos/4montevideo/datos/levels.py:124
-msgid "Accesos"
+#, fuzzy
+msgid "Access"
 msgstr "Mantañanaka"
 
 #: recursos/4montevideo/datos/4montevideo.py:100
@@ -6029,11 +6033,9 @@ msgstr "Mendoza saräwi thaki"
 
 #: recursos/4montevideo/datos/levels.py:124
 msgid ""
-"los Accesos de las\n"
-"Rutas 1 y 5"
+"the Access of\n"
+"Routes 1 and 5"
 msgstr ""
-"Markaru mantaña thakinaka\n"
-"Ukaxa 1 ukata 5 thaki"
 
 #: recursos/4paysandu/datos/4paysandu.py:18
 #: recursos/4paysandu/datos/levels.py:12
@@ -6437,13 +6439,6 @@ msgstr "Q'ara qullu"
 msgid "Cerro del Quebracho"
 msgstr "Quebracho qullu"
 
-#: recursos/4rio_negro/datos/levels.py:74
-#: recursos/4rio_negro/datos/levels.py:76
-#: recursos/4rio_negro/datos/levels.py:77
-#, python-format
-msgid "Passes through of %s"
-msgstr "Uknama sari %s"
-
 #: recursos/4rivera/datos/4rivera.py:18 recursos/4rivera/datos/levels.py:12
 msgid "Curticeiras"
 msgstr "Curticeiras marka"
@@ -6701,9 +6696,10 @@ msgid "Brazil"
 msgstr "Brasil marka"
 
 #: recursos/4rocha/datos/levels.py:88
+#, fuzzy
 msgid ""
 "It's in the center\n"
-"of the departament"
+"of the department"
 msgstr ""
 "Taypinkiwa\n"
 "uka departamento suyuna"
@@ -7400,7 +7396,8 @@ msgid "Cerro del Olimar"
 msgstr "Olimar apu qullu"
 
 #: recursos/4treinta_y_tres/datos/levels.py:74
-msgid "Passes through departamental capital"
+#, fuzzy
+msgid "Passes through departmental capital"
 msgstr "Departamento suyu jilïri marknama sari"
 
 #: recursos/4treinta_y_tres/datos/levels.py:76
@@ -7587,7 +7584,8 @@ msgid "For more information visit http://ceibaljam.org"
 msgstr "Juk'ampi yatxatañataki akïri wakichäwiru mantma http://ceibaljam.org"
 
 #: recursos/comun/datos/commons.py:59
-msgid "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
+#, fuzzy
+msgid "Graphics and levels of all departments (less Canelones): Alan Aguiar"
 msgstr ""
 "departamento suyunaka rixinakapa siqinakapa (menos Canelones): Alan Aguiar"
 
@@ -7628,3 +7626,14 @@ msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
 msgstr ""
 "Wakisirinaka apaqata urbanfonts.com: Share-Regular.ttf jani uñt'atana "
 "apaqata"
+
+#~ msgid ""
+#~ "los Accesos de las\n"
+#~ "Rutas 1 y 5"
+#~ msgstr ""
+#~ "Markaru mantaña thakinaka\n"
+#~ "Ukaxa 1 ukata 5 thaki"
+
+#, python-format
+#~ msgid "Passes through of %s"
+#~ msgstr "Uknama sari %s"
