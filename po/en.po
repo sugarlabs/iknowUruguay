@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: 2013-07-04 23:22+0200\n"
+"PO-Revision-Date: 2013-07-10 22:34+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Sugar Labs\n"
 "Language: en\n"
@@ -6703,7 +6703,9 @@ msgstr "Brazil"
 msgid ""
 "It's in the center\n"
 "of the departament"
-msgstr "It's in the centerof the department"
+msgstr ""
+"It's in the center\n"
+"of the department"
 
 #: recursos/4salto/datos/4salto.py:21 recursos/4salto/datos/levels.py:14
 msgid "Palomas"
@@ -7587,7 +7589,7 @@ msgstr "For more information visit http://ceibaljam.org"
 
 #: recursos/comun/datos/commons.py:59
 msgid "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
-msgstr "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
+msgstr "Graphics and levels of all departments (less Canelones): Alan Aguiar"
 
 #: recursos/comun/datos/commons.py:60
 msgid ""
