@@ -6,8 +6,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2013-08-09 13:33-0400\n"
 "PO-Revision-Date: 2013-07-04 23:22+0200\n"
+=======
+"POT-Creation-Date: 2013-03-14 00:31-0400\n"
+"PO-Revision-Date: 2013-07-10 22:34+0200\n"
+>>>>>>> b998af72089c49044976cadab5a8b23d750aa13a
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Sugar Labs\n"
 "Language: en\n"
@@ -6698,8 +6703,15 @@ msgstr "Brazil"
 #, fuzzy
 msgid ""
 "It's in the center\n"
+<<<<<<< HEAD
 "of the department"
 msgstr "It's in the centerof the department"
+=======
+"of the departament"
+msgstr ""
+"It's in the center\n"
+"of the department"
+>>>>>>> b998af72089c49044976cadab5a8b23d750aa13a
 
 #: recursos/4salto/datos/4salto.py:21 recursos/4salto/datos/levels.py:14
 msgid "Palomas"
@@ -7582,9 +7594,14 @@ msgid "For more information visit http://ceibaljam.org"
 msgstr "For more information visit http://ceibaljam.org"
 
 #: recursos/comun/datos/commons.py:59
+<<<<<<< HEAD
 #, fuzzy
 msgid "Graphics and levels of all departments (less Canelones): Alan Aguiar"
 msgstr "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
+=======
+msgid "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
+msgstr "Graphics and levels of all departments (less Canelones): Alan Aguiar"
+>>>>>>> b998af72089c49044976cadab5a8b23d750aa13a
 
 #: recursos/comun/datos/commons.py:60
 msgid ""
