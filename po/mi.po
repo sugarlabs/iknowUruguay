@@ -2,20 +2,20 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-07-10 20:52+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: mi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -28,7 +28,7 @@ msgstr ""
 #: conozcouy.py:517
 #, python-format
 msgid "Cannot open %s"
-msgstr ""
+msgstr "Kāore e taea ngā %s te whakatuwhera"
 
 #: conozcouy.py:464
 #, python-format
@@ -36,6 +36,8 @@ msgid ""
 "the city of\n"
 "%s"
 msgstr ""
+"te tāone nui\n"
+"o ngā %s"
 
 #: conozcouy.py:467
 #, python-format
@@ -43,6 +45,8 @@ msgid ""
 "the department of\n"
 "%s"
 msgstr ""
+"te tari o\n"
+"ngā %s"
 
 #: conozcouy.py:470
 #, python-format
@@ -50,6 +54,8 @@ msgid ""
 "the province of\n"
 "%s"
 msgstr ""
+"te porowini o\n"
+"ngā %s"
 
 #: conozcouy.py:473
 #, python-format
@@ -57,6 +63,8 @@ msgid ""
 "the district of\n"
 "%s"
 msgstr ""
+"te takiwā o\n"
+"ngā %s"
 
 #: conozcouy.py:476
 #, python-format
@@ -64,6 +72,8 @@ msgid ""
 "the state of\n"
 "%s"
 msgstr ""
+"te wāhi whenua o\n"
+"ngā %s"
 
 #: conozcouy.py:479
 #, python-format
@@ -71,6 +81,8 @@ msgid ""
 "the region of\n"
 "%s"
 msgstr ""
+"te rohe o\n"
+"%s"
 
 #: conozcouy.py:482
 #, python-format
@@ -78,6 +90,8 @@ msgid ""
 "the parish of\n"
 "%s"
 msgstr ""
+"te pāriha o\n"
+"ngā %s"
 
 #: conozcouy.py:485
 #, python-format
@@ -85,6 +99,8 @@ msgid ""
 "the taluka of\n"
 "%s"
 msgstr ""
+"te taluka o\n"
+"%s"
 
 #: conozcouy.py:488
 #, python-format
@@ -92,6 +108,8 @@ msgid ""
 "the municipality of\n"
 "%s"
 msgstr ""
+"te rohe pōti o\n"
+"ngā %s"
 
 #: conozcouy.py:491 recursos/0uruguay/datos/levels.py:187
 #: recursos/0uruguay/datos/levels.py:188 recursos/0uruguay/datos/levels.py:189
@@ -106,7 +124,7 @@ msgstr ""
 #: recursos/4san_jose/datos/levels.py:44
 #, python-format
 msgid "the %s"
-msgstr ""
+msgstr "ngā %s"
 
 #: conozcouy.py:494
 #, python-format
@@ -121,55 +139,55 @@ msgstr ""
 #: conozcouy.py:552
 #, python-format
 msgid "About %s"
-msgstr ""
+msgstr "Mōku Ake %s"
 
 #: conozcouy.py:566
 msgid "Press any key to return"
-msgstr ""
+msgstr "Pēhia tētahi pātuhi kia hoki anō"
 
 #: conozcouy.py:597
 msgid "You have chosen the map "
-msgstr ""
+msgstr "Kua kōwhiria e koe te mahere "
 
 #: conozcouy.py:603
 msgid "Play"
-msgstr ""
+msgstr "Tākaro"
 
 #: conozcouy.py:619
 msgid "Explore"
-msgstr ""
+msgstr "Tūhura"
 
 #: conozcouy.py:639 conozcouy.py:783
 msgid "About this game"
-msgstr ""
+msgstr "Mō tēnei tākaro"
 
 #: conozcouy.py:647
 msgid "Return"
-msgstr ""
+msgstr "Whakahokia"
 
 #: conozcouy.py:704
 msgid "Choose the map to use"
-msgstr ""
+msgstr "Kōwhiria te mahere hei whakamahi"
 
 #: conozcouy.py:724
 msgid "Previous page"
-msgstr ""
+msgstr "Whārangi tōmua"
 
 #: conozcouy.py:769
 msgid "Next page"
-msgstr ""
+msgstr "Whārangi panuku"
 
 #: conozcouy.py:790
 msgid "Exit"
-msgstr ""
+msgstr "Putaatu"
 
 #: conozcouy.py:1272
 msgid "End"
-msgstr ""
+msgstr "Mutu"
 
 #: conozcouy.py:1283
 msgid "Show all"
-msgstr ""
+msgstr "Whakaatu te katoa"
 
 #: conozcouy.py:1612 conozcouy.py:1868
 msgid "Press any key to skip"
@@ -178,7 +196,7 @@ msgstr ""
 #: recursos/0uruguay/datos/0uruguay.py:5 recursos/0uruguay/datos/levels.py:151
 #: recursos/0uruguay/datos/levels.py:154 recursos/0uruguay/datos/levels.py:159
 msgid "Uruguay"
-msgstr ""
+msgstr "Urukuai"
 
 #: recursos/0uruguay/datos/0uruguay.py:8
 #: recursos/0uruguay/datos/0uruguay.py:30 recursos/0uruguay/datos/levels.py:11
@@ -2644,9 +2662,11 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:12
 #: recursos/4treinta_y_tres/datos/levels.py:14
 #: recursos/4treinta_y_tres/datos/levels.py:17
-#, python-format
+#, python-format, fuzzy
 msgid "the city of %s"
 msgstr ""
+"te tāone nui\n"
+"o ngā %s"
 
 #: recursos/4artigas/datos/levels.py:13
 #: recursos/4canelones/datos/levels.py:101
