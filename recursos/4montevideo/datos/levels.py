@@ -4,7 +4,7 @@ from gettext import gettext as _
 
 LEVEL1 = [
         17,
-        _('Cities'),
+        _('Neighborhoods'),
         ['lineasDepto', 'capitales', 'ciudades'],
         [],
 [
@@ -81,7 +81,7 @@ LEVEL3 = [
     (_('Arroyo San Gregorio'), _('Flows into the %s') % _('Río Santa Lucía')),
     (_('Arroyo Pantanoso'), _('Flows into the %s') % _('Bahía de Montevideo')),
     (_('Arroyo Miguelete'), _('Flows into the %s') % _('Bahía de Montevideo')),
-    (_('Arroyo Mendoza'), __('Flows into the %s') % _('Arroyo Miguelete')),
+    (_('Arroyo Mendoza'), _('Flows into the %s') % _('Arroyo Miguelete')),
     (_('Arroyo de las Piedras'), _("It's on the border\nwith %s") % _('Canelones')),
     (_('Arroyo Toledo'), _("It's on the border\nwith %s") % _('Canelones')),
     (_('Arroyo Carrasco'), _("It's in the east")),
