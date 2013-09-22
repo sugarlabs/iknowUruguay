@@ -6,14 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2013-08-09 13:33-0400\n"
-"PO-Revision-Date: 2013-07-13 00:55+0200\n"
-=======
-"POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: 2013-07-13 01:36+0200\n"
->>>>>>> b998af72089c49044976cadab5a8b23d750aa13a
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"POT-Creation-Date: 2013-07-17 00:31-0400\n"
+"PO-Revision-Date: 2013-09-19 15:17+0200\n"
+"Last-Translator: Jasmine <udea_jasmine@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -27,13 +22,13 @@ msgstr ""
 #. TRANS: "description" option from activity.info file
 #: recursos/comun/datos/commons.py:5
 msgid "I know Uruguay"
-msgstr ""
+msgstr "Ես ճանաչում եմ Ուրուգվայը"
 
 #: conozcouy.py:239 conozcouy.py:356 conozcouy.py:379 conozcouy.py:431
 #: conozcouy.py:517
 #, python-format
 msgid "Cannot open %s"
-msgstr "Չի բացում %s"
+msgstr "Չի կարող բացել %s"
 
 #: conozcouy.py:464
 #, python-format
@@ -41,8 +36,8 @@ msgid ""
 "the city of\n"
 "%s"
 msgstr ""
-"%s \n"
-" -ի քաղաքը"
+"%s -ի\n"
+"քաղաքը"
 
 #: conozcouy.py:467
 #, python-format
@@ -50,8 +45,8 @@ msgid ""
 "the department of\n"
 "%s"
 msgstr ""
-"%s \n"
-" - ի դեպարտամենտը"
+"%s-ի\n"
+"դեպարտամենտը"
 
 #: conozcouy.py:470
 #, python-format
@@ -59,8 +54,8 @@ msgid ""
 "the province of\n"
 "%s"
 msgstr ""
-"%s \n"
-" -ի գավառը"
+"%s-ի\n"
+"գավառը"
 
 #: conozcouy.py:473
 #, python-format
@@ -68,8 +63,8 @@ msgid ""
 "the district of\n"
 "%s"
 msgstr ""
-"%s \n"
-"-ի շրջանը"
+"%s-ի\n"
+"շրջանը"
 
 #: conozcouy.py:476
 #, python-format
@@ -77,8 +72,8 @@ msgid ""
 "the state of\n"
 "%s"
 msgstr ""
-"%s \n"
-" -ի նահանգը"
+"%s-ի\n"
+"նահանգը"
 
 #: conozcouy.py:479
 #, python-format
@@ -86,8 +81,8 @@ msgid ""
 "the region of\n"
 "%s"
 msgstr ""
-"%s \n"
-"-ի մարզը"
+"%s-ի\n"
+"մարզը"
 
 #: conozcouy.py:482
 #, python-format
@@ -95,24 +90,22 @@ msgid ""
 "the parish of\n"
 "%s"
 msgstr ""
-"%s \n"
-"-ի ծխականը"
+"%s ի\n"
+"ծխականը"
 
 #: conozcouy.py:485
 #, python-format
 msgid ""
 "the taluka of\n"
 "%s"
-msgstr ""
+msgstr "%s ի թալուքները\n"
 
 #: conozcouy.py:488
 #, python-format
 msgid ""
 "the municipality of\n"
 "%s"
-msgstr ""
-"%s \n"
-"-ի քաղաքապետարանը"
+msgstr "%s ի քաղաքապետարանը\n"
 
 #: conozcouy.py:491 recursos/0uruguay/datos/levels.py:187
 #: recursos/0uruguay/datos/levels.py:188 recursos/0uruguay/datos/levels.py:189
@@ -127,26 +120,26 @@ msgstr ""
 #: recursos/4san_jose/datos/levels.py:44
 #, python-format
 msgid "the %s"
-msgstr "%s"
+msgstr "%s ը"
 
 #: conozcouy.py:494
 #, python-format
 msgid "the %(river)s"
-msgstr ""
+msgstr "%(river)s ը"
 
 #: conozcouy.py:497
 #, python-format
 msgid "the %(route)s"
-msgstr ""
+msgstr "%(route)s ը"
 
 #: conozcouy.py:552
 #, python-format
 msgid "About %s"
-msgstr ""
+msgstr "մոտ %s"
 
 #: conozcouy.py:566
 msgid "Press any key to return"
-msgstr "Սեղմեք որևէ ստեղն, վերադառնալու համար"
+msgstr "Սեղմել որևէ ստեղն` վերադառնալու համար"
 
 #: conozcouy.py:597
 msgid "You have chosen the map "
@@ -170,7 +163,7 @@ msgstr "Վերադառնալ"
 
 #: conozcouy.py:704
 msgid "Choose the map to use"
-msgstr "Ընտրեք քարտեզը, օգտվելու համար"
+msgstr "Ընտրիր օգտագործվելիք քարտեզը"
 
 #: conozcouy.py:724
 msgid "Previous page"
@@ -190,11 +183,11 @@ msgstr "Վերջ"
 
 #: conozcouy.py:1283
 msgid "Show all"
-msgstr "Ցուցադրել ամբողջը"
+msgstr "Ցուցադրել բոլորը"
 
 #: conozcouy.py:1612 conozcouy.py:1868
 msgid "Press any key to skip"
-msgstr "Սեղմեք որևէ ստեղն, բաց թողնելու համար"
+msgstr "Սեղմել ցանկացած ստեղն` բաց թողնելու համար"
 
 #: recursos/0uruguay/datos/0uruguay.py:5 recursos/0uruguay/datos/levels.py:151
 #: recursos/0uruguay/datos/levels.py:154 recursos/0uruguay/datos/levels.py:159
@@ -212,7 +205,7 @@ msgstr "Ուրուգվայ"
 #: recursos/4tacuarembo/datos/4tacuarembo.py:8
 #: recursos/4tacuarembo/datos/levels.py:11
 msgid "Artigas"
-msgstr ""
+msgstr "Արտիգաս"
 
 #: recursos/0uruguay/datos/0uruguay.py:9
 #: recursos/0uruguay/datos/0uruguay.py:31 recursos/0uruguay/datos/levels.py:12
@@ -227,7 +220,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:14
 #: recursos/4tacuarembo/datos/levels.py:17
 msgid "Salto"
-msgstr ""
+msgstr "Սալտո"
 
 #: recursos/0uruguay/datos/0uruguay.py:10
 #: recursos/0uruguay/datos/0uruguay.py:32 recursos/0uruguay/datos/levels.py:13
@@ -245,7 +238,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:13
 #: recursos/4tacuarembo/datos/levels.py:16
 msgid "Paysandú"
-msgstr ""
+msgstr "Պայսանդու"
 
 #: recursos/0uruguay/datos/0uruguay.py:11
 #: recursos/0uruguay/datos/0uruguay.py:138
@@ -270,7 +263,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:15
 #: recursos/4tacuarembo/datos/levels.py:53
 msgid "Río Negro"
-msgstr ""
+msgstr "Ռիո Նեգրո"
 
 #: recursos/0uruguay/datos/0uruguay.py:12
 #: recursos/0uruguay/datos/0uruguay.py:34 recursos/0uruguay/datos/levels.py:15
@@ -287,7 +280,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:9
 #: recursos/4tacuarembo/datos/levels.py:12
 msgid "Rivera"
-msgstr ""
+msgstr "Ռիվերա"
 
 #: recursos/0uruguay/datos/0uruguay.py:13
 #: recursos/0uruguay/datos/0uruguay.py:35 recursos/0uruguay/datos/levels.py:16
@@ -310,7 +303,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:29
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:8
 msgid "Tacuarembó"
-msgstr ""
+msgstr "Տակուարեմբո"
 
 #: recursos/0uruguay/datos/0uruguay.py:14 recursos/0uruguay/datos/levels.py:17
 #: recursos/0uruguay/datos/levels.py:75 recursos/0uruguay/datos/levels.py:84
@@ -324,7 +317,7 @@ msgstr ""
 #: recursos/4san_jose/datos/levels.py:16 recursos/4soriano/datos/4soriano.py:5
 #: recursos/4soriano/datos/4soriano.py:8
 msgid "Soriano"
-msgstr ""
+msgstr "Սորիանո"
 
 #: recursos/0uruguay/datos/0uruguay.py:15 recursos/0uruguay/datos/levels.py:18
 #: recursos/0uruguay/datos/levels.py:76 recursos/0uruguay/datos/levels.py:93
@@ -337,9 +330,8 @@ msgstr ""
 #: recursos/4flores/datos/levels.py:14 recursos/4san_jose/datos/4san_jose.py:9
 #: recursos/4san_jose/datos/levels.py:12
 #: recursos/4soriano/datos/4soriano.py:10 recursos/4soriano/datos/levels.py:92
-#, fuzzy
 msgid "Colonia"
-msgstr "Կոլոմբիա"
+msgstr "Կոլոնիա"
 
 #: recursos/0uruguay/datos/0uruguay.py:16 recursos/0uruguay/datos/levels.py:20
 #: recursos/4colonia/datos/4colonia.py:11
@@ -353,7 +345,7 @@ msgstr "Կոլոմբիա"
 #: recursos/4soriano/datos/4soriano.py:11 recursos/4soriano/datos/levels.py:87
 #: recursos/4soriano/datos/levels.py:93
 msgid "Flores"
-msgstr ""
+msgstr "Ֆլորես"
 
 #: recursos/0uruguay/datos/0uruguay.py:17
 #: recursos/0uruguay/datos/0uruguay.py:40 recursos/0uruguay/datos/levels.py:22
@@ -374,7 +366,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:14
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:15
 msgid "Durazno"
-msgstr ""
+msgstr "Դուրասնո"
 
 #: recursos/0uruguay/datos/0uruguay.py:18 recursos/0uruguay/datos/levels.py:24
 #: recursos/0uruguay/datos/levels.py:87 recursos/0uruguay/datos/levels.py:121
@@ -389,7 +381,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:9
 #: recursos/4treinta_y_tres/datos/levels.py:19
 msgid "Cerro Largo"
-msgstr ""
+msgstr "Սեռո Լարգո"
 
 #: recursos/0uruguay/datos/0uruguay.py:19 recursos/0uruguay/datos/levels.py:21
 #: recursos/0uruguay/datos/levels.py:98 recursos/0uruguay/datos/levels.py:161
@@ -436,7 +428,7 @@ msgstr "Սան Խոսե"
 #: recursos/4treinta_y_tres/datos/levels.py:75
 #: recursos/4treinta_y_tres/datos/levels.py:76
 msgid "Florida"
-msgstr ""
+msgstr "Ֆլորիդա"
 
 #: recursos/0uruguay/datos/0uruguay.py:21
 #: recursos/0uruguay/datos/0uruguay.py:45 recursos/0uruguay/datos/levels.py:23
@@ -459,7 +451,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:19
 #: recursos/4treinta_y_tres/datos/levels.py:11
 msgid "Treinta y Tres"
-msgstr ""
+msgstr "Տրեինտա ի Տրես"
 
 #: recursos/0uruguay/datos/0uruguay.py:22
 #: recursos/0uruguay/datos/0uruguay.py:42 recursos/0uruguay/datos/levels.py:28
@@ -483,7 +475,7 @@ msgstr ""
 #: recursos/4san_jose/datos/4san_jose.py:11
 #: recursos/4san_jose/datos/levels.py:14
 msgid "Canelones"
-msgstr ""
+msgstr "Կանելոնես"
 
 #: recursos/0uruguay/datos/0uruguay.py:23
 #: recursos/0uruguay/datos/0uruguay.py:43
@@ -508,7 +500,7 @@ msgstr ""
 #: recursos/4san_jose/datos/4san_jose.py:12
 #: recursos/4san_jose/datos/levels.py:15 recursos/4san_jose/datos/levels.py:98
 msgid "Montevideo"
-msgstr ""
+msgstr "Մոնտեվիդեո"
 
 #: recursos/0uruguay/datos/0uruguay.py:24 recursos/0uruguay/datos/levels.py:26
 #: recursos/0uruguay/datos/levels.py:90 recursos/0uruguay/datos/levels.py:91
@@ -523,7 +515,7 @@ msgstr ""
 #: recursos/4maldonado/datos/4maldonado.py:8 recursos/4rocha/datos/4rocha.py:9
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:11
 msgid "Lavalleja"
-msgstr ""
+msgstr "Լավալյեխա"
 
 #: recursos/0uruguay/datos/0uruguay.py:25
 #: recursos/0uruguay/datos/0uruguay.py:48 recursos/0uruguay/datos/levels.py:27
@@ -543,7 +535,7 @@ msgstr ""
 #: recursos/4maldonado/datos/4maldonado.py:16
 #: recursos/4maldonado/datos/levels.py:11 recursos/4rocha/datos/4rocha.py:10
 msgid "Maldonado"
-msgstr ""
+msgstr "Մալդոնադո"
 
 #: recursos/0uruguay/datos/0uruguay.py:26
 #: recursos/0uruguay/datos/0uruguay.py:47 recursos/0uruguay/datos/levels.py:25
@@ -561,40 +553,40 @@ msgstr ""
 #: recursos/4rocha/datos/levels.py:86
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:12
 msgid "Rocha"
-msgstr ""
+msgstr "Ռոչա"
 
 #: recursos/0uruguay/datos/0uruguay.py:33 recursos/0uruguay/datos/levels.py:42
 #: recursos/0uruguay/datos/levels.py:88
 #: recursos/4rio_negro/datos/4rio_negro.py:18
 #: recursos/4rio_negro/datos/levels.py:11
 msgid "Fray Bentos"
-msgstr ""
+msgstr "Ֆրայ Բենտոս"
 
 #: recursos/0uruguay/datos/0uruguay.py:36 recursos/0uruguay/datos/levels.py:45
 #: recursos/0uruguay/datos/levels.py:101 recursos/0uruguay/datos/levels.py:213
 #: recursos/4rio_negro/datos/levels.py:72
 #: recursos/4soriano/datos/4soriano.py:16 recursos/4soriano/datos/levels.py:11
 msgid "Mercedes"
-msgstr ""
+msgstr "Մերսեդես"
 
 #: recursos/0uruguay/datos/0uruguay.py:37 recursos/0uruguay/datos/levels.py:46
 #: recursos/0uruguay/datos/levels.py:82 recursos/4colonia/datos/4colonia.py:15
 #: recursos/4colonia/datos/levels.py:13 recursos/4colonia/datos/levels.py:48
 msgid "Colonia del Sacramento"
-msgstr ""
+msgstr "Կոլոնիա դե Սակրամենտո"
 
 #: recursos/0uruguay/datos/0uruguay.py:38 recursos/0uruguay/datos/levels.py:48
 #: recursos/0uruguay/datos/levels.py:137 recursos/4flores/datos/4flores.py:17
 #: recursos/4flores/datos/levels.py:26
 msgid "Trinidad"
-msgstr ""
+msgstr "Տրինիդադ"
 
 #: recursos/0uruguay/datos/0uruguay.py:39 recursos/0uruguay/datos/levels.py:49
 #: recursos/0uruguay/datos/levels.py:125
 #: recursos/4san_jose/datos/4san_jose.py:18
 #: recursos/4san_jose/datos/levels.py:27
 msgid "San José de Mayo"
-msgstr ""
+msgstr "Սան Խոսե դե Մայո"
 
 #: recursos/0uruguay/datos/0uruguay.py:44 recursos/0uruguay/datos/levels.py:52
 #: recursos/0uruguay/datos/levels.py:100 recursos/0uruguay/datos/levels.py:218
@@ -603,7 +595,7 @@ msgstr ""
 #: recursos/4cerro_largo/datos/levels.py:70
 #: recursos/4cerro_largo/datos/levels.py:81
 msgid "Melo"
-msgstr ""
+msgstr "Մելո"
 
 #: recursos/0uruguay/datos/0uruguay.py:46 recursos/0uruguay/datos/levels.py:54
 #: recursos/0uruguay/datos/levels.py:102 recursos/0uruguay/datos/levels.py:219
@@ -612,7 +604,7 @@ msgstr ""
 #: recursos/4lavalleja/datos/levels.py:88
 #: recursos/4lavalleja/datos/levels.py:89
 msgid "Minas"
-msgstr ""
+msgstr "Մինաս"
 
 #: recursos/0uruguay/datos/0uruguay.py:53 recursos/0uruguay/datos/levels.py:67
 #: recursos/4maldonado/datos/4maldonado.py:18
@@ -620,14 +612,14 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:87
 #: recursos/4maldonado/datos/levels.py:88
 msgid "Aiguá"
-msgstr ""
+msgstr "Այգուա'"
 
 #: recursos/0uruguay/datos/0uruguay.py:54 recursos/0uruguay/datos/levels.py:68
 #: recursos/4tacuarembo/datos/4tacuarembo.py:23
 #: recursos/4tacuarembo/datos/levels.py:31
 #: recursos/4tacuarembo/datos/levels.py:99
 msgid "Ansina"
-msgstr ""
+msgstr "Անսինա"
 
 #: recursos/0uruguay/datos/0uruguay.py:55 recursos/0uruguay/datos/levels.py:70
 #: recursos/4canelones/datos/4canelones.py:37
@@ -636,50 +628,50 @@ msgstr ""
 #: recursos/4canelones/datos/levels.py:79
 #: recursos/4canelones/datos/levels.py:139
 msgid "Atlántida"
-msgstr ""
+msgstr "Ատլանտիդա"
 
 #: recursos/0uruguay/datos/0uruguay.py:56 recursos/0uruguay/datos/levels.py:71
 #: recursos/4artigas/datos/4artigas.py:23 recursos/4artigas/datos/levels.py:16
 msgid "Baltasar Brum"
-msgstr ""
+msgstr "Բալտասար Բրում"
 
 #: recursos/0uruguay/datos/0uruguay.py:57 recursos/0uruguay/datos/levels.py:72
 #: recursos/4artigas/datos/4artigas.py:19 recursos/4artigas/datos/levels.py:12
 msgid "Bella Unión"
-msgstr ""
+msgstr "Բելյա Ունիոն"
 
 #: recursos/0uruguay/datos/0uruguay.py:58 recursos/0uruguay/datos/levels.py:73
 #: recursos/4salto/datos/4salto.py:19 recursos/4salto/datos/levels.py:12
 msgid "Belén"
-msgstr ""
+msgstr "Բելեն"
 
 #: recursos/0uruguay/datos/0uruguay.py:59 recursos/0uruguay/datos/levels.py:75
 #: recursos/4soriano/datos/4soriano.py:28 recursos/4soriano/datos/levels.py:23
 msgid "Cardona"
-msgstr ""
+msgstr "Կարդոնա"
 
 #: recursos/0uruguay/datos/0uruguay.py:60 recursos/0uruguay/datos/levels.py:76
 #: recursos/4colonia/datos/4colonia.py:18 recursos/4colonia/datos/levels.py:15
 #: recursos/4colonia/datos/levels.py:33 recursos/4colonia/datos/levels.py:47
 #: recursos/4colonia/datos/levels.py:106
 msgid "Carmelo"
-msgstr ""
+msgstr "Կարմելո"
 
 #: recursos/0uruguay/datos/0uruguay.py:61 recursos/0uruguay/datos/levels.py:77
 #: recursos/4rocha/datos/4rocha.py:23 recursos/4rocha/datos/levels.py:18
 #: recursos/4rocha/datos/levels.py:23 recursos/4rocha/datos/levels.py:89
 msgid "Castillos"
-msgstr ""
+msgstr "Կաստիլյոս"
 
 #: recursos/0uruguay/datos/0uruguay.py:62 recursos/0uruguay/datos/levels.py:78
 #: recursos/4florida/datos/4florida.py:27 recursos/4florida/datos/levels.py:36
 msgid "Casupá"
-msgstr ""
+msgstr "Կասուպա'"
 
 #: recursos/0uruguay/datos/0uruguay.py:63 recursos/0uruguay/datos/levels.py:79
 #: recursos/4rocha/datos/4rocha.py:17 recursos/4rocha/datos/levels.py:12
 msgid "Cebollatí"
-msgstr ""
+msgstr "Սեբոլյատի'"
 
 #: recursos/0uruguay/datos/0uruguay.py:64
 #: recursos/0uruguay/datos/0uruguay.py:120
@@ -695,143 +687,143 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:17
 #: recursos/4treinta_y_tres/datos/levels.py:63
 msgid "Cerro Chato"
-msgstr ""
+msgstr "Սեռո Չատո"
 
 #: recursos/0uruguay/datos/0uruguay.py:65 recursos/0uruguay/datos/levels.py:81
 #: recursos/4rocha/datos/4rocha.py:32 recursos/4rocha/datos/levels.py:27
 #: recursos/4rocha/datos/levels.py:84
 msgid "Chuy"
-msgstr ""
+msgstr "Չույ"
 
 #: recursos/0uruguay/datos/0uruguay.py:66 recursos/0uruguay/datos/levels.py:83
 #: recursos/4salto/datos/4salto.py:20 recursos/4salto/datos/levels.py:13
 msgid "Constitución"
-msgstr ""
+msgstr "Կոնստիտուսիո'ն"
 
 #: recursos/0uruguay/datos/0uruguay.py:67 recursos/0uruguay/datos/levels.py:84
 #: recursos/4soriano/datos/4soriano.py:30 recursos/4soriano/datos/levels.py:25
 #: recursos/4soriano/datos/levels.py:74 recursos/4soriano/datos/levels.py:86
 msgid "Dolores"
-msgstr ""
+msgstr "Դոլորես"
 
 #: recursos/0uruguay/datos/0uruguay.py:68 recursos/0uruguay/datos/levels.py:87
 #: recursos/4cerro_largo/datos/4cerro_largo.py:24
 #: recursos/4cerro_largo/datos/levels.py:18
 #: recursos/4cerro_largo/datos/levels.py:80
 msgid "Fraile Muerto"
-msgstr ""
+msgstr "Ֆրայլե Մուերտո"
 
 #: recursos/0uruguay/datos/0uruguay.py:69 recursos/0uruguay/datos/levels.py:89
 #: recursos/4paysandu/datos/4paysandu.py:39
 #: recursos/4paysandu/datos/levels.py:33
 msgid "Guichón"
-msgstr ""
+msgstr "Գույչո'ն"
 
 #: recursos/0uruguay/datos/0uruguay.py:70 recursos/0uruguay/datos/levels.py:90
 #: recursos/4lavalleja/datos/4lavalleja.py:18
 #: recursos/4lavalleja/datos/levels.py:27
 #: recursos/4montevideo/datos/levels.py:120
 msgid "José Batlle y Ordóñez"
-msgstr ""
+msgstr "Խոսե Բատլյե Ի Օրդոնյես"
 
 #: recursos/0uruguay/datos/0uruguay.py:71 recursos/0uruguay/datos/levels.py:91
 #: recursos/4lavalleja/datos/4lavalleja.py:19
 #: recursos/4lavalleja/datos/levels.py:28
 #: recursos/4lavalleja/datos/levels.py:106
 msgid "José Pedro Varela"
-msgstr ""
+msgstr "Խոսե Պեդրո Վարելա"
 
 #: recursos/0uruguay/datos/0uruguay.py:72 recursos/0uruguay/datos/levels.py:92
 #: recursos/4soriano/datos/levels.py:91
 msgid "José Enrique Rodó"
-msgstr ""
+msgstr "Խոսե Ենրիկե Ռոդո"
 
 #: recursos/0uruguay/datos/0uruguay.py:73 recursos/0uruguay/datos/levels.py:93
 #: recursos/4colonia/datos/4colonia.py:27 recursos/4colonia/datos/levels.py:24
 #: recursos/4colonia/datos/levels.py:59 recursos/4colonia/datos/levels.py:88
 #: recursos/4colonia/datos/levels.py:151
 msgid "Juan Lacaze"
-msgstr ""
+msgstr "Խուան Լակասե"
 
 #: recursos/0uruguay/datos/0uruguay.py:74 recursos/0uruguay/datos/levels.py:94
 #: recursos/4rocha/datos/4rocha.py:21 recursos/4rocha/datos/levels.py:16
 #: recursos/4rocha/datos/levels.py:25
 msgid "La Coronilla"
-msgstr ""
+msgstr "Լա Կորոնիլյա"
 
 #: recursos/0uruguay/datos/0uruguay.py:75 recursos/0uruguay/datos/levels.py:95
 #: recursos/4durazno/datos/4durazno.py:24 recursos/4durazno/datos/levels.py:31
 #: recursos/4rocha/datos/4rocha.py:24 recursos/4rocha/datos/levels.py:19
 #: recursos/4rocha/datos/levels.py:20 recursos/4rocha/datos/levels.py:85
 msgid "La Paloma"
-msgstr ""
+msgstr "Լա Պալոմա"
 
 #: recursos/0uruguay/datos/0uruguay.py:76 recursos/0uruguay/datos/levels.py:96
 #: recursos/4canelones/datos/4canelones.py:23
 #: recursos/4canelones/datos/levels.py:17
 #: recursos/4canelones/datos/levels.py:64
 msgid "Las Piedras"
-msgstr ""
+msgstr "Լաս Պիեդրաս"
 
 #: recursos/0uruguay/datos/0uruguay.py:77 recursos/0uruguay/datos/levels.py:97
 #: recursos/4rocha/datos/4rocha.py:19 recursos/4rocha/datos/levels.py:14
 #: recursos/4rocha/datos/levels.py:87
 msgid "Lascano"
-msgstr ""
+msgstr "Լասկանո"
 
 #: recursos/0uruguay/datos/0uruguay.py:78 recursos/0uruguay/datos/levels.py:98
 #: recursos/4san_jose/datos/4san_jose.py:33
 #: recursos/4san_jose/datos/levels.py:42
 msgid "Libertad"
-msgstr ""
+msgstr "Լիբերտադ"
 
 #: recursos/0uruguay/datos/0uruguay.py:79
 #: recursos/0uruguay/datos/levels.py:103 recursos/4rivera/datos/4rivera.py:24
 #: recursos/4rivera/datos/levels.py:18 recursos/4rivera/datos/levels.py:85
 msgid "Minas de Corrales"
-msgstr ""
+msgstr "Մինաս դե Կոռալես"
 
 #: recursos/0uruguay/datos/0uruguay.py:80
 #: recursos/0uruguay/datos/levels.py:105
 #: recursos/4colonia/datos/4colonia.py:29 recursos/4colonia/datos/levels.py:26
 #: recursos/4colonia/datos/levels.py:61
 msgid "Nueva Helvecia"
-msgstr ""
+msgstr "Նուեվա Էլվեսիա"
 
 #: recursos/0uruguay/datos/0uruguay.py:81
 #: recursos/0uruguay/datos/levels.py:106
 #: recursos/4colonia/datos/4colonia.py:17 recursos/4colonia/datos/levels.py:14
 #: recursos/4colonia/datos/levels.py:50
 msgid "Nueva Palmira"
-msgstr ""
+msgstr "Նուեվա Պալմիրա"
 
 #: recursos/0uruguay/datos/0uruguay.py:82
 #: recursos/0uruguay/datos/levels.py:107
 #: recursos/4rio_negro/datos/4rio_negro.py:29
 #: recursos/4rio_negro/datos/levels.py:22
 msgid "Nuevo Berlín"
-msgstr ""
+msgstr "Նուեվո Բերլին"
 
 #: recursos/0uruguay/datos/0uruguay.py:83
 #: recursos/0uruguay/datos/levels.py:108
 #: recursos/4colonia/datos/4colonia.py:23 recursos/4colonia/datos/levels.py:20
 #: recursos/4colonia/datos/levels.py:55 recursos/4colonia/datos/levels.py:150
 msgid "Ombúes de Lavalle"
-msgstr ""
+msgstr "Օմբո'ւես դե Լավալյե"
 
 #: recursos/0uruguay/datos/0uruguay.py:84
 #: recursos/0uruguay/datos/levels.py:109
 #: recursos/4soriano/datos/4soriano.py:19 recursos/4soriano/datos/levels.py:14
 #: recursos/4soriano/datos/levels.py:85
 msgid "Palmitas"
-msgstr ""
+msgstr "Պալմիտաս"
 
 #: recursos/0uruguay/datos/0uruguay.py:85
 #: recursos/0uruguay/datos/levels.py:110
 #: recursos/4maldonado/datos/4maldonado.py:22
 #: recursos/4maldonado/datos/levels.py:17
 msgid "Pan de Azúcar"
-msgstr ""
+msgstr "Պան դե Ասուկար"
 
 #: recursos/0uruguay/datos/0uruguay.py:86
 #: recursos/0uruguay/datos/levels.py:111
@@ -843,14 +835,14 @@ msgstr ""
 #: recursos/4canelones/datos/levels.py:65
 #: recursos/4canelones/datos/levels.py:136
 msgid "Pando"
-msgstr ""
+msgstr "Պանդո"
 
 #: recursos/0uruguay/datos/0uruguay.py:87
 #: recursos/0uruguay/datos/levels.py:112
 #: recursos/4tacuarembo/datos/4tacuarembo.py:30
 #: recursos/4tacuarembo/datos/levels.py:38
 msgid "Paso de los Toros"
-msgstr ""
+msgstr "Պասո դե լոս Տորոս"
 
 #: recursos/0uruguay/datos/0uruguay.py:88
 #: recursos/0uruguay/datos/levels.py:114
@@ -859,26 +851,26 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:67
 #: recursos/4maldonado/datos/levels.py:68
 msgid "Piriápolis"
-msgstr ""
+msgstr "Պիրիա'պոլիս"
 
 #: recursos/0uruguay/datos/0uruguay.py:89
 #: recursos/0uruguay/datos/levels.py:115
 msgid "Pueblo del Carmen"
-msgstr ""
+msgstr "Պուեբլո դել Կարմեն"
 
 #: recursos/0uruguay/datos/0uruguay.py:90
 #: recursos/0uruguay/datos/levels.py:116 recursos/0uruguay/datos/levels.py:225
 #: recursos/4maldonado/datos/4maldonado.py:21
 #: recursos/4maldonado/datos/levels.py:16
 msgid "Punta del Este"
-msgstr ""
+msgstr "Պունտա դել Էստե"
 
 #: recursos/0uruguay/datos/0uruguay.py:91
 #: recursos/0uruguay/datos/levels.py:117
 #: recursos/4paysandu/datos/4paysandu.py:22
 #: recursos/4paysandu/datos/levels.py:16
 msgid "Quebracho"
-msgstr ""
+msgstr "Կեբրաչո"
 
 #: recursos/0uruguay/datos/0uruguay.py:92
 #: recursos/0uruguay/datos/levels.py:120
@@ -886,7 +878,7 @@ msgstr ""
 #: recursos/4colonia/datos/levels.py:22 recursos/4colonia/datos/levels.py:57
 #: recursos/4colonia/datos/levels.py:64 recursos/4colonia/datos/levels.py:149
 msgid "Rosario"
-msgstr ""
+msgstr "Ռոսարիո"
 
 #: recursos/0uruguay/datos/0uruguay.py:93
 #: recursos/0uruguay/datos/levels.py:121
@@ -894,7 +886,7 @@ msgstr ""
 #: recursos/4cerro_largo/datos/levels.py:21
 #: recursos/4cerro_largo/datos/levels.py:82
 msgid "Río Branco"
-msgstr ""
+msgstr "Ռիո Բլանկո"
 
 #: recursos/0uruguay/datos/0uruguay.py:94
 #: recursos/0uruguay/datos/levels.py:123
@@ -902,7 +894,7 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:15
 #: recursos/4maldonado/datos/levels.py:86
 msgid "San Carlos"
-msgstr ""
+msgstr "Սան Կարլոս"
 
 #: recursos/0uruguay/datos/0uruguay.py:95
 #: recursos/0uruguay/datos/levels.py:124
@@ -910,21 +902,21 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:36
 #: recursos/4tacuarembo/datos/levels.py:101
 msgid "San Gregorio de Polanco"
-msgstr ""
+msgstr "Սան Գրեգորիո դե Պոլանկո"
 
 #: recursos/0uruguay/datos/0uruguay.py:96
 #: recursos/0uruguay/datos/levels.py:126
 #: recursos/4canelones/datos/4canelones.py:29
 #: recursos/4canelones/datos/levels.py:23
 msgid "San Ramón"
-msgstr ""
+msgstr "Սան Ռամոն"
 
 #: recursos/0uruguay/datos/0uruguay.py:97
 #: recursos/0uruguay/datos/levels.py:127
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:20
 #: recursos/4treinta_y_tres/datos/levels.py:12
 msgid "Santa Clara de Olimar"
-msgstr ""
+msgstr "Սանտա Կլարա դե Օլիմար"
 
 #: recursos/0uruguay/datos/0uruguay.py:98
 #: recursos/0uruguay/datos/levels.py:128
@@ -932,46 +924,46 @@ msgstr ""
 #: recursos/4canelones/datos/levels.py:11
 #: recursos/4san_jose/datos/levels.py:100
 msgid "Santa Lucía"
-msgstr ""
+msgstr "Սանտա Լուսիա"
 
 #: recursos/0uruguay/datos/0uruguay.py:99
 #: recursos/0uruguay/datos/levels.py:130
 #: recursos/4florida/datos/4florida.py:32 recursos/4florida/datos/levels.py:41
 msgid "Sarandí Grande"
-msgstr ""
+msgstr "Սարանդի' Գրանդե"
 
 #: recursos/0uruguay/datos/0uruguay.py:100
 #: recursos/0uruguay/datos/levels.py:129
 #: recursos/4durazno/datos/4durazno.py:22 recursos/4durazno/datos/levels.py:29
 #: recursos/4durazno/datos/levels.py:93
 msgid "Sarandí del Yi"
-msgstr ""
+msgstr "Սարանդի' դել Յի"
 
 #: recursos/0uruguay/datos/0uruguay.py:101
 #: recursos/0uruguay/datos/levels.py:132
 #: recursos/4canelones/datos/4canelones.py:36
 #: recursos/4canelones/datos/levels.py:30
 msgid "Tala"
-msgstr ""
+msgstr "Տալա"
 
 #: recursos/0uruguay/datos/0uruguay.py:102
 #: recursos/0uruguay/datos/levels.py:133
 #: recursos/4colonia/datos/4colonia.py:16 recursos/4colonia/datos/levels.py:12
 #: recursos/4colonia/datos/levels.py:49 recursos/4colonia/datos/levels.py:152
 msgid "Tarariras"
-msgstr ""
+msgstr "Տարարիրաս"
 
 #: recursos/0uruguay/datos/0uruguay.py:103
 #: recursos/0uruguay/datos/levels.py:134
 #: recursos/4artigas/datos/4artigas.py:20 recursos/4artigas/datos/levels.py:13
 msgid "Tomás Gomensoro"
-msgstr ""
+msgstr "Տոմա'ս Գոմենսորո"
 
 #: recursos/0uruguay/datos/0uruguay.py:104
 #: recursos/0uruguay/datos/levels.py:135 recursos/4rivera/datos/4rivera.py:19
 #: recursos/4rivera/datos/levels.py:13 recursos/4rivera/datos/levels.py:84
 msgid "Tranqueras"
-msgstr ""
+msgstr "Տրանկերաս"
 
 #: recursos/0uruguay/datos/0uruguay.py:105
 #: recursos/0uruguay/datos/levels.py:138
@@ -979,13 +971,13 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:14
 #: recursos/4treinta_y_tres/datos/levels.py:78
 msgid "Vergara"
-msgstr ""
+msgstr "Վերգարա"
 
 #: recursos/0uruguay/datos/0uruguay.py:106
 #: recursos/0uruguay/datos/levels.py:139 recursos/0uruguay/datos/levels.py:217
 #: recursos/4rivera/datos/4rivera.py:27 recursos/4rivera/datos/levels.py:21
 msgid "Vichadero"
-msgstr ""
+msgstr "Վիչադերո"
 
 #: recursos/0uruguay/datos/0uruguay.py:107
 #: recursos/0uruguay/datos/levels.py:140
@@ -994,7 +986,7 @@ msgstr ""
 #: recursos/4rio_negro/datos/levels.py:74
 #: recursos/4rio_negro/datos/levels.py:76
 msgid "Young"
-msgstr ""
+msgstr "Յանգ"
 
 #: recursos/0uruguay/datos/0uruguay.py:111
 #: recursos/0uruguay/datos/levels.py:193
@@ -1002,59 +994,59 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:58
 #: recursos/4montevideo/datos/levels.py:100
 msgid "Cerro de Montevideo"
-msgstr ""
+msgstr "Սեռո դե Մոնտեվիդեո"
 
 #: recursos/0uruguay/datos/0uruguay.py:112
 #: recursos/0uruguay/datos/levels.py:194
 #: recursos/4maldonado/datos/4maldonado.py:68
 #: recursos/4maldonado/datos/levels.py:69
 msgid "Cerro Pan de Azúcar"
-msgstr ""
+msgstr "Սեռո Պան դե Ասուկար"
 
 #: recursos/0uruguay/datos/0uruguay.py:113
 #: recursos/0uruguay/datos/levels.py:195
 #: recursos/4lavalleja/datos/4lavalleja.py:71
 #: recursos/4lavalleja/datos/levels.py:89
 msgid "Cerro Verdún"
-msgstr ""
+msgstr "Սեռո Վերդո'ւն"
 
 #: recursos/0uruguay/datos/0uruguay.py:114
 #: recursos/0uruguay/datos/levels.py:196
 #: recursos/4lavalleja/datos/4lavalleja.py:70
 #: recursos/4lavalleja/datos/levels.py:88
 msgid "Cerro Arequita"
-msgstr ""
+msgstr "Սեռո Արեկիտա"
 
 #: recursos/0uruguay/datos/0uruguay.py:115
 #: recursos/0uruguay/datos/levels.py:197
 #: recursos/4maldonado/datos/4maldonado.py:69
 #: recursos/4maldonado/datos/levels.py:70
 msgid "Cerro Catedral"
-msgstr ""
+msgstr "Սեռո Կատեդրալ"
 
 #: recursos/0uruguay/datos/0uruguay.py:116
 #: recursos/0uruguay/datos/levels.py:198
 msgid "Cerro de las Animas"
-msgstr ""
+msgstr "Սեռո դե լաս Անիմաս"
 
 #: recursos/0uruguay/datos/0uruguay.py:117
 #: recursos/0uruguay/datos/levels.py:199
 #: recursos/4tacuarembo/datos/4tacuarembo.py:68
 #: recursos/4tacuarembo/datos/levels.py:85
 msgid "Cerros de Batoví"
-msgstr ""
+msgstr "Սեռոս դե Բատովի'"
 
 #: recursos/0uruguay/datos/0uruguay.py:118
 #: recursos/0uruguay/datos/levels.py:200 recursos/4rivera/datos/4rivera.py:67
 #: recursos/4rivera/datos/levels.py:70
 msgid "Cerro Bonito"
-msgstr ""
+msgstr "Սեռո Բոնիտո"
 
 #: recursos/0uruguay/datos/0uruguay.py:119
 #: recursos/0uruguay/datos/levels.py:201 recursos/4rivera/datos/4rivera.py:69
 #: recursos/4rivera/datos/levels.py:72
 msgid "Cerro del Medio"
-msgstr ""
+msgstr "Սեռո դե Մեդիո"
 
 #: recursos/0uruguay/datos/0uruguay.py:124
 #: recursos/0uruguay/datos/levels.py:187
@@ -1067,13 +1059,13 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:63
 #: recursos/4tacuarembo/datos/levels.py:83
 msgid "Cuchilla de Haedo"
-msgstr ""
+msgstr "Կուչիլյա դե Աէդո"
 
 #: recursos/0uruguay/datos/0uruguay.py:125
 #: recursos/0uruguay/datos/levels.py:189 recursos/0uruguay/datos/levels.py:200
 #: recursos/4rivera/datos/4rivera.py:62 recursos/4rivera/datos/levels.py:68
 msgid "Cuchilla de Santa Ana"
-msgstr ""
+msgstr "Կուչիլյա դե Սանտա Անա"
 
 #: recursos/0uruguay/datos/0uruguay.py:126
 #: recursos/0uruguay/datos/levels.py:190
@@ -1089,38 +1081,38 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:55
 #: recursos/4treinta_y_tres/datos/levels.py:58
 msgid "Cuchilla Grande"
-msgstr ""
+msgstr "Կուչիլյա Գրանդե"
 
 #: recursos/0uruguay/datos/0uruguay.py:127
 #: recursos/0uruguay/datos/levels.py:191
 #: recursos/4durazno/datos/4durazno.py:59 recursos/4durazno/datos/levels.py:78
 msgid "Cuchilla Grande del Durazno"
-msgstr ""
+msgstr "Կուչիլյա Գրանդե դել Դուրասնո"
 
 #: recursos/0uruguay/datos/0uruguay.py:128
 #: recursos/0uruguay/datos/levels.py:192 recursos/4flores/datos/4flores.py:61
 #: recursos/4flores/datos/levels.py:82 recursos/4florida/datos/4florida.py:79
 #: recursos/4florida/datos/levels.py:100
 msgid "Cuchilla Grande Inferior"
-msgstr ""
+msgstr "Կուչիլյա Գրանդե Ինֆերիոր"
 
 #: recursos/0uruguay/datos/0uruguay.py:129
 #: recursos/0uruguay/datos/levels.py:188 recursos/4rivera/datos/4rivera.py:60
 #: recursos/4rivera/datos/levels.py:66
 msgid "Cuchilla Negra"
-msgstr ""
+msgstr "Կուչիլյա Նեգրո"
 
 #: recursos/0uruguay/datos/0uruguay.py:133
 #: recursos/0uruguay/datos/levels.py:150 recursos/4salto/datos/4salto.py:44
 #: recursos/4salto/datos/levels.py:43
 msgid "Río Arapey Chico"
-msgstr ""
+msgstr "Գետ Փոքր Ապարեյ"
 
 #: recursos/0uruguay/datos/0uruguay.py:134
 #: recursos/0uruguay/datos/levels.py:151 recursos/4salto/datos/4salto.py:43
 #: recursos/4salto/datos/levels.py:42
 msgid "Río Arapey Grande"
-msgstr ""
+msgstr "Գետ Մեծ Ապարեյ"
 
 #: recursos/0uruguay/datos/0uruguay.py:135
 #: recursos/0uruguay/datos/levels.py:152
@@ -1130,14 +1122,14 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:35
 #: recursos/4treinta_y_tres/datos/levels.py:33
 msgid "Río Cebollatí"
-msgstr ""
+msgstr "Գետ Սեբոլյատի"
 
 #: recursos/0uruguay/datos/0uruguay.py:136
 #: recursos/0uruguay/datos/levels.py:153
 #: recursos/4artigas/datos/4artigas.py:33 recursos/4artigas/datos/levels.py:32
 #: recursos/4artigas/datos/levels.py:40 recursos/4artigas/datos/levels.py:44
 msgid "Río Cuareim"
-msgstr ""
+msgstr "Գետ Կուարեյմ"
 
 #: recursos/0uruguay/datos/0uruguay.py:137
 #: recursos/0uruguay/datos/levels.py:154
@@ -1145,7 +1137,7 @@ msgstr ""
 #: recursos/4paysandu/datos/levels.py:47 recursos/4salto/datos/4salto.py:45
 #: recursos/4salto/datos/levels.py:44
 msgid "Río Daymán"
-msgstr ""
+msgstr "Գետ Դայման"
 
 #: recursos/0uruguay/datos/0uruguay.py:139
 #: recursos/0uruguay/datos/levels.py:156
@@ -1154,33 +1146,33 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:33
 #: recursos/4treinta_y_tres/datos/levels.py:31
 msgid "Río Olimar Chico"
-msgstr ""
+msgstr "Գետ Փոքր Օլիմար"
 
 #: recursos/0uruguay/datos/0uruguay.py:140
 #: recursos/0uruguay/datos/levels.py:157
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:32
 #: recursos/4treinta_y_tres/datos/levels.py:30
 msgid "Río Olimar Grande"
-msgstr ""
+msgstr "Գետ Մեծ Օլիմար"
 
 #: recursos/0uruguay/datos/0uruguay.py:141
 #: recursos/0uruguay/datos/levels.py:158
 #: recursos/4paysandu/datos/4paysandu.py:49
 #: recursos/4paysandu/datos/levels.py:49
 msgid "Río Queguay Chico"
-msgstr ""
+msgstr "Գետ Փոքր Կեգուայ"
 
 #: recursos/0uruguay/datos/0uruguay.py:142
 #: recursos/0uruguay/datos/levels.py:159
 msgid "Río Queguay"
-msgstr ""
+msgstr "Գետ Կեգուայ"
 
 #: recursos/0uruguay/datos/0uruguay.py:143
 #: recursos/0uruguay/datos/levels.py:160
 #: recursos/4colonia/datos/4colonia.py:58
 #: recursos/4colonia/datos/levels.py:102
 msgid "Río Rosario"
-msgstr ""
+msgstr "Գետ Ռոսարիո"
 
 #: recursos/0uruguay/datos/0uruguay.py:144
 #: recursos/0uruguay/datos/levels.py:161 recursos/4flores/datos/4flores.py:27
@@ -1188,21 +1180,20 @@ msgstr ""
 #: recursos/4san_jose/datos/4san_jose.py:42
 #: recursos/4san_jose/datos/levels.py:57
 msgid "Río San José"
-msgstr ""
+msgstr "Գետ Սան Խոսե"
 
 #: recursos/0uruguay/datos/0uruguay.py:145
 #: recursos/0uruguay/datos/levels.py:162
 #: recursos/4colonia/datos/4colonia.py:57
 #: recursos/4colonia/datos/levels.py:101
 msgid "Río San Juan"
-msgstr ""
+msgstr "Գետ Սան Խուան"
 
 #: recursos/0uruguay/datos/0uruguay.py:146
 #: recursos/0uruguay/datos/levels.py:163
 #: recursos/4soriano/datos/4soriano.py:37 recursos/4soriano/datos/levels.py:38
-#, fuzzy
 msgid "Río San Salvador"
-msgstr "Սան Սալվադոր"
+msgstr "Գետ Սան Սալվադոր"
 
 #: recursos/0uruguay/datos/0uruguay.py:147
 #: recursos/0uruguay/datos/levels.py:164
@@ -1220,13 +1211,13 @@ msgstr "Սան Սալվադոր"
 #: recursos/4san_jose/datos/4san_jose.py:41
 #: recursos/4san_jose/datos/levels.py:56
 msgid "Río Santa Lucía"
-msgstr ""
+msgstr "Գետ Սանտա Լուսիա"
 
 #: recursos/0uruguay/datos/0uruguay.py:148
 #: recursos/0uruguay/datos/levels.py:165
 #: recursos/4florida/datos/4florida.py:47 recursos/4florida/datos/levels.py:62
 msgid "Río Santa Lucía Chico"
-msgstr ""
+msgstr "Գետ Փոքր Սանտա Լուսիա"
 
 #: recursos/0uruguay/datos/0uruguay.py:149
 #: recursos/0uruguay/datos/levels.py:166 recursos/4rivera/datos/4rivera.py:31
@@ -1234,7 +1225,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/4tacuarembo.py:38
 #: recursos/4tacuarembo/datos/levels.py:52
 msgid "Río Tacuarembó"
-msgstr ""
+msgstr "Գետ Տակուարեմբո'"
 
 #: recursos/0uruguay/datos/0uruguay.py:150
 #: recursos/0uruguay/datos/levels.py:167
@@ -1243,7 +1234,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:34
 #: recursos/4treinta_y_tres/datos/levels.py:32
 msgid "Río Tacuarí"
-msgstr ""
+msgstr "Գետ Տակուրի'"
 
 #: recursos/0uruguay/datos/0uruguay.py:151
 #: recursos/0uruguay/datos/levels.py:168
@@ -1257,19 +1248,19 @@ msgstr ""
 #: recursos/4salto/datos/levels.py:41 recursos/4soriano/datos/4soriano.py:34
 #: recursos/4soriano/datos/levels.py:35
 msgid "Río Uruguay"
-msgstr ""
+msgstr "Գետ Ուրուգվայ"
 
 #: recursos/0uruguay/datos/0uruguay.py:152
 #: recursos/0uruguay/datos/levels.py:169
 #: recursos/4cerro_largo/datos/4cerro_largo.py:33
 #: recursos/4cerro_largo/datos/levels.py:32
 msgid "Río Yaguarón"
-msgstr ""
+msgstr "Գետ Յագուարո'ն"
 
 #: recursos/0uruguay/datos/0uruguay.py:153
 #: recursos/0uruguay/datos/levels.py:170
 msgid "Río Yi"
-msgstr ""
+msgstr "Գետ Յի"
 
 #: recursos/0uruguay/datos/0uruguay.py:154
 #: recursos/0uruguay/datos/levels.py:171
@@ -1289,7 +1280,7 @@ msgstr ""
 #: recursos/4san_jose/datos/levels.py:55
 #: recursos/4soriano/datos/4soriano.py:35 recursos/4soriano/datos/levels.py:36
 msgid "Río de la Plata"
-msgstr ""
+msgstr "Գետ Լա Պլատա"
 
 #: recursos/0uruguay/datos/0uruguay.py:155
 #: recursos/0uruguay/datos/levels.py:172
@@ -1297,7 +1288,7 @@ msgstr ""
 #: recursos/4maldonado/datos/levels.py:33 recursos/4rocha/datos/4rocha.py:37
 #: recursos/4rocha/datos/levels.py:38
 msgid "Atlantic Ocean"
-msgstr ""
+msgstr "Ատլանտիկ օվկիանոս"
 
 #: recursos/0uruguay/datos/0uruguay.py:156
 #: recursos/0uruguay/datos/levels.py:152 recursos/0uruguay/datos/levels.py:167
@@ -1306,29 +1297,33 @@ msgstr ""
 #: recursos/4rocha/datos/4rocha.py:61
 #: recursos/4treinta_y_tres/datos/4treinta_y_tres.py:51
 msgid "Laguna Merín"
-msgstr ""
+msgstr "Մերլին բուստալճակ"
 
+# Սև բուստալճակ
 #: recursos/0uruguay/datos/0uruguay.py:157
 #: recursos/0uruguay/datos/levels.py:174 recursos/4rocha/datos/4rocha.py:62
 #: recursos/4rocha/datos/levels.py:24
 msgid "Laguna Negra"
-msgstr ""
+msgstr "Լագունա Նեգրա"
 
+# Կաստիլյոս բուստալճակ
 #: recursos/0uruguay/datos/0uruguay.py:158
 #: recursos/0uruguay/datos/levels.py:175
 msgid "Laguna de Castillos"
-msgstr ""
+msgstr "Լագունա դե Կաստիլյոս"
 
+# Ռոչայի բուստալճակ
 #: recursos/0uruguay/datos/0uruguay.py:159
 #: recursos/0uruguay/datos/levels.py:176 recursos/4rocha/datos/4rocha.py:64
 msgid "Laguna de Rocha"
-msgstr ""
+msgstr "Lագունա դե Ռոչա"
 
+# Ուռենու բուստալճակ
 #: recursos/0uruguay/datos/0uruguay.py:160
 #: recursos/0uruguay/datos/levels.py:177
 #: recursos/4maldonado/datos/4maldonado.py:54
 msgid "Laguna del Sauce"
-msgstr ""
+msgstr "Լագունա դե Սաուսե"
 
 #: recursos/0uruguay/datos/0uruguay.py:164
 #: recursos/0uruguay/datos/0uruguay.py:165
@@ -1541,14 +1536,13 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:79
 #, python-format
 msgid "Route %s"
-msgstr ""
+msgstr "Երթուղի %s"
 
 #: recursos/0uruguay/datos/0uruguay.py:181
 msgid "Capital:"
 msgstr "Մայրաքաղաք."
 
 #: recursos/0uruguay/datos/0uruguay.py:181
-#, fuzzy
 msgid "(34º53' S - 56º10' W)"
 msgstr "(34º53' S - 56º10' W)"
 
@@ -1566,7 +1560,7 @@ msgstr "Կառավարություն."
 
 #: recursos/0uruguay/datos/0uruguay.py:183
 msgid "Presidential republic"
-msgstr ""
+msgstr "Նախագահական Հանրապետություն"
 
 #: recursos/0uruguay/datos/0uruguay.py:184
 msgid "President:"
@@ -1574,7 +1568,7 @@ msgstr "Նախագահ."
 
 #: recursos/0uruguay/datos/0uruguay.py:184
 msgid "José Mujica"
-msgstr ""
+msgstr "Խոսե Մուխիկա"
 
 #: recursos/0uruguay/datos/0uruguay.py:185
 msgid "Vice President:"
@@ -1582,7 +1576,7 @@ msgstr "Փոխնախագահ."
 
 #: recursos/0uruguay/datos/0uruguay.py:185
 msgid "Danilo Astori"
-msgstr ""
+msgstr "Դանիլո Աստորի"
 
 #: recursos/0uruguay/datos/0uruguay.py:186
 msgid "Independence:"
@@ -1591,20 +1585,20 @@ msgstr "Անկախություն."
 #: recursos/0uruguay/datos/0uruguay.py:186
 #, python-format
 msgid "declared: %s"
-msgstr "հայտարարված` %s"
+msgstr "հռչակված է. %s   "
 
 #: recursos/0uruguay/datos/0uruguay.py:186
 msgid "25 of august of 1825"
-msgstr ""
+msgstr "25 օգոստոսի 1825 թ."
 
 #: recursos/0uruguay/datos/0uruguay.py:187
 #, python-format
 msgid "recognized: %s"
-msgstr "ճանաչվել է` %s"
+msgstr "Ճանաչված. %s "
 
 #: recursos/0uruguay/datos/0uruguay.py:187
 msgid "28 of august of 1828"
-msgstr ""
+msgstr "28 օգստոսի, 1828 թ."
 
 #: recursos/0uruguay/datos/0uruguay.py:188
 msgid "Area:"
@@ -1616,37 +1610,37 @@ msgstr "176.215 կմ² (90րդ)"
 
 #: recursos/0uruguay/datos/0uruguay.py:189
 msgid "Population:"
-msgstr "Բնակչություն."
+msgstr "Բնակչությունը."
 
 #: recursos/0uruguay/datos/0uruguay.py:189
 msgid "3.424.595 (128th)"
-msgstr ""
+msgstr "3.424.595 (128րդ)"
 
+# Համախառն ներքին արդյունքը
 #: recursos/0uruguay/datos/0uruguay.py:190
 msgid "GDP:"
 msgstr "ՀՆԱ."
 
 #: recursos/0uruguay/datos/0uruguay.py:190
-#, fuzzy
 msgid "USD 51.209 billion (86th)"
-msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
+msgstr "USD 51.209 միլիարդ (86th)"
 
+# Մարդկային Զարգացման Ցուցիչ
 #: recursos/0uruguay/datos/0uruguay.py:191
 msgid "HDI:"
-msgstr ""
+msgstr "ՄԶՑ"
 
 #: recursos/0uruguay/datos/0uruguay.py:191
-#, fuzzy
 msgid "High - 0,765 (52th)"
-msgstr "Բարձր - 0,696 (75րդ)"
+msgstr "Բարձր - 0,765 (52th)"
 
 #: recursos/0uruguay/datos/0uruguay.py:192
 msgid "Currency:"
-msgstr ""
+msgstr "Դրամական միավորը."
 
 #: recursos/0uruguay/datos/0uruguay.py:192
 msgid "Peso"
-msgstr ""
+msgstr "Պեսո"
 
 #: recursos/0uruguay/datos/explorations.py:6
 #: recursos/0uruguay/datos/levels.py:7
@@ -1675,12 +1669,12 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:7
 #: recursos/4treinta_y_tres/datos/explorations.py:6
 msgid "Departments"
-msgstr ""
+msgstr "Վարչական բաժանումները"
 
 #: recursos/0uruguay/datos/explorations.py:13
 #: recursos/0uruguay/datos/levels.py:35
 msgid "Departmental capitals"
-msgstr ""
+msgstr "Վարչական կենտրոններ"
 
 #: recursos/0uruguay/datos/explorations.py:20
 #: recursos/0uruguay/datos/levels.py:63
@@ -1720,7 +1714,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/explorations.py:13
 #: recursos/4treinta_y_tres/datos/levels.py:7
 msgid "Cities"
-msgstr "Քաղաքներ"
+msgstr "Մեծ քաղաքներ"
 
 #: recursos/0uruguay/datos/explorations.py:27
 #: recursos/0uruguay/datos/levels.py:146
@@ -1761,7 +1755,7 @@ msgstr "Քաղաքներ"
 #: recursos/4treinta_y_tres/datos/explorations.py:20
 #: recursos/4treinta_y_tres/datos/levels.py:26
 msgid "Waterways"
-msgstr ""
+msgstr "Ջրային ուղիներ"
 
 #: recursos/0uruguay/datos/explorations.py:34
 #: recursos/0uruguay/datos/levels.py:183
@@ -1802,7 +1796,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/explorations.py:27
 #: recursos/4treinta_y_tres/datos/levels.py:54
 msgid "Elevations"
-msgstr ""
+msgstr "Բարձունքները"
 
 #: recursos/0uruguay/datos/explorations.py:41
 #: recursos/0uruguay/datos/levels.py:208
@@ -1841,7 +1835,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/explorations.py:34
 #: recursos/4treinta_y_tres/datos/levels.py:70
 msgid "Routes"
-msgstr ""
+msgstr "Ճանապարհները"
 
 #: recursos/0uruguay/datos/levels.py:11 recursos/0uruguay/datos/levels.py:12
 #: recursos/0uruguay/datos/levels.py:13 recursos/0uruguay/datos/levels.py:14
@@ -1898,7 +1892,7 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:18
 #: recursos/4tacuarembo/datos/levels.py:19
 msgid "It's easy"
-msgstr ""
+msgstr "Դա դյուրին է"
 
 #: recursos/0uruguay/datos/levels.py:67 recursos/0uruguay/datos/levels.py:68
 #: recursos/0uruguay/datos/levels.py:70 recursos/0uruguay/datos/levels.py:71
@@ -1945,17 +1939,17 @@ msgstr ""
 #: recursos/4canelones/datos/levels.py:41
 #, python-format
 msgid "It's in %s"
-msgstr ""
+msgstr "Դա այստեղ է. %s"
 
 #: recursos/0uruguay/datos/levels.py:72 recursos/0uruguay/datos/levels.py:150
 #: recursos/0uruguay/datos/levels.py:153
 msgid "Is north"
-msgstr "Հյուսիսն է"
+msgstr "Դեպի հյուսիս է "
 
 #: recursos/0uruguay/datos/levels.py:81 recursos/0uruguay/datos/levels.py:118
 #: recursos/0uruguay/datos/levels.py:169
 msgid "It's near Brazil"
-msgstr ""
+msgstr "Բրազիլիայի մոտ է "
 
 #: recursos/0uruguay/datos/levels.py:82 recursos/0uruguay/datos/levels.py:192
 #: recursos/0uruguay/datos/levels.py:212 recursos/0uruguay/datos/levels.py:214
@@ -2076,16 +2070,16 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:60
 #: recursos/4treinta_y_tres/datos/levels.py:61
 msgid "Try again"
-msgstr ""
+msgstr "Նորից փորձիր"
 
 #: recursos/0uruguay/datos/levels.py:85
 msgid "the center"
-msgstr ""
+msgstr "կենտրոն"
 
 #: recursos/0uruguay/datos/levels.py:88 recursos/0uruguay/datos/levels.py:107
 #: recursos/0uruguay/datos/levels.py:140
 msgid "Rio Negro"
-msgstr ""
+msgstr "Ռիո Նեգրո"
 
 #: recursos/0uruguay/datos/levels.py:100 recursos/0uruguay/datos/levels.py:101
 #: recursos/0uruguay/datos/levels.py:102 recursos/0uruguay/datos/levels.py:119
@@ -2107,6 +2101,8 @@ msgid ""
 "It's the capital of\n"
 "the department"
 msgstr ""
+"Դա վարչական շրջանի\n"
+"մայրաքաղաքն է"
 
 #: recursos/0uruguay/datos/levels.py:151 recursos/0uruguay/datos/levels.py:152
 #: recursos/0uruguay/datos/levels.py:154 recursos/0uruguay/datos/levels.py:159
@@ -2124,11 +2120,11 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:83
 #, python-format
 msgid "Flows into the %s"
-msgstr ""
+msgstr "Թափվում է %s -ի մեջ"
 
 #: recursos/0uruguay/datos/levels.py:155
 msgid "Has three dams"
-msgstr ""
+msgstr "Ունի երեք ամբարտակ"
 
 #: recursos/0uruguay/datos/levels.py:173 recursos/4artigas/datos/levels.py:21
 #: recursos/4artigas/datos/levels.py:45 recursos/4artigas/datos/levels.py:46
@@ -2176,7 +2172,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:37
 #: recursos/4treinta_y_tres/datos/levels.py:47
 msgid "It's in the east"
-msgstr ""
+msgstr "Արևելքում է"
 
 #: recursos/0uruguay/datos/levels.py:187 recursos/0uruguay/datos/levels.py:199
 #: recursos/0uruguay/datos/levels.py:215 recursos/4artigas/datos/levels.py:12
@@ -2244,7 +2240,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:40
 #: recursos/4treinta_y_tres/datos/levels.py:41
 msgid "It's in the north"
-msgstr ""
+msgstr "Հյուսիսում է "
 
 #: recursos/0uruguay/datos/levels.py:188 recursos/4artigas/datos/levels.py:31
 #: recursos/4artigas/datos/levels.py:32 recursos/4artigas/datos/levels.py:33
@@ -2288,6 +2284,8 @@ msgid ""
 "It's on the border\n"
 "with %s"
 msgstr ""
+"Սահմանի մոտ է\n"
+"%s ի հետ"
 
 #: recursos/0uruguay/datos/levels.py:188
 #: recursos/4artigas/datos/4artigas.py:14 recursos/4artigas/datos/levels.py:32
@@ -2382,7 +2380,7 @@ msgstr "Բրազիլիա"
 #: recursos/4treinta_y_tres/datos/levels.py:30
 #: recursos/4treinta_y_tres/datos/levels.py:34
 msgid "It's in the south"
-msgstr ""
+msgstr "Հարավում է"
 
 #: recursos/0uruguay/datos/levels.py:213 recursos/0uruguay/datos/levels.py:218
 #: recursos/0uruguay/datos/levels.py:219 recursos/0uruguay/datos/levels.py:220
@@ -2425,7 +2423,7 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:79
 #, python-format
 msgid "Passes through %s"
-msgstr ""
+msgstr "Անցնում է %s ով"
 
 #: recursos/0uruguay/datos/levels.py:217
 #: recursos/4canelones/datos/levels.py:139
@@ -2440,11 +2438,11 @@ msgstr ""
 #: recursos/4tacuarembo/datos/levels.py:101
 #, python-format
 msgid "Ends in %s"
-msgstr ""
+msgstr "Վերջանում է %s ում"
 
 #: recursos/0uruguay/datos/levels.py:222
 msgid "and"
-msgstr ""
+msgstr "և"
 
 #: recursos/4artigas/datos/4artigas.py:13 recursos/4artigas/datos/levels.py:31
 #: recursos/4paysandu/datos/4paysandu.py:13
@@ -2455,57 +2453,57 @@ msgstr "Արգենտինա"
 
 #: recursos/4artigas/datos/4artigas.py:21 recursos/4artigas/datos/levels.py:14
 msgid "Colonia Palma"
-msgstr ""
+msgstr "Կոլոնիա Պալմա"
 
 #: recursos/4artigas/datos/4artigas.py:22 recursos/4artigas/datos/levels.py:15
 msgid "Paso Farías"
-msgstr ""
+msgstr "Պասո Ֆարիաս "
 
 #: recursos/4artigas/datos/4artigas.py:24 recursos/4artigas/datos/levels.py:17
 msgid "Bernabé Rivera"
-msgstr ""
+msgstr "Բերնաբե Ռիվերա"
 
 #: recursos/4artigas/datos/4artigas.py:25 recursos/4artigas/datos/levels.py:18
 msgid "Diego Lamas"
-msgstr ""
+msgstr "Դիեգո Լամաս"
 
 #: recursos/4artigas/datos/4artigas.py:26 recursos/4artigas/datos/levels.py:19
 msgid "Paso Campamento"
-msgstr ""
+msgstr "Պասո Կամպամենտո"
 
 #: recursos/4artigas/datos/4artigas.py:27 recursos/4artigas/datos/levels.py:20
 msgid "Sequeira"
-msgstr ""
+msgstr "Սեկեյրա"
 
 #: recursos/4artigas/datos/4artigas.py:28 recursos/4artigas/datos/levels.py:21
 msgid "Catalán"
-msgstr ""
+msgstr "Կատալան"
 
 #: recursos/4artigas/datos/4artigas.py:34 recursos/4artigas/datos/levels.py:33
 msgid "Río Arapey"
-msgstr ""
+msgstr "Գետ Արապեյ"
 
 #: recursos/4artigas/datos/4artigas.py:35 recursos/4artigas/datos/levels.py:34
 msgid "Arroyo Itacumbú"
-msgstr ""
+msgstr "Գետակ Իտակամբո'ւ"
 
 #: recursos/4artigas/datos/4artigas.py:36 recursos/4artigas/datos/levels.py:35
 msgid "Arroyo Ñaquiña"
-msgstr ""
+msgstr "Գետակ Նյակինյա"
 
 #: recursos/4artigas/datos/4artigas.py:37 recursos/4artigas/datos/levels.py:36
 msgid "Arroyo Mandiyú"
-msgstr ""
+msgstr "Գետակ Մանդիյո'ւ"
 
 #: recursos/4artigas/datos/4artigas.py:38 recursos/4artigas/datos/levels.py:37
 #: recursos/4paysandu/datos/4paysandu.py:51
 #: recursos/4paysandu/datos/levels.py:50
 msgid "Arroyo Guaviyú"
-msgstr ""
+msgstr "Գետակ Գուավիյո'ւ"
 
 #: recursos/4artigas/datos/4artigas.py:39 recursos/4artigas/datos/levels.py:38
 msgid "Arroyo Palma Sola Grande"
-msgstr ""
+msgstr "Գետակ Մեծ Պալմա Սոլա"
 
 #: recursos/4artigas/datos/4artigas.py:40 recursos/4artigas/datos/levels.py:39
 #: recursos/4canelones/datos/4canelones.py:59
@@ -2516,31 +2514,31 @@ msgstr ""
 #: recursos/4salto/datos/levels.py:57 recursos/4soriano/datos/4soriano.py:50
 #: recursos/4soriano/datos/levels.py:51
 msgid "Arroyo Sarandí"
-msgstr ""
+msgstr "Գետակ Սարանդի'"
 
 #: recursos/4artigas/datos/4artigas.py:41 recursos/4artigas/datos/levels.py:40
 msgid "Arroyo Yucutuya"
-msgstr ""
+msgstr "Գետակ Յուկուտույա"
 
 #: recursos/4artigas/datos/4artigas.py:42 recursos/4artigas/datos/levels.py:41
 msgid "Arroyo Cuaro Grande"
-msgstr ""
+msgstr "Գետակ Մեծ Կուարո"
 
 #: recursos/4artigas/datos/4artigas.py:43 recursos/4artigas/datos/levels.py:42
 msgid "Arroyo Cuaro Chico"
-msgstr ""
+msgstr "Գետակ Փոքր Կուարո"
 
 #: recursos/4artigas/datos/4artigas.py:44 recursos/4artigas/datos/levels.py:43
 msgid "Arroyo Pelado"
-msgstr ""
+msgstr "Գետակ Պելադո"
 
 #: recursos/4artigas/datos/4artigas.py:45 recursos/4artigas/datos/levels.py:44
 msgid "Arroyo Tres Cruces Grande"
-msgstr ""
+msgstr "Գետակ Մեծ Տրես Կրուսես "
 
 #: recursos/4artigas/datos/4artigas.py:46 recursos/4artigas/datos/levels.py:45
 msgid "Arroyo Catalán Grande"
-msgstr ""
+msgstr "Գետակ Մեծ Կատալան"
 
 #: recursos/4artigas/datos/4artigas.py:47 recursos/4artigas/datos/levels.py:46
 msgid "Arroyo Catalán Chico"
@@ -2674,11 +2672,8 @@ msgstr ""
 #: recursos/4treinta_y_tres/datos/levels.py:14
 #: recursos/4treinta_y_tres/datos/levels.py:17
 #, python-format
-#, python-format, fuzzy
 msgid "the city of %s"
 msgstr ""
-"%s \n"
-" -ի քաղաքը"
 
 #: recursos/4artigas/datos/levels.py:13
 #: recursos/4canelones/datos/levels.py:101
@@ -4873,9 +4868,8 @@ msgid "Cardal"
 msgstr ""
 
 #: recursos/4florida/datos/4florida.py:41 recursos/4florida/datos/levels.py:50
-#, fuzzy
 msgid "Independencia"
-msgstr "Անկախություն."
+msgstr ""
 
 #: recursos/4florida/datos/4florida.py:48 recursos/4florida/datos/levels.py:63
 msgid "Arroyo Palermo"
@@ -6471,9 +6465,8 @@ msgid "Cerro de Aguirre"
 msgstr ""
 
 #: recursos/4rocha/datos/levels.py:26 recursos/4rocha/datos/levels.py:27
-#, fuzzy
 msgid "Brazil"
-msgstr "Բրազիլիա"
+msgstr ""
 
 #: recursos/4rocha/datos/levels.py:88
 msgid ""
@@ -7204,11 +7197,11 @@ msgstr ""
 
 #: recursos/comun/datos/commons.py:14
 msgid "We have to find"
-msgstr "Մենք պետք է գտնենք"
+msgstr ""
 
 #: recursos/comun/datos/commons.py:15
 msgid "Now we have to find"
-msgstr "Այժմ պետք է գտնենք"
+msgstr ""
 
 #: recursos/comun/datos/commons.py:16
 msgid ""
@@ -7323,6 +7316,8 @@ msgstr ""
 #: recursos/comun/datos/commons.py:54
 msgid "Send corrections, comments or suggestions"
 msgstr ""
+"Ուղարկեք ուղղումները, մեկնաբանությունները կամ առաջարկությունները հետևյալ "
+"հասցեով` alanjas@hotmail.com"
 
 #: recursos/comun/datos/commons.py:56
 msgid "This program is free software developed by the community"
@@ -7363,692 +7358,3 @@ msgstr ""
 #: recursos/comun/datos/commons.py:64
 msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
 msgstr ""
-
-#~ msgid "High - 0,696 (75th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "Las Vegas"
-#~ msgstr "Լաս Վեգաս"
-
-#, fuzzy
-#~ msgid "High - 0,736 (59th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "The Bahamas"
-#~ msgstr "Բահամյան Կղզիներ"
-
-#, fuzzy
-#~ msgid "(13º40' N - 89º10' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "Dominicana"
-#~ msgstr "Դոմինիկյան Հանրապետություն"
-
-#, fuzzy
-#~ msgid "20 of may of 1902"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#~ msgid "Santo Domingo"
-#~ msgstr "Սանտո Դոմինգո"
-
-#~ msgid "Is west"
-#~ msgstr "Արևմուտքն է"
-
-#~ msgid "Cayman Islands"
-#~ msgstr "կայմանյան Կղզիներ"
-
-#~ msgid "Haiti"
-#~ msgstr "Հայթի"
-
-#, fuzzy
-#~ msgid "San Francique"
-#~ msgstr "Սան Ֆրանցիսկո"
-
-#~ msgid "Chicago"
-#~ msgstr "Չիկագո"
-
-#, fuzzy
-#~ msgid "USD 2.046 billion (166th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "Haití"
-#~ msgstr "Հայթի"
-
-#~ msgid "Kingston"
-#~ msgstr "Քինգսթոն"
-
-#, fuzzy
-#~ msgid "USD 1.658.197 billion (11th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Santiago"
-#~ msgstr "Սանտյագո"
-
-#, fuzzy
-#~ msgid "(10º40' N - 61º31' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "Havana"
-#~ msgstr "Հավանա"
-
-#, fuzzy
-#~ msgid "High - 0,723 (63th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "Houston"
-#~ msgstr "Հյուստոն"
-
-#~ msgid "Washington"
-#~ msgstr "Վաշինգտոն"
-
-#~ msgid ""
-#~ "Please try again...\n"
-#~ "I'm going to play...\n"
-#~ "Thanks!"
-#~ msgstr ""
-#~ "Խնդրում եմ, փորձիր կրկին...\n"
-#~ "Ես պատրաստվում եմ խաղալ...\n"
-#~ "Շնորհակալություն"
-
-#~ msgid "Port of Spain"
-#~ msgstr "Իսպանիայի Նավահանգիստ"
-
-#~ msgid "Belize"
-#~ msgstr "Բելիզ"
-
-#~ msgid "Can I ask you something?"
-#~ msgstr "Կարող եմ քեզ մի բան հարցնել?"
-
-#, fuzzy
-#~ msgid "USD 299.648 billion (41th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Trinidad and Tobago"
-#~ msgstr "Տրինիդադ և Տոբակո"
-
-#, fuzzy
-#~ msgid "(6º49' N - 58º9' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "We need to find"
-#~ msgstr "Մեզ անհրաժեշտ է գտնել"
-
-#, fuzzy
-#~ msgid "Casares"
-#~ msgstr "Կաստրի"
-
-#~ msgid "Cuba"
-#~ msgstr "Կուբա"
-
-#, fuzzy
-#~ msgid "High - 0,695 (77th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "North America"
-#~ msgstr "Հյուսիսային Ամերիկա"
-
-#, fuzzy
-#~ msgid "High - 0,750 (56th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "Dallas"
-#~ msgstr "Դալաս"
-
-#~ msgid ""
-#~ "We made it!\n"
-#~ "I'm going to play ball...\n"
-#~ "Bye and thanks\n"
-#~ "for helping me!"
-#~ msgstr ""
-#~ "Մենք պատրաստեցինք դա!\n"
-#~ "Ես պատրաստվում եմ գնդակ խաղալ...\n"
-#~ "Հաջողություն և շնորհակալություն\n"
-#~ "ինձ օգնելու համար!"
-
-#, fuzzy
-#~ msgid "9 of july of 1816"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#~ msgid "Granada"
-#~ msgstr "Գրանադա"
-
-#, fuzzy
-#~ msgid "(34º40' S - 58º24' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#, fuzzy
-#~ msgid "Columbia"
-#~ msgstr "Կոլոմբիա"
-
-#~ msgid "Atlanta"
-#~ msgstr "Ատլանտա"
-
-#~ msgid "Dominica"
-#~ msgstr "Դոմինիկա"
-
-#, fuzzy
-#~ msgid "21 of july of 1847"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#~ msgid "Countries"
-#~ msgstr "Երկրներ"
-
-#~ msgid "Martinica"
-#~ msgstr "Մարտինիկա"
-
-#, fuzzy
-#~ msgid "24 of may of 1822"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#, fuzzy
-#~ msgid "USD 3.082 billion (158th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Managua"
-#~ msgstr "Մանագուան"
-
-#, fuzzy
-#~ msgid "High - 0,688 (80th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "Hugo Chávez Frías"
-#~ msgstr "Հուգո Չավես Ֆրիաս"
-
-#, fuzzy
-#~ msgid "1st of july of 1867"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#~ msgid "Guatemala"
-#~ msgstr "Գվատեմալա"
-
-#~ msgid "Reservoir of Guarico"
-#~ msgstr "Գուարիկոյի Ջրամբար"
-
-#, fuzzy
-#~ msgid "Masagua"
-#~ msgstr "Մանագուան"
-
-#~ msgid "Will you help me?"
-#~ msgstr "Ինձ կօգնես?"
-
-#, fuzzy
-#~ msgid "High - 0,699 (73th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "Roseau"
-#~ msgstr "Ռոզո"
-
-#~ msgid "Nicaragua"
-#~ msgstr "Նիկարագուա"
-
-#~ msgid "Venezuela"
-#~ msgstr "Վենեսուելա"
-
-#, fuzzy
-#~ msgid "USD 73.022 billion (79th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Is northwest"
-#~ msgstr "Հյուսիս-արևմուտքն է"
-
-#, fuzzy
-#~ msgid "Reservoir of Sura"
-#~ msgstr "Գուարիկոյի Ջրամբար"
-
-#~ msgid "San Juan"
-#~ msgstr "Սան Խուան"
-
-#, fuzzy
-#~ msgid "(45º24' N - 75º40' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "I know America"
-#~ msgstr "Ես գիտեմ Ամերիկան"
-
-#~ msgid "Honduras"
-#~ msgstr "Հոնդուրաս"
-
-#~ msgid "Grand Bahama Island"
-#~ msgstr "Բահամյան Կղզիներ"
-
-#, fuzzy
-#~ msgid "(18º29' N - 66º08' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#, fuzzy
-#~ msgid "(23º80' N - 82º23' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "Nassau"
-#~ msgstr "Նասաու"
-
-#, fuzzy
-#~ msgid "20 of july of 1810"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#~ msgid "Tegucigalpa"
-#~ msgstr "Տեգուսիգալպա"
-
-#~ msgid "Saint Vincent and the Grenadines"
-#~ msgstr "Սենթ Վիսենթ և Գրենադիններ"
-
-#~ msgid "Saint Lucia"
-#~ msgstr "Սենթ Լյուսիա"
-
-#, fuzzy
-#~ msgid "(19º26' N - 99º08' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#, fuzzy
-#~ msgid "USD 47.980 billion (87th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "El Salvador"
-#~ msgstr "Սալվադոր"
-
-#, fuzzy
-#~ msgid "USD 11.145 billion (88th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Is southeast"
-#~ msgstr "Հարավ-արևելքն է"
-
-#, fuzzy
-#~ msgid "High - 0,694 (78th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "Gran Inagua"
-#~ msgstr "Ինագուա"
-
-#, fuzzy
-#~ msgid "(13º0' N - 85º0' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "Canada"
-#~ msgstr "Կանադա"
-
-#, fuzzy
-#~ msgid "USD 11.056 billion (138th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Alaska"
-#~ msgstr "Ալյասկա"
-
-#, fuzzy
-#~ msgid "Reservoir de Guarico"
-#~ msgstr "Գուարիկոյի Ջրամբար"
-
-#, fuzzy
-#~ msgid "USD 96.260 billion (--th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "La Vega"
-#~ msgstr "Լաս Վեգաս"
-
-#~ msgid "Andros Island"
-#~ msgstr "Անդրոս Կղզիներ"
-
-#~ msgid "Guadalupe"
-#~ msgstr "Գվադելուպա"
-
-#, fuzzy
-#~ msgid "Columbus"
-#~ msgstr "Կոլոմբիա"
-
-#, fuzzy
-#~ msgid "USD 30.943 billion (102th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
-#~ msgstr ""
-#~ "Այս ծրագիրը հիմնված է \"Ճանաչում եմ Ուրուգվայը\" ծրագրի վրա (Հեղինակ` Գաբրիել "
-#~ "Էիրեա)"
-
-#~ msgid "Is east"
-#~ msgstr "Արևելքն է"
-
-#, fuzzy
-#~ msgid "USD 11.690 billion (131st)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "(38º53' N - 77º02' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "Mexico"
-#~ msgstr "Մեքսիկա"
-
-#~ msgid "Bridgetown"
-#~ msgstr "Բրիջթաուն"
-
-#, fuzzy
-#~ msgid "Dominical"
-#~ msgstr "Դոմինիկա"
-
-#, fuzzy
-#~ msgid "15 of may of 1811"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#, fuzzy
-#~ msgid "(4º39' N - 74º3' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "United States"
-#~ msgstr "Միացիալ Նահանգներ"
-
-#~ msgid "30 of march of 1845"
-#~ msgstr "1845 թ.-ի մարտի 30"
-
-#~ msgid "28.892.735 (41th)"
-#~ msgstr "28.892.735 (41րդ)"
-
-#~ msgid "Boston"
-#~ msgstr "Բոստոն"
-
-#, fuzzy
-#~ msgid "USD 26.536 billion (115th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "High - 0,725 (62th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "Ottawa"
-#~ msgstr "Օտտավա"
-
-#~ msgid "Port-au-Prince"
-#~ msgstr "Պորտ-օ-Պրենս"
-
-#, fuzzy
-#~ msgid "(18º28' N - 69º54' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#, fuzzy
-#~ msgid "USD 1.151 billion (181th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "USD 110.800 billion (65th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Hello friends..."
-#~ msgstr "Ողջույն ընկերներ..."
-
-#, fuzzy
-#~ msgid "(14º38' N - 90º33' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#, fuzzy
-#~ msgid "Chiclayo"
-#~ msgstr "Չիկագո"
-
-#~ msgid "México"
-#~ msgstr "Մեքսիկա"
-
-#, fuzzy
-#~ msgid "High - 0,775 (46th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#, fuzzy
-#~ msgid "(14º6' N - 87º13' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "Acapulco"
-#~ msgstr "Ակապուլկո"
-
-#, fuzzy
-#~ msgid "Panama"
-#~ msgstr "Պանամա"
-
-#~ msgid "Panamá"
-#~ msgstr "Պանամա"
-
-#, fuzzy
-#~ msgid "(13º10' N - 61º14' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid ""
-#~ "...tomorrow I have a\n"
-#~ "test about America..."
-#~ msgstr ""
-#~ "...վաղը ստուգարք ունեմ\n"
-#~ "Ամերիայի մասին..."
-
-#, fuzzy
-#~ msgid "USD 93.095 billion (71th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "USD 119.827 billion (--th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "High - 0,689 (79th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid ""
-#~ "The next time will be better\n"
-#~ "I'm going to play ball...\n"
-#~ "Thanks!"
-#~ msgstr ""
-#~ "Հաջորդ անգամ ավելի լավ կլինի\n"
-#~ "Ես պատրաստվում եմ գնդակ խաղալու...\n"
-#~ "Շնորհակալություն!"
-
-#~ msgid "Margarita Island"
-#~ msgstr "Մարգարիտա Կղզիներ"
-
-#~ msgid "Russia"
-#~ msgstr "Ռուսաստան"
-
-#~ msgid "Puerto Rico"
-#~ msgstr "Պուերտո Ռիկո"
-
-#, fuzzy
-#~ msgid "Puerto Viejo"
-#~ msgstr "Պուերտո Ռիկո"
-
-#, fuzzy
-#~ msgid "(8º58' N - 79º32' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#, fuzzy
-#~ msgid "Las Petas"
-#~ msgstr "Լաս Վեգաս"
-
-#, fuzzy
-#~ msgid "USD 404.995 billion (27th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "USD 2.812 billion (161th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "High - 0,783 (45th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "(10º30' N - 66º58' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "Costa Rica"
-#~ msgstr "Կոստա Ռիկա"
-
-#, fuzzy
-#~ msgid "USD 18.533 billion (123th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Basse-Terre"
-#~ msgstr "Բասթեր"
-
-#, fuzzy
-#~ msgid "USD 751 billion (181st)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "USD 1.996.753 billion (13th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Elías Jaua Milano"
-#~ msgstr "Էլիաս Խաուա Միլանո"
-
-#~ msgid ""
-#~ "Better luck next time\n"
-#~ "I'll play a while...\n"
-#~ "Thanks!"
-#~ msgstr ""
-#~ "Հաջողություն հաջորդ անգամ\n"
-#~ "Ես մի փոքր կխաղամ...\n"
-#~ "Շնորհակալություն!"
-
-#~ msgid "Greenland"
-#~ msgstr "Գրենլանդիա"
-
-#~ msgid "5 of july of 1811"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#, fuzzy
-#~ msgid "USD 35.173 billion (98th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid ""
-#~ "Now I'm ready\n"
-#~ "for tomorrow...\n"
-#~ "I'm going to play...\n"
-#~ "Thanks for your help!"
-#~ msgstr ""
-#~ "Հիմա ես պատրաստ եմ\n"
-#~ "վաղվա համար...\n"
-#~ "Ես պատրաստվում եմ խաղալ...\n"
-#~ "Շնորհակալություն, օգնության համար"
-
-#, fuzzy
-#~ msgid "Port-au-Prince Bay"
-#~ msgstr "Պորտ-օ-Պրենս"
-
-#~ msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
-#~ msgstr ""
-#~ "Ուղարկեք ուղղումները, մեկնաբանությունները կամ առաջարկությունները հետևյալ "
-#~ "հասցեով` alanjas@hotmail.com"
-
-#~ msgid "New York"
-#~ msgstr "Նյու Յորք"
-
-#~ msgid "Antigua and Barbuda"
-#~ msgstr "Անտիգուա և Բարբուդա"
-
-#~ msgid "916.445 km² (33th)"
-#~ msgstr "916.445 կմ² (33րդ)"
-
-#~ msgid "Central America"
-#~ msgstr "Կենտրոնական Ամերիկա"
-
-#~ msgid "...and I know nothing!!!"
-#~ msgstr "...և ես ոչինչ չգիտեմ!!!"
-
-#, fuzzy
-#~ msgid "26 of may of 1966"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#, fuzzy
-#~ msgid "(17º59' N - 76º48' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid ""
-#~ "We did it!\n"
-#~ "I'm ready for tomorrow...\n"
-#~ "I'm playing a while...\n"
-#~ "Until next time!"
-#~ msgstr ""
-#~ "Մենք դա արեցինք!\n"
-#~ "Ես պատրաստ եմ վաղվա համար...\n"
-#~ "Ես մի փոքր կխաղամ...\n"
-#~ "Մինչ նոր հանդիպում!"
-
-#~ msgid "Los Angeles"
-#~ msgstr "Լոս Անջելես"
-
-#, fuzzy
-#~ msgid "Rancagua"
-#~ msgstr "Մանագուան"
-
-#, fuzzy
-#~ msgid "(4º56' N - 52º19' W)"
-#~ msgstr "(10º30' N - 66º58' W)"
-
-#~ msgid "USD 350.276 billion (31th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#~ msgid "Cancún"
-#~ msgstr "Կանկուն"
-
-#~ msgid "Is southwest"
-#~ msgstr "Հարավ-արևմուտքն է"
-
-#~ msgid "Santa Clara"
-#~ msgstr "Սանտա Կլարա"
-
-#, fuzzy
-#~ msgid "Panorama"
-#~ msgstr "Պանամա"
-
-#~ msgid "Is south"
-#~ msgstr "Հարավն է"
-
-#~ msgid "Miami"
-#~ msgstr "Մայամի"
-
-#, fuzzy
-#~ msgid "Pueblo Viejo"
-#~ msgstr "Պուերտո Ռիկո"
-
-#, fuzzy
-#~ msgid "Kingstown"
-#~ msgstr "Քինգսթոն"
-
-#, fuzzy
-#~ msgid "High - 0,760 (53th)"
-#~ msgstr "Բարձր - 0,696 (75րդ)"
-
-#~ msgid "San Francisco"
-#~ msgstr "Սան Ֆրանցիսկո"
-
-#~ msgid "Is northeast"
-#~ msgstr "Հյուսիս-արևելքն է"
-
-#~ msgid "Jamaica"
-#~ msgstr "Յամայկա"
-
-#, fuzzy
-#~ msgid "Las Heras"
-#~ msgstr "Լաս Վեգաս"
-
-#, fuzzy
-#~ msgid "USD 48.804 billion (85th)"
-#~ msgstr "350.276 բիլիոն ԱՄՆ (31րդ)"
-
-#, fuzzy
-#~ msgid "South America"
-#~ msgstr "Հյուսիսային Ամերիկա"
-
-#, fuzzy
-#~ msgid "4 of july of 1776"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#, fuzzy
-#~ msgid "28 of july of 1821"
-#~ msgstr "1811 թ.-ի հուլիսի 5"
-
-#~ msgid "Castries"
-#~ msgstr "Կաստրի"
-
-#~ msgid "...what do I do???"
-#~ msgstr "...ինչով եմ զբաղվում?"
-
-#~ msgid "Fort-de-France"
-#~ msgstr "Ֆորտ դը Ֆրանս"
-
-#~ msgid "Belmopan"
-#~ msgstr "Բելմոպան"

@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-17 00:31-0400\n"
-"PO-Revision-Date: 2013-08-23 03:33+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"PO-Revision-Date: 2013-08-23 19:29+0200\n"
+"Last-Translator: lite <litekok@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -905,9 +905,8 @@ msgstr "圣卡洛斯"
 #: recursos/4tacuarembo/datos/4tacuarembo.py:28
 #: recursos/4tacuarembo/datos/levels.py:36
 #: recursos/4tacuarembo/datos/levels.py:101
-#, fuzzy
 msgid "San Gregorio de Polanco"
-msgstr "San Gregorio de Polanco "
+msgstr "圣格雷戈里奥·波兰科"
 
 #: recursos/0uruguay/datos/0uruguay.py:96
 #: recursos/0uruguay/datos/levels.py:126

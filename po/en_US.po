@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-09 13:33-0400\n"
+"POT-Creation-Date: 2013-07-17 00:31-0400\n"
 "PO-Revision-Date: 2013-07-05 00:16+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Sugar Labs\n"
@@ -3462,6 +3462,7 @@ msgstr "the resort of %s"
 #: recursos/4canelones/datos/levels.py:33
 #: recursos/4canelones/datos/levels.py:42
 #: recursos/4canelones/datos/levels.py:44
+#, python-format
 #, python-format, fuzzy
 msgid ""
 "It's a resort\n"
