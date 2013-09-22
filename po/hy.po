@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-17 00:31-0400\n"
-"PO-Revision-Date: 2013-09-19 15:17+0200\n"
-"Last-Translator: Jasmine <udea_jasmine@yahoo.com>\n"
+"PO-Revision-Date: 2013-09-22 15:50+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
@@ -98,14 +98,18 @@ msgstr ""
 msgid ""
 "the taluka of\n"
 "%s"
-msgstr "%s ի թալուքները\n"
+msgstr ""
+"%s\n"
+"ի թալուքները"
 
 #: conozcouy.py:488
 #, python-format
 msgid ""
 "the municipality of\n"
 "%s"
-msgstr "%s ի քաղաքապետարանը\n"
+msgstr ""
+"%s\n"
+"ի քաղաքապետարանը"
 
 #: conozcouy.py:491 recursos/0uruguay/datos/levels.py:187
 #: recursos/0uruguay/datos/levels.py:188 recursos/0uruguay/datos/levels.py:189
@@ -1585,7 +1589,7 @@ msgstr "Անկախություն."
 #: recursos/0uruguay/datos/0uruguay.py:186
 #, python-format
 msgid "declared: %s"
-msgstr "հռչակված է. %s   "
+msgstr "հռչակված է. %s"
 
 #: recursos/0uruguay/datos/0uruguay.py:186
 msgid "25 of august of 1825"
@@ -1594,7 +1598,7 @@ msgstr "25 օգոստոսի 1825 թ."
 #: recursos/0uruguay/datos/0uruguay.py:187
 #, python-format
 msgid "recognized: %s"
-msgstr "Ճանաչված. %s "
+msgstr "Ճանաչված. %s"
 
 #: recursos/0uruguay/datos/0uruguay.py:187
 msgid "28 of august of 1828"
@@ -1944,12 +1948,12 @@ msgstr "Դա այստեղ է. %s"
 #: recursos/0uruguay/datos/levels.py:72 recursos/0uruguay/datos/levels.py:150
 #: recursos/0uruguay/datos/levels.py:153
 msgid "Is north"
-msgstr "Դեպի հյուսիս է "
+msgstr "Դեպի հյուսիս է"
 
 #: recursos/0uruguay/datos/levels.py:81 recursos/0uruguay/datos/levels.py:118
 #: recursos/0uruguay/datos/levels.py:169
 msgid "It's near Brazil"
-msgstr "Բրազիլիայի մոտ է "
+msgstr "Բրազիլիայի մոտ է"
 
 #: recursos/0uruguay/datos/levels.py:82 recursos/0uruguay/datos/levels.py:192
 #: recursos/0uruguay/datos/levels.py:212 recursos/0uruguay/datos/levels.py:214
@@ -2240,7 +2244,7 @@ msgstr "Արևելքում է"
 #: recursos/4treinta_y_tres/datos/levels.py:40
 #: recursos/4treinta_y_tres/datos/levels.py:41
 msgid "It's in the north"
-msgstr "Հյուսիսում է "
+msgstr "Հյուսիսում է"
 
 #: recursos/0uruguay/datos/levels.py:188 recursos/4artigas/datos/levels.py:31
 #: recursos/4artigas/datos/levels.py:32 recursos/4artigas/datos/levels.py:33
@@ -2457,7 +2461,7 @@ msgstr "Կոլոնիա Պալմա"
 
 #: recursos/4artigas/datos/4artigas.py:22 recursos/4artigas/datos/levels.py:15
 msgid "Paso Farías"
-msgstr "Պասո Ֆարիաս "
+msgstr "Պասո Ֆարիաս"
 
 #: recursos/4artigas/datos/4artigas.py:24 recursos/4artigas/datos/levels.py:17
 msgid "Bernabé Rivera"
@@ -2534,7 +2538,7 @@ msgstr "Գետակ Պելադո"
 
 #: recursos/4artigas/datos/4artigas.py:45 recursos/4artigas/datos/levels.py:44
 msgid "Arroyo Tres Cruces Grande"
-msgstr "Գետակ Մեծ Տրես Կրուսես "
+msgstr "Գետակ Մեծ Տրես Կրուսես"
 
 #: recursos/4artigas/datos/4artigas.py:46 recursos/4artigas/datos/levels.py:45
 msgid "Arroyo Catalán Grande"
