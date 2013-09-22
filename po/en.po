@@ -6,15 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2013-08-09 13:33-0400\n"
-"PO-Revision-Date: 2013-07-04 23:22+0200\n"
-=======
-"POT-Creation-Date: 2013-03-14 00:31-0400\n"
-"PO-Revision-Date: 2013-07-10 22:34+0200\n"
->>>>>>> b998af72089c49044976cadab5a8b23d750aa13a
+"PO-Revision-Date: 2013-09-22 15:13+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
-"Language-Team: Sugar Labs\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3467,7 +3462,7 @@ msgstr "the resort of %s"
 #: recursos/4canelones/datos/levels.py:33
 #: recursos/4canelones/datos/levels.py:42
 #: recursos/4canelones/datos/levels.py:44
-#, python-format, fuzzy
+#, python-format
 msgid ""
 "It's a resort\n"
 "in %s"
@@ -4507,13 +4502,12 @@ msgstr ""
 "a median stay"
 
 #: recursos/4colonia/datos/levels.py:54
-#, fuzzy
 msgid ""
 "where was the\n"
 "barn of the Uruguay"
 msgstr ""
-"known as the\n"
-"\"bread basket of Uruguay\""
+"where was the\n"
+"barn of the Uruguay"
 
 #: recursos/4colonia/datos/levels.py:55
 msgid ""
@@ -4694,7 +4688,6 @@ msgstr ""
 "certain kind"
 
 #: recursos/4colonia/datos/levels.py:85
-#, fuzzy
 msgid ""
 "a city whose name\n"
 "is synonymous with\n"
@@ -5553,7 +5546,6 @@ msgstr "Centro"
 #: recursos/4montevideo/datos/4montevideo.py:17
 #: recursos/4montevideo/datos/levels.py:14
 #: recursos/4montevideo/datos/levels.py:65
-#, fuzzy
 msgid "Sur"
 msgstr "Sur"
 
@@ -5838,7 +5830,7 @@ msgstr "Agraciada"
 #: recursos/4montevideo/datos/4montevideo.py:97
 #: recursos/4montevideo/datos/levels.py:124
 msgid "Access"
-msgstr ""
+msgstr "Access"
 
 #: recursos/4montevideo/datos/4montevideo.py:100
 #: recursos/4montevideo/datos/levels.py:127
@@ -5957,6 +5949,9 @@ msgid ""
 "located where the \n"
 "Legislative Palace"
 msgstr ""
+"It is currently\n"
+"located where the \n"
+"Legislative Palace"
 
 #: recursos/4montevideo/datos/levels.py:64
 msgid ""
@@ -5964,6 +5959,9 @@ msgid ""
 "attending washerwomen\n"
 "doing laundry wells"
 msgstr ""
+"the beach where\n"
+"attending washerwomen\n"
+"doing laundry wells"
 
 #: recursos/4montevideo/datos/levels.py:64
 msgid "It is a very busy beach"
@@ -6040,6 +6038,8 @@ msgid ""
 "the Access of\n"
 "Routes 1 and 5"
 msgstr ""
+"the Access of\n"
+"Routes 1 and 5"
 
 #: recursos/4paysandu/datos/4paysandu.py:18
 #: recursos/4paysandu/datos/levels.py:12
@@ -6700,18 +6700,12 @@ msgid "Brazil"
 msgstr "Brazil"
 
 #: recursos/4rocha/datos/levels.py:88
-#, fuzzy
 msgid ""
 "It's in the center\n"
-<<<<<<< HEAD
 "of the department"
-msgstr "It's in the centerof the department"
-=======
-"of the departament"
 msgstr ""
 "It's in the center\n"
 "of the department"
->>>>>>> b998af72089c49044976cadab5a8b23d750aa13a
 
 #: recursos/4salto/datos/4salto.py:21 recursos/4salto/datos/levels.py:14
 msgid "Palomas"
@@ -7066,7 +7060,6 @@ msgid "Castillo"
 msgstr "Castillo"
 
 #: recursos/4soriano/datos/4soriano.py:26
-#, fuzzy
 msgid "Cuch. del Perdido"
 msgstr "Cuchilla del Perdido"
 
@@ -7406,14 +7399,13 @@ msgid "Cerro del Olimar"
 msgstr "Cerro del Olimar"
 
 #: recursos/4treinta_y_tres/datos/levels.py:74
-#, fuzzy
 msgid "Passes through departmental capital"
 msgstr "Passes through departmental capital"
 
 #: recursos/4treinta_y_tres/datos/levels.py:76
 #, python-format
 msgid "Passes through the limit with %s"
-msgstr ""
+msgstr "Passes through the limit with %s"
 
 #: recursos/comun/datos/commons.py:8
 msgid ""
@@ -7458,6 +7450,8 @@ msgid ""
 "We have to look\n"
 "a piece of my ship in"
 msgstr ""
+"We have to look\n"
+"a piece of my ship in"
 
 #: recursos/comun/datos/commons.py:17
 msgid ""
@@ -7468,13 +7462,12 @@ msgstr ""
 "of my ship in"
 
 #: recursos/comun/datos/commons.py:18
-#, fuzzy
 msgid ""
 "According to my information\n"
 "have to look at"
 msgstr ""
 "According to my information\n"
-"we have to look in"
+"have to look at"
 
 #: recursos/comun/datos/commons.py:19
 msgid ""
@@ -7577,9 +7570,8 @@ msgid "Author: Alan Aguiar (alanjas@hotmail.com)"
 msgstr "Author: Alan Aguiar (alanjas@hotmail.com)"
 
 #: recursos/comun/datos/commons.py:53
-#, fuzzy
 msgid "Ayudante: Fabio Eirea"
-msgstr "Assistant: Fabio Eirea"
+msgstr "Helper: Fabio Eirea"
 
 #: recursos/comun/datos/commons.py:54
 msgid "Send corrections, comments or suggestions"
@@ -7594,14 +7586,8 @@ msgid "For more information visit http://ceibaljam.org"
 msgstr "For more information visit http://ceibaljam.org"
 
 #: recursos/comun/datos/commons.py:59
-<<<<<<< HEAD
-#, fuzzy
 msgid "Graphics and levels of all departments (less Canelones): Alan Aguiar"
-msgstr "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
-=======
-msgid "Graphics and levels of all departaments (less Canelones): Alan Aguiar"
 msgstr "Graphics and levels of all departments (less Canelones): Alan Aguiar"
->>>>>>> b998af72089c49044976cadab5a8b23d750aa13a
 
 #: recursos/comun/datos/commons.py:60
 msgid ""
@@ -7638,15 +7624,3 @@ msgstr ""
 #: recursos/comun/datos/commons.py:64
 msgid "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
 msgstr "Fonts downloaded from urbanfonts.com: Share-Regular.ttf by anónimo"
-
-#, python-format
-#, python-format, fuzzy
-#~ msgid "Passes through of %s"
-#~ msgstr "Passes through %s"
-
-#~ msgid ""
-#~ "Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-"
-#~ "Regular.ttf by anónimo"
-#~ msgstr ""
-#~ "Fonts downloaded from urbanfonts.com: AllCaps.ttf by BobFrantic and Share-"
-#~ "Regular.ttf by anónimo"
