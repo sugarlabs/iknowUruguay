@@ -95,19 +95,19 @@ LEVEL4 = [
         ['cuchillas', 'cerros'],
         [],
 [
-    (_('the %(f)s') % {'f': _('Cuchilla Mansavillagra'), 4, _('Cuchilla Mansavillagra'), _('Try again')),
-    (_('the %(f)s') % {'f': _('Cuchilla Grande'), 4, _('Cuchilla Grande'), _('Try again')),
-    (_('the %(f)s') % {'f': _('Cuchilla Grande Inferior'), 4, _('Cuchilla Grande Inferior'), _('Try again')),
-    (_('the %(f)s') % {'f': _('Cuchilla del Pintado'), 4, _('Cuchilla del Pintado'), _('Try again')),
-    (_('the %(f)s') % {'f': _('Cuchilla Santa Lucía'), 4, _('Cuchilla Santa Lucía'), _('Try again')),
-    (_('the %(m)s') % {'m': _('Cerro Pescado'), 5, _('Cerro Pescado'), _("It's in the northeast")),
-    (_('the %(m)s') % {'m': _('Cerro Florida'), 5, _('Cerro Florida'), _("It is near %s") % _('the capital')),
-    (_('the %(m)s') % {'m': _('Cerro Valentín'), 5, _('Cerro Valentín'), _("It's on the border\nwith %s") % _('Treinta y Tres'))
+    (_('the %(f)s') % {'f': _('Cuchilla Mansavillagra')}, 4, _('Cuchilla Mansavillagra'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla Grande')}, 4, _('Cuchilla Grande'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla Grande Inferior')}, 4, _('Cuchilla Grande Inferior'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla del Pintado')}, 4, _('Cuchilla del Pintado'), _('Try again')),
+    (_('the %(f)s') % {'f': _('Cuchilla Santa Lucía')}, 4, _('Cuchilla Santa Lucía'), _('Try again')),
+    (_('the %(m)s') % {'m': _('Cerro Pescado')}, 5, _('Cerro Pescado'), _("It's in the northeast")),
+    (_('the %(m)s') % {'m': _('Cerro Florida')}, 5, _('Cerro Florida'), _("It is near %s") % _('the capital')),
+    (_('the %(m)s') % {'m': _('Cerro Valentín')}, 5, _('Cerro Valentín'), _("It's on the border\nwith %s") % _('Treinta y Tres'))
 ]
 ]
 
 LEVEL5 = [
-        1,
+        5,
         _('Routes'),
         ['rutas', 'capitales'],
         ['capitales', 'ciudades'],
