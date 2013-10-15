@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-17 00:31-0400\n"
-"PO-Revision-Date: 2013-08-20 23:30+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"POT-Creation-Date: 2013-09-23 00:30-0400\n"
+"PO-Revision-Date: 2013-10-14 18:00+0200\n"
+"Last-Translator: EdgarQuispeChambi <quispedgar@yahoo.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ayc\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgid "I know Uruguay"
 msgstr "Uruguay marka uñjthwa"
 
 #: conozcouy.py:239 conozcouy.py:356 conozcouy.py:379 conozcouy.py:431
-#: conozcouy.py:517
+#: conozcouy.py:520
 #, python-format
 msgid "Cannot open %s"
 msgstr "Janiwa jist'arasiña muniti %s"
@@ -136,60 +136,65 @@ msgstr "%(river)s wakichata"
 msgid "the %(route)s"
 msgstr "%(route)s sutini wakichata"
 
-#: conozcouy.py:552
+#: conozcouy.py:500
+#, python-format
+msgid "the neighborhoods of %s"
+msgstr "utjäwipa %s"
+
+#: conozcouy.py:555
 #, python-format
 msgid "About %s"
 msgstr "Akïri tuqita %s"
 
-#: conozcouy.py:566
+#: conozcouy.py:569
 msgid "Press any key to return"
 msgstr "maski kawkipiri limt'añsa kutt'añataki limt'ma"
 
-#: conozcouy.py:597
+#: conozcouy.py:600
 msgid "You have chosen the map "
 msgstr "Akïri suyuna rixipa jajllta ... "
 
-#: conozcouy.py:603
+#: conozcouy.py:606
 msgid "Play"
 msgstr "Anataña"
 
-#: conozcouy.py:619
+#: conozcouy.py:622
 msgid "Explore"
 msgstr "Thaqtaña"
 
-#: conozcouy.py:639 conozcouy.py:783
+#: conozcouy.py:642 conozcouy.py:786
 msgid "About this game"
 msgstr "Aka anataña tuqita"
 
-#: conozcouy.py:647
+#: conozcouy.py:650
 msgid "Return"
 msgstr "Kuttaña"
 
-#: conozcouy.py:704
+#: conozcouy.py:707
 msgid "Choose the map to use"
 msgstr "Marka rixita apnaqaña katma"
 
-#: conozcouy.py:724
+#: conozcouy.py:727
 msgid "Previous page"
 msgstr "Nayrïri laphi"
 
-#: conozcouy.py:769
+#: conozcouy.py:772
 msgid "Next page"
 msgstr "Qhipïri laphi"
 
-#: conozcouy.py:790
+#: conozcouy.py:793
 msgid "Exit"
 msgstr "Mistuña"
 
-#: conozcouy.py:1272
+#: conozcouy.py:1275
 msgid "End"
 msgstr "Tukuña"
 
-#: conozcouy.py:1283
+#: conozcouy.py:1286
 msgid "Show all"
 msgstr "Qawayata uñachayaña"
 
-#: conozcouy.py:1612 conozcouy.py:1868
+#: conozcouy.py:1615 conozcouy.py:1871
 msgid "Press any key to skip"
 msgstr "Thuqtañataki akatjamata qillqaña limt'ma"
 
@@ -1695,7 +1700,6 @@ msgstr "Departamento markanaka jilïri markanakapa"
 #: recursos/4lavalleja/datos/levels.py:22
 #: recursos/4maldonado/datos/explorations.py:13
 #: recursos/4maldonado/datos/levels.py:7
-#: recursos/4montevideo/datos/levels.py:7
 #: recursos/4paysandu/datos/explorations.py:13
 #: recursos/4paysandu/datos/levels.py:7
 #: recursos/4rio_negro/datos/explorations.py:13
@@ -2117,6 +2121,7 @@ msgstr ""
 #: recursos/4montevideo/datos/levels.py:81
 #: recursos/4montevideo/datos/levels.py:82
 #: recursos/4montevideo/datos/levels.py:83
+#: recursos/4montevideo/datos/levels.py:84
 #, python-format
 msgid "Flows into the %s"
 msgstr "Jalxatiwa uka %s"
@@ -3462,7 +3467,7 @@ msgstr "Uka jach'a lamara quta qawaya markapa %s"
 #: recursos/4canelones/datos/levels.py:42
 #: recursos/4canelones/datos/levels.py:44
 #, python-format
-#, python-format, 
+#, python-format,
 msgid ""
 "It's a resort\n"
 "in %s"
@@ -5866,6 +5871,10 @@ msgstr "Jach'a jisk'a markanaka"
 #: recursos/4montevideo/datos/levels.py:106
 msgid "Avenues and routes"
 msgstr "Saräwinaka thakinaka"
+
+#: recursos/4montevideo/datos/levels.py:7
+msgid "Neighborhoods"
+msgstr "Utjäwinaka"
 
 #: recursos/4montevideo/datos/levels.py:28
 #: recursos/4montevideo/datos/levels.py:31
