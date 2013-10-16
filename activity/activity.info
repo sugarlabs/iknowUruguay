@@ -1,7 +1,8 @@
 [Activity]
 name = I know Uruguay
-activity_version = 12
+activity_version = 13
 bundle_id = uy.edu.fing.geirea.conozcouruguay
 icon = activity
 exec = sugar-activity activity.Activity
 license = GPLv2+
+summary = Game about the geography of Uruguay
