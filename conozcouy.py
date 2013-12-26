@@ -897,17 +897,13 @@ class ConozcoUy():
         global scale, shift_x, shift_y, xo_resolution
         pygame.init()
         pygame.display.init()
-        # crear pantalla
-        info = pygame.display.Info()
-        self.anchoPantalla = info.current_w
-        self.altoPantalla = info.current_h
         self.pantalla = pygame.display.get_surface()
         if not(self.pantalla):
-            # prevent hide zones
-            #self.anchoPantalla = self.anchoPantalla - 50
-            #self.altoPantalla = self.altoPantalla - 100
-            self.pantalla = pygame.display.set_mode((self.anchoPantalla,
-                                               self.altoPantalla), pygame.FULLSCREEN)
+            info = pygame.display.Info()
+            self.pantalla = pygame.display.set_mode((info.current_w, info.current_h), pygame.FULLSCREEN)
+            pygame.display.set_caption(_(self.activity_name))
+        self.anchoPantalla = self.pantalla.get_width()
+        self.altoPantalla = self.pantalla.get_height()
         pygame.display.flip()
         if self.anchoPantalla==1200 and self.altoPantalla==900:
             xo_resolution = True
