@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-17 00:30-0400\n"
-"PO-Revision-Date: 2013-10-18 23:18+0200\n"
+"POT-Creation-Date: 2014-01-06 00:30-0500\n"
+"PO-Revision-Date: 2014-01-08 03:59+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: Sugar Labs\n"
 "Language: en_US\n"
@@ -27,13 +27,13 @@ msgstr "I know Uruguay"
 msgid "Game about the geography of Uruguay"
 msgstr "Game about the geography of Uruguay"
 
-#: conozcouy.py:239 conozcouy.py:356 conozcouy.py:379 conozcouy.py:431
-#: conozcouy.py:520
+#: conozcouy.py:243 conozcouy.py:355 conozcouy.py:378 conozcouy.py:430
+#: conozcouy.py:519
 #, python-format
 msgid "Cannot open %s"
 msgstr "Cannot open %s"
 
-#: conozcouy.py:464
+#: conozcouy.py:463
 #, python-format
 msgid ""
 "the city of\n"
@@ -42,7 +42,7 @@ msgstr ""
 "the city of\n"
 "%s"
 
-#: conozcouy.py:467
+#: conozcouy.py:466
 #, python-format
 msgid ""
 "the department of\n"
@@ -51,7 +51,7 @@ msgstr ""
 "the department of\n"
 "%s"
 
-#: conozcouy.py:470
+#: conozcouy.py:469
 #, python-format
 msgid ""
 "the province of\n"
@@ -60,7 +60,7 @@ msgstr ""
 "the province of\n"
 "%s"
 
-#: conozcouy.py:473
+#: conozcouy.py:472
 #, python-format
 msgid ""
 "the district of\n"
@@ -69,7 +69,7 @@ msgstr ""
 "the district of\n"
 "%s"
 
-#: conozcouy.py:476
+#: conozcouy.py:475
 #, python-format
 msgid ""
 "the state of\n"
@@ -78,7 +78,7 @@ msgstr ""
 "the state of\n"
 "%s"
 
-#: conozcouy.py:479
+#: conozcouy.py:478
 #, python-format
 msgid ""
 "the region of\n"
@@ -87,7 +87,7 @@ msgstr ""
 "the region of\n"
 "%s"
 
-#: conozcouy.py:482
+#: conozcouy.py:481
 #, python-format
 msgid ""
 "the parish of\n"
@@ -96,7 +96,7 @@ msgstr ""
 "the parish of\n"
 "%s"
 
-#: conozcouy.py:485
+#: conozcouy.py:484
 #, python-format
 msgid ""
 "the taluka of\n"
@@ -105,7 +105,7 @@ msgstr ""
 "the taluka of\n"
 "%s"
 
-#: conozcouy.py:488
+#: conozcouy.py:487
 #, python-format
 msgid ""
 "the municipality of\n"
@@ -114,7 +114,7 @@ msgstr ""
 "the municipality of\n"
 "%s"
 
-#: conozcouy.py:491 recursos/0uruguay/datos/levels.py:187
+#: conozcouy.py:490 recursos/0uruguay/datos/levels.py:187
 #: recursos/0uruguay/datos/levels.py:188 recursos/0uruguay/datos/levels.py:189
 #: recursos/0uruguay/datos/levels.py:190 recursos/0uruguay/datos/levels.py:191
 #: recursos/0uruguay/datos/levels.py:192 recursos/0uruguay/datos/levels.py:193
@@ -129,75 +129,114 @@ msgstr ""
 msgid "the %s"
 msgstr "the %s"
 
-#: conozcouy.py:494
+#: conozcouy.py:493
 #, python-format
 msgid "the %(river)s"
 msgstr "the %(river)s"
 
-#: conozcouy.py:497
+#: conozcouy.py:496
 #, python-format
 msgid "the %(route)s"
 msgstr "the %(route)s"
 
-#: conozcouy.py:500
+#: conozcouy.py:499
 #, python-format
 msgid "the neighborhoods of %s"
 msgstr "the neighborhoods of %s"
 
-#: conozcouy.py:555
+#: conozcouy.py:553
 #, python-format
 msgid "About %s"
 msgstr "About %s"
 
-#: conozcouy.py:569
+#: conozcouy.py:567 conozcouy.py:645
 msgid "Press any key to return"
 msgstr "Press any key to return"
 
 #: conozcouy.py:600
+#, python-format
+msgid "Stats of %s"
+msgstr "Stats of %s"
+
+#: conozcouy.py:606
+#, python-format
+msgid "Total score: %s"
+msgstr "Total score: %s"
+
+#: conozcouy.py:612
+#, python-format
+msgid "Game average score: %s"
+msgstr "Game average score: %s"
+
+#: conozcouy.py:618
+#, python-format
+msgid "Times using Explore Mode: %s"
+msgstr "Times using Explore Mode: %s"
+
+#: conozcouy.py:624
+#, python-format
+msgid "Places Explored: %s"
+msgstr "Places Explored: %s"
+
+#: conozcouy.py:630
+#, python-format
+msgid "Times using Game Mode: %s"
+msgstr "Times using Game Mode: %s"
+
+#: conozcouy.py:638
+#, python-format
+msgid "Total time: %s minutes"
+msgstr "Total time: %s minutes"
+
+#: conozcouy.py:677
 msgid "You have chosen the map "
 msgstr "You have chosen the map "
 
-#: conozcouy.py:606
+#: conozcouy.py:683
 msgid "Play"
 msgstr "Play"
 
-#: conozcouy.py:622
+#: conozcouy.py:699
 msgid "Explore"
 msgstr "Explore"
 
-#: conozcouy.py:642 conozcouy.py:786
+#: conozcouy.py:719 conozcouy.py:880
 msgid "About this game"
 msgstr "About this game"
 
-#: conozcouy.py:650
+#: conozcouy.py:727 conozcouy.py:888
+msgid "Stats"
+msgstr "Stats"
+
+#: conozcouy.py:735
 msgid "Return"
 msgstr "Return"
 
-#: conozcouy.py:707
+#: conozcouy.py:800
 msgid "Choose the map to use"
 msgstr "Choose the map to use"
 
-#: conozcouy.py:727
+#: conozcouy.py:820
 msgid "Previous page"
 msgstr "Previous page"
 
-#: conozcouy.py:772
+#: conozcouy.py:865
 msgid "Next page"
 msgstr "Next page"
 
-#: conozcouy.py:793
+#: conozcouy.py:896
 msgid "Exit"
 msgstr "Exit"
 
-#: conozcouy.py:1275
+#: conozcouy.py:1459
 msgid "End"
 msgstr "End"
 
-#: conozcouy.py:1286
+#: conozcouy.py:1470
 msgid "Show all"
 msgstr "Show all"
 
-#: conozcouy.py:1615 conozcouy.py:1871
+#: conozcouy.py:1754 conozcouy.py:2010
 msgid "Press any key to skip"
 msgstr "Press any key to skip"
 
@@ -3471,7 +3510,7 @@ msgstr "the resort of %s"
 #: recursos/4canelones/datos/levels.py:42
 #: recursos/4canelones/datos/levels.py:44
 #, python-format
-#, python-format, 
+#, python-format,
 msgid ""
 "It's a resort\n"
 "in %s"
