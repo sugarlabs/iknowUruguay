@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-06 00:30-0500\n"
-"PO-Revision-Date: 2014-01-07 21:55+0200\n"
+"PO-Revision-Date: 2014-01-17 17:02+0200\n"
 "Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -171,7 +171,7 @@ msgstr "Puntaje promedio de juego: %s"
 #: conozcouy.py:618
 #, python-format
 msgid "Times using Explore Mode: %s"
-msgstr "Tiempo usando Modo Exploración: %s"
+msgstr "Veces utilizando Modo Exploración: %s"
 
 #: conozcouy.py:624
 #, python-format
@@ -181,7 +181,7 @@ msgstr "Lugares Explorados: %s"
 #: conozcouy.py:630
 #, python-format
 msgid "Times using Game Mode: %s"
-msgstr "Tiempo usando Modo Juego: %s"
+msgstr "Veces utilizando Modo Juego: %s"
 
 #: conozcouy.py:638
 #, python-format
