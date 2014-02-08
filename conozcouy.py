@@ -107,7 +107,6 @@ class Punto():
     """
     
     def __init__(self,nombre,tipo,simbolo,posicion,postexto):
-        global scale, shift_x, shift_y
         self.nombre = nombre
         self.tipo = int(tipo)
         self.posicion = (int(int(posicion[0])*scale+shift_x),
@@ -542,7 +541,6 @@ class ConozcoUy():
 
     def pantallaAcercaDe(self):
         """Pantalla con los datos del juego, creditos, etc"""
-        global scale, shift_x, shift_y, xo_resolution
         self.pantallaTemp = pygame.Surface(
             (self.anchoPantalla,self.altoPantalla))
         self.pantallaTemp.blit(self.pantalla,(0,0))
@@ -588,7 +586,6 @@ class ConozcoUy():
 
     def pantallaStats(self):
         """Pantalla con los datos del juego, creditos, etc"""
-        global scale, shift_x, shift_y, xo_resolution
         self.pantallaTemp = pygame.Surface(
             (self.anchoPantalla,self.altoPantalla))
         self.pantallaTemp.blit(self.pantalla,(0,0))
@@ -667,7 +664,6 @@ class ConozcoUy():
 
     def pantallaInicial(self):
         """Pantalla con el menu principal del juego"""
-        global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
         self.mostrarTexto(self.activity_name,
                         self.fuente60,
@@ -791,7 +787,6 @@ class ConozcoUy():
 
     def pantallaDirectorios(self):
         """Pantalla con el menu de directorios"""
-        global scale, shift_x, shift_y
         self.pantalla.fill((0,0,0))
         self.mostrarTexto(self.activity_name,
                         self.fuente60,
@@ -976,7 +971,6 @@ class ConozcoUy():
 
     def cargarImagen(self,nombre):
         """Carga una imagen y la escala de acuerdo a la resolucion"""
-        global scale, xo_resolution
         imagen = None
         archivo = os.path.join(self.camino_imagenes, nombre)
         if os.path.exists(archivo):
@@ -1265,7 +1259,6 @@ class ConozcoUy():
 
     def mostrarGlobito(self,lineas):
         """Muestra texto en el globito"""
-        global scale, shift_x, shift_y
         self.pantalla.blit(self.globito,
                            (int(XMAPAMAX*scale+shift_x),
                             int(YGLOBITO*scale+shift_y)))
@@ -1281,14 +1274,12 @@ class ConozcoUy():
 
     def borrarGlobito(self):
         """ Borra el globito, lo deja en blanco"""
-        global scale, shift_x, shift_y
         self.pantalla.blit(self.globito,
                            (int(XMAPAMAX*scale+shift_x),
                             int(YGLOBITO*scale+shift_y)))
 
     def correcto(self):
         """Muestra texto en el globito cuando la respuesta es correcta"""
-        global scale, shift_x, shift_y
         self.pantalla.blit(self.nave[self.avanceNivel],
                            (int(XNAVE*scale+shift_x),
                             int(YNAVE*scale+shift_y)))
@@ -2036,7 +2027,6 @@ class ConozcoUy():
 
     def principal(self):
         """Este es el loop principal del juego"""
-        global scale, shift_x, shift_y
         pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
 
         self.loadAll()
