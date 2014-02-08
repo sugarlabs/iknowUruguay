@@ -73,6 +73,7 @@ COLORPREGUNTAS = (80,80,155)
 COLORPANEL = (156,158,172)
 COLORBARRA_P = (255, 0, 0)
 COLORBARRA_A = (0, 0, 255)
+COLOR_FONDO = (0, 0, 0)
 TOTALAVANCE = 7
 EVENTORESPUESTA = pygame.USEREVENT+1
 TIEMPORESPUESTA = 2300
@@ -543,7 +544,7 @@ class ConozcoUy():
         self.pantallaTemp = pygame.Surface(
             (self.anchoPantalla,self.altoPantalla))
         self.pantallaTemp.blit(self.pantalla,(0,0))
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.terron,
                         (int(20*scale+shift_x),
                             int(20*scale+shift_y)))
@@ -588,7 +589,7 @@ class ConozcoUy():
         self.pantallaTemp = pygame.Surface(
             (self.anchoPantalla,self.altoPantalla))
         self.pantallaTemp.blit(self.pantalla,(0,0))
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.bicho,
                         (int(925*scale+shift_x),
                             int(468*scale+shift_y)))
@@ -663,7 +664,7 @@ class ConozcoUy():
 
     def pantallaInicial(self):
         """Pantalla con el menu principal del juego"""
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.mostrarTexto(self.activity_name,
                         self.fuente60,
                         (int(600*scale+shift_x),
@@ -786,7 +787,7 @@ class ConozcoUy():
 
     def pantallaDirectorios(self):
         """Pantalla con el menu de directorios"""
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.mostrarTexto(self.activity_name,
                         self.fuente60,
                         (int(600*scale+shift_x),int(80*scale+shift_y)),
@@ -799,7 +800,7 @@ class ConozcoUy():
         paginaDirectorios = self.paginaDir
         while 1:
             yLista = int(200*scale+shift_y)
-            self.pantalla.fill((0,0,0),
+            self.pantalla.fill(COLOR_FONDO,
                             (int(shift_x),yLista-int(24*scale),
                                 int(1200*scale),int(600*scale)))
             if paginaDirectorios == 0:
@@ -1736,7 +1737,7 @@ class ConozcoUy():
 
     def presentacion(self):
         """Presenta una animacion inicial"""
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
 
         # cuadro 1: nave llegando
         self.pantalla.blit(self.tierra,(int(200*scale+shift_x),
@@ -1770,7 +1771,7 @@ class ConozcoUy():
                         terminar = True
                     else:
                         pygame.time.set_timer(EVENTODESPEGUE,TIEMPODESPEGUE)
-                        self.pantalla.fill((0,0,0),
+                        self.pantalla.fill(COLOR_FONDO,
                                            (int((900-(self.paso-1)*3)*scale+\
                                                     shift_x),
                                             int((150+(self.paso-1)*1)*scale+\
@@ -1787,7 +1788,7 @@ class ConozcoUy():
             if terminar:
                 break
         # cuadro 2: marcianito hablando
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.bicho,(int(600*scale+shift_x),
                                        int(450*scale+shift_y)))
         self.pantalla.blit(self.globito,
@@ -1823,7 +1824,7 @@ class ConozcoUy():
             if terminar:
                 break
         # cuadro 3: alerta
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.alerta,(int(264*scale+shift_x),
                                         int(215*scale+shift_y)))
         self.pantalla.blit(self.alertarojo,(int(459*scale+shift_x),
@@ -1876,7 +1877,7 @@ class ConozcoUy():
             if terminar:
                 break
         # cuadro 4: marcianito asustado
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.bichotriste,(int(600*scale+shift_x),
                                              int(450*scale+shift_y)))
         self.pantalla.blit(self.globito,(int(350*scale+shift_x),
@@ -1947,7 +1948,7 @@ class ConozcoUy():
                         terminar = True
                     else:
                         pygame.time.set_timer(EVENTODESPEGUE,TIEMPODESPEGUE)
-                        self.pantalla.fill((0,0,0),
+                        self.pantalla.fill(COLOR_FONDO,
                                            (int((430-(self.paso-1)*.1)*scale+\
                                                     shift_x),
                                             int((280+(self.paso-1)*.6)*scale+\
@@ -1984,7 +1985,7 @@ class ConozcoUy():
             if terminar:
                 break
         # cuadro 6: marcianito hablando
-        self.pantalla.fill((0,0,0))
+        self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.bicho,(int(600*scale+shift_x),
                                        int(450*scale+shift_y)))
         self.pantalla.blit(self.globito,(int(350*scale+shift_x),
