@@ -91,6 +91,7 @@ COLOR_FONDO = (0, 0, 0)
 COLOR_ACT_NAME = (255,255,255)
 COLOR_OPTION_B = (20, 20, 20)
 COLOR_OPTION_T = (200,100,100)
+COLOR_BUTTON_B = (20, 20, 20)
 COLOR_BUTTON_T = (100,200,100)
 COLOR_NEXT = (100, 100, 200)
 COLOR_STAT_N = (100, 100, 200)
@@ -721,7 +722,7 @@ class ConozcoUy():
                             COLOR_NEXT)
             yLista += int(50*scale)
             # about button
-            self.pantalla.fill(COLOR_OPTION_B,
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(20*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(_("About this game"),
@@ -729,7 +730,7 @@ class ConozcoUy():
                             (int(205*scale+shift_x),int(825*scale+shift_y)),
                             COLOR_BUTTON_T)
             # stats button
-            self.pantalla.fill(COLOR_OPTION_B,
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(420*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(unicode(_("Stats"), "UTF-8"),
@@ -737,7 +738,7 @@ class ConozcoUy():
                             (int(605*scale+shift_x),int(825*scale+shift_y)),
                             COLOR_BUTTON_T)
             # return button
-            self.pantalla.fill(COLOR_OPTION_B,
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(820*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(_("Return"),
@@ -881,7 +882,7 @@ class ConozcoUy():
                 nDirectoriosCol1 = indiceDir - paginaDirectorios * 20
                 nDirectoriosCol2 = 0
             # about button
-            self.pantalla.fill(COLOR_OPTION_B,
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(20*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(_("About this game"),
@@ -889,7 +890,7 @@ class ConozcoUy():
                             (int(205*scale+shift_x),int(825*scale+shift_y)),
                             COLOR_BUTTON_T)
             # stats button
-            self.pantalla.fill(COLOR_OPTION_B,
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(420*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(unicode(_("Stats"), "UTF-8"),
@@ -897,7 +898,7 @@ class ConozcoUy():
                             (int(605*scale+shift_x),int(825*scale+shift_y)),
                             COLOR_BUTTON_T)
             # exit button
-            self.pantalla.fill(COLOR_OPTION_B,
+            self.pantalla.fill(COLOR_BUTTON_B,
                             (int(820*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
             self.mostrarTexto(_("Exit"),
