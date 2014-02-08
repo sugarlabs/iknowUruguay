@@ -427,79 +427,78 @@ class ConozcoUy():
             f = imp.load_source(ARCHIVONIVELES, a_path)
         except:
             print _('Cannot open %s') % ARCHIVONIVELES
+        
+        if hasattr(f, 'LEVELS'):
+            for ln in f.LEVELS:
+                index = ln[0]
+                nombreNivel = unicode(ln[1], 'UTF-8')
+                nuevoNivel = Nivel(nombreNivel)
 
-        if f:
-            if hasattr(f, 'LEVELS'):
-                for ln in f.LEVELS:
-                    index = ln[0]
-                    nombreNivel = unicode(ln[1], 'UTF-8')
-                    nuevoNivel = Nivel(nombreNivel)
+                listaDibujos = ln[2]
+                for i in listaDibujos:
+                    nuevoNivel.dibujoInicial.append(i.strip())
 
-                    listaDibujos = ln[2]
-                    for i in listaDibujos:
-                        nuevoNivel.dibujoInicial.append(i.strip())
+                listaNombres = ln[3]
+                for i in listaNombres:
+                    nuevoNivel.nombreInicial.append(i.strip())
 
-                    listaNombres = ln[3]
-                    for i in listaNombres:
-                        nuevoNivel.nombreInicial.append(i.strip())
+                listpreguntas = ln[4]
 
-                    listpreguntas = ln[4]
+                if (index == 1):
+                    for i in listpreguntas:
+                        texto = unicode(i[0], 'UTF-8')
+                        tipo = i[1]
+                        respuesta = unicode(i[2], 'UTF-8')
+                        ayuda = unicode(i[3], 'UTF-8')
+                        nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
+                else:
 
-                    if (index == 1):
-                        for i in listpreguntas:
-                            texto = unicode(i[0], 'UTF-8')
-                            tipo = i[1]
-                            respuesta = unicode(i[2], 'UTF-8')
-                            ayuda = unicode(i[3], 'UTF-8')
-                            nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
-                    else:
+                    for i in listpreguntas:
+                        respuesta = unicode(i[0], 'UTF-8')
+                        ayuda = unicode(i[1], 'UTF-8')
+                        if (index == 2):
+                            tipo = 2
+                            texto = _('the city of\n%s') % respuesta
+                        elif (index == 7):
+                            tipo = 1
+                            texto = _('the department of\n%s') % respuesta
+                        elif (index == 8):
+                            tipo = 1
+                            texto = _('the province of\n%s') % respuesta
+                        elif (index == 9):
+                            tipo = 1
+                            texto = _('the district of\n%s') % respuesta
+                        elif (index == 10):
+                            tipo = 1
+                            texto = _('the state of\n%s') % respuesta
+                        elif (index == 11):
+                            tipo = 1
+                            texto = _('the region of\n%s') % respuesta
+                        elif (index == 12):
+                            tipo = 1
+                            texto = _('the parish of\n%s') % respuesta
+                        elif (index == 14):
+                            tipo = 1
+                            texto = _('the taluka of\n%s') % respuesta
+                        elif (index == 6):
+                            tipo = 1
+                            texto = _('the municipality of\n%s') % respuesta
+                        elif (index == 4):
+                            tipo = 3
+                            texto = _('the %s') % respuesta
+                        elif (index == 15):
+                            tipo = 3
+                            texto = _('the %(river)s') % {'river': respuesta}
+                        elif (index == 5):
+                            tipo = 6
+                            texto = _('the %(route)s') % {'route': respuesta}
+                        elif (index == 17):
+                            tipo = 2
+                            texto = _('the neighborhoods of %s') % respuesta
 
-                        for i in listpreguntas:
-                            respuesta = unicode(i[0], 'UTF-8')
-                            ayuda = unicode(i[1], 'UTF-8')
-                            if (index == 2):
-                                tipo = 2
-                                texto = _('the city of\n%s') % respuesta
-                            elif (index == 7):
-                                tipo = 1
-                                texto = _('the department of\n%s') % respuesta
-                            elif (index == 8):
-                                tipo = 1
-                                texto = _('the province of\n%s') % respuesta
-                            elif (index == 9):
-                                tipo = 1
-                                texto = _('the district of\n%s') % respuesta
-                            elif (index == 10):
-                                tipo = 1
-                                texto = _('the state of\n%s') % respuesta
-                            elif (index == 11):
-                                tipo = 1
-                                texto = _('the region of\n%s') % respuesta
-                            elif (index == 12):
-                                tipo = 1
-                                texto = _('the parish of\n%s') % respuesta
-                            elif (index == 14):
-                                tipo = 1
-                                texto = _('the taluka of\n%s') % respuesta
-                            elif (index == 6):
-                                tipo = 1
-                                texto = _('the municipality of\n%s') % respuesta
-                            elif (index == 4):
-                                tipo = 3
-                                texto = _('the %s') % respuesta
-                            elif (index == 15):
-                                tipo = 3
-                                texto = _('the %(river)s') % {'river': respuesta}
-                            elif (index == 5):
-                                tipo = 6
-                                texto = _('the %(route)s') % {'route': respuesta}
-                            elif (index == 17):
-                                tipo = 2
-                                texto = _('the neighborhoods of %s') % respuesta
+                        nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
 
-                            nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
-
-                    self.listaNiveles.append(nuevoNivel)
+                self.listaNiveles.append(nuevoNivel)
 
         self.indiceNivelActual = 0
         self.numeroNiveles = len(self.listaNiveles)
