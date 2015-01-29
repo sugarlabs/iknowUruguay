@@ -28,6 +28,7 @@ LEVEL2 = [
     (_('the town of %s') % _('Arerunguá'), 2, _('Arerunguá'), _("It's in the southeast")),
     (_('the health resort of %s') % _('Termas del Arapey'), 2, _('Termas del Arapey'), _("It's in the northwest")),
     (_('the town of %s') % _('Olivera'), 2, _('Olivera'), _("It's in the north")),
+    (_('the town of %s') % _('Pepe Nuñez'), 2, _('Pepe Nuñez'), _("It's in the east")),
     (_('the town of %s') % _('Mataojo'), 2, _('Mataojo'), _("It's in the northeast"))
 ]
 ]
