@@ -7,15 +7,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-19 18:38+0000\n"
-"PO-Revision-Date: 2014-01-17 17:02+0200\n"
-"Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
+"PO-Revision-Date: 2015-01-30 00:39+0000\n"
+"Last-Translator: Alan <alanjas@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1422578349.000000\n"
 
 #: /var/www/pootle/sugarlabs/clones/IKnowUruguay/recursos/comun/datos/commons.py:5
 msgid "I know Uruguay"
@@ -250,7 +251,7 @@ msgstr "Rutas"
 #: /var/www/pootle/sugarlabs/clones/IKnowUruguay/recursos/4durazno/datos/4durazno.py:17
 #: /var/www/pootle/sugarlabs/clones/IKnowUruguay/recursos/4rocha/datos/4rocha.py:8
 msgid "Treinta y Tres"
-msgstr "Treinta y Trés"
+msgstr "Treinta y Tres"
 
 #: /var/www/pootle/sugarlabs/clones/IKnowUruguay/recursos/4treinta_y_tres/datos/4treinta_y_tres.py:8
 #: /var/www/pootle/sugarlabs/clones/IKnowUruguay/recursos/4salto/datos/4salto.py:12
