@@ -30,7 +30,7 @@ import pygame
 import time
 import imp
 import gettext
-import ConfigParser
+import configparser
 
 gtk_present = True
 try:
@@ -253,7 +253,7 @@ class ConozcoUy():
         try:
             f = imp.load_source(self.directorio, a_path)
         except:
-            print _('Cannot open %s') % self.directorio
+            print(_('Cannot open %s') % self.directorio)
 
         if f:
             lugares = []
@@ -267,7 +267,7 @@ class ConozcoUy():
                 lugares = lugares + f.HILLS
             self.listaLugares = list()
             for c in lugares:
-                nombreLugar = unicode(c[0], 'UTF-8')
+                nombreLugar = str(c[0], 'UTF-8')
                 posx = c[1]
                 posy = c[2]
                 tipo = c[3]
@@ -293,7 +293,7 @@ class ConozcoUy():
                 self.deptosLineas = self.cargarImagen("deptosLineas.png")
                 self.listaDeptos = list()
                 for d in f.STATES:
-                    nombreDepto = unicode(d[0], 'UTF-8')
+                    nombreDepto = str(d[0], 'UTF-8')
                     claveColor = d[1]
                     posx = d[2]
                     posy = d[3]
@@ -307,7 +307,7 @@ class ConozcoUy():
                 self.cuchillasDetectar = self.cargarImagen("cuchillasDetectar.png")
                 self.listaCuchillas = list()
                 for c in f.CUCHILLAS:
-                    nombreCuchilla = unicode(c[0], 'UTF-8')
+                    nombreCuchilla = str(c[0], 'UTF-8')
                     claveColor = c[1]
                     posx = c[2]
                     posy = c[3]
@@ -321,7 +321,7 @@ class ConozcoUy():
                 self.riosDetectar = self.cargarImagen("riosDetectar.png")
                 self.listaRios = list()
                 for r in f.RIVERS:
-                    nombreRio = unicode(r[0], 'UTF-8')
+                    nombreRio = str(r[0], 'UTF-8')
                     claveColor = r[1]
                     posx = r[2]
                     posy = r[3]
@@ -335,7 +335,7 @@ class ConozcoUy():
                 self.rutasDetectar = self.cargarImagen("rutasDetectar.png")
                 self.listaRutas = list()
                 for r in f.ROUTES:
-                    nombreRuta = unicode(r[0], 'UTF-8')
+                    nombreRuta = str(r[0], 'UTF-8')
                     claveColor = r[1]
                     posx = r[2]
                     posy = r[3]
@@ -346,8 +346,8 @@ class ConozcoUy():
             self.lista_estadisticas = list()
             if hasattr(f, 'STATS'):
                 for e in f.STATS:
-                    p1 = unicode(e[0], 'UTF-8')
-                    p2 = unicode(e[1], 'UTF-8')
+                    p1 = str(e[0], 'UTF-8')
+                    p2 = str(e[1], 'UTF-8')
                     self.lista_estadisticas.append((p1, p2))
 
 
@@ -365,9 +365,9 @@ class ConozcoUy():
                 try:
                     f = imp.load_source(d, a_path)
                 except:
-                    print _('Cannot open %s') % d
+                    print(_('Cannot open %s') % d)
                 if f:
-                    name = unicode(f.NAME, 'UTF-8')
+                    name = str(f.NAME, 'UTF-8')
                     self.listaNombreDirectorios.append(name)
                     self.listaDirectorios.append(d)
 
@@ -388,39 +388,39 @@ class ConozcoUy():
         try:
             f = imp.load_source('commons', a_path)
         except:
-            print _('Cannot open %s') % 'commons'
+            print(_('Cannot open %s') % 'commons')
 
         if f:
             if hasattr(f, 'ACTIVITY_NAME'):
                 e = f.ACTIVITY_NAME
-                self.activity_name = unicode(e, 'UTF-8')
+                self.activity_name = str(e, 'UTF-8')
             if hasattr(f, 'PREFIX'):
                 for e in f.PREFIX:
-                    e1 = unicode(e, 'UTF-8')
+                    e1 = str(e, 'UTF-8')
                     self.listaPrefijos.append(e1)
             if hasattr(f, 'SUFIX'):
                 for e in f.SUFIX:
-                    e1 = unicode(e, 'UTF-8')
+                    e1 = str(e, 'UTF-8')
                     self.listaSufijos.append(e1)  
             if hasattr(f, 'CORRECT'):
                 for e in f.CORRECT:
-                    e1 = unicode(e, 'UTF-8')
+                    e1 = str(e, 'UTF-8')
                     self.listaCorrecto.append(e1)
             if hasattr(f, 'WRONG'):
                 for e in f.WRONG:
-                    e1 = unicode(e, 'UTF-8')
+                    e1 = str(e, 'UTF-8')
                     self.listaMal.append(e1)
             if hasattr(f, 'BYE'):
                 for e in f.BYE:
-                    e1 = unicode(e, 'UTF-8')
+                    e1 = str(e, 'UTF-8')
                     self.listaDespedidas.append(e1)
             if hasattr(f, 'PRESENTATION'):
                 for e in f.PRESENTATION:
-                    e1 = unicode(e, 'UTF-8')
+                    e1 = str(e, 'UTF-8')
                     self.listaPresentacion.append(e1)
             if hasattr(f, 'CREDITS'):
                 for e in f.CREDITS:
-                    e1 = unicode(e, 'UTF-8')
+                    e1 = str(e, 'UTF-8')
                     self.listaCreditos.append(e1)
 
         self.numeroSufijos = len(self.listaSufijos)
@@ -440,12 +440,12 @@ class ConozcoUy():
         try:
             f = imp.load_source(ARCHIVONIVELES, a_path)
         except:
-            print _('Cannot open %s') % ARCHIVONIVELES
+            print(_('Cannot open %s') % ARCHIVONIVELES)
         
         if hasattr(f, 'LEVELS'):
             for ln in f.LEVELS:
                 index = ln[0]
-                nombreNivel = unicode(ln[1], 'UTF-8')
+                nombreNivel = str(ln[1], 'UTF-8')
                 nuevoNivel = Nivel(nombreNivel)
 
                 listaDibujos = ln[2]
@@ -460,16 +460,16 @@ class ConozcoUy():
 
                 if (index == 1):
                     for i in listpreguntas:
-                        texto = unicode(i[0], 'UTF-8')
+                        texto = str(i[0], 'UTF-8')
                         tipo = i[1]
-                        respuesta = unicode(i[2], 'UTF-8')
-                        ayuda = unicode(i[3], 'UTF-8')
+                        respuesta = str(i[2], 'UTF-8')
+                        ayuda = str(i[3], 'UTF-8')
                         nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
                 else:
 
                     for i in listpreguntas:
-                        respuesta = unicode(i[0], 'UTF-8')
-                        ayuda = unicode(i[1], 'UTF-8')
+                        respuesta = str(i[0], 'UTF-8')
+                        ayuda = str(i[1], 'UTF-8')
                         if (index == 2):
                             tipo = 2
                             texto = _('the city of\n%s') % respuesta
@@ -528,12 +528,12 @@ class ConozcoUy():
         try:
             f = imp.load_source(ARCHIVOEXPLORACIONES, a_path)
         except:
-            print _('Cannot open %s') % ARCHIVOEXPLORACIONES
+            print(_('Cannot open %s') % ARCHIVOEXPLORACIONES)
 
         if f:
             if hasattr(f, 'EXPLORATIONS'):
                 for e in f.EXPLORATIONS:
-                    nombreNivel= unicode(e[0], 'UTF-8')
+                    nombreNivel= str(e[0], 'UTF-8')
                     nuevoNivel = Nivel(nombreNivel)
 
                     listaDibujos = e[1]
@@ -613,31 +613,31 @@ class ConozcoUy():
                         int(100*scale+shift_y)),
                         COLOR_ACT_NAME)
         msg = _('Total score: %s') % self._score
-        self.mostrarTexto(unicode(msg, 'UTF-8'),
+        self.mostrarTexto(str(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(300*scale+shift_y)),
                         COLOR_STAT_N)
         msg = _('Game average score: %s') % self._average
-        self.mostrarTexto(unicode(msg, 'UTF-8'),
+        self.mostrarTexto(str(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(350*scale+shift_y)),
                         COLOR_STAT_N)
         msg = _('Times using Explore Mode: %s') % self._explore_times
-        self.mostrarTexto(unicode(msg, 'UTF-8'),
+        self.mostrarTexto(str(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(400*scale+shift_y)),
                         COLOR_STAT_N)
         msg = _('Places Explored: %s') % self._explore_places
-        self.mostrarTexto(unicode(msg, 'UTF-8'),
+        self.mostrarTexto(str(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(450*scale+shift_y)),
                         COLOR_STAT_N)
         msg = _('Times using Game Mode: %s') % self._game_times
-        self.mostrarTexto(unicode(msg, 'UTF-8'),
+        self.mostrarTexto(str(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(500*scale+shift_y)),
@@ -645,7 +645,7 @@ class ConozcoUy():
         t = int(time.time() - self._init_time) / 60
         t = t + self._time
         msg = _('Total time: %s minutes') % t
-        self.mostrarTexto(unicode(msg, 'UTF-8'),
+        self.mostrarTexto(str(msg, 'UTF-8'),
                         self.fuente32,
                         (int(400*scale+shift_x),
                         int(550*scale+shift_y)),
@@ -733,7 +733,7 @@ class ConozcoUy():
             self.pantalla.fill(COLOR_BUTTON_B,
                             (int(420*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
-            self.mostrarTexto(unicode(_("Stats"), "UTF-8"),
+            self.mostrarTexto(str(_("Stats"), "UTF-8"),
                             self.fuente40,
                             (int(605*scale+shift_x),int(825*scale+shift_y)),
                             COLOR_BUTTON_T)
@@ -825,7 +825,7 @@ class ConozcoUy():
                 self.pantalla.fill(COLOR_OPTION_B,
                                 (int(10*scale+shift_x),yLista-int(24*scale),
                                     int(590*scale),int(48*scale)))
-                self.mostrarTexto(unicode("<<< " + _("Previous page"), "UTF-8"),
+                self.mostrarTexto(str("<<< " + _("Previous page"), "UTF-8"),
                                 self.fuente40,
                                 (int(300*scale+shift_x),yLista),
                                 COLOR_NEXT)
@@ -870,7 +870,7 @@ class ConozcoUy():
                                         (int(610*scale+shift_x),
                                             yLista-int(24*scale),
                                             int(590*scale),int(48*scale)))
-                        self.mostrarTexto(unicode(_("Next page") + " >>>", "UTF-8"),
+                        self.mostrarTexto(str(_("Next page") + " >>>", "UTF-8"),
                                         self.fuente40,
                                         (int(900*scale+shift_x),yLista),
                                         COLOR_NEXT)
@@ -893,7 +893,7 @@ class ConozcoUy():
             self.pantalla.fill(COLOR_BUTTON_B,
                             (int(420*scale+shift_x),int(801*scale+shift_y),
                                 int(370*scale),int(48*scale)))
-            self.mostrarTexto(unicode(_("Stats"), "UTF-8"),
+            self.mostrarTexto(str(_("Stats"), "UTF-8"),
                             self.fuente40,
                             (int(605*scale+shift_x),int(825*scale+shift_y)),
                             COLOR_BUTTON_T)
@@ -1001,7 +1001,7 @@ class ConozcoUy():
 
     def __init__(self, parent=None):
         self.parent = parent
-        file_activity_info = ConfigParser.ConfigParser()
+        file_activity_info = configparser.ConfigParser()
         activity_info_path = os.path.abspath('activity/activity.info')
         file_activity_info.read(activity_info_path)
         bundle_id = file_activity_info.get('Activity', 'bundle_id')
@@ -1037,8 +1037,8 @@ class ConozcoUy():
                         if not(val == ''):
                             l[i] = int(val)
                     f.close()
-            except Exception, err:
-                print 'Cannot load stats', err
+            except Exception as err:
+                print('Cannot load stats', err)
                 return
             if self._validate_stats(l):
                 self._score = l[0]
@@ -1080,8 +1080,8 @@ class ConozcoUy():
                 for i in range(7):
                     f.write(str(l[i]) + '\n')
                 f.close()
-            except Exception, err:
-                print 'Error saving stats', err
+            except Exception as err:
+                print('Error saving stats', err)
 
 
     def loadAll(self):
